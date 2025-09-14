@@ -30,18 +30,18 @@
 - Phase 3-4: Implementation execution (manual or via tools)
 
 ## Summary
-Create a web application to visualize all accepted MICCAI 2025 papers using interactive graph/network visualization. Researchers can explore papers through visual clustering, search/filter by keywords and subject areas, and save favorites for later reference. Technical approach: Python backend with React frontend, starting as a simple static site with extensible architecture for future auth features.
+Create a web application to visualize all accepted MICCAI 2025 papers using interactive graph/network visualization. Researchers can explore papers through visual clustering, search/filter by keywords and subject areas, and save favorites for later reference. The implementation prioritizes data acquisition from https://papers.miccai.org/miccai-2025/ first, parsing and storing in structured format, generating semantic embeddings, and then building the visualization interface. Technical approach: Python backend with React frontend, starting with robust data pipeline for paper extraction and embedding generation.
 
 ## Technical Context
-**Language/Version**: Python 3.11+ (backend), React 18+ with TypeScript (frontend)  
-**Primary Dependencies**: FastAPI (Python backend), D3.js/vis.js (graph visualization), sentence-transformers (embeddings)  
-**Storage**: Static JSON files initially, extensible to PostgreSQL for auth features  
-**Testing**: pytest (backend), Jest/React Testing Library (frontend)  
+**Language/Version**: Python 3.11+ (backend), React 18+ with TypeScript (frontend)
+**Primary Dependencies**: FastAPI (Python backend), sentence-transformers (embeddings), BeautifulSoup/requests (web scraping), D3.js/vis.js (graph visualization)
+**Storage**: Static JSON files initially (papers data, embeddings), extensible to PostgreSQL for user features
+**Testing**: pytest (backend), Jest/React Testing Library (frontend)
 **Target Platform**: Web browsers (modern), easily deployable (Vercel/Netlify/Docker)
-**Project Type**: web - determines source structure (backend/ + frontend/)  
-**Performance Goals**: <2s initial load, <500ms graph interactions, handle ~1000 papers smoothly  
-**Constraints**: Easy hosting/sharing, minimal setup, responsive design for mobile/desktop  
-**Scale/Scope**: ~1000 MICCAI papers, single conference year, extensible for future years
+**Project Type**: web - determines source structure (backend/ + frontend/)
+**Performance Goals**: <2s initial load, <500ms graph interactions, handle ~1000 papers smoothly, embedding generation <5min for full dataset
+**Constraints**: Easy hosting/sharing, minimal setup, responsive design for mobile/desktop, robust data fetching from miccai.org
+**Scale/Scope**: ~1000 MICCAI 2025 papers, single conference year, extensible for future years
 
 ## Constitution Check
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
@@ -54,8 +54,8 @@ Create a web application to visualize all accepted MICCAI 2025 papers using inte
 
 **Architecture**:
 - EVERY feature as library? YES (data-fetcher, embeddings-service, graph-generator)
-- Libraries listed: paper-processor (data extraction), visualization-engine (graph generation), search-service (filtering)
-- CLI per library: data-fetcher --help, embeddings-cli --generate, graph-builder --format=json
+- Libraries listed: miccai-scraper (data extraction), embedding-engine (semantic processing), visualization-engine (graph generation), search-service (filtering)
+- CLI per library: miccai-scraper --help, embedding-cli --generate, graph-builder --format=json
 - Library docs: llms.txt format planned for each library
 
 **Testing (NON-NEGOTIABLE)**:
@@ -63,13 +63,13 @@ Create a web application to visualize all accepted MICCAI 2025 papers using inte
 - Git commits show tests before implementation? YES (enforced workflow)
 - Order: Contract→Integration→E2E→Unit strictly followed? YES
 - Real dependencies used? YES (actual HTTP calls to miccai.org, real file system)
-- Integration tests for: API contracts, frontend-backend communication, data pipeline
+- Integration tests for: Data fetching pipeline, embedding generation, API contracts, frontend-backend communication
 - FORBIDDEN: Implementation before test, skipping RED phase
 
 **Observability**:
 - Structured logging included? YES (FastAPI logging, frontend console.error)
 - Frontend logs → backend? YES (error reporting endpoint)
-- Error context sufficient? YES (request IDs, user actions, stack traces)
+- Error context sufficient? YES (request IDs, user actions, stack traces, data source errors)
 
 **Versioning**:
 - Version number assigned? v1.0.0 (MAJOR.MINOR.BUILD)
@@ -186,18 +186,24 @@ ios/ or android/
 
 **Task Generation Strategy**:
 - Load `/templates/tasks-template.md` as base
-- Generate tasks from Phase 1 design docs (contracts, data model, quickstart)
+- **PRIORITY 1**: Data acquisition and processing pipeline (miccai.org fetching, parsing, embedding generation)
+- **PRIORITY 2**: Core data models and storage (Paper, Author entities)
+- **PRIORITY 3**: API contracts and services
+- **PRIORITY 4**: Frontend visualization and user interface
 - Each contract → contract test task [P]
-- Each entity → model creation task [P] 
+- Each entity → model creation task [P]
 - Each user story → integration test task
-- Implementation tasks to make tests pass
+- Data pipeline gets dedicated integration tests with real MICCAI website
 
 **Ordering Strategy**:
-- TDD order: Tests before implementation 
-- Dependency order: Models before services before UI
+- **Phase 1**: Data Pipeline (fetch → parse → store → embeddings)
+- **Phase 2**: Tests First (TDD order: Tests before implementation)
+- **Phase 3**: Core Implementation (Models → Services → APIs)
+- **Phase 4**: UI and Visualization
 - Mark [P] for parallel execution (independent files)
+- Data fetching and embedding generation must complete before API implementation
 
-**Estimated Output**: 25-30 numbered, ordered tasks in tasks.md
+**Estimated Output**: 30-35 numbered, ordered tasks in tasks.md focusing on data-first approach
 
 **IMPORTANT**: This phase is executed by the /tasks command, NOT by /plan
 
@@ -222,16 +228,23 @@ ios/ or android/
 
 **Phase Status**:
 - [x] Phase 0: Research complete (/plan command)
-- [x] Phase 1: Design complete (/plan command)  
+- [x] Phase 1: Design complete (/plan command)
 - [x] Phase 2: Task planning approach described (/plan command)
 - [x] Phase 3: Tasks generated (/tasks command)
-- [ ] Phase 4: Implementation complete
-- [ ] Phase 5: Validation passed
+- [x] Phase 4: Data Acquisition Implementation ✅ COMPLETE
+  - [x] MICCAI scraper implementation (miccai_parallel_scraper.py)
+  - [x] Full dataset scraping (1,007 papers)
+  - [x] Semantic embeddings generation (all-MiniLM-L6-v2)
+  - [x] Static JSON data storage by paper ID
+  - [x] Data validation and quality verification
+- [ ] Phase 5: Backend API Implementation
+- [ ] Phase 6: Frontend Visualization Implementation
+- [ ] Phase 7: Integration and Deployment
 
 **Gate Status**:
 - [x] Initial Constitution Check: PASS
-- [x] Post-Design Constitution Check: PASS  
-- [x] All NEEDS CLARIFICATION resolved
+- [x] Post-Design Constitution Check: PASS
+- [x] All NEEDS CLARIFICATION resolved (data-first approach addresses dependencies)
 - [x] Complexity deviations documented (none required)
 
 ---

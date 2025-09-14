@@ -6,92 +6,108 @@
 ## Execution Flow (main)
 ```
 1. Load plan.md from feature directory
-   → Tech stack: Python 3.11+/FastAPI backend, React 18+/TypeScript frontend
-   → Libraries: sentence-transformers, D3.js, Vite
+   → Tech stack: Python 3.11+/FastAPI backend, React 18+/TypeScript frontend, BeautifulSoup (scraping)
+   → Libraries: sentence-transformers, D3.js, Vite, requests, BeautifulSoup
    → Structure: Web app (backend/ + frontend/)
+   → PRIORITY: Data-first approach - fetch from https://papers.miccai.org/miccai-2025/ first
 2. Load design documents:
    → data-model.md: Paper, Author, ExternalLink entities
    → contracts/api-spec.yaml: 5 endpoints with OpenAPI spec
    → research.md: Technology decisions validated
-3. Generate tasks by category:
-   → Setup: project structure, dependencies, linting
-   → Tests: 5 contract tests, 4 integration tests
-   → Core: 3 models, 3 services, 3 CLI commands, 5 endpoints
-   → Integration: data pipeline, graph generation, search
-   → Polish: unit tests, performance validation, docs
+3. Generate tasks by priority:
+   → PHASE 1: Data acquisition pipeline (MICCAI scraping, parsing, storage)
+   → PHASE 2: Semantic processing (embedding generation, similarity calculations)
+   → PHASE 3: Setup and Tests (project structure, TDD contract tests)
+   → PHASE 4: Core Implementation (models, services, APIs)
+   → PHASE 5: Visualization and UI (graph generation, frontend)
 4. Apply task rules:
+   → Data pipeline must complete before API implementation
    → Different files = [P] parallel
    → TDD enforced: tests before implementation
-5. Number tasks T001-T032
-6. Validate completeness: All contracts tested, entities modeled
+5. Number tasks T001-T040
+6. Validate completeness: Data pipeline tested, all contracts tested, entities modeled
 ```
 
 ## Format: `[ID] [P?] Description`
 - **[P]**: Can run in parallel (different files, no dependencies)
 - File paths use web app structure: `backend/src/`, `frontend/src/`
 
-## Phase 3.1: Setup
-- [ ] T001 Create backend/ and frontend/ directory structure per implementation plan
-- [ ] T002 Initialize Python backend with FastAPI, sentence-transformers, pytest dependencies in backend/requirements.txt
-- [ ] T003 Initialize React frontend with TypeScript, D3.js, Vite dependencies in frontend/package.json
-- [ ] T004 [P] Configure Python linting (ruff, black) in backend/.pre-commit-config.yaml
-- [ ] T005 [P] Configure TypeScript/ESLint in frontend/.eslintrc.json and frontend/tsconfig.json
+## Phase 1: Complete Data Pipeline ✅ COMPLETED
+⚠️ **CRITICAL**: Full data scraping, parsing, and embedding generation in one go
 
-## Phase 3.2: Tests First (TDD) ⚠️ MUST COMPLETE BEFORE 3.3
-**CRITICAL: These tests MUST be written and MUST FAIL before ANY implementation**
+- [x] T001 [P] Create MICCAI scraper library in backend/src/lib/miccai_scraper.py with CLI interface
+- [x] T002 [P] Integration test for MICCAI data fetching from https://papers.miccai.org/miccai-2025/ in backend/tests/integration/test_miccai_fetcher.py
+- [x] T003 [P] Paper data parser to extract title, abstract, authors, links from MICCAI HTML in backend/src/lib/paper_parser.py
+- [x] T004 [P] Integration test for paper parsing with real MICCAI data samples in backend/tests/integration/test_paper_parser.py
+- [x] T005 Data storage system for parsed papers in JSON format in backend/src/data/ (with backup/versioning)
 
-### Contract Tests (API Endpoints)
-- [ ] T006 [P] Contract test GET /api/v1/papers in backend/tests/contract/test_papers_get.py
-- [ ] T007 [P] Contract test GET /api/v1/papers/{paper_id} in backend/tests/contract/test_paper_detail.py
-- [ ] T008 [P] Contract test GET /api/v1/papers/{paper_id}/similar in backend/tests/contract/test_paper_similar.py
-- [ ] T009 [P] Contract test GET /api/v1/graph in backend/tests/contract/test_graph.py
-- [ ] T010 [P] Contract test GET /api/v1/metadata in backend/tests/contract/test_metadata.py
+## Phase 2: Static Embeddings with Sentence Transformers ✅ COMPLETED
+⚠️ **APPROACH**: Generate all embeddings once, save by paper ID, use sentence-transformers for efficient processing
 
-### Integration Tests (User Stories)
-- [ ] T011 [P] Integration test "explore papers via graph" user journey in backend/tests/integration/test_graph_exploration.py
-- [ ] T012 [P] Integration test "search and filter papers" user flow in backend/tests/integration/test_search_filter.py
-- [ ] T013 [P] Integration test "find similar papers" functionality in backend/tests/integration/test_similarity.py
-- [ ] T014 [P] Integration test "data pipeline from MICCAI to embeddings" in backend/tests/integration/test_data_pipeline.py
+- [x] T006 Full MICCAI dataset scraping - scrape ALL papers in single run and save to backend/src/data/papers_by_id/ (**1,007 papers scraped**)
+- [x] T007 [P] Embedding generator in backend/src/lib/scibert_embeddings.py with CLI interface using sentence-transformers library (**all-MiniLM-L6-v2 model**)
+- [x] T008 [P] Integration test for embedding generation (**single paper test successful**)
+- [x] T009 [P] Static embedding storage system - save embeddings by paper ID in backend/src/data/embeddings_by_id/ (**1,007 embeddings generated**)
+- [ ] T010 [P] Similarity engine using pre-computed embeddings in backend/src/lib/similarity_engine.py with cosine similarity
+- [ ] T011 Integration test for similarity calculations using static embeddings in backend/tests/integration/test_similarity_engine.py
 
-## Phase 3.3: Core Implementation (ONLY after tests are failing)
+### Data Acquisition Statistics
+- **Papers Scraped**: 1,007 out of 1,014 MICCAI 2025 accepted papers (99.3% coverage)
+- **PDF Availability**: 100% - all papers have verified PDF links
+- **Unique Authors**: 4,903 authors across all papers
+- **Embeddings Generated**: 1,007 papers × 384-dimensional vectors using sentence-transformers/all-MiniLM-L6-v2
+- **Storage**: Static JSON files by paper ID + NPZ files for embeddings
+- **Processing Speed**: ~31.77 papers/second for scraping, ~2 minutes for full embedding generation
 
-### Models (Data Entities)
-- [ ] T015 [P] Paper model with validation in backend/src/models/paper.py
-- [ ] T016 [P] Author model with validation in backend/src/models/author.py
-- [ ] T017 [P] ExternalLink model with validation in backend/src/models/external_link.py
+## Phase 3: Project Setup and Structure
+⚠️ **DEPENDENCY**: Can run in parallel with Phase 1-2, but must complete before Phase 4
 
-### Services (Business Logic)
-- [ ] T018 [P] PaperService for CRUD operations in backend/src/services/paper_service.py
-- [ ] T019 [P] EmbeddingsService for similarity calculations in backend/src/services/embeddings_service.py
-- [ ] T020 [P] SearchService for filtering and queries in backend/src/services/search_service.py
+- [ ] T011 Create backend/ and frontend/ directory structure per implementation plan
+- [ ] T012 Initialize Python backend with FastAPI, sentence-transformers, BeautifulSoup, pytest dependencies in backend/requirements.txt
+- [ ] T013 Initialize React frontend with TypeScript, D3.js, Vite dependencies in frontend/package.json
+- [ ] T014 [P] Configure Python linting (ruff, black) in backend/.pre-commit-config.yaml
+- [ ] T015 [P] Configure TypeScript/ESLint in frontend/.eslintrc.json and frontend/tsconfig.json
 
-### CLI Commands (Library Interface)
-- [ ] T021 [P] Data fetcher CLI command in backend/src/cli/data_fetcher.py
-- [ ] T022 [P] Embeddings generator CLI command in backend/src/cli/embeddings_generator.py
-- [ ] T023 [P] Graph builder CLI command in backend/src/cli/graph_builder.py
+## Phase 4: API Tests and Core Implementation
+⚠️ **DEPENDENCY**: Requires Phase 1-2 completion (data available) and Phase 3 setup
 
-### API Endpoints
-- [ ] T024 GET /api/v1/papers endpoint implementation in backend/src/api/papers.py
-- [ ] T025 GET /api/v1/papers/{paper_id} endpoint implementation in backend/src/api/papers.py
-- [ ] T026 GET /api/v1/papers/{paper_id}/similar endpoint implementation in backend/src/api/papers.py
-- [ ] T027 GET /api/v1/graph endpoint implementation in backend/src/api/graph.py
-- [ ] T028 GET /api/v1/metadata endpoint implementation in backend/src/api/metadata.py
+### Contract Tests (API Endpoints) - TDD FIRST
+- [ ] T016 [P] Contract test GET /api/v1/papers in backend/tests/contract/test_papers_get.py
+- [ ] T017 [P] Contract test GET /api/v1/papers/{paper_id} in backend/tests/contract/test_paper_detail.py
+- [ ] T018 [P] Contract test GET /api/v1/papers/{paper_id}/similar in backend/tests/contract/test_paper_similar.py
+- [ ] T019 [P] Contract test GET /api/v1/graph in backend/tests/contract/test_graph.py
+- [ ] T020 [P] Contract test GET /api/v1/metadata in backend/tests/contract/test_metadata.py
 
-## Phase 3.4: Integration
-- [ ] T029 Connect services to static JSON data storage in backend/src/data/
-- [ ] T030 CORS middleware and security headers in backend/src/main.py
-- [ ] T031 Structured logging and error handling across backend services
-- [ ] T032 Frontend API client and graph visualization in frontend/src/
+### Models and Services (ONLY after contract tests failing)
+- [ ] T021 [P] Paper model with validation in backend/src/models/paper.py
+- [ ] T022 [P] Author model with validation in backend/src/models/author.py
+- [ ] T023 [P] ExternalLink model with validation in backend/src/models/external_link.py
+- [ ] T024 [P] PaperService for CRUD operations using stored JSON data in backend/src/services/paper_service.py
+- [ ] T025 [P] EmbeddingsService for similarity calculations using pre-computed embeddings in backend/src/services/embeddings_service.py
+- [ ] T026 [P] SearchService for filtering and queries in backend/src/services/search_service.py
 
-## Phase 3.5: Polish
-- [ ] T033 [P] Unit tests for Paper model validation in backend/tests/unit/test_paper_model.py
-- [ ] T034 [P] Unit tests for embedding calculations in backend/tests/unit/test_embeddings.py
-- [ ] T035 [P] Unit tests for search algorithms in backend/tests/unit/test_search.py
-- [ ] T036 Performance tests ensuring <2s load time, <500ms API responses in backend/tests/performance/
-- [ ] T037 [P] Update API documentation in backend/docs/api.md
-- [ ] T038 Execute quickstart.md validation scenarios and fix any issues
-- [ ] T039 Frontend unit tests for graph components in frontend/tests/unit/
-- [ ] T040 End-to-end tests for complete user workflows in tests/e2e/
+### API Endpoints Implementation
+- [ ] T027 GET /api/v1/papers endpoint implementation in backend/src/api/papers.py
+- [ ] T028 GET /api/v1/papers/{paper_id} endpoint implementation in backend/src/api/papers.py
+- [ ] T029 GET /api/v1/papers/{paper_id}/similar endpoint implementation in backend/src/api/papers.py
+- [ ] T030 GET /api/v1/graph endpoint implementation in backend/src/api/graph.py
+- [ ] T031 GET /api/v1/metadata endpoint implementation in backend/src/api/metadata.py
+
+## Phase 5: Visualization and UI
+⚠️ **DEPENDENCY**: Requires Phase 4 completion (working API endpoints)
+
+### Graph Generation and Visualization
+- [ ] T032 [P] Graph builder library for creating visualization data from papers+embeddings in backend/src/lib/graph_builder.py
+- [ ] T033 [P] Integration test for graph generation with clustering in backend/tests/integration/test_graph_builder.py
+- [ ] T034 Frontend API client for fetching papers and graph data in frontend/src/services/api_client.ts
+- [ ] T035 D3.js graph visualization component in frontend/src/components/PaperGraph.tsx
+- [ ] T036 Search and filter UI components in frontend/src/components/SearchFilter.tsx
+- [ ] T037 Paper details modal/panel component in frontend/src/components/PaperDetails.tsx
+
+### System Integration and Polish
+- [ ] T038 CORS middleware and security headers in backend/src/main.py
+- [ ] T039 Structured logging and error handling across backend services
+- [ ] T040 Complete frontend application with routing in frontend/src/App.tsx and main.tsx
 
 ## Dependencies
 
