@@ -1,0 +1,423 @@
+openapi: 3.0.3
+info:
+  title: MICCAI 2025 Papers Visualization API
+  description: REST API for accessing and searching MICCAI 2025 conference papers
+  version: 1.0.0
+  contact:
+    name: API Support
+    url: https://github.com/user/miccai-2025-papers-vis
+
+servers:
+  - url: http://localhost:8000
+    description: Development server
+  - url: https://api.miccai-papers.com
+    description: Production server
+
+paths:
+  /api/v1/papers:
+    get:
+      summary: Get all papers with optional filtering
+      description: Retrieve all conference papers with optional search and filtering
+      parameters:
+        - name: search
+          in: query
+          description: Search query for title, abstract, or author names
+          required: false
+          schema:
+            type: string
+            example: "deep learning segmentation"
+        - name: subject_areas
+          in: query
+          description: Filter by subject areas (comma-separated)
+          required: false
+          schema:
+            type: string
+            example: "Computer Vision,Machine Learning"
+        - name: authors
+          in: query
+          description: Filter by author names (comma-separated)
+          required: false
+          schema:
+            type: string
+            example: "Smith,Johnson"
+        - name: limit
+          in: query
+          description: Maximum number of papers to return
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 1000
+            default: 100
+        - name: offset
+          in: query
+          description: Number of papers to skip for pagination
+          required: false
+          schema:
+            type: integer
+            minimum: 0
+            default: 0
+      responses:
+        '200':
+          description: Successful response with papers list
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  papers:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Paper'
+                  total:
+                    type: integer
+                    description: Total number of papers matching filters
+                    example: 856
+                  page_info:
+                    $ref: '#/components/schemas/PageInfo'
+        '400':
+          description: Bad request - invalid parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/papers/{paper_id}:
+    get:
+      summary: Get specific paper by ID
+      description: Retrieve detailed information for a specific paper
+      parameters:
+        - name: paper_id
+          in: path
+          required: true
+          description: Unique identifier for the paper
+          schema:
+            type: string
+            example: "paper-001"
+      responses:
+        '200':
+          description: Successful response with paper details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Paper'
+        '404':
+          description: Paper not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/v1/papers/{paper_id}/similar:
+    get:
+      summary: Get similar papers based on content
+      description: Find papers similar to the given paper using semantic similarity
+      parameters:
+        - name: paper_id
+          in: path
+          required: true
+          description: Reference paper ID
+          schema:
+            type: string
+        - name: limit
+          in: query
+          description: Maximum number of similar papers to return
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 50
+            default: 10
+        - name: min_similarity
+          in: query
+          description: Minimum similarity threshold (0-1)
+          required: false
+          schema:
+            type: number
+            format: float
+            minimum: 0.0
+            maximum: 1.0
+            default: 0.3
+      responses:
+        '200':
+          description: List of similar papers with similarity scores
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  similar_papers:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        paper:
+                          $ref: '#/components/schemas/Paper'
+                        similarity_score:
+                          type: number
+                          format: float
+                          minimum: 0.0
+                          maximum: 1.0
+                          example: 0.85
+
+  /api/v1/graph:
+    get:
+      summary: Get graph data for visualization
+      description: Returns papers and their relationships for graph visualization
+      parameters:
+        - name: cluster_algorithm
+          in: query
+          description: Clustering algorithm to use
+          required: false
+          schema:
+            type: string
+            enum: ["kmeans", "hierarchical", "community"]
+            default: "community"
+        - name: max_nodes
+          in: query
+          description: Maximum number of nodes to include
+          required: false
+          schema:
+            type: integer
+            minimum: 10
+            maximum: 1000
+            default: 500
+      responses:
+        '200':
+          description: Graph data with nodes and edges
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nodes:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/GraphNode'
+                  edges:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/GraphEdge'
+                  clusters:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Cluster'
+
+  /api/v1/metadata:
+    get:
+      summary: Get dataset metadata
+      description: Returns information about the paper dataset
+      responses:
+        '200':
+          description: Dataset metadata
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Metadata'
+
+components:
+  schemas:
+    Paper:
+      type: object
+      required:
+        - id
+        - title
+        - abstract
+        - authors
+        - subject_areas
+        - publication_date
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the paper
+          example: "paper-001"
+        title:
+          type: string
+          maxLength: 500
+          description: Paper title
+          example: "Deep Learning for Medical Image Segmentation"
+        abstract:
+          type: string
+          maxLength: 5000
+          description: Paper abstract
+          example: "This paper presents a novel approach..."
+        authors:
+          type: array
+          minItems: 1
+          items:
+            $ref: '#/components/schemas/Author'
+        subject_areas:
+          type: array
+          minItems: 1
+          items:
+            type: string
+          example: ["Computer Vision", "Machine Learning"]
+        external_links:
+          type: array
+          items:
+            $ref: '#/components/schemas/ExternalLink'
+        publication_date:
+          type: string
+          format: date
+          example: "2025-01-15"
+
+    Author:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          maxLength: 200
+          example: "Dr. Jane Smith"
+        affiliation:
+          type: string
+          maxLength: 300
+          example: "University of Example"
+        email:
+          type: string
+          format: email
+          example: "jane@example.edu"
+
+    ExternalLink:
+      type: object
+      required:
+        - type
+        - url
+      properties:
+        type:
+          type: string
+          enum: ["github", "dataset", "website", "pdf"]
+        url:
+          type: string
+          format: uri
+          example: "https://github.com/author/project"
+        description:
+          type: string
+          maxLength: 200
+          example: "Source code and models"
+
+    GraphNode:
+      type: object
+      required:
+        - id
+        - label
+        - x
+        - y
+      properties:
+        id:
+          type: string
+          example: "paper-001"
+        label:
+          type: string
+          example: "Deep Learning for Medical..."
+        x:
+          type: number
+          format: float
+        y:
+          type: number
+          format: float
+        size:
+          type: number
+          format: float
+          minimum: 1
+          default: 5
+        color:
+          type: string
+          example: "#ff6b6b"
+        cluster_id:
+          type: string
+          example: "cluster-cv"
+
+    GraphEdge:
+      type: object
+      required:
+        - from
+        - to
+        - weight
+      properties:
+        from:
+          type: string
+          example: "paper-001"
+        to:
+          type: string
+          example: "paper-002"
+        weight:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          example: 0.75
+
+    Cluster:
+      type: object
+      properties:
+        id:
+          type: string
+          example: "cluster-cv"
+        name:
+          type: string
+          example: "Computer Vision"
+        color:
+          type: string
+          example: "#ff6b6b"
+        node_count:
+          type: integer
+          example: 142
+
+    PageInfo:
+      type: object
+      properties:
+        limit:
+          type: integer
+          example: 100
+        offset:
+          type: integer
+          example: 0
+        has_next:
+          type: boolean
+          example: true
+        has_previous:
+          type: boolean
+          example: false
+
+    Metadata:
+      type: object
+      properties:
+        total_papers:
+          type: integer
+          example: 856
+        subject_areas:
+          type: array
+          items:
+            type: string
+          example: ["Computer Vision", "Machine Learning", "Medical Imaging"]
+        last_updated:
+          type: string
+          format: date-time
+          example: "2025-09-14T10:00:00Z"
+        data_source:
+          type: string
+          example: "https://papers.miccai.org/miccai-2025/"
+
+    Error:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          example: "VALIDATION_ERROR"
+        message:
+          type: string
+          example: "Invalid search parameters provided"
+        details:
+          type: object
+          additionalProperties: true
