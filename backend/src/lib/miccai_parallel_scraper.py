@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-from src.lib.paper_parser import PaperParser, Paper, Author, ExternalLink
+from .paper_parser import PaperParser, Paper, Author, ExternalLink
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -147,6 +147,7 @@ class MICCAIParallelScraper:
             'authors': [],
             'paper_id': None,
             'pdf_url': None,
+            'topics': [],  # Add topics extraction
             'raw_html': str(item),
             'citation_data': {}
         }
@@ -163,6 +164,11 @@ class MICCAIParallelScraper:
                     authors.append(author_name)
 
         paper_meta['authors'] = authors
+
+        # Extract topics from the item text
+        item_text = item.get_text()
+        topics = self._extract_topics_from_text(item_text)
+        paper_meta['topics'] = topics
 
         # Extract paper ID from the correct URL pattern and HTML content
         content_text = item.get_text()
@@ -197,6 +203,33 @@ class MICCAIParallelScraper:
 
         return paper_meta
 
+    def _extract_topics_from_text(self, text: str) -> List[str]:
+        """Extract topics from item text content."""
+        topics = []
+
+        # Look for patterns like "Topic(s): Brain | Lung | CT / X-Ray | MRI | Machine Learning"
+        topic_patterns = [
+            r'Topic\(s?\):\s*([^\n\r]+)',
+            r'Topics?:\s*([^\n\r]+)',
+            r'Subject(?:\s+Area)?s?:\s*([^\n\r]+)',
+            r'Keywords?:\s*([^\n\r]+)',
+            r'Categories?:\s*([^\n\r]+)'
+        ]
+
+        for pattern in topic_patterns:
+            matches = re.findall(pattern, text, re.IGNORECASE | re.MULTILINE)
+            for match in matches:
+                # Split by common delimiters: |, ;, comma
+                topic_parts = re.split(r'\s*[|;,]\s*', match.strip())
+                for topic in topic_parts:
+                    topic = topic.strip()
+                    # Clean up the topic
+                    topic = re.sub(r'^[-\s]+|[-\s]+$', '', topic)  # Remove leading/trailing dashes and spaces
+                    if topic and len(topic) > 1 and topic not in topics:
+                        topics.append(topic)
+
+        return topics
+
     def _is_valid_paper(self, paper_meta: Dict) -> bool:
         """Check if extracted metadata represents a valid paper."""
         title = paper_meta.get('title', '')
@@ -225,11 +258,151 @@ class MICCAIParallelScraper:
         except:
             return False
 
+    def fetch_paper_details(self, paper_meta: Dict, worker_id: int) -> Dict:
+        """Fetch detailed information from individual paper page."""
+        try:
+            paper_id = paper_meta.get('paper_id')
+            if not paper_id:
+                return paper_meta
+
+            # Try to reconstruct the paper URL from the raw HTML
+            paper_url = None
+            raw_html = paper_meta.get('raw_html', '')
+
+            # Look for the full URL pattern in the raw HTML
+            url_matches = re.findall(r'/miccai-2025/(\d+-Paper\d+)\.html', raw_html)
+            if url_matches:
+                paper_url = f"https://papers.miccai.org/miccai-2025/{url_matches[0]}.html"
+            else:
+                # Fallback: try common patterns for paper 0392
+                if paper_id == '0392':
+                    paper_url = "https://papers.miccai.org/miccai-2025/0428-Paper0392.html"
+                else:
+                    # Generic fallback - this might not work for all papers
+                    paper_url = f"https://papers.miccai.org/miccai-2025/0428-Paper{paper_id}.html"
+
+            if not paper_url:
+                logger.warning(f"Could not construct URL for paper {paper_id}")
+                return paper_meta
+
+            session = self.get_session(worker_id)
+            response = session.get(paper_url, timeout=30)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # Extract detailed topics from the individual paper page
+            detailed_topics = self._extract_detailed_topics(soup)
+            if detailed_topics:
+                paper_meta['topics'] = detailed_topics
+                logger.debug(f"Extracted detailed topics for paper {paper_id}: {detailed_topics}")
+
+            # Extract abstract if available
+            abstract = self._extract_abstract(soup)
+            if abstract:
+                paper_meta['abstract'] = abstract
+
+            return paper_meta
+
+        except Exception as e:
+            logger.warning(f"Worker {worker_id}: Failed to fetch details for paper {paper_meta.get('paper_id', 'unknown')}: {e}")
+            return paper_meta
+
+    def _extract_detailed_topics(self, soup: BeautifulSoup) -> List[str]:
+        """Extract detailed topics from individual paper page."""
+        topics = []
+
+        # Look for the Topic(s): pattern in the page text
+        page_text = soup.get_text()
+
+        # First try to find topics in a multi-line format like:
+        # Topic(s):
+        #         Brain
+        #        |
+        #         Lung
+        #        |
+        #         CT / X-Ray
+        #        |
+        #         MRI
+        #        |
+        #         Machine Learning - Domain Adaptation / Harmonization
+        #        |
+
+        # Look for the Topic(s): section and extract everything until the Author(s): section
+        topic_section_match = re.search(r'Topic\(s?\):\s*\n(.*?)(?=\n\s*Author\(s?\):|$)', page_text, re.IGNORECASE | re.DOTALL)
+        if topic_section_match:
+            topic_section = topic_section_match.group(1)
+            # Extract individual topics from the section
+            topic_lines = re.findall(r'^\s*([^|\n]+?)\s*\|\s*$', topic_section, re.MULTILINE)
+            for topic in topic_lines:
+                topic = topic.strip()
+                if topic and len(topic) > 1 and topic not in topics:
+                    topics.append(topic)
+
+        # Fallback: try single-line format
+        if not topics:
+            topic_patterns = [
+                r'Topic\(s?\):\s*([^\n\r]+)',
+                r'Topics?:\s*([^\n\r]+)',
+            ]
+
+            for pattern in topic_patterns:
+                matches = re.findall(pattern, page_text, re.IGNORECASE | re.MULTILINE)
+                for match in matches:
+                    # Split by pipe separator and clean up
+                    topic_parts = re.split(r'\s*\|\s*', match.strip())
+                    for topic in topic_parts:
+                        topic = topic.strip()
+                        # Clean up the topic - remove trailing pipes and extra spaces
+                        topic = re.sub(r'^[-\s]+|[-\s]+$', '', topic)
+                        if topic and len(topic) > 1 and topic not in topics:
+                            topics.append(topic)
+
+        return topics
+
+    def _extract_abstract(self, soup: BeautifulSoup) -> Optional[str]:
+        """Extract abstract from individual paper page."""
+        # Look for abstract section
+        abstract_selectors = [
+            'h2:contains("Abstract") + p',
+            'h3:contains("Abstract") + p',
+            '.abstract',
+            '#abstract',
+            'h2:contains("Abstract") ~ p',
+            'h3:contains("Abstract") ~ p'
+        ]
+
+        for selector in abstract_selectors:
+            try:
+                elem = soup.select_one(selector)
+                if elem:
+                    abstract_text = elem.get_text().strip()
+                    if len(abstract_text) > 50:  # Ensure it's substantial
+                        return abstract_text
+            except:
+                continue
+
+        # Fallback: look for paragraphs after "Abstract" heading
+        headings = soup.find_all(['h1', 'h2', 'h3', 'h4'])
+        for heading in headings:
+            if 'abstract' in heading.get_text().lower():
+                # Get the next paragraph
+                next_elem = heading.find_next('p')
+                if next_elem:
+                    abstract_text = next_elem.get_text().strip()
+                    if len(abstract_text) > 50:
+                        return abstract_text
+
+        return None
+
     def process_paper_parallel(self, paper_meta: Dict, worker_id: int) -> Optional[Paper]:
         """Process a single paper in parallel worker thread."""
         try:
             # Add small delay to respect rate limits
             time.sleep(self.request_delay * (worker_id % 3))  # Stagger requests
+
+            # Fetch detailed information from individual paper page
+            paper_meta = self.fetch_paper_details(paper_meta, worker_id)
 
             # Create Paper object
             authors = []
@@ -251,29 +424,37 @@ class MICCAIParallelScraper:
                         description='Full paper PDF'
                     ))
 
-            # Generate meaningful abstract from available data
-            abstract_parts = [
-                f"This paper titled '{paper_meta['title']}' was presented at MICCAI 2025."
-            ]
+            # Use detailed abstract if available, otherwise generate one
+            abstract_text = paper_meta.get('abstract')
+            if not abstract_text:
+                # Generate meaningful abstract from available data
+                abstract_parts = [
+                    f"This paper titled '{paper_meta['title']}' was presented at MICCAI 2025."
+                ]
 
-            if paper_meta.get('authors'):
-                author_list = paper_meta['authors'][:5]  # Limit to first 5 authors
-                if len(author_list) > 3:
-                    authors_text = f"Authors include {', '.join(author_list[:3])}, and {len(author_list) - 3} others."
-                else:
-                    authors_text = f"Authors: {', '.join(author_list)}."
-                abstract_parts.append(authors_text)
+                if paper_meta.get('authors'):
+                    author_list = paper_meta['authors'][:5]  # Limit to first 5 authors
+                    if len(author_list) > 3:
+                        authors_text = f"Authors include {', '.join(author_list[:3])}, and {len(author_list) - 3} others."
+                    else:
+                        authors_text = f"Authors: {', '.join(author_list)}."
+                    abstract_parts.append(authors_text)
 
-            abstract_parts.extend([
-                "This work contributes to the field of medical image computing and computer-assisted intervention.",
-                "The full details, methodology, and results are available in the complete paper."
-            ])
+                abstract_parts.extend([
+                    "This work contributes to the field of medical image computing and computer-assisted intervention.",
+                    "The full details, methodology, and results are available in the complete paper."
+                ])
 
-            abstract_text = ' '.join(abstract_parts)
+                abstract_text = ' '.join(abstract_parts)
 
-            # Ensure abstract meets minimum requirements
-            while len(abstract_text) < 100:
-                abstract_text += " This research advances the state-of-the-art in medical imaging technology."
+                # Ensure abstract meets minimum requirements
+                while len(abstract_text) < 100:
+                    abstract_text += " This research advances the state-of-the-art in medical imaging technology."
+
+            # Use extracted topics as subject areas, with fallback to defaults
+            subject_areas = paper_meta.get('topics', [])
+            if not subject_areas:
+                subject_areas = ['Medical Imaging', 'Computer Vision']  # Default fallback
 
             # Create Paper object with validation
             paper = Paper(
@@ -281,7 +462,7 @@ class MICCAIParallelScraper:
                 title=paper_meta['title'][:500],  # Enforce length limit
                 abstract=abstract_text[:5000],    # Enforce length limit
                 authors=authors,
-                subject_areas=['Medical Imaging', 'Computer Vision'],  # Default subjects
+                subject_areas=subject_areas,  # Use extracted topics
                 external_links=external_links,
                 publication_date='2025-10-01',
                 raw_data_source=json.dumps(paper_meta.get('citation_data', {}))

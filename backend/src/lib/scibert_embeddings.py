@@ -40,23 +40,21 @@ class SciBERTEmbeddingGenerator:
         self.model_name = model_name
         self.max_length = max_length
         self.batch_size = batch_size
-
-        logger.info(f"Loading SciBERT model: {model_name}")
-        self.tokenizer = None
-        self.model = None
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    def load_model(self):
-        """Load the SciBERT model and tokenizer."""
-        if self.model is None:
-            logger.info("Loading SciBERT tokenizer and model...")
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
-            self.model = AutoModel.from_pretrained(self.model_name)
-            self.model.to(self.device)
-            self.model.eval()
+        logger.info(f"Loading SciBERT model: {model_name}")
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModel.from_pretrained(model_name)
+        self.model.to(self.device)
+        self.model.eval()
 
-            logger.info(f"Model loaded on device: {self.device}")
-            logger.info(f"Model parameters: {sum(p.numel() for p in self.model.parameters()):,}")
+        logger.info(f"Model loaded on device: {self.device}")
+        logger.info(f"Model parameters: {sum(p.numel() for p in self.model.parameters()):,}")
+
+    def load_model(self):
+        """Load the SciBERT model and tokenizer (already loaded in __init__)."""
+        # Model is already loaded in __init__, this method is kept for compatibility
+        pass
 
     def create_text_for_embedding(self, paper: Dict) -> str:
         """
@@ -81,8 +79,6 @@ class SciBERTEmbeddingGenerator:
 
     def generate_embedding(self, text: str) -> np.ndarray:
         """Generate embedding for a single text."""
-        self.load_model()
-
         # Tokenize
         inputs = self.tokenizer(
             text,
@@ -102,8 +98,6 @@ class SciBERTEmbeddingGenerator:
 
     def generate_embeddings_batch(self, texts: List[str]) -> List[np.ndarray]:
         """Generate embeddings for multiple texts in batches."""
-        self.load_model()
-
         embeddings = []
 
         for i in range(0, len(texts), self.batch_size):
