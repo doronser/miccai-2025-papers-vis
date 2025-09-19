@@ -2,15 +2,18 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
   server: {
-    port: 3000,
+    port: 5173,
+    host: '0.0.0.0', // Allow external connections for Docker
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: process.env.DOCKER === 'true'
+          ? 'http://backend:8000'  // Docker service name
+          : 'http://localhost:8000', // Local development
         changeOrigin: true,
       },
     },
   },
-})
+}))

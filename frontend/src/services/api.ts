@@ -8,7 +8,19 @@ import {
   GraphParams
 } from '../types/api';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+// Determine API base URL based on environment
+// In Docker: use relative URLs (Vite proxy handles routing)
+// In production: use environment variable
+// In local dev: use localhost
+const isDocker = import.meta.env.DOCKER === 'true';
+const API_BASE_URL = isDocker ? '/api' : (import.meta.env.VITE_API_BASE_URL || '/api');
+
+console.log('Environment variables:', {
+  DOCKER: import.meta.env.DOCKER,
+  VITE_API_BASE_URL: import.meta.env.VITE_API_BASE_URL,
+  isDocker: isDocker,
+  API_BASE_URL: API_BASE_URL
+});
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,

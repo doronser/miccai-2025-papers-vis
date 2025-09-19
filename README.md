@@ -193,11 +193,12 @@ The application uses pre-processed data from the MICCAI 2025 website:
 
 For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
 
-### Quick Deploy
+### Quick Deploy to Hostinger VPS
 
-1. **Backend**: Deploy to Railway/Render/Heroku
-2. **Frontend**: Deploy to Vercel
-3. **Configure**: Set environment variables for CORS and API URLs
+1. **Setup VPS**: Install Node.js, Python, Nginx on your Hostinger VPS
+2. **Deploy Backend**: Clone repo, setup Python environment, configure Gunicorn service
+3. **Deploy Frontend**: Build React app, configure Nginx to serve static files
+4. **Configure**: Set up SSL certificate and environment variables
 
 ### Production Build
 
