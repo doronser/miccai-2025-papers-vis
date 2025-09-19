@@ -1,3 +1,5 @@
 backend/.venv
 **/__pycache__
 **/data/
+frontend/node_modules/
+.playwright-mcp/

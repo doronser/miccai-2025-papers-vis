@@ -272,13 +272,58 @@ class PaperParser:
 
             # Extract abstract
             abstract = None
-            abstract_selectors = ['.abstract', '#abstract', '.summary', '.paper-abstract']
-            for selector in abstract_selectors:
-                elem = soup.select_one(selector)
-                if elem:
-                    abstract = elem.get_text().strip()
-                    if len(abstract) > 50:  # Ensure it's substantial
-                        break
+
+            # First, try to find abstract by looking for headings
+            headings = soup.find_all(['h1', 'h2', 'h3', 'h4'])
+            for heading in headings:
+                if 'abstract' in heading.get_text().lower():
+                    # Get all subsequent paragraphs until next heading
+                    abstract_parts = []
+                    current = heading.find_next('p')
+                    while current:
+                        # Stop if we hit another heading at the same level or higher
+                        if getattr(current, 'name', None) in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+                            break
+                        if getattr(current, 'name', None) == 'p':
+                            text = current.get_text().strip()
+                            if text and len(text) > 10:
+                                abstract_parts.append(text)
+                        current = current.find_next_sibling()
+
+                    if abstract_parts:
+                        abstract = '\n'.join(abstract_parts)
+                        if len(abstract) > 50:
+                            break
+
+            # Fallback: look for abstract containers
+            if not abstract:
+                abstract_selectors = ['.abstract', '#abstract', '.summary', '.paper-abstract']
+                for selector in abstract_selectors:
+                    try:
+                        # Try to get all paragraph elements within the container
+                        container = soup.select_one(selector)
+                        if container:
+                            # Look for paragraphs within the container
+                            paragraphs = container.find_all('p')
+                            if paragraphs:
+                                abstract_parts = []
+                                for p in paragraphs:
+                                    text = p.get_text().strip()
+                                    if text and len(text) > 10:
+                                        abstract_parts.append(text)
+
+                                if abstract_parts:
+                                    abstract = '\n'.join(abstract_parts)
+                                    if len(abstract) > 50:
+                                        break
+
+                            # If no paragraphs found, get the container text directly
+                            if not abstract:
+                                abstract = container.get_text().strip()
+                                if len(abstract) > 50:
+                                    break
+                    except:
+                        continue
 
             if not abstract:
                 # Fallback: look for longer paragraphs

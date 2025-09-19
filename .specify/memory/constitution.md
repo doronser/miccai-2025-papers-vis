@@ -4,9 +4,9 @@
 ## Core Principles
 
 ### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
+I. Update .specify Docs on Every Major Change
 [PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+Whenever you complete a step in you checklist or a full on task, make sure to update spec/plan/tasks markdown files under specs folder.
 
 ### [PRINCIPLE_2_NAME]
 <!-- Example: II. CLI Interface -->

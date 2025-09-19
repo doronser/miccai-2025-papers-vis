@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import KMeans
+from sklearn.manifold import TSNE
 from typing import Dict, List, Tuple, Optional
 from ..models.paper import Paper, PaperSimilarity, GraphNode, GraphEdge, GraphData
 from .data_loader import DataLoader
@@ -49,10 +50,19 @@ class SimilarityService:
 
         return result
 
-    def generate_graph_data(self, similarity_threshold: float = 0.7, max_edges: int = 1000, sample_size: Optional[int] = None) -> GraphData:
+    def generate_graph_data(self, similarity_threshold: float = 0.7, max_edges: int = 1000, sample_size: Optional[int] = None, subject_areas: Optional[List[str]] = None) -> GraphData:
         """Generate graph data with papers as nodes and similarities as edges"""
         all_embeddings = self._get_embeddings()
         paper_ids = list(all_embeddings.keys())
+
+        # Filter papers by subject areas if specified
+        if subject_areas:
+            filtered_paper_ids = []
+            for paper_id in paper_ids:
+                paper = self.data_loader.get_paper_by_id(paper_id)
+                if paper and any(area in paper.subject_areas for area in subject_areas):
+                    filtered_paper_ids.append(paper_id)
+            paper_ids = filtered_paper_ids
 
         # Sample papers if requested for better performance
         if sample_size and sample_size < len(paper_ids):
@@ -143,3 +153,135 @@ class SimilarityService:
             clusters[cluster_id].append(paper_id)
 
         return clusters
+
+    def generate_similarity_clusters_data(self, subject_areas: Optional[List[str]] = None, sample_size: Optional[int] = None) -> GraphData:
+        """Generate similarity-based clustering visualization data for all papers"""
+        all_embeddings = self._get_embeddings()
+        paper_ids = list(all_embeddings.keys())
+
+        # Filter papers by subject areas if specified
+        if subject_areas:
+            filtered_paper_ids = []
+            for paper_id in paper_ids:
+                paper = self.data_loader.get_paper_by_id(paper_id)
+                if paper and any(area in paper.subject_areas for area in subject_areas):
+                    filtered_paper_ids.append(paper_id)
+            paper_ids = filtered_paper_ids
+
+        # Sample papers if requested for better performance
+        if sample_size and sample_size < len(paper_ids):
+            import random
+            paper_ids = random.sample(paper_ids, sample_size)
+
+        # Create nodes
+        nodes = []
+        for paper_id in paper_ids:
+            paper = self.data_loader.get_paper_by_id(paper_id)
+            if paper:
+                node = GraphNode(
+                    id=paper_id,
+                    title=paper.title,
+                    authors=[author.name for author in paper.authors],
+                    subject_areas=paper.subject_areas
+                )
+                nodes.append(node)
+
+        # Calculate similarity-based coordinates using MDS
+        selected_embeddings = {pid: all_embeddings[pid] for pid in paper_ids if pid in all_embeddings}
+        embeddings_matrix = np.array([selected_embeddings[pid] for pid in paper_ids])
+
+        # Use MDS (Multidimensional Scaling) to position nodes based on similarity distances
+        from sklearn.manifold import MDS
+        from sklearn.metrics.pairwise import cosine_distances
+
+        # Convert similarities to distances
+        distance_matrix = cosine_distances(embeddings_matrix)
+
+        # Apply MDS to get 2D coordinates based on similarity distances
+        mds = MDS(
+            n_components=2,
+            random_state=42,
+            dissimilarity='precomputed',
+            max_iter=500,
+            eps=1e-6  # Better convergence
+        )
+        coords = mds.fit_transform(distance_matrix)
+
+        # Add coordinates to nodes with better scaling
+        if coords is not None:
+            # Scale coordinates to spread them out more
+            coords_scaled = coords * 2.0  # Increase spread by 2x
+            for i, node in enumerate(nodes):
+                node.x = float(coords_scaled[i][0])
+                node.y = float(coords_scaled[i][1])
+        else:
+            # Fallback: use random coordinates if MDS fails
+            import random
+            for i, node in enumerate(nodes):
+                node.x = float(random.uniform(-200, 200))  # Larger spread
+                node.y = float(random.uniform(-200, 200))
+
+        # Perform similarity-based clustering using Agglomerative Clustering
+        from sklearn.cluster import AgglomerativeClustering
+
+        n_clusters = min(10, len(paper_ids) // 20)
+        if n_clusters > 1:
+            # Use cosine distance for clustering
+            clustering = AgglomerativeClustering(
+                n_clusters=n_clusters,
+                metric='cosine',
+                linkage='average'
+            )
+            cluster_labels = clustering.fit_predict(embeddings_matrix)
+
+            # Add cluster information to nodes
+            for i, node in enumerate(nodes):
+                node.cluster = int(cluster_labels[i])
+
+        return GraphData(nodes=nodes, edges=[], clusters={})
+
+    def generate_network_data(self, paper_id: str, limit: int = 20) -> GraphData:
+        """Generate network data for a specific paper showing top similar papers"""
+        # Get the target paper
+        target_paper = self.data_loader.get_paper_by_id(paper_id)
+        if not target_paper:
+            return GraphData(nodes=[], edges=[], clusters={})
+
+        # Find similar papers
+        similar_papers = self.find_similar_papers(paper_id, limit)
+
+        # Create nodes
+        nodes = []
+
+        # Add target paper as central node
+        central_node = GraphNode(
+            id=paper_id,
+            title=target_paper.title,
+            authors=[author.name for author in target_paper.authors],
+            subject_areas=target_paper.subject_areas,
+            cluster=0  # Central node gets cluster 0
+        )
+        nodes.append(central_node)
+
+        # Add similar papers as nodes
+        for i, similar in enumerate(similar_papers):
+            node = GraphNode(
+                id=similar.paper_id,
+                title=similar.paper.title,
+                authors=[author.name for author in similar.paper.authors],
+                subject_areas=similar.paper.subject_areas,
+                cluster=1  # Similar papers get cluster 1
+            )
+            nodes.append(node)
+
+        # Create edges from central node to similar papers
+        edges = []
+        for similar in similar_papers:
+            edge = GraphEdge(
+                source=paper_id,
+                target=similar.paper_id,
+                similarity=similar.similarity_score
+            )
+            edges.append(edge)
+
+        return GraphData(nodes=nodes, edges=edges, clusters={})

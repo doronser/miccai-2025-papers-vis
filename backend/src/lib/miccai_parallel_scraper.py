@@ -362,36 +362,56 @@ class MICCAIParallelScraper:
 
     def _extract_abstract(self, soup: BeautifulSoup) -> Optional[str]:
         """Extract abstract from individual paper page."""
-        # Look for abstract section
-        abstract_selectors = [
-            'h2:contains("Abstract") + p',
-            'h3:contains("Abstract") + p',
-            '.abstract',
-            '#abstract',
-            'h2:contains("Abstract") ~ p',
-            'h3:contains("Abstract") ~ p'
-        ]
 
-        for selector in abstract_selectors:
-            try:
-                elem = soup.select_one(selector)
-                if elem:
-                    abstract_text = elem.get_text().strip()
-                    if len(abstract_text) > 50:  # Ensure it's substantial
-                        return abstract_text
-            except:
-                continue
-
-        # Fallback: look for paragraphs after "Abstract" heading
+        # First, try to find abstract by looking for headings
         headings = soup.find_all(['h1', 'h2', 'h3', 'h4'])
         for heading in headings:
             if 'abstract' in heading.get_text().lower():
-                # Get the next paragraph
-                next_elem = heading.find_next('p')
-                if next_elem:
-                    abstract_text = next_elem.get_text().strip()
+                # Get all subsequent paragraphs until next heading
+                abstract_parts = []
+                current = heading.find_next('p')
+                while current:
+                    # Stop if we hit another heading at the same level or higher
+                    if getattr(current, 'name', None) in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+                        break
+                    if getattr(current, 'name', None) == 'p':
+                        text = current.get_text().strip()
+                        if text and len(text) > 10:
+                            abstract_parts.append(text)
+                    current = current.find_next_sibling()
+
+                if abstract_parts:
+                    abstract_text = '\n'.join(abstract_parts)
                     if len(abstract_text) > 50:
                         return abstract_text
+
+        # Fallback: look for abstract containers
+        abstract_selectors = ['.abstract', '#abstract', '.summary', '.paper-abstract']
+        for selector in abstract_selectors:
+            try:
+                # Try to get all paragraph elements within the container
+                container = soup.select_one(selector)
+                if container:
+                    # Look for paragraphs within the container
+                    paragraphs = container.find_all('p')
+                    if paragraphs:
+                        abstract_parts = []
+                        for p in paragraphs:
+                            text = p.get_text().strip()
+                            if text and len(text) > 10:
+                                abstract_parts.append(text)
+
+                        if abstract_parts:
+                            abstract_text = '\n'.join(abstract_parts)
+                            if len(abstract_text) > 50:
+                                return abstract_text
+
+                    # If no paragraphs found, get the container text directly
+                    abstract_text = container.get_text().strip()
+                    if len(abstract_text) > 50:
+                        return abstract_text
+            except:
+                continue
 
         return None
 

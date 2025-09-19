@@ -63,7 +63,8 @@ async def get_similar_papers(
 async def get_graph_data(
     similarity_threshold: float = Query(0.7, ge=0.0, le=1.0),
     max_edges: int = Query(1000, ge=100, le=5000),
-    sample_size: Optional[int] = Query(None, ge=50, le=500)
+    sample_size: Optional[int] = Query(None, ge=50, le=500),
+    subject_areas: Optional[List[str]] = Query(None)
 ):
     """Get graph data for visualization with papers as nodes and similarities as edges"""
     try:
@@ -75,7 +76,8 @@ async def get_graph_data(
         graph_data = similarity_service.generate_graph_data(
             similarity_threshold=similarity_threshold,
             max_edges=max_edges,
-            sample_size=sample_size
+            sample_size=sample_size,
+            subject_areas=subject_areas
         )
         return graph_data
     except Exception as e:
@@ -137,3 +139,32 @@ async def get_paper_clusters(n_clusters: int = Query(10, ge=2, le=20)):
         return detailed_clusters
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error getting clusters: {str(e)}")
+
+
+@router.get("/clusters/data")
+async def get_clusters_data(
+    subject_areas: Optional[List[str]] = Query(None),
+    sample_size: Optional[int] = Query(None, ge=50, le=1000)
+):
+    """Get similarity-based clustering visualization data for all papers"""
+    try:
+        clusters_data = similarity_service.generate_similarity_clusters_data(
+            subject_areas=subject_areas,
+            sample_size=sample_size
+        )
+        return clusters_data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generating clusters data: {str(e)}")
+
+
+@router.get("/network/data")
+async def get_network_data(
+    paper_id: str,
+    limit: int = Query(20, ge=5, le=50)
+):
+    """Get network data for a specific paper showing top similar papers"""
+    try:
+        network_data = similarity_service.generate_network_data(paper_id, limit)
+        return network_data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generating network data: {str(e)}")
