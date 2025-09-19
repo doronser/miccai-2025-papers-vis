@@ -19,9 +19,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the application code
 COPY backend/ .
 
-# Create non-root user
+# Create non-root user and set up permissions
 RUN useradd --create-home --shell /bin/bash app \
-    && chown -R app:app /app
+    && chown -R app:app /app \
+    && mkdir -p /app/src/data/cache \
+    && chown -R app:app /app/src/data/cache
 USER app
 
 # Expose port

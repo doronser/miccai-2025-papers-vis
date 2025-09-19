@@ -9,6 +9,7 @@ services:
       - CORS_ORIGINS=http://localhost:5173,http://localhost:3000
     volumes:
       - ./backend:/app
+      - miccai_cache:/app/src/data/cache
     restart: unless-stopped
 
   frontend:
@@ -25,3 +26,6 @@ services:
     depends_on:
       - backend
     restart: unless-stopped
+
+volumes:
+  miccai_cache:

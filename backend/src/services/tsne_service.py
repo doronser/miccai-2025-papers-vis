@@ -18,7 +18,16 @@ class TSNEService:
         self.data_loader = data_loader
         self.similarity_service = SimilarityService(data_loader)
         self.cache_dir = Path(__file__).parent.parent / "data" / "cache"
-        self.cache_dir.mkdir(exist_ok=True)
+
+        # Try to create cache directory, fall back to temp if permission denied
+        try:
+            self.cache_dir.mkdir(exist_ok=True)
+        except PermissionError:
+            logger.warning(f"Permission denied creating cache directory {self.cache_dir}, using temp directory")
+            import tempfile
+            self.cache_dir = Path(tempfile.gettempdir()) / "miccai_cache"
+            self.cache_dir.mkdir(exist_ok=True)
+
         self.tsne_cache_file = self.cache_dir / "tsne_coordinates.json"
         self._tsne_coordinates_cache = None
 
