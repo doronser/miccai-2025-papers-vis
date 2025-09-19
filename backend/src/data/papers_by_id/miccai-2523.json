@@ -1,0 +1,40 @@
+{
+  "id": "miccai-2523",
+  "title": "Bridging Classical and Learning-based Iterative Registration through Deep Equilibrium Models",
+  "abstract": "Deformable medical image registration is traditionally formulated as an optimization problem. While classical methods solve this problem iteratively, recent learning-based approaches use weight-tied neural networks to mimic this process by unrolling the prediction of deformation fields in a fixed number of steps. However, classical methods typically converge after sufficient iterations, but learning-based unrolling methods lack a theoretical convergence guarantee and show instability empirically. In addition, unrolling methods have a practical bottleneck at training time: GPU memory usage grows linearly with the unrolling steps due to backpropagation through time (BPTT). To address both theoretical and practical challenges, we propose DEQReg, a novel registration framework based on Deep Equilibrium Models (DEQ), which formulates registration as an equilibrium-seeking problem, establishing a natural connection between classical optimization and learning-based unrolling methods. DEQReg maintains constant memory usage, enabling theoretically unlimited iteration steps. Through extensive evaluation on the public brain MRI and lung CT datasets, we show that DEQReg can achieve competitive registration performance, while substantially reducing memory consumption compared to state-of-the-art unrolling methods. We also reveal an intriguing phenomenon: the performance of existing unrolling methods first increases slightly then degrades irreversibly when the inference steps go beyond the training configuration. In contrast, DEQReg achieves stable convergence with its inbuilt equilibrium-seeking mechanism, bridging the gap between classical optimization-based and modern learning-based registration methods.",
+  "authors": [
+    {
+      "name": "Zhang, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yidong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Qian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2523_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

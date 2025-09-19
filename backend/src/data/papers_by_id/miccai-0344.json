@@ -1,0 +1,66 @@
+{
+  "id": "miccai-0344",
+  "title": "Anatomical Structure Few-Shot Detection Utilizing Enhanced Human Anatomy Knowledge in Ultrasound Images",
+  "abstract": "Deep learning-based models have significantly advanced clinical ultrasound tasks by detecting anatomical structures within vast ultrasound image datasets. However, their remarkable performance inherently requires extensive training of annotated medical datasets. Few-shot learning addresses the challenge of limited labeled data for model training. Currently, few-shot learning in the field of medical image analysis mainly focuses on classification and semantic segmentation, with relatively fewer studies on object detection. In this paper, we propose a novel few-shot anatomical structure detection method in ultrasound images called TRR-CCM, which consists of Circular Channel Mamba (CCM) and Topological Relationship Reasoning (TRR) based on human anatomy knowledge. CCM, as a new Mamba variant, performs contextual modeling of anatomical structures and captures long- and short-term dependencies. TRR learns spatial topological relationships between human anatomical structures to further improve the accuracy of detection and localization. Experimental results on two fetal ultrasound datasets demonstrate that TRR-CCM outperforms 9 state-of-the-art baseline methods.",
+  "authors": [
+    {
+      "name": "Zhu, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Bocheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Ningshu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Fengwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pu, Bin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0344_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

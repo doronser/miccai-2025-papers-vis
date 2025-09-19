@@ -1,0 +1,99 @@
+{
+  "id": "miccai-2143",
+  "title": "Multimodal Imputation of Imaging-derived Phenotypes from Genomic and Blood-based Biomarkers Enhances Common Disease Discovery",
+  "abstract": "Medical imaging provides a wealth of information about a patient’s physical condition, and imaging-derived phenotypes (IDPs) extracted from medical images have applications in various biomedical tasks such as disease predic-tion and phenotype association studies. For disease prediction tasks, the col-lection of multimodal imaging data and the conduct of long-term follow-ups are crucial; however, the low incidence rates of certain diseases make it chal-lenging to acquire large-scale cohort data. On the other hand, cohorts that contain genomics and blood-based biomarkers are relatively extensive. Against this backdrop, large-scale cohort data from the UK Biobank (UKB) were leveraged to construct prediction models for 260 IDPs extracted from common brain MRI and cardiac MRI using machine learning methods com-bined with genomics and basic blood characteristics. We applied these mod-els to impute IDPs in cohorts missing imaging data and utilized the imputed IDPs for IDP-disease association studies and disease prediction. Association study results demonstrate that the imputed IDPs can reveal numerous IDP-disease associations. Furthermore, the disease prediction models developed using imputed IDPs demonstrated significantly superior performance across 184 common diseases, as evidenced by higher overall AUC values when compared to models utilizing real IDPs (Wilcoxon signed-rank test, p < 0.001). These results clearly highlight the significant application value of our IDPs prediction models in the context of disease discovery.",
+  "authors": [
+    {
+      "name": "Zhang, Haoyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Junhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lan, Lizhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Longyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lv, Yuntong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Shengxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Mengting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yajing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Binghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Xionghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Lianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chengyan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2143_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

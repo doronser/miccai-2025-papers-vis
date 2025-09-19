@@ -1,0 +1,75 @@
+{
+  "id": "miccai-1320",
+  "title": "Endo-4DGX: Robust Endoscopic Scene Reconstruction and Illumination Correction with Gaussian Splatting",
+  "abstract": "Accurate reconstruction of soft tissue is crucial for advancing automation in image-guided robotic surgery. The recent 3D Gaussian Splatting (3DGS) techniques and their variants, 4DGS, achieve high-quality renderings of dynamic surgical scenes in real-time. However, 3D-GS-based methods still struggle in scenarios with varying illumination, such as low light and over-exposure. Training 3D-GS in such extreme light conditions leads to severe optimization problems and devastating rendering quality. To address these challenges, we present Endo-4DGX, a novel reconstruction method with illumination-adaptive Gaussian Splatting designed specifically for endoscopic scenes with uneven lighting. By incorporating illumination embeddings, our method effectively models view-dependent brightness variations. We introduce a region-aware enhancement module to model the sub-area lightness at the Gaussian level and a spatial-aware adjustment module to learn the view-consistent brightness adjustment. With the illumination adaptive design, Endo-4DGX achieves superior rendering performance under both low-light and over-exposure conditions while maintaining geometric accuracy. Additionally, we employ an exposure control loss to restore the appearance from adverse exposure to the normal level for illumination-adaptive optimization. Experimental results demonstrate that Endo-4DGX significantly outperforms combinations of state-of-the-art reconstruction and restoration methods in challenging lighting environments, underscoring its potential to advance robot-assisted surgical applications. Our code is available at https://github.com/lastbasket/Endo-4DGX.",
+  "authors": [
+    {
+      "name": "Huang, Yiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Beilei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yanheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jinlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hongbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Hongliang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Robotics",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1320_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "miccai-2049",
+  "title": "Interpretable fMRI Captioning via Contrastive Learning",
+  "abstract": "Recent advances in deep learning and generative AI have enhanced our understanding of brain function and enabled brain-computer interfaces to reconstruct stimuli from non-invasive neuroimaging data. In this work, we introduce an efficient two-stage training framework for captioning stimulus images from fMRI data, leveraging the compact representations of vision-language models and incorporating contrastive learning with text embeddings. Our approach demonstrates strong performance in fMRI captioning across multiple evaluation metrics and enables multimodal retrieval, highlighting the advantages of the contrastive learning. Additionally, we conduct an analysis with region-of-interests (ROI) to examine the contributions of specific brain regions to the decoding process, providing interpretable results that align with neuroscience theories. Our findings contribute to advancing brain decoding techniques and improving model interpretability.",
+  "authors": [
+    {
+      "name": "Shen, Vyacheslav",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kunanbayev, Kassymzhomart",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jang, Donggon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Daeshik",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2049_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

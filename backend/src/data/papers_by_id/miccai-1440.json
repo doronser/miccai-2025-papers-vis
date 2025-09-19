@@ -1,0 +1,49 @@
+{
+  "id": "miccai-1440",
+  "title": "Global and Local Contrastive Learning for Joint Representations from Cardiac MRI and ECG",
+  "abstract": "An electrocardiogram (ECG) is a widely used, cost-effective tool for detecting electrical abnormalities in the heart. However, it cannot directly measure functional parameters, such as ventricular volumes and ejection fraction, which are crucial for assessing cardiac function. Cardiac magnetic resonance (CMR) is the gold standard for these measurements, providing detailed structural and functional insights, but is expensive and less accessible. To bridge this gap, we propose PTACL (Patient and Temporal Alignment Contrastive Learning), a multimodal contrastive learning framework that enhances ECG representations by integrating spatio-temporal information from CMR. PTACL uses global patient-level contrastive loss and local temporal-level contrastive loss. The global loss aligns patient-level representations by pulling ECG and CMR embeddings from the same patient closer together, while pushing apart embeddings from different patients. Local loss enforces fine-grained temporal alignment within each patient by contrasting encoded ECG segments with corresponding encoded CMR frames. This approach enriches ECG representations with diagnostic information beyond electrical activity and transfers more insights between modalities than global alignment alone, all without introducing new learnable weights. We evaluate PTACL on paired ECG-CMR data from 27,951 subjects in the UK Biobank. Compared to baseline approaches, PTACL achieves better performance in two clinically relevant tasks: (1) retrieving patients with similar cardiac phenotypes and (2) predicting CMR-derived cardiac function parameters, such as ventricular volumes and ejection fraction. Our results highlight the potential of PTACL to enhance non-invasive cardiac diagnostics using ECG. The code is available at: https://github.com/alsalivan/ecgcmr",
+  "authors": [
+    {
+      "name": "Selivanov, Alexander",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Müller, Philip",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Turgut, Özgün",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stolt-Ansó, Nil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rueckert, Daniel",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> EEG / ECG",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1440_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

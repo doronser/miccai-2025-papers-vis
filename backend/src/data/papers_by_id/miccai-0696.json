@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0696",
+  "title": "Intra- and Cross-View Enhancement for OCTA Imaging",
+  "abstract": "Optical coherence tomography angiography (OCTA) is an indispensable modality in ophthalmic imaging, providing high-resolution visualization of retinal microvasculature. Recently, deep learning approaches have been explored to reconstruct OCTA images; however, significant challenges persist, particularly the reliance on high-quality target data for model training, which is often impractical due to limitations in hardware and acquisition protocols. In this work, we present a novel pipeline for deep learning-based OCTA imaging from repeated OCT B-scans, circumventing the need for high-quality training labels. We introduce an Intra-View Enhancement (IVE) module together with a novel loss function Cross-View Matching (CVM) to improve the imaging. The proposed pipeline is evaluated on a local dataset, demonstrating a relative improvement of 4.97% and 27.42% in PSNR and CNR over state-of-the-art learning-based OCTA method respectively. Our results underscore the effectiveness and clinical viability of the proposed approach for OCTA images, highlighting its potential to advance imaging capabilities in challenging clinical environments.",
+  "authors": [
+    {
+      "name": "Zeng, Jingbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Bingyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Zaiwang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shenghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schmetterer, Leopold",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Vasculature",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0696_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

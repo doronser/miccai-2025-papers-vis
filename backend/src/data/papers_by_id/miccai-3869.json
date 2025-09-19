@@ -1,0 +1,57 @@
+{
+  "id": "miccai-3869",
+  "title": "IKAN: Interactive KAN with Modulation Fusion for Medical Image Segmentation",
+  "abstract": "Interactive segmentation in medical imaging remains challenged by progressive loss of crucial interaction cues (click responsiveness, boundary fidelity) in deep networks. To address this limitation, we propose Interactive Kolmogorov-Arnold Network with adaptive modulation (IKAN), a unified framework that synergistically preserves interaction signals through spline-activated basis functions while enabling iterative anatomical refinement. The architecture achieves enhanced diagnostic fidelity by integrating three core components: hierarchical multi-scale feature extraction through Hierarchical Inception and Channel Attention Module (HICAM), dual-branch adaptive probability modulation for backbone/side-feature fusion, and click density-guided prediction sharpening. By dynamically correlating user-provided clicks with multi-modal data patterns, our method resolves ambiguous boundaries in complex clinical scenarios. Evaluated across OCT, BUSI, and AISD datasets, our method demonstrates enhanced segmentation accuracy in complex clinical scenarios, outperforming state-of-the-art approaches through systematic preservation and amplification of diagnostic interaction cues. The code is available online.",
+  "authors": [
+    {
+      "name": "Liu, Sihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Tonghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Yuxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Shengcai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Wu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3869_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

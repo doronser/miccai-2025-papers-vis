@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3769",
+  "title": "ViTexNet: Vision-Text Guided Dynamic Convolution Network for Medical Image Segmentation",
+  "abstract": "Recent advancements in medical image segmentation have leveraged multi-modal learning, incorporating textual descriptions to enhance segmentation accuracy. However, existing approaches suffer from high computational costs and inefficient text-vision fusion mechanisms, necessitating a more accurate yet computationally efficient solution. To address this, we propose ViTexNet, a novel vision-language segmentation model that introduces Text-Guided Dynamic Convolution (TGDC) for effective and lightweight fusion of medical visual features and textual cues. Unlike standard cross-attention mechanisms, which impose high parameter complexity, TGDC dynamically refines image features by leveraging relevant textual semantics at each decoder stage, ensuring efficient feature modulation without excessive overhead. By adaptively emphasizing clinically significant regions based on textual descriptions, TGDC enhances segmentation performance while maintaining computational efficiency. Extensive evaluations on QaTa-COV19 and MosMedData+ datasets demonstrate ViTexNet’s state-of-the-art performance, achieving 90.76% Dice and 83.25% mIoU on QaTa-COV19, and 78.19% Dice and 64.04% mIoU on MosMedData+, while operating at just 11.5G FLOPs, substantially lower than competing models. Ablation studies confirm TGDC’s superiority over cross-attention-based methods, highlighting its effectiveness in optimizing segmentation accuracy without computational trade-offs. The source code is made publicly available at: https://github.com/bhardwaj-rahul-rb/vitexnet",
+  "authors": [
+    {
+      "name": "Bhardwaj, Rahul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tambe, Utkarsh Yashwant",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Neog, Debanga Raj",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3769_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

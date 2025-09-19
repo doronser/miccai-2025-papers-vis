@@ -1,0 +1,71 @@
+{
+  "id": "miccai-0678",
+  "title": "Robust Multimodal Learning for Ophthalmic Disease Grading via Disentangled Representation",
+  "abstract": "Ophthalmologists often use multimodal data to improve diagnostic accuracy, but complete multimodal datasets are rare in real-world applications due to limited medical equipment and concerns about data privacy. Traditional deep learning methods typically address these issues by learning representations in a latent space. However, we identify two main challenges with these approaches: (i) task-irrelevant redundant information in complex modalities (such as numerous slices) leads to substantial redundancy in latent space representations, and (ii) overlapping multimodal representations make it difficult to extract features that are unique to each modality. To address these challenges, we propose the Essence-Point and Disentangle Representation Learning (EDRL) strategy, which incorporates a self-distillation mechanism into an end-to-end framework to improve feature selection and disentanglement for robust multimodal learning. Specifically, the Essence-Point Representation Learning module selects discriminative features that improve disease grading performance, while the Disentangled Representation Learning module separates multimodal data into modality-common and modality-unique representations. This reduces feature entanglement and enhances both robustness and interpretability in ophthalmic disease diagnosis. Experimental results on ophthalmology multimodal datasets show that the EDRL strategy outperforms state-of-the-art methods significantly. Our code is released at https://github.com/xinkunwang111/Robust-Multimodal-Learning-for-Ophthalmic-Disease-Grading-via-Disentangled-Representation.",
+  "authors": [
+    {
+      "name": "Wang, Xinkun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yifang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Senwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Feilong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Chengzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Junjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Zongyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Razzak, Imran",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Visualization in Biomedical Imaging"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0678_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

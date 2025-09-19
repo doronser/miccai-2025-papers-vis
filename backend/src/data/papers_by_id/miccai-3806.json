@@ -1,0 +1,44 @@
+{
+  "id": "miccai-3806",
+  "title": "Attention-Based Multimodal Deep Learning Model for Post-Stroke Motor Impairment Prediction",
+  "abstract": "Accurately predicting post-stroke motor impairment remains a challenge due to the complexity of functional recovery and its association with neuroimaging biomarkers. This study presents a deep learning (DL) framework that integrates Magnetic Resonance Imaging (MRI)-based measures such as Diffusion Tensor Imaging (DTI) metrics—fractional anisotropy (FA), mean diffusivity (MD), radial diffusivity (RD), and axial diffusivity (AD)—along with white matter (WM) and gray matter (GM) intensities to classify upper limb motor function. Unlike previous approaches, the proposed model directly extracts whole-brain volumetric features without predefined region-of-interest constraints. Feature representation is enhanced using residual connections, attention mechanisms, and Global Average Pooling (GAP), improving classification performance while maintaining computational efficiency. The ensemble framework combines six independently trained models to optimize multi-modality integration. The results demonstrate that the WM+FA combination achieved the highest accuracy (0.97), outperforming the full ensemble model (0.96). These findings exceed the performance reported in prior studies, emphasizing the effectiveness of microstructural and structural biomarkers in motor recovery prediction. This optimized DL framework has the potential to improve post-stroke motor impairment classification, supporting early rehabilitation planning, and personalized treatment strategies.",
+  "authors": [
+    {
+      "name": "Karakis, Rukiye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gurkahraman, Kali",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mitsis, Georgios D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Boudrias, Marie-Hèléne",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3806_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4585",
+  "title": "SurgicalGS: Dynamic 3D Gaussian Splatting for Accurate Robotic-Assisted Surgical Scene Reconstruction",
+  "abstract": "Accurate 3D reconstruction of dynamic surgical scenes from endoscopic video is essential for robotic-assisted surgery. While recent 3D Gaussian Splatting methods have shown promise in achieving high-quality reconstructions with fast rendering speeds, their use of inverse depth loss functions compresses depth variations. This can lead to a loss of fine geometric details, limiting their ability to capture precise 3D geometry and effectiveness in intraoperative applications. To address the limitations of existing methods, we developed SurgicalGS, a dynamic 3D Gaussian Splatting framework specifically designed for improved geometric accuracy in surgical scene reconstruction. Our approach integrates a temporally coherent multi-frame depth fusion and an adaptive motion mask for Gaussian initialisation. Besides, we represent dynamic scenes using the Flexible Deformation Model and introduce a novel normalized depth regularization loss and an unsupervised depth smoothness constraint to ensure high geometric accuracy in the reconstruction. Extensive experiments on two real surgical datasets demonstrate that SurgicalGS achieves state-of-the-art reconstruction quality, especially in precise geometry, advancing the usability of 3D Gaussian Splatting in robotic-assisted surgery. Our code is available at https://github.com/neneyork/SurgicalGS.",
+  "authors": [
+    {
+      "name": "Chen, Jialei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hoque, Mobarak I.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vasconcelos, Francisco",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stoyanov, Danail",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elson, Daniel S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Baoru",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4585_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -101,11 +101,48 @@ export class ApiService {
     return response.data;
   }
 
+  // t-SNE coordinates for cluster visualization
+  static async getTSNECoordinates(): Promise<{ coordinates: any[] }> {
+    const response = await apiClient.get('/papers/tsne-coordinates');
+    return response.data;
+  }
+
+  // Similarity network data for a specific paper
+  static async getSimilarityNetworkData(paperId: string, topK: number = 20): Promise<any> {
+    const response = await apiClient.get(`/papers/${paperId}/similarity-network`, {
+      params: { top_k: topK }
+    });
+    return response.data;
+  }
+
+  // Paper highlight data
+  static async getPaperHighlightData(paperId: string): Promise<any> {
+    const response = await apiClient.get(`/papers/${paperId}/highlight`);
+    return response.data;
+  }
+
   // Health check
   static async healthCheck(): Promise<{ status: string }> {
     const response = await apiClient.get('/health');
     return response.data;
   }
 }
+
+// Export static methods as instance methods for easier usage
+export const apiService = {
+  getAllPapers: ApiService.getAllPapers,
+  searchPapers: ApiService.searchPapers,
+  getPaperById: ApiService.getPaperById,
+  getSimilarPapers: ApiService.getSimilarPapers,
+  getGraphData: ApiService.getGraphData,
+  getDatasetStats: ApiService.getDatasetStats,
+  getPaperClusters: ApiService.getPaperClusters,
+  getClustersData: ApiService.getClustersData,
+  getNetworkData: ApiService.getNetworkData,
+  getTSNECoordinates: ApiService.getTSNECoordinates,
+  getSimilarityNetworkData: ApiService.getSimilarityNetworkData,
+  getPaperHighlightData: ApiService.getPaperHighlightData,
+  healthCheck: ApiService.healthCheck,
+};
 
 export default ApiService;

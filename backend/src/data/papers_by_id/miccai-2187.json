@@ -1,0 +1,46 @@
+{
+  "id": "miccai-2187",
+  "title": "Blaze3DM: Integrating Triplane Representation with Diffusion for Solving 3D Inverse Problems in Medical Imaging",
+  "abstract": "Solving inverse problems, such as image restoration and reconstruction, is essential in medical imaging. Recently, research on deep learning-based methods for solving 3D data problems has become a focus in the field. Existing diffusion models achieve excellent reconstruction quality but face challenges with volume inconsistency and high computational costs when dealing with 3D medical images. To overcome these challenges, we propose Blaze3DM, a novel approach that combines triplane neural fields with a diffusion model for effective 3D medical image reconstruction. Blaze3DM leverages compact, data-dependent triplane embeddings to ensure volume consistency and significantly improve the computational efficiency of the diffusion model. Furthermore, we introduce a guidance-based sampling method for zero-shot 3D inverse problem solving, enabling Blaze3DM to generate high-fidelity 3D volumes from limited, low-quality 2D slices. We evaluate Blaze3DM on various 3D inverse problem tasks across multiple imaging modalities, including sparse-view CT, limited-angle CT, compressed-sensing MRI, and MRI isotropic super-resolution. The experimental results demonstrate that Blaze3DM not only achieves state-of-the-art reconstruction performance but also markedly improves computational efficiency by approximately 22 to 40 times. Code is available at: https://github.com/Jenn-He/Blaze3DM.",
+  "authors": [
+    {
+      "name": "He, Jia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Bonan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Ge",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Ziwen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2187_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

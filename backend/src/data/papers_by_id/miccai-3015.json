@@ -1,0 +1,88 @@
+{
+  "id": "miccai-3015",
+  "title": "SAMUSA: Segment Anything Model 2 for UltraSound Annotation",
+  "abstract": "Interactive segmentation tools, such as SAM2, have shown strong performance in reducing annotation effort in natural images. However, unlike natural images, ultrasound images and videos often lack well-defined structure boundaries, which significantly degrade the performance of region-based point prompts in SAM models. To address these limitations, we introduce the Segment Anything Model 2 for UltraSound Annotation (SAMUSA). SAMUSA is based on SAM2 and introduces a new prompt strategy with boundary and temporal points, along with a novel boundary loss function, enabling the model to more efficiently segment structures with poorly defined boundaries, such as liver masses. We integrated SAMUSA as a 3D Slicer plugin, where it can be used for US videos and 3D US volumes segmentation. We present a prospective user study involving 6 participants (3 surgeons and 3 radiographers), which showed an average 34.1% annotation time reduction for image liver mass segmentation.",
+  "authors": [
+    {
+      "name": "Podvin, Baptiste",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Collins, Toby",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saibro, Güinther",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Innocenzi, Chiara",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yuchuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Milana, Flavio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Keeza, Yvonne",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ufitinema, Grace",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ujemurwego, Florien",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Torzilli, Guido",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marescaux, Jacques",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "George, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hostettler, Alexandre",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3015_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

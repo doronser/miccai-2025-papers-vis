@@ -1,0 +1,64 @@
+{
+  "id": "miccai-0253",
+  "title": "Concept-induced Graph Perception Model for Interpretable Diagnosis",
+  "abstract": "Due to the high stakes in medical decision-making, there is a compelling demand for interpretable deep learning methods in medical image analysis. Concept-based interpretable models, which predict human-understandable concepts (e.g., plaque or telangiectasia in skin images) prior to making the final prediction (e.g., skin disease type), provide valuable insights into the decision-making processes of the model. However, existing concept-based models often overlook the intricate relationships between image sub-regions and treat concepts in isolation, leading to unreliable diagnostic decisions. To overcome these limitations, we propose a Concept-induced Graph Perception (CGP) Model for interpretable diagnosis. CGP probes concept-specific visual features from various image sub-regions and learns the interdependencies between these concepts through neighborhood structural learning and global contextual reasoning, ultimately generating diagnostic predictions based on the weighted importance of different concepts. Experimental results on three public medical datasets demonstrate that CGP mitigates the trade-off between task accuracy and interpretability, while maintaining robustness to real-world concept distortions.",
+  "authors": [
+    {
+      "name": "Zhao, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Changjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pu, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qi, Xiaoming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Fengfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chunlian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Kenli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Guanghua",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0253_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2995",
+  "title": "MedGCD: Generalized Category Discovery in Medical Imaging",
+  "abstract": "Existing semi-supervised learning methods have been used to leverage the vast amounts of unlabeled data in several medical imaging tasks. These methods operate under the assumption that the classes present in the unlabeled data are exactly same as the labeled data. However, in real-world medical scenarios, the unlabeled dataset often contains novel categories not found in the labeled dataset. To address this problem, we present MedGCD (Generalized Category Discovery for Medical Images), which recognizes the categories observed in the labeled data and additionally clusters novel categories found in the unlabeled data. Specifically, MedGCD introduces a dual stream of strong views in a weak-to-strong framework coupled with a confidence-aware pairwise objective for discovering novel categories. The dual views enables the model to extract superior features from the unlabeled data, while the confidence-aware pairwise objective facilitates the selection of reliable samples, leading to an effective grouping of novel categories. Extensive experiments on benchmark datasets demonstrate the effectiveness of the proposed model in discovering novel categories while maintaining consistent performance on seen categories, with improvements in novel category ranging from 4\\% to 15\\%, leading to an overall accuracy improvement of 2\\% to 8\\%.",
+  "authors": [
+    {
+      "name": "Das, Ankit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gautam, Chandan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Agrawal, Pritee",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Savitha, Ramasamy",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2995_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1855",
+  "title": "CAUDA-MI: Cross Attention-Guided Unsupervised Domain Adaptation with Mutual Information for Cardiac MRI Segmentation",
+  "abstract": "Late Gadolinium Enhancement (LGE) imaging has emerged as the gold standard for cardiovascular disease diagnosis due to its ability to clearly delineate myocardial pathology. Professional interpretation of LGE images is usually difficult since their annotations are scarce, often necessitating the reliance on domain adaptation methods. Nevertheless, significant distribution discrepancy between datasets of different modalities usually results in poor transfer learning performances. To address this issue, we propose a general framework for cardiac MRI segmentation, called Cross Attention-Guided Unsupervised Domain Adaptation with Mutual Information (CAUDA-MI). This model leverages attention mechanisms on two data streams from the source and target domains, cleverly fusing the Query from the source domain with the Key and Value from the target domain, thereby aligning the implicit features of the target domain towards the source domain in the latent space. Additionally, we introduce single-domain mutual information as a supplementary means to further enhance the accuracy of myocardial segmentation. The proposed CAUDA-MI is tested on the MS-CMRSeg 2019 and MyoPS 2020 datasets, which achieves an average Dice score of 0.847 and 0.797 respectively. Comprehensive experimental results demonstrate that our proposed method surpasses previous state-of-the-art algorithms.",
+  "authors": [
+    {
+      "name": "Du, Dianrong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Hengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jiatong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Fan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1855_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

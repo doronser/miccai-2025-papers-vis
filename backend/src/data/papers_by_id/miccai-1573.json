@@ -1,0 +1,108 @@
+{
+  "id": "miccai-1573",
+  "title": "Synthesis of Pathological Dual-Channel Color Doppler Echocardiograms for Equitable Diagnosis of Heart Diseases",
+  "abstract": "Rheumatic heart disease (RHD) is the leading global cardiac condition, affecting over 54 million people, predominantly in resource-constrained countries. Early detection via color Doppler echocardiography is crucial but often inaccessible due to reliance on specialized cardiologists. Consequently, such data from patients diagnosed with RHD are scarce. To address data limitations in developing robust RHD detection methods, we propose a novel AI-driven approach to synthesize color Doppler echocardiograms with matched B-mode ultrasound using a multi-factor conditioned diffusion model. To our knowledge, this is the first generative AI design for dual-channel color Doppler synthesis. Our model enhances realism by incorporating temporal information for motion consistency and class label for targeted synthesis. We use B-mode ultrasound to visualize anatomical structures and the Doppler-mode fields of view to define blood flow regions across key echocardiographic views (e.g., parasternal and apical). We synthesize one echocardiographic mode from another using cross-view translation to augment data and improve diversity. We evaluated our approach using synthetic data generated from echocardiograms of 589 Ugandan cases and the public CAMUS dataset. Our model outperformed state-of-the-art generative methods in fidelity and structural similarity. We trained and tested an RHD classifier on limited data from different devices. Training with synthetic data significantly improved detection performance compared to a model trained only on real data. These findings highlight the potential of diffusion-based synthetic data to democratize the diagnosis of heart diseases in marginalized populations and low-resource settings. Our approach is scalable, promotes health equity, and contributes to RHD prevention and reduced mortality.",
+  "authors": [
+    {
+      "name": "Roshanitabrizi, Pooneh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Pengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Aharonyan, Artur Arturi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Brown, Kelsey",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Broudy, Taylor Gloria",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Parida, Abhijeet",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tapp, Austin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Zhifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tompsett, Alison",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rwebembera, Joselyn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Okello, Emmy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Beaton, Andrea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Roth, Holger R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Daguang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Anwar, Syed Muhammad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sable, Craig A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Linguraru, Marius George",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1573_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-5352",
+  "title": "From Variability To Accuracy: Conditional Bernoulli Diffusion Models with Consensus-Driven Correction for Thin Structure Segmentation",
+  "abstract": "Accurate segmentation of orbital bones in facial computed tomography (CT) images is essential for the creation of customized implants for reconstruction of defected orbital bones, particularly challenging due to the ambiguous boundaries and thin structures such as the orbital medial wall and orbital floor. In these ambiguous regions, existing segmentation approaches often output disconnected or under-segmented results. We propose a novel framework that corrects segmentation results by leveraging consensus from multiple diffusion model outputs. Our approach employs a conditional Bernoulli diffusion model trained on diverse annotation patterns per image to generate multiple plausible segmentations, followed by a consensus-driven correction that incorporates position proximity, consensus level similarity, and gradient direction similarity to correct challenging regions. Experimental results demonstrate that our method outperforms existing methods, significantly improving recall in ambiguous regions while preserving the continuity of thin structures. Furthermore, our method automates the manual process of segmentation result correction and can be applied to image-guided surgical planning and surgery.",
+  "authors": [
+    {
+      "name": "An, Jinseo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Min Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shim, Kyu Won",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hong, Helen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5352_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

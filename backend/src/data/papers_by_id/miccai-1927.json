@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1927",
+  "title": "Ada-FCN: Adaptive Frequency-Coupled Network for fMRI-Based Brain Disorder Classification",
+  "abstract": "Resting-state fMRI has become a valuable tool for classifying\nbrain disorders and constructing brain functional connectivity networks by tracking BOLD signals across brain regions. However, existing models largely neglect the multi-frequency nature of neuronal oscillations, treating BOLD signals as monolithic time series. This overlooks the crucial fact that neurological disorders often manifest as disruptions within specific frequency bands, limiting diagnostic sensitivity and specificity. While some methods have attempted to incorporate frequency information, they often rely on predefined frequency bands, which may not be optimal for capturing individual variability or disease-specific alterations. To address this, we propose a novel framework featuring Adaptive Cascade Decomposition to learn task-relevant frequency sub-bands for each\nbrain region and Frequency-Coupled Connectivity Learning to capture both intra- and nuanced cross-band interactions in a unified functional network. This unified network informs a novel message-passing mechanism within our Unified-GCN, generating refined node representations for diagnostic prediction. Experimental results on the ADNI and ABIDE datasets demonstrate superior performance over existing methods. The code is available at https://github.com/XXYY20221234/Ada-FCN.",
+  "authors": [
+    {
+      "name": "Xun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jiaxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Wenbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shujun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1927_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

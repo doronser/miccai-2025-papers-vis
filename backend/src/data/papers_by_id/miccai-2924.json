@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2924",
+  "title": "High-Res Brain Source Imaging of MEG using a Vector Bayesian Beamformer with Noise learning",
+  "abstract": "Magnetoencephalogram (MEG) with high spatio-temporal resolution plays a crucial role in the field of functional imaging. Incorporating vector source modeling enables explicit estimation of triaxial current components, thereby mitigating reconstruction errors caused by orientation bias in scalar leadfield approximations. This directional precision enables accurate identification of epileptogenic zones and oscillatory network hubs, providing neurosurgeons with electrophysiologically validated targets. Vector beamformers, grounded in spatial filtering theory, provide computationally efficient solutions for large-scale sensor data and dynamic high-resolution analyses. However, a vector source requires a vector beamformer whose performance degrades under high noise, limited time samples, or strongly correlated sources due to sample covariance matrix singularity. In this study, we propose a vector Bayesian learning framework to enhance beamformer robustness by addressing covariance matrix singularity. Specifically, we model the vector source linear system with full positive-definite noise covariance structures and employ data-driven Bayesian learning to refine the sample covariance matrix. By leveraging sparsity priors on source distributions and data-driven, our method improves spatial focusing and temporal reconstruction accuracy. We validated the approach using simulated data across varying signal-to-noise ratios (SNR) and real 64-channel optically pumped magnetometer (OPM)-MEG datasets under diverse stimulus-evoked paradigms. Comparative evaluations demonstrate that our Bayesian learning-based framework achieves 18. 03% higher AUC compared to conventional beamformers while preserving millimeter-level spatial precision, outperforming existing benchmarks in both spatial localization accuracy and dynamic reconstruction fidelity for neuroscience and clinical applications. Our codes are publicly accessible at: https://github.com/gao815/VBNLBF.",
+  "authors": [
+    {
+      "name": "Gao, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Kunye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Weikai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ning, Xiaolin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2924_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

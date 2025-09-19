@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1336",
+  "title": "PerioDet: Large-Scale Panoramic Radiograph Benchmark for Clinical-Oriented Apical Periodontitis Detection",
+  "abstract": "Apical periodontitis is a prevalent oral pathology that presents significant public health challenges.  Despite advances in automated diagnostic systems across various medical fields, the development of Computer-Aided Diagnosis (CAD) applications for apical periodontitis is still constrained by the lack of a large-scale, high-quality annotated dataset. To address this issue, we release a large-scale panoramic radiograph benchmark called “PerioXrays”, comprising 3,673 images and 5,662 meticulously annotated instances of apical periodontitis. To the best of our knowledge, this is the first benchmark dataset for automated apical periodontitis diagnosis.  This paper further proposes a clinical-oriented apical periodontitis detection (PerioDet) paradigm,  which jointly incorporates Background-Denoising Attention (BDA) and IoU-Dynamic Calibration (IDC) mechanisms to address the challenges posed by background noise and small targets in automated detection. Extensive experiments on the PerioXrays dataset demonstrate the superiority of PerioDet in advancing automated apical periodontitis detection. Additionally, a well-designed human-computer collaborative experiment underscores the clinical applicability of our method as an auxiliary diagnostic tool for professional dentists.",
+  "authors": [
+    {
+      "name": "Fang, Xiaocheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Jieyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Huanyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Chengju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Minhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Bingzhi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1336_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

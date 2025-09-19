@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3594",
+  "title": "Improving OCTA Imaging through Cross-Domain Adaptation: A Noise-Guided Framework Using Intralipid-Enhanced Rat Data",
+  "abstract": "Deep learning has been introduced into optical coherence tomography angiography (OCTA) imaging, which is a non-invasive technique for visualizing vascular structures. Intralipid injection has shown promise in improving blood cell scattering for better OCTA imaging. However, administering intralipid to human subjects for imaging purposes may raise ethical concerns. To address this challenge, we acquire intralipid-enhanced OCTA in rats and introduce cross-domain learning to address the domain shifts. Specifically, we collect data from eyes of anesthetized rats to obtain motion-free data and introduce a noise-guided self-training framework to bridge the domain gaps between rats and primates. Additionally, an en face enhancement loss is incorporated to further refine en face vectors during adaptation. Compared with other classical and fully supervised OCTA imaging algorithms, our method improves B-scan denoising performance by 53.1% and 65.0% on CNR and BRISQUE in human subjects respectively, while enhancing vessel contrast in en face images.",
+  "authors": [
+    {
+      "name": "Yang, Bingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Bingyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Zaiwang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schmetterer, Leopold",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Huiqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3594_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

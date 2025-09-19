@@ -1,0 +1,79 @@
+{
+  "id": "miccai-1947",
+  "title": "Segmentor-guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis",
+  "abstract": "Counterfactual image generation is a powerful tool for augmenting training data, de-biasing datasets, and modeling disease. Current approaches rely on external classifiers or regressors to increase the effectiveness of subject-level interventions (e.g., changing the patient’s age). For structure-specific interventions (e.g., changing the area of the left lung in a chest radiograph), we show that this is insufficient, and can result in undesirable global effects across the image domain. Previous work used pixel-level label maps as guidance, requiring a user to provide hypothetical segmentations which are tedious and difficult to obtain. We propose Segmentor-guided Counterfactual Fine-Tuning (Seg-CFT), which preserves the simplicity of intervening on scalar-valued, structure-specific variables while producing locally coherent and effective counterfactuals. We demonstrate the capability of generating realistic chest radiographs, and we show promising results for modeling coronary artery disease. Code: https://github.com/biomedia-mira/seg-cft.",
+  "authors": [
+    {
+      "name": "Xia, Tian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sinclair, Matthew",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schuh, Andreas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "De Sousa Ribeiro, Fabio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mehta, Raghav",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rasal, Rajat",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Puyol-Antón, Esther",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gerber, Samuel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Petersen, Kersten",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schaap, Michiel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Glocker, Ben",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1947_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

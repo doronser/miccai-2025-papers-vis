@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2212",
+  "title": "Boosting Medical Image Synthesis via Registration-guided Consistency and Disentanglement Learning",
+  "abstract": "Medical image synthesis remains challenging due to misalignment noise during training. Existing methods have attempted to address this challenge by incorporating a registration-guided module. However, these methods tend to overlook the task-specific constraints on the synthetic and registration modules, which may cause the synthetic module to still generate spatially aligned images with misaligned target images during training, regardless of the registration module’s function. Therefore, this paper proposes registration-guided consistency and incorporates disentanglement learning for medical image synthesis. The proposed registration-guided consistency architecture fosters task-specificity within the synthetic and registration modules by applying identical deformation fields before and after synthesis, while enforcing output consistency through an alignment loss. Moreover, the synthetic module is designed to possess the capability of disentangling anatomical structures and specific styles across various modalities. An anatomy consistency loss is introduced to further compel the synthetic module to preserve geometrical integrity within latent spaces. Experiments conducted on both an in-house abdominal CECT-CT dataset and a publicly available pelvic MR-CT dataset have demonstrated the superiority of the proposed method. The code is available at: https://github.com/pupuchuan/RegConDIS.",
+  "authors": [
+    {
+      "name": "Li, Chuanpu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zeli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Liming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2212_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

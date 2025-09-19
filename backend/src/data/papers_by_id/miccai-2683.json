@@ -1,0 +1,51 @@
+{
+  "id": "miccai-2683",
+  "title": "Automated Characterization of Myocardial Scar Topological Patterns for Ventricular Tachycardia Screening",
+  "abstract": "Ventricular tachycardia screening is crucial for early intervention and prevention of life-threatening cardiac events. Myocardial scar topology on late gadolinium enhancement (LGE) MRI offers detailed structural insights that may be closely associated with the mechanisms underlying ventricular tachycardia. However, accurate characterization presents challenges due to the substantial shape variability of myocardium, indistinct boundaries, small scar volumes, and potential issues with image quality. In this study, we present PolarNet, a novel framework for automatic scar segmentation and topological pattern characterization in polar coordinates. The framework incorporates a boundary-aware segmentation branch that explicitly models boundaries essential for scar characterization (endocardium, scar-start, scar-end, and epicardium), ensuring geometric consistency and anatomical coherence. Our method outperforms nnU-Net in both scar segmentation and topological pattern characterization. Code will be available at https://github.com/Sheng-xc/VTS_PolarNet.",
+  "authors": [
+    {
+      "name": "Sheng, Xicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Bailiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Odille, Freddy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Xiahai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computational Anatomy and Physiology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2683_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3966",
+  "title": "SOFA: Deep Learning Framework for Simulating and Optimizing Atrial Fibrillation Ablation",
+  "abstract": "Atrial fibrillation (AF) is a prevalent cardiac arrhythmia often treated with catheter ablation procedures, but procedural outcomes are highly variable. Evaluating and improving ablation efficacy is challenging due to the complex interaction between patient-specific tissue and procedural factors. This paper asks two questions: Can AF recurrence be predicted by simulating the effects of procedural parameters? How should we ablate to reduce AF recurrence? We propose SOFA (Simulating and Optimizing Atrial Fibrillation Ablation), a novel deep-learning framework that addresses these questions. SOFA first simulates the outcome of an ablation strategy by generating a post-ablation image depicting scar formation, conditioned on a patient’s pre-ablation LGE-MRI and the specific procedural parameters used (e.g., ablation locations, duration, temperature, power, and force). During this simulation, it predicts AF recurrence risk. Critically, SOFA then introduces an optimization scheme that refines these procedural parameters to minimize the predicted risk. Our method leverages a multi-modal, multi-view generator that processes 2.5D representations of the atrium. Quantitative evaluations show that SOFA accurately synthesizes post-ablation images and that our optimization scheme leads to a 22.18\\% reduction in the model-predicted recurrence risk. To the best of our knowledge, SOFA is the first framework to integrate the simulation of procedural effects, recurrence prediction, and parameter optimization, offering a novel tool for personalizing AF ablation. The code is available at our repository: https://github.com/cys1102/SOFA",
+  "authors": [
+    {
+      "name": "Chung, Yunsung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lim, Chanho",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bidaoui, Ghassan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Massad, Christian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marrouche, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hamm, Jihun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3966_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

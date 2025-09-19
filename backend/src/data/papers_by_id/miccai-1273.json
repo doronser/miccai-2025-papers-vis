@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1273",
+  "title": "RRG-DPO: Direct Preference Optimization for Clinically Accurate Radiology Report Generation",
+  "abstract": "Automated radiology report generation (RRG) of routine 2D and 3D radiographs, such as X-ray and computed tomography (CT), has great potential in reducing the workload, variations, and errors of report writing and facilitating patient care. Despite significant advancements in linguistic quality, existing methods may generate reports with hallucinated type I and II (false positive and false negative) errors, which limit clinical efficiency. To mitigate the hallucinations, we propose RRG-DPO, an innovative direct preference optimization procedure with a new loss term, both tailored for effective alignment with the preference for clinically accurate RRG. RRG-DPO retrieves a set of highly relevant reports closest to the preferred response (i.e., the ground truth (GT) report) in a biomedical CLIP embedding space, and selects the one with the most significant abnormality conflicts with the GT as the dispreferred response. Besides being clinically relevant and abnormally aware, this preference data curation process is cost-effective and scalable compared to using large language models for response sampling or evaluation. In addition, we note that except for the abnormality-conflicting sentences, other sentences of the dispreferred report can legibly describe the radiograph of the preferred in a clinically equivalent manner, despite variations in expression. Thus, RRG-DPO creates a sub-preferred report from the dispreferred by deleting the abnormality-conflicting sentences, and promotes its likelihood with a new loss term. RRG-DPO is evaluated on both 2D X-ray and 3D CT data to align a wide range of RRG models. Experiments show that it boosts the clinical efficiency of all assessed models in six metrics: precision, recall, F1 score, RadGraph, RadCliQ, and RaTEScore, effectively reducing hallucinations. Further ablation studies show that our method outperforms DPO and DPOP, and its components are helpful. Our code will be available.",
+  "authors": [
+    {
+      "name": "Liu, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Zhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Xian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yefeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1273_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

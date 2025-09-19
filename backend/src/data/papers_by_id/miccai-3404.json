@@ -1,0 +1,55 @@
+{
+  "id": "miccai-3404",
+  "title": "GE2Hist: Generating Histology Images from Single-cell Gene Expression via Cross-modal Generative Network",
+  "abstract": "Histological images are essential in biomedical research and diagnosis, extending beyond detailed cell and tissue morphology to provide an intuitive view of the cellular microenvironment and spatial relationships. While single-cell gene expression data reveal molecular distinctions in cell states, their complexity obscures cellular interactions and spatial organization. To overcome this, reconstructing histological images from large-scale single-cell data is essential for intuitively visualizing spatial architecture. This paper proposes a single-cell-level histological image generation method that derives cell state representations from gene expression data using a single-cell foundation model. A conditional diffusion model is leveraged to generate histological images, accurately reconstructing the cellular microenvironment and spatial cell type distribution. By decoupling cellular state into two components, cell type and microenvironment, we propose two complementary approaches for generating pathology images, one conditioned on scRNA-seq data and the other on cell type. Our approach successfully generates high-quality histological images of human breast and colon cancer tissues, capturing key spatial features such as cell density, compositional distribution, and cell spacing within tissues.",
+  "authors": [
+    {
+      "name": "Cai, Hongmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Boan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Shangyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jiazhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Weitian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3404_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

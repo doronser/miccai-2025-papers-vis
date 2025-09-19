@@ -1,0 +1,35 @@
+{
+  "id": "miccai-1316",
+  "title": "Automatic Deep Deformable Registration using Domain Adaptation and Run-Time Optimisation",
+  "abstract": "Augmented reality from preoperative 3D model registration is promising to assist navigation in minimally-invasive liver surgery. \nThe current registration methods are either accurate, but require surgeon interactions to annotate anatomical landmarks, or are fully automatic, but inaccurate.\nWe propose a two-step automatic and accurate registration method. \nStep 1) segments the registration landmarks with a neural method. \nStep 2) estimates the 3D model deformation from the landmarks.\nThe task is challenging because of the defects of the automatically segmented  landmarks and the impossibility to label registration for training.\nWe handle it by combining supervised training from synthetic transformations with domain adaptation and a novel robust Run-Time Optimisation (RTO).\nOur method outperforms existing ones, both with manual and automatic landmark segmentations, improving both automation and accuracy.",
+  "authors": [
+    {
+      "name": "Gadoux, Emilien",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bartoli, Adrien",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1316_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

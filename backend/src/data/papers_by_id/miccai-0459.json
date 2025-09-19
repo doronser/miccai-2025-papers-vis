@@ -1,0 +1,56 @@
+{
+  "id": "miccai-0459",
+  "title": "Subgroup Performance Analysis in Hidden Stratifications",
+  "abstract": "Machine learning (ML) models may suffer from significant performance disparities between patient groups. \nIdentifying such disparities by monitoring performance at a granular level is crucial for safely deploying ML to each patient. \nTraditional subgroup analysis based on metadata can expose performance disparities only if the available metadata (e.g. patient sex) sufficiently reflects the main reasons for performance variability, which is not common. \nSubgroup discovery techniques that identify cohesive subgroups based on learned feature representations appear as a potential solution: They could expose hidden stratifications and provide more granular subgroup performance reports. \nHowever, subgroup discovery is challenging to evaluate even as a standalone task, as ground truth stratification labels do not exist in real data. Subgroup discovery has thus neither been applied nor evaluated for the application of subgroup performance monitoring. Here, we apply subgroup discovery for performance monitoring in chest x-ray and skin lesion classification. We propose novel evaluation strategies and show that a simplified subgroup discovery method without access to classification labels or metadata can expose larger performance disparities than traditional metadata-based subgroup analysis. We provide the first compelling evidence that subgroup discovery can serve as an important tool for comprehensive performance validation and monitoring of trustworthy AI in medicine.",
+  "authors": [
+    {
+      "name": "Bissoto, Alceu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hoang, Trung-Dung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Flühmann, Tim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Susu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baumgartner, Christian F.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Koch, Lisa M.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0459_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

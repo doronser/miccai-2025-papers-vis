@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1799",
+  "title": "BiMSRec: A Progressive Image Reconstruction Framework for Medical Image Fusion Guided by Multi-Scale Deformation Fields",
+  "abstract": "Traditional multi-modal medical image fusion methods typically employ a hierarchical feature fusion strategy. However, due to inconsistencies among features at different scales, these approaches often introduce unanticipated deformations during the fusion process. Such deformations accumulate through successive registration steps and ultimately result in oscillatory distortions at the fine-detail level. To address this challenge, we propose a progressive image reconstruction framework that is guided by multi-scale deformation fields. Specifically, the input images are first mapped into feature spaces at multiple scales and a deformation field prediction strategy is employed to generate multiple deformation fields that capture both local and global transformation trends simultaneously. Notably, the deformation fields generated across all scales possess the intrinsic capability to directly perform image registration. This capability eliminates the need for sequential propagation of registration outcomes and effectively mitigates cumulative deformation issues. In the image reconstruction phase, we adopt a progressive coarse-to-fine strategy, leveraging multi-scale deformation fields to achieve accurate structure restoration and fusion. Extensive experimental results demonstrate that the proposed method significantly enhances image alignment accuracy and fusion quality across multiple datasets, offering an efficient and robust solution for multi-modal medical image processing.",
+  "authors": [
+    {
+      "name": "Long, Nuoer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Kaiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Zitong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1799_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

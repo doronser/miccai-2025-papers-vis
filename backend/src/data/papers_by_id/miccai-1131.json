@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1131",
+  "title": "FEAT: Full-Dimensional Efficient Attention Transformer for Medical Video Generation",
+  "abstract": "Synthesizing high-quality medical videos remains a significant challenge due to the need for modeling both spatial consistency and temporal dynamics. Existing Transformer-based approaches face critical limitations, including insufficient channel interactions, high computational complexity from self-attention, and coarse denoising guidance from timestep embeddings when handling varying noise levels. In this work, we propose FEAT, a full-dimensional efficient attention Transformer, which addresses these issues through three key innovations: (1) a unified paradigm with sequential spatial-temporal-channel attention mechanisms to capture global dependencies across all dimensions, (2) a linear-complexity design for attention mechanisms in each dimension, utilizing weighted key-value attention and global channel attention, and (3) a residual value guidance module that provides fine-grained pixel-level guidance to adapt to different noise levels. We evaluate FEAT on standard benchmarks and downstream tasks, demonstrating that FEAT-S, with only 23\\% of the parameters of the state-of-the-art model Endora, achieves comparable or even superior performance. Furthermore, FEAT-L surpasses all comparison methods across multiple datasets, showcasing both superior effectiveness and scalability. Code is available at \\href{https://github.com/Yaziwel/FEAT}{here}.",
+  "authors": [
+    {
+      "name": "Wang, Huihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Zhiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Bingzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1131_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "miccai-0087",
+  "title": "VesselVerse: A Dataset and Collaborative Framework for Vessel Annotation",
+  "abstract": "This paper is not about a novel method. Instead, it introduces VesselVerse, a large-scale annotation dataset and collaborative framework for brain vessel annotation. It addresses the critical challenge of data annotation availability in supervised learning segmentation and provides a valuable resource for the community. VesselVerse represents the largest public release of brain vessel annotations to date, comprising 950 annotated images from three public datasets across multiple neurovascular imaging modalities. Its design allows for multi-expert annotations per image, accounting for variations across diverse annotation protocols. Furthermore, the framework facilitates the inclusion of new annotations and refinements to existing ones, making the dataset dynamic. To enhance annotation reliability, VesselVerse integrates tools for consensus generation and version control mechanisms, enabling the reversion of errors introduced during annotation refinement. We demonstrate VesselVerse’s usability by assessing inter-rater agreement among four expert evaluators.",
+  "authors": [
+    {
+      "name": "Falcetta, Daniele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marciano, Vincenzo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Kaiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cleary, Jon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Legris, Loïc",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rizzaro, Massimiliano Domenico",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pitsiorlas, Ioannis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chaptoukaev, Hava",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lemasson, Benjamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Menze, Bjoern",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zuluaga, Maria A.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0087_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0247",
+  "title": "PRAD: Periapical Radiograph Analysis Dataset and Benchmark Model Development",
+  "abstract": "Deep learning (DL), a pivotal technology in artificial intelligence, has recently gained substantial traction in the domain of dental auxiliary diagnosis. However, its application has predominantly been confined to imaging modalities such as panoramic radiographs and Cone Beam Computed Tomography, with limited focus on auxiliary analysis specifically targeting Periapical Radiographs (PR). PR are the most extensively utilized imaging modality in endodontics and periodontics due to their capability to capture detailed local lesions at a low cost. Nevertheless, challenges such as projection angle and artifacts complicate the annotation and recognition of PR, leading to a scarcity of publicly available, large-scale, high-quality PR analysis datasets. This scarcity has somewhat impeded the advancement of DL applications in PR analysis. In this paper, we present PRAD-10K, a dataset for PR analysis. PRAD-10K comprises 10,000 clinical periapical radiograph images, with pixel-level annotations provided by professional endodontists for nine distinct anatomical structures, lesions, and artificial restorations or medical devices. We also include classification labels for images with typical conditions or lesions. Furthermore, we introduce a DL network named PRNet to establish benchmarks for PR segmentation tasks. Experimental results demonstrate that PRNet surpasses previous state-of-the-art medical image segmentation models on the PRAD-10K dataset. The code and dataset will be released at https://github.com/nkicsl/PRAD.",
+  "authors": [
+    {
+      "name": "Zhou, Zhenhuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Ruihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Xuansen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0247_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

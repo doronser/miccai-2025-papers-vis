@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3955",
+  "title": "Prototype-Guided and Lightweight Adapters for Inherent Interpretation and Generalisation in Federated Learning",
+  "abstract": "Federated learning (FL) provides a promising paradigm for collaboratively training machine learning models across distributed data sources while maintaining privacy. Nevertheless, real-world FL often faces major challenges including communication overhead during the transfer of large model parameters and statistical heterogeneity, arising from non-identical independent data distributions across clients. In this work, we propose an FL framework that 1) provides inherent interpretations using prototypes, and 2) tackles statistical heterogeneity by utilising lightweight adapter modules to act as compressed surrogates of local models and guide clients to achieve generalisation despite varying client distribution. Each client locally refines its model by aligning class embeddings toward prototype representations and simultaneously adjust the lightweight adapter.  Our approach replaces the need to communicate entire model weights with prototypes and lightweight adapters. This design ensures that each client’s model aligns with a globally shared structure while minimising communication load and providing inherent interpretations. Moreover, we conducted our experiments on a real-world retinal fundus image dataset, which provides clinical-site information. We demonstrate inherent interpretable capabilities and perform a classification task, which shows improvements in accuracy over baseline algorithms.",
+  "authors": [
+    {
+      "name": "Ofosu Mensah, Samuel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Djoumessi, Kerol",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Berens, Philipp",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3955_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

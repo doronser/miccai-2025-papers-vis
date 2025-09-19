@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3613",
+  "title": "Diffusion-Based User-Guided Data Augmentation for Coronary Stenosis Detection",
+  "abstract": "Coronary stenosis is a major risk factor for ischemic heart events leading to increased mortality, and medical treatments for this condition require meticulous, labor-intensive analysis. Coronary angiography provides critical visual cues for assessing stenosis, supporting clinicians in making informed decisions for diagnosis and treatment. Recent advances in deep learning have shown great potential for automated localization and severity measurement of stenosis. In real-world scenarios, however, the success of these competent approaches is often hindered by challenges such as limited labeled data and class imbalance. In this study, we propose a novel data augmentation approach that uses an inpainting method based on a diffusion model to generate realistic lesions, allowing user-guided control of severity. Extensive evaluations show that incorporating synthetic data during training enhances lesion detection and severity classification performance on both a large-scale in-house dataset and a public coronary angiography dataset. Furthermore, our approach maintains high detection and classification performance even when trained with limited data, highlighting its clinical importance in improving the assessment of stenosis severity and optimizing data utilization for more reliable decision support.",
+  "authors": [
+    {
+      "name": "Seo, Sumin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, In Kyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Hyun-Woo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Min, Jaesik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jung, Chung-Hwan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3613_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

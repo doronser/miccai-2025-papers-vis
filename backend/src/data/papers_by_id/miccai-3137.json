@@ -1,0 +1,58 @@
+{
+  "id": "miccai-3137",
+  "title": "Physics-Informed Implicit Neural Representations for Joint B0 Estimation and Echo Planar Imaging",
+  "abstract": "Echo Planar Imaging (EPI) is widely used for its rapid acquisition but suffers from severe geometric distortions due to B0 inhomogeneities, particularly along the phase encoding direction. Existing methods follow a two-step process: reconstructing blip-up/down EPI images, then estimating B0, which can introduce error accumulation and reduce correction accuracy. This is especially problematic in high B0 regions, where distortions align along the same axis, making them harder to disentangle. In this work, we propose a novel approach that integrates Implicit Neural Representations (INRs) with a physics-informed correction model to jointly estimate B0 inhomogeneities and reconstruct distortion-free images from rotated-view EPI acquisitions. INRs offer a flexible, continuous representation that inherently captures complex spatial variations without requiring predefined grid-based field maps. By leveraging this property, our method dynamically adapts to subject-specific B0 variations and improves robustness across different imaging conditions. Experimental results on 180 slices of brain images from three subjects demonstrate that our approach outperforms traditional methods in terms of reconstruction quality and field estimation accuracy.",
+  "authors": [
+    {
+      "name": "Huang, Wenqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Nan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Congyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Yimeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Mengze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rueckert, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Setsompop, Kawin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3137_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "miccai-3839",
+  "title": "LIP-CAR: a learned inverse problem approach for medical imaging with contrast agent reduction",
+  "abstract": "The adoption of contrast agents in medical imaging is essential for accurate diagnosis. While highly effective and characterized by an excellent safety profile, the use of contrast agents has its limitation, including rare risk of allergic reactions, potential environmental impact and economic burdens on patients and healthcare systems.\nThis work addresses the contrast agent reduction (CAR) problem, aiming to minimize the administered dosage while preserving image quality. Unlike existing deep learning methods that simulate high-dose images from low-dose inputs via end-to-end models, we propose a learned inverse problem (LIP) approach. By learning an operator that maps high-dose to low-dose images, we reformulate CAR as an inverse problem, solved through regularized optimization to enhance data consistency. \nNumerical experiments on pre-clinical images demonstrate improved accuracy compared to traditional methods.",
+  "authors": [
+    {
+      "name": "Evangelista, Davide",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Morotti, Elena",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Colombo Serra, Sonia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Pengpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Valbusa, Giovanni",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bianchi, Davide",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3839_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "miccai-0436",
+  "title": "VisNet: A Human Visual System Inspired Lightweight Dual-Path Network for Medical Images Denoising",
+  "abstract": "Efficiently and accurately removing noise from medical images is crucial for clinical diagnosis. Nevertheless, most deep learning-based medical images denoising methods are highly complex and inaccurate in preserving the edge and shape of different organs, resulting in suboptimal denoising performance. In our study, we propose a Human Visual System Inspired Lightweight Dual-Path Network for medical images denoising (VisNet), which can efficiently and accurately remove noise from different types of medical images. Specifically, to simulate the mechanism in the visual system where magnocellular and parvocellular pathways capture significant and subtle noise, respectively, we design a dual-path multi-scale perception module. Then, to simulate the function of the primary visual cortex, we propose an edge detection and shape adaptation module to preserve the structural information of the medical images. Finally, inspired by dorsal and ventral pathways, a spatial-semantic information extraction module is designed to enhance the main semantic information in the image through the interactive fusion between the spatial and semantic pathways. Experimental results demonstrate that VisNet achieves superior performance across three medical datasets compared to nine existing baselines, while maintaining minimal computational complexity. (Params=0.15, FLOPs=16.41). In addition, for brain tumor classification, using denoised images of VisNet as input significantly improves accuracy (87.5% vs 96.7%) and achieves performance comparable to noise-free images. Code of VisNet is available at https://anonymous.4open.science/r/VisNet-2270.",
+  "authors": [
+    {
+      "name": "Yue, Hailin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Hulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Junjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jianhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jianxin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Eye",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0436_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-1359",
+  "title": "OTSurv: A Novel Multiple Instance Learning Framework for Survival Prediction with Heterogeneity-aware Optimal Transport",
+  "abstract": "Survival prediction using whole slide images (WSIs) can be formulated as a multiple instance learning (MIL) problem. However, existing MIL methods often fail to explicitly capture pathological heterogeneity within WSIs, both globally – through long-tailed morphological distributions, and locally – through tile-level prediction uncertainty. \nOptimal transport (OT) provides a principled way of modeling such heterogeneity by incorporating marginal distribution constraints. Building on this insight, we propose OTSurv, a novel MIL framework from an optimal transport perspective. Specifically, OTSurv formulates survival predictions as a heterogeneity-aware OT problem with two constraints: (1) global long-tail constraint that models prior morphological distributions to avert both mode collapse and excessive uniformity by regulating transport mass allocation, and (2) local uncertainty-aware constraint that prioritizes high-confidence patches while suppressing noise by progressively raising the total transport mass.  We then recast the initial OT problem, augmented by these constraints, into an unbalanced OT formulation that can be solved with an efficient, hardware-friendly matrix scaling algorithm. Empirically, OTSurv sets new state-of-the-art results across six popular benchmarks, achieving an absolute 3.6% improvement in average C-index. In addition, OTSurv achieves statistical significance in log-rank tests and offers high interpretability, making it a powerful tool for survival prediction in digital pathology. Our codes are available at https://github.com/Y-Research-SBU/OTSurv.",
+  "authors": [
+    {
+      "name": "Ren, Qin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Ruogu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ling, Haibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "You, Chenyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1359_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

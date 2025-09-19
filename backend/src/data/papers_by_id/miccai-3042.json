@@ -1,0 +1,65 @@
+{
+  "id": "miccai-3042",
+  "title": "T2I-Diff: fMRI Signal Generation via Time-Frequency Image Transform and Classifier-Free Denoising Diffusion Models",
+  "abstract": "Functional Magnetic Resonance Imaging (fMRI) is an advanced neuroimaging method that enables in-depth analysis of brain activity by measuring dynamic changes in the blood oxygenation level-dependent (BOLD) signals. However, the resource-intensive nature of fMRI data acquisition limits the availability of high-fidelity samples required for data-driven brain analysis models. While modern generative models can synthesize fMRI data, they often underperform because they overlook the complex non-stationarity and nonlinear BOLD dynamics. To address these challenges, we introduce T2I-Diff, an fMRI generation framework that leverages time-frequency representation of BOLD signals and classifier-free denoising diffusion. Specifically, our framework first converts BOLD signals into windowed spectrograms via a time-dependent Fourier transform, capturing both the underlying temporal dynamics and spectral evolution. Subsequently, a classifier-free diffusion model is trained to generate class-conditioned frequency spectrograms, which are then reverted to BOLD signals via inverse Fourier transforms. Finally, we validate the efficacy of our approach by demonstrating improved accuracy and generalization in downstream fMRI-based brain network classification. The code is available at \\href{https://github.com/htew0001/T2I-Diff.git}{repository}",
+  "authors": [
+    {
+      "name": "Tew, Hwa Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Loo, Junn Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Yee-Fan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ombao, Hernando",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noman, Fuad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Phan, Raphaël C.-W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ting, Chee-Ming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3042_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

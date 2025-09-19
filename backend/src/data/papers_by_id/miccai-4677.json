@@ -1,0 +1,102 @@
+{
+  "id": "miccai-4677",
+  "title": "ProTeUS: A Spatio-Temporal Enhanced Ultrasound-Based Framework for Prostate Cancer Detection",
+  "abstract": "Deep learning holds significant promise for enhancing real-time ultrasound-based prostate biopsy guidance through precise and effective tissue characterization. Despite recent advancements, prostate cancer (PCa) detection using ultrasound imaging still faces two critical challenges: (i) limited sensitivity to subtle tissue variations essential for detecting clinically significant disease, and (ii) weak and noisy labeling resulting from reliance on coarse annotations in histopathological reports. To address these issues, we introduce ProTeUS, an innovative spatio-temporal framework that integrates clinical metadata with comprehensive spatial and temporal ultrasound features extracted by a foundation model. Our method includes a novel hybrid, cancer involvement-aware loss function designed to enhance resilience against label noise and effectively learn distinct PCa signatures. Furthermore, we employ a progressive training strategy that initially prioritizes high-involvement cases and gradually incorporates lower-involvement samples. These advancements significantly improve the model’s robustness to noise and mitigate the limitations posed by weak labels, achieving state-of-the-art PCa detection performance with an AUROC of 86.9%. Our code is publicly accessible at github.com/DeepRCL/ProTeUS.",
+  "authors": [
+    {
+      "name": "Elghareb, Tarek",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Harmanani, Mohamed",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "To, Minh Nguyen Nhat",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wilson, Paul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jamzad, Amoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fooladgar, Fahimeh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abdelsamad, Baraa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dzikunu, Obed",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sojoudi, Samira",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Reznik, Gabrielle",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Leveridge, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Siemens, Robert",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Silvia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Black, Peter",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mousavi, Parvin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abolmaesumi, Purang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Applications -> Image Segmentation",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4677_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

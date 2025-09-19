@@ -1,0 +1,162 @@
+{
+  "id": "miccai-2180",
+  "title": "Phenotype Representation and Analysis via Discriminative Atypicality (PRADA) to capture the structural heterogeneity of Autism Spectrum Disorder",
+  "abstract": "Most current neuroimaging analyses in studies of brain disorders assume a homogenous presentation of the disorder such that traditional statistical analysis methods based on Gaussian distributions can be applied. Yet, most brain disorders present with a heterogeneous spectrum of cognitive, behavioral, morphometric as well as functional manifestations. In this paper, we introduce a novel approach called PRADA (Phenotype Representation and Analysis via Discriminant Atypicality) that embraces the heterogeneity of both typical and atypical brain morphometry. This approach employs  Multiscale Score Matching Analysis (MSMA),  a global and local multiscale out-of-distribution analysis via the gradients of the log density (scores). Combining MSMA and manifold-mapping, we compute a morphospace of brain phenotypes representing deviations from a population of typical subjects.  Using these brain phenotypes, disorder-related subtyping can be performed.  Furthermore, subject-specific profiles of atypicality can be extracted via Spatial-MSMA and summarized per subtype. We show the application of PRADA to structural MRI data in a study of Autism Spectrum Disorder (ASD).  The resulting analysis detects disorder-related subtypes and reveals that subtype-specific structural atypicality correlates with cognitive and behavioral outcomes. These results highlight the potential of PRADA to discover disorder relevant phenotypes.",
+  "authors": [
+    {
+      "name": "Onemli, Emre",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mahmood, Ahsan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Azrak, Omar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Garic, Dea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Swanson, Meghan R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grzadzinski, Rebecca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mata, Kattia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Mark D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Girault, Jessica B.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "St. John, Tanya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pandey, Juhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zwaigenbaum, Lonnie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Estes, Annette M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Audrey M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dager, Stephen R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schultz, Robert T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Botteron, Kelly N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Evans, Alan C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elison, Jed T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yacoub, Essa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Sun Hyung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "McKinstry, Robert C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gerig, Guido",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hazlett, Heather C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marrus, Natasha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Piven, Joseph",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pruett Jr., John R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Styner, Martin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2180_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

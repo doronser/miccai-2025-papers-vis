@@ -1,0 +1,67 @@
+{
+  "id": "miccai-1570",
+  "title": "Pathology Image Compression with Pre-trained Autoencoders",
+  "abstract": "The growing volume of high-resolution Whole Slide Images in digital histopathology poses significant storage, transmission, and computational efficiency challenges. Standard compression methods, such as JPEG, reduce file sizes but often fail to preserve fine-grained phenotypic details critical for downstream tasks. In this work, we repurpose autoencoders (AEs) designed for Latent Diffusion Models as an efficient learned compression framework for pathology images. We systematically benchmark three AE models with varying compression levels and evaluate their reconstruction ability using pathology foundation models. We introduce a fine-tuning strategy to further enhance reconstruction fidelity that optimizes a pathology-specific learned perceptual metric. We validate our approach on downstream tasks, including segmentation, patch classification, and multiple instance learning, showing that replacing images with AE-compressed reconstructions leads to minimal performance degradation. Additionally, we propose a K-means clustering-based quantization method for AE latents, improving storage efficiency while maintaining reconstruction quality.",
+  "authors": [
+    {
+      "name": "Yellapragada, Srikar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Graikos, Alexandros",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Triaridis, Kostas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zilinghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nandi, Tarak Nath",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Madduri, Ravi K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prasanna, Prateek",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saltz, Joel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Samaras, Dimitris",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1570_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

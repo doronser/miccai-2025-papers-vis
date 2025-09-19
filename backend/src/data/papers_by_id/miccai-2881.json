@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2881",
+  "title": "Faster, Self-Supervised Super-Resolution for Anisotropic Multi-View MRI Using a Sparse Coordinate Loss",
+  "abstract": "Acquiring images in high resolution is often a challenging task. Especially in the medical sector, image quality has to be balanced with acquisition time and patient comfort. To strike a compromise between scan time and quality for Magnetic Resonance (MR) imaging, two anisotropic scans with different low-resolution (LR) orientations can be acquired. Typically, LR scans are analyzed individually by radiologists, which is time consuming and can lead to inaccurate interpretation. To tackle this, we propose tripleSR, a novel approach for fusing two orthogonal anisotropic LR MR images, to reconstruct anatomical details in a unified representation. Our multi-view neural network is trained in a self-supervised manner, without requiring corresponding high-resolution (HR) data. To optimize the model, we introduce a sparse coordinate-based loss, enabling the integration of LR images with arbitrary scaling. We evaluate our method on MR images from two independent cohorts. Our results demonstrate comparable or even improved super-resolution (SR) performance compared to state-of-the-art (SOTA) self-supervised SR methods for different upsampling scales. By combining a patient-agnostic offline and a patient-specific online phase, we achieve a substantial speed-up of up to ten times for patient-specific reconstruction while achieving similar or better SR quality. Code is available at https://github.com/MajaSchle/tripleSR.",
+  "authors": [
+    {
+      "name": "Schlereth, Maja",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schillinger, Moritz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Breininger, Katharina",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2881_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

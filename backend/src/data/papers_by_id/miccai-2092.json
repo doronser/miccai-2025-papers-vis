@@ -1,0 +1,43 @@
+{
+  "id": "miccai-2092",
+  "title": "Last Layer Laplacian Pseudocoresets for Robust Medical Image Analysis",
+  "abstract": "Developing robust machine learning algorithms is of utmost importance for their applications to biomedical imaging applications. This issue is non-trivial, as networks are generally trained with datasets taken from relatively homogeneous samples dominated by statistically more probable disease classes, leading to unbalanced class distributions. One possible solution is to resolve the intrinsic biases towards certain dominating classes in the training datasets through more data collection with a more diverse sample, which is often prohibitively expensive. Another solution is to directly implement established uncertainty estimation measures for more robust predictions, which are nevertheless computationally demanding and insensitive to class imbalance. To address this issue, we propose a novel class-aware and uncertainty-aware pseudocoreset framework consisting of the following components: 1) An efficient framework with last layer Laplacian approximation 2) Class-aware calibration with error-based regularization, and 3) a Wasserstein distance-based regularization which explicitly imposes uncertainty-awareness. We evaluate our method for In-Distribution calibration, Out-of-Distribution inference, and class balance evaluations in two public skin cancer datasets taken from samples from different geographical location with differing skin colors. Our method outperforms various baseline uncertainty quantification and Bayesian pseudocoreset methods.",
+  "authors": [
+    {
+      "name": "Erick, Franciskus Xaverius",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Müller, Johanna Paula",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kainz, Bernhard",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2092_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

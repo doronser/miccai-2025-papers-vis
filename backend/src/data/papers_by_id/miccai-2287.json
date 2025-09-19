@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2287",
+  "title": "Dual-Branch Dynamic Coupling Weakly Supervised Learning for Class-Incremental Histopathological Region Segmentation",
+  "abstract": "Histopathological region segmentation faces two main challenges: catastrophic forgetting and the high cost of pixel-level annotations. Recent studies have focused on incremental learning of new categories using low-cost image-level labels. However, the limitations of multiple instance learning (MIL) in modeling instance relationships hinder further improvement in segmentation performance.  To address these challenges, we propose the Dual-branch Dynamic Coupling (DDCWISS) network for weakly supervised class-incremental learning in histopathological region segmentation. Our architecture overcomes the limitations of isolated local feature computation in traditional MIL by enabling complementary feature extraction through parallel local representation and global modeling branches. Additionally, we propose a learnable coupling module to ensure effective multi-scale feature fusion, while the dual-path supervision mechanism simultaneously enhances segmentation accuracy.  Experiments on the CPATH dataset demonstrate that our method significantly reduces reliance on costly pixel-level annotations for histopathological region segmentation, while effectively alleviating the catastrophic forgetting problem during incremental learning. These results highlight the potential of DDCWISS as a scalable, weakly supervised Class-Incremental paradigm for medical image analysis. The source code is publicly available at: https://github.com/XiaoyanHong24/DDCWISS",
+  "authors": [
+    {
+      "name": "Hong, Xiaoyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Jiansong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Zhaohong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Xiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2287_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "miccai-5107",
+  "title": "Solving Medical Multi-Label Domain Adaptation via Wasserstein Adversarial Learning with Class-Level Alignment",
+  "abstract": "In medical imaging, domain adaptation (DA) enables the transfer of knowledge from models trained on labeled source domains to unlabeled target domains that exhibit distribution shifts. In real world, medical images often contain multiple disease-related labels. However, existing multi-label domain adaptation (MLDA) algorithms face two primary challenges in addressing multi-label domain shifts: inadequate capture of disease features and insufficient integration of information from each individual class. To tackle these challenges, we propose a novel approach, Wasserstein Adversarial Learning with Class-Level Alignment, designed to align feature distributions for medical MLDA. By utilizing adversarial learning guided by Wasserstein distance, our approach captures more complete domain-invariant representations of lesion region. Additionally, we introduce a class-level alignment loss that leverages individual class information to further reduce domain discrepancies. Extensive experiments on real medical datasets demonstrate that our method significantly enhances medical multi-label domain adaptation and outperforms existing state-of-the-art  algorithms.",
+  "authors": [
+    {
+      "name": "Liu, Wenjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miao, Fuyou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5107_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

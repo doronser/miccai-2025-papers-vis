@@ -1,0 +1,55 @@
+{
+  "id": "miccai-4548",
+  "title": "A Novel Framework for Integrating 3D Ultrasound into Percutaneous Liver Tumour Ablation",
+  "abstract": "3D ultrasound (US) imaging has shown significant benefits in enhancing the outcomes of percutaneous liver tumour ablation. Its clinical integration is crucial for transitioning 3D US into the therapeutic domain. However, challenges of tumour identification in US images continue to hinder its broader adoption. In this work, we propose a novel framework for integrating 3D US into the standard ablation workflow. We present a key component, a clinically viable 2D US–CT/MRI registration approach, leveraging 3D US as an intermediary to reduce registration complexity. To facilitate efficient verification of the registration workflow, we also propose an intuitive multimodal image visualization technique. In our study, 2D US–CT/MRI registration achieved a landmark distance error of ~2–4 mm with a runtime of 0.22 s per image pair. Additionally, non-rigid registration reduced the mean alignment error by ~40% compared to rigid registration. Results demonstrated the efficacy of the US–CT/MRI registration to improve tumour identification. Our novel 3D US integration framework improved ablation by enhancing tumour visibility, multimodal visualization and tumour coverage, highlighting its potential to expand the therapeutic role of 3D US in other applications.",
+  "authors": [
+    {
+      "name": "Xing, Shuwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cool, Derek W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tessier, David",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Elvis C. S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peters, Terry M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fenster, Aaron",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4548_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

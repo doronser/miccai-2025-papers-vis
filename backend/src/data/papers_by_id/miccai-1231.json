@@ -1,0 +1,61 @@
+{
+  "id": "miccai-1231",
+  "title": "MedPro-DG: Domain-Aware Masked Contrastive Prompt Learning of Institution Generalization for Outcome Prediction",
+  "abstract": "Accurate outcome prediction for head and neck cancer is critical but remains challenging due to domain shifts across multi-institutional imaging datasets. Existing domain generalization (DG) methods focus on visual features while overlooking clinical domain-invariant information. To address this gap, we propose MedPro-DG, a novel prompt learning framework that integrates CT imaging with clinical variables using domain-aware masked contrastive prompt learning. Our method can effectively mitigate domain shifts by aligning cross-modal features with domain-invariant clinical semantics. Extensive experiments conducted across six medical centers demonstrate the superiority of MedPro-DG, which outperforms state-of-the-art DG methods by 1.35% in AUC and 4.06% in ACC on average. Ablation studies further reveal that our prompt learning can capture clinically domain-invariant features, highlighting their diagnostic relevance. This work pioneers domain-invariant vision-language fusion for medical domain generalization, providing an available and effective solution for multi-center collaborative diagnosis.",
+  "authors": [
+    {
+      "name": "Wang, Rongfang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jiasheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xinlong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Zhiguo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Kai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Surgery -> Other",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1231_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

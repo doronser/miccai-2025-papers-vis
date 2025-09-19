@@ -1,0 +1,98 @@
+{
+  "id": "miccai-2738",
+  "title": "Anatomy-Guided Multimodal Graph Networks for Alzheimer’s Disease: Integrative Analysis of Cross-Modal Brain Connectivity Signatures",
+  "abstract": "Multimodal neuroimaging grounded in standardized brain atlases enables precise decoding of Alzheimer’s progression by capturing both structural atrophy and functional decline across neural circuits. Current methods compromise anatomical fidelity in whole-brain modeling while generating biologically inconsistent cross-modal interactions. To address these dual challenges, we develop a graph learning framework that integrates three synergistic components: anatomically constrained feature extraction preserving region-specific biomarkers through spatial priors, channel-wise attention mechanisms for discriminative pattern refinement, and bidirectional cross-modal adaptation governed by alternating attention to enforce neuropathological consistency. This unified architecture processes sMRI and PET data through sequential stages of anatomical feature preservation, noise-robust feature enhancement, and dynamic modality fusion, ultimately mapping neurodegeneration patterns across scales. Evaluated on ADNI, our framework achieves superior classification accuracy while graph topology analysis reveals clinically significant hub reorganization within the default mode network, directly correlating with progressive connectivity deterioration. The method’s capacity to reconcile localized biomarker specificity with systemic network dynamics establishes new standards for computational neuropathology.",
+  "authors": [
+    {
+      "name": "Hu, Wenzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guan, Zhenghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jiaqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gan, Shushen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Tuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Tengda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qu, Junlong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shaolong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Gege",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Tianfu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Baiying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2738_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "miccai-0362",
+  "title": "MAST-Pro: Dynamic Mixture-of-Experts for Adaptive Segmentation of Pan-Tumors with Knowledge-Driven Prompts",
+  "abstract": "Accurate tumor segmentation is crucial for cancer diagnosis and treatment. While foundation models have advanced general-purpose segmentation, existing methods still struggle with: (1) limited incorporation of medical priors, (2) imbalance between generic and tumor-specific features, and (3) high computational costs for clinical adaptation. To address these challenges, we propose MAST-Pro M}ixture-of-experts for Adaptive Segmentation of pan-Tumors with knowledge-driven Prompts), a novel framework that integrates dynamic Mixture-of-Experts (D-MoE) and knowledge-driven prompts for pan-tumor segmentation. Specifically, text and anatomical prompts provide domain-specific priors, guiding tumor representation learning, while D-MoE dynamically selects experts to balance generic and tumor-specific feature learning, improving segmentation accuracy across diverse tumor types. To enhance efficiency, we employ Parameter-Efficient Fine-Tuning (PEFT), optimizing MAST-Pro with significantly reduced computational overhead. Experiments on multi-anatomical tumor datasets demonstrate that MAST-Pro outperforms state-of-the-art approaches, achieving up to a 5.20\\% improvement in average DSC while reducing trainable parameters by 91.04\\%, without compromising accuracy.",
+  "authors": [
+    {
+      "name": "Meng, Runqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Sifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Pengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Teng, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yiqun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oh, Yujin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Quanzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Ning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0362_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0976",
+  "title": "MAKE: Multi-Aspect Knowledge-Enhanced Vision-Language Pretraining for Zero-shot Dermatological Assessment",
+  "abstract": "Dermatological diagnosis represents a complex multimodal challenge that requires integrating visual features with specialized clinical knowledge. While vision-language pretraining (VLP) has advanced medical AI, its effectiveness in dermatology is limited by text length constraints and the lack of structured texts. In this paper, we introduce MAKE, a Multi-Aspect Knowledge-Enhanced vision-language pretraining framework for zero-shot dermatological tasks. Recognizing that comprehensive dermatological descriptions require multiple knowledge aspects that exceed standard text constraints, our framework introduces: (1) a multi-aspect contrastive learning strategy that decomposes clinical narratives into knowledge-enhanced subtexts through large language models, (2) a fine-grained alignment mechanism that connects subtexts with diagnostically relevant image features, and (3) a diagnosis-guided weighting scheme that adaptively prioritizes different subtexts based on clinical significance prior. Through pretraining on 403,563 dermatological image-text pairs collected from the internet, MAKE significantly outperforms state-of-the-art VLP models on seven datasets across zero-shot skin disease classification, concept annotation, and cross-modal retrieval tasks. Our code is available at https://github.com/SiyuanYan1/MAKE.",
+  "authors": [
+    {
+      "name": "Yan, Siyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xieji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Yiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Zongyuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0976_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

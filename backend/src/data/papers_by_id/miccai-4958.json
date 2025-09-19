@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4958",
+  "title": "Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos",
+  "abstract": "Congenital Heart Disease (CHD) is one of the leading causes of fetal mortality, yet the scarcity of labeled CHD data and strict privacy regulations surrounding fetal ultrasound (US) imaging present significant challenges for development of deep learning-based models for CHD detection. Centralised collection of large real-world datasets for rare conditions, such as CHD, from large populations requires significant co-ordination and resource. In addition, data governance rules increasingly prevent data sharing between sites.  To address these challenges, we introduce, for the first time, a novel privacy-preserving, zero-shot CHD detection framework that formulates CHD detection as a normality modeling problem integrated with model merging. In our framework dubbed Sparse Tube Ultrasound Distillation (STUD), each hospital site first trains a sparse video tube-based self-supervised video anomaly detection (VAD) model on normal fetal heart US clips with self-distillation loss. This enables site-specific models to independently learn the distribution of healthy cases. To aggregate knowledge across the decentralized models while maintaining privacy, we propose a Divergence Vector-Guided Model Merging approach, DivMerge, that combines site-specific models into a single VAD model without data exchange. Our approach preserves domain-agnostic rich spatio-temporal representations, ensuring generalization to unseen CHD cases. We evaluated our approach on real-world fetal US data collected from 5 hospital sites. Our merged model outperformed site-specific models by 23.77% and 30.13% in accuracy and F1-score respectively on external test sets.",
+  "authors": [
+    {
+      "name": "Saha, Pramit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mishra, Divyanshu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hernandez-Cruz, Netzahualcoyotl",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Patey, Olga",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Papageorghiou, Aris T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Asano, Yuki M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noble, J. Alison",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Applications -> Anomaly Detection"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4958_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

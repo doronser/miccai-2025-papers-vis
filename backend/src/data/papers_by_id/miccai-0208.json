@@ -1,0 +1,60 @@
+{
+  "id": "miccai-0208",
+  "title": "Segmenting Vessels Encapsulating Tumor Clusters via Fine-Grained Visual Prompt",
+  "abstract": "Segmenting hepatocellular carcinoma (HCC) and vessels encapsulating tumor clusters (VETC) are new paradigm for prognostic analysis. However, the clustered morphology of VETC nuclei, which is difficult to represent at the patch level, makes segmentation highly challenging. Recent visual prompt-based methods incorporating nucleus prior knowledge have shown promise but assume patch pixels lack spatial correlation, failing to capture nuclei morphology at the pixel level. To address this, we propose a Patch-to-Pixel Visual Prompt (VPP2P) framework, which models VETC morphological features by propagating visual prompts from patches to pixels. Built on contrastive learning, our semi-supervised approach samples positive and negative pairs within patches to enhance feature learning. Experiments show that VPP2P achieves performance comparable to fully supervised methods using only 10% of the training data. With 30% of the training data, VPP2P attains a Dice score of 90.52%, outperforming state-of-the-art visual prompt-based methods by an average margin of 6.6%. To the best of our knowledge, this is the first semi-supervised deep learning approach for VETC morphological analysis, offering new insights into HCC clinical research. Code is available at https://github.com/sm8754/VPP2P.",
+  "authors": [
+    {
+      "name": "Yu, Jiahui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Shenjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yuping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaoxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yingke",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0208_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

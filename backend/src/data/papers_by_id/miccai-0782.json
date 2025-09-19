@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0782",
+  "title": "A Multi-Branch Framework for Cross-Domain Vessel Segmentation via the Few-Shot Paradigm",
+  "abstract": "In recent years, deep learning-based vessel segmentation methods have made significant progress. However, the diversity of image modalities and the high-cost of acquiring sufficient annotated data constrain the performance of existing approaches. Given that the primary objective of segmenting various types of vessels is to extract high-frequency tubular structures, leveraging existing annotated datasets for training and fast generalizing to novel vessel segmentation tasks is an ideal solution to the above challenges, which can be achieved by the few-shot segmentation (FSS) paradigm. Unfortunately, the significant differences in texture and thickness among different types of vessels leave unsolved challenges. To address this issue, we propose a novel framework that incorporates FSS into cross-domain vessel segmentation. In particular, we construct high-frequency auxiliary modalities to guide the model in focusing on high-frequency features, which are highly correlated with vessel regions, thereby bridging the texture gap between images of various vessel types. Furthermore, we design a Dual-Modal Feature Extraction and Fusion (DM-FEF) module to extract modality-specific features. Finally, addressing the thickness variations between different vessels, we designed a Multi-Branch Feature Extractor (MBFE) module to capture the diverse characteristics of vessels with different thickness, enabling the model to perceive the thickness differences between distinct vessels. Experimental results on six public datasets demonstrate the effectiveness of our method. Source code: https://github.com/ZiH-Huang/FSS_Cross.",
+  "authors": [
+    {
+      "name": "Huang, Zihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0782_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

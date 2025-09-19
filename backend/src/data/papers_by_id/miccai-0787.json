@@ -1,0 +1,39 @@
+{
+  "id": "miccai-0787",
+  "title": "Variational Visible Layers: A Practical Framework for Uncertainty Estimation",
+  "abstract": "Uncertainty estimation is critical for reliable decision-making in medical imaging. State-of-the-art uncertainty methods require significant computational overhead and complex modeling. In this work, we present and explore a simple, effective approach to incorporating Bayesian uncertainty into deterministic networks by replacing the first and/or last layer (visible layers) with their variational Bayesian counterpart. This lightweight modification enables uncertainty quantification through mean-field variational estimation, making it practical for real-world medical applications. We evaluate the methods on ISIC and LIDC-IDRI for the segmentation task and DermaMNIST and ChestMNIST for the classification task using post-hoc and jointly-trained visible layers. We demonstrate that variational visible layers enable uncertainty-based failure detection for both in-distribution and near-out-of-distribution samples, preserving task performance while reducing the number of variational parameters required for Bayesian estimation. We provide an easy-to-implement solution for integrating uncertainty estimation into existing pipelines.",
+  "authors": [
+    {
+      "name": "Abboud, Zeinab",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lombaert, Herve",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kadoury, Samuel",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0787_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

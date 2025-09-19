@@ -1,0 +1,94 @@
+{
+  "id": "miccai-2056",
+  "title": "SAMed-2: Selective Memory Enhanced Medical Segment Anything Model",
+  "abstract": "Recent “segment anything” efforts show promise by learning from large-scale data, but adapting such models directly to medical images remains challenging due to the complexity of medical data, noisy annotations, and continual learning requirements across diverse modalities and anatomical structures. In this work, we propose SAMed-2, a new foundation model for medical image segmentation built upon the SAM-2 architecture. Specifically, we introduce a temporal adapter into the image encoder to capture image correlations and a confidence-driven memory mechanism to store high-certainty features for later retrieval. This memory-based strategy counters the pervasive noise in large-scale medical datasets and mitigates catastrophic forgetting when encountering new tasks or modalities. To train and evaluate SAMed-2, we curate MedBank-100k, a comprehensive dataset spanning seven imaging modalities and 21 medical segmentation tasks. Our experiments on both internal benchmarks and 10 external datasets demonstrate superior performance over state-of-the-art baselines in multi-task scenarios.",
+  "authors": [
+    {
+      "name": "Yan, Zhiling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Sifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Dingjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Rong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Weixiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhennong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Sekeun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Quanzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Lifang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Lichao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2056_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

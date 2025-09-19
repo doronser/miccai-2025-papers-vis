@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1654",
+  "title": "Dual-Stream Multi-Band Fusion Network for Dynamic Functional Connectivity Analysis in Brain Disorder Classification",
+  "abstract": "Dynamic functional connectivity (dFC) derived from fMRI captures the temporal dynamics of brain networks, where cross-frequency features provide complementary characterizations for brain disorder classification. Although existing multi-band approaches incorporate sub-band decomposition, they primarily rely on simplistic averaging or fixed-weight strategies, failing to adaptively fuse information across multiple frequency bands. To handle this limitation, we propose a dual-stream multi-band fusion network (DSMFN): 1) The frequency-domain stream employs a sub-band graph encoding-interaction module, where local graph convolution networks (GCNs) extract band-specific topological features, and lightweight convolutions replace computationally intensive attention mechanisms for data-driven band contribution allocation, followed by a global GCN to aggregate cross-band information; 2) The time-domain stream preserves local dynamic properties via residual multi-layer perceptron networks; 3) A feature-temporal dual-dimension cross-attention mechanism jointly models temporal evolution and cross-domain complementarity to adaptively integrate multi-band features with time-varying characteristics. Experiments on two distinct brain disease datasets demonstrate the effectiveness of DSMFN, achieving accuracies of 91.40% for MCI and 70.18% for ASD classification. This study provides an efficient fusion framework for multi-band dynamic brain network analysis, advancing precise diagnosis of brain disorders. Our code is available at https://github.com/WuLingBNU/DSMFN.",
+  "authors": [
+    {
+      "name": "Wu, Ling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hexi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lyu, Zhengyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Hu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Xiaojuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1654_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

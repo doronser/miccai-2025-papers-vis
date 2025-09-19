@@ -1,0 +1,64 @@
+{
+  "id": "miccai-0780",
+  "title": "Endo3R: Unified Online Reconstruction from Dynamic Monocular Endoscopic Video",
+  "abstract": "Reconstructing 3D scenes from monocular surgical videos can enhance surgeon’s perception and therefore plays a vital role in various computer-assisted surgery tasks. However, achieving scale-consistent reconstruction remains an open challenge due to inherent issues in endoscopic videos, such as dynamic deformations and textureless surfaces. Despite recent advances, current methods either rely on calibration or instrument priors to estimate scale, or employ SfM-like multi-stage pipelines, leading to error accumulation and requiring offline optimization. In this paper, we present Endo3R, a unified 3D foundation model for online scale-consistent reconstruction from monocular surgical video, without any priors or extra optimization. Our model unifies the tasks by predicting globally aligned pointmaps, scale-consistent video depths, and camera parameters without any offline optimization. The core contribution of our method is expanding the capability of the recent pairwise reconstruction model to long-term incremental dynamic reconstruction by an uncertainty-aware dual memory mechanism. \nThe mechanism maintains history tokens of both short-term dynamics and long-term spatial consistency. Notably, to tackle the highly dynamic nature of surgical scenes, we measure the uncertainty of tokens via Sampson distance and filter out tokens with high uncertainty. Regarding the scarcity of endoscopic datasets with ground-truth depth and camera poses, we further devise a self-supervised mechanism with a novel dynamics-aware flow loss. Abundant experiments on SCARED and Hamlyn datasets demonstrate our superior performance in zero-shot surgical video depth prediction and camera pose estimation with online efficiency. Project page: https://wrld.github.io/Endo3R/.",
+  "authors": [
+    {
+      "name": "Guo, Jiaxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Wenzhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ziyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Haomin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yun-Hui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0780_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

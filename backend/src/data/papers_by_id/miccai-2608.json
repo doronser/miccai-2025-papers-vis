@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2608",
+  "title": "Location-Aware Parameter Fine-Tuning for Multimodal Image Segmentation",
+  "abstract": "Accurate segmentation of lung infection regions is critical for early diagnosis and quantitative assessment of disease severity. However, existing segmentation methods largely depend on high-quality, manually annotated data. Although some approaches have attempted to alleviate the reliance on detailed annotations by leveraging radiology reports, their complex model architectures often hinder practical training and widespread clinical deployment. With the advent of large-scale pretrained foundation models, efficient and lightweight segmentation frameworks have become feasible. In this work, we propose a novel segmentation framework that utilizes CLIP to generate multimodal high-quality prompts, including coarse mask, point, and text prompts, which are subsequently fed into the Segment Anything Model 2 (SAM2) to produce the final segmentation results. To fully exploit the informative content of medical reports, we introduce a localization loss that extracts positional cues from the text to guide the model in localizing potential lesion regions. Experiments on the CT dataset MosMedData+ and the X-ray dataset QaTa-COV19 demonstrate that our method achieves state-of-the-art performance while requiring only minimal parameter fine-tuning. These results highlight the effectiveness and clinical potential for pulmonary infection segmentation.",
+  "authors": [
+    {
+      "name": "Gao, Sicong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pagnucco, Maurice",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Yang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2608_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

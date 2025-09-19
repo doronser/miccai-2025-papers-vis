@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1178",
+  "title": "High-Fidelity Unified One-to-Many Medical Image Synthesis via Text-Conditioned Latent Diffusion",
+  "abstract": "Current deep learning approaches for medical image synthesis require training multiple specialized models for different modality conversions, leading to inefficient parameter utilization. \nIn this work, we propose a unified text-conditioned latent diffusion framework that achieves one-to-many medical image synthesis through two key innovations: \n(1) With text-guided dynamic gating, a shared latent space construction using pre-trained modality-specific encoders is proposed, reducing model parameters compared to training several separate models. \n(2) An adaptive hybrid frequency processor combining wavelet decomposition and Fourier analysis is designed to preserve both local textures and global anatomical structures.\nOur comprehensive experimental evaluation in various datasets validates that this framework is capable of transforming a single medical imaging modality into multiple target modalities using only one model, surpassing existing methods based on Generative Adversarial Networks and diffusion models in terms of generation quality. \nThe success of this work establishes a new paradigm for efficient multi-modal medical image synthesis through latent space unification and frequency-aware diffusion, significantly advancing the practicality of virtual medical image generation systems.",
+  "authors": [
+    {
+      "name": "Zhang, Youjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zezhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zhongya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Guanqun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zhicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Gang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1178_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

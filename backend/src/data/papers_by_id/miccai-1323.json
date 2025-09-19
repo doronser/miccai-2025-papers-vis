@@ -1,0 +1,60 @@
+{
+  "id": "miccai-1323",
+  "title": "Smarter Self-Distillation: Optimizing the Teacher for Surgical Video Applications",
+  "abstract": "Surgical workflow analysis poses significant challenges due to complex imaging conditions, annotation ambiguities, and the large number of classes in tasks such as action recognition. Self-distillation (SD) has emerged as a promising technique to address these challenges\nby leveraging soft labels, but little is known about how to optimize the\nquality of these labels for surgical scene analysis. In this work, we thoroughly investigate this issue. First, we show that the quality of soft labels is highly sensitive to several design choices and that relying on a single top-performing teacher selected based on validation performance often leads to suboptimal results. Second, as a key technical innovation, we introduce a multi-teacher distillation strategy that ensembles checkpoints across seeds and epochs within a training phase where soft labels maintain an optimal balance—neither underconfident nor overconfident. By ensembling at the teacher level rather than the student level, our approach reduces computational overhead during inference. Finally, we validate our approach on three benchmark datasets, where it demonstrates consistent improvements over existing SD methods. Notably, our method sets a new state-of-the-art (SOTA) performance on the CholecTriplet benchmark, achieving a 43.1% mean Average Precision (mAP) score and real-time\ninference time, thereby establishing a new standard for surgical video\nanalysis in challenging and ambiguous environments. Code available at https://github.com/IMSY-DKFZ/self-distilled-swin.",
+  "authors": [
+    {
+      "name": "Yamlahi, Amine",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kalinowski, Piotr",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Godau, Patrick",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Younis, Rayan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wagner, Martin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Müller, Beat",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maier-Hein, Lena",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty",
+    "Surgery -> Data Science",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1323_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

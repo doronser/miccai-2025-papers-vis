@@ -1,0 +1,78 @@
+{
+  "id": "miccai-2543",
+  "title": "Multi-Linear 3D Craniofacial Infant Shape Model",
+  "abstract": "After birth, the cranium and facial skeleton undergo rapid growth. Routine postnatal assessment is crucial for the early identification of craniofacial deformities, often  characterized by asymmetric growth patterns. However, a comprehensive 3D shape model capturing both soft tissue and bony structures during early craniofacial development does not yet exist. We introduce the first integrated 3D shape model of the infant head and skull, constructed from a large dataset of photogrammetric scans complemented by a smaller set of computed tomography scans. Our INfant CRANial (INCRAN) model captures detailed facial expressions and overall cranial shape variations, incorporating the most advanced representation of cranial sutures on the underlying skull to date. By mapping cranial measurements to the model’s latent space, we further distinguish various craniofacial deformities from normal shape variations, enabling automated diagnosis and correction proposals. Additionally, we propose a novel method for constructing a multi-linear model from an uncontrolled expression space by projecting an autoencoder back into PCA space, thus enhancing model interpretability. INCRAN supports growth monitoring and holds potential for improving infant healthcare and craniofacial treatment strategies.",
+  "authors": [
+    {
+      "name": "Schnabel, Till N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lill, Yoriko",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Benitez, Benito K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Krief, Gaspard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tapia Corón, Sebastián",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prüfer, Friederike",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Metzler, Philipp",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mueller, Andreas A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gross, Markus",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Solenthaler, Barbara",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Registration",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Interpretability / Explainability",
+    "Surgery -> Data Science",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2543_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

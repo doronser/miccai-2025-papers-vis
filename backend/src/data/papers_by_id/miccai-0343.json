@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0343",
+  "title": "TESLA: Test-time Reference-free Through-plane Super-resolution for Multi-contrast Brain MRI",
+  "abstract": "Through-plane super-resolution (SR) in brain magnetic resonance imaging (MRI) is clinically important during clinical assessments. Most existing multi-contrast SR models mainly focus on enhancing in-plane image resolution, relying on functions already integrated into MRI scanners. These methods usually leverage proprietary fusion techniques to integrate multi-contrast images, resulting in diminished interpretability. Furthermore, the requirement for reference images during testing limits their applicability in clinical settings. We propose a TEst time reference-free through-plane Super-resoLution network using disentAngled representation learning in multi-contrast MRI (TESLA) to address these challenges. Our method is developed on the premise that multicontrast images consist of shared content (structure) and independent stylistic (contrast) features. Thus, after progressively reconstructing the target image in the first stage, we divide it into shared and independent elements during the structure enhancement phase. In this stage, we employ a pre-trained ContentNet to effectively disentangle high-quality structural information from the reference image, enabling the shared components of the target image to learn directly from those of the reference image through patch-wise contrastive learning during training. Consequently, the proposed model enhances clinical applicability while ensuring model interpretability. Extensive experimental results demonstrate that the proposed model performs favorably against other state-of-the-art multi-contrast SR models, especially in restoring structural fine details in the through-plane direction. The code is publicly available at https://github.com/Yonsei-MILab/TESLA.",
+  "authors": [
+    {
+      "name": "Choi, Yoonseok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jung, Sunyoung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Al-masni, Mohammed A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Ming-Hsuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Dong-Hyun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0343_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2280",
+  "title": "VBCD: A Voxel-Based Framework for Personalized Dental Crown Design",
+  "abstract": "The design of restorative dental crowns from intraoral scans remains labor-intensive for dental technicians. To address this challenge, we propose a novel voxel-based framework for automated dental crown design (VBCD). The VBCD framework generates an initial coarse dental crown from voxelized intraoral scans, followed by a fine-grained refinement incorporating distance-aware supervision to improve the accuracy and quality. During the training stage, we employ the Curvature and Margin line Penalty Loss (CMPL) to enhance the alignment of the generated crown with the margin line. Additionally, a positional prompt based on a tooth numbering system is introduced to further improve the accuracy of the generated dental crowns. Evaluation on a large dataset of intraoral scans demonstrates that our approach outperforms existing methods, providing a robust solution for personalized dental crown design.",
+  "authors": [
+    {
+      "name": "Wei, Linda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Chang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Wenran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zengji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hongsheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2280_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

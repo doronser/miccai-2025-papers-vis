@@ -1,0 +1,53 @@
+{
+  "id": "miccai-2470",
+  "title": "FSA-Net: Fractal-driven Synergistic Anatomy-aware Network for Segmenting White Line of Toldt in Laparoscopic Images",
+  "abstract": "Accurate automatic segmentation of the White Line of Toldt (WLT) is crucial for guiding colorectal cancer surgeries and improving patient outcomes. However, the complex anatomical structures and low signal-to-noise ratio involved in relevant regions of WLT pose significant challenges to existing segmentation models. Recent studies highlight fractal dimension as a powerful tool for analyzing the complexity of topological structures, offering an effective approach to representing anatomical features in medical images. Building on its success, we present the first well-annotated laparoscopic WLT segmentation (LTS) dataset and propose FSA-Net, a fractal-driven synergistic anatomy-aware network, specially designed for laparoscopic WLT segmentation. Specifically, FSA-Net consists of two core modules: the local texture-aware convolution (LTC) module and the fractal-guided anatomy-consistent attention (FAA) module. The LTC module adaptively adjusts the convolutional kernel offsets based on fractal dimensions to capture intra-anatomical features, while the FAA module employs a fractal-driven key-value pair filtering strategy to enhance the modeling of correlations across inter-anatomical structures. Extensive experimental results validate the effectiveness of our method. The resources will be available at https://github.com/Bigmouth233/FSA-Net.",
+  "authors": [
+    {
+      "name": "Wu, Kecheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Zhaohu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Zerong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Wenxue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2470_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

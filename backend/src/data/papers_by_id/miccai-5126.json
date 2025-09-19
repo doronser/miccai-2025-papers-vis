@@ -1,0 +1,80 @@
+{
+  "id": "miccai-5126",
+  "title": "Domain-Adaptive Diagnosis of Lewy Body Disease with Transferability Aware Transformer",
+  "abstract": "Lewy Body Disease (LBD) is a common yet understudied form of dementia that imposes a significant burden on public health. It shares clinical similarities with Alzheimer’s disease (AD), as both progress through stages of normal cognition, mild cognitive impairment, and dementia. A major obstacle in LBD diagnosis is data scarcity, which limits the effectiveness of deep learning. In contrast, AD datasets are more abundant, offering potential for knowledge transfer. However, LBD and AD data are typically collected from different sites using different machines and protocols, resulting in a distinct domain shift. To effectively leverage AD data while mitigating domain shift, we propose a Transferability Aware Transformer (TAT) that adapts knowledge from AD to enhance LBD diagnosis. Our method utilizes structural connectivity (SC) derived from structural MRI as training data. Built on the attention mechanism, TAT adaptively assigns greater weights to disease-transferable features while suppressing domain-specific ones, thereby reducing domain shift and improving diagnostic accuracy with limited LBD data. The experimental results demonstrate the effectiveness of TAT. To the best of our knowledge, this is the first study to explore domain adaptation from AD to LBD under conditions of data scarcity and domain shift, providing a promising framework for domain-adaptive diagnosis of rare diseases.",
+  "authors": [
+    {
+      "name": "Yu, Xiaowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Minheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lyu, Yanjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Dajiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5126_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

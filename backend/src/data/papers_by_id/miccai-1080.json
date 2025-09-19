@@ -1,0 +1,73 @@
+{
+  "id": "miccai-1080",
+  "title": "Core-Periphery Principle Guided State Space Model for Functional Connectome Classification",
+  "abstract": "Understanding the organization of human brain networks has become a central focus in neuroscience, particularly in the study of functional connectivity, which plays a crucial role in diagnosing neurological disorders. Advances in functional magnetic resonance imaging and machine learning techniques have significantly improved brain network analysis. However, traditional machine learning approaches struggle to capture the complex relationships between brain regions, while deep learning methods, particularly Transformer-based models, face computational challenges due to their quadratic complexity in long-sequence modeling. To address these limitations, we propose a Core-Periphery State-Space Model (CP-SSM), an innovative framework for functional connectome classification. Specifically, we introduce Mamba, a selective state-space model with linear complexity, to effectively capture long-range dependencies in functional brain networks. Furthermore, inspired by the core-periphery (CP) organization, a fundamental characteristic of brain networks that enhances efficient information transmission, we design CP-MoE, a CP-guided Mixture-of-Experts that improves the representation learning of brain connectivity patterns. We evaluate CP-SSM on two benchmark fMRI datasets: ABIDE and ADNI. Experimental results demonstrate that CP-SSM surpasses Transformer-based models in classification performance while significantly reducing computational complexity. These findings highlight the effectiveness and efficiency of CP-SSM in modeling brain functional connectivity, offering a promising direction for neuroimaging-based neurological disease diagnosis.\nOur code is available at https://github.com/m1nhengChen/cpssm",
+  "authors": [
+    {
+      "name": "Chen, Minheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Xiaowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lyu, Yanjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Dajiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1080_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

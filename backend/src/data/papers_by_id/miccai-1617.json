@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1617",
+  "title": "PD-UniST: Prompt-Driven Universal Model for Unpaired H&E-to-IHC Stain Translation",
+  "abstract": "Virtual staining, which leverages generative artificial intelli- gence (AI) to produce immunohistochemistry (IHC)-stained tissue samples from hematoxylin and eosin (H&E)-stained images, has emerged as a cost-effective and accessible alternative to traditional IHC staining. Despite its potential, this approach faces three significant challenges: (1) the necessity of training a separate model for each tumor marker used in IHC staining, (2) the limited availability of large-scale datasets, and (3) the inherent diversity of staining patterns across different tissue types and markers. In this study, we address these challenges by introducing the Prompt-Driven Universal model for unpaired H&E-to-IHC Stain Translation (PD-UniST). Our approach incorporates two key innovations: (1) Structure-Cognizant Organization Prompt ModulE (SCOPE), which employs textual prompts to guide region-specific generation, and (2) Style-Prompt Unified Mapping ModulE (SPUME), which utilizes learnable prompts to capture task differences between various IHC stains and features a pathology-specific prompt-aware fusion layer for effective integration of visual features with task-specific prompts. Extensive experiments on two public datasets and one private dataset demonstrate that our method achieves state-of-the art performance across five different translation tasks, significantly improving both structural preservation and staining pattern accuracy. In clinical evaluation, we further validate the effectiveness of our method through pathologists’ assessment of both public and private datasets. The dataset and source code are available on anonymous GitHub at https://github.com/chujie-zhang/PD-UniST.",
+  "authors": [
+    {
+      "name": "Zhang, Chujie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Yangyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yinhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Lanfen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yen-Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1617_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

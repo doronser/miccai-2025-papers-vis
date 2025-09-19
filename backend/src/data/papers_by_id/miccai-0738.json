@@ -1,0 +1,82 @@
+{
+  "id": "miccai-0738",
+  "title": "Multi-modal MRI Translation via Evidential Regression and Distribution Calibration",
+  "abstract": "Multi-modal Magnetic Resonance Imaging (MRI) translation leverages information from source MRI sequences to generate target modalities, enabling comprehensive diagnosis while overcoming the limitations of acquiring all sequences. While existing deep-learning-based multi-modal MRI translation methods have shown promising potential, they still face two key challenges: 1) lack of reliable uncertainty quantification for synthesized images, and 2) limited robustness when deployed across different medical centers. To address these challenges, we propose a novel framework that reformulates multi-modal MRI translation as a multi-modal evidential regression problem with distribution calibration. Our approach incorporates two key components: 1) an evidential regression module that estimates uncertainties from different source modalities and an explicit distribution mixture strategy for transparent multi-modal fusion, and 2) a distribution calibration mechanism that adapts to source-target mapping shifts to ensure consistent performance across different medical centers. Extensive experiments on three datasets from the BraTS2023 challenge demonstrate that our framework achieves superior performance and robustness across domains.",
+  "authors": [
+    {
+      "name": "Liu, Jiyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shangqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yuxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Zhaohu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ning, Junzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Yanzhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiao-Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Junjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Ningsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Xiahai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0738_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

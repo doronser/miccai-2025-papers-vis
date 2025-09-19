@@ -1,0 +1,43 @@
+{
+  "id": "miccai-5129",
+  "title": "SPromptGL: Semantic Prompt Guided Graph Learning for Multi-modal Brain Disease",
+  "abstract": "Multi-modal brain disease diagnosis provides a more robust and comprehensive prediction of diverse diseases by integrating medical data from different modalities. However, recent methods generally fail to account for the modality-specific discriminant regions in semantic information, which causes models to focus on non-lesion areas while neglecting the actual lesion regions. To address this issue, we propose Semantic Prompt-guided Graph Learning (SPromptGL), a novel approach for multi-modal disease prediction that captures the discriminative regions of different modalities while enhancing their interaction and fusion. Firstly, to explore the relationship between subjects of different modalities, we propose constructing an interactively multi-relation graph for multi-modal data. It is dynamically learned by designing graph learning loss terms. The multi-layer graph convolutional neural network is utilized to learn context-enriched representations for each subject. Then, to better capture the significant region representations of different modalities, we propose a semantic prompt-guided learning network to excavate the modality-specific lesion regions of related diseases. Specifically, a set of semantic prompts of related brain diseases is first guided to capture fine-grained local details to enhance patch representation. And then we couple with a relation-aware embedding strategy to refine discriminative features. Compared with state-of-the-art methods, our approach achieves superior performance on different benchmark datasets. Code is available at https://github.com/wanxixi11/SPromptGL.",
+  "authors": [
+    {
+      "name": "Wan, Xixi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Aihua",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

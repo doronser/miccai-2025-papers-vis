@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0605",
+  "title": "Dynamic Gradient Sparsification Training for Few-Shot Fine-tuning of CT Lymph Node Segmentation Foundation Model",
+  "abstract": "Accurate lymph node (LN) segmentation is critical in radiotherapy treatment and prognosis analysis, but is limited by the need for large annotated datasets. While deep learning-based segmentation foundation models show potential in developing high-performing models with fewer samples, their medical adaptation faces domain-specific prior deficiencies in the LN domain and inefficient few-shot fine-tuning for complex clinical practices, highlighting the necessity of an LN segmentation foundation model. In this work, we annotated 36,106 visible LNs from 3,346 publicly available head-and-neck CT scans to establish a robust LN segmentation model (nnUNetv2). Building on this, we propose Dynamic Gradient Sparsification Training (DGST), a few-shot fine-tuning approach that preserves foundational knowledge while dynamically updating the most critical parameters of the LN segmentation model with few annotations. We validate it on two publicly available LN segmentation datasets: SegRap2023 and LNQ2023. The results show that DGST outperforms existing few-shot fine-tuning methods, achieving satisfactory performance with limited labeled data. We release the dataset, models and all implementations to facilitate relevant research: https://github.com/HiLab-git/LN-Seg-FM.",
+  "authors": [
+    {
+      "name": "Luo, Zihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Zijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Wenjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shichuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guotai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xiangde",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0605_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

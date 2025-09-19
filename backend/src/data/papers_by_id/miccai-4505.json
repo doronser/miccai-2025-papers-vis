@@ -1,0 +1,48 @@
+{
+  "id": "miccai-4505",
+  "title": "Feeling the Stakes: Realism and Ecological Validity in User Research for Computer-Assisted Interventions",
+  "abstract": "User research is increasingly recognized as an essential strategy for ensuring the usability, safety, and effectiveness of emerging technologies in surgery. From a human-centered perspective, user studies are key to evaluating how technology-assisted interventions affect human behavior and system perceptions. For feasibility and scalability, these studies are typically conducted in controlled, desk-based lab settings. However, these settings often lack ecological validity, raising questions about how well they capture the actual surgical environment’s emotional, perceptual, and interactive complexities. Previous work in human-centered assurance for image-based navigation, for example, described office-like laboratory studies where participants were asked to assess the adequacy of image-based 2D/3D registration, revealing that evaluators struggled to identify misalignments reliably. For that same task in robotic surgery, this study investigates whether–and how–the environment in which user studies are administered influences user behavior and performance. Specifically, we compare a conventional office-like lab to a high-fidelity mock operating room (mock OR) with an active robotic system, where the latter is contextually more relevant to the surgical task. Twenty-one participants first trained in an office, then were randomly assigned to either return to the office or proceed to the mock OR. Although task performance did not differ significantly, likely due to task difficulty, participants in the mock OR showed significantly higher interaction, perceived stakes, and NASA-TLX workload changes, despite completing the same task. These findings suggest that realistic, contextually relevant environments modulate user responses and behavior, with important implications for how user studies are designed, interpreted, and applied in computer-assisted interventions.",
+  "authors": [
+    {
+      "name": "Cho, Sue Min",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Winnie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kilmer, Ethan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Taylor, Russell H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Unberath, Mathias",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4505_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

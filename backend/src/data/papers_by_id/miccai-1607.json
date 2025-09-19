@@ -1,0 +1,97 @@
+{
+  "id": "miccai-1607",
+  "title": "Leveraging Semantic Asymmetry for Accurate Gross Tumor Volume Segmentation of Nasopharyngeal Carcinoma in Planning CT",
+  "abstract": "In the radiation therapy of nasopharyngeal carcinoma (NPC), clinicians typically delineate the gross tumor volume (GTV) using non-contrast planning computed tomography to ensure accurate radiation dose delivery. However, the low contrast between tumors and adjacent normal tissues requires radiation oncologists to delineate the tumors with additional reference from MRI images manually. \n%\nIn this study, we propose a novel approach to directly segment NPC gross tumors on non-contrast planning CT images, circumventing potential registration errors when aligning MRI or MRI-derived tumor masks to planning CT. To address the low contrast issues between tumors and adjacent normal structures in planning CT, we introduce a 3D Semantic Asymmetry Tumor Segmentation (SATS) method.\nSpecifically, we posit that a healthy nasopharyngeal region is characteristically bilaterally symmetric, whereas the presence of nasopharyngeal carcinoma disrupts this symmetry. \nThen, we propose a Siamese contrastive learning segmentation framework that minimizes the voxel-wise distance between original and flipped areas without tumor and encourages a larger distance between original and flipped areas with tumor.\nThus, our approach enhances the sensitivity of deep features to semantic asymmetries.\n%\nExtensive experiments demonstrate that the proposed SATS achieves the leading NPC GTV segmentation performance in both internal and external testing.",
+  "authors": [
+    {
+      "name": "Li, Zi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zeli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Yanzhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Tai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mok, Tony C. W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yan-Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Yunhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Zhilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yirui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Jia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Senxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xianghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Dakai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1607_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

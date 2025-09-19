@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0793",
+  "title": "High-Precision Mixed Feature Fusion Network Using Hypergraph Computation for Cervical Abnormal Cell Detection",
+  "abstract": "Automatic detection of abnormal cervical cells from Thin-prep Cytologic Test (TCT) images is a critical component in the development of intelligent computer-aided diagnostic systems. However, existing algorithms typically fail to effectively model the correlations of visual features, while these spatial correlation features actually contain critical diagnostic information. Furthermore, no detection algorithm has the ability to integrate inter-correlation features of cells with intra-discriminative features of cells, lacking a fusion  strategy for the end-to-end detection model. In this work, we propose a hypergraph-based cell detection network that effectively fuses different types of features, combining spatial correlation features and deep discriminative features. Specifically, we use a Multi-level Fusion Sub-network (MLF-SNet) to enhance feature extraction capabilities. Then we introduce a Cross-level Feature Fusion Strategy with Hypergraph Computation module (CLFFS-HC), to integrate mixed features. Finally, we conducted experiments on three publicly available datasets, and the results demonstrate that our method significantly improves the performance of cervical abnormal cell detection. The code is publicly available at https://github.com/ddddoreen/HyperMF2-Cell-Detection.",
+  "authors": [
+    {
+      "name": "Li, Jincheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Danyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Menglin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jingbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hang, Yueqin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lichi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Lili",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0793_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

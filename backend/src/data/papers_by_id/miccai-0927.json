@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0927",
+  "title": "Multi-Spatial Granger Causality Features Fusion Network for Alzheimer’s Disease Classification",
+  "abstract": "By leveraging complementary Euclidean and graph-based spatial information from structural Magnetic Resonance Imaging (sMRI), the effective fusion of multi-spatial brain features holds the potential to enhance the classification accuracy for Alzheimer’s Disease (AD). Existing deep learning models often rely on simplistic methods such as concatenation, weighted summation, and self-attention to integrate Euclidean and graph spatial features. However, these models neglect the causal relationships between feature domains and labels, resulting in redundancies and limiting the classification accuracy. In this study, we propose a Multi-Spatial Granger Causality Features Fusion Network (MSGCFNet). Specifically, the MSGCFNet consists of a Multi-Spatial Features Encoder (MSFEN) module that extracts Euclidean and graph spatial features, a Multi-Spatial Granger Causality Features Disentanglement (MSGCFD) module that uses Granger causality-based learning to disentangle the causal dependencies within Euclidean and graph spatial features, and a Multi-Spatial Features Fusion Classification (MSFFC) module that employs a bidirectional cross-attention mechanism to robustly fuse the disentangled features from the two spatial features. Additionally, we design a multi-spatial Granger causal contrast disentanglement loss function that effectively minimizes the bias and redundancy of the disentangled features. Experimental results demonstrate that MSGCFNet achieves classification accuracies of 93.6% for Alzheimer’s Disease (AD) vs. Normal Controls (NC) and 83.4% for Early Mild Cognitive Impairment (EMCI) vs. Late Mild Cognitive Impairment (LMCI) tasks, highlighting its superior classification performance. The code is available at https://github.com/FindBrain/MSGCFNet.",
+  "authors": [
+    {
+      "name": "Song, Zhiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jingming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Hu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Xiaojuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0927_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

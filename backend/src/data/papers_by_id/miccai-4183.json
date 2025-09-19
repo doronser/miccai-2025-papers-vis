@@ -1,0 +1,47 @@
+{
+  "id": "miccai-4183",
+  "title": "MedDiff-FT: Data-Efficient Diffusion Model Fine-tuning with Structural Guidance for Controllable Medical Image Synthesis",
+  "abstract": "Recent advancements in deep learning for medical image seg-\nmentation are often limited by the scarcity of high-quality training data.While diffusion models provide a potential solution by generating synthetic images, their effectiveness in medical imaging remains constrained due to their reliance on large-scale medical datasets and the need for higher image quality. To address these challenges, we present MedDiff-FT , a controllable medical image generation method that fine-tunes a diffusion foundation model to produce medical images with structural dependency and domain specificity in a data-efficient manner. During\ninference, a dynamic adaptive guiding mask enforces spatial constraints to ensure anatomically coherent synthesis, while a lightweight stochastic mask generator enhances diversity through hierarchical randomness injection. Additionally, an automated quality assessment protocol filters suboptimal outputs using feature-space metrics, followed by mask corrosion to refine fidelity. Evaluated on five medical segmentation datasets,MedDiff-FT ’s synthetic image-mask pairs improve SOTA method’s segmentation performance by an average of 1% in Dice score. The framework effectively balances generation quality, diversity, and computational efficiency, offering a practical solution for medical data augmentation.\nThe code is available at https://github.com/JianhaoXie1/MedDiff-FT.",
+  "authors": [
+    {
+      "name": "Xie, Jianhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ziang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weng, Zhenyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Yuesheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Guibo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4183_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

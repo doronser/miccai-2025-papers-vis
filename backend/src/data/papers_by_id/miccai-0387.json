@@ -1,0 +1,72 @@
+{
+  "id": "miccai-0387",
+  "title": "Self is the Best Learner: CT-free Ultra-Low-Dose PET Organ Segmentation via Collaborating Denoising and Segmentation Learning",
+  "abstract": "Organ segmentation in Positron Emission Tomography (PET) plays a vital role in cancer quantification. Low-dose PET (LDPET) provides a safer alternative by reducing radiation exposure. However, the inherent noise and blurred boundaries make organ segmentation more challenging. Additionally, existing PET organ segmentation methods rely on co-registered Computed Tomography (CT) annotations, overlooking the problem of modality mismatch. In this study, we propose LDOS, a novel CT-free ultra-LDPET organ segmentation pipeline. Inspired by Masked Autoencoders (MAE), we reinterpret LDPET as a naturally masked version of Full-Dose PET (FDPET). LDOS adopts a simple yet effective architecture: a shared encoder extracts generalized features, while task-specific decoders independently refine outputs for denoising and segmentation. By integrating CT-derived organ annotations into the denoising process, LDOS improves anatomical boundary recognition and alleviates the PET/CT misalignments. Experiments demonstrate that LDOS achieves state-of-the-art performance with mean Dice scores of 73.11% (18F-FDG) and 73.97% (68Ga-FAPI) across 18 organs in 5% dose PET. Our code will be available at https://github.com/yezanting/LDOS.",
+  "authors": [
+    {
+      "name": "Ye, Zanting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Niu, Xiaolong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Xuanbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Wantong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Yijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yanchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Hubing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Lijun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0387_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "miccai-4366",
+  "title": "Endplate3D-QCT: A High-Resolution Dataset and Benchmark for Automated 3D Segmentation of Lumbar Vertebral Endplates in QCT",
+  "abstract": "Accurate segmentation of lumbar vertebral endplates is essential for assessing bone density and biomechanical properties in spinal disorders. While quantitative computed tomography (QCT) provides detailed bone density measurements, existing segmentation approaches primarily focus on vertebral bodies and intervertebral discs, often neglecting the precise delineation of endplates. \nCurrent deep learning methods perform well in healthy spines but struggle with pathological cases due to the thin and morphologically complex nature of endplates, particularly in the presence of osteophytes and degenerative changes.\nTo address these challenges, we introduce the first publicly available dataset, Endplate3D-QCT, which contains pixel-level annotations of lumbar endplates in clinical QCT scans. Our dataset includes high-precision 3D segmentation masks targeting cortical endplates and subchondral bone, along with an automated evaluation framework for model assessment. We benchmark multiple deep learning models, including EfficientUNet, UNet, VNet, UNETR and SwinUNETR, using nnUNet as the training framework. While these models achieve Dice scores around 0.9, they exhibit inconsistencies in endplate identification, leading to false positives and false negatives. These findings highlight the need for further advancements in endplate segmentation techniques. Our dataset and benchmarks provide a valuable foundation for improving spinal implant design, bone density mapping, and computational modeling of vertebral load distribution. The dataset and the evaluation code are available at https://github.com/yin876705249/Endplate3D-QCT.",
+  "authors": [
+    {
+      "name": "Yin, Zixun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Da",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Chenbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Weishi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Minghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Kun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ping",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> Biomedical Image Computing for Neglected Diseases"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4366_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

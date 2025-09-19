@@ -1,0 +1,80 @@
+{
+  "id": "miccai-2266",
+  "title": "Anatomy-Aware Low-Dose CT Denoising via Pretrained Vision Models and Semantic-Guided Contrastive Learning",
+  "abstract": "To reduce radiation exposure and improve the diagnostic efficacy of low-dose computed tomography (LDCT), numerous deep learning-based denoising methods have been developed to mitigate noise and artifacts. However, most of these approaches ignore the anatomical semantics of human tissues, which may potentially result in suboptimal denoising outcomes. To address this problem, we propose ALDEN, an anatomy-aware LDCT denoising method that integrates semantic features of pretrained vision models (PVMs) with adversarial and contrastive learning. Specifically, we introduce an anatomy-aware discriminator that dynamically fuses hierarchical semantic features from reference normal-dose CT (NDCT) via cross-attention mechanisms, enabling tissue-specific realism evaluation in the discriminator. In addition, we propose a semantic-guided contrastive learning module that enforces anatomical consistency by contrasting PVM-derived features from LDCT, denoised CT and NDCT, preserving tissue-specific patterns through positive pairs and suppressing artifacts via dual negative pairs. Extensive experiments conducted on two LDCT denoising datasets reveal that ALDEN achieves the state-of-the-art performance, offering superior anatomy preservation and substantially reducing over-smoothing issue of previous work. Further validation on a downstream multi-organ segmentation task (encompassing 117 anatomical structures) affirms the model’s ability to maintain anatomical awareness.",
+  "authors": [
+    {
+      "name": "Wang, Runze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zeli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhiyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiajin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tu, Danyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Yuxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Minfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xianghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Dakai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2266_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

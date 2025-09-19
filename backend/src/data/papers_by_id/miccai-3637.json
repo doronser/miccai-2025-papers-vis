@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3637",
+  "title": "End-to-End 3D Tooth Landmark Detection with Fuzzy Tooth Localization",
+  "abstract": "Accurate detection of tooth landmarks is crucial for computer-aided orthodontic treatment. \nPrevious methods often employ segmentation to isolate individual teeth, but rely heavily on segmentation accuracy and require annotated data.\nIn this paper, we introduce a two-stage framework for tooth localization and landmark detection, eliminating the need for segmentation based on mesh deep learning.\nFirst, we define the fuzzy tooth regions based on landmark positions.\nBinary masks are generated for the tooth regions located from the original jaw mesh. \nBy combining local features of individual teeth with the global features of the jaw model, our method predicts multiple heatmaps and the corresponding probabilities of potential landmarks for each tooth.\nFinally, we design a bipartite matching loss for both tooth localization and landmark detection to align the prediction set with the ground truth, thereby facilitating end-to-end inference throughout the entire process.\nExperimental results on the Teeth3DS+ dataset demonstrate that our method effectively detects a variable number of landmarks. Furthermore, it significantly outperforms existing baseline methods, exhibiting robust generalization and superior performance.\n(The code will be released at \\url{https://github.com/sikingbo/ToothLDNet}.)",
+  "authors": [
+    {
+      "name": "Shi, Kaibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Hairong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Youyi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3637_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

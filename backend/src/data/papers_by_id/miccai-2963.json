@@ -1,0 +1,42 @@
+{
+  "id": "miccai-2963",
+  "title": "Causality-driven Spatio-temporal Generator for Multi-phase Contrast-enhanced CT Synthesis",
+  "abstract": "Synthesizing multi-phase contrast-enhanced CT (CE-CT) images is clinically significant, as it can mitigate clinical risks such as radiation exposure and allergic reactions to contrast agents. However, existing methods treat multi-phase synthesis as separate tasks, failing to maintain the inter-phase dependencies and consistency between synthesized multi-phase CE-CT images. Moreover, the limited variability in CT intensity distributions makes it challenging to capture subtle variations in multi-phase imaging. For the first time, we propose a novel Causality-driven Spatio-temporal Generator (CSGen) for synthesizing multi-phase CE-CT imaging through three key novelties:\n1)\tUsing a novel phase-causality to creatively exploit the multi-phase variation content for driving the multi-phase CE-CT synthesizing, addressing the challenge of capturing multi-phase discriminative features through one model.\n2) Introducing a new Spatio-temporal Transformer to establish the spatio-temporal correlation between multi-phase CE-CT images for leveraging multi-phase inter- and intra-dependencies and improving synthesis quality.\n3)\tMulti-phase adversarial learning is designed for enhancing multi-phase discriminative feature learning. Experimental results (mean PSNR: 31.15, mean SSIM: 0.9066, mean NMAE: 3.17) demonstrate that  CSGen outperforms state-of-the-art synthesis methods, and, for the first time, successfully synthesizes multi-phase CE-CT images.",
+  "authors": [
+    {
+      "name": "Zhu, Qikui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yanyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2963_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

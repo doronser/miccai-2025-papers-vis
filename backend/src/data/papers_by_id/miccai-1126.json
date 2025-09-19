@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1126",
+  "title": "All-in-One Medical Image Restoration with Latent Diffusion-Enhanced Vector-Quantized Codebook Prior",
+  "abstract": "All-in-one medical image restoration (MedIR) aims to address multiple MedIR tasks using a unified model, concurrently recovering various high-quality (HQ) medical images (e.g., MRI, CT, and PET) from low-quality (LQ) counterparts. However, all-in-one MedIR presents significant challenges due to the heterogeneity across different tasks. Each task involves distinct degradations, leading to diverse information losses in LQ images. Existing methods struggle to handle these diverse information losses associated with different tasks. To address these challenges, we propose a latent diffusion-enhanced vector-quantized codebook prior and develop DiffCode, a novel framework leveraging this prior for all-in-one MedIR. Specifically, to compensate for diverse information losses associated with different tasks, DiffCode constructs a task-adaptive codebook bank to integrate task-specific HQ prior features across tasks, capturing a comprehensive prior. Furthermore, to enhance prior retrieval from the codebook bank, DiffCode introduces a latent diffusion strategy that utilizes the diffusion model’s powerful mapping capabilities to iteratively refine the latent feature distribution, estimating more accurate HQ prior features during restoration. With the help of the task-adaptive codebook bank and latent diffusion strategy, DiffCode achieves superior performance in both quantitative metrics and visual quality across three MedIR tasks: MRI super-resolution, CT denoising, and PET synthesis.",
+  "authors": [
+    {
+      "name": "Chen, Haowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Zhiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Haotian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Bingzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1126_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

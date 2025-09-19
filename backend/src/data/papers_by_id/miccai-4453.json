@@ -1,0 +1,43 @@
+{
+  "id": "miccai-4453",
+  "title": "Supervised Diffusion-Model-Based PET Image Reconstruction",
+  "abstract": "Diffusion models (DMs) have recently been introduced as a regularizing prior for PET image reconstruction, integrating DMs trained on high-quality PET images with unsupervised schemes that condition on measured data. While these approaches have potential generalization advantages due to their independence from the scanner geometry and the injected activity level, they forgo the opportunity to explicitly model the interaction between the DM prior and noisy measurement data, potentially limiting reconstruction accuracy. To address this, we propose a supervised DM-based algorithm for PET reconstruction. Our method enforces the non-negativity of PET’s Poisson likelihood model and accommodates the wide intensity range of PET images. Through experiments on realistic brain PET phantoms, we demonstrate that our approach outperforms or matches state-of-the-art deep learning-based methods quantitatively across a range of dose levels. We further conduct ablation studies to demonstrate the benefits of the proposed components in our model, as well as its dependence on training data, parameter count, and number of diffusion steps. Additionally, we show that our approach enables more accurate posterior sampling than unsupervised DM-based methods, suggesting improved uncertainty estimation. Finally, we extend our methodology to a practical approach for fully 3D PET and present example results from real [18F]FDG brain PET data.",
+  "authors": [
+    {
+      "name": "Webber, George",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hammers, Alexander",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "King, Andrew P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Reader, Andrew J.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4453_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

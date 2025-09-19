@@ -1,0 +1,45 @@
+{
+  "id": "miccai-4471",
+  "title": "Domain-Agnostic Stroke Lesion Segmentation Using Physics-Constrained Synthetic Data",
+  "abstract": "Segmenting stroke lesions in MRI is challenging due to diverse acquisition protocols that limit model generalisability. In this work, we introduce two physics-constrained approaches to generate synthetic quantitative MRI (qMRI) images that improve segmentation robustness across heterogeneous domains. Our first method, qATLAS, trains a neural network to estimate qMRI maps from standard MPRAGE images, enabling the simulation of varied MRI sequences with realistic tissue contrasts. The second method, qSynth, synthesises qMRI maps directly from tissue labels using label-conditioned Gaussian mixture models, ensuring physical plausibility. Extensive experiments on multiple out-of-domain datasets show that both methods outperform a baseline UNet, with qSynth notably surpassing previous synthetic data approaches. These results highlight the promise of integrating MRI physics into synthetic data generation for robust, generalisable stroke lesion segmentation. Code is available at https://github.com/liamchalcroft/qsynth",
+  "authors": [
+    {
+      "name": "Chalcroft, Liam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Crinion, Jenny",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Price, Cathy J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ashburner, John",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4471_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

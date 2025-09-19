@@ -1,0 +1,58 @@
+{
+  "id": "miccai-4892",
+  "title": "VAP-Diffusion: Enriching Descriptions with MLLMs for Enhanced Medical Image Generation",
+  "abstract": "As the appearance of medical images is influenced by multiple underlying factors, generative models require rich attribute information beyond labels to produce realistic and diverse images. For instance, generating an image of skin lesion with specific patterns demands descriptions that go beyond diagnosis, such as shape, size, texture, and color. However, such detailed descriptions are not always accessible. To address this, we explore a framework, termed Visual Attribute Prompts (VAP) Diffusion, to leverage external knowledge from pre-trained Multi-modal Large Language Models (MLLMs) to improve the quality and diversity of medical image generation. First, to derive descriptions from MLLMs without hallucination, we design a series of prompts following Chain-of-Thoughts for common medical imaging tasks, including dermatologic, colorectal, and chest X-ray images. Generated descriptions are utilized during training and stored across different categories. During testing, descriptions are randomly retrieved from the corresponding category for inference. Moreover, to make the generator robust to unseen combination of descriptions at the test time, we propose a Prototype Condition Mechanism that restricts test embeddings to be similar to those from training. Experiments on three common types of medical imaging across four datasets verify the effectiveness of VAP-Diffusion.",
+  "authors": [
+    {
+      "name": "Huang, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Junhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Bowen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zeju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuanyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4892_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

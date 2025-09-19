@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0340",
+  "title": "PRGNN: Pyramidal Region Graph Neural Network for Region-Based Brain PET Classification",
+  "abstract": "Brain positron emission tomography (PET) has been widely used for the diagnosis of various neurodegenerative diseases. To assist physicians, convolutional neural networks (CNNs) and transformers have been explored for prediction of diseases based on brain PET images. While these models show promising performance, they are designed to process the entire image, which facilitates shortcut learning by extracting irrelevant features. To alleviate shortcut learning, we observe that brain images share the same structure, and regions of interest (ROIs) can be defined for relevant regions. In this regard, we propose Pyramidal Region Graph Neural Network (PRGNN), which employs a 3D convolutional backbone to learn multi-level feature representations and constructs nodes that correspond to anatomical ROIs. Using ROI-based node embeddings, PRGNN extracts metabolic patterns in functionally relevant regions and performs explicit inter-regional reasoning. We evaluate PRGNN on classifying 18F-fluorodeoxyglucose (FDG) and amyloid PET, outperforming models based on CNN, transformer, and GNN. Moreover, interpretability analyses highlight disease-relevant regions that align with clinical observations, demonstrating PRGNN’s potential for improving diagnostic performance and reliability. Code is available at https://github.com/Treeboy2762/PRGNN.",
+  "authors": [
+    {
+      "name": "Kim, Daesung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Seo, Seungbeom",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Boosung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Choo, Kyobin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jun, Youngjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yun, Mijin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0340_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

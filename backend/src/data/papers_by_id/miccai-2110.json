@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2110",
+  "title": "D2Diff: A Dual-Domain Diffusion Model for Accurate Multi-Contrast MRI Synthesis",
+  "abstract": "Multi-contrast MRI synthesis is inherently challenging due to the complex and nonlinear relationships among different contrasts. Each MRI contrast highlights unique tissue properties, but their complementary information is difficult to exploit due to variations in intensity distributions and contrast-specific textures. Existing methods for multi-contrast MRI synthesis primarily utilize spatial domain features, which capture localized anatomical structures but struggle to model global intensity variations and distributed patterns. Conversely, frequency-domain features provide structured inter-contrast correlations but lack spatial precision, limiting their ability to retain finer details. To address this, we propose a dual-domain learning framework that integrates spatial and frequency domain information across multiple MRI contrasts for enhanced synthesis. Our method employs two mutually trained denoising networks, one conditioned on spatial domain and the other on frequency domain contrast features through a shared critic network. Additionally, an uncertainty-driven mask loss directs the model’s focus toward more critical regions, further improving synthesis accuracy. Extensive experiments show that our method outperforms state-of-the-art (SOTA) baselines, and the downstream segmentation performance highlights the diagnostic value of the synthetic results. Code and model hyperparameters are available at https://github.com/sanuwanihewa/D2Diff",
+  "authors": [
+    {
+      "name": "Dayarathna, Sanuwani",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peiris, Himashi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Islam, Kh Tohidul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Tien-Tsin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhaolin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2110_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

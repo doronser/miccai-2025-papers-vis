@@ -1,0 +1,51 @@
+{
+  "id": "miccai-4333",
+  "title": "LHU-Net: a Lean Hybrid U-Net for Cost-efficient, High-performance Volumetric Segmentation",
+  "abstract": "The rise of Transformer architectures has advanced medical image segmentation, leading to hybrid models that combine Convolutional Neural Networks (CNNs) and Transformers. However, these models often suffer from excessive complexity and fail to effectively integrate spatial and channel features, crucial for precise segmentation. To address this, we propose LHU-Net, a Lean Hybrid U-Net for volumetric medical image segmentation. LHU-Net prioritizes spatial feature extraction before refining channel features, optimizing both efficiency and accuracy. Evaluated on four benchmark datasets (Synapse, Left Atrial, BraTS-Decathlon, and Lung-Decathlon), LHU-Net consistently outperforms existing models across diverse modalities (CT/MRI) and output configurations. It achieves state-of-the-art Dice scores while using four times fewer parameters and 20% fewer FLOPs than competing models, without the need for pre-training, additional data, or model ensembles. With an average of 11 million parameters, LHU-Net sets a new benchmark for computational efficiency and segmentation accuracy. Our implementation is available on github.com/xmindflow/LHUNet.",
+  "authors": [
+    {
+      "name": "Sadegheih, Yousef",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bozorgpour, Afshin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kumari, Pratibha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Azad, Reza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Merhof, Dorit",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4333_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

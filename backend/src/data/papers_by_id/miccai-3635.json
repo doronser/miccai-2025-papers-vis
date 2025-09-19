@@ -1,0 +1,68 @@
+{
+  "id": "miccai-3635",
+  "title": "Multi-Level Gated U-Net for Denoising TMR Sensor-Based MCG Signals",
+  "abstract": "Tunnel magnetoresistance (TMR) sensors have been recognized as a cost-effective alternative for measuring magnetocardiography (MCG) signals. However, their relatively high noise levels and susceptibility to contamination limit their practical clinical applications. To address these challenges, we propose a novel Multi-Level Gated U-Net (MGU-Net) model specifically designed for denoising long sequential MCG signals obtained from TMR sensors. The MGU-Net leverages the U-Net architecture to learn hierarchical representations, integrated with a novel Gated Linear Unit (GLU) module to capture the periodic pattern of  Q, R, and S wave complex (QRS complex)  from MCG. This design enhances periodic cardiac signatures and suppresses irregular noise components through adaptive gating mechanisms. We have developed a TMR-based MCG system and collected both simulated and real MCG data in a magnetically shielded environment. The results show that our method improve signal-to-noise ratio (SNR) from -2.142 dB to 10.505 dB on the simulated MCG dataset and from 3.958 dB to 14.514 dB on the real dataset, surpassing other state-of-the-art methods. Our model successfully recovers subtle P-wave and T-wave features from the noisy signals, illustrating a promising direction of using TMR-based systems for potential practical clinical applications.",
+  "authors": [
+    {
+      "name": "Xing, Zeyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Zhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dai, Jingguo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Tianzi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> EEG / ECG",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3635_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

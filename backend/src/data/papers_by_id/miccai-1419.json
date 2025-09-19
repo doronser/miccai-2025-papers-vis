@@ -1,0 +1,81 @@
+{
+  "id": "miccai-1419",
+  "title": "Metastatic Lymph Node Station Classification in Esophageal Cancer via Prior-guided Supervision and Station-Aware Mixture-of-Experts",
+  "abstract": "Assessing lymph node (LN) metastasis in CT is critical for esophageal cancer treatment planning. While clinical criteria are commonly used, the diagnostic accuracy is low with sensitivities ranging from 39.7% to 67.2% in previous studies. Deep learning would have the potential to improve it by learning from large-scale accurately labeled data. However, from the surgical procedure in LN dissection, pathological report only indicates the number of dissected LNs in each lymph node station (LN-station) with the number of metastatic ones found in the respective LN-station. So, it is difficult to establish one-to-one pairing between LN instances observed in CT and their metastasis status confirmed in the pathological report. In contrast, gold reference labels on LN-station metastasis can be readily retrieved from pathology reports at scale. Hence, instead of distinguishing LN instance metastasis, we directly classify LN-station metastasis using pathology-confirmed station labels. We first segment mediastinal LN-stations automatically to serve as input for classification. Then, to improve classification performance, we automatically segment all visible LN instances in CT and design a new LN prior-guided attention loss to explicitly regularize the network to focus on regions of suspicious LN. Furthermore, considering the varying appearances and contexts of different LN-station, we propose a station-aware mixture-of-experts module, where the expert is trained to specialize in a group of LN-stations by learning to route each LN-station group tokens to the corresponding expert. We conduct five-fold cross-validation on 1,153 esophageal cancer patients with CT and pathology reports (the largest study to date), and our method significantly outperforms state-of-the-art approaches by 2.26% in AUROC.",
+  "authors": [
+    {
+      "name": "Li, Haoshen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yirui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Qinji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Ke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Dazhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xianghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Dakai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1419_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

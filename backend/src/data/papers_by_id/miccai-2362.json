@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2362",
+  "title": "Omni-Fusion of Spatial and Spectral for Hyperspectral Image Segmentation",
+  "abstract": "Medical Hyperspectral Imaging (MHSI) has emerged as a promising tool for enhanced disease diagnosis, particularly in computational pathology, offering rich spectral information that aids in identifying subtle biochemical properties of tissues. Despite these advantages, effectively fusing both spatial-dimensional and spectral-dimensional information from MHSIs remains challenging due to its high dimensionality and spectral redundancy inherent characteristics. To solve the above challenges, we propose a novel spatial-spectral omni-fusion network for hyperspectral image segmentation, named as Omni-Fuse. Here, we introduce abundant cross-dimensional feature fusion operations, including (1) a cross-dimensional enhancement module that refines both spatial and spectral features through bidirectional attention mechanisms; (2) a spectral-guided spatial query selection to select the most spectral-related spatial feature as the query; and (3) a two-stage cross-dimensional decoder which dynamically guide the model’s attention towards the selected spatial query. Despite of numerous attention blocks, Omni-Fuse remains efficient in execution. Experiments on two microscopic hyperspectral image datasets show that our approach can significantly improve the segmentation performance compared with the state-of-the-art methods, with over 5.73\\% improvement in DSC. Code available at: https://github.com/DeepMed-Lab-ECNU/Omni-Fuse.",
+  "authors": [
+    {
+      "name": "Zhang, Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pei, Guoquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2362_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

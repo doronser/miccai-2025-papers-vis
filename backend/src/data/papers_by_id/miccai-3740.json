@@ -1,0 +1,50 @@
+{
+  "id": "miccai-3740",
+  "title": "OFF-CLIP: Improving Normal Detection Confidence in Radiology CLIP with Simple Off-Diagonal Term Auto-Adjustment",
+  "abstract": "Contrastive Language-Image Pre-Training (CLIP) based models enable zero-shot classification in radiology but often struggle with detecting normal cases due to rigid intra-sample alignment, which leads to poor feature clustering and increased false positive and false negative rates. We propose OFF-CLIP, a simple and effective refinement that introduces an off-diagonal loss term to promote the clustering of normal samples explicitly. In addition, it applies sentence-level filtering to remove typical normal phrases embedded within abnormal reports. OFF-CLIP does not require architectural changes and does not compromise abnormal classification performance. In the VinDr-CXR dataset, normal classification shows a notable 0.61 AUC improvement over the state-of-the-art baseline CARZero. It also improves zero-shot grounding performance by increasing pointing game accuracy and providing more reliable and precise anomaly localization. These results clearly demonstrate that OFF-CLIP serves as an efficient plug-and-play enhancement to existing medical vision-language models. The code and pre-trained models are publicly available at https://github.com/Junhyun-Park01/OFF-CLIP.",
+  "authors": [
+    {
+      "name": "Park, Junhyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Moon, Chanyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Donghwan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Kyungsu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hwang, Minho",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3740_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

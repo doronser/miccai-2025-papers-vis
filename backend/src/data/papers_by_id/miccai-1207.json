@@ -1,0 +1,66 @@
+{
+  "id": "miccai-1207",
+  "title": "V2T-CoT: From Vision to Text Chain-of-Thought for Medical Reasoning and Diagnosis",
+  "abstract": "Recent advances in multimodal techniques have led to significant progress in Medical Visual Question Answering (Med-VQA).However, most existing models focus on global image features rather than localizing disease-specific regions crucial for diagnosis. Additionally, current research tends to emphasize answer accuracy at the expense of the reasoning pathway, yet both are crucial for clinical decision-making. To address these challenges, we propose From Vision to Text Chain-of-Thought (V2T-CoT), a novel approach that automates the localization of preference areas within biomedical images and incorporates this localization into region-level pixel attention as knowledge for Vision CoT. By fine-tuning the vision language model on constructed R-Med 39K dataset, V2T-CoT provides definitive medical reasoning paths. V2T-CoT integrates visual grounding with textual rationale generation to establish precise and explainable diagnostic results. Experimental results across four Med-VQA benchmarks demonstrate state-of-the-art performance, achieving substantial improvements in both performance and interpretability.",
+  "authors": [
+    {
+      "name": "Wang, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jiaxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shujian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Zhihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gai, Xiaotang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zuozhu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1207_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0999",
+  "title": "Weakly Semi-Supervised Cervical Lesion Cell Detection via Twin-Memory Augmented Multiple Instance Learning",
+  "abstract": "Deep learning methods have demonstrated promising results in cervical lesion cell detection. Training detection models that generalize well typically require a large amount of cell-level annotations that are expensive and time-consuming to obtain. Instead, weak slide-level annotations, which entail assigning a gigapixel whole slide image (WSI) with a single label, are easier to acquire. However, due to significant differences in annotation scales, they cannot be directly utilized to assist in the training of cervical cell detectors. To address this challenge, we propose a Twin-memory augmented Multiple Instance Learning (Twin-MIL) framework to refine cervical lesion cell detection. Firstly, we utilize the multiple instance learning to bridge the gap between cell-level and slide-level tasks. Then, we reduce false positives in conventional MIL by introducing a twin-memory module, which improves the classification capability by capturing more discriminative patterns of positive and negative cells. We also propose uncertainty-regulated negative instance learning to enhance the robustness of negative latent space against noisy instances and its separability from the positive one. Experiments indicate that our method is effective in enhancing different detection models trained on the datasets with varying annotation levels.",
+  "authors": [
+    {
+      "name": "Fei, Manman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhiyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Zhenrong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mengjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lichi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Gynecology",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0999_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

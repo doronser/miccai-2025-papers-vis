@@ -1,0 +1,55 @@
+{
+  "id": "miccai-4914",
+  "title": "Bayesian Transformers and Higher-Order Graph Matching for Cell Tracking in Serial Tissue Sections",
+  "abstract": "Reliable 3D reconstruction of tissue architecture from sequential 2D multiplex images is challenging due to the noise and distortions introduced by ultrathin (50 nm) slicing and complex alignment procedures. Conventional cell tracking methods often fail under such conditions, resulting in inaccurate linkage of cells across sections. To bridge this gap, we propose a Bayesian Transformer framework that incorporates uncertainty-aware feature embeddings and higher-order graph matching with belief propagation. By tracking cells across consecutive sections, our method facilitates the 3D reconstruction of volumetric tissue organization, even in highly noise-prone scenarios. The methodology begins with a standard segmentation step, followed by feature extraction that computes morphological, shape, and texture descriptors, as well as deep CNN embeddings. These rich, uncertainty-sensitive representations reduce errors caused by both registration artifacts and morphological variability. We validate the effectiveness of the proposed approach on a private multiplex dataset of fixed tissue sections and further demonstrate its generalizability on public time-lapse microscopy videos, showcasing adaptability to diverse datasets. Experimental comparisons reveal that our method outperforms baseline tracking techniques, achieving higher accuracy and more consistent cell linkages across multiple serial sections. The code used in this research with sample dataset are publicly available at https://github.com/NabaviLab/bayesian-transformer-cell-tracking.",
+  "authors": [
+    {
+      "name": "Karami, Mostafa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hamzehei, Sahand",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arce, David",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Raimondi, Gianna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ostroff, Linnaea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nabavi, Sheida",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Image Registration",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4914_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

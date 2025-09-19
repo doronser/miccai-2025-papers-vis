@@ -1,0 +1,40 @@
+{
+  "id": "miccai-1404",
+  "title": "Mutual Information Regularization for Fairness-aware Deep Imaging Representations",
+  "abstract": "Fairness in medical imaging ML models is dependent on ensuring they are not impacted by sensitive attributes such as such as race and gender. Building on popularly considered in-processing fairness mitigation strategies, we present a novel approach to leveraging mutual information (MI) regularization to learn fairness-aware deep imaging representations. Based on analytical and theoretical justification, we develop a unique gradient-based mutual information penalty which bypasses the need for MI estimation within our Fairness-aware MI (FaMI) framework which avoids unstable approximations and scales effectively to large datasets. \nFaMI was implemented in conjunction with popular DenseNet and Vision Transformer architectures and  evaluated against nine alternative fairness-aware alternatives as well as alternative MI estimators. Experiments on multi-institutional retinal OCT and rectal cancer MRI cohorts demonstrate that FaMI-ViT achieves the highest overall classification AUC (0.83 in distinguishing glaucoma vs non-glaucoma, 0.81 in distinguishing responders vs non-responders) while also improving fairness-related metrics across disparity subgroups, increasing EOM up to 0.84 and reducing EOdd by up to 0.85. These results highlight the potential of fairness-aware MI constraints in developing robust and equitable imaging-based ML models.",
+  "authors": [
+    {
+      "name": "Sadri, Amir Reza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "DeSilvio, Thomas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Viswanath, Satish E.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Eye",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1404_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

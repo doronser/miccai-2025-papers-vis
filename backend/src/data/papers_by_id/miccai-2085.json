@@ -1,0 +1,43 @@
+{
+  "id": "miccai-2085",
+  "title": "ProgreSpine: Inherently Explainable Prototypical Regression for Spine Age Estimation",
+  "abstract": "Spine aging is a complicated process shaped by pathologies, genetic factors, and lifestyle influences. Radiologists routinely use MR images to assess the spinal health of patients in different age brackets. Quantifying spinal health as an organ age would allow ranking and monitoring of patients within the same and across different demographics. However, spine age estimation has been limited to classical machine learning methods which suffer from high error rates and a lack of interpretability. Moreover, inherently explainable state-of-the-art models in organ age estimation, such as prototypical networks, are limited to 2D and are not extendable to repeated prototype labels. This is important as organs typically degenerate in different ways as a result of aging. We propose ProgreSpine, the first deep-learning-based 3D spine age estimation model based on prototypical regression with a loss specifically tailored to repeated prototype labels. We trained and tuned our proposed model on a large dataset of 9542 samples and performed a thorough evaluation on 1069 samples to demonstrate improved performance against the state-of-the-art with a mean absolute error of 3.61 years. Furthermore, the results suggest that the model learns the prototypes based on clinical conditions that will facilitate monitoring disease progression with a transparent model. The source code is available at https://github.com/prenuvo/progrespine.",
+  "authors": [
+    {
+      "name": "Bazargani, Roozbeh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Basar, Saqib",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hashemi, Sam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Khallaghi, Siavash",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> MRI",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2085_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

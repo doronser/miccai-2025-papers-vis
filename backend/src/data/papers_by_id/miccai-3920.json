@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3920",
+  "title": "Shuffle-Diversity Collaborative Federated Learning for Imbalanced Medical Image Analysis",
+  "abstract": "Data imbalance presents a significant challenge for the application of federated learning in medical image analysis. To address this challenge, we propose FedSDC, an innovative federated approach designed to effectively tackle the issue of data imbalance, as well as heterogeneity in distributed federated learning environments. The proposed FedSDC framework comprises a shared body network and multiple task-specific head networks. By incorporating a shuffle-diversity collaborative strategy, FedSDC effectively addresses data imbalanc and heterogeneity challenges while improving cross-client generalization. Furthermore, training multiple heads under this strategy enables ensemble predictions, which enhances decision stability and accuracy. To balance efficiency and performance, FedSDC employs the sparse-head scheme during inference phase. Extensive experiments on medical image classification tasks validate that FedSDC achieves state-of-the-art results under imbalanced and heterogeneous data conditions. The source code will be available at https://github.com/wpnine/FedSDC.",
+  "authors": [
+    {
+      "name": "Gao, Wenpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lan, Liantao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yumeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ruxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Xiaomao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3920_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

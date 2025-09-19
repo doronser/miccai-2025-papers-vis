@@ -1,0 +1,57 @@
+{
+  "id": "miccai-1881",
+  "title": "CA-SAM2: SAM2-based Context-Aware Network with Auto-Prompting for Nuclei Instance Segmentation",
+  "abstract": "Nuclei instance segmentation is crucial for biomedical research and disease diagnosis. Pathologists utilize information such as color, shape, and the surrounding tissue microenvironment to distinguish nuclei. However, existing models are limited as they rely solely on features from the current patch, neglecting contextual information from neighboring patches. This limitation impedes the model’s ability to accurately identify nuclei. To address this issue, we propose CA-SAM2, a novel framework that enhances the prompt propagation capability of the Segment Anything Model 2 (SAM2) through a Context Injection Module(CIM), integrating surrounding contextual information during segmentation. Additionally, to adapt SAM2 to the pathology image domain, we introduce a convolutional branch to extract domain-specific features from pathological images. We further design a Multi-Level Feature Refinement Block (MFRB) to refine the prior features extracted by SAM2 and integrate domain features. Finally, we incorporate a regression head and a classification head after the convolutional branch to automatically generate point prompts, eliminating the need for manual annotation. Extensive evaluations of CA-SAM2 on the MoNuSeg and CPM-17 datasets demonstrate its effectiveness and practicality in enhancing nuclei segmentation. The code is available at https://github.com/HanbinHuang123/CA-SAM2.",
+  "authors": [
+    {
+      "name": "Huang, Hanbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Hongliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Liying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Xudong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Siwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Guohong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Scene Understanding",
+    "Special Topic -> Biomedical Image Computing for Neglected Diseases"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1881_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

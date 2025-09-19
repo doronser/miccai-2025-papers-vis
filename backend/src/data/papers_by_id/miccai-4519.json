@@ -1,0 +1,43 @@
+{
+  "id": "miccai-4519",
+  "title": "Super-resolution and segmentation of 4D Flow MRI using Deep learning and Weighted Mean Frequencies",
+  "abstract": "4D Flow MRI is a promising imaging sequence that provides 3D anatomy and velocity along the cardiac cycle.\nHowever, hemodynamic biomarkers are susceptible to degradation due to the low resolution of the imaging modality, which can compromise vessel segmentation.\nIn this study, we propose a novel deep-learning approach, named SURFR-Net, that combines both super-resolution and segmentation tasks, leading to a super-resolved segmentation.\nSURFR-Net is based on the RCAN super-resolution network, modified to handle a multi-task problem.\nA novel handcraft feature, named Weighted Mean Frequencies (WMF), has been introduced with the objective of assisting the network in differentiating between pulsatile and non-pulsatile fluid regions.\nMoreover, we demonstrate the use of WMF feature as input to enhance super-resolution and provide a more relevant segmentation on 4D Flow MRI images.\nThe proposed solution has been shown to outperform the state-of-the-art solution, SRFlow, in terms of direction and quantification error on systolic and diastolic times with a maximum gain of 4.1% in relative error.\nFurthermore, this study demonstrates the benefit of combining the super-resolution with the segmentation in a multi-task framework on both outcomes.\nIn conclusion, the proposed solution has the capacity to facilitate a super-resolved segmentation of the aorta, thereby potentially addressing the primary concern regarding 4D Flow MRI parietal biomarkers, such as wall shear stress.",
+  "authors": [
+    {
+      "name": "Perrin, Simon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Levilly, Sébastien",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mouchère, Harold",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Serfaty, Jean-Michel",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4519_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

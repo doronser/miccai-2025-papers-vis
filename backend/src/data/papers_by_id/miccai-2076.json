@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2076",
+  "title": "Exploring the feasibility of zero-shot super-resolution in preclinical imaging",
+  "abstract": "Preclinical imaging studies are vital to the research, development, and evaluation of new medical therapies. Images acquired during these studies often have high in-plane resolution but low through-plane resolution, resulting in highly anisotropic volumes that hamper downstream volumetric analysis. Additionally, since there are no image acquisition standards across studies, limited general training data restricts the ability of conventional supervised learning approaches that aim to improve resolution. In this work, we compare two super-resolution (SR) methods that do not require additional training data. The first is a self-SR approach that learns from in-plane patches without relying on external data. The second is a denoising diffusion probabilistic model trained solely to represent high-resolution rat magnetic resonance images, and SR is based on the inference step proposed by denoising diffusion null-space models (DDNM). We name this second approach Biplanar DDNM Averaging (BiDA). We evaluate both methods at two scale factors (2.5x and 5x) in withheld data with regard to signal recovery and downstream task performance. We further evaluate these methods when applied to mice instead of rats. Both methods experimentally resulted in good signal recovery performance, but only the images super-resolved by BiDA were accurately skullstripped downstream. While performance was good in rats, BiDA did not generalize satisfactorily to mice, which have smaller heads.",
+  "authors": [
+    {
+      "name": "Gharib, Omar A. M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Remedios, Samuel W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dewey, Blake E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prince, Jerry L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Carass, Aaron",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2076_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

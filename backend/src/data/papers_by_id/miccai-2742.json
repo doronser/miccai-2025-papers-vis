@@ -1,0 +1,68 @@
+{
+  "id": "miccai-2742",
+  "title": "Sim-to-Real Transformer-Based Shape Reconstruction for Automated Orthopedic Fracture Reduction Planning",
+  "abstract": "Accurate orthopedic fracture reduction planning is essential for ensuring successful postoperative recovery and improving patient outcomes. However, current methods are challenged by the complex and irregular fracture geometries and the scarcity of annotated training data. To address these challenges, we propose a novel approach that integrates learning-based shape restoration and fracture simulation. A transformer-based model is developed, which utilizes patch-to-patch restoration and recursive fragment registration to iteratively refine fracture reduction poses. To generate diverse and anatomically realistic fractured datasets for model training, we develop a fracture data simulation approach that combines statistical shape modeling with clinically representative fracture patterns, reducing reliance on annotated samples. Tested on extensive clinical data with hipbone and sacrum fractures, the proposed method achieved mean translational and rotational errors of 2.34 mm and 4.54°, respectively, outperforming both template-based and existing learning-based methods. Our approach enhances learning and generalization for automated fracture reduction by connecting synthetic and real-world fracture data.",
+  "authors": [
+    {
+      "name": "Yibulayimu, Sutuke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yanzhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sang, Yudi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Chunpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Xinbao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2742_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

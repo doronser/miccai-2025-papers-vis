@@ -1,0 +1,57 @@
+{
+  "id": "miccai-4637",
+  "title": "BiSCoT: Behavior-Informed Subgroup-Consistent Connectome Template for Interpretable Brain Network Analysis",
+  "abstract": "We propose a graph information compression framework, called Behavior-Informed Subgroup-consistent Connectome Template (BISCoT), that learns interpretable functional subnetworks from restingstate fMRI (rs-fMRI) connectivity, which simultaneously capture the heterogeneity of a diverse patient cohort. BISCoT uses multidimensional behavioral profiles to guide the decomposition of a rs-fMRI connectivity matrices into sparse yet representative subnetworks that are consistent within behavioral sub-groups. In particular, our framework adopts a graph convolution network to capture local connectivity features and applies a subgroup-informed pooling process to extract the final subnetworks. We evaluate BISCoT on an in-house dataset of individuals with autism spectrum disorder and demonstrate that the learned subnetworks improve the performance of multiple downstream prediction tasks. In addition, BISCoT extracts consistent connectivity “templates” at the subgroup level, which allows for interpretable biomarker identification.",
+  "authors": [
+    {
+      "name": "Chen, Zijian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Beeler-Duden, Stefen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lawson, Sophie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jacokes, Zachary",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Van Horn, John Darrell",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pelphrey, Kevin A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Venkataraman, Archana",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4637_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

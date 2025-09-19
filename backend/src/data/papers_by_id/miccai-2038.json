@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2038",
+  "title": "Learning Contrastive Multimodal Fusion with Improved Modality Dropout for Disease Detection and Prediction",
+  "abstract": "As medical diagnoses increasingly leverage multimodal data, machine learning models are expected to effectively fuse heterogeneous information while remaining robust to missing modalities. In this work, we propose a novel multimodal learning framework that integrates enhanced modalities dropout and contrastive learning to address real-world limitations such as modality imbalance and missingness. Our approach introduces learnable modality tokens for improving missingness-aware fusion of modalities and augments conventional unimodal contrastive objectives with fused multimodal representations. We validate our framework on large-scale clinical datasets for disease detection and prediction tasks, encompassing both visual and tabular modalities. Experimental results demonstrate that our method achieves state-of-the-art performance, particularly in challenging and practical scenarios where only a single modality is available. Furthermore, we show its adaptability through successful integration with a recent CT foundation model. Our findings highlight the effectiveness, efficiency, and generalizability of our multimodal learning approach, offering a scalable, low-cost solution with significant potential for more complicated clinical applications that allow missing modality input. The code is available at https://github.com/omron-sinicx/medical-modality-dropout.",
+  "authors": [
+    {
+      "name": "Gu, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saito, Kuniaki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Jiaxin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2038_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

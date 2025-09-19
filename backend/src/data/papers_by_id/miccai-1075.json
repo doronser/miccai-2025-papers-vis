@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1075",
+  "title": "Noise-Robust Tuning of SAM for Domain Generalized Ultrasound Image Segmentation",
+  "abstract": "The Segment Anything Model (SAM) has achieved outstanding performance in both natural and medical image segmentation with extensive research validation. When applied to ultrasound images, which involve low contrast, indistinct boundaries and complex shapes, large models still suffer from significant performance degradation and limited generalization ability. We explore these challenges from a new perspective with the help of the segmentation foundation model SAM. In this paper, we propose Nora, a noise-robust fine-tuning framework for SAM to address domain generalized ultrasound image segmentation. Specifically, we introduce a feature-adaptive perturbation module, which applies well-designed noise to the fine-tuned features. We stimulate the model to segment the correct regions even under severe interference, thereby improving its robustness. Moreover, to further optimize SAM with prompts, we present an instance-aware prompt generation module. We introduce a set of tokens linked to distinct instances and then design a token-based augmentation strategy to prevent overcoupling and encourage tokens to capture more diverse information. Our Nora achieves state-of-the-art performance across extensive cross-domain experiments with three ultrasound image segmentation tasks, fully demonstrating its effectiveness and generalizability. The code is available at https://github.com/wkklavis/Nora.",
+  "authors": [
+    {
+      "name": "Wei, Zhikai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Hanyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yongchao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1075_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

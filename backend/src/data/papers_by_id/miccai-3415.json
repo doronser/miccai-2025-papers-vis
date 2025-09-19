@@ -1,0 +1,54 @@
+{
+  "id": "miccai-3415",
+  "title": "Blind Restoration of High-Resolution Ultrasound Video",
+  "abstract": "Ultrasound imaging is widely applied in clinical practice, yet ultrasound videos often suffer from low signal-to-noise ratios (SNR) and limited resolutions, posing challenges for diagnosis and analysis. Variations in equipment and acquisition settings can further exacerbate differences in data distribution and noise levels, reducing the generalizability of pre-trained models. This work presents a self-supervised ultrasound video super-resolution algorithm called Deep Ultrasound Prior (DUP). DUP employs a video-adaptive optimization process of a neural network that enhances the resolution of given ultrasound videos without requiring paired training data while simultaneously removing noise. Quantitative and visual evaluations demonstrate that DUP outperforms existing super-resolution algorithms, leading to substantial improvements for downstream applications.",
+  "authors": [
+    {
+      "name": "Chen, Chu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Kangning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cascarano, Pasquale",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Piccolomini, Elena Loli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chan, Raymond H.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3415_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

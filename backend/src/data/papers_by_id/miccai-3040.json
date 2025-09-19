@@ -1,0 +1,67 @@
+{
+  "id": "miccai-3040",
+  "title": "Radar-Based Imaging for Sign Language Recognition in Medical Communication",
+  "abstract": "Ensuring equitable access to medical communication is crucial for deaf and hard-of-hearing individuals, especially in clinical settings where effective patient-doctor interaction is essential. In this work, we present a novel radar-based imaging framework for Sign Language recognition (with a focus on the Italian Sign Language, LIS), specifically designed for medical communication. Our method leverages 60 GHz mm-wave radar to capture motion features while ensuring anonymity by avoiding the use of personally identifiable visual data.\nOur approach performs sign language classification through a two-stage pipeline: first, a residual autoencoder processes Range Doppler Maps (RDM) and moving-target indications (MTI), compressing them into compact latent representations; then, a Transformer-based classifier learns temporal dependencies to recognize signs across varying durations. By relying on radar-derived motion imaging, our method not only preserves privacy but also establishes radar as a viable tool for analyzing human motion in medical applications beyond sign language, including neurological disorders and other movement-related conditions.\nWe carried out experiments on a new large-scale dataset containing 126 LIS signs - 100 medical terms and 26 alphabet letters. Our method achieves 93.6% accuracy, 87.9% sensitivity, 99.3% specificity, and an 87.7% F1 score, surpassing existing approaches, including an RGB-based baseline. These results underscore the potential of radar imaging for real-time human motion monitoring, paving the way for scalable, privacy-compliant solutions in both sign language recognition and broader clinical applications. The code is available at https://github.com/IngRaffaeleMineo/SignRadarClassification_MICCAI2025 and the dataset will be released publicly.",
+  "authors": [
+    {
+      "name": "Mineo, Raffaele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Caligiore, Gaia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Proietto Salanitri, Federica",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kavasidis, Isaak",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Polikovsky, Senya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fontana, Sabina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ragonese, Egidio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Spampinato, Concetto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Palazzo, Simone",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3040_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

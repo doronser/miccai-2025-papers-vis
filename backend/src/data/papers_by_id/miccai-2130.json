@@ -1,0 +1,61 @@
+{
+  "id": "miccai-2130",
+  "title": "EndoMamba: An Efficient Foundation Model for Endoscopic Videos via Hierarchical Pre-training",
+  "abstract": "Endoscopic video-based tasks, such as visual navigation and surgical phase recognition, play a crucial role in minimally invasive surgeries by providing real-time assistance. While recent video foundation models have shown promise, their applications are hindered by (1) computational inefficiencies and (2) suboptimal performance caused by limited data for pre-training in endoscopy. To address these issues, we present EndoMamba, a foundation model designed for real-time inference while learning generalized spatiotemporal representations. First, to mitigate computational inefficiencies, we propose the EndoMamba backbone, optimized for real-time inference. Inspired by recent advancements in state space models, EndoMamba integrates Bidirectional Mamba blocks for spatial modeling within individual frames and vanilla Mamba blocks for past-to-present reasoning across the temporal domain. This design enables both strong spatiotemporal modeling and efficient inference in online video streams. Second, to improve data efficiency, we propose a self-supervised hierarchical pre-training diagram that enhances EndoMamba’s representation learning. Specifically, our approach combines masked reconstruction with auxiliary supervision, leveraging low-level reconstruction to capture spatial-temporal structures and high-level alignment to transfer broader knowledge from a pretrained general-video domain foundation model. Extensive experiments on four downstream tasks—classification, segmentation, surgical phase recognition, and localization—demonstrate that EndoMamba outperforms existing foundation models and task-specific methods while maintaining real-time inference speed. The source code is available at https://github.com/TianCuteQY/EndoMamba.",
+  "authors": [
+    {
+      "name": "Tian, Qingyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Huai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Xinyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Bingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Dongdong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ourselin, Sebastien",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hongbin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Lung",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Navigation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2130_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

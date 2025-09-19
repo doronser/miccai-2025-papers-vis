@@ -1,0 +1,32 @@
+{
+  "id": "miccai-3902",
+  "title": "Conformal Prediction for Image Segmentation Using Morphological Prediction Sets",
+  "abstract": "Image segmentation is a challenging task influenced by multiple sources of uncertainty, such as the data labeling process or the sampling of training data. In this paper we focus on binary segmentation and address these challenges using conformal prediction, a family of model- and data-agnostic methods for uncertainty quantification that provide finite-sample theoretical guarantees and applicable to any pretrained predictor. Our approach involves computing nonconformity scores, a type of prediction residual, on held-out calibration data not used during training. We use dilation, one of the fundamental operations in mathematical morphology, to construct a margin added to the borders of predicted segmentation masks. At inference, the predicted set formed by the mask and its margin contains the ground-truth mask with high probability, at a confidence level specified by the user. The size of the margin serves as an indicator of predictive uncertainty for a given model and dataset. We work in a regime of minimal information as we do not require any feedback from the predictor: only the predicted masks are needed for computing the prediction sets. Hence, our method is applicable to any segmentation model, including those based on deep learning; we evaluate our approach on several medical imaging applications. Our code is available at https://github.com/deel-ai-papers/consema.",
+  "authors": [
+    {
+      "name": "Mossina, Luca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Friedrich, Corentin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3902_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

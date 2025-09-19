@@ -1,0 +1,62 @@
+{
+  "id": "miccai-4574",
+  "title": "Endo-FASt3r: Endoscopic Foundation model Adaptation for Structure from motion",
+  "abstract": "Accurate depth and camera pose estimation is essential for\nachieving high-quality 3D visualisations in robotic-assisted surgery. Despite recent advancements in foundation model adaptation to monocular depth estimation of endoscopic scenes via self-supervised learning (SSL), no prior work has explored their use for pose estimation. These methods rely on low rank-based adaptation approaches, which constrain model updates to a low-rank space. We propose Endo-FASt3r, the first monocular SSL depth and pose estimation framework that uses foundation models for both tasks. We extend the Reloc3r relative pose estimation foundation model by designing Reloc3rX, introducing modifications necessary for convergence in SSL. We also present DoMoRA, a novel adaptation technique that enables higher-rank updates and faster convergence. Experiments on the SCARED dataset show that Endo-FASt3r achieves a substantial 10% improvement in pose estimation and a 2% improvement in depth estimation over prior work. Similar performance gains on the Hamlyn and StereoMIS datasets reinforce the generalizability of Endo-FASt3r across different datasets.",
+  "authors": [
+    {
+      "name": "Sheikh Zeinoddin, Mona",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hoque, Mobarak I.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tandogdu, Zafer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shaw, Greg L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Clarkson, Matthew J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mazomenos, Evangelos B.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stoyanov, Danail",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Robotics",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4574_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

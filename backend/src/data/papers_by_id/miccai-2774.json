@@ -1,0 +1,59 @@
+{
+  "id": "miccai-2774",
+  "title": "Hypergraph Tversky-Aware Domain Incremental Learning for Brain Tumor Segmentation with Missing Modalities",
+  "abstract": "Existing methods for multimodal MRI segmentation with missing modalities typically assume that all MRI modalities are available during training. However, in clinical practice, some modalities may be missing due to the sequential nature of MRI acquisition, leading to performance degradation. Furthermore, retraining models to accommodate newly available modalities can be inefficient and may cause overfitting, potentially compromising previously learned knowledge. To address these challenges, we propose Replay-based Hypergraph Domain Incremental Learning (ReHyDIL) for brain tumor segmentation with missing modalities. ReHyDIL leverages Domain Incremental Learning (DIL) to enable the segmentation model to learn from newly acquired MRI modalities without forgetting previously learned information. To enhance segmentation performance across diverse patient scenarios, we introduce the Cross-Patient Hypergraph Segmentation Network (CHSNet), which utilizes hypergraphs to capture high-order associations between patients. Additionally, we incorporate the Tversky-Aware Contrastive (TAC) loss to effectively mitigate information imbalance both across and within different modalities. Extensive experiments on the BraTS2019 dataset demonstrate that ReHyDIL outperforms state-of-the-art methods, achieving an improvement of over 2% in the Dice Similarity Coefficient across various tumor regions. Our code is available at ReHyDIL.",
+  "authors": [
+    {
+      "name": "Wang, Junze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jing, Weipeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Di, Donglin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Sidong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cong, Cong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Surgery -> Mixed / Augmented / Virtual Reality"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2774_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

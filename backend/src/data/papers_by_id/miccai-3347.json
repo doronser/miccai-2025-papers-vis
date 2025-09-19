@@ -1,0 +1,58 @@
+{
+  "id": "miccai-3347",
+  "title": "EEG-DINO: Learning EEG Foundation Models via Hierarchical Self-Distillation",
+  "abstract": "Electroencephalography (EEG) provides a non-invasive window into the brain’s electrical activity, playing an essential role in various brain–computer interface (BCI) and healthcare applications. In this paper, we propose EEG-DINO, a novel foundation model for EEG encoding based on a hierarchical self-distillation framework. By multi-view semantic alignment, the model is able to extract multi-level semantic features from EEG data, which captures a wide range of semantic information, increasing the robustness against noise and variances inherent in complex EEG signals. Moreover, acknowledging the unique heterogeneous spatial-temporal dependencies in EEG signals, we design a channel-aware sampling mechanism and a decoupled positional coding scheme. They independently address spatial and temporal dimensions, enabling the model to capture the intricate structural characteristics of EEG signals. We pre-train EEG-DINO on a large-scale EEG corpus spanning over 9000 hours, which consistently achieves state-of-the-art performance on multiple downstream tasks. These results demonstrate the great effectiveness of our self-distillation framework for EEG encoding.",
+  "authors": [
+    {
+      "name": "Wang, Xujia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xuhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Si, Qian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Zhaoliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhen, Xiantong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3347_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "miccai-0764",
+  "title": "LesionDiffusion: Towards Text-controlled General Lesion Synthesis",
+  "abstract": "Fully-supervised lesion recognition methods in medical imaging face challenges due to the reliance on large annotated datasets, which are expensive and difficult to collect. To address this, synthetic lesion generation has become a promising approach. However, existing models struggle with scalability, fine-grained control over lesion attributes, and the generation of complex structures. We propose LesionDiffusion, a text-controllable lesion synthesis framework for 3D CT imaging that generates both lesions and corresponding masks. By utilizing a structured lesion report template, our model provides greater control over lesion attributes and supports a wider variety of lesion types. We introduce a dataset of 1,505 annotated CT scans with paired lesion masks and structured reports, covering 14 lesion types across 8 organs. LesionDiffusion consists of two components: a lesion mask synthesis network (LMNet) and a lesion inpainting network (LINet), both guided by lesion attributes and image features. Extensive experiments demonstrate that LesionDiffusion significantly improves segmentation performance, with strong generalization to unseen lesion types and organs, outperforming current state-of-the-art models. Code is available at \\href{https://anonymous.4open.science/r/LesionDiffusion}",
+  "authors": [
+    {
+      "name": "Lei, Wenhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Hengrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dai, Linrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hanyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiaofan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0764_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

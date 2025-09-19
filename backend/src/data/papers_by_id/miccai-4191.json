@@ -1,0 +1,54 @@
+{
+  "id": "miccai-4191",
+  "title": "Cross-Modal Contrastive Learning for Emotion Recognition: Aligning ECG with EEG-Derived Features",
+  "abstract": "Emotion recognition plays a vital role in affective computing and mental health monitoring within intelligent healthcare systems.  While EEG captures rich emotional patterns, its clinical applicability is limited by cumbersome acquisition and susceptibility to motion artifacts. In contrast, electrocardiogram (ECG) signals are more accessible and less prone to artifacts,  but lack direct semantic representation of emotions categories. To address this challenge, we introduce a cross-modal alignment approach using contrastive learning. First, we extract emotional features from EEG signals using a pre-trained encoder. Then, we align the ECG encoder to these EEG-derived features through a contrastive learning framework, using sequence and patch level semantic alignment based on a temporal patch shuffle strategy.  This method effectively combines the strengths of both modalities. Experiments on the DREAMER and AMIGOS datasets show that our method outperforms other baseline methods in emotion recognition tasks.  Additional ablation studies and visualizations further reveal the contribution of core components. From a practical application perspective, our approach facilitates accurate emotion recognition in scenarios where EEG acquisition is impractical, providing a more accessible alternative for real-world affective computing applications. The code is available at https://github.com/pokking/ECG_EEG_alignment.",
+  "authors": [
+    {
+      "name": "Wu, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yuhang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Jiahao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jiaji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4191_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

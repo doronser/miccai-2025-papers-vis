@@ -1,0 +1,78 @@
+{
+  "id": "miccai-1908",
+  "title": "Facial Appearance Prediction with Conditional Multi-scale Autoregressive Modeling for Orthognathic Surgical Planning",
+  "abstract": "Craniomaxillofacial deformities often necessitate orthognathic surgery to correct jaw positions and improve both function and aesthetics. The existing patient-specific optimal face prediction for soft-tissue-driven planning struggles to accurately capture fine facial details and maintain harmonious alignment among key facial features. In this paper, we propose a novel Conditional Autoregressive Modeling for Orthognathic Surgery (CAMOS) framework that directly predicts patients’ optimal 3D face from their preoperative appearance. Our approach employs a hierarchical, coarse-to-fine next-scale prediction strategy, beginning with large-scale pretraining on 44,602 control faces to construct a robust generative model that captures diverse demographic features. Subsequently, the model is fine-tuned on an in-house dataset of 86 orthognathic surgery patients, establishing a conditional path that integrates patient-specific information to form a conditional generative model. Evaluation on both public and in-house datasets demonstrates that CAMOS successfully generates patient-specific optimal face with high quality, effectively addressing the limitations of prior single-step approaches. Source code is available at https://github.com/RPIDIAL/CAMOS.",
+  "authors": [
+    {
+      "name": "Lee, Jungwook",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Xuanang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Daeseung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Tianshu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Hannah H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Xinrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Soubra, Yasmine",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dharia, Rohan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liebschner, Michael A. K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gateno, Jaime",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Pingkun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1908_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

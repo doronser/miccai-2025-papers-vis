@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2827",
+  "title": "Eliminating Language Bias for Medical Visual Question Answering with Counterfactual Contrastive Training",
+  "abstract": "Medical Visual Question Answering (Med-VQA) aims to assist in clinical diagnosis, but still faces challenges with language bias. Current approaches oversimplify the causal relationship between clinical terms and answers by treating it as a binary positive/negative effect. This can lead to the persistence of bias or reduced sensitivity to questions. To address this limitation, we propose a novel approach named DeCoCT (Debiasing Med-VQA via Counterfactual Contrastive Training). We decompose the causal relationship between clinical terms and answers into two components: (1) concept localization in medical images, and (2) prior knowledge from training data. We introduce a Key Region Capture Module (KRCM), trained with counterfactual strategies. It can enhance the model’s ability to capture critical information through clinical terms. Furthermore, we employ counterfactual contrastive training to eliminate spurious correlations introduced by clinical terms while enhancing the model’s focus on relevant visual regions. In addition, we construct a new conditional prior dataset based on VQA-RAD, named VQA-RAD-CP. Extensive experiments demonstrate that our approach significantly mitigates language bias in Med-VQA. Our codes and VQA-RAD-CP dataset are available at https://github.com/YX542/DeCoCT.",
+  "authors": [
+    {
+      "name": "Wan, Xingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Teng, Qiaoying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Yonghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Deqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2827_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "miccai-3384",
+  "title": "ISAC: Redefining the Vascular Segmentation Paradigm through Mask Completion for Cross-Domain Generalization",
+  "abstract": "Accurate vessel segmentation is critical for diagnosis. However, the annotation of vascular images cost a lot, and due to their diverse modalities and complex foreground structures, it is hard for learning-based methods to reduce annotation cost by training models of high domain generalization (DG) on partial modalities. To address this, we propose the Image-Sparse Annotation Completion (ISAC) segmentation model, which reformulates vascular segmentation as a mask completion task based on sparse-annotated supports. ISAC treats the segmentation task as incomplete mask reconstruction guided by image features and structural properties of the foreground in the sparse mask. Unlike pixel-wise classification, ISAC detects vessels according to the mask context supported regions, in which way the anatomical continuity of vascular foreground is improved. Additionally, to further avoid the reliance on high-cost manually annotated supports, we propose the Uncertainty-guided Patch Selection (UPS) module to extract high-quality supports from coarse pseudo labels, which enables ISAC to perform segmentation in zero-shot scenarios. Experiments on 7 vascular datasets across 3 modalities demonstrate that ISAC outperforms state-of-the-art methods in DG ability. The code is publicly available at https://github.com/Architect15806/ISAC.",
+  "authors": [
+    {
+      "name": "Zhao, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Xixi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Xiaohuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3384_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

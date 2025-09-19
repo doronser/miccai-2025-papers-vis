@@ -1,0 +1,68 @@
+{
+  "id": "miccai-3136",
+  "title": "Adaptive Frame Selection for Gestational Age Estimation from Blind Sweep Fetal Ultrasound Videos",
+  "abstract": "The blind sweep ultrasound protocol, coupled with artificial\nintelligence (AI), offers promising solutions for expanding ultrasound availability in low-resource settings. However, existing AI approaches for gestational age (GA) prediction using bind sweeps face challenges like reliance on manual segmentation, computational inefficiency from high frame volume, and suboptimal sampling strategies that compromise performance, particularly with smaller datasets. We propose SelectGA, a novel framework for automated blind sweep analysis that enables effective fine-tuning of pretrained models through adaptive frame selection for GA prediction. Our approach identifies the most informative and least redundant frames, enhancing both training efficiency and prediction accuracy. Validated on data collected from ultrasound devices in diverse resource environments, SelectGA improves gestational age prediction accuracy by 27% on mean absolute error metrics. These results demonstrate substantially improved generalizability, establishing foundations for sustainable AI adoption in prenatal care across resource-constrained settings. Code is available at: https://github.com/tanya-akumu/selectGA",
+  "authors": [
+    {
+      "name": "Akumu, Tanya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elbatel, Marawan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Campello, Victor M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Osuala, Richard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Martin-Isla, Carlos",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Valenzuela, Ignacio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Khanal, Bishesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lekadir, Karim",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3136_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "miccai-3866",
+  "title": "Diffusing Boundaries: CBCT-to-CT Translation with Extended Field of View",
+  "abstract": "Cone-beam computed tomography (CBCT) is an essential imaging modality for adaptive radiotherapy, enabling the positioning and real-time verification of anatomical changes. However, CBCT images suffer from artifacts and lack the accurate Hounsfield unit (HU) calibration necessary for dose computation. Additionally, CBCT’s limited field of view (FOV) further complicates its direct application for replanning. To address these limitations, we propose a novel framework leveraging diffusion models to synthesize a synthetic CT (sCT) from CBCT while inpainting the extended FOV using the original planning CT (pCT). Our method integrates with any CBCT-to-CT diffusion framework without degrading its performance, ensuring accurate HU values and comprehensive anatomical coverage for dose computation without requiring new CT acquisitions. Quantitative and qualitative evaluations demonstrate that our approach preserves the baseline CBCT-to-CT translation quality while effectively extending the FOV, offering a streamlined and effective solution for adaptive radiotherapy workflows.",
+  "authors": [
+    {
+      "name": "Spinat, Quentin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duran, Audrey",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Teboul, Olivier",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Paragios, Nikos",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Komodakis, Nikos",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3866_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

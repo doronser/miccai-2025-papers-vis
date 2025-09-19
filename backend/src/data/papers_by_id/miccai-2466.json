@@ -1,0 +1,41 @@
+{
+  "id": "miccai-2466",
+  "title": "IFRFNet: Iterative Frequency Restoration-Fusion Network for Fast System Matrix Calibration on Magnetic Particle Image",
+  "abstract": "Magnetic Particle Imaging (MPI), an emerging technique with high sensitivity and resolution, requires time-consuming calibration for System Matrix (SM)-based reconstruction. Due to the strong locality and redundancy in the frequency domain, sparse sampling can capture sufficient information for rapid SM calibration without full-size SMs. However, it often leads to low-frequency energy leakage due to nonlinear magnetization of nanoparticles, causing the loss of low-frequency components. These components are essential for maintaining the SM’s shape, and their absence leads to structural degradation and visible artifacts. Current methods tend to overemphasize high-frequency features, neglecting these low-frequency ones. Besides, single-step upsampling leads to error accumulation, especially with large scaling ratios, degrading reconstruction quality. To address these issues, we propose the Iterative Frequency Restoration-Fusion Network (IFRFNet), which uses an iterative frequency-domain restoration-fusion module. Unlike single-step upsampling, our approach refines, fuses, and upsamples high- and low-frequency features in stages, ensuring continuous optimization. This prevents error accumulation, preserves fine details, and maintains structural integrity. By iteratively recovering low-frequency components and refining high-frequency details, IFRFNet minimizes artifacts and retains crucial information. The Effective Upsampler further enhances the quality of the features, ensuring clear and realistic final SM volumes. Experiments on the OpenMPI dataset show that IFRFNet achieves SOTA performance.",
+  "authors": [
+    {
+      "name": "Xu, Weixin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhai, Penghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mu, Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2466_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

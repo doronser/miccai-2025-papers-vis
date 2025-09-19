@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1144",
+  "title": "Hybrid-View Attention Network for Clinically Significant Prostate Cancer Classification in Transrectal Ultrasound",
+  "abstract": "Prostate cancer (PCa) is a leading cause of cancer-related mortality in men, and accurate identification of clinically significant PCa (csPCa) is critical for timely intervention. Transrectal ultrasound (TRUS) is widely used for prostate biopsy; however, its low contrast and anisotropic spatial resolution pose diagnostic challenges. To address these limitations, we propose a novel hybrid-view attention (HVA) network for csPCa classification in 3D TRUS that leverages complementary information from transverse and sagittal views. Our approach integrates a CNN-transformer hybrid architecture, where convolutional layers extract fine-grained local features and transformer-based HVA models global dependencies. Specifically, the HVA comprises intra-view attention to refine features within a single view and cross-view attention to incorporate complementary information across views. Furthermore, a hybrid-view adaptive fusion module dynamically aggregates features along both channel and spatial dimensions, enhancing the overall representation. Experiments are conducted on an in-house dataset containing 590 subjects who underwent prostate biopsy. Comparative and ablation results prove the efficacy of our method. The code is available at https://github.com/mock1ngbrd/HVAN.",
+  "authors": [
+    {
+      "name": "Feng, Zetian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Juan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Xuebin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Hongsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Jianhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Urology",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1144_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

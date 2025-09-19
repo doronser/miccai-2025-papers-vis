@@ -1,0 +1,57 @@
+{
+  "id": "miccai-1733",
+  "title": "DisDiff: Disentanglement Diffusion Network for MR Imaging Translation",
+  "abstract": "Multi-modal imaging plays a crucial role in clinical diagnosis and medical research. However, its widespread adoption is hindered by significant time and hardware costs. Medical image translation, which aims to synthesize missing modalities from available data, presents a promising solution. Nevertheless, existing models often struggle to maintain the structural consistency required for clinical applications. To address these challenges, we introduce DisDiff, a novel disentangled adversarial diffusion framework designed to preserve anatomical structure while enhancing synthesis quality. DisDiff incorporates a Disentangled module that decouples content and style factors within image features, thereby enabling the generation of anatomically precise images. By utilizing these disentangled representations as conditional inputs, DisDiff not only accelerates the learning process compared to traditional diffusion- based models, but also improves image quality and enhances training efficiency. Furthermore, we propose a content discriminator module to enforce anatomical consistency, effectively addressing the lack of explicit structural guidance in conventional diffusion models. Experimental evaluations on multi-contrast MRI translation demonstrate that DisDiff substantially outperforms existing methods in both image quality and structural preservation, positioning it as a promising solution for real-world clinical applications.",
+  "authors": [
+    {
+      "name": "Zhang, Yipin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Ziqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiange",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shengjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Haibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiao-Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1733_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

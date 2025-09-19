@@ -1,0 +1,57 @@
+{
+  "id": "miccai-0333",
+  "title": "Sparse Reconstruction of Optical Doppler Tomography with Alternative State Space Model and Attention",
+  "abstract": "Optical coherence Doppler tomography (ODT) is an emerging blood flow imaging technique. The fundamental unit of ODT is the 1D depth-resolved trace named raw A-scans (or A-line). A 2D ODT image (B-scan) is formed by reconstructing a cross-sectional flow image via Doppler phase-subtraction of raw A-scans along B-line. To obtain a high-fidelity B-scan, densely sampled A-scans are required currently, leading to prolonged scanning time and increased storage demands. Addressing this issue, we propose a novel sparse ODT reconstruction framework with an Alternative State Space Attention Network (ASSAN) that effectively reduces raw A-scans needed. Inspired by the distinct distributions of information along A-line and B-line, ASSAN applies 1D State Space Model (SSM) to each A-line to learn the intra-A-scan representation, while using 1D gated self-attention along B-line to capture the inter-A-scan features. In addition, an effective feedforward network based on sequential 1D convolutions along different axes is employed to enhance the local feature. In validation experiments on real animal data, ASSAN shows clear effectiveness in the reconstruction in comparison with state-of-the-art reconstruction methods.",
+  "authors": [
+    {
+      "name": "Li, Zhenghong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Jiaxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Wensheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yanzuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Congwu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Yingtian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ling, Haibin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0333_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

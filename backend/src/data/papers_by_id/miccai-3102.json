@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3102",
+  "title": "Semantic-Aware Chest X-ray Report Generation with Domain-Specific Lexicon and Diversity-Controlled Retrieval",
+  "abstract": "Image-to-text radiology report generation aims to produce comprehensive diagnostic reports by leveraging both X-ray images and historical textual data. Existing retrieval-based methods focus on maximizing similarity scores, leading to redundant content and limited diversity in generated reports. Additionally, they lack sensitivity to medical domain-specific information, failing to emphasize critical anatomical structures and disease characteristics essential for accurate diagnosis. To address these limitations, we propose a novel retrieval-augmented framework that integrates exemplar radiology reports with X-ray images to enhance report generation. First, we introduce a diversity-controlled retrieval strategy to improve information diversity and reduce redundancy, ensuring broader clinical knowledge coverage. Second, we develop a comprehensive medical lexicon covering chest anatomy, diseases, radiological descriptors, treatments, and related concepts. This lexicon is integrated into a weighted cross-entropy loss function to improve the model’s sensitivity to critical medical terms. Third, we introduce a sentence-level semantic loss to enhance clinical semantic accuracy. Evaluated on the MIMIC-CXR dataset, our method achieves superior performance on clinical consistency metrics and competitive results on linguistic quality metrics, demonstrating its effectiveness in enhancing report accuracy and clinical relevance.",
+  "authors": [
+    {
+      "name": "Zhang, Baochang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Shuting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schunkert, Heribert",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3102_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

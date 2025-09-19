@@ -1,0 +1,49 @@
+{
+  "id": "miccai-1717",
+  "title": "Tetra-orientated Mamba with T2-FLAIR Mismatch Features for Glioma Segmentation, IDH Genotyping, and Grading",
+  "abstract": "Tumor grading and Isocitrate Dehydrogenase (IDH) status are key prognostic biomarkers. Transformer-based methods are widely applied in glioma segmentation and diagnosis, but challenges still exist due to the tumor’s heterogeneity and the computational burden of Transformers. We propose a multi-task network called MTamba for glioma segmentation, IDH genotyping, and grading. We design Tetra-oriented Mamba to perform global information interaction from different orientations in MRIs for segmentation. We design a T2-FLAIR mismatch feature extraction module to explore the mismatch features between T2 and FLAIR images at different depths to enhance diagnosis. We propose a channel-space Siamese Mamba fusion module to fuse T2-FLAIR mismatch features with multi-modal MRI features from the segmentation encoder for diagnosis. Finally, we apply an uncertainty loss optimization method to jointly optimize glioma segmentation, IDH genotyping, and grading. We validate MTamba on the publicly available UCSF-PDGM and BraTS2020 datasets, and experimental results show that MTamba outperforms existing multi-task learning methods. The code for MTamba is available at https://github.com/xhwv/MTamba.",
+  "authors": [
+    {
+      "name": "Li, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Hulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuanzhuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jianxin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1717_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

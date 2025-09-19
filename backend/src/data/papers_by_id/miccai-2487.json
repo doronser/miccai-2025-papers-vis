@@ -1,0 +1,66 @@
+{
+  "id": "miccai-2487",
+  "title": "MedIQA: A Scalable Foundation Model for Prompt-Driven Medical Image Quality Assessment",
+  "abstract": "Rapid advances in medical imaging technology underscore the critical need for precise and automated image quality assessment (IQA) to ensure diagnostic accuracy. Existing medical IQA methods, however, struggle to generalize across diverse modalities and clinical scenarios. In response, we introduce MedIQA, the first comprehensive foundation model for medical IQA, designed to handle variability in image dimensions, modalities, anatomical regions, and types. We developed a large-scale multi-modality dataset with plentiful manually annotated quality scores to support this. Our model integrates a salient slice assessment module to focus on diagnostically relevant regions feature retrieval and employs an automatic prompt strategy that aligns upstream physical parameter pre-training with downstream expert annotation fine-tuning. Extensive experiments demonstrate that MedIQA significantly outperforms baselines in multiple downstream tasks, establishing a scalable framework for medical IQA and advancing diagnostic workflows and clinical decision-making. Our code is available at https://github.com/siyi-xun/MedIQA.",
+  "authors": [
+    {
+      "name": "Xun, Siyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jingkun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Zitong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tong, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xiaohong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Mingxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2487_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

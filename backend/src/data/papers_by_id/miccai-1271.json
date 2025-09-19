@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1271",
+  "title": "DentEval: Fine-tuning-Free Expert-Aligned Assessment in Dental Education via LLM Agents",
+  "abstract": "Large language models (LLMs) have demonstrated considerable potential in automating assignment scoring within higher education, providing efficient and consistent evaluations. However, existing systems encounter substantial challenges when assessing students’ responses to open-ended short-answer questions. These challenges include the need for large, annotated datasets for fine-tuning or additional training, as well as inconsistencies between model outputs and human-level evaluations. This issue is particularly pronounced in domains requiring specialized knowledge, such as dentistry. To address these limitations, we propose DentEval, an LLM-based automated assignment assessment system supporting multimodal inputs (e.g., text and clinical images) that is tailored for dental curricula. This framework integrates role-playing prompting and Self-refining Retrieval-Augmented Generation (SR-RAG) to assess student responses and ensure that the system’s outputs closely align with human grading standards. We further utilized a dataset annotated by dental professors, dividing it into few-shot learning and testing sets to evaluate the DentEval framework. Results demonstrate that DentEval exhibits a stronger correlation with human grading compared to representative baselines. Finally, comprehensive ablation studies validate the effectiveness of the individual components incorporated in DentEval. Our code is available on GitHub at: https://github.com/DXY0711/DentEval",
+  "authors": [
+    {
+      "name": "Deng, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miletic, Vesna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Trinh, Elvis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Jinlong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Chang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Daochang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Skill and Work Flow Analysis",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1271_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

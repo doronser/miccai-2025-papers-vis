@@ -1,0 +1,66 @@
+{
+  "id": "miccai-0702",
+  "title": "New Multiple Sclerosis Lesion Segmentation via Calibrated Inter-patch Blending",
+  "abstract": "Longitudinal monitoring of multiple sclerosis (MS) lesions provides crucial biomarkers for assessing disease progression and treatment efficacy. However, it remains challenging to detect and segment numerous MS lesion instances accurately. One key limitation lies in the common average blending of sliding-window predictions during inference, where unreliable patch-level outputs often lead to many false-positive results. To address this issue, we propose a Calibrated Inter-patch Blending (CIB) framework for new MS lesion segmentation, leveraging patch-level segmentation performance as blending weights. Specifically, our CIB model incorporates a multi-scale design with two additional prediction heads: one estimates the overall segmentation performance of the input patch, while the other predicts the performance of smaller grids within the patch. This dual-head architecture enables the model to capture both global and local contextual information, reducing over-confident lesion predictions. During inference, the predicted segmentation scores serve as calibration weights for adaptively blending patch predictions. Extensive experiments on the MSSEG-2 dataset demonstrate that our CIB model can significantly enhance both new MS lesion detection (e.g., a 12.82% F1 gain) and segmentation (e.g., a 4.01% Dice gain) across various backbones. Our code will be made public.",
+  "authors": [
+    {
+      "name": "Ye, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dao, Son Duy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "George, Yasmeen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen-Duc, Thanh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schmidt, Daniel F.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Hengcan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chong, Winston",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Jianfei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0702_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

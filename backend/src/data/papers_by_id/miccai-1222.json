@@ -1,0 +1,83 @@
+{
+  "id": "miccai-1222",
+  "title": "MedGround-R1: Advancing Medical Image Grounding via Spatial-Semantic Rewarded Group Relative Policy Optimization",
+  "abstract": "Medical Image Grounding (MIG), which involves localizing specific regions in medical images based on textual descriptions, requires models to not only perceive regions but also deduce spatial relationships of these regions. Existing Vision-Language Models (VLMs) for MIG often rely on Supervised Fine-Tuning (SFT) with large amounts of Chain-of-Thought (CoT) reasoning annotations, which are expensive and time-consuming to acquire. Recently, DeepSeek-R1 demonstrated that Large Language Models (LLMs) can acquire reasoning abilities through Group Relative Policy Optimization (GRPO) without requiring CoT annotations. In this paper, we adapt the GRPO reinforcement learning framework to VLMs for Medical Image Grounding. We propose the Spatial-Semantic Rewarded Group Relative Policy Optimization to train the model without CoT reasoning annotations. Specifically, we introduce Spatial-Semantic Rewards, which combine spatial accuracy reward and semantic consistency reward to provide nuanced feedback for both spatially positive and negative completions. Additionally, we propose to use the Chain-of-Box template, which integrates visual information of referring bounding boxes into the  reasoning process, enabling the model to explicitly reason about spatial regions during intermediate steps. Experiments on three datasets MS-CXR, ChestX-ray8, and M3D-RefSeg—demonstrate that our method achieves state-of-the-art performance in Medical Image Grounding. Ablation studies further validate the effectiveness of each component in our approach. Code, checkpoints, and datasets are available at https://github.com/bio-mlhui/MedGround-R1",
+  "authors": [
+    {
+      "name": "Xu, Huihui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nie, Yuanpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hualiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ning, Junzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hongqiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jiyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Junjun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1222_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

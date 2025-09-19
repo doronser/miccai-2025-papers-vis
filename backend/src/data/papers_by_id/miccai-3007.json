@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3007",
+  "title": "Noisy Label Refinement Based on Discrete Diffusion Process in 3D Ossicle Segmentation",
+  "abstract": "Ossicular chain lesions can cause hearing loss, making accurate segmentation of ossicles critical for clinical diagnosis and treatment. Ultra-high-resolution computed tomography (U-HRCT) provides quality images for ossicle segmentation tasks, but the complex structure of the stapes and variations in annotators’ experience often lead to noisy labels in 3D annotation within clinical practice. To address this, we propose a novel framework tailored for two types of noisy labels: (1) incomplete-structure labels, and (2) complete-structure but inaccurate labels. For the former, we introduce a Dilating&Selecting (D&S) framework, which completes missing structures using a dilating Volumetric Discrete Diffusion Refiner (VDDR) with a novel cover loss and evaluates label completeness via a completeness selection strategy. For the latter, we introduce a noise-based augmentation to better train VDDR. Experimental results demonstrate that D&S framework reduce the time cost of manual annotation by 90.2%, while VDDR outperforms other state-of-the-art methods. To facilitate further research and development, our code and two datasets are publicly available.",
+  "authors": [
+    {
+      "name": "Fan, Linqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Mengshi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yonghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Wenkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yin, Hongxia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3007_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

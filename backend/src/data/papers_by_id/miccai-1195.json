@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1195",
+  "title": "Hybrid Graph Mamba: Unlocking Non-Euclidean Potential for Accurate Polyp Segmentation",
+  "abstract": "Colorectal polyp segmentation can assist doctors in screening colonoscopy images, which is crucial for the prevention of colorectal cancer. Although deep learning has significantly advanced polyp segmentation, three issues remain: (1) Most polyp segmentation methods only extract Euclidean features such as shape and texture, while neglecting non-Euclidean features, such as the geometric topology between the polyp and its surrounding tissue; (2) Non-Euclidean features vary across different regions, but most feature fusion methods overlook both the non-Euclidean topological structures and the differences between internal, edge, and background regions. (3) Low-level features are not fully exploited, and the differences between low- and high-level features are not effectively addressed. To resolve these issues, we propose Hybrid Graph Mamba (\\ourmodel{}) based on Mamba and Graph Convolutional Network (GCN). Our model first uses the pyramid vision transformer to extract features at different levels. Next, we propose hybrid graph Mamba modules to process low-level features from multiple directions using quad-directional Mamba and extract non-Euclidean features with GCN. A boundary discrimination fusion module is also designed to handle high-level features, extracting semantic information for the interior, edges, and background to improve the fusion of low- and high-level features. Finally, a bidirectional Mamba decoder combines bidirectional Mamba and dilated convolutions to aggregate multi-scale features, minimizing information loss and producing the final prediction. Extensive experiments on five benchmark datasets demonstrate that \\ourmodel{} significantly outperforms eight State-Of-The-Art models. Our code is publicly available at https://github.com/YueyueZhu/HGM.",
+  "authors": [
+    {
+      "name": "Zhu, Yueyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lv, Haolin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Geng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zhonghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Haotian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1195_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

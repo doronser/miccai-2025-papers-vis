@@ -1,0 +1,62 @@
+{
+  "id": "miccai-1935",
+  "title": "MeDi: Metadata-Guided Diffusion Models for Mitigating Biases in Tumor Classification",
+  "abstract": "Deep learning models have made significant advances in histological prediction tasks in recent years. However, for adaptation in clinical practice, their lack of robustness to varying conditions such as staining, scanner, hospital, and demographics is still a limiting factor: if trained on overrepresented subpopulations, models regularly struggle with less frequent patterns, leading to shortcut learning and biased predictions. Large-scale foundation models have not fully eliminated this issue. Therefore, we propose a novel approach explicitly modeling such metadata into a Metadata-guided generative Diffusion model framework (MeDi). MeDi allows for a targeted augmentation of underrepresented subpopulations with synthetic data, which balances limited training data and mitigates biases in downstream models. We experimentally show that MeDi generates high-quality histopathology images for unseen subpopulations in TCGA, boosts the overall fidelity of the generated images, and enables improvements in performance for downstream classifiers on datasets with subpopulation shifts. Our work is a proof-of-concept towards better mitigating data biases with generative models.",
+  "authors": [
+    {
+      "name": "Drexlin, David Jacob",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dippel, Jonas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hense, Julius",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prenißl, Niklas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Montavon, Grégoire",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Klauschen, Frederick",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Müller, Klaus-Robert",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1935_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "miccai-4968",
+  "title": "WaveFormer: A 3D Transformer with Wavelet-Driven Feature Representation for Efficient Medical Image Segmentation",
+  "abstract": "Transformer has revolutionized medical image processing using long-range information modeling and self-attention mechanisms. However, the adaptability of traditional transformer-based architecture for real-world applications is hindered by its ample parametric space as well as its limitation of processing fine-detailed local information which is vital for high-resolution downstream tasks like multi-organ segmentation. Several convolutions and self-attention-based hybrid models have been proposed to resolve the above issues over the years. Yet, none of the methods have succinctly presented an efficient processing of local and global information. Inspired by the top-down mechanism of the human visual system, in this paper, we propose a novel 3D-transformer architecture dubbed WaveFormer that leverages the fundamental frequency-domain properties of features to learn contextual representation. Our encoder efficiently extracts multi-scale features using the self-attention mechanism in reduced feature space obtained through progressive summarization by discrete wavelet transformation (DWT), keeping the high-frequency detail intact. On the other hand, the decoder progressively reconstructs high-resolution segmentation masks using the high-frequency counterpart from DWT as a global guide through inverse discrete wavelet transformation (IDWT). Leveraging the fundamental data property to decode using linear transformation (IDWT) diminishes the necessity of high parametric upsampling layers unlike traditional methods. Quantitative evaluation on BraTS2023, and FLARE2021 shows that our model outperforms state-of-the art and produces comparable performance on KiTS2023 challenge dataset.",
+  "authors": [
+    {
+      "name": "Al Hasan, Md Mahfuz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zaman, Mahdi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jawad, Abdul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Santamaria-Pang, Alberto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Ho Hin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tarapov, Ivan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "See, Kyle B.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Imran, Md Shah",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Roy, Antika",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fallah, Yaser Pourmohammadi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Asadizanjani, Navid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Forghani, Reza",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4968_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

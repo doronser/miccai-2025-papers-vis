@@ -1,0 +1,50 @@
+{
+  "id": "miccai-2630",
+  "title": "Spatio-temporal Pre-trained Foundation Model for Neural Decoding with Fine-grained Optimization",
+  "abstract": "Traditional neural decoding methods heavily rely on fully annotated brain data, which are both expensive to produce and scarce in availability. This limitation hinders the development of accurate and generalizable decoding models. Drawing inspiration from the success of foundational AI models in reducing dependency on annotated data in fields such as natural language processing, we introduce a novel foundation model that leverages the inherent spatiotemporal covariation of functional brain networks, which enables effective neural decoding with minimal annotation requirements. Our framework incorporates three key innovations: 1) A spatiotemporal importance-guided augmentation strategy is designed to capture the synergistic relationships between brain regions and their dynamic changes; 2) A progressive spatiotemporal-aware encoder is proposed to learn local-to-global brain interaction information; 3) A fine-grained consistency optimization technique is developed to enhance the representations of overall brain function. Evaluations on publicly available fMRI datasets demonstrate that our proposed framework not only achieves superior decoding performance but also exhibits strong generalizability and reveals patterns of nervous activity. Our research advances brain representation learning and provides an innovative solution for universal neural decoding models.",
+  "authors": [
+    {
+      "name": "Li, Ziyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Zhiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Xia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2630_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

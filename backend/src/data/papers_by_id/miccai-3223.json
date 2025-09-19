@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3223",
+  "title": "LDDMEm: Large Deformation Diffeomorphic Metric Embedding: Decoupling Shape Analysis from Image Registration",
+  "abstract": "We present a method, open-source software, and experiments which embed arbitrary deformation vector fields produced by any method (e.g. ANTs or VoxelMorph) in the Large Deformation Diffeomorphic Metric Mapping (LDDMM) framework. This decouples formal diffeomorphic shape analysis from image registration, which has many practical benefits. Shape analysis can be added to study designs without modification to already chosen image registration methods and existing databases of deformation fields can be reanalyzed within the LDDMM framework without repeating image registrations. Pairwise time series studies can be extended to full time series regression with minimal added computing. The diffeomorphic rigor of image registration methods can be compared by embedding deformation fields and comparing projection distances. Finally, the added value of formal diffeomorphic shape analysis can be more fairly evaluated when it is derived from and compared to a baseline set of deformation fields. In brief, the method is a straightforward use of geodesic shooting in diffeomorphisms with a deformation field as the target, rather than an image. This is simpler than the image registration case which leads to a faster implementation that requires fewer user derived parameters.",
+  "authors": [
+    {
+      "name": "Fleishman, Greg M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fletcher, P. Thomas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Image Registration",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3223_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

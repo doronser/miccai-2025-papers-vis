@@ -1,0 +1,62 @@
+{
+  "id": "miccai-3708",
+  "title": "MGG-Net: A Multi-Modal Feature Extraction and Global-Aware Feature Graph-Based Deep Learning Network for MGMT Status Classification in Glioma",
+  "abstract": "Gliomas, especially high-grade gliomas, have a high mortality rate. O6-Methylguanine-DNA Methyltransferase (MGMT) status is crucial for gliomas treatment and prognosis. Traditional diagnosis relies on invasive tissue analysis, which is often infeasible for high-risk patients. While machine learning and deep learning methods using multi-sequence Magnetic Resonance Imaging (MRI) images and radiomics provides a non-invasive alternative, existing methods suffer from low accuracy and poor generalization due to challenges in extracting features from the integrated multi-sequence representation. To address this issue, we propose a Multi-modal feature extraction and Global-aware feature Graph-based deep learning network (MGG-Net), integrating convolutional neural network (CNN) and graph convolutional network (GCN) for  multi-modal and multi-scale feature learning. Specifically, MGG-Net consists of multiple CNN-GCN stages, responsible for processing MRI image features and radiomic features at different scales. CNN blocks are used to extract fine-grained and sequence-specific local features from each MRI sequence. These features are then fed into a GCN, which models long-range dependencies and extracts high-level global representations. Finally, the fused multi-scale features extracted are used for classification. Experimental results demonstrate that MGG-Net outperforms previous approaches, effectively leveraging multi-scale and multi-modal information for improved MGMT status classification.",
+  "authors": [
+    {
+      "name": "Liu, Haoyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zeng, Yuwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiaoyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Wentong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nagai, Arata",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kanamori, Masayuki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Endo, Hidenori",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Homma, Noriyasu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3708_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3980",
+  "title": "Deep Learning Framework for Managing Inter-Reader Variability in Background Parenchymal Enhancement Classification for Contrast-Enhanced Mammography",
+  "abstract": "Background parenchymal enhancement (BPE) classification for contrast-enhanced mammography (CEM) is highly affected by inter-reader variability. Traditional approaches aggregate expert annotations into a single consensus label to minimize individual subjectivity. By contrast, we propose a two-stage deep learning framework that explicitly models inter-reader variability through self-trained, reader-specific embeddings. In the first stage, the model learns discriminative image features while associating each reader with a dedicated embedding that captures their annotation signature, enabling personalized BPE classification. In the second stage, these embeddings can be calibrated using a small set of CEM cases selected through active learning and annotated by either a new reader or a consensus standard. This calibration process allows the model to adapt to new annotation styles with minimal supervision and without extensive retraining. This work leverages a multi-site CEM dataset of 7,734 images, non-exhaustively annotated by several readers. Calibrating reader-specific embeddings using a set of 40 cases offers an average accuracy of 73.5%, outperforming the proposed baseline method based on reader consensus. This approach enhances robustness and generalization in clinical environments characterized by heterogeneous labeling patterns.",
+  "authors": [
+    {
+      "name": "Ripaud, Elodie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jailin, Clément",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Milioni de Carvalho, Pablo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vancamberg, Laurence",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bloch, Isabelle",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3980_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

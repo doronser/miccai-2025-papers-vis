@@ -1,0 +1,77 @@
+{
+  "id": "miccai-0629",
+  "title": "SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training",
+  "abstract": "Medical vision-language pre-training shows great potential in learning representative features from massive paired radiographs and reports. However, in computed tomography (CT) scans, the distribution of lesions which contain intricate structures is characterized by spatial sparsity. Besides, the complex and implicit relationships between different pathological descriptions in each sentence of the report and their corresponding sub-regions in radiographs pose additional challenges.  In this paper, we propose a Similarity-Driven Cross-Granularity Pre-training (SimCroP) framework on chest CTs, which combines similarity-driven alignment and cross-granularity fusion to improve radiograph interpretation. We first leverage multi-modal masked modeling to optimize the encoder for understanding precise low-level semantics from radiographs. Then, similarity-driven alignment is designed to pre-train the encoder to adaptively select and align the correct patches corresponding to each sentence in reports. The cross-granularity fusion module integrates multi-modal information across instance level and word-patch level, which helps the model better capture key pathology structures in sparse radiographs, resulting in improved performance for multi-scale downstream tasks. SimCroP is pre-trained on a large-scale paired CT-reports dataset and validated on image classification and segmentation tasks across five public datasets. Experimental results demonstrate that SimCroP outperforms both cutting-edge medical self-supervised learning methods and medical vision-language pre-training methods. Codes and models are available at https://github.com/ToniChopp/SimCroP",
+  "authors": [
+    {
+      "name": "Wang, Rongsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Fenghe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Qingsong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lai, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Zhiyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Xiaodong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Zihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0629_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

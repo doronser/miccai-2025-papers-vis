@@ -1,0 +1,75 @@
+{
+  "id": "miccai-2068",
+  "title": "ViTAL-CT: Vision Transformers for High-Risk Plaque Classification in Coronary CTA",
+  "abstract": "High-risk plaque (HRP) detected by coronary CT angiography (CTA) is associated with increased risks of major adverse cardiovascular events such as heart attack. Current identification of HRP characteristics involves labor-intensive segmentation of plaques, requiring substantial time and expert knowledge. In this work, we propose a novel coronary cross-sectional Vision Transformer (ViT) framework that bypasses the need for explicit segmentation by directly predicting the presence of HRP. Our approach extracts cross-sectional slices along the coronary centerline, ensuring that the model focuses on the artery. By leveraging the standard patch-based input of ViT, we capture not only the coronary cross-section itself but also surrounding contextual information (e.g., adipose tissue). Furthermore, we incorporate multiple levels of detail by combining the cross-sections from proximal and distal positions with their corresponding CTA axial planes, forming a comprehensive cross-sectional representation. We also embedded the actual 3D position of each cross-section into the positional encoding of the Transformer to enhance spatial awareness. Experimental results of 3,068 coronary arteries demonstrate that our method outperforms conventional approaches, highlighting its potential to optimize clinical decision-making in the care of coronary artery diseases.",
+  "authors": [
+    {
+      "name": "Le, Anjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gong, Tan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Quanlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weir-McCall, Jonathan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "O’Regan, Declan P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Williams, Michelle C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Newby, David E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rudd, James H. F.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2068_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

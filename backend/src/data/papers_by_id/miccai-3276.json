@@ -1,0 +1,44 @@
+{
+  "id": "miccai-3276",
+  "title": "BiasICL: In-Context Learning and Demographic Biases of Vision Language Models",
+  "abstract": "Vision language models (VLMs) show promise in medical diagnosis, but their performance across demographic subgroups when using in-context learning (ICL) remains poorly understood. We examine how the demographic composition of demonstration examples affects VLM performance in two medical imaging tasks: skin lesion malignancy prediction and pneumothorax detection from chest radiographs. Our analysis reveals that ICL influences model predictions through multiple mechanisms: (1) ICL allows VLMs to learn subgroup-specific disease base rates from prompts and (2) ICL leads VLMs to make predictions that perform differently across demographic groups, even after controlling for subgroup-specific disease base rates. Our empirical results inform best-practices for prompting current VLMs (specifically examining demographic subgroup performance, and matching base rates of labels to target distribution at a bulk level and within subgroups), while also suggesting next steps for improving our theoretical understanding of these models.",
+  "authors": [
+    {
+      "name": "Xu, Sonnet",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Janizek, Joseph D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Yixing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Daneshjou, Roxana",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3276_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "miccai-0710",
+  "title": "UniMRG: Refining Medical Semantic Understanding Across Modalities via LLM-Orchestrated Synergistic Evolution",
+  "abstract": "Current medical report generation (MRG) methods remain limited by cross-modal associations, particularly when handling complex medical terminology across different modalities. In this work, we propose the Universal Medical Report Generation (UniMRG) framework to enhance Vision-Language foundation models (VLFMs) through coordinated data augmentation and architecture optimization. Specifically, we introduce Universal Semantics-Synergistic Multimodal Augmentation to enhance model adaptability to diverse medical scenarios while preserving critical diagnostic features. We further design a Medical Content Learner to capture both fine-grained pathological variations and specialized diagnostic contexts for robust cross-modal alignment. To achieve robust medical understanding against real-world variations, we develop a Dynamic Synergistic Evolution strategy guided by Large Language Model (LLM) that enables joint optimization of augmentation policies and architectural configurations. To address the existing gap in public VL datasets for skin diseases, we release a large-scale Skin-Path dataset, consisting of 277,761 patches covering 10 distinct skin diseases. Extensive experiments on PatchGastric22, IU-Xray, and Skin-Path demonstrate that UniMRG achieves state-of-the-art performance, surpassing Clinical-BERT by 2.6% in BLEU-4 and 3.9% in Rouge-L on IU-Xray. The Skin-Path dataset is available at: https://unimrg.github.io/Skin-Path/.",
+  "authors": [
+    {
+      "name": "Xu, Hongyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sowmya, Arcot",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Katz, Ian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Dadong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0710_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

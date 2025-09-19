@@ -1,0 +1,52 @@
+{
+  "id": "miccai-3012",
+  "title": "Cost-effective Active Learning for Nucleus Detection Using Crowdsourced Annotations with Dynamic Weighting Adjustment",
+  "abstract": "Accurate nucleus detection in pathology images is crucial for disease diagnosis. Deep learning based methods require extensive annotations of nuclei, which are time-consuming for pathologists. Active learning (AL) provides an attractive paradigm for reducing annotation efforts by iteratively selecting the most valuable samples for annotation. However, most AL methods do not consider utilizing crowdsourced annotations from multiple workers with varying expertise levels and labeling costs, limiting their practical applicability. Recent approaches design AL strategies that adaptively select the most cost-effective worker for each sample, but these methods solely focus on the classification task, overlooking the development of an AL framework for the detection task. Additionally, they struggle to adapt to the changes in model performance during AL iterations, resulting in inefficiencies in sample selection and cost management. Based on the above considerations, we propose C2AL, a novel cost-effective AL framework",
+  "authors": [
+    {
+      "name": "Tang, Jiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zu, Yuankun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Daoqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shao, Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3012_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

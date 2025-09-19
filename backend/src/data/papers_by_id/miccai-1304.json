@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1304",
+  "title": "Leveraging Diffusion Models for Continual Test-Time Adaptation in Fundus Image Classification",
+  "abstract": "Continual Test-Time Adaptation (CTA) aims to improve model generalization under distribution shifts by adapting to incoming test data. However, conventional CTA methods, such as pseudo-label refinement and entropy minimization, face challenges in fundus image classification due to the limited number of training samples and class categories, which lead to overconfident yet miscalibrated predictions, making traditional adaptation methods ineffective. To address these issues, we propose a novel diffusion-based CTA framework, DiffCTA, which leverages the generative capabilities of diffusion models to refine test samples and align them with the source domain distribution without modifying the source model. DiffCTA enhances test-time adaptation using diffusion guidance while preserving diagnostic features. Specifically, we integrate content guidance to retain anatomical structures, consistency guidance to stabilize predictions via entropy minimization, style guidance for CLIPbased domain alignment, and a sampling optimization module that dynamically adjusts guidance strength across diffusion timesteps. We conducted experiments on glaucoma classification and diabetic retinopathy grading tasks. In the glaucoma classification task, our method outperformed the best existing approach by 2.6%, demonstrating its effectiveness in handling domain shifts without modifying the source model. The code is available at: https://github.com/mingsiliu557/DiffCTA.",
+  "authors": [
+    {
+      "name": "Liu, Mingsi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Mengxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Lixin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Huihui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yanwu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1304_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

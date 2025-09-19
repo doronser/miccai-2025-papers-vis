@@ -1,0 +1,58 @@
+{
+  "id": "miccai-3315",
+  "title": "Contrastive Disentanglement Learning Framework for Multi-lead Wearable ECG Denoising",
+  "abstract": "Electrocardiogram (ECG) denoising enhances the clarity of noisy signals while preserving or even improving diagnostic performance. Most existing single-lead denoising algorithms require a preliminary noise assessment across all 12 leads, discarding clean leads and denoising only the noisy leads. In this paper, a novel disentanglement learning denoising network is proposed for 12-lead wearable ECG that directly processes 12-lead ECG, denoising noisy leads while preserving clean leads. Specifically, the proposed network takes both raw ECG and its corresponding simulated noisy ECG as inputs, disentangling them into noise codes and signal content codes. To ensure consistency between the content codes from two inputs, a discriminator is introduced. Additionally, considering that clean leads within the same ECG can provide valuable information for denoising noisy leads, a lead encoder is designed to extract lead specific features from the raw ECG. A contrastive loss is then applied between the features of noisy and clean leads to optimize the model. The results demonstrate that our method achieves superior denoising performance across two different lead system test datasets. Furthermore, evaluations on an ST-segment change multi-label classification task indicate that the denoised ECG improve diagnostic AUC and AUPRC. Furthermore, our model can be used into remote wearable ECG diagnostic workflows, providing preliminary noise reduction to assist cardiologists in subsequent clinical assessments.",
+  "authors": [
+    {
+      "name": "Zhang, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Chenyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Wen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jinliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Qianjin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> EEG / ECG",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3315_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

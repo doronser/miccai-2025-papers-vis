@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1330",
+  "title": "Path Signature Features Revealed SSRI-Induced White Matter Morphological Reorganization in Depressions",
+  "abstract": "Selective serotonin reuptake inhibitors (SSRIs) are recognized as the first-line treatment for major depressive disorder; however, the characterization of their microstructural effects on white matter (WM) is still limited. This study presents a novel path signature (PS) framework to quantify longitudinal WM plasticity utilizing clinical-grade diffusion magnetic resonance imaging (MRI) data. This approach overcomes the limitations of conventional diffusion metrics, achieving a sensitivity of 1 mm³ without requiring high-resolution imaging. By combining rough path theory with super-resolution mapping, significant SSRI-induced reorganization is found in the transverse pontine tract, left anterior limb of the internal capsule, and splenium of the corpus callosum in MDD patients. Changes in PS features in these fiber bundles and the left corticospinal tract correlate positively with reductions in the 17-item Hamilton Depression Rating Scale scores, providing preliminary evidence of a relationship between WM alterations and clinical outcomes. The findings establish PS analysis as a promising tool for detecting macrostructural plasticity in WM due to SSRIs, thereby bridging the critical gap between microstructural diffusion metrics and circuit-level reorganization, and providing a novel insight into comprehensive biomarkers for precision antidepressant therapy.",
+  "authors": [
+    {
+      "name": "Qin, Jiaolong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Weihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Huangjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Zhijian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Ye",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computational Anatomy and Physiology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1330_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

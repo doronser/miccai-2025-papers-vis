@@ -1,0 +1,68 @@
+{
+  "id": "miccai-4555",
+  "title": "The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection",
+  "abstract": "Large-scale pre-training holds the promise to advance 3D medical object detection, a crucial component of accurate computer-aided diagnosis. Yet, it remains underexplored compared to segmentation, where pre-training has already demonstrated significant benefits. Existing pre-training approaches for 3D object detection rely on 2D medical data or natural image pre-training, failing to fully leverage 3D volumetric information. In this work, we present the first systematic study of how existing pre-training methods can be integrated into state-of-the-art detection architectures, covering both CNNs and Transformers. Our results show that pre-training consistently improves detection performance across various tasks and datasets. Notably, reconstruction-based self-supervised pre-training outperforms supervised pre-training, while contrastive pre-training provides no clear benefit for 3D medical object detection. Our code is publicly available at: https://github.com/MIC-\nDKFZ/nnDetection-finetuning.",
+  "authors": [
+    {
+      "name": "Eckstein, Katharina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ulrich, Constantin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baumgartner, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kächele, Jessica",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bounias, Dimitrios",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wald, Tassilo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Floca, Ralf",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maier-Hein, Klaus H.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Breast",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4555_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

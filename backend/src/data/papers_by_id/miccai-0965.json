@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0965",
+  "title": "Alzheimer’s Disease Recognition Based on Adaptive Graph Normalization Flow for Incomplete Multimodal Data Fusion",
+  "abstract": "Multimodal data holds significant value in the diagnosis of Alzheimer’s disease (AD). However, in real-world applications, factors such as privacy protection, acquisition costs, and sensor failures often lead to data missingness, posing challenges for incomplete multimodal learning. Currently the artificial intelligence-based diagnostic methods for AD on incomplete multimodal data have gained increasing attention. However, existing approaches typically overlook modality distribution discrepancies and suffer from severe performance degradation under recovery paradigms lacking reconstruction experience. To address this challenge, we propose an Adaptive Graph Distribution Consistency Modal Recovery Network Based on Normalizing Flows (AGDiC) to tackle incomplete multimodal learning in neuroimaging. We develop a novel framework integrating adaptive graph learning with normalizing flows and a modality regularization strategy. This framework focuses adaptive graph attention features on modality distributions while ensuring distribution consistency of recovered data, and employs masked cross-attention to facilitate multimodal fusion. Unlike conventional methods, our model can handle arbitrary modality missingness during both training and inference phases without relying on reconstruction experience. Extensive experiments are conducted using three neuroimaging modalities from the ADNI dataset: sMRI, fMRI and PET. Results demonstrate that our method achieves state-of-the-art performance and exhibits remarkable stability across various random missing rates.",
+  "authors": [
+    {
+      "name": "Li, Yaqin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Yihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yanan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Haihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Linlin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0965_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

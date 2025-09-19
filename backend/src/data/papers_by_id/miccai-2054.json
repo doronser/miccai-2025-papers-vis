@@ -1,0 +1,78 @@
+{
+  "id": "miccai-2054",
+  "title": "Exemplar Med-DETR: Toward Generalized and Robust Lesion Detection in Mammogram Images and Beyond",
+  "abstract": "Detecting abnormalities in medical images poses unique challenges due to differences in feature representations and the intricate relationship between anatomical structures and abnormalities. This is especially evident in mammography, where dense breast tissue can obscure lesions, complicating radiological interpretation. Despite leveraging anatomical and semantic context, existing detection methods struggle to learn effective class-specific features, limiting their applicability across different tasks and imaging modalities. In this work, we introduce Exemplar Med-DETR, a novel multi-modal contrastive detector that enables feature-based detection. It employs cross-attention with inherently derived, intuitive class-specific exemplar features and is trained with an iterative strategy. We achieve state-of-the-art performance across three distinct imaging modalities from four public datasets. On Vietnamese dense breast mammograms, we attain an mAP50 of 0.7 for mass detection and 0.55 for calcifications, yielding an absolute improvement of 16% points from previous state-of-the-art. Additionally, a radiologist-supported evaluation of 100 mammograms from an out-of-distribution Chinese cohort demonstrates a twofold gain in lesion detection performance. For chest X-rays and angiography, we achieve an mAP50 of 0.25 for mass and 0.37 for stenosis detection, improving results by 4% and 7% points, respectively. These results highlight the potential of our approach to advance robust and generalizable detection systems for medical imaging.",
+  "authors": [
+    {
+      "name": "Bhat, Sheethal",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Georgescu, Bogdan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Panambur, Adarsh Bhandary",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zinnen, Mathias",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Tri-Thien",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mansoor, Awais",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elbarbary, Karim Khalifa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bayer, Siming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ghesu, Florin-Cristian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grbic, Sasa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maier, Andreas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2054_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

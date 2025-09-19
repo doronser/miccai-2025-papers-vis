@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1256",
+  "title": "FilterDiff: Noise-free Frequency-domain Diffusion Models for Accelerated MRI Reconstruction",
+  "abstract": "Accelerated MRI reconstruction has garnered increasing attention due to its significant clinical value. Recently, the exceptional capabilities of diffusion models in image generation have led to their widespread application in accelerated MRI reconstruction. However, the inherent noisy diffusion process in these models introduces uncertainty during the reverse diffusion restoration, which can compromise the consistency of the results. Moreover, adding Gaussian noise contradicts the actual MRI imaging process. To address these issues, we propose FilterDiff, a noise-free frequency-domain diffusion framework. In FilterDiff, the diffusion process is modeled as a filtering operation, similar to the MRI acquisition process, thereby eliminating the dependence on noise and simplifying the diffusion procedure. To better capture frequency-domain long-range information, we proposed a Swin-DiTs network, which modifies the DiT transformer network by replacing the self-attention mechanism with Swin-attention to reduce computational cost, and removing the position embedding to mitigate feature artifacts. Extensive experiments on two public datasets demonstrate that our model achieves state-of-the-art performance in accelerated MRI reconstruction, both in in-distribution and out-of-distribution scenarios.",
+  "authors": [
+    {
+      "name": "Song, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nie, Fang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1256_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

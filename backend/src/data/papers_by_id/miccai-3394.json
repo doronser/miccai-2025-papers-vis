@@ -1,0 +1,59 @@
+{
+  "id": "miccai-3394",
+  "title": "STEAM: Self-supervised TEeth Analysis and Modeling for Point Cloud Segmentation",
+  "abstract": "Accurate segmentation of 3D tooth point clouds from intraoral scanner (IOS) data is crucial for orthodontic applications. While current methods show promise, their reliance on high-quality labeled datasets is limited due to costly annotation processes, which further constrain their practical generalizability. We address this challenge with STEAM, a self-supervised learning framework that learns comprehensive features from large-scale unlabeled tooth point clouds. Built upon the masked autoencoder, our framework incorporates two key innovations: Gradient-guided Adaptive Masking (GAM), which adaptively identifies and prioritizes challenging regions by analyzing local feature variations during the training process, and Multi-attribute Geometric Reconstruction (MGR), which reconstructs multiple geometric attributes including point distributions, normals, and curvatures to capture geometric features of different granularity. Through extensive experiments on public datasets, our approach demonstrates superior performance in downstream segmentation tasks with minimal labeled data, achieving significant improvements over existing methods. The results validate STEAM effectiveness in maximizing the utility of limited labeled data for practical dental applications.",
+  "authors": [
+    {
+      "name": "Liu, Yifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Weihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Max Q.-H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Yixuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Scene Understanding",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3394_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

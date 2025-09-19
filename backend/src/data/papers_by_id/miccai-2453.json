@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2453",
+  "title": "Self-supervised Axial Super-Resolution for Volume Microscopy via Diffusion-Guided Structure Distillation",
+  "abstract": "Anisotropic resolution remains a fundamental challenge in 3D microscopy, where axial resolution is significantly lower than lateral resolution due to physical limitations. To address this, we propose a self-supervised volume super-resolution (VSR) framework named Diffusion to Resolution (D2R), which leverages 2D diffusion priors to enhance axial resolution without requiring high-resolution (HR) volume as supervision. D2R consists of three stages: (1) learning biological priors via a 2D diffusion model trained on high-resolution XY slices, (2) generating pseudo-HR lateral (XZ/YZ) volumes through cross-plane fusion, and (3) performing stable structure distillation to train a 3D VSR network. To further improve VSR quality, we introduce Axial Enhancement Network (AENet), a 3D VSR model incorporating lightweight channel attention to enhance fine details while maintaining inter-slice continuity. Extensive experiments on FIB-SEM datasets demonstrate that D2R-AENet outperforms state-of-the-art self-supervised methods in both image similarity and membrane segmentation accuracy, achieving performance close to supervised approaches. These results validate the effectiveness of our framework in high-fidelity volumetric reconstruction under practical conditions where HR references are unavailable. Codes are available at https://github.com/hmzawz2/D2R-models.",
+  "authors": [
+    {
+      "name": "Chen, Bohao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yanchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lv, Yanan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Hua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2453_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

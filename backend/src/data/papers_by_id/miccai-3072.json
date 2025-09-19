@@ -1,0 +1,38 @@
+{
+  "id": "miccai-3072",
+  "title": "Semantic Interpolative Diffusion Model: Bridging the Interpolation to Masks and Colonoscopy Image Synthesis for Robust Generalization",
+  "abstract": "Polyp segmentation is a representative task in computer-aided clinical diagnosis in colonoscopy analysis. However, strict regulations limit the availability of large, high-quality image-mask paired datasets for segmentation. As a result, recent studies have focused on models that generate images conditioned on masks. However, due to rigid annotation constraints and a high reliance on fixed masks, the synthesized images often exhibit limited variation, leading to a lack of generalization in downstream tasks. This study introduces the Semantic Interpolative Diffusion Model (SIDM), which applies interpolation to both the given masks and the colonoscopy images to generate pairs of interpolated masks and images. First, a background semantic label was devised by labeling background regions based on the colonoscopy imaging environment. Both the masks and the background semantic labels are applied as multi-conditions to the diffusion model for colonoscopy image generation. After training, interpolation on both the masks and background semantic labels is performed at a chosen ratio. Applying the interpolated masks and labels to the model generates an intermediate perspective of colonoscopy images that partially incorporates features from each condition. By augmenting the dataset with these pairs of interpolated masks and generated images with interpolated conditions, segmentation models can extend the coverage of possible colonoscopy scenarios and mitigate the limitations of fixed masks, leading to robust generalization. Experimental comparisons against existing generative models, using the same test data across different segmentation models and different test datasets with the same model, demonstrate the effective generalization of the proposed model. The code is available at https://github.com/DSLab-MJU/SIDM.",
+  "authors": [
+    {
+      "name": "Heo, Chanyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jung, Jaehee",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3072_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "miccai-4862",
+  "title": "RAPTOR: Generative AI for Parsing Colorectal Cancer Referrals to Streamline Faster Diagnostic Standard Pathways",
+  "abstract": "Delays in processing urgent cancer referrals hinder Faster Diagnostic Standards (FDS), with manual extraction of patient data (demographics, symptoms and test results) remaining a bottleneck in colorectal two-week wait (2WW) pathways. We evaluate generative AI (GenAI) for automating structured data extraction from colorectal cancer (CRC) 2WW referrals, comparing the reasoning capabilities of GPT-4o-Mini and DeepSeek-R1 against clinician-led extraction. Both models achieved near-human precision (GPT-4o-Mini: 94.83\\%, DeepSeek-R1: 93.72\\%) while reducing the processing time by 10-fold. Key challenges included non-deterministic output, OCR noise (e.g. handwritten annotations, overlapping text), and contextual ambiguity, notably misclassified checkboxes, symptom misattribution, and numerical inconsistencies (e.g. fecal immunochemical test (FIT) unit conversions). We also proposed an uncertainty quantification mechanism to flag uncertain extractions for human review. Despite residual limitations, GenAI shows the potential to improve efficiency, standardisation, and equity in cancer pathways by alleviating administrative burdens. Future work should prioritise hybrid AI-clinician workflows, domain-specific fine-tuning, and real-world validation to ensure reliable clinical integration.",
+  "authors": [
+    {
+      "name": "Abioye, Sofiat",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ashraf, Shazad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qadir, Junaid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Byfield, Adam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jose, Anusha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Poulett, William",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wallace, Ben",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Butt, Adil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Forde, Colm",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mottershead, Marcus",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fallis, Simon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Beggs, Andrew",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bhangu, Aneel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Akanbi, Lukman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bilal, Muhammad",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4862_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

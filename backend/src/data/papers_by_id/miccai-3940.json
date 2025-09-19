@@ -1,0 +1,50 @@
+{
+  "id": "miccai-3940",
+  "title": "Semantically Consistent Discrete Diffusion for 3D Biological Graph Modeling",
+  "abstract": "3D spatial graphs play a crucial role in biological and clinical research by modeling anatomical networks such as blood vessels, neurons, and airways. However, generating 3D biological graphs while maintaining anatomical validity remains challenging, a key limitation of existing diffusion-based methods. In this work, we propose a novel 3D biological graph generation method that adheres to structural and semantic plausibility conditions. We achieve this by using a novel projection operator during sampling that stochastically fixes inconsistencies. Further, we adopt a superior edge-deletion-based noising procedure suitable for sparse biological graphs. Our method demonstrates superior performance on two real-world datasets, human circle of Willis and lung airways, compared to previous approaches. Importantly, we demonstrate that the generated samples significantly enhance downstream graph labeling performance. Furthermore, we show that our generative model is a reasonable out-of-the-box link predictior.",
+  "authors": [
+    {
+      "name": "Prabhakar, Chinmay",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shit, Suprosanna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Amiranashvili, Tamaz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hongwei Bran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Menze, Bjoern",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3940_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

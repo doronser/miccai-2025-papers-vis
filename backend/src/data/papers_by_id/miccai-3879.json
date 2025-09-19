@@ -1,0 +1,49 @@
+{
+  "id": "miccai-3879",
+  "title": "Longitudinal anatomical attention maps for recognizing diagnostic errors from radiologists’ eye movements",
+  "abstract": "With the rise in respiratory diseases, the workload on radiologists is increasing, leading to a higher risk of diagnostic errors. One approach to improve diagnostic processes is to reduce the frequency of cognitive and perceptual errors made by humans. This study aims to predict radiologists’ diagnostic errors while interpreting chest X-rays using eye-tracking technology. We propose a novel method that combines human attention, derived from the locations of gaze fixation points, with attention from transformer neural networks. The resulting attention maps are combined with the segmentation of anatomical structures, including the lungs, clavicles, hila, heart, mediastinum, and esophagus, which restricts the analysis for regions potentially relevant for thoracic disease diagnosis. Attention maps are computed for each gaze fixation point, creating a longitudinal path representing the X-ray reading process. Finally, we applied Gated Recurrent Units (GRUs) to learn from the longitudinal attention maps and statistical gaze features to predict potential X-ray diagnostic errors. The proposed methodology was validated on 4000 chest X-ray readings performed by four radiologists. The model achieved an error detection accuracy of $0.79$, measured as the area under the receiver operating characteristic (ROC) curve. The code is available at\nhttps://github.com/annshorn/TEGRU",
+  "authors": [
+    {
+      "name": "Anikina, Anna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ibragimova, Diliara",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mustafaev, Tamerlan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mello-Thoms, Claudia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ibragimov, Bulat",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Skill and Work Flow Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3879_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

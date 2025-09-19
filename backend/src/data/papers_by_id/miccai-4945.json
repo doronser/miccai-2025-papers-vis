@@ -1,0 +1,38 @@
+{
+  "id": "miccai-4945",
+  "title": "Harnessing Side Information for Highly Accelerated MRI",
+  "abstract": "Reducing MRI scan times can improve patient care and lower healthcare costs. Many acceleration methods are designed to reconstruct diagnostic-quality images from sparse k-space data, via an ill-posed or ill-conditioned  linear inverse problem (LIP). To address the resulting ambiguities, it is crucial to incorporate prior knowledge into the optimization problem, e.g., in the form of regularization. Another form of prior knowledge less commonly used in medical imaging is the side information obtained from sources other than the current acquisition. In this paper, we present the Trust-Guided Variational Network (TGVN), an end-to-end deep learning framework that effectively and reliably integrates side information into LIPs. We demonstrate its effectiveness in multi-coil, multi-contrast MRI reconstruction, where incomplete or low-SNR measurements from one contrast are used as side information to reconstruct high-quality images of another contrast from heavily undersampled data.  TGVN is robust across different contrasts, anatomies, and field strengths. Compared to baselines utilizing side information, TGVN achieves superior image quality while preserving subtle pathological features even at challenging acceleration levels, drastically speeding up acquisition while minimizing hallucinations. Source code and dataset splits are available on github.com/sodicksonlab/TGVN.",
+  "authors": [
+    {
+      "name": "Atalık, Arda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chopra, Sumit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sodickson, Daniel K.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4945_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

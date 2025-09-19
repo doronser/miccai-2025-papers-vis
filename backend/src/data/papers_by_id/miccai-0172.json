@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0172",
+  "title": "Mono-Modalizing Extremely Heterogeneous Multi-Modal Medical Image Registration",
+  "abstract": "In clinical practice, imaging modalities with functional characteristics, such as positron emission tomography (PET) and fractional anisotropy (FA), are often aligned with a structural reference (e.g., MRI, CT) for accurate interpretation or group analysis, necessitating multi-modal deformable image registration (DIR). However, due to the extreme heterogeneity of these modalities compared to standard structural scans, conventional unsupervised DIR methods struggle to learn reliable spatial mappings and often distort images. We find that the similarity metrics guiding these models fail to capture alignment between highly disparate modalities. To address this, we propose M2M-Reg (Multi-to-Mono Registration), a novel framework that trains multi-modal DIR models using only mono-modal similarity while preserving the established architectural paradigm for seamless integration into existing models. We also introduce GradCyCon, a regularizer that leverages M2M-Reg’s cyclic training scheme to promote diffeomorphism. Furthermore, our framework naturally extends to a semi-supervised setting, integrating pre-aligned and unaligned pairs only, without requiring ground-truth transformations or segmentation masks. Experiments on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset demonstrate that M2M-Reg achieves up to 2× higher DSC than prior methods for PET-MRI and FA-MRI registration, highlighting its effectiveness in handling highly heterogeneous multi-modal DIR. Our code is available at https://github.com/MICV-yonsei/M2M-Reg.",
+  "authors": [
+    {
+      "name": "Choo, Kyobin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Hyunkyung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Jinyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoon, Chanyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hwang, Seong Jae",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Registration",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0172_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

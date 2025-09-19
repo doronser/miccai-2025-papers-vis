@@ -1,0 +1,97 @@
+{
+  "id": "miccai-0673",
+  "title": "RetinaLogos: Fine-Grained Synthesis of High-Resolution Retinal Images Through Captions",
+  "abstract": "The scarcity of high-quality, labelled retinal imaging data, which presents a significant challenge in the development of machine learning models for ophthalmology, hinders progress in the field. Existing methods for synthesising Colour Fundus Photographs (CFPs) largely rely on predefined disease labels, which restricts their ability to generate images that reflect fine-grained anatomical variations, subtle disease stages, and diverse pathological features beyond coarse class categories. To overcome these challenges, we first introduce an innovative pipeline that creates a large-scale, captioned retinal dataset comprising 1.4 million entries, called  RetinaLogos-1400k. Specifically,  RetinaLogos-1400k uses the visual language model (VLM) to describe retinal conditions and key structures, such as optic disc configuration, vascular distribution, nerve fibre layers, and pathological features. Building on this dataset,  we employ a novel three-step training framework, called RetinaLogos, which enables fine-grained semantic control over retinal images and accurately captures different stages of disease progression, subtle anatomical variations, and specific lesion types. Through extensive experiments, our method demonstrates superior performance across multiple datasets, with 62.07% of text-driven synthetic CFPs indistinguishable from real ones by ophthalmologists. Moreover, the synthetic data improves accuracy by 5%-10% in diabetic retinopathy grading and glaucoma detection. Codes are available at https://github.com/uni-medical/retina-text2cfp.",
+  "authors": [
+    {
+      "name": "Ning, Junzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Cheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Kaijing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Diping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Huihui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Yanzhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Tianbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jiyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Sheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Yuanfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Junjun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0673_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

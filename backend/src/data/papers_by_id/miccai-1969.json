@@ -1,0 +1,41 @@
+{
+  "id": "miccai-1969",
+  "title": "UltraRay: Introducing Full-Path Ray Tracing in Physics-Based Ultrasound Simulation",
+  "abstract": "Traditional ultrasound simulators solve the wave equation to model pressure distribution fields, achieving physical accuracy but requiring significant computational time and resources. Ray tracing approaches have been introduced to address this limitation, modeling wave propagation as rays interacting with boundaries and scatterers. However, existing models simplify ray propagation, generating echoes at interaction points without considering return paths to the sensor. This can result in undesired artifacts and necessitates careful scene tuning for plausible results. We propose UltraRay, a novel framework that models the full path of acoustic waves reflecting from tissue boundaries. We derive the equations for accurate reflection modeling across multiple interaction points and introduce a sampling strategy for an increased likelihood of a ray returning to the transducer. By incorporating a ray emission scheme for plane wave imaging and a standard signal processing pipeline for beamforming, we are able to simulate the ultrasound image formation process end-to-end. Built on a differentiable modular framework, UltraRay introduces an extendable foundation for differentiable ultrasound simulation based on full-path ray tracing. We demonstrate its advantages compared to the state-of-the-art ray tracing ultrasound simulation, shown both on a synthetic scene and a spine phantom.",
+  "authors": [
+    {
+      "name": "Duelmer, Felix",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Azampour, Mohammad Farid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wysocki, Magdalena",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1969_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

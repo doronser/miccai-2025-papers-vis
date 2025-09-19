@@ -1,0 +1,44 @@
+{
+  "id": "miccai-1012",
+  "title": "BME2: A Plug-and-Play Bridge-Based Module for Misalignment Estimation and Elimination in Multi-Scan Image Restoration",
+  "abstract": "The multi-scan imaging procedure, involving both multi-modal and multi-timepoint scans, captures temporal changes and complementary cross-modality information, playing a key role in clinical diagnosis. Multi-scan image restoration (IR), which leverages high-quality reference scans to aid in restoring degraded current scans, holds significant potential for reducing the cost of the multi-scan procedure. However, misalignment between scans, arising from patient physiological or posture changes, impacts the ability of networks to exploit cross-scan correlations and leads to declined restoration performance. To this end, we propose a plug-and-play Bridge-Based Module for Misalignment Estimation and Elimination (BME2), which adopts a coarse-to-fine strategy to estimate cross-scan misalignment. Specifically, a lightweight misalignment estimation (ME) network first predicts the initial deformation fields, which are then iteratively refined via a latent Schrodinger bridge-based model to obtain the final estimation. Notably, BME2 can be added to arbitrary backbones and only introduces mild computational costs. Validated on brain MRI and abdominal CT datasets, BME2 universally enhances four baselines, achieving average PSNR gains of 0.54 and 0.65 dB on brain and abdominal data, respectively.",
+  "authors": [
+    {
+      "name": "Chen, Wenxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Caiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Xiaolei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1012_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

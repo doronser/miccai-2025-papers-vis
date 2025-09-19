@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0260",
+  "title": "Conformal forecasting for surgical instrument trajectory",
+  "abstract": "Forecasting surgical instrument trajectories and predicting the next surgical action recently started to attract attention from the research community.  Both these tasks are crucial for automation and assistance in endoscopy surgery.  Given the safety-critical nature of these tasks, reliable uncertainty quantification is essential. Conformal prediction is a fast-growing and widely recognized framework for uncertainty estimation in machine learning and computer vision, offering distribution-free, theoretically valid prediction intervals. \nIn this work, we explore the application of standard conformal prediction and conformalized quantile regression to estimate uncertainty in forecasting surgical instrument motion, i.e., predicting direction and magnitude of surgical instruments’ future motion.  We analyze and compare their coverage and interval sizes, assessing the impact of multiple hypothesis testing and correction methods. Additionally, we show how these techniques can be employed to produce useful uncertainty heatmaps.\nTo the best of our knowledge, this is the first study applying conformal prediction to surgical guidance, marking an initial step toward constructing principled prediction intervals with formal coverage guarantees in this domain.",
+  "authors": [
+    {
+      "name": "Sangalli, Sara",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sarwin, Gary",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Erdil, Ertunc",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Serra, Carlo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Carretta, Alessandro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Staartjes, Victor",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Konukoglu, Ender",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Uncertainty",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0260_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

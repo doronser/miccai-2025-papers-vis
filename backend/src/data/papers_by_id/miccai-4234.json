@@ -1,0 +1,75 @@
+{
+  "id": "miccai-4234",
+  "title": "Learning from Sparse Point Labels for Dense Carcinosis Localization in Advanced Ovarian Cancer Assessment",
+  "abstract": "Learning from sparse labels is a challenge commonplace in\nthe medical domain. This is due to numerous factors, such as annotation cost, and is especially true for newly introduced tasks. When dense pixel-level annotations are needed, this becomes even more unfeasible. However, being able to learn from just a few annotations at the pixel-level, while extremely difficult and underutilized, can drive progress in studies where perfect annotations are not immediately available. This work tackles the challenge of learning the dense prediction task of keypoint localization from a few point annotations in the context of 2d carcinosis keypoint localization from laparoscopic video frames for diagnostic planning of advanced ovarian cancer patients. To enable this, we formulate the problem as a sparse heatmap regression from a few point annotations per image and propose a new loss function, called Crag and Tail loss, for efficient learning. Our proposed loss function effectively leverages positive sparse labels while minimizing the impact of false negatives or missed annotations. Through an extensive ablation study, we demonstrate the effectiveness of our approach in achieving accurate dense localization of carcinosis keypoints, highlighting its potential to advance research in scenarios where dense annotations are challenging to obtain.",
+  "authors": [
+    {
+      "name": "Zarin, Farahdiba",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oliva, Riccardo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Srivastav, Vinkle",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vardazaryan, Armine",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rosati, Andrea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zampolini Faustini, Alice",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Scambia, Giovanni",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fagotti, Anna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mascagni, Pietro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Padoy, Nicolas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Gynecology",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4234_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

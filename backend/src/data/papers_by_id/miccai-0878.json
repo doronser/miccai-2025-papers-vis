@@ -1,0 +1,72 @@
+{
+  "id": "miccai-0878",
+  "title": "Robust Incomplete-Modality Alignment for Ophthalmic Disease Grading and Diagnosis via Labeled Optimal Transport",
+  "abstract": "Multimodal ophthalmic imaging-based diagnosis integrates colour fundus imaging with optical coherence tomography (OCT) to provide a comprehensive view of ocular pathologies. However, the uneven global distribution of healthcare resources often results in real-world clinical scenarios encountering incomplete multimodal data, which significantly compromises diagnostic accuracy. Existing commonly used deep learning pipelines, such as modality imputation and distillation methods, face notable limitations: 1) Imputation methods struggle with accurately reconstructing key lesion features, since OCT lesions are localized, while fundus images vary in style. 2) distillation methods rely heavily on fully paired multimodal training data. To address these challenges, we propose a novel multimodal alignment and fusion framework capable of robustly handling missing modalities in the task of ophthalmic diagnostics.  By considering the distinctive feature characteristics of OCT and fundus images, we emphasise the alignment of semantic features within the same category and explicitly learn soft matching between modalities, allowing the missing modality to utilize existing modality information, achieving robust cross-modal feature alignment under the missing modality. Specifically, we leverage the Optimal Transport (OT) mechanism for multi-scale modality feature alignment: class-wise alignment through predicted class prototypes and feature-wise alignment via cross-modal shared feature transport. Furthermore, we propose an asymmetric fusion strategy that effectively exploits the distinct characteristics of OCT and fundus modalities. Extensive evaluations on three large-scale ophthalmic multimodal datasets demonstrate our model’s superior performance under various modality-incomplete scenarios, achieving state-of-the-art performance in both complete modality and inter-modality incompleteness conditions. The implementation code is available at \\url{https://github.com/Qinkaiyu/RIMA}",
+  "authors": [
+    {
+      "name": "Yu, Qinkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Jianyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yitian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Cheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Liming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Yanda",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0878_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

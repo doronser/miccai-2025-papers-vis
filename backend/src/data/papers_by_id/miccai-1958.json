@@ -1,0 +1,111 @@
+{
+  "id": "miccai-1958",
+  "title": "Accurate and Efficient Fetal Birth Weight Estimation from 3D Ultrasound",
+  "abstract": "Accurate fetal birth weight (FBW) estimation is essential for optimizing delivery decisions and reducing perinatal mortality. However, clinical methods for FBW estimation are inefficient, operator-dependent, and challenging to apply in cases of complex fetal anatomy. Existing deep learning methods are based on 2D standard ultrasound (US) images or videos that lack spatial information, limiting their prediction accuracy. In this study, we propose the first method for directly estimating FBW from 3D fetal US volumes. Our approach integrates a multi-scale feature fusion network (MFFN) and a synthetic sample-based learning framework (SSLF). The MFFN effectively extracts and fuses multi-scale features under sparse supervision by incorporating channel attention, spatial attention, and a ranking-based loss function. SSLF generates synthetic samples by simply combining fetal head and abdomen data from different fetuses, utilizing semi-supervised learning to improve prediction performance. Experimental results demonstrate that our method achieves superior performance, with a mean absolute error of 166±155 g and a mean absolute percentage error of 5.1±4.6%, outperforming existing methods and approaching the accuracy of a senior physician. Code is available at: https://github.com/Qioy-i/EFW.",
+  "authors": [
+    {
+      "name": "Wang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Qiongying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Hongkui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Ruixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ying, Jinqiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xingyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jiongquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Junxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Wenlong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Chaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Zhongnuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Mingyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Gaocheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1958_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

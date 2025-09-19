@@ -1,0 +1,54 @@
+{
+  "id": "miccai-3675",
+  "title": "T2WI-BCMIC: Non-Fat Saturated T2-Weighted Imaging Dataset for Bladder Cancer Muscle Invasion Classification",
+  "abstract": "Accurate classification of muscle invasion in bladder cancer using computer-aided diagnosis (CAD) is crucial for timely intervention and improved prognosis. Despite advances in deep learning for medical image analysis, muscle invasion classification remains limited by the scarcity of publicly available annotated datasets. To address this, we introduce T2WI-BCMIC, the first expert-annotated dataset for bladder cancer muscle invasion classification. T2WI-BCMIC contains Non-fat saturated T2-weighted magnetic resonance imaging (MRI) images with five-class annotations, covering various invasion depths. We establish a benchmark using several popular deep learning architectures, providing a solid foundation for future comparisons. However, achieving further performance improvements remains challenging due to the small dataset size. Therefore, we propose a novel search-based data augmentation algorithm that increases data diversity by maximizing the divergence from the class-specific manifold, while preserving the class distribution to maintain class identity. Experimental results on T2WI-BCMIC show that our algorithm outperforms existing methods, achieving significant performance improvements. The T2WI-BCMIC dataset and benchmark are available at: https://github.com/T2-MI/T2WI-BCMIC for further research.",
+  "authors": [
+    {
+      "name": "Huang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Weiyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Qiuxia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Huanjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Qian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Urology",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3675_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

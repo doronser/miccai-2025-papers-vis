@@ -1,0 +1,64 @@
+{
+  "id": "miccai-2786",
+  "title": "Hypergraph-Guided Federated Distillation Learning for Efficient and Robust Multi-Center fMRI Data Analysis",
+  "abstract": "Multi-center fMRI data analysis faces significant challenges such as data privacy concerns and data integration issues. Federated learning, as an innovative distributed machine learning approach, enables cross-center collaboration by sharing model parameters instead of raw data. However, existing methods often struggle with improving the robustness and inference efficiency of multi-center fMRI data processing. To address these challenges, we propose a novel hypergraph-guided federated distillation framework(HGFD) for multi-center fMRI data analysis. HGFD utilizes a hypergraph structure to model the spatiotemporal features of brain activity, capturing high-order correlations across brain regions. Furthermore, a hypergraph-based knowledge distillation approach is utilized to transfer high-order structural representations into shallow neural networks, thereby preserving their ability for complex relational inference and significantly enhancing computational efficiency. In the federated learning process, participating centers only need to share the parameters of their shallow neural networks to a central server. Through parameter aggregation, each center’s shallow network can learn the high-order structural information of other centers. Experiments on multi-center fMRI dataset demonstrate that the proposed method not only improves the robustness and consistency of fMRI-based prediction tasks but also achieves efficient and accurate predictions while ensuring data privacy.",
+  "authors": [
+    {
+      "name": "Jin, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yidan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yuhan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sheng, Xichun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Chenggang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yaoqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xiangmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yue",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> Telemedicine and Mobile Health Imaging Technologies"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2786_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

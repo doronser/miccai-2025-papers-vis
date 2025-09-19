@@ -1,0 +1,65 @@
+{
+  "id": "miccai-2769",
+  "title": "Time-Lapse Video-Based Embryo Grading via Complementary Spatial-Temporal Pattern Mining",
+  "abstract": "Artificial intelligence has recently shown promise in automated embryo selection for In-Vitro Fertilization (IVF). However, current approaches either address partial embryo evaluation lacking holistic quality assessment or target clinical outcomes inevitably confounded by extra-embryonic factors, both limiting clinical utility. To bridge this gap, we propose a new task called Video-Based Embryo Grading - the first paradigm that directly utilizes full-length time-lapse monitoring (TLM) videos to predict embryologists’ overall quality assessments. To support this task, we curate a real-world clinical dataset comprising over 2,500 TLM videos, each annotated with a grading label indicating the overall quality of embryos. Grounded in clinical decision-making principles, we propose a Complementary Spatial-Temporal Pattern Mining (CoSTeM) framework that conceptually replicates embryologists’ evaluation process. The CoSTeM comprises two branches: (1) a morphological branch using a Mixture of Cross-Attentive Experts layer and a Temporal Selection Block to select discriminative local structural features, and (2) a morphokinetic branch employing a Temporal Transformer to model global developmental trajectories, synergistically integrating static and dynamic determinants for grading embryos. Extensive experimental results demonstrate the superiority of our design. This work provides a valuable methodological framework for AI-assisted embryo selection. The source code is available at https://github.com/RIL-Lab/CoSTeM.",
+  "authors": [
+    {
+      "name": "Sun, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yipeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Junyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zhiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Yanmei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Manxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nie, Qiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2769_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3121",
+  "title": "An Anatomical Significance-Aware Architecture for Explainable Myocardial Infarction Prediction via Multi-Task Learning",
+  "abstract": "Myocardial infarction (MI) is a significant health burden globally. Its precise prediction is critical yet complicated by the functional complexities of the heart and heterogeneous clinical presentations. Although learning-based methods that model the 3D heart anatomy have been widely studied,  improving cardiac embeddings with localized substructures in a multi-task setting, remains under-explored. In this work, we present a novel deep learning model that produces explainable embeddings with high relevance to cardiac function via multi-task learning. Its transformer-based architecture contains modules for both MI classification and cardiac substructure prediction. By jointly learning these tasks with shared embeddings, the model is able to better capture 3D cardiac geometries and deformation across cardiac phases, enhancing its predictive ability. We evaluate the proposed method on cardiac anatomies captured during end-diastolic and end-systolic phases from the UK Biobank study. Compared to the existing learning-based benchmarks, our method exhibits high predictive performance, achieving an area under the receiver operating characteristic curve for MI prediction of 0.802. We also demonstrate the strong explainability of our model by showing that the latent features generated under the proposed multi-task setting have a strong and statistically significant correlation with key clinical markers, such as ejection fraction.",
+  "authors": [
+    {
+      "name": "Peng, Jiachuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Beetz, Marcel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Banerjee, Abhirup",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Min",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grau, Vicente",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3121_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

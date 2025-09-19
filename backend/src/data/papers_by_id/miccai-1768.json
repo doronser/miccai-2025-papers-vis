@@ -1,0 +1,72 @@
+{
+  "id": "miccai-1768",
+  "title": "Ophora: A Large-Scale Data-Driven Text-Guided Ophthalmic Surgical Video Generation Model",
+  "abstract": "In ophthalmic surgery, developing an AI system capable of interpreting surgical videos and predicting subsequent operations requires numerous ophthalmic surgical videos with high-quality annotations, which are difficult to collect due to privacy concerns and labor consumption.\nText-guided video generation (T2V) emerges as a promising solution to overcome this issue by generating ophthalmic surgical videos based on surgeon instructions.\nIn this paper, we present Ophora, a pioneering model that can generate ophthalmic surgical videos following natural language instructions. \nTo construct Ophora, we first propose a Comprehensive Data Curation pipeline to convert narrative ophthalmic surgical videos into a large-scale, high-quality dataset comprising over 160K video-instruction pairs, Ophora-160K. \nThen, we propose a Progressive Video-Instruction Tuning scheme to transfer rich spatial-temporal knowledge from a T2V model pre-trained on natural video-text datasets for privacy-preserved ophthalmic surgical video generation based on Ophora-160K.\nExperiments on video quality evaluation via quantitative analysis and ophthalmologist feedback demonstrate that Ophora can generate realistic and reliable ophthalmic surgical videos based on surgeon instructions. We also validate the capability of Ophora for empowering downstream tasks of ophthalmic surgical workflow understanding. \nCode is available at https://github.com/mar-cry/Ophora.",
+  "authors": [
+    {
+      "name": "Li, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guoan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Kaijing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ning, Junzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Zongyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Lixu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Junjun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Surgery -> Skill and Work Flow Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1768_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "miccai-4193",
+  "title": "SafeClick: Error-Tolerant Interactive Segmentation of Any Medical Volumes via Hierarchical Expert Consensus",
+  "abstract": "Foundation models for volumetric medical image segmentation have emerged as powerful tools in clinical workflows, enabling radiologists to delineate regions of interest through intuitive clicks. While these models demonstrate promising capabilities in segmenting previously unseen anatomical structures, their performance is strongly influenced by prompt quality. In clinical settings, radiologists often provide suboptimal prompts, which affects segmentation reliability and accuracy. To address this limitation, we present SafeClick, an error-tolerant interactive segmentation approach for medical volumes based on hierarchical expert consensus. SafeClick operates as a plug-and-play module compatible with foundation models including SAM 2 and MedSAM 2. The framework consists of two key components: a collaborative expert layer (CEL) that generates diverse feature representations through specialized transformer modules, and a consensus reasoning layer (CRL) that performs cross-referencing and adaptive integration of these features. This architecture transforms the segmentation process from a prompt-dependent operation to a robust framework capable of producing accurate results despite imperfect user inputs. Extensive experiments across 15 public datasets demonstrate that our plug-and-play approach consistently improves the performance of base foundation models, with particularly significant gains when working with imperfect prompts. The source code is available at https://anonymous.4open.science/r/SafeClick/.",
+  "authors": [
+    {
+      "name": "Gao, Yifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sheng, Jiaxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Wenbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Haoyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Yaoxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Chaoyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4193_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

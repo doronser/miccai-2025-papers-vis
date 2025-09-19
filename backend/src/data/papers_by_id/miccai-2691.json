@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2691",
+  "title": "Self-Propagative Multi-Task Learning for Predicting Cardiometabolic Risk Factors",
+  "abstract": "CardioMetabolic Risk (CMR) assessment requires numerous risk factors derived from anthropometric measurements, sphygmomanometry, and blood tests. Deep Learning enables CMR factors to be acquirable from a medical image (e.g., fundus), however, model-per-factor approach is insufficient solution in cost-efficiency. It is also challenge to predict multiple factors simultaneously from a single image, since the CMR factors are inter-correlated among themselves but also correlated with fundus features in various depths. To address this challenge, we propose Self-Propagative multi-task Learning (SePL) which utilizes comparatively simple 6 CMR factor predictions as prior knowledge to guide predicting more complex CMR factors. The proposed SePL propagates its initial predictions to a latent space, enriching unimodal features into multimodal representation. A discriminative mixture of experts leverages the relevant prior for 9 CMR factor predictions. The training and testing of SePL use 5,232 sets of fundus images and corresponding CMR factors. Experimental results demonstrate that the proposed SePL outperforms the existing methods up to 10.46% of AUC and 8.07% of MAE across all 15 CMR factor predictions. The code is available at https://github.com/shko0215/SePL.",
+  "authors": [
+    {
+      "name": "Ko, Seonghyeon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Huigyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bum, Junghyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Le, Duc-Tai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Choo, Hyunseung",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2691_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

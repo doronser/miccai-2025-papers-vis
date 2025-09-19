@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1721",
+  "title": "Synergy-Guided Regional Supervision of Pseudo Labels for Semi-Supervised Medical Image Segmentation",
+  "abstract": "Semi-supervised learning has received considerable attention for its potential to leverage abundant unlabeled data to enhance model robustness. Despite the widespread adoption of pseudo labeling in semi-supervised learning, existing methods often suffer from noise contamination, which can undermine the robustness of the model. To tackle this challenge, we introduce a novel Synergy-Guided Regional Supervision of Pseudo Labels (SGRS-Net) framework. Built upon the mean teacher network, we employ a Mix Augmentation module to enhance the unlabeled data. By evaluating the synergy before and after augmentation, we strategically partition the pseudo labels into distinct regions. Additionally, we introduce a Region Loss Evaluation module to assess the loss across each delineated area. Extensive experiments conducted on the LA, Pancreas-CT and BraTS2019 dataset have demonstrated superior performance over current state-of-the-art techniques, underscoring the efficiency and practicality of our framework. The code is available in the Supplementary Material.",
+  "authors": [
+    {
+      "name": "Wang, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xinlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yuanbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yuanbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Longxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tong, Tong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1721_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

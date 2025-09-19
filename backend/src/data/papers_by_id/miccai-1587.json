@@ -1,0 +1,34 @@
+{
+  "id": "miccai-1587",
+  "title": "D4Recon: Dual-stage Deformation and Dual-scale Depth Guidance for Endoscopic Reconstruction",
+  "abstract": "Deformable tissue reconstruction in endoscopy is vital for surgery, yet current methods struggle with high-fidelity reconstruction of irreversible tissue deformations. To this end, we present D4Recon, a novel framework for real-time and high-fidelity endoscopic reconstruction, addressing crucial challenges in surgical applications. A Dual-stage Deformation modeling and a Dual-scale Depth guidance (D4) are proposed in a dynamic 3D Gaussian Splatting paradigm along with lightweight multi-layer perception (MLP) to model dynamics in endoscopic scenes. In the dual-stage deformation modeling, we introduce a spatial deformation model to correct multiview inconsistencies, accompanied by a temporal deformation model that accurately represents tissue distortion and dynamic tissue interaction with surgical tools in the reference frames. In the dual-scale depth guidance, we propose to balance local error correction with absolute depth consistency, enabling precise depth refinement while preserving fine-grained color accuracy. D4Recon generates accurate 3D reconstructions with superior PSNR, SSIM, and LPIPS scores, outperforming existing methods in terms of geometric coherence and photorealism with real-time rendering speed, as demonstrated by extensive experiments on diverse endoscopic datasets. Reconstruction videos are in the supplementary file.",
+  "authors": [
+    {
+      "name": "Basak, Hritam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yin, Zhaozheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1587_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

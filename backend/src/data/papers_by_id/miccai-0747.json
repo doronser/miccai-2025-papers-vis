@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0747",
+  "title": "IM-Fuse: A Mamba-based Fusion Block for Brain Tumor Segmentation with Incomplete Modalities",
+  "abstract": "Brain tumor segmentation is a crucial task in medical imaging that involves the integrated modeling of four distinct imaging modalities to identify tumor regions accurately. Unfortunately, in real-life scenarios, the full availability of such four modalities is often violated due to scanning cost, time, and patient condition. Consequently, several deep learning models have been developed to address the challenge of brain tumor segmentation under conditions of missing imaging modalities. However, the majority of these models have been evaluated using the 2018 version of the BraTS dataset, which comprises only 285 volumes. In this study, we reproduce and extensively analyze the most relevant models using BraTS2023, which includes 1,251 volumes, thereby providing a more comprehensive and reliable comparison of their performance. Furthermore, we propose and evaluate the adoption of Mamba as an alternative fusion mechanism for brain tumor segmentation in the presence of missing modalities. Experimental results demonstrate that Transformer-based architectures achieve leading performance on BraTS2023, outperforming purely convolutional models that were instead superior in BraTS2018. Meanwhile, the proposed Mamba-based architecture exhibits promising performance in comparison to state-of-the-art models, competing and even outperforming Transformers. The source code is publicly released alongside the benchmark developed for the evaluation: https://github.com/AImageLab-zip/IM-Fuse.",
+  "authors": [
+    {
+      "name": "Pipoli, Vittorio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saporita, Alessia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marchesini, Kevin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grana, Costantino",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ficarra, Elisa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bolelli, Federico",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0747_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4661",
+  "title": "Sparse-XM: Spine Pose Adjustment with RGB-D Bone Segmentation via Cross-Modality Label Transfer",
+  "abstract": "In open spine surgery, navigation requires registration between the surgical field and volumetric CT. The spine pose changes between preoperative CT (pCT) and intraoperative patient positioning, and can further change after intraoperative CT (iCT) during surgery, degrading navigation accuracy. In this study, we developed a novel, fully automated end-to-end system for spine pose adjustment driven by intraoperative stereovision imaging (iSV) images. Our system includes three innovative modules. First, we present a method to automatically generate weak bone labels in stereo images via co-registration with iCT images. The automated labeling process addresses the labor and expertise-intensive challenges associated with supervised bone segmentation models that typically require manually segmented labels for training. Second, we train a fully convolutional deep learning method that integrates complementary information from the color (RBG) and depth (D) images to automatically segment bone using the weak labels. Finally, the segmented bone structures are used to perform a pose-adjusted registration. Data collected from 5 porcine cadavers were used for training and validation, and data from 2 porcine cadavers were used for independent testing. Pose-adjusted registration accuracy across all lumbar levels of test specimens was 2.0±1.1 mm, compared to 2.5±1.5 mm using manual segmentation, and 9.1±6.8 mm using a commercially available navigation system. The fully automated pose-adjusting registration framework compensated for spine motion between pCT and intraoperative positioning and overall achieved clinically acceptable accuracy. Our approach was not user or expertise-dependent and holds potential for wider adoptions in open spinal procedures for intraoperative spine motion correction. Code is available at https://github.com/wRossw/Sparse-XM-Spine-Pose-Adjustment.",
+  "authors": [
+    {
+      "name": "Warner, William R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bhattacharya, Indrani",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Evans, Linton T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mirza, Sohail K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Paulsen, Keith D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Xiaoyao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Registration",
+    "Applications -> Image Segmentation",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4661_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

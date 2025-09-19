@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2505",
+  "title": "MambaMER: Adaptive EEG-Guided Multimodal Emotion Recognition with Mamba",
+  "abstract": "In recent years, multimodal emotion recognition has gradually become a research hotspot. Although existing methods have achieved significant results by integrating information from different modalities, irrelevant or conflicting emotional information across modalities often limits performance improvement. Inspired by Mamba’s ability to effectively filter irrelevant information and model long-range dependencies with linear complexity, we propose a new paradigm for EEG-guided adaptive multimodal emotion recognition with Mamba. This paradigm effectively addresses the interference caused by cross-modal information conflicts, enhancing the performance of multimodal emotion recognition. Firstly, to alleviate the interference caused by conflicts between different modalities, we design a multi-scale EEG-guided conflict suppression module. Guided by multi-scale EEG features, this module uses a selective cross state space model to suppress irrelevant information and conflicts in eye movement features, thereby obtaining enhanced eye movement features. Secondly, to deeply integrate the complementary features between the EEG modality and the enhanced eye movement modality, we propose a novel cross-modal fusion mechanism, consisting of Mutual-Cross-Mamba and Merge-Mamba, which effectively captures long-range dependencies in the fused features, thereby enhancing the integration and utilization of cross-modal information. Experimental results on the SEED, SEED-IV, and SEED-V datasets demonstrate that our method significantly surpasses current  state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Ping, Xiangle",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Wenhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yuanjie",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2505_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

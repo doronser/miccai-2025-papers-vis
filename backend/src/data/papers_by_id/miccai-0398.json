@@ -1,0 +1,44 @@
+{
+  "id": "miccai-0398",
+  "title": "Single-spoke Motion-compensated Dynamic 3D MRI Reconstruction via Neural Representation",
+  "abstract": "Dynamic 3D Magnetic Resonance Imaging (MRI) is a powerful imaging technique for motion monitoring and tracking, offering both excellent soft-tissue contrast and the ability to capture dynamic changes in tissue. Current reconstruction methods typically assume that multiple spokes share the same motion state. However, this assumption does not align with the complex realities of patient motion and clinical acquisition protocols, often resulting in anatomical discontinuities or blurring artifacts in the reconstructed images. In this work, we propose an unsupervised Single-sPoke motion-compensated Implicit NEural Representation method (SPINER) for dynamic volumetric MRI reconstruction. We address a more challenging yet realistic scenario, single-spoke motion modeling, which assigns a unique motion state for each spoke measurement. To address this highly ill-posed inverse problem, we propose a motion-ignoring static initialization strategy that exploits static anatomical information across all spokes. We find that a good initialization of the canonical volume significantly improves the optimization process and facilitates better dynamic volumetric reconstruction based on implicit neural representation learning. Experiments on abdomen MRI datasets demonstrate that our methods can reconstruct high-quality dynamic volumetric MRI while capturing continuous and accurate motion.",
+  "authors": [
+    {
+      "name": "Chen, Lixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Balter, James M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Liyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Jeong Joon",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0398_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

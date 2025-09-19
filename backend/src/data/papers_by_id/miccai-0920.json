@@ -1,0 +1,66 @@
+{
+  "id": "miccai-0920",
+  "title": "Clinical Data-Driven Retrieval-Augmented Model for Lung Nodule Malignancy Prediction",
+  "abstract": "Deep learning techniques have been widely applied to lung nodule malignancy prediction tasks. Recently, the emergence of Vision-Language Models (VLMs) has enabled the use of textual information, further improving diagnostic accuracy. Nevertheless, two key limitations persist: (1) the insufficient utilization of clinical data to enhance computer-aided diagnosis, and (2) the limited ability of existing frameworks to leverage similar cases in the diagnostic process. To address these issues, we propose a clinical data-driven, retrieval-augmented VLM framework for lung nodule malignancy prediction. The proposed framework comprises a multimodal encoder, a retrieval-augmented module, and a text encoder. Lesion classification is achieved by evaluating the similarities between the combined visual and clinical data features and the text features of predefined categories, thereby establishing a robust mechanism for malignancy prediction. Moreover, the retrieval-augmented module further refines the prediction process by incorporating similar cases retrieved using clinical data as a query, thus facilitating more informed and accurate decisions. Overall, this framework comprehensively utilizes clinical data by integrating it into CT image features and enabling cross-interaction in the retrieval-augmented module to support diagnosis with similar cases. Experimental results on the publicly available LIDC-IDRI dataset demonstrate that the proposed framework achieves significant improvements in lung nodule malignancy prediction, with an approximate 3% increase in accuracy. Our code is released on Github: https://github.com/chenn-clear/ClinicalRA.",
+  "authors": [
+    {
+      "name": "Hou, Ruibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chai, Shurong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jain, Rahul Kumar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yinhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jiaqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Teng, Shiyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Lanfen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yen-Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0920_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

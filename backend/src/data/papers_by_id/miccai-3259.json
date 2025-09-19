@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3259",
+  "title": "Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays",
+  "abstract": "Unsupervised anomaly detection (UAD) in medical imaging is crucial for identifying pathological abnormalities without requiring extensive labeled data. However, existing diffusion-based UAD models rely solely on imaging features, limiting their ability to distinguish between normal anatomical variations and pathological anomalies. To address this, we propose Diff3M, a multi-modal diffusion-based framework that integrates chest X-rays and structured Electronic Health Records (EHRs) for enhanced anomaly detection. Specifically, we introduce a novel Image-EHR Cross-Attention module to incorporate structured clinical context into the image generation process, improving the model’s ability to differentiate normal from abnormal features. Additionally, we develop a static masking strategy to enhance the reconstruction of normal-like images from anomalies. Extensive evaluations on CheXpert and MIMIC-CXR/IV demonstrate that Diff3M achieves state-of-the-art performance, outperforming existing UAD methods in medical imaging. Our implementation is available at https://github.com/nth221/Diff3M.",
+  "authors": [
+    {
+      "name": "Kim, Harim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuhan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ahn, Minkyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Choi, Heeyoul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yuyin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hong, Charmgil",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3259_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

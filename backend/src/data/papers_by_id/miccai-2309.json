@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2309",
+  "title": "LTSE: Language-guided Tissue Referring Segmentation in Pathology Images with Adaptive Expert Mixture",
+  "abstract": "Tissue segmentation is essential for pathology image analysis. Conventional deep learning based segmentation methods require large amounts of annotated data and are constrained by the predefined classes, making them less flexible in adapting to diverse clinical requirements and user-specific queries. The language-guided referring segmentation (LGRS) model can help identify and segment specific objects based on user-provided descriptions. However, the existing LGRS models lack the capability to explicitly reject nonexistent targets, and struggle in effectively segmenting multiple target regions. Based on the above considerations, we propose LTSE, a language-guided tissue referring segmentation assistant for pathology images, which inherits the powerful multi-modal alignment capabilities of Multi-modal Large Language Models (MLLMs) to implement tissue segmentation according to the instructions. Specifically, we expand the original vocabulary with multiple [SEG] tokens to support multiple mask references and a [REJ] token to reject the empty targets. In addition, we enhance the adaptability and accuracy in multi-target segmentation by developing an Adaptive Expert Mixture (AEM) module that can dynamically select specialized expert decoders based on the textual and visual characteristics of the input data. We for the first time curate a vision-language pathology dataset BCSS-Ref for the tissue referring segmentation task with matched images, masks and textual information, and the experimental results demonstrate the superiority of our method in comparison with the existing studies.",
+  "authors": [
+    {
+      "name": "Tang, Jiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qian, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shao, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Daoqiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2309_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

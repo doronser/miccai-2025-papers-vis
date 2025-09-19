@@ -1,0 +1,57 @@
+{
+  "id": "miccai-1569",
+  "title": "Learning Concept-Driven Logical Rules for Interpretable and Generalizable Medical Image Classification",
+  "abstract": "The pursuit of decision safety in clinical applications highlights the potential of transparent methods in medical imaging. While concept-based models offer local concept explanations (instance-level), they often neglect the global decision logic (dataset-level). Moreover, these models often suffer from concept leakage, where unintended information within soft concept representations undermines both interpretability and generalizability. To address these limitations, we propose Concept Rule Learner (CRL), a novel framework to learn Boolean logical rules from binary visual concepts. CRL employs logical layers to capture concept correlations and extract clinically meaningful rules, thereby providing both local and global interpretability. The results from two tasks demonstrate that CRL achieves competitive performance with existing interpretable methods while improving generalizability to out-of-distribution data. The code of our work is available at https://github. com/obiyoag/crl.",
+  "authors": [
+    {
+      "name": "Gao, Yibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Hangqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Zheyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Bomin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shangqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Sihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Xiahai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1569_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

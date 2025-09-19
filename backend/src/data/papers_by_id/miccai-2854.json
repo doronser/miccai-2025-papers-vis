@@ -1,0 +1,53 @@
+{
+  "id": "miccai-2854",
+  "title": "SAM2-ProMem: Enhancing Zero-Shot 3D Segmentation with Stochastic Propagation and Memory Search",
+  "abstract": "Although the SAM2 foundational segmentation model excels in natural images, its direct adaptation to 3D medical imaging (e.g., CT/MR) remains underexplored, particularly for zero-shot generalization. We identify two critical barriers when treating medical volumes as pseudo-video sequences: (1) the non-convexity of anatomical structures leading to slice-wise mask discontinuities; (2) difficulty in effectively generalizing the dependencies between long-term and short-term memory. To address these problems, we propose a stochastic connected component propagation strategy for handling mask discontinuities during training, coupled with a dynamic memory window search mechanism during inference. Extensive experiments demonstrate the effectiveness of our method, achieving a 16\\% Dice score improvement over conventional fine-tuning in the unseen classes of TotalSegmentator dataset. Furthermore, our approach generalizes well across modalities (CT/MR) and lesion types, and it performs comparably to or outperforms previous methods on the ULS23 and CHAOS benchmarks.",
+  "authors": [
+    {
+      "name": "Wang, Yujie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Juntao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Dazhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Fangzhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Boan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2854_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

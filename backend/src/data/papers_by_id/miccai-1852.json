@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1852",
+  "title": "Bio2Vol: Adapting 2D Biomedical Foundation Models for Volumetric Medical Image Segmentation",
+  "abstract": "2D biomedical foundation models (FM) have demonstrated remarkable capabilities in 2D medical image segmentation across various modalities, with text-prompted approaches offering scalable analysis that facilitate integration with LLMs and clinical application. Adapting these models for 3D medical image segmentation can leverage their rich visual features while enabling text-prompted volumetric image segmentation. However, efficient adaptation poses significant challenges due to the substantial disparity between 2D and 3D medical images and the necessity to establish text-volume alignment. To address these limitations, we propose \\textbf{Bio2Vol}, a novel adaptation framework that enables text-prompted 2D biomedical FMs to effectively handle volumetric data. Specifically, (1) To bridge the dimensional disparity, we propose a Dual-Rate Sampling strategy (DRS) that processes inter slices within a volume at both sparse and dense intervals, capturing global contexts and local details; (2) To enhance volumetric feature representation, a Cross-slice Dual-head Attention (CSDHA) is built upon the intra-slice features by repurposing existing pre-trained attention modules for parameter-efficient inter-slice information fusion; and (3) To establish text-volume understanding, a Semantic Text-Visual Alignment loss (SAT) is used to extend the existing 2D text-visual alignment to the volumetric domain. Using BiomedParse as a demonstration case, extensive evaluation across 11 medical datasets across diverse anatomical regions and modalities shows that Bio2Vol significantly improves 3D medical image segmentation performance, enhancing DSC by 4.72\\% on Amos22 dataset with substantial improvements across MSD tasks. Code will be available \\url{https://github.com/JiaxinZhuang/Bio2Vol}.",
+  "authors": [
+    {
+      "name": "Zhuang, Jiaxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Linshan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Xuefeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1852_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

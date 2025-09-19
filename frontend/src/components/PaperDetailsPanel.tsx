@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Paper, PaperSimilarity } from '../types/api';
-import ApiService from '../services/api';
+import { apiService } from '../services/api';
 
 interface PaperDetailsPanelProps {
   paper?: Paper | null;
   isOpen: boolean;
   onClose: () => void;
   onPaperSelect?: (paper: Paper) => void;
-  favorites?: Set<string>;
-  onToggleFavorite?: (paperId: string) => void;
   isPersistent?: boolean;
 }
 
@@ -17,8 +15,6 @@ const PaperDetailsPanel: React.FC<PaperDetailsPanelProps> = ({
   isOpen,
   onClose,
   onPaperSelect,
-  favorites = new Set(),
-  onToggleFavorite,
   isPersistent = false
 }) => {
   const [similarPapers, setSimilarPapers] = useState<PaperSimilarity[]>([]);
@@ -30,7 +26,7 @@ const PaperDetailsPanel: React.FC<PaperDetailsPanelProps> = ({
       setIsLoadingSimilar(true);
       setError(null);
 
-      ApiService.getSimilarPapers(paper.id, 5)
+      apiService.getSimilarPapers(paper.id, 5)
         .then(setSimilarPapers)
         .catch(err => {
           setError('Failed to load similar papers');
@@ -43,8 +39,6 @@ const PaperDetailsPanel: React.FC<PaperDetailsPanelProps> = ({
   if (!isOpen || !paper) {
     return null;
   }
-
-  const isFavorite = favorites.has(paper.id);
 
   return (
     <div style={{
@@ -104,34 +98,16 @@ const PaperDetailsPanel: React.FC<PaperDetailsPanelProps> = ({
 
       {/* Content */}
       <div style={{ padding: '20px' }}>
-        {/* Title and Favorite Button */}
+        {/* Title */}
         <div style={{ marginBottom: '15px' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-            <h2 style={{
-              margin: '0 0 10px 0',
-              fontSize: '20px',
-              lineHeight: 1.3,
-              color: 'var(--color-text-primary)',
-              flex: 1
-            }}>
-              {paper.title}
-            </h2>
-            <button
-              onClick={() => onToggleFavorite?.(paper.id)}
-              style={{
-                background: 'none',
-                border: 'none',
-                fontSize: '24px',
-                cursor: 'pointer',
-                padding: '5px',
-                color: isFavorite ? 'var(--color-error)' : 'var(--color-text-muted)',
-                transition: 'color var(--transition-fast)'
-              }}
-              title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
-            >
-              {isFavorite ? '♥' : '♡'}
-            </button>
-          </div>
+          <h2 style={{
+            margin: '0 0 10px 0',
+            fontSize: '20px',
+            lineHeight: 1.3,
+            color: 'var(--color-text-primary)'
+          }}>
+            {paper.title}
+          </h2>
 
           <div style={{ fontSize: '14px', color: 'var(--color-text-secondary)', marginBottom: '10px' }}>
             Paper ID: {paper.id}
@@ -245,7 +221,7 @@ const PaperDetailsPanel: React.FC<PaperDetailsPanelProps> = ({
 
         {/* Similar Papers */}
         <div style={{ marginBottom: '20px' }}>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '16px', color: 'var(--color-text-primary)' }}>
+          <h4 style={{ margin: '0 0 12px 0', fontSize: '16px', color: 'var(--color-text-primary)' }}>
             Similar Papers
           </h4>
 
@@ -274,19 +250,19 @@ const PaperDetailsPanel: React.FC<PaperDetailsPanelProps> = ({
           )}
 
           {similarPapers.length > 0 && (
-            <div style={{ fontSize: '14px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
               {similarPapers.map((similar) => (
                 <div
                   key={similar.paper.id}
+                  onClick={() => onPaperSelect?.(similar.paper)}
                   style={{
-                    padding: '10px',
-                    marginBottom: '8px',
+                    padding: '12px',
                     backgroundColor: 'var(--color-bg-hover)',
                     borderRadius: '6px',
                     cursor: 'pointer',
-                    transition: 'background-color var(--transition-fast)'
+                    transition: 'background-color var(--transition-fast)',
+                    border: '1px solid var(--color-border)'
                   }}
-                  onClick={() => onPaperSelect?.(similar.paper)}
                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'var(--color-bg-secondary)'}
                   onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'var(--color-bg-hover)'}
                 >
@@ -294,25 +270,55 @@ const PaperDetailsPanel: React.FC<PaperDetailsPanelProps> = ({
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'flex-start',
-                    marginBottom: '5px'
+                    marginBottom: '6px'
                   }}>
-                    <strong style={{ fontSize: '13px', lineHeight: 1.3, color: 'var(--color-text-primary)' }}>
-                      {similar.paper.title.length > 60
-                        ? similar.paper.title.substring(0, 60) + '...'
+                    <h5 style={{
+                      margin: '0',
+                      fontSize: '13px',
+                      lineHeight: 1.3,
+                      color: 'var(--color-text-primary)',
+                      fontWeight: '600'
+                    }}>
+                      {similar.paper.title.length > 80
+                        ? similar.paper.title.substring(0, 80) + '...'
                         : similar.paper.title}
-                    </strong>
+                    </h5>
                     <span style={{
                       fontSize: '11px',
                       color: 'var(--color-accent)',
                       marginLeft: '8px',
-                      flexShrink: 0
+                      flexShrink: 0,
+                      fontWeight: '500'
                     }}>
                       {(similar.similarity_score * 100).toFixed(1)}%
                     </span>
                   </div>
-                  <div style={{ fontSize: '12px', color: 'var(--color-text-secondary)' }}>
+                  <div style={{ fontSize: '12px', color: 'var(--color-text-secondary)', marginBottom: '4px' }}>
                     {similar.paper.authors.map(a => a.name).join(', ')}
                   </div>
+                  {similar.paper.subject_areas.length > 0 && (
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                      {similar.paper.subject_areas.slice(0, 3).map(area => (
+                        <span
+                          key={area}
+                          style={{
+                            padding: '2px 6px',
+                            backgroundColor: 'var(--color-bg-primary)',
+                            borderRadius: '8px',
+                            fontSize: '10px',
+                            color: 'var(--color-text-secondary)'
+                          }}
+                        >
+                          {area}
+                        </span>
+                      ))}
+                      {similar.paper.subject_areas.length > 3 && (
+                        <span style={{ fontSize: '10px', color: 'var(--color-text-muted)' }}>
+                          +{similar.paper.subject_areas.length - 3} more
+                        </span>
+                      )}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

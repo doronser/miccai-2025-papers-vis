@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0490",
+  "title": "D2MAE: Diffusional Deblurring MAE for Ultrasound Image Pre-training",
+  "abstract": "Recent advances in generative self-supervised learning, particularly Masked Autoencoders (MAE), have shown significant promise in medical image pre-training. However, ultrasound poses unique challenges due to its intrinsic low signal-to-noise ratio. While previous studies have enhanced MAE with deblurring for improved performance, their static deblurring strategy fails to consider domain discrepancies arising from variations in ultrasound imaging. To overcome these limitations, we propose D^2MAE—a Diffusional Deblurring-enhanced MAE framework that seamlessly integrates a diffusional deblurring objective into MAE pre-training, simultaneously optimizing both deblurring and masked image reconstruction within a unified framework. Furthermore, we introduce an optimal blurriness-aware fine-tuning strategy that dynamically adjusts blurriness through an optimal blurriness search procedure, effectively accommodating the inherent domain discrepancies in ultrasound images. Extensive experiments across multiple ultrasound datasets, including thyroid, pancreas, and ovary, demonstrate that D^2MAE outperforms state-of-the-art methods, significantly enhancing generalizability and diagnostic performance across diverse ultrasound tasks. Our results establish D^2MAE as a superior approach for ultrasound imaging pre-training, paving the way for improved ultrasound image analysis. The code and pre-trained models are publicly available on GitHub.",
+  "authors": [
+    {
+      "name": "Kang, Qingbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Hongkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Zhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Kang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lao, Qicheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0490_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "miccai-0620",
+  "title": "MedSoft-Diffusion: Medical Semantic-Guided Diffusion Model with Soft Mask Conditioning for Vertebral Disease Diagnosis",
+  "abstract": "Accurate diagnosis of vertebral diseases is vital for preventing severe complications, but data imbalance between abundant normal and rare pathological cases poses a substantial challenge to diagnostic performance. Medical image generation offers a promising solution by synthesizing pathological samples. However, existing diffusion-based methods, pre-trained on natural images, often fall short in capturing complex pathological features due to the pre-training knowledge gap, as well as struggling to obtain precise lesion masks and ensure seamless integration between lesions and the background. To overcome these challenges, we propose a novel diffusion-based medical image generation framework called \\textbf{MedSoft-Diffusion}, which involves leveraging detailed medical knowledge to ensure that generated images are not only semantically consistent with the specified pathological conditions but also anatomically accurate. Our framework includes a Medical Semantic Controller (MSC) designed to enhance the alignment between textual prompts and lesion characteristics, ensuring the synthesis of semantically accurate pathological images. Furthermore, the Soft Mask Inpainting Strategy (SMIS) is proposed to combine soft masks with blurring techniques to improve the realism of synthesized images. Experimental results on two vertebral disease datasets demonstrate notable improvements in both image quality and classification performance using our approach. Code is available at https://anonymous.4open.science/r/MedSoft_Diffusion-1422.",
+  "authors": [
+    {
+      "name": "He, Shidan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Enyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Zixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Dongdong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hong, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhenzhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Mengtang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Shen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0620_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

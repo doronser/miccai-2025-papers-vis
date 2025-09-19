@@ -1,0 +1,44 @@
+{
+  "id": "miccai-3014",
+  "title": "World Model for AI Autonomous Navigation in Mechanical Thrombectomy",
+  "abstract": "Autonomous navigation for mechanical thrombectomy (MT) remains a critical challenge due to the complexity of vascular anatomy and the need for precise, real-time decision-making. Reinforcement learning (RL)-based approaches have demonstrated potential in automating endovascular navigation, but current methods often struggle with generalization across multiple patient vasculatures and long-horizon tasks. We propose a world model for autonomous endovascular navigation using TD-MPC2, a model-based RL algorithm. We trained a single RL agent across multiple endovascular navigation tasks in ten real patient vasculatures, comparing performance against the state-of-the-art Soft Actor-Critic (SAC) method. Results indicate that TD-MPC2 significantly outperforms SAC in multi-task learning, achieving a 65% mean success rate compared to SAC’s 37% (p < 0.001), with notable improvements in path ratio. TD-MPC2 exhibited increased procedure times, suggesting a trade-off between success rate and execution speed. These findings highlight the potential of world models for improving autonomous endovascular navigation and lay the foundation for future research in generalizable AI-driven robotic interventions.",
+  "authors": [
+    {
+      "name": "Robertshaw, Harry",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Han-Ru",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Granados, Alejandro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Booth, Thomas C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> Other",
+    "Modalities -> Robotics",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Other",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3014_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

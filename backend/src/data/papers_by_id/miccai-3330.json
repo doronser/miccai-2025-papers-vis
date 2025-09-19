@@ -1,0 +1,88 @@
+{
+  "id": "miccai-3330",
+  "title": "Causality-Inspired Graph Neural Network for Interpretable Strabismus Subtype Classification",
+  "abstract": "Despite advances in deep learning, current automated methods for strabismus classification face two key challenges: limited interpretability and a lack of focus on strabismus subtypes. These issues undermine clinical trust, hinder practical adoption, and limit personalized treatment. \nTo address this, we propose a Causality-Inspired Graph Neural Network (CI-GNN) framework that identifies causally related visual features from eye regions and constructs a graph structure for robust prediction, moving beyond reliance on raw image pixels. This causality-driven design enhances both interpretability and clinical relevance by providing more transparent diagnostic outcomes. \nWe also establish a representative benchmark for strabismus subtype classification, focusing on deviation direction and horizontal angle variation (e.g., A/V-pattern).   Experiments show that our method achieves state-of-the-art accuracy—89.8% and 88.1% on the two subtype tasks, respectively.\nFurthermore, by incorporating the SHapley explanation technique, CI-GNN offers clinician-friendly diagnostic evidence.   Leveraging sparse causal features, the framework requires only 0.0003 GFLOPs, making it highly efficient and suitable for edge deployment.\nOverall, this work demonstrates the potential of integrating causal knowledge with GNNs to significantly enhance the performance, efficiency, and interpretability of strabismus diagnosis, offering promising directions for intelligent medical applications.",
+  "authors": [
+    {
+      "name": "Zheng, Jiawen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Jiafan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Peiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Lihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Xiaoling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Jinming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Meng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Xiaoli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cen, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Lingyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Ce",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Zhun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3330_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

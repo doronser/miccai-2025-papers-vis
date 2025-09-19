@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1455",
+  "title": "MAARTA:Multi-Agentic Adaptive Radiology Teaching Assistant",
+  "abstract": "Radiology students often struggle to develop perceptual expertise due to limited time for expert mentorship, leading to errors in visual search patterns and diagnostic interpretation. These perceptual errors—such as missed fixations, brief dwell times, or misinterpretations—are not adequately addressed by existing AI systems, which focus on diagnostic accuracy but fail to explain how and why errors occur. To bridge this gap, we propose MAARTA (Multi-Agentic Adaptive Radiology Teaching Assistant), a multi-agent framework that analyzes gaze patterns and radiology reports to provide personalized feedback. Unlike single-agent models, MAARTA dynamically recruits agents based on error complexity, ensuring adaptive and efficient reasoning. By leveraging thought graphs to compare expert and student gaze behavior, the system identifies missed findings and assigns Perceptual Error Teacher (PET) agents to analyze discrepancies. Using Chain-of-Thought (CoT) prompting, MAARTA generates meaningful insights, helping students understand their errors and refine their diagnostic reasoning, ultimately enhancing AI-driven radiology education.",
+  "authors": [
+    {
+      "name": "Awasthi, Akash",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chung, Brandon V.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vu, Anh M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Le, Ngan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Agrawal, Rishi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Zhigang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Carol",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Hien V.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1455_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

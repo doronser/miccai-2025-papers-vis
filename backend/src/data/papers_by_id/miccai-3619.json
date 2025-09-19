@@ -1,0 +1,52 @@
+{
+  "id": "miccai-3619",
+  "title": "Multimodal Fusion Network with Distribution-based Tumor-Marker Imputation for Multi-Origin Metastatic Cervical Lymphadenopathy Classification",
+  "abstract": "Accurate identification the primary tumor of metastatic cervical lymphadenopathy (CLA) is crucial for guiding clinical treatment, yet clinical diagnosis remains challenging due to the complexity of tracing multi-potential origins using ultrasound images and incomplete clinical information. Existing deep learning methods typically utilize the imaging semantic features from B-mode ultrasound (BUS) and color Doppler flow imaging (CDFI), or incorporate basic clinical information, neglecting the importance of patient-specific features such as tumor markers (TMs) in clinical diagnosis. To address these limitations, we propose a new multimodal imaging-features and distribution-based tumor-marker fusion network (MDFN) for five categories of CLA metastatic origins (thyroid, head and neck, respiratory, female reproductive, and digestive). First, a distribution-based TM imputation method is proposed to reconstruct missing TMs, which treats the available clinical information of each patient (such as sex, age, neck region, etc.) as a vector to construct data distributions between TMs and avoid the data bias issues. Building on these personalized TMs, we propose the first population-personalized fusion framework, which integrates semantic features related to lymph node morphology from BUS images, semantic features related to vascular distribution from CDFI images, and TM features consistent with individualized patient data, thereby simulating clinical reasoning patterns. The effectiveness of the proposed MDFN method was evaluated using extensive experimental results from 3,100 multi-origin metastatic CLA cases, achieving an area under the receiver operating characteristic (AUC) of 0.891, with corresponding accuracy, sensitivity, specificity, and F1 of 0.863, 0.604, 0.913, and 0.661, respectively, outperforming other state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Li, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chunyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Xi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jinfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Fang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Yao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3619_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

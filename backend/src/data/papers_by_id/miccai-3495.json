@@ -1,0 +1,63 @@
+{
+  "id": "miccai-3495",
+  "title": "EndoFlow-SLAM: Real-Time Endoscopic SLAM with Flow-Constrained Gaussian Splatting",
+  "abstract": "Efficient three-dimensional reconstruction and real-time visualization are critical in surgical scenarios such as endoscopy. In recent years, 3D Gaussian Splatting (3DGS) has demonstrated remarkable performance in efficient 3D reconstruction and rendering. Most 3DGS-based Simultaneous Localization and Mapping (SLAM) methods only rely on the appearance constraints for optimizing both 3DGS and camera poses. However, in endoscopic scenarios, the challenges include photometric inconsistencies caused by non-Lambertian surfaces and dynamic motion from breathing affects the performance of SLAM systems. To address these issues, we additionally introduce optical flow loss as a geometric constraint, which effectively constrains both the 3D structure of the scene and the camera motion. Furthermore, we propose a depth regularisation strategy to mitigate the problem of photometric inconsistencies and ensure the validity of 3DGS depth rendering in endoscopic scenes. In addition, to improve scene representation in the SLAM system, we improve the 3DGS refinement strategy by focusing on viewpoints corresponding to Keyframes with suboptimal rendering quality frames, achieving better rendering results. Extensive experiments on the C3VD static dataset and the StereoMIS dynamic dataset demonstrate that our method outperforms existing state-of-the-art methods in novel view synthesis and pose estimation, exhibiting high performance in both static and slightly dynamic surgical scenes. Our code is available at~\\url{https://github.com/vamWu/EndoFlow-SLAM}.",
+  "authors": [
+    {
+      "name": "Wu, Taoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miao, Yiyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zhuoxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Haocheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dang, Kang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Jionglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Limin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Haoang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Robotics",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3495_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1518",
+  "title": "RetiDiff: Diffusion-based Synthesis of Retinal OCT Images for Enhanced Segmentation",
+  "abstract": "Optical coherence tomography (OCT) enables detailed visualization and critical segmentation of retinal layers, which is essential for ophthalmological diagnosis. However, the development of automatic segmentation methods has been hindered by limited annotated datasets due to time-consuming manual labeling processes. Therefore, we propose RetiDiff, a three-stage diffusion model-based framework to synthesize realistic annotated OCT retinal images for enhancing segmentation performance. By leveraging the diffusion model, RetiDiff can synthesize diverse and realistic images guided by segmentation masks. To improve synthesis quality and accuracy in pathological regions, we introduce dynamic region masking (DRM), which selectively modifies pathological areas during training. To align the continuous outputs from mask sampling in the diffusion model with discrete segmentation labels, we propose discrete mask clustering (DMC), which converts these outputs into discrete values consistent with the labels. Experimental results show that RetiDiff effectively mitigates data scarcity by synthesizing realistic and diverse annotated OCT retinal images, which substantially enhance retinal layer segmentation performance. Compared to state-of-the-art methods, RetiDiff-synthesized datasets improve the average Dice score by 8.7% across all retinal layers, with a particularly notable increase of up to 53.8% in pathological regions. The code and dataset are publicly available at: https://github.com/MaybeRichard/RetiDiff",
+  "authors": [
+    {
+      "name": "Li, Sicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dan, Mai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chu, Yuhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Jiahui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yunpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Pengpeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1518_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

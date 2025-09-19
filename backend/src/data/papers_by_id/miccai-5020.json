@@ -1,0 +1,67 @@
+{
+  "id": "miccai-5020",
+  "title": "TRRG: Towards Truthful Radiology Report Generation With Cross-modal Disease Clue Enhanced Large Language Models",
+  "abstract": "The vision-language modeling capability of multi-modal large language models has attracted wide attention from the community. However, in medical domain, radiology report generation using vision-language models still faces significant challenges due to the imbalanced data distribution caused by numerous negated descriptions in radiology reports and issues such as rough alignment between radiology reports and radiography. In this paper, we propose a truthful radiology report generation framework, namely TRRG, based on stage-wise training for cross-modal disease clue injection into large language models. In pre-training stage, During the pre-training phase, contrastive learning is employed to enhance the visual encoder’s ability to perceive fine-grained disease details. In fine-tuning stage, the clue injection module we proposed significantly enhances the disease-oriented perception capability of the large language model by effectively incorporating the robust zero-shot disease perception. Finally, through the cross-modal clue interaction module, our model effectively achieves the multi-granular interaction of visual embeddings and an arbitrary number of disease clue embeddings. This significantly enhances the report generation capability and clinical effectiveness of multi-modal large language models in the field of radiology reportgeneration. Experimental results demonstrate that our proposed pre-training and fine-tuning framework achieves state-of-the-art performance in radiology report generation on datasets such as IUXray and MIMIC-CXR. Further analysis indicates that our proposed method can effectively enhance the model’s ability to perceive diseases and improve its clinical effectiveness.",
+  "authors": [
+    {
+      "name": "Wang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hao, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Yawen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Xinqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Weichen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Linlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Zitong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5020_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

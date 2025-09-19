@@ -1,0 +1,61 @@
+{
+  "id": "miccai-3875",
+  "title": "Gaussian Primitive Optimized Deformable Retinal Image Registration",
+  "abstract": "Deformable retinal image registration is notoriously difficult due to large homogeneous regions and sparse but critical vascular features, which cause limited gradient signals in standard learning-based frameworks. In this paper, we introduce Gaussian Primitive Optimization (GPO), a novel iterative framework that performs structured message passing to overcome these challenges. After an initial coarse alignment, we extract keypoints at salient anatomical structures (e.g., major vessels) to serve as a minimal set of descriptor-based control nodes (DCN). Each node is modelled as a Gaussian primitive with trainable position, displacement, and radius, thus adapting its spatial influence to local deformation scales. A K-Nearest Neighbors (KNN) Gaussian interpolation then blends and propagates displacement signals from these information-rich nodes to construct a globally coherent displacement field; focusing interpolation on the top (K) neighbors reduces computational overhead while preserving local detail. By strategically anchoring nodes in high-gradient regions, GPO ensures robust gradient flow, mitigating vanishing gradient signal in textureless areas. The framework is optimized end-to-end via a multi-term loss that enforces both keypoint consistency and intensity alignment. Experiments on the FIRE dataset show that GPO reduces the target registration error from 6.2px to ~2.4px and increases the AUC at 25px from 0.770 to 0.938, substantially outperforming existing methods. The source code can be accessed via https://github.com/xintian-99/GPOreg.",
+  "authors": [
+    {
+      "name": "Tian, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiazheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Renjiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Gaolei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Min",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Registration"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3875_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "miccai-2850",
+  "title": "Adaptive Adversarial Data Augmentation with Trajectory Constraint for Alzheimer’s Disease Conversion Prediction",
+  "abstract": "Distinguishing progressive mild cognitive impairment (pMCI) from stable MCI (sMCI) is crucial for timely treatment of Alzheimer’s disease (AD), yet it is challenging due to inherent class imbalance and limited data. While recent data synthesis methods have shown successful results, they often disregard distributional differences between groups and individual heterogeneity in disease progression. Also, they treat the whole-brain as a unified entity, overlooking region-specific features despite their varying associations with AD. To address this, we propose a novel end-to-end framework that augments MCI data and predicts their future conversion to AD. This is realized by using adversarial attacks that directly control data points in the feature space considering group differences. The attacks are adaptively applied with region-wise learnable attack intensities and subject-specific attack steps, which are flexibly adjusted based on each subject’s observation interval. Moreover, we introduce a trajectory constraint that ensures the attacked (i.e., augmented) data follow plausible disease progressions and preserve realistic neurodegeneration patterns. Extensive validation on two AD biomarkers across three classifiers shows our method’s superiority over six baselines.",
+  "authors": [
+    {
+      "name": "Cho, Hyuna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ahn, Hayoung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Guorong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Won Hwa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2850_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

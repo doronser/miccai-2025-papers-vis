@@ -1,0 +1,58 @@
+{
+  "id": "miccai-5180",
+  "title": "Uncertainty-aware Diffusion and Reinforcement Learning for Joint Plane Localization and Anomaly Diagnosis in 3D Ultrasound",
+  "abstract": "Congenital uterine anomalies (CUAs) can lead to infertility, miscarriage, preterm birth, and an increased risk of pregnancy complications. Compared to traditional 2D ultrasound (US), 3D US can reconstruct the coronal plane, providing a clear visualization of the uterine morphology for assessing CUAs accurately. In this paper, we propose an intelligent system for simultaneous automated plane localization and CUA diagnosis. Our highlights are: 1) we develop a denoising diffusion model with local (plane) and global (volume/text) guidance, using an adaptive weighting strategy to optimize attention allocation to different conditions; 2) we introduce a reinforcement learning-based framework with unsupervised rewards to extract the key slice summary from redundant sequences, fully integrating information across multiple planes to reduce learning difficulty; 3) we provide text-driven uncertainty modeling for coarse prediction, and leverage it to adjust the classification probability for overall performance improvement. Extensive experiments on a large 3D uterine US dataset show the efficacy of our method, in terms of plane localization and CUA diagnosis. Code is available at GitHub (https://github.com/yuhoo0302/CUA-US).",
+  "authors": [
+    {
+      "name": "Huang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yueyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Jiaxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Hongyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Gynecology",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5180_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

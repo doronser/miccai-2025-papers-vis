@@ -1,0 +1,45 @@
+{
+  "id": "miccai-1040",
+  "title": "CellStyle: Improved Zero-Shot Cell Segmentation via Style Transfer",
+  "abstract": "Cell microscopy data are abundant; however, corresponding segmentation annotations remain scarce. Moreover, variations in cell types, imaging devices, and staining techniques introduce significant domain gaps between datasets. As a result, even large, pretrained segmentation models trained on diverse datasets (source datasets) struggle to generalize to unseen datasets (target datasets). To overcome this generalization problem, we propose CellStyle, which improves the segmentation quality of such models without requiring labels for the target dataset, thereby enabling zero-shot adaptation. CellStyle transfers the attributes of an unannotated target dataset, such as texture, color, and noise, to the annotated source dataset. This transfer is performed while preserving the cell shapes of the source images, ensuring that the existing source annotations can still be used while maintaining the visual characteristics of the target dataset. The styled synthetic images with the existing annotations enable the finetuning of a generalist segmentation model for application to the unannotated target data. We demonstrate that CellStyle significantly improves zero-shot cell segmentation performance across diverse datasets by finetuning multiple segmentation models on the style-transferred data. The source code for CellStyle is publicly available at https://github.com/ruveydayilmaz0/cellStyle.",
+  "authors": [
+    {
+      "name": "Yilmaz, Rüveyda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yuli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stegmaier, Johannes",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1040_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

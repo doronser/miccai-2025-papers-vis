@@ -1,0 +1,84 @@
+{
+  "id": "miccai-0966",
+  "title": "ADAptation: Reconstruction-based Unsupervised Active Learning for Breast Ultrasound Diagnosis",
+  "abstract": "Deep learning-based diagnostic models often suffer performance drops due to distribution shifts between training (source) and test (target) domains. Collecting and labeling sufficient target domain data for model retraining represents an optimal solution, yet is limited by time and scarce resources. Active learning (AL) offers an efficient approach to reduce annotation costs while maintaining performance, but struggles to handle the challenge posed by distribution variations across different datasets. In this study, we propose a novel unsupervised Active learning framework for Domain Adaptation, named ADAptation, designed to select only a few informative samples from multi-domain data pools. As a fundamental step, our method first utilizes the distribution homogenization capabilities of diffusion models to bridge cross-dataset gaps by translating target images into source-domain style. We then introduce two key innovations: (a) a hypersphere-constrained contrastive learning network for compact feature clustering, and (b) a dual-scoring mechanism that quantifies and balances sample uncertainty and representativeness. Extensive experiments on four breast ultrasound datasets (three public and one in-house/multi-center) across five common deep classifiers demonstrate that our method surpasses existing strong AL-based competitors, validating its effectiveness and generalization for clinical domain adaptation. The code is available at https://github.com/miccai25-966/ADAptation.",
+  "authors": [
+    {
+      "name": "Duan, Yaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Luyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Zhiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Ping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chan, Ka-Hou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Ligang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Im, Sio-Kei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0966_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

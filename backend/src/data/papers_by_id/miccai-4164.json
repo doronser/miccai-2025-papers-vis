@@ -1,0 +1,47 @@
+{
+  "id": "miccai-4164",
+  "title": "DPGS-Net: Dual Prior-Guided Cross-Domain Adaptive Framework for Ultrasound Image Segmentation",
+  "abstract": "Ultrasound image segmentation plays a critical role in medical-assisted diagnosis but suffers from inherent limitations, such as high noise, artifacts, and morphological diversity. Existing methods struggle to generalize with small-sample data due to feature contradictions from varying acquisition angles, limiting multi-center clinical use. To address these issues, we propose a dual prior-guided two-stage segmentation framework. In the first stage, the prior classification of small-sample data guides domain adaptation pretraining on large-scale datasets, employing dynamic class balancing to mitigate data distribution bias. The second stage features a multi-level feature fusion architecture with three core modules: \nFirst, we design a Multi-branch Convolutional Parallel Attention (MCPA) module that extracts contextual features via parallel dual attention to adaptively select multi-scale features. \nNext, we propose a Multi-scale Fusion Dilated Convolution (MFDC) module that enhances the encoder’s capability to capture lesion boundaries across different receptive fields through hierarchical dilated convolutions. \nFinally, we introduce an Enhanced Feature Decoding module (EFD) in the decoder, embedding a cross-layer compensation mechanism using shallow high-resolution features to recover spatial details lost. \nFurthermore, we propose an interactive dual-stream architecture that bridges prior-guided classification and segmentation tasks, where complementary features are fused through cross-task attention to optimize holistic semantic consistency and robustness. \nExperiments on the public dataset demonstrate our method’s superiority over mainstream approaches. Ablation studies validate the effectiveness of our method, providing a solution for high-precision, high-availability small-sample ultrasound image segmentation. Code is on Github: https://github.com/notchXie/DPGS-Net.",
+  "authors": [
+    {
+      "name": "Zhang, Weijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Lingfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zeng, Kun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xiaonan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gong, Yongyi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4164_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

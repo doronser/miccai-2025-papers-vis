@@ -1,0 +1,36 @@
+{
+  "id": "miccai-1062",
+  "title": "MG-UNet: A Memory-Guided UNet for Lesion Segmentation in Chest Images",
+  "abstract": "Lesion segmentation in medical images is a key task for the intelligent diagnosis of lung diseases. Although existing multimodal methods have achieved significant progress in medical image segmentation by combining image and text information, these methods still rely on textual input during the inference phase, limiting their applicability in real-world scenarios. To address this limitation, this paper proposes an innovative Memory-Guided UNet model (MG-UNet). MG-UNet introduces a learnable memory bank that automatically extracts and stores textual information during the training phase. In the decoding stage, the proposed memory-guided decoder retrieves knowledge relevant to the current image from the memory bank, thereby eliminating the need for textual input during inference. Extensive experiments were conducted on the QaTa-Cov19 and MosMedData+ datasets to validate the effectiveness of MG-UNet. The experimental results demonstrate that MG-UNet not only outperforms existing unimodal and multimodal methods in terms of segmentation performance but also excels in text-free inference scenarios using only 15% of the training data, surpassing the current best unimodal methods. This characteristic significantly reduces the reliance on annotated data for medical image segmentation, offering greater flexibility and scalability for practical clinical applications. The code will be available soon.",
+  "authors": [
+    {
+      "name": "Ding, Shuaipeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Mingyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1062_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1764",
+  "title": "FedAMM: Federated Learning for Brain Tumor Segmentation with Arbitrary Missing Modalities",
+  "abstract": "Brain tumor segmentation and detection have advanced significantly with the introduction of multimodal magnetic resonance imaging. However, data privacy concerns restrict most studies to centralized environments, limiting their real-world applicability. While federated learning (FL) offers a privacy-preserving solution for cross-institutional brain tumor research, existing multimodal FL approaches primarily address scenarios wherein clients possess either a single modality or complete missing modality data. These methods fail to account for the modality heterogeneity caused by arbitrary missing modalities, a frequent challenge in clinical practice. To address this issue, we propose FedAMM, a novel FL framework designed for brain tumor segmentation under arbitrary missing modalities. FedAMM incorporates multiple strategies to mitigate discrepancies arising from varying modality combinations across clients. First, FedAMM introduces a unimodal prototype distillation technique during local training to balance the contributions of different modalities. Additionally, the server aggregates multimodal prototypes uploaded by clients to generate cluster centers that represent the global modality distribution, thereby guiding local training toward global optimality. Furthermore, we implement a weighted aggregation strategy based on modality proportions. Experimental results on the BraTS2020 dataset demonstrate that FedAMM outperforms existing methods in handling arbitrary missing modalities, highlighting its strong adaptability to imbalanced and heterogeneous federated systems. The code is available at https://github.com/13sky/FedAMM.git.",
+  "authors": [
+    {
+      "name": "Shi, Yukun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xue, Meiting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zeng, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Ye",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1764_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

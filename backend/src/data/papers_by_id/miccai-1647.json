@@ -1,0 +1,57 @@
+{
+  "id": "miccai-1647",
+  "title": "FedWSIDD: Federated Whole Slide Image Classification via Dataset Distillation",
+  "abstract": "Federated learning (FL) has emerged as a promising approach for collaborative medical image analysis, enabling multiple institutions to build robust predictive models while preserving sensitive patient data. In the context of Whole Slide Image (WSI) classification, FL faces significant challenges, including heterogeneous computational resources across participating medical institutes and privacy concerns. To address these challenges, we propose FedWSIDD, a novel FL paradigm that leverages dataset distillation (DD) to learn and transmit synthetic slides. On the server side, FedWSIDD aggregates synthetic slides from participating centres and distributes them across all centres. On the client side, we introduce a novel DD algorithm tailored to histopathology datasets which incorporates stain normalisation into the distillation process to generate a compact set of highly informative synthetic slides. These synthetic slides, rather than model parameters, are transmitted to the server. After communication, the received synthetic slides are combined with original slides for local tasks. Extensive experiments on multiple WSI classification tasks, including CAMELYON16 and CAMELYON17, demonstrate that FedWSIDD offers flexibility for heterogeneous local models, enhances local WSI classification performance, and preserves patient privacy. This makes it a highly effective solution for complex WSI classification tasks.",
+  "authors": [
+    {
+      "name": "Jin, Haolong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Shenglin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cong, Cong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Qingmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yongzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Lina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Yingzi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1647_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

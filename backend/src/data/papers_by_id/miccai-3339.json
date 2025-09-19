@@ -1,0 +1,62 @@
+{
+  "id": "miccai-3339",
+  "title": "Enhancing Soft Tissue Sarcoma Classification by Mitigating Patient-Specific Bias in Whole Slide Images",
+  "abstract": "Soft tissue sarcomas (STS) are a rare and heterogeneous group of malignant tumors that arise in soft tissues throughout the body. Accurate classification from whole slide images (WSIs) is essential for diagnosis and treatment planning. However, STS classification faces a significant challenge due to patient-specific biases, where WSIs from the same patient share confounding non-tumor-related features, such as anatomical site and demographic characteristics. These biases can lead models to learn spurious correlations, compromising their generalization. To address this issue, we propose a novel multiple instance learning framework that explicitly mitigates patient-specific biases from WSIs. Our method leverages supervised contrastive learning to extract patient-specific features and integrates a bias-mitigation strategy based on propensity score matching. Extensive experiments on two STS datasets demonstrate that our approach significantly improves classification performance. By mitigating patient-specific biases, our method improves the reliability and generalization of the model, contributing to a more accurate and clinically reliable STS classification. To facilitate direct clinical application and support decision-making, the code, trained models, and testing pipeline will be publicly available at https://github.com/Lanman-Z/MPSF.",
+  "authors": [
+    {
+      "name": "Lin, Weiping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Runchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Wentai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiacheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Yixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ta, Na",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3339_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

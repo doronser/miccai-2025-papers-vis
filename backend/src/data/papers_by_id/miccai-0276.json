@@ -1,0 +1,75 @@
+{
+  "id": "miccai-0276",
+  "title": "Mesh4D: A Motion-Aware Multi-View Variational Autoencoder for 3D+t Mesh Reconstruction",
+  "abstract": "Reconstructing temporally coherent 3D meshes of the beating heart from multi-view MR images is an important but challenging problem. The challenge is entangled by the complexity in integrating multi-view data, the sparse coverage of a 3D geometry by 2D image slices, and the interplay between geometry and motion. Current approaches often treat mesh reconstruction and motion estimation as two separate problems. Here we propose Mesh4D, a novel motion-aware method that jointly learns cardiac shape and motion, directly from multi-view MR image sequences. The method introduces three key innovations: (1) A cross-attention encoder that fuses multi-view image information, (2) A transformer-based variational autoencoder (VAE) that jointly model the image feature and motion, and (3) A deformation decoder that generates continuous deformation fields and temporally smooth 3D+t cardiac meshes. Incorporating geometric regularisation and motion consistency constraints, Mesh4D can reconstruct high-quality 3D+t meshes (7,698 vertices, 15,384 faces) of the heart ventricles across 50 time frames, within less than 3 seconds. When compared to existing approaches, Mesh4D achieves notable improvements in reconstruction accuracy and motion smoothness, offering an efficient image-to-mesh solution for quantifying shape and motion of the heart and creating digital heart models.",
+  "authors": [
+    {
+      "name": "Qiao, Mengyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Weitong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Qiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Liu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kainz, Bernhard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "O’Regan, Declan P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Matthews, Paul M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Niederer, Steven",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Wenjia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Other",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0276_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

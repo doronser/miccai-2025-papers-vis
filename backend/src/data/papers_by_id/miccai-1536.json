@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1536",
+  "title": "Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis",
+  "abstract": "Separating shared and independent features is crucial for multi-phase contrast-enhanced (CE) MRI synthesis. However, existing methods use deep autoencoder generators with low parameter efficiency and lack interpretable training strategies. In this paper, we propose Flip Distribution Alignment Variational Autoencoder (FDA-VAE), a lightweight feature-decoupled VAE model for multi-phase CE MRI synthesis. Our method encodes input and target images into two latent distributions that are symmetric concerning a standard normal distribution, effectively separating shared and independent features. The Y-shaped bidirectional training strategy further enhances the interpretability of feature separation. Experimental results show that compared to existing deep autoencoder-based end-to-end synthesis methods, FDA-VAE significantly reduces model parameters and inference time while effectively improving synthesis quality. The source code is publicly available at https://github.com/QianMuXiao/FDA-VAE",
+  "authors": [
+    {
+      "name": "Kui, Xiaoyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Qianmu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qinsong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Zexin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jielin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Beiji",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1536_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

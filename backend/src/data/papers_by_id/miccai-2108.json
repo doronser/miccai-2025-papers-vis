@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2108",
+  "title": "Lesion-centered vision transformer for stroke outcome prediction from image and clinical data",
+  "abstract": "Accurate prediction of stroke functional outcome, particularly the 3-month modified Rankin Scale (mRS), is crucial for personalized treatment. Vision Transformers excel in medical imaging and multimodal fusion but struggle with stroke MRI due to data scarcity and rigid tokenization, which may miss subtle anomalies. In response, we propose the Lesion-Centered Vision Transformer (LC-ViT), integrating lesion-focused MRI preprocessing, adaptive token merging, and multimodal fusion. LC-ViT extracts axial, coronal and sagittal views centered on ischemic lesions to optimize visibility and employs a pretrained TCFormer (token-clustering transformer) for adaptative token generation. A mutual cross-attention mechanism further integrates imaging and clinical data. Evaluated on a retrospective private cohort comprising DWI MRI and 62 clinical variables (e.g. demographics, neurological assessments.) of 119 stroke patients treated with thrombectomy (65% favorable outcome), LC-ViT achieves a new state-of-the-art performance (AUC:0.80 ± 0.03, Accuracy: 0.77 ± 0.02) significantly outperforming single modality based deep architectures. Our results highlight the potential of lesion-focused tokenization for stroke outcome prediction and interpretability and broader applications in lesion-localized multimodal analysis. Our code will be publicly released upon acceptance.",
+  "authors": [
+    {
+      "name": "Liu, Mingtian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hatami, Nima",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mechtouff, Laura",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cho, Tae-Hee",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lartizien, Carole",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Frindel, Carole",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Modalities -> Other",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2108_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "miccai-1458",
+  "title": "Adapting Vision Foundation Models for Real-time Ultrasound Image Segmentation",
+  "abstract": "We propose a novel approach that adapts hierarchical vision foundation models for real-time ultrasound image segmentation. Existing ultrasound segmentation methods often struggle with adaptability to new tasks, relying on costly manual annotations, while real-time approaches generally fail to match state-of-the-art performance. To overcome these limitations, we introduce an adaptive framework that leverages the vision foundation model Hiera to extract multi-scale features, interleaved with DINOv2 representations to enhance visual expressiveness. These enriched features are then decoded to produce precise and robust segmentation. We conduct extensive evaluations on six public datasets and one in-house dataset, covering both cardiac and thyroid ultrasound segmentation. Experiments show that our approach outperforms state-of-the-art methods across multiple datasets and excels with limited supervision, surpassing nnUNet by over 20% on average in the 1% and 10% data settings. Our method achieves ∼77 FPS inference speed with TensorRT on a single GPU, enabling real-time clinical applications.",
+  "authors": [
+    {
+      "name": "Zhang, Xiaoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Eric Z.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yikang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maihe, Boris",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duncan, James S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Terrence",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Shanhui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1458_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

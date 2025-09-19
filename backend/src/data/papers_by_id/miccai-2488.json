@@ -1,0 +1,62 @@
+{
+  "id": "miccai-2488",
+  "title": "Prototype-Guided Cross-Modal Knowledge Enhancement for Adaptive Survival Prediction",
+  "abstract": "Histo-genomic multimodal survival prediction has garnered growing attention for its remarkable model performance and potential contributions to precision medicine. However, a significant challenge in clinical practice arises when only unimodal data is available, limiting the usability of these advanced multimodal methods. To address this issue, this study proposes a prototype-guided cross-modal knowledge enhancement (ProSurv) framework, which eliminates the dependency on paired data and enables robust learning and adaptive survival prediction. Specifically, we first introduce an intra-modal updating mechanism to construct modality-specific prototype banks that encapsulate the statistics of the whole training set and preserve the modality-specific risk-relevant features/prototypes across intervals. Subsequently, the proposed cross-modal translation module utilizes the learned prototypes to enhance knowledge representation for multimodal inputs and generate features for missing modalities, ensuring robust and adaptive survival prediction across diverse scenarios. Extensive experiments on four public datasets demonstrate the superiority of ProSurv over state-of-the-art methods using either unimodal or multimodal input, and the ablation study underscores its feasibility for broad applicability. Overall, this study addresses a critical practical challenge in computational pathology, offering substantial significance and potential impact in the field.",
+  "authors": [
+    {
+      "name": "Liu, Fengchun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Linghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zhikang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Zhiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Jin-gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yongbing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2488_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

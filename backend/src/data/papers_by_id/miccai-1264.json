@@ -1,0 +1,57 @@
+{
+  "id": "miccai-1264",
+  "title": "Enhancing WSI-Based Survival Analysis with Report-Auxiliary Self-Distillation",
+  "abstract": "Survival analysis based on Whole Slide Images (WSIs) is crucial for evaluating cancer prognosis, as they offer detailed microscopic information essential for predicting patient outcomes.However, traditional WSI-based survival analysis usually faces noisy features and limited data accessibility, hindering their ability to capture critical prognostic features effectively.Although pathology reports provide rich patient-specific information that could assist analysis, their potential to enhance WSI-based survival analysis remains largely unexplored. To this end, this paper proposes a novel Report-auxiliary self-distillation (Rasa) framework for WSI-based survival analysis. First, advanced large language models (LLMs) are utilized to extract fine-grained, WSI-relevant textual descriptions from original noisy pathology reports via a carefully designed task prompt. Next, a self-distillation-based pipeline is designed to filter out irrelevant or redundant WSI features for the student model under the guidance of the teacher model’s textual knowledge. Finally, a risk-aware mix-up strategy is incorporated during the training of the student model to enhance both the quantity and diversity of the training data.Extensive experiments carried out on our collected data (CRC) and public data (TCGA-BRCA) demonstrate the superior effectiveness of Rasa against state-of-the-art methods. Our code is available at https://github.com/zhengwang9/Rasa.",
+  "authors": [
+    {
+      "name": "Wang, Zheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Danyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cen, Min",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Magnier, Baptiste",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1264_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "miccai-2388",
+  "title": "Medical-Knowledge Driven Multiple Instance Learning for Classifying Severe Abdominal Anomalies on Prenatal Ultrasound",
+  "abstract": "Fetal abdominal malformations are serious congenital anomalies that require accurate diagnosis to guide pregnancy management and reduce mortality. Although AI has demonstrated significant potential in medical diagnosis, its application to prenatal abdominal anomalies remains limited. Most existing studies focus on image-level classification and rely on standard plane localization, placing less emphasis on case-level diagnosis. In this paper, we develop a case-level multiple instance learning (MIL)-based method, free of standard plane localization, for classifying fetal abdominal anomalies in prenatal ultrasound. Our contribution is three-fold. First, we adopt a mixture-of-attention-experts module (MoAE) to weight different attention heads for various planes. Secondly, we propose a medical-knowledge-driven feature selection module (MFS) to align image features with medical knowledge, performing self-supervised image token selection at the case-level. Finally, we propose a prompt-based prototype learning (PPL) to enhance the MFS. Extensively validated on a large prenatal abdominal ultrasound dataset containing 2,419 cases, with a total of 24,748 images and 6 categories, our proposed method outperforms the state-of-the-art competitors. Codes are available at: https://github.com/LL-AC/AAcls.",
+  "authors": [
+    {
+      "name": "Liang, Huanwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jingxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuanji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuhan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Ran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Xuedong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yanjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Guowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Sheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Xinru",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2388_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

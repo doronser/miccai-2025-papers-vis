@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3305",
+  "title": "BaMCo: Balanced Multimodal Contrastive Learning for Knowledge-Driven Medical VQA",
+  "abstract": "Medical Visual Question Answering enables large language models to answer questions related to clinical images. While domain-specific LLMs are capable of strong reasoning, their development can be costly. In contrast, general-purpose models are more efficient, but often lack deep understanding. Previous research has shown that integrating external knowledge enhances the performance of general-purpose LLMs, particularly for questions that involve complex medical terminology. To improve the utilization of external knowledge, we introduce a novel multimodal knowledge space pretraining method trained with the proposed Balanced Multimodal Contrastive Learning Loss. Our approach optimizes knowledge spaces through balanced contrastive learning across modalities, together with the auxiliary classification task. Additionally, we developed a novel framework to improve knowledge-driven Medical VQA for LLMs by integrating the pretrained knowledge space. Experiments on the Slake, VQA-RAD and PathVQA datasets demonstrate that our approach outperforms state-of-the-art Medical VQA methods with an average accuracy of 85.8%, 76.7%, and 60.0%, respectively. The source code is available at https://github.com/yaziciz/BaMCo.",
+  "authors": [
+    {
+      "name": "Yazıcı, Ziya Ata",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ekenel, Hazım Kemal",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Microscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3305_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

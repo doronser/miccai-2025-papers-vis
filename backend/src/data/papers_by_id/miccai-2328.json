@@ -1,0 +1,83 @@
+{
+  "id": "miccai-2328",
+  "title": "Advancing Medical Representation Learning Through High-Quality Data",
+  "abstract": "Despite the growing scale of medical Vision-Language datasets, the impact of dataset quality on model performance remains under-explored. We introduce Open-PMC, a high-quality medical dataset from PubMed Central, containing 2.2 million image-text pairs, enriched with image modality annotations, subfigures, and summarized in-text references. Notably, the in-text references provide richer medical context, extending beyond the abstract information typically found in captions. Through extensive experiments, we benchmark Open-PMC against larger datasets across retrieval and zero-shot classification tasks. Our results show that dataset quality-not just size-drives significant performance gains. We complement our benchmark with an in-depth analysis of feature representation. Our findings highlight the crucial role of data curation quality in advancing multimodal medical AI. We release Open-PMC, along with the trained models and our codebase.",
+  "authors": [
+    {
+      "name": "Baghbanzadeh, Negin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fallahpour, Adibvafa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Parhizkar, Yasaman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ogidi, Franklin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Roy, Shuvendu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ashkezari, Sajad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Khazaie, Vahid Reza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Colacci, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Etemad, Ali",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Afkanpour, Arash",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dolatabadi, Elham",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2328_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

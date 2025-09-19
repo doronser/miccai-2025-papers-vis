@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1056",
+  "title": "Flow Matching for Medical Image Synthesis: Bridging the Gap Between Speed and Quality",
+  "abstract": "Deep learning models have emerged as a powerful tool for various medical applications. However, their success depends on large, high-quality datasets that are challenging to obtain due to privacy concerns and costly annotation. Generative models, such as diffusion models, offer a potential solution by synthesizing medical images, but their practical adoption is hindered by long inference times. In this paper, we propose the use of an optimal transport flow matching approach to accelerate image generation. By introducing a straighter mapping between the source and target distribution, our method significantly reduces inference time while preserving and further enhancing the quality of the outputs. Furthermore, this approach is highly adaptable, supporting various medical imaging modalities, conditioning mechanisms (such as class labels and masks), and different spatial dimensions, including 2D and 3D. Beyond image generation, it can also be applied to related tasks such as image enhancement. Our results demonstrate the efficiency and versatility of this framework, making it a promising advancement for medical imaging applications.\nCode is available on: \\url{https://github.com/milad1378yz/MOTFM}.",
+  "authors": [
+    {
+      "name": "Yazdani, Milad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Medghalchi, Yasamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ashrafian, Pooria",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hacihaliloglu, Ilker",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shahriari, Dena",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1056_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

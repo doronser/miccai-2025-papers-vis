@@ -1,0 +1,78 @@
+{
+  "id": "miccai-1179",
+  "title": "Seeing Beyond the Surface: Retinal Thickness Prediction from Color Fundus Photography for DME Management",
+  "abstract": "Diabetic macular edema (DME) is a leading cause of severe vision loss in the working-age population. Optical coherence tomography (OCT) is the gold standard for DME management and primary care referrals, providing retinal thickness maps (RTMs) that quantify retinal pathologies. However, its limited accessibility in resource-constrained settings necessitates more efficient solutions. While color fundus photography (C-FP) is a cost-effective screening tool, its potential for quantitative thickness evaluation remains underexplored. In this paper, we propose a novel Global-to-Local conditional Diffusion model for Retinal Thickness prediction (GLD-RT), the first attempt to predict RTM solely from C-FP. Our framework predicts thickness distributions of macular region from 2D inputs through a diffusion process guided by hierarchical global-to-local retinal features. Experimental results demonstrate that GLD-RT accurately depicts both physiological and pathological retinal morphology, achieving superior performance in thickness quantification and enabling a more detailed examination of retinal structures. Furthermore, C-FP-generated RTMs exhibit promising utility in facilitating DME diagnosis. This approach transforms conventional fundus imaging into a comprehensive and cost-effective diagnostic tool for DME screening and monitoring in resource-limited settings, thereby holding significant clinical implications.",
+  "authors": [
+    {
+      "name": "Cheng, Wenquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yihua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jinyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Jia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zhuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ning, Guochen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yingfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Hongen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Tien Yin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Su Jeong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1179_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

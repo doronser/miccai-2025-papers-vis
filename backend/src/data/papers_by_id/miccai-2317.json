@@ -1,0 +1,58 @@
+{
+  "id": "miccai-2317",
+  "title": "Lesion-Aware Post-Training of Latent Diffusion Models for Synthesizing Diffusion MRI from CT Perfusion",
+  "abstract": "Image-to-Image translation models can help mitigate various challenges inherent to medical image acquisition. Latent diffusion models (LDMs) leverage efficient learning in compressed latent space and constitute the core of state-of-the-art generative image models. However, this efficiency comes with a trade-off, potentially compromising crucial pixel-level detail essential for high-fidelity medical images. This limitation becomes particularly critical when generating clinically significant structures, such as lesions, which often occupy only a small portion of the image. Failure to accurately reconstruct these regions can severely impact diagnostic reliability and clinical decision-making. To overcome this limitation, we propose a novel post-training framework for LDMs in medical image-to-image translation by incorporating lesion-aware medical pixel space objectives. This approach is essential, as it not only enhances overall image quality but also improves the precision of lesion delineation. We evaluate our framework on brain CT-to-MRI translation in acute ischemic stroke patients, where early and accurate diagnosis is critical for optimal treatment selection and improved patient outcomes. While diffusion MRI is the gold standard for stroke diagnosis, its clinical utility is often constrained by high costs and low accessibility. Using a dataset of 817 patients, we demonstrate that our framework improves overall image quality and enhances lesion delineation when synthesizing DWI and ADC images from CT perfusion scans, outperforming existing image-to-image translation models. Furthermore, our post-training strategy is easily adaptable to pre-trained LDMs and exhibits substantial potential for broader applications across diverse medical image translation tasks.",
+  "authors": [
+    {
+      "name": "Lee, Junhyeok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Hyunwoong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chung, Hyungjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Eom, Heeseong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jang, Joon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sohn, Chul-Ho",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Choi, Kyu Sung",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2317_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

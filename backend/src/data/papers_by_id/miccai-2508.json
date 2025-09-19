@@ -1,0 +1,40 @@
+{
+  "id": "miccai-2508",
+  "title": "Iterative Deployment Exposure for Unsupervised Out-of-Distribution Detection",
+  "abstract": "Deep learning models are vulnerable to performance degradation when encountering out-of-distribution (OOD) images, potentially leading to misdiagnoses and compromised patient care. These shortcomings have led to great interest in the field of OOD detection. \nExisting unsupervised OOD (U-OOD) detection methods typically assume that OOD samples originate from an unconcentrated distribution complementary to the training distribution, neglecting the reality that deployed models passively accumulate task-specific OOD samples over time.\nTo better reflect this real-world scenario, we introduce Iterative Deployment Exposure (IDE), a novel and more realistic setting for U-OOD detection.\nWe propose CSO, a method for IDE that starts from a U-OOD detector that is agnostic to the OOD distribution and slowly refines it during deployment using observed unlabeled data. \nCSO uses a new U-OOD scoring function that combines the Mahalanobis distance with a nearest-neighbor approach, along with a novel confidence-scaled few-shot OOD detector to effectively learn from limited OOD examples. We validate our approach on a dedicated benchmark, showing that our method greatly improves upon strong baselines on three medical imaging modalities.",
+  "authors": [
+    {
+      "name": "Doorenbos, Lars",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sznitman, Raphael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Márquez-Neila, Pablo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2508_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

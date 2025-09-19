@@ -1,0 +1,97 @@
+{
+  "id": "miccai-3656",
+  "title": "MTCNet: Motion and Topology Consistency Guided Learning for Mitral Valve Segmentation in 4D Ultrasound",
+  "abstract": "Mitral regurgitation is one of the most prevalent cardiac disorders. Four-dimensional (4D) ultrasound has emerged as the primary imaging modality for assessing dynamic valvular morphology. However, 4D mitral valve (MV) analysis remains challenging due to limited phase annotations, severe motion artifacts, and poor imaging quality. Yet, the absence of inter-phase dependency in existing methods hinders 4D MV analysis. To bridge this gap, we propose a Motion-Topology guided consistency network (MTCNet) for accurate 4D MV ultrasound segmentation in semi-supervised learning (SSL). MTCNet requires only sparse end-diastolic and end-systolic annotations. First, we design a cross-phase motion-guided consistency learning strategy, utilizing a bi-directional attention memory bank to propagate spatio-temporal features. This enables MTCNet to achieve excellent performance both per- and inter-phase. Second, we devise a novel topology-guided correlation regularization that explores physical prior knowledge to maintain anatomically plausible. Therefore, MTCNet can effectively leverage structural correspondence between labeled and unlabeled phases. Extensive evaluations on the first largest 4D MV dataset, with 1408 phases from 160 patients, show that MTCNet performs superior cross-phase consistency compared to other advanced methods (Dice: 87.30%, HD: 1.75mm). Both the code and the dataset are available at https://github.com/crs524/MTCNet.",
+  "authors": [
+    {
+      "name": "Chen, Rusi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yuanting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Jiezhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Hongning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yongsong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Ronghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuhan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Xing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3656_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

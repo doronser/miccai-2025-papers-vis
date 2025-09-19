@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0935",
+  "title": "Continual Retinal Vision-Language Pre-training upon Incremental Imaging Modalities",
+  "abstract": "Traditional fundus image analysis models focus on single-modal tasks, ignoring fundus modality complementarity, which limits their versatility. Recently, retinal foundation models have emerged, but most still remain modality-specific. Integrating multiple fundus imaging modalities into a single foundation model is valuable. However, in dynamic environments, data from different modalities often arrive incrementally, necessitating continual pre-training. To address this, we propose RetCoP, the first continual vision-language pre-training framework in the fundus domain, which incrementally integrates image and text features from different imaging modalities into a single unified foundation model. To mitigate catastrophic forgetting in continual pre-training, we introduce a rehearsal strategy utilizing representative image-text pairs and an off-diagonal information distillation approach. The former allows the model to revisit knowledge from previous stages, while the latter explicitly preserves the alignment between image and text representations. Experiments show that RetCoP outperforms all the compared methods, achieving the best generalization and lowest forgetting rate.",
+  "authors": [
+    {
+      "name": "Yao, Yuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Ruiqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0935_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

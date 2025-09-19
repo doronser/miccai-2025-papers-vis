@@ -1,0 +1,69 @@
+{
+  "id": "miccai-4211",
+  "title": "Latent Motion Profiling for Annotation-free Cardiac Phase Detection in Adult and Fetal Echocardiography Videos",
+  "abstract": "The identification of cardiac phase is an essential step for analysis and diagnosis of cardiac function. Automatic methods, especially data-driven methods for cardiac phase detection, typically require extensive annotations, which is time-consuming and labour-intensive. In this paper, we present an unsupervised framework for end-diastole (ED) and end-systole (ES) detection through self-supervised learning of latent cardiac motion trajectories from 4-chamber-view echocardiography videos. Our method eliminates the need for manual annotations—including ED ES indices, segmentation, or volumetric measurements—by training a reconstruction model to encode interpretable spatiotemporal motion patterns. Evaluated on the EchoNet-Dynamic benchmark, the approach achieves mean absolute error (MAE) of 3.0 frames (58.3 ms) for ED and 2.0 frames (38.8 ms) for ES detection, matching state-of-the-art supervised methods. Extended to fetal echocardiography, the model demonstrates robust performance with MAE 1.5 frames (20.7ms) for ED and 1.7 frames (25.3ms) for ES, despite the fact that the fetal heart model is built using non-standardized heart views due to fetal heart positioning variability. \nOur results demonstrate the potential of the proposed latent motion trajectory strategy for cardiac phase detection in adult and fetal echocardiography. This work advances unsupervised cardiac motion analysis, offering a scalable solution for clinical populations lacking annotated data. Code is released at https://github.com/YingyuYyy/CardiacPhase.",
+  "authors": [
+    {
+      "name": "Yang, Yingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Qianye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Kangning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Can",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "D’Alberti, Elena",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hernandez-Cruz, Netzahualcoyotl",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Patey, Olga",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Papageorghiou, Aris T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noble, J. Alison",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4211_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

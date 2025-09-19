@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0251",
+  "title": "MrTrack: Register Mamba for Needle Tracking with Rapid Reciprocating Motion during Ultrasound-Guided Aspiration Biopsy",
+  "abstract": "Ultrasound-guided fine needle aspiration (FNA) biopsy is a common minimally invasive diagnostic procedure. However, an aspiration needle tracker addressing rapid reciprocating motion is still missing. MrTrack, an aspiration needle tracker with a mamba-based register mechanism, is proposed. MrTrack leverages a Mamba-based register extractor to sequentially distill global context from each historical search map, storing these temporal cues in a register bank. The Mamba-based register retriever then retrieves temporal prompts from the register bank to provide external cues when current vision features are temporarily unusable due to rapid reciprocating motion and imaging degradation. A self-supervised register diversify loss is proposed to encourage feature diversity and dimension independence within the learned register, mitigating feature collapse. Comprehensive experiments conducted on both robotic and manual aspiration biopsy datasets demonstrate that MrTrack not only outperforms state-of-the-art trackers in accuracy and robustness but also achieves superior inference efficiency. Project page: https://github.com/PieceZhang/MrTrack",
+  "authors": [
+    {
+      "name": "Zhang, Yuelin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Qingpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Yongxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Raymond Shing-Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Shing Shin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Ultrasound",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0251_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

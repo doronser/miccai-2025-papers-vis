@@ -1,0 +1,46 @@
+{
+  "id": "miccai-1761",
+  "title": "Implicit Deformable Medical Image Registration with Learnable Kernels",
+  "abstract": "Deformable medical image registration is an essential task in computer-assisted interventions. This problem is particularly relevant to oncological treatments, where precise image alignment is necessary for tracking tumor growth, assessing treatment response, and ensuring accurate delivery of therapies. Recent AI methods can outperform traditional techniques in accuracy and speed, yet they often produce unreliable deformations that limit their clinical adoption. In this work, we address this challenge and introduce a novel implicit registration framework that can predict accurate and reliable deformations. Our insight is to reformulate image registration as a signal reconstruction problem: we learn a kernel function that can recover the dense displacement field from sparse keypoint correspondences. We integrate our method in a novel hierarchical architecture, and estimate the displacement field in a coarse-to-fine manner. Our formulation also allows for efficient refinement at test time, permitting clinicians to easily adjust registrations when needed. We validate our method on challenging intra-patient thoracic and abdominal zero-shot registration tasks, using public as well as internal datasets from the Innsbruck University Hospital. Our method not only shows competitive accuracy to state-of-the-art approaches, but also bridges the generalization gap between implicit and explicit registration techniques. In particular, our method generates deformations that better preserve anatomical relationships and matches the performance of specialized commercial systems, underscoring its potential for clinical adoption.",
+  "authors": [
+    {
+      "name": "Fogarollo, Stefano",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Laimer, Gregor",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bale, Reto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Harders, Matthias",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1761_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

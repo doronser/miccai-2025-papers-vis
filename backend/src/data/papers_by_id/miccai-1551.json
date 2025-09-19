@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1551",
+  "title": "M3HL: Mutual Mask Mix with High-Low Level Feature Consistency for Semi-Supervised Medical Image Segmentation",
+  "abstract": "Data augmentation methods inspired by CutMix have demonstrated significant potential in recent semi-supervised medical image segmentation tasks. However, these approaches often apply CutMix operations in a rigid and inflexible manner, while paying insufficient attention to feature-level consistency constraints. In this paper, we propose a novel method called Mutual Mask Mix with High-Low level feature consistency (M3HL) to address the aforementioned challenges, which consists of two key components: 1) M3: An enhanced data augmentation operation inspired by the masking strategy from Masked Image Modeling (MIM), which advances conventional CutMix through dynamically adjustable masks to generate spatially complementary image pairs for collaborative training, thereby enabling effective information fusion between labeled and unlabeled images. 2) HL: A hierarchical consistency regularization framework that enforces high-level and low-level feature consistency between unlabeled and mixed images, enabling the model to better capture discriminative feature representations. Our method achieves state-of-the-art performance on widely adopted medical image segmentation benchmarks including the ACDC and LA datasets. Source code is available at https://github.com/PHPJava666/M3HL.",
+  "authors": [
+    {
+      "name": "Liu, Yajun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zenghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yue, Jiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Weiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Dongying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1551_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

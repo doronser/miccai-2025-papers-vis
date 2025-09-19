@@ -1,0 +1,44 @@
+{
+  "id": "miccai-0666",
+  "title": "A Novel ED Triage Framework Using Conditional Imputation, Multi-Scale Semantic Learning, and Cross-Modal Fusion",
+  "abstract": "In emergency departments (ED), efficient triage is essential for timely patient care, but challenges like missing and sparse data often hinder the prediction performance of severity level and department. To address these issues, we propose a novel intelligent triage method that incorporates a Conditional Gaussian Mixture Imputation (CGMI) and a Feature Densification Module (FDM). The CGMI handles missing data through conditional probability modeling, while the FDM obtains correlations between variables by calculating the Manhattan distance between non-zero values in a one-hot coded feature. In addition, we design a multi-scale Feature Extraction Module (mFEM) to capture multi-level semantic information from patient complaints. Subsequently, two feature fusion strategies were introduced: early fusion and late fusion. The early fusion combines Principal Component Analysis (PCA)-processed features with another modality. The late fusion with enhancement introduces reverse features of another modality and applies an attention mechanism to obtain salient features. Experimental results show that our method outperforms existing approaches, achieving 84.83% sensitivity, 85.11% specificity, and 61.42% Cohen’s Kappa for severity prediction and 90.89% sensitivity, 91.04% specificity, and 85.87% Cohen’s Kappa for department prediction. Our method significantly improves the sensitivity, specificity, and robustness of ED triage, demonstrating superior performance and reliability in handling missing and sparse clinical data.",
+  "authors": [
+    {
+      "name": "Xiao, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chi, Cheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chunyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0666_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

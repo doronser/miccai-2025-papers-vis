@@ -1,0 +1,57 @@
+{
+  "id": "miccai-3661",
+  "title": "Thread the Needle: Genomics-guided Prompt-bridged Attention Model for Survival Prediction of Glioma based on MRI Images",
+  "abstract": "Glioma remains one of the most lethal malignancy, making accurate prognosis crucial for personalized treatment and improved patient outcome. Existing models based on non-invasive magnetic resonance imaging (MRI) offer convenience, but they suffer from the poor performance and generalizability compared to genomic biomarkers, limiting their clinical adoption. Genomic biomarkers, such as IDH mutation and 1p/19q co-deletion, provide superior prognostic value but are restricted by their reliance on invasive surgical sampling. In this study, we hypothesize that these genomic biomarkers can guide the development of more robust MRI-based prognostic models, and propose a genomics-guided prompt learning framework that leverages both MRI and transcriptomic data to enhance survival prediction. Specifically, we introduce a novel visual modeling strategy for comprehensive glioma MRI representation and a Prompt-bridged Attention mechanism that can fuse multiple modalities during training and enhance visual representations during inference. Experimental results demonstrate that our proposed method achieves c-indeces of 0.6709 and 0.6904 on UCSF-PDGM and TCGA-GBM datasets, respectively, with highly significant p-values of 5.27e-14 and 6.72e-7. These results substantially outperform existing methods, presenting a promising step toward reliable and non-invasive glioma prognosis prediction.",
+  "authors": [
+    {
+      "name": "Zhong, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Xubin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Xiongri",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiaqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Leilei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhenxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zhiguo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3661_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

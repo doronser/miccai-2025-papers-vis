@@ -1,0 +1,40 @@
+{
+  "id": "miccai-2618",
+  "title": "From Slices to Volumes: Multi-Scale Fusion of 2D and 3D Features for CT Scan Report Generation",
+  "abstract": "The increasing complexity of medical imaging data underscores the necessity for multimodal intelligent systems capable of integrating diverse data representations for comprehensive and precise analysis. In the domain of 3D CT scans, the generation of accurate and clinically meaningful medical reports requires both volumetric contextual information and the fine-grained spatial details inherent in 2D slices. To address this challenge, we propose a framework that employs a pretrained 2D self-supervised learning encoder, initially trained on CT scan slices integrated with a 3D aggregator. By combining the rich, high-resolution information from 2D slices with the spatial coherence of 3D volumetric data, our approach maximizes the complementary strengths of both representations. Experimental results demonstrate that our method outperforms existing baseline approaches in both report generation and multiple-choice question answering, highlighting the critical role of multidimensional feature integration. This work underscores the transformative potential of multimodal intelligent systems in bridging complex imaging data with practical clinical insights, ultimately improving radiological diagnostics and patient care.",
+  "authors": [
+    {
+      "name": "Hosseini, Abdullah",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ibrahim, Ahmed",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Serag, Ahmed",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Other",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2618_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

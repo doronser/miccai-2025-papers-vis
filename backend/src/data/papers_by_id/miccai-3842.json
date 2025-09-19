@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3842",
+  "title": "DyMAS-Net: Dynamic Multi-Scale Adaptive Sampling Network for Efficient Medical Image Segmentation",
+  "abstract": "Achieving high-precision medical image segmentation while maintaining computational efficiency remains a critical challenge for clinical applications. Existing methods often struggle to balance multi-scale feature fusion, lightweight design and contextual modeling, particularly for complex medical scenes with ambiguous boundaries. To address these limitations, We propose DyMAS-Net, a lightweight framework integrating multi-scale convolution, adaptive dynamic sampling, and dual attention mechanisms. Key innovations include: (i) Hierarchical Multi-Scale Convolution Block (HMCB) combining grouped depthwise convolutions with hybrid attention to capture cross-scale dependencies; (ii) Adaptive Dynamic Sampling Module (ADSM) that dynamically adjusts receptive fields through learnable position offsets and scope prediction, enabling context-aware upsampling with minimal computational overhead; (iii) Dual Attention Fusion Unit (DAFU) integrating channel-spatial attention for global context modeling and depthwise separable gating for local feature refinement. Extensive evaluations across 7 medical image segmentation tasks (breast cancer, thyroid nodules, skin lesions) show DyMAS-Net achieves state-of-the-art performance with an average Dice score of 87.19%, outperforming TransUnet and SwinUnet by 3.02% and 2.77%, respectively. Remarkably, it attains this with only 6.24M parameters and 8.87G FLOPs, 93. 3% fewer parameters than TransUnet. The framework’s efficiency-accuracy balance enables practical deployment in resource-constrained environments, thus promoting health equity.",
+  "authors": [
+    {
+      "name": "Wang, Siqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Qingxue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Di",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Jiakang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Jun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Body -> Skin",
+    "Modalities -> Ultrasound",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3842_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

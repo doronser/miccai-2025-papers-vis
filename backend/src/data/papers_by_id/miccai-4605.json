@@ -1,0 +1,67 @@
+{
+  "id": "miccai-4605",
+  "title": "OralSAM: One-shot Segmentation for Intraoral Ultrasound Videos with Adaptive Feature Correlation and Self-prompting Strategy",
+  "abstract": "Periodontal disease is a leading cause of tooth loss and is linked to systemic conditions such as endocarditis, diabetes, cardiovascular disease, and osteoporosis. Intraoral ultrasound (IUS) videos offer a non-invasive means for diagnosing periodontal structures, but existing segmentation methods rely on extensive manual annotations. We propose OralSAM, a one-shot video segmentation network inspired by the Segment Anything Model (SAM), which requires annotation from only a single frame. Our network integrates an adaptive feature correlation module to capture temporal dependencies and refine segmentation consistency across frames. Additionally, we introduce a self-prompting strategy based on optical flow, dynamically adjusting point prompts based on motion cues in consecutive frames to improve segmentation accuracy. To further enhance robustness, we incorporate a self-correction mechanism that refines mask embeddings adaptively, reducing propagation errors in intermediate frames. The combination of these components ensures effective generalization to unseen anatomical structures and improves temporal coherence in IUS videos. We evaluate OralSAM on both IUS and public datasets, demonstrating superior performance over state-of-the-art methods. Unlike conventional methods, our approach significantly reduces annotation effort while maintaining high segmentation accuracy. Our approach provides a scalable solution for real-time clinical applications, enabling more efficient and accurate periodontal disease assessment. Code is available at https://github.com/BioMedCom/OralSAM.",
+  "authors": [
+    {
+      "name": "Kumaralingam, Logiraj",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sivaanpu, Anparasy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hoang, Manh-Hai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alavi, Javaneh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Kim-Cuong T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Punithakumar, Kumaradevan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lou, Edmond H. M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Major, Paul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Le, Lawrence H.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4605_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

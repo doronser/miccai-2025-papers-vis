@@ -1,0 +1,56 @@
+{
+  "id": "miccai-2701",
+  "title": "4D CardioSynth: Synthesising Dynamic Virtual Heart Populations through Spatiotemporal Disentanglement",
+  "abstract": "Dynamic virtual populations are critical for realistic in-silico cardiovascular trials, yet current approaches primarily generate static anatomies, limiting their clinical and computational value. In this study, we present 4D CardioSynth, a generative framework for constructing dynamic 3D virtual populations of cardiovascular structures that change over time (3D+t). To model the complex interplay between cardiac structure and motion, we develop a factorised variational approach that disentangles spatial and temporal information in latent space, enabling independent control over anatomical variations and motion patterns. We demonstrate 4D CardioSynth’s performance using a diverse dataset of bi-ventricle shapes acquired from 6,500 patients across complete cardiac cycles. Our results illustrate the superiority of 4D CardioSynth over state-of-the-art methods with respect to anatomical specificity, diversity, and generalisability, as well as motion plausibility. This approach enables more accurate virtual trials for cardiovascular interventions.",
+  "authors": [
+    {
+      "name": "Dou, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jinghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zakeri, Arezoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Zherui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mu, Tingting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Jinming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Frangi, Alejandro F.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2701_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "miccai-5303",
+  "title": "Anatomy-Conserving Unpaired CBCT-to-CT Translation via Schrödinger Bridge",
+  "abstract": "Unpaired Cone-beam CT (CBCT)-to-CT translation is pivotal for radiotherapy planning, aiming to synergize CBCT’s clinical practicality with CT’s dosimetric precision. Existing methods, limited by scarce paired data and registration errors, struggle to preserve anatomical fidelity—a critical requirement to avoid incorrect diagnosis and inadequate treatments. Current CycleGAN-derived approaches risk structural distortions, while diffusion models oversmooth high-frequency details vital for dose calculation in the reverse diffusion. In this paper, we propose the Anatomy-Conserving Schrödinger Bridge (ACSB), a novel unpaired medical image translation framework leveraging entropy-regularized optimal transport to disentangle modality-specific artifacts from anatomy. We incorporate a carefully designed generator, Anatomy-Conserving vision transformer (AC-ViT) to integrate multi-scale anatomical priors via attention-guided feature fusion. We further adopt frequency-aware optimization targeting radiotherapy-critical spectral components. Extensive experiments on the dataset demonstrate the superiority of the proposed ACSB, showcasing excellent generalization over different anatomically distinct regions.Code: https://github.com/Lalala-iks/ACSB",
+  "authors": [
+    {
+      "name": "Shi, Ke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ouyang, Song",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Kehua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Zhiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Bo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5303_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

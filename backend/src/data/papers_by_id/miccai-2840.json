@@ -1,0 +1,58 @@
+{
+  "id": "miccai-2840",
+  "title": "PolarDETR: Enhancing Interpretability in Multi-modal Methods for Jawbone Lesion Detection in CBCT",
+  "abstract": "Rapidly advancing multi-modal learning shows great promise in medical image analysis, but challenges remain in the detection of jawbone lesions. Existing general-purpose models fail to capture the relationships between anatomical contexts and spatial locations in CBCT images, and the complexity of these models hinders interpretability. We propose PolarDETR, a novel framework combining anatomical priors and multi-modal alignment through: 1) Polar Text-Position Encoding (PTPE), which links text to spatial coordinates via polar mapping, 2) Anatomical Constraint Learning, ensuring lesion detection within anatomically plausible regions, and 3) Position Matching Optimization for spatial consistency. Evaluated on 180 clinical cases (6929 CBCT slices), our method achieves a state-of-the-art mAP of 93.66\\%, outperforming both single-modal (e.g., DETR at 89.35\\%) and multi-modal models (e.g., CORA at 91.52\\%). Additionally, PolarDETR excels in interpretability, with an ACS of 84.12\\% and PMS of 80.45\\%, demonstrating its potential to enhance both detection performance and clinical usability in real-world applications. Our code is available at https://github.com/Cxxxsky/PolarDETR.",
+  "authors": [
+    {
+      "name": "Yang, Yuxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xinyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Ruohan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jupeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2840_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

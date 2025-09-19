@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2267",
+  "title": "TemSAM: Temporal-aware Segment Anything Model for Cerebrovascular Segmentation in Digital Subtraction Angiography Sequences",
+  "abstract": "Digital Subtraction Angiography (DSA) is the gold standard in vascular disease imaging but it poses challenges due to its dynamic frame changes. Early frames often lack detail in small vessels, while late frames may obscure vessels visible in earlier phases, necessitating time-consuming expert interpretation. Existing methods primarily focus on single-frame analysis or basic temporal integration, treating all frames uniformly and failing to exploit complementary inter-frame information. Furthermore, existing pre-trained models like the Segment Anything Model (SAM), while effective for general medical video segmentation, fall short in handling the unique dynamics of DSA sequences driven by contrast agents.\nTo overcome these limitations, we introduce TemSAM, a novel temporal-aware segment anything model for cerebrovascular segmentation in DSA sequences. TemSAM integrates two main components: (1) a multi-level Minimum Intensity Projection (MIP) global prompt that enhances temporal representation through a MIP-guided Global Attention (MGA) module, utilizing global information provided by MIP, and (2) a complementary information fusion module, which includes a frame selection module and a Masked Cross-Temporal Attention Module, enabling additional foreground information extraction from complementary frame. Our Experimental results demonstrate that TemSAM significantly outperforms existing methods. Our code is available at https://github.com/zhang-liang-hust/TemSAM.",
+  "authors": [
+    {
+      "name": "Zhang, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Xixi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Xiaohuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2267_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

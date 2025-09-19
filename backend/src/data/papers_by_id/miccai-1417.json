@@ -1,0 +1,77 @@
+{
+  "id": "miccai-1417",
+  "title": "Lymph Node Metastasis Classification with Prototype-guided Multiple Instance Aggregation and Heterogeneous Feature Fusion",
+  "abstract": "Lymph node metastasis diagnosis in computed tomography\n(CT) scans is an essential yet very challenging task for esophageal cancer staging and treatment planning. Recent advances in deep learning have markedly improved the performance in lymph node (LN) metastasis classification. However, these methods often focus more on the averaged features of all CT slices containing a 3D LN instance, lacking effective fusion of key slice-wise features, which is important in the LN metastasis analysis by physicians. In addition, existing deep learning models are trained using CT scans in an end-to-end fashion, thus lacking the explicit incorporation of clinically relevant meta-imaging features (i.e., morphological and radiomic features). Meta-imaging features\nplay a crucial role in LN assessment and may not be effectively captured by direct end-to-end deep learning models. To address these issues, we formulate the 3D LN metastasis classification as a multiple instance learning (MIL) problem by extracting and fusing slice-level features (instance) into a comprehensive bag representation. Building on this, we propose a two-streamed MIL framework with a prototype-guided aggregation method that effectively captures LN characteristics at both local and global scales. Furthermore, a multi-scale multi-source fusion module is introduced to integrate the heterogeneous meta-imaging features\nwith deep learning features, enhancing the comprehensive representation of LN. Five-fold cross validation on a cohort of 284 esophageal cancer patients with 809 pathology-confirmed LN instances demonstrate the superiority of our methods compared to the state-of-the-art approaches with +2.66% in AUROC and +4.81% in sensitivity improvements.",
+  "authors": [
+    {
+      "name": "Li, Haoshen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ai, Tashan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yirui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Zhanghexuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Qinji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xianghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Kuaile",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Dakai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1417_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "miccai-3217",
+  "title": "Investigating Voxel-level Brain Age Prediction as a Pretext Task for Brain MRI Segmentation",
+  "abstract": "To address the challenge of few annotated datasets for training brain magnetic resonance imaging (MRI) segmentation models, we propose to use voxel-level brain age prediction as a domain-specific pretext task for self-supervised learning before adapting models to a segmentation downstream task. We combined publicly available T1-weighted, normative brain MRI datasets to create a large (N = 1,710), representative dataset with a balanced distribution across age groups and sexes, minimizing potential biases in our model. We then compared three state-of-the-art architectures, Swin UNETR, UNETR, and UNET, on the voxel-level brain age prediction pretext task. Swin UNETR achieved the best performance with a mean absolute error (MAE) of 5.9 ± 4.4 years, outperforming UNETR (MAE: 7.2 ± 4.4 years) and UNET (MAE: 6.2 ± 4.2 years). Based on this performance, we selected Swin UNETR for a brain MRI segmentation downstream task to evaluate the effectiveness of the voxel-level brain age prediction as a self-supervised learning pretext task. We fine-tuned it and compared its performance against two baselines: (1) training from scratch and (2) fine-tuning a model pretrained on an image inpainting task, a non-domain-specific pretext task.\nThe Swin UNETR model pre-trained on voxel-level brain age prediction achieved the highest Dice coefficient on an out-of-distribution test set and performed comparably to the inpainting-pretrained model on an in-distribution test set. These results demonstrate the potential of voxel-level brain age prediction as a domain-specific pretext task for self-supervised learning in neuroimaging, improving segmentation performance, especially in challenging, low-data scenarios.",
+  "authors": [
+    {
+      "name": "Nasser, Tasneem",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Souza, Roberto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "El-Sheimy, Naser",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3217_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

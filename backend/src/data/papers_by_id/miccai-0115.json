@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0115",
+  "title": "Towards Automated Pediatric Dental Development Staging: A Dataset and Model",
+  "abstract": "Dental development assessment (DDA) is crucial for orthodontic diagnosis and treatment planning. Recent advances in deep learning have shown promising results in dental image analysis tasks. However, the study of dental development staging, particularly in pediatric dental development, remains underexplored. This is primarily attributed to the scarcity of publicly available datasets.In this paper, we present a pediatric Dental Development Staging Dataset(DentalDS). To the best of our knowledge, this is the first publicly available dataset for pediatric DDA. It comprises 2,583 orthopantomogram (OPG) images, with a total of 18,081 annotated teeth.  Furthermore, we propose a dental development staging network (DDSNet) designed to address the classification of tooth development stages. In DDSNet,  we propose Region-Instance CrossAttention (RICA) block and Multi-Expert Collaborative Classification (MECC) block to enhance the fine-grained feature fusion and classification accuracy of dental development stages. To evaluate the effectiveness of the proposed DDSNet, we conducted experiments on the DentalDS. Our proposed method achieves the state-of-the-art accuracy of 76.3% and an F1-score of 77.1%, outperforming the existing approach method by 1.9% in accuracy and 3.8% in F1-score. To facilitate further research in  pediatric orthodontic treatment, code and dataset will be\navailable at https://github.com/ybupengwang/DDSNet",
+  "authors": [
+    {
+      "name": "Wang, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Along",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Anli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Zhenhuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guan, Xiaohang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0115_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

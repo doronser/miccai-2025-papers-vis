@@ -1,0 +1,54 @@
+{
+  "id": "miccai-0400",
+  "title": "MatchGen: Detecting Medical Abnormal Region by Generating Matched Normal Regions",
+  "abstract": "Accurate abnormal region detection in medical images is critical for early diagnosis. Unlike supervised and self-supervised methods, unsupervised methods require no annotated training data and generalize well to unseen abnormalities. Such advantages are achieved by detecting abnormal regions from the differences between an input image and a generated pseudo-normal image, which is similar to the input image but excludes abnormal regions. However, existing unsupervised methods often suffer from high false positive rate at test time due to poor pixel-level matching between the normal regions of the input image and the pseudo-normal image. To address this challenge, we propose MatchGen, a novel plug-and-play framework to enhance the detection performance of existing unsupervised methods by optimizing the pseudo-normal image at test time. This generates an optimized pseudo-normal image that accurately matches the normal regions of the input while maintaining a clear distinction from the abnormal regions, which significantly improves the detection performance. Extensive experiments on four real-world datasets demonstrate the outstanding effectiveness of MatchGen.",
+  "authors": [
+    {
+      "name": "Ma, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Jinhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Shiqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Che, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "So, Hon Yiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chu, Lingyang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Eye",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0400_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

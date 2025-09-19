@@ -1,0 +1,41 @@
+{
+  "id": "miccai-4304",
+  "title": "Aβ-PET Pattern Prediction via Graph Reconstruction-Aware Fusion (GRAF) of Functional and Structural Networks",
+  "abstract": "Alzheimer’s disease (AD) is characterized by abnormal amyloid-β (Aβ) deposition, which causes neural damage and cognitive decline. Aβ positron emission tomography (PET) serves as the gold standard for preclinical diagnosis of AD. However, practical limitations, including high costs, radiation exposure, and constrained accessibility, have motivated recent studies to indirectly predict Aβ deposition patterns from MRI data. Unfortunately, existing methods have not fully leveraged the coupled pathological information from both functional and structural brain networks. To address this gap, we propose Graph Reconstruction Aware Fusion (GRAF), a novel framework designed to predict regional Aβ-PET patterns by integrating functional and structural pathological information. GRAF employs a graph-masked autoencoder to learn integrated network topology embeddings by reconstructing masked edges from both functional and structural networks, effectively utilizing node and edge features. Subsequently, the well-trained encoders are fine-tuned to predict regional Aβ patterns. Extensive experimental results demonstrate that our proposed GRAF framework outperforms six state-of-the-art methods. Our code and representative case examples are publicly available at https://github.com/ninicassiel/GRAF.",
+  "authors": [
+    {
+      "name": "Yuan, Haoyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yuxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Feihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4304_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

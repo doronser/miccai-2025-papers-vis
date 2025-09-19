@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0548",
+  "title": "Personalized Federated Side-Tuning for Medical Image Classification",
+  "abstract": "Large Vision-Language Models (VLMs) capture rich multimodal knowledge through pretraining and demonstrate remarkable performance across various tasks. However, adapting these foundation models to medical image analysis through fine-tuning faces significant challenges, including constrained computing resources, data privacy concerns, and data heterogeneity. Federated Parameter-Efficient Fine-Tuning (PEFT) emerges as a promising solution, enabling multiple clinical institutions to collaboratively fine-tune VLMs with a small number of parameters. However, it still suffers from data heterogeneity across clients and high training memory requirements. In this work, we propose a personalized Federated Side-Tuning (pFedST) method. Specifically, we equip each client with a frozen pre-trained CLIP model and a lightweight, learnable, personalized side network for fine-tuning. Only a portion of the side network parameters participates in model aggregation, while the personalized LoRA modules within the side network address data heterogeneity with minimal additional parameters. Extensive experiments demonstrate that pFedST consistently outperforms 12 state-of-the-art methods across two real multi-center medical image classification tasks.",
+  "authors": [
+    {
+      "name": "Chen, Jiayi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Benteng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Yongsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pu, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Hengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0548_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

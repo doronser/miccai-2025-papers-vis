@@ -1,0 +1,64 @@
+{
+  "id": "miccai-0889",
+  "title": "Non-Salient Object Segmentation in Medical Images via Pre-trained Multi-Granularity Masked Autoencoders",
+  "abstract": "The segmentation of non-salient objects in medical images plays a crucial role in the early detection and diagnosis of diseases. However, due to the low contrast and unbalanced distribution of the non-salient objects, their feature extraction still suffers from dimensional collapse. To address the inherent feature representation challenges of non-salient objects, we propose a pre-trained Multi-Granularity Masked AutoEncoder (MG-MAE) framework with diversified feature learning capabilities. In the global level, masked image reconstruction captures holistic structural and contextual features. Subsequently, in the local level, patches are extracted from the global visible patches, and the Histogram of Oriented Gradient (HOG) features of these patches are then reconstructed to enhance the texture details. Based on local perception, the framework integrates Nuclear Norm Maximization (NNM) constraint to foster diversity of the local representations in the feature encoding process. In the HOG reconstruction process, the framework also adopts a Dynamic Weight Adjustment (DWA) strategy, assigning greater reconstruction weights to challenging image patches, thereby solving the problem of representation bias towards salient objects. We evaluate our method on a private dataset, CCTA139, and two public datasets, BTCV and LiTS, respectively. Our method achieves DSC of 80.71%, 82.60%, and 71.77%, respectively, surpassing the performance of current state-of-the-art methods. The code is available at https://github.com/zhangbbin/mgmae.",
+  "authors": [
+    {
+      "name": "Zhang, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ruan, Dongsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qi, Ronghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Chenchu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yanping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Chengjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Rui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0889_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

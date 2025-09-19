@@ -1,0 +1,73 @@
+{
+  "id": "miccai-1043",
+  "title": "Motion-Boundary-Driven Unsupervised Surgical Instrument Segmentation in Low-Quality Optical Flow",
+  "abstract": "Unsupervised video-based surgical instrument segmentation has the potential to accelerate the adoption of robot-assisted procedures by reducing the reliance on manual annotations. However, the generally low quality of optical flow in endoscopic footage poses a significant challenge for unsupervised methods that rely heavily on motion cues. To overcome this limitation, we propose a novel approach that pinpoints motion boundaries, regions with abrupt flow changes, while selectively discarding frames with globally low-quality flow and adapting to varying motion patterns. Experiments on the EndoVis2017 VOS and EndoVis2017 Challenge datasets show that our method achieves mean Intersection-over-Union (mIoU) scores of 0.75 and 0.72, respectively, effectively alleviating the constraints imposed by suboptimal optical flow. This enables a more scalable and robust surgical instrument segmentation solution in clinical settings. The code is publicly available at https://github.com/wpr1018001/Rethinking-Low-quality-Optical-Flow.git",
+  "authors": [
+    {
+      "name": "Liu, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Peiran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huo, Jiayu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Gongyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bergeles, Christos",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sparks, Rachel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dasgupta, Prokar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Granados, Alejandro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ourselin, Sebastien",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Uncertainty",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1043_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

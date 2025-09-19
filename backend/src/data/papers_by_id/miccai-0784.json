@@ -1,0 +1,61 @@
+{
+  "id": "miccai-0784",
+  "title": "Medical Large Vision Language Models with Multi-Image Visual Ability",
+  "abstract": "Medical large vision-language models (LVLMs) have demonstrated promising performance across various single-image question answering (QA) benchmarks, yet their capability in processing multi-image clinical scenarios remains underexplored. Unlike single image based tasks, medical tasks involving multiple images often demand sophisticated visual understanding capabilities, such as temporal reasoning and cross-modal analysis, which are poorly supported by current medical LVLMs. To bridge this critical gap, we present the Med-MIM instruction dataset, comprising 83.2K medical multi-image QA pairs that span four types of multi-image visual abilities (temporal understanding, reasoning, comparison, co-reference). Using this dataset, we fine-tune Mantis and LLaVA-Med, resulting in two specialized medical VLMs: MIM-LLaVA-Med and Med-Mantis, both optimized for multi-image analysis. Additionally, we develop the Med-MIM benchmark to comprehensively evaluate the medical multi-image understanding capabilities of LVLMs. We assess eight popular LVLMs, including our two models, on the Med-MIM benchmark. Experimental results show that both Med-Mantis and MIM-LLaVA-Med achieve superior performance on the held-in and held-out subsets of the Med-MIM benchmark, demonstrating that the Med-MIM instruction dataset effectively enhances LVLMs’ multi-image understanding capabilities in the medical domain. The Med-MIM instruction dataset, benchmark, and fine-tuned models are available at \\href{https://github.com/Xikai97/Med-MIM}{Med-MIM}.",
+  "authors": [
+    {
+      "name": "Yang, Xikai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miao, Juzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Yuchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiaze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jinpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heng, Pheng-Ann",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0784_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "miccai-1619",
+  "title": "ITAdaptor: Image-Tag Adapter Framework with Knowledge Enhancement for Radiology Report Generation",
+  "abstract": "Automated radiology report generation holds significant research value as it has the potential to alleviate the heavy burden of report writing for radiologists. Previous studies have incorporated diagnostic information through multi-label classification to assist in report generation. However, these methods  treate visual and diagnostic information equally, which overlooks the difference in the importance of both when generating different types of words. This can lead to errors in report generation. We propose the Image-Tag Adapter framework (ITAdaptor), which dynamically balances the contributions of visual and diagnostic information in the decoder, ensuring both are fully utilized during the report generation process. The model introduces two novel modules: Cross-Modal Knowledge Enhancement (CMKE) and Image-Tag Adapter (ITA). CMKE leverages pre-trained CLIP to retrieve similar reports from a database, assisting in the diagnosis of query images by providing relevant disease information. ITA adaptively fuses the visual information from the input images with the diagnostic information from the disease tags to generate more accurate reports. For training, we propose a strategy combining reinforcement learning and knowledge distillation, optimizing iteratively to extract knowledge into the ITAdaptor. Extensive comparative experiments on the IU-Xray and MIMIC-CXR benchmark datasets demonstrate the\n effectiveness of our proposed approach.",
+  "authors": [
+    {
+      "name": "Ding, Shuaipeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Mengnan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Mingyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1619_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

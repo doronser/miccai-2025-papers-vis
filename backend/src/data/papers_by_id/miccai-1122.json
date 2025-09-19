@@ -1,0 +1,49 @@
+{
+  "id": "miccai-1122",
+  "title": "Bowsher prior Enhanced Unsupervised PET image Denoising",
+  "abstract": "Positron Emission Tomography (PET) is an advanced nuclear medicine imaging technique widely used in the diagnosis and treatment of oncology and neurological diseases. However, PET images suffer from high noise levels due to statistical fluctuations and physical degradation factors during image acquisition. Recently, deep learning-based denoising methods have shown great performance for PET image quality enhancement. Most of these methods attempt to incorporate high-quality anatomical images (such as CT or MR), as network input to provide prior information into the PET denoising process. However, directly using CT or MR images as network input has limited effectiveness and lacks interpretability due to the significant differences between two modalities. Exploring how to make better use of anatomical priors remains a valuable research direction. In this study, we proposed an unsupervised PET image denoising framework that leverages the Bowsher prior to achieving cross-modality fusion and anatomical information",
+  "authors": [
+    {
+      "name": "Wu, Zhongxue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jiankai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Jianan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Yuanjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1122_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

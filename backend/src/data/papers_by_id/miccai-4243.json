@@ -1,0 +1,38 @@
+{
+  "id": "miccai-4243",
+  "title": "DiDGen: Diffusion-based Dual-task Synthesis for Dermoscopic Data Generation",
+  "abstract": "Computer-aided diagnosis (CAD) systems for skin lesion analysis reduce costs and workload associated with the manual inspection of skin diseases. Nevertheless, the performance of deep learning (DL)-based CAD systems is constrained by the limited availability of labeled data, necessitating advanced dataset augmentation techniques. To address this limitation, we propose DiDGen, a novel method that employs Diffusion models (DMs) for Dermoscopic image Generation and lesion-mask pair synthesis. Specifically, we introduce DermPrompt, a new type of structured text prompt rich with clinical details annotated by large language models (LLMs), which facilitates DMs’ learning of fine-grained visual representations. Additionally, we propose a new paradigm for lesion-mask pair synthesis by incorporating a region-aware attention loss during finetuning to facilitate the build of semantic connections between text and visual representations, and then integrating test-time layout guidance with attention-based annotation to synthesize diverse and accurate lesion-mask pairs in a training-free manner. Extensive experiments demonstrate that our method improves the quality and diagnostic utility of generated dermoscopic images, thereby enhancing DL model performance in skin lesion classification and segmentation tasks. Our code is available at https://github.com/junjie-shentu/DiDGen.",
+  "authors": [
+    {
+      "name": "Shentu, Junjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Watson, Matthew",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Al Moubayed, Noura",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4243_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1155",
+  "title": "TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration",
+  "abstract": "Medical image restoration (MedIR) aims to recover high-quality medical images from their low-quality counterparts. Recent advancements in MedIR have focused on All-in-One models capable of simultaneously addressing multiple different MedIR tasks. However, due to significant differences in both modality and degradation types, using a shared model for these diverse tasks requires careful consideration of two critical inter-task relationships: \\textit{task interference}, which occurs when conflicting gradient update directions arise across tasks on the same parameter, and \\textit{task imbalance}, which refers to uneven optimization caused by varying learning difficulties inherent to each task. To address these challenges, we propose a task-adaptive Transformer (TAT), a novel framework that dynamically adapts to different tasks through two key innovations. First, a task-adaptive weight generation strategy is introduced to mitigate \\textit{task interference} by generating task-specific weight parameters for each task, thereby eliminating potential gradient conflicts on shared weight parameters. Second, a task-adaptive loss balancing strategy is introduced to dynamically adjust loss weights based on task-specific learning difficulties, preventing task domination or undertraining. Extensive experiments demonstrate that our proposed TAT achieves state-of-the-art performance in three MedIR tasks—PET synthesis, CT denoising, and MRI super-resolution—both in task-specific and All-in-One settings. Code is available at \\href{https://github.com/Yaziwel/TAT}{this https URL}.",
+  "authors": [
+    {
+      "name": "Yang, Zhiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiaju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yi, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Bingzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1155_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

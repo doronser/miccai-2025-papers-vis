@@ -1,0 +1,67 @@
+{
+  "id": "miccai-0380",
+  "title": "ClipGS: Clippable Gaussian Splatting for Interactive Cinematic Visualization of Volumetric Medical Data",
+  "abstract": "The visualization of volumetric medical data is crucial for enhancing diagnostic accuracy and improving surgical planning and education. Cinematic rendering techniques significantly enrich this process by providing high-quality visualizations that convey intricate anatomical details, thereby facilitating better understanding and decision-making in medical contexts. However, the high computing cost and low rendering speed limit the requirement of interactive visualization in practical applications. In this paper, we introduce ClipGS, an innovative Gaussian splatting framework with the clipping plane supported, for interactive cinematic visualization of volumetric medical data.\nTo address the challenges posed by dynamic interactions, we propose a learnable truncation scheme that automatically adjusts the visibility of Gaussian primitives in response to the clipping plane. Besides, we also design an adaptive adjustment model to dynamically adjust the deformation of Gaussians and refine the rendering performance. We validate our method on diverse medical data (including CT and anatomical slice data), and reach an average 36.635 PSNR rendering quality with 156 FPS and 16.1MB model size, showing the superior performance in rendering quality and efficiency.",
+  "authors": [
+    {
+      "name": "Li, Chengkun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tong, Yuqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Kai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Zhenya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Ruiyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Shi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chan, Jason Ying-Kuen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heng, Pheng-Ann",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Qi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Surgery -> Mixed / Augmented / Virtual Reality"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0380_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

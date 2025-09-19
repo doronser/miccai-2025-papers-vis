@@ -1,0 +1,56 @@
+{
+  "id": "miccai-2126",
+  "title": "CLIP-DSA: Textual Knowledge-Guided Cerebrovascular Diseases Recognition in Multi-View Digital Subtraction Angiography",
+  "abstract": "Digital Subtraction Angiography (DSA) sequences are the gold standard for diagnosing most Cerebrovascular diseases (CVDs). Rapid and accurate recognition of CVDs in DSA sequences helps clinicians make the right decisions, which is important in clinical practice. However, the pathological characteristics of CVDs are numerous and complex, and the spatiotemporal complexity of DSA sequences is high, making the diagnosis of CVDs challenging. Therefore, in this paper, we propose a novel CVDs classification framework CLIP-DSA based on CLIP, a pre-trained vision language model. We aim to utilize textual knowledge to guide the robust classification of common CVDs in multi-view DSA sequences. Specifically, our CLIP-DSA comprises a dual-branch vision encoder and a text encoder. The vision encoder is used to extract features from multi-view sequences, while the text encoder is used to obtain textual knowledge. To optimally harness the temporal information in DSA sequences, we introduce a temporal pooling module that dynamically compresses image features in the time dimension. Additionally, we design a multi-view contrastive loss to enhance the network’s image-text representation ability by constraining the image features between two views. In a large data set with 2,026 patients, the proposed CLIP-DSA achieved an AUC of 90.8\\% in the CVDs classification.\nThe code is available at this website~\\footnote{\\url{https://github.com/***/}}.",
+  "authors": [
+    {
+      "name": "Xie, Qihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mengting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jianwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Ruisheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shan, Caifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2126_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

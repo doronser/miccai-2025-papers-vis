@@ -1,0 +1,39 @@
+{
+  "id": "miccai-1154",
+  "title": "Compact Training-free NAS with Alternating Evolution Game for Medical Image Segmentation",
+  "abstract": "Neural Architecture Search (NAS) has shown significant potential in designing deep neural networks for medical image segmentation. However, even emerging training-free NAS frameworks often incur substantial computational costs and lengthy search times. To address the critical challenges of computational efficiency and architecture interpretability, the paper proposes a compact training-free NAS framework based on an Alternating Evolution Game (AEG-cTFNAS). The proposed method alternates the search and contribution evaluation of the encoder and decoder within the UNet architecture via alternating games. It employs a truncated normal distribution for compact encoding, sampling, and updating to minimize computational overhead, while Bayesian inference is utilized to estimate the contribution of each block, adaptively adjusting the search strategy and facilitating process visualization. Experimental results on two benchmark datasets reveal that AEG-cTFNAS outperforms both manually designed architectures and NAS-based algorithms, underscoring its efficacy and potential on medical image segmentation. Code is available at https://github.com/spcity/AEG-cTFNAS.",
+  "authors": [
+    {
+      "name": "Sun, Xiaoxue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hongpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Pei-Cheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1154_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

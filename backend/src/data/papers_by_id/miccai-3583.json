@@ -1,0 +1,44 @@
+{
+  "id": "miccai-3583",
+  "title": "Meta-Learning Physics-Informed Neural Networks for Personalized Cardiac Modeling",
+  "abstract": "The advancement of personalized cardiac modeling, particularly through digital cardiac twins, enables tailored treatments based on the physiology of the individual patient. Traditional physics-based methods for optimizing the parameters of these cardiac models face challenges in clinical adoption due to their computational cost. Recent shifts towards data-driven approaches offer improved efficiency, but struggle with generalization and integration of core electrophysiological principles. The emerging use of physics-informed neural networks (PINNs) has the potential to combine the advantage of these two approaches, although still requiring retraining from scratch for each subject. This paper introduces a novel framework for meta-learning PINNs to overcome these challenges, enabling rapid personalization of a PINN to new subjects’ data via simple feedforward computation.\nWe instantiate this meta-PINN framework using the Eikonal model as the governing physics, demonstrating its efficacy in significantly reducing computational demands while improving the predictive accuracy of personalized cardiac models.",
+  "authors": [
+    {
+      "name": "Toloubidokhti, Maryam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Missel, Ryan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lian, Shichang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Linwei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computational Anatomy and Physiology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3583_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

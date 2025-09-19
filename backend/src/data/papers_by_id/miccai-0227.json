@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0227",
+  "title": "Pairwise-Constrained Implicit Functions for 3D Human Heart Modeling",
+  "abstract": "Accurate 3D models of the human heart require not only correct outer surfaces but also realistic inner structures, such as the ventricles, atria, and myocardial layers. Approaches relying on implicit surfaces, such as signed distance functions (SDFs), are primarily designed for single watertight surfaces, making them ill-suited for multi-layered anatomical structures. They often produce gaps or overlaps in shared boundaries. Unsigned distance functions (UDFs) can model non-watertight geometries but are harder to optimize, while voxel-based methods are limited in resolution and struggle to produce smooth, anatomically realistic surfaces. We introduce a pairwise-constrained SDF approach that models the heart as a set of interdependent SDFs, each representing a distinct anatomical component. By enforcing proper contact between adjacent SDFs, we ensure that they form anatomically correct shared walls, preserving the internal structure of the heart and preventing overlaps, or unwanted gaps. Our method significantly improves inner structure accuracy over single-SDF, UDF-based, voxel-based, and segmentation-based reconstructions. We further demonstrate its generalizability by applying it to a vertebrae dataset, preventing unwanted contact between structures.",
+  "authors": [
+    {
+      "name": "Le, Hieu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jingyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Talabot, Nicolas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jiancheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fua, Pascal",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0227_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

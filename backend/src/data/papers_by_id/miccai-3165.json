@@ -1,0 +1,42 @@
+{
+  "id": "miccai-3165",
+  "title": "Mamba Guided Boundary Prior Matters: A New Perspective for Generalized Polyp Segmentation",
+  "abstract": "Polyp segmentation in colonoscopy images is crucial for early\ndetection and diagnosis of colorectal cancer. However, this task remains a significant challenge due to the substantial variations in polyp shape, size, and color, as well as the high similarity between polyps and surrounding tissues, often compounded by indistinct boundaries. While existing encoder-decoder CNN and transformer-based approaches have shown promising results, they struggle with stable segmentation performance on polyps with weak or blurry boundaries. These methods exhibit limited abilities to distinguish between polyps and non-polyps and capture essential boundary cues. Moreover, their generalizability still falls short of meeting the demands of real-time clinical applications. To address these limitations, we propose SAM-MaGuP, a groundbreaking approach for robust polyp segmentation. By incorporating a boundary distillation module and a 1D-2D Mamba adapter within the Segment Anything Model (SAM), SAM-MaGuP excels at resolving weak boundary challenges and amplifies feature learning through enriched global contextual interactions. Extensive evaluations across five diverse datasets reveal that SAM-MaGuP outperforms state-of-the-art methods, achieving unmatched segmentation accuracy and robustness. Our key innovations—a Mamba-guided boundary prior and a 1D-2D Mamba block—set a new benchmark in the field, pushing the boundaries of polyp segmentation to new heights.",
+  "authors": [
+    {
+      "name": "Dutta, Tapas K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Majhi, Snehashis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nayak, Deepak Ranjan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jha, Debesh",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3165_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

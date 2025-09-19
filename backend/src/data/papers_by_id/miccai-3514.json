@@ -1,0 +1,67 @@
+{
+  "id": "miccai-3514",
+  "title": "Neuro-AMS: Neuro-informed Age-aware and Medical Knowledge-integrated Strategy for Diagnosis of Multiple Brain Disorders",
+  "abstract": "Neurological diseases encompass a diverse range of conditions such as neurodegenerative diseases and neurodevelopmental disorders. Developing a general model to assist in the diagnosis of multiple neurological diseases is essential in clinical practice, as it can help reduce misdiagnosis rates and alleviate the burden on physicians. However, most existing diagnosis models are designed for specific neurological disease scenarios and show poor performance when applied to multiple diseases. To this end, we present a semantic-assisted framework, called Neuro-AMS, a Neuro-informed Age-aware and Medical knowledge-integrated Strategy for diagnosis of multiple brain disorders. Specifically, we employ a vision encoder based on age-aware strategy to further enhance performance by leveraging the potential relationship between age and neurological diseases. Additionally, we extract semantic features from labels and integrate corresponding medical knowledge embeddings, constructing knowledge-level label features with enhanced semantics. These knowledge-level label features guide the vision encoder for capturing higher-level semantic representations through the alignment of image-text pairs. Our method is evaluated on four public brain disease datasets, and experimental results demonstrate that our method achieves consistent and statistically significant improvement compared with three public benchmarks and three specialized models.",
+  "authors": [
+    {
+      "name": "Zhang, Zhenguo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Teng, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Nan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yuxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Zhaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weng, Zehao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kong, Jinwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3514_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

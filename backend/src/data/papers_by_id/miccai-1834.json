@@ -1,0 +1,32 @@
+{
+  "id": "miccai-1834",
+  "title": "Weighted Stratification in Multi-Label Contrastive Learning for Long-Tailed Medical Image Classification",
+  "abstract": "Multi-label classification (MLC) in medical image analysis presents significant challenges due to long-tailed class distribution and disease co-occurrence. While contrastive learning (CL) has emerged as a promising solution, recent studies primarily focus on defining positive samples, overlooking the low gradient problem associated with single-disease representation and the impact of co-occurring diseases. To address these issues, we propose ws-MulSupCon, a novel weighted stratification method in CL for MLC. Our gradient analysis indicates that separating the single-disease cases can amplify their gradient contributions. Accordingly, we stratify training samples into single- and multi-disease cases to enhance the representation learning of each disease. Moreover, we design a weighted loss function based on class frequency and disease comorbidity, mitigating the dominance of prevalent diseases and improving rare disease detection. To further discriminate between the healthy and diseased samples, a dedicated CL for healthy cases is introduced, improving overall classification performance and preventing false positives. Extensive experiments on NIH ChestXRay14 and MIMIC-CXR demonstrate that ws-MulSupCon outperforms SoTA methods across nearly all disease classes, showing its superiority and the effectiveness of learning long-tailed distribution in multi-label medical image classification. The code is available at https://github.com/xup6YJ/ws-MulSupCon.",
+  "authors": [
+    {
+      "name": "Lin, Ying-Chih",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yong-Sheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1834_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

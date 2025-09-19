@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4222",
+  "title": "Vector-Quantization-Driven Active Learning for Efficient Multi-Modal Medical Segmentation with Cross-Modal Assistance",
+  "abstract": "Multi-modal medical image segmentation leverages complementary information across different modalities to enhance diagnostic accuracy, but faces two critical challenges: the requirement for extensive paired annotations and the difficulty in capturing complex inter-modality relationships. While Active Learning (AL) can reduce annotation burden through strategic sample selection, conventional methods suffer from unreliable uncertainty quantification. Meanwhile, Vector Quantization (VQ) offers a mechanism for encoding inter-modality relationships, yet existing implementations struggle with codebook misalignment across modalities. To address these limitations, we propose a novel Vector Quantization - Bimodal Entropy-Guided Active Learning (VQ-BEGAL) framework that employs a dual-encoder architecture with VQ to discretize continuous features into distinct codewords, effectively preserving modality-specific information while mitigating feature co-linearity. Unlike conventional AL methods that separate sample selection from model training, our approach integrates feature-level uncertainty estimation from cross-modal discriminator outputs into the training process—strategically allocating samples with different uncertainty characteristics to optimize specific network components, enhancing both feature extraction stability and decoder robustness.Experiments on benchmark datasets demonstrate that our approach achieves state-of-the-art performance while requiring significantly fewer annotations, making it particularly valuable for real-world clinical applications where labeled data is scarce. The code is available at https://github.com/xf-DU/vq-begal.",
+  "authors": [
+    {
+      "name": "Du, Xiaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Manning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhijian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4222_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

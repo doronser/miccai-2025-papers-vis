@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1575",
+  "title": "Endoscopic Artifact Inpainting for Improved Endoscopic Image Segmentation",
+  "abstract": "Endoscopic imaging plays a crucial role in modern diagnostics and minimally invasive procedures. However, artifacts caused by specular and diffuse reflections present significant challenges, particularly in tasks such as endoscopic image segmentation. Existing methods tackling endoscopic artifacts typically address only one type of reflection, failing to fully account for the non-Lambertian reflectance of endoscopic tissue structures. Therefore, inspired by the simplified Phong model for endoscopy, we propose a two-stage artifact inpainting framework. The first stage suppresses specular artifacts, while the second stage focuses on inpainting diffuse artifacts. Additionally, we introduce a weight map to control the handling of diffuse artifacts, ensuring a more precise enhancement. To evaluate its effectiveness, we focus on its impact on endoscopic image segmentation tasks. Extensive experiments on multiple colonoscopy and dental endoscopy datasets demonstrate that our framework can robustly improve the segmentation performance of endoscopic images, offering better enhancement than existing state-of-the-art methods. Particularly, for zero-shot SAM segmentation of teeth, a significant performance boost is observed after inpainting, with mDice and mIoU increasing from 51.3%/39.3% to 96.1%/93.0%.  Code is available at GitHub.",
+  "authors": [
+    {
+      "name": "Yu, Zhangyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Chenlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Hongrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Xiuqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Zeyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Mingjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ao, Mingwu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lao, Qicheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1575_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

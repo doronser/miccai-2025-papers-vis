@@ -1,0 +1,49 @@
+{
+  "id": "miccai-0264",
+  "title": "Physics informed guided diffusion for accelerated multi-parametric MRI reconstruction",
+  "abstract": "We introduce MRF-DiPh, a novel physics informed denoising diffusion approach for multiparametric tissue mapping from highly accelerated, transient-state quantitative MRI acquisitions like Magnetic Resonance Fingerprinting (MRF). Our method is derived from a proximal splitting formulation, incorporating a pretrained denoising diffusion model as an effective image prior to regularize the MRF inverse problem. Further, during reconstruction it simultaneously enforces two key physical constraints: (1) k-space measurement consistency and (2) adherence to the Bloch response model. Numerical experiments on in-vivo brain scans data show that MRF-DiPh outperforms deep learning and compressed sensing MRF baselines, providing more accurate parameter maps while better preserving measurement fidelity and physical model consistency—critical for solving reliably inverse problems in medical imaging.",
+  "authors": [
+    {
+      "name": "Mayo, Perla",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pirkl, Carolin M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Achim, Alin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Menze, Bjoern",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Golbabaee, Mohammad",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0264_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

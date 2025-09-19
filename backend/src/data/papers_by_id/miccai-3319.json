@@ -1,0 +1,42 @@
+{
+  "id": "miccai-3319",
+  "title": "Dia-LLaMA: Towards Large Language Model-driven CT Report Generation",
+  "abstract": "Medical report generation has made notable progress, but most studies focus on chest X-rays, leaving CT report generation largely underexplored. This task poses unique challenges, including sparse diseased regions due to high-dimensional volumes, imbalanced distributions of normal and abnormal samples leading to biased predictions, and excessive template sentences that may obscure critical findings. Recently, large language models (LLMs) have demonstrated strong instruction-following capabilities, producing reliable outputs when guided by well-designed prompts, which provides a promising approach to address these issues. To this end, we propose Dia-LLaMA, a framework adapted from LLaMA2-7B for CT report generation with diagnostic guidance prompts. To enhance the focus on diseased areas, we introduce a disease-aware attention module to capture disease-specific information. Furthermore, we propose a disease prototype memory bank to capture common disease patterns, providing a reliable reference during diagnosis. Experiments on a large-scale chest CT report dataset demonstrated that our method outperforms previous approaches, achieving state-of-the-art results in both clinical efficacy and natural language generation metrics. The code is available at https://github.com/zhi-xuan-chen/Dia-LLaMA.",
+  "authors": [
+    {
+      "name": "Chen, Zhixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Luyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bie, Yequan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3319_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

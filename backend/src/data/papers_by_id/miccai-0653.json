@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0653",
+  "title": "DC-Seg: Disentangled Contrastive Learning for Brain Tumor Segmentation with Missing Modalities",
+  "abstract": "Accurate segmentation of brain images typically requires the integration of complementary information from multiple image modalities. However, clinical data for all modalities may not be available for every patient, creating a significant challenge. To address this, previous studies encode multiple modalities into a shared latent space. While somewhat effective, it remains suboptimal, as each modality contains distinct and valuable information. In this study, we propose DC-Seg (Disentangled Contrastive Learning for Segmentation), a new method that explicitly disentangles images into modality-invariant anatomical representation and modality-specific representation, by using anatomical contrastive learning and modality contrastive learning respectively. This solution improves the separation of anatomical and modality-specific features by considering the modality gaps, leading to more robust representations. Furthermore, we introduce a segmentation-based regularizer that enhances the model’s robustness to missing modalities. Extensive experiments on the BraTS 2020 and a private white matter hyperintensity(WMH) segmentation dataset demonstrate that DC-Seg outperforms state-of-the-art methods in handling incomplete multimodal brain tumor segmentation tasks with varying missing modalities, while also demonstrate strong generalizability in WMH segmentation. The code is available at https://github.com/CuCl-2/DC-Seg.",
+  "authors": [
+    {
+      "name": "Li, Haitao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Ziyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mao, Yiheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Zhengyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zhengxing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0653_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

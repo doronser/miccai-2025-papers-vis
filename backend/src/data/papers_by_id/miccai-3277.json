@@ -1,0 +1,43 @@
+{
+  "id": "miccai-3277",
+  "title": "Test-Time Training with Local Contrast-Preserving Copy-Pasted Image for Domain Generalization in Retinal Vessel Segmentation",
+  "abstract": "Accurate segmentation of retinal vessels is an important task. Deep learning-based approaches have achieved impressive segmentation performance on images with the same distribution as the training images. However, the performance significantly drops when there is a substantial disparity between the distributions of the training and testing data, which limits the practical applicability of these methods in real-world scenarios. \nIn this paper, we propose a novel test-time training (TTT) strategy that employs a local contrast-preserving copy-paste (L2CP) method to generate synthetic images in the target domain style.\nSpecifically, leveraging the thin nature of retinal vessel structures, we apply a simple morphological closing to remove these structures from the test image. This process yields a vessel-free image that retains the target domain’s style, which we then employ as the background component for the synthetic image. \nTo realistically integrate retinal vessels from source domain images into the background component, our L2CP method pastes the local contrast map of the vessels, rather than their grayscale values, onto the background component. This approach effectively mitigates the issue of significant disparities in grayscale distribution between the foreground and background across the source and target domains.\nExtensive TTT experiments on retinal vessel segmentation tasks demonstrate that the proposed L2CP consistently improves the model’s generalization ability in retinal structure segmentation. The code of our implementation is available at https://github.com/GuGuLL123/L2CP.",
+  "authors": [
+    {
+      "name": "Gu, Yuliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Zhichao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zelong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yongchao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3277_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

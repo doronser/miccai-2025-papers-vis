@@ -1,0 +1,69 @@
+{
+  "id": "miccai-1776",
+  "title": "Phase-Informed Tool Segmentation for Manual Small-Incision Cataract Surgery",
+  "abstract": "Cataract surgery is the most common surgical procedure globally, with a disproportionately higher burden in developing countries. While automated surgical video analysis has been explored in general surgery, its application to ophthalmic procedures remains limited. Existing research primarily focuses on Phaco cataract surgery, an expensive technique not accessible in regions where cataract treatment is most needed. In contrast, Manual Small-Incision Cataract Surgery (MSICS) is the preferred low-cost alternative in high-volume settings and for complex cases. However, no dataset exists for MSICS. To address this gap,we introduce Sankara-MSICS, the first comprehensive dataset containing 53 surgical videos annotated for 18 surgical phases and 3,527 frames with 13 surgical tools at the pixel level. We also present ToolSeg, a novel framework that enhances tool segmentation with a phase-conditional decoder and a semi-supervised setup leveraging pseudo-labels from foundation models. Our approach significantly improves segmentation performance, achieving a 38.1% increase in mean Dice scores, with notable gains for smaller and less prevalent tools. The code is available at https://github.com/Sri-Kanchi-Kamakoti-Medical-Trust/ToolSeg.",
+  "authors": [
+    {
+      "name": "Sachdeva, Bhuvan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Akash, Naren",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ashraf, Tajamul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Müller, Simon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schultz, Thomas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wintergerst, Maximilian W. M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Singri, Niharika",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Murali, Kaushik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jain, Mohit",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1776_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

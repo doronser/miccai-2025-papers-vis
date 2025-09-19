@@ -1,0 +1,32 @@
+{
+  "id": "miccai-2448",
+  "title": "CS²C: Collaborative Spatial and Spectral Neural Clustering for Organelle Segmentation from Volumetric Electron Microscopy",
+  "abstract": "Organelle segmentation is crucial for understanding the morphology of biological structures. Existing unsupervised methods leverage powerful feature extractors and clustering techniques to uncover organelle structures from volumetric electron microscopy images. However, these methods often struggle with noisy microscopy images and the computational complexity of numerical clustering. In this paper, we propose CS2C, a novel collaborative spatial and spectral deep neural clustering framework, for multi-class organelle segmentation. The pillar of our approach is combining unsupervised deep spectral clustering and spatial clustering, which enhances a harmony of learned cluster assignments under the spatial and spectral superpixel-wise representation. Specifically, we adopt a masked autoencoder-based feature extractor to obtain powerful superpixel features, where spatial clustering is performed directly on these features. Beyond that, spectral clustering is applied in the spectral domain, naturally alleviating high-frequency perturbations in the image features. The entire framework is trained end-to-end using a combination of clustering loss and consistency regularization between spatial and spectral clustering. Extensive experiments demonstrate that our method outperforms state-of-the-art unsupervised methods on known benchmarks. Code is available at: https://github.com/JimaoJIANG/CS2C.",
+  "authors": [
+    {
+      "name": "Jiang, Jimao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pei, Yuru",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2448_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

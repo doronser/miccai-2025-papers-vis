@@ -1,0 +1,35 @@
+{
+  "id": "miccai-0430",
+  "title": "Maverick: Collaboration-free Federated Unlearning for Medical Privacy",
+  "abstract": "Federated Learning (FL) enables decentralized model training while preserving patient privacy, making it essential for medical AI applications. However, regulatory frameworks such as GDPR, CCPA, and LGPD mandate “right to be forgotten”, requiring patient data removal from trained models upon request. This has driven growing interest in Federated Unlearning (FU), but existing methods require the collaborative participation of all clients, which is often impractical and raises privacy concerns. This paper proposes Maverick, a novel collaboration-free FU framework that enables localized unlearning at the target client by minimizing model sensitivity, without requiring global collaboration from all clients to unlearn a target client. Theoretical analysis and extensive experiments on three medical imaging datasets, Colorectal Cancer Histology, Pigmented Skin Lesions, and Blood Cells, demonstrate Maverick’s effectiveness in sample, class, and client unlearning scenarios. Maverick offers a robust solution for trustworthy FL in healthcare, meeting regulatory requirements.  The code is publicly available at https://github.com/OngWinKent/Maverick",
+  "authors": [
+    {
+      "name": "Ong, Win Kent",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chan, Chee Seng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0430_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

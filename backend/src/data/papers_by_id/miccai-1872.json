@@ -1,0 +1,67 @@
+{
+  "id": "miccai-1872",
+  "title": "Towards Interpretable Counterfactual Generation via Multimodal Autoregression",
+  "abstract": "Counterfactual medical image generation enables clinicians to explore clinical hypotheses, such as predicting disease progression, facilitating their decision-making. While existing methods can generate visually plausible images from disease progression prompts, they produce silent predictions that lack interpretation to verify how the generation reflects the hypothesized progression—a critical gap for medical applications that require traceable reasoning. In this paper, we propose Interpretable Counterfactual Generation (ICG), a novel task requiring the joint generation of counterfactual images that reflect the clinical hypothesis and interpretation texts that outline the visual changes induced by the hypothesis. To enable ICG, we present ICG-CXR, the first dataset pairing longitudinal medical images with hypothetical progression prompts and textual interpretations. We further introduce ProgEmu, an autoregressive model that unifies the generation of counterfactual images and textual interpretations. Extensive experimental results demonstrate the superiority of ProgEmu in generating progression-aligned counterfactuals and interpretations, showing significant potential in enhancing clinical decision support and medical education. Project resources are available at: https://progemu.github.io",
+  "authors": [
+    {
+      "name": "Ma, Chenglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Yuanfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Tianbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Mingjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Junjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shan, Hongming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1872_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

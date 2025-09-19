@@ -1,0 +1,50 @@
+{
+  "id": "miccai-1037",
+  "title": "Guided Augmentation for Monocular Depth Estimation in Cell Microscopy",
+  "abstract": "Monocular Depth Estimation (MDE) in cell microscopy provides critical insights into cellular structures, with applications spanning cancer diagnostics, hematological analysis, and tumor margin assessment. However, it presents unique challenges such as sparse z-stacks with limited focal planes, optical aberrations degrading depth precision, and the inherently ill-posed nature of inferring depth from single 2D images. Existing MDE methods often rely on semantic priors, geometric modeling, or self-supervised learning. While effective in macroscopic applications, these approaches struggle with microscopy-specific challenges involving domain-specific feature distributions.\nTo address these limitations, we propose a novel deep learning-based physics-guided augmentation strategy leveraging Extended Depth of Field (EDOF) images to enhance MDE performance. To demonstrate the effectiveness of our approach, we employ a regression model trained to predict z-stack levels from individual cell images and a UNet-based model to synthesize blurred cell images at intermediate z-levels by modeling the point spread function (PSF) of the imaging process. Experiments on Giemsa-stained peripheral blood smear data demonstrate significant improvements in MDE over training without augmentation and simple augmentation strategies. Ablation studies validate the robustness of our approach, providing a promising framework for advancing medical microscopy-related applications.",
+  "authors": [
+    {
+      "name": "Viswanathan, Abhishek",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rajagopalan, A. N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yelamarthy, Nikhil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rai, Ankit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ramachandran, Pradeep",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1037_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

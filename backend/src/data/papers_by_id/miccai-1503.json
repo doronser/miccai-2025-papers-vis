@@ -1,0 +1,64 @@
+{
+  "id": "miccai-1503",
+  "title": "Cerebrovascular Diseases Screening from Color Fundus Photography via Cross-View Fusion and Graph-Based Discrimination",
+  "abstract": "Cerebrovascular diseases can occur suddenly and unpredictably, making it crucial to identify high-risk individuals through screening to prevent or mitigate its impact. However, digital subtraction angiography (DSA), the current gold-standard, is difficult to apply to large-scale screening or primary healthcare settings due to its high cost, complex operation, and invasive nature. In contrast, Color Fundus Photography (CFP) can reflect related cerebrovascular diseases through retinal microvascular changes while maintaining low-cost and risk-free advantages.\nNevertheless, current CFP image-based methods for predicting cerebrovascular disease mostly focus on pixel-level image features only, ignoring the correlation between arteriovenous morphology, optic disc structure and disease risk. To address this gap, we propose CVGB-Net, a method that integrates a cross-view encoder to fuse high-level semantic features, primarily capturing vascular abnormalities in the retinal vasculature caused by cerebrovascular diseases, with low-level pixel features extracted by the foundation model, RetFound, designed for ocular tasks. The fused cross-view features for each sample are then processed through a graph-based discriminator, which utilizes a graph adapter to link disease-related features across the entire dataset. This approach further enhances the model’s ability to differentiate between diseased and healthy cases. To validate our approach, we present a tailored CFP-Cerebrovascular diseases Screening (CCS) dataset with 2,338 expert-diagnosed cases. Experimental results demonstrate the effectiveness of our approach, highlighting its potential for cost-effective large-scale cerebrovascular diseases screening. https://github.com/glodxy/CVGB_net",
+  "authors": [
+    {
+      "name": "Tian, Congyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Shihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Xiangyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Cheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ou, Chubin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lv, Jianping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shanshan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Si, Weixin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1503_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

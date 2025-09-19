@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0768",
+  "title": "BioD2C: A Dual-level Semantic Consistency Constraint Framework for Biomedical VQA",
+  "abstract": "Biomedical visual question answering (VQA) has been widely studied and has demonstrated significant application value and potential in fields such as assistive medical diagnosis. Despite their success, current biomedical VQA models perform multimodal information interaction only at the model level within large language models (LLMs), leading to suboptimal multimodal semantic alignment when dealing with complex tasks. To address this issue, we propose BioD2C: a novel Dual-level Semantic Consistency Constraint Framework for Biomedical VQA, which achieves dual-level semantic interaction alignment at both the model and feature levels, enabling the model to adaptively learn visual features based on the question. Specifically, we firstly integrate textual features into visual features via an image-text fusion mechanism as feature-level semantic interaction, obtaining visual features conditioned on the given text; and then introduce a text-queue-based cross-modal soft semantic loss function to further align the imag",
+  "authors": [
+    {
+      "name": "Ji, Zhengyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Yifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yue, Yutao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0768_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

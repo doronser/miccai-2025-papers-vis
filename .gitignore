@@ -1,7 +1,6 @@
 # Python
 backend/.venv
 **/__pycache__
-backend/src/data/
 
 # Frontend
 frontend/node_modules/
@@ -11,6 +10,7 @@ frontend/.next/
 frontend/out/
 
 # IDE
+.cursor/
 .vscode/
 .idea/
 

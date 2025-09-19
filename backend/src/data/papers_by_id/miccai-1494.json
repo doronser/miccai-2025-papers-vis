@@ -1,0 +1,34 @@
+{
+  "id": "miccai-1494",
+  "title": "RadioFormer: Integrating Radiologist Inductive Bias for Tumor Classification on Multi-Sequence MR Images",
+  "abstract": "Multi-sequence magnetic resonance imaging (MRI) plays a critical role in tumor diagnosis but relies heavily on manual interpretation, which is both labor-intensive and dependent on expert knowledge. While deep learning-based diagnostic methods show significant potential, they typically require large datasets for effective training. However, the high cost of data collection and annotation often limits the available dataset size. This highlights the need for models that can effectively train on small datasets, mitigate overfitting, and achieve reliable performance.\nTo address these challenges, we propose RadioFormer, a novel model that incorporates radiologist inductive bias to facilitate efficient learning on small MRI datasets. Unlike traditional 2D or 3D architectures, RadioFormer emulates the radiologist’s diagnostic process by explicitly parsing MRI data into three hierarchical levels: (1) single-sequence slice feature extraction, (2) multi-sequence slice information aggregation, and (3) inter-slice information (volume) aggregation. Each level builds upon the previous one, ensuring smooth information flow and a hierarchical understanding of lesion characteristics.\nBy integrating expert knowledge into its design, RadioFormer effectively leverages inductive bias to enhance model generalization on small datasets. We evaluated RadioFormer on three public datasets for brain, breast, and liver tumor classification, where it achieved state-of-the-art performance across all tasks. The code and pre-processed data for RadioFormer are available at https://github.com/aa1234241/RadioFormer/tree/master.",
+  "authors": [
+    {
+      "name": "Bai, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1494_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

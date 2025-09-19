@@ -1,0 +1,59 @@
+{
+  "id": "miccai-4598",
+  "title": "Surface Vision Mamba: Leveraging Bidirectional State Space Model for Efficient Spherical Manifold Representation",
+  "abstract": "Attention-based methods have demonstrated exceptional performance in modelling long-range dependencies on spherical cortical surfaces, surpassing traditional Geometric Deep Learning (GDL) models. However, their extensive inference time and high memory demands pose challenges for application to large datasets with limited computing resources. Inspired by the state space model in computer vision, we introduce the attention-free Vision Mamba (Vim) to spherical surfaces, presenting a domain-agnostic architecture for analyzing data on spherical manifolds. Our method achieves surface patching by representing spherical data as a sequence of triangular patches derived from a subdivided icosphere. The proposed Surface Vision Mamba (SiM) is evaluated on multiple neurodevelopmental phenotype regression tasks using cortical surface metrics from neonatal brains. Experimental results demonstrate that SiM outperforms both attention- and GDL-based methods, delivering 4.8 times faster inference and achieving 91.7% lower memory consumption compared to the Surface Vision Transformer (SiT) under the Ico-4 grid partitioning. Sensitivity analysis further underscores the potential of SiM to identify subtle cognitive developmental patterns. The code is available at https://github.com/Rongzhao-He/surface-vision-mamba.",
+  "authors": [
+    {
+      "name": "He, Rongzhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Weihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Leilei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Dalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Bin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4598_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

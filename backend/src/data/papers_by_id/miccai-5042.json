@@ -1,0 +1,66 @@
+{
+  "id": "miccai-5042",
+  "title": "FluoroSAM: A Language-promptable Foundation Model for Flexible X-ray Image Segmentation",
+  "abstract": "Language promptable X-ray image segmentation would enable greater flexibility for human-in-the-loop workflows in diagnostic and interventional precision medicine. Prior efforts have contributed task-specific models capable of solving problems within a narrow scope, but expanding to broader use requires additional data, annotations, and training time. Recently, language-aligned foundation models (LFMs) – machine learning models trained on large amounts of highly variable image and text data thus enabling broad applicability – have emerged as promising tools for automated image analysis. Existing foundation models for medical image analysis focus on scenarios and modalities where large, richly annotated datasets are available. However, the X-ray imaging modality features highly variable image appearance and applications, from diagnostic chest X-rays to interventional fluoroscopy, with varying availability of data. To pave the way toward an LFM for comprehensive and language-aligned analysis of arbitrary medical X-ray images, we introduce FluoroSAM, a language-promptable variant of the Segment-Anything Model, trained from scratch on 3M synthetic X-ray images\nfrom a wide variety of human anatomies, imaging geometries, and viewing angles. These include pseudo-ground truth masks for 128 organ types and 464 tools with associated text descriptions. FluoroSAM is capable of segmenting myriad anatomical structures and tools based on natural language prompts, thanks to the novel incorporation of vector quantization (VQ) of text embeddings in the training process. We demonstrate FluoroSAM’s performance quantitatively on real X-ray images and showcase on several applications how FluoroSAM is a key enabler for rich human-machine interaction in the X-ray image acquisition and analysis context. Information on data, weights, and code is available at https://github.com/arcadelab/fluorosam.",
+  "authors": [
+    {
+      "name": "Killeen, Benjamin D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liam J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Iñígo, Blanca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Armand, Mehran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Taylor, Russell H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Osgood, Greg",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Unberath, Mathias",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5042_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

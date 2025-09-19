@@ -1,0 +1,53 @@
+{
+  "id": "miccai-4825",
+  "title": "Physics-guided deep image prior network for general zero-shot stain deconvolution",
+  "abstract": "Many barriers remain before the clinical translation and deployment of prognostic and predictive models utilizing deep learning in digital pathology. In particular, models need to be generalizable to widespread variations in image characteristics resulting from differences in slide preparation protocols and inter-scanner variability. Yet, most existing stain deconvolution methods that correct for the variability in image appearances were developed and validated on specific datasets and perform poorly on unseen data. We developed Physics-Guided Deep Image Prior network for Stain deconvolution (PGDIPS), a self-supervised method guided by a novel optical physics model to perform zero-shot stain deconvolution and normalization. PGDIPS outperformed state-of-the-art approaches for the deconvolution of conventional stain combinations, enabled analysis of previously unsupported special stains, and provided superior interpretability by explicitly encoding representations for stain properties and the light transmittance/absorbance process. PGDIPS is publicly available as an end-to-end off-the-shelf tool at https://github.com/GJiananChen/PGDIPS.",
+  "authors": [
+    {
+      "name": "Chen, Jianan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lydia Y.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Wenchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheung, Alison",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tsui, Hubert",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Martel, Anne L.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4825_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

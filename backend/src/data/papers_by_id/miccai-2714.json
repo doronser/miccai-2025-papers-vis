@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2714",
+  "title": "Multiview Feature Fusion and Contrastive Learning for Drug-Target Interaction Prediction",
+  "abstract": "Drug-target interaction (DTI) prediction is crucial for drug discovery, as it accelerates candidate screening and reduces development costs. However, existing computational methods are often limited to a single perspective and cannot simultaneously consider the biological information and complex associations of drugs and targets. Although multimodal data have been introduced, the complementarity and interaction of multi-source information remain underutilized, making efficient multi-view feature fusion a key challenge. In this paper, we propose a DTI prediction framework based on multi-view feature fusion and contrastive learning, named MFCL-DTI. It integrates sequence feature as well as structural and semantic information of heterogeneous graph. A multi-view adaptive fusion module facilitates cross-view feature fusion, while multi-view contrastive learning enhances feature representation. Experimental results demonstrate that MFCL-DTI outperforms existing methods, validating its effectiveness in DTI prediction.",
+  "authors": [
+    {
+      "name": "Zeng, Xiaoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Weilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Baiying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2714_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

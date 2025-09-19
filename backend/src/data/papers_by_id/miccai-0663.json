@@ -1,0 +1,56 @@
+{
+  "id": "miccai-0663",
+  "title": "CoC: Chain-of-Cancer based on Cross-Modal Autoregressive Traction for Survival Prediction",
+  "abstract": "Survival prediction aims to evaluate the risk level of cancer patients. Existing methods primarily rely on pathology and genomics data, either individually or in combination.\nFrom the perspective of cancer pathogenesis, epigenetic changes, such as methylation data, could also be crucial for this task. Furthermore, no previous endeavors have utilized textual descriptions to guide the prediction.\nTo this end, we are the first to explore the use of four modalities, including three clinical modalities and language, for conducting survival prediction.\nIn detail, we are motivated by the Chain-of-Thought (CoT) to propose the Chain-of-Cancer (CoC) framework, focusing on intra-learning and inter-learning. We encode the clinical data as the raw features, which remain domain-specific knowledge for intra-learning. In terms of inter-learning, we use language to prompt the raw features and introduce an Autoregressive Mutual Traction module for synergistic representation. This tailored framework facilitates joint learning among multiple modalities.\nOur approach is evaluated across five public cancer datasets, and extensive experiments validate the effectiveness of our methods and proposed designs, leading to producing state-of-the-art results.\nCodes will be released.",
+  "authors": [
+    {
+      "name": "Zhou, Haipeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Sicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Sihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0663_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

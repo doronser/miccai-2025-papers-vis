@@ -1,0 +1,41 @@
+{
+  "id": "miccai-5026",
+  "title": "Resolving the Overlap of Macrovascular and Microvascular Flow Components in Digital Subtraction Angiography for Cerebral Reperfusion Assessment",
+  "abstract": "Cerebral digital subtraction angiography (DSA) is an Xray-based imaging modality that provides  high-resolution, real-time visualisation of cerebral vasculature, and is an established part of the standard treatment of stroke patients. Conventionally, DSA data are acquired as 2D images where vessel structures overlap with one another due to the penetrating nature of X-ray. Given the increasing recognition of the importance of microvasculatures in stroke, there is an unmet need to utilise DSA to accurately assess microvessels, unobstructed from overlapping macrovessels. This work proposes a novel Expectation-Maximisation algorithm integrated with anatomy-informed regularisation to disentangle macrovascular and microvascular flow component overlaps in a spatiotemporal Gamma mixture model for DSA. In-vivo experiments across 108 stroke patients demonstrate that the proposed method achieves robust estimation and provides clear separation of the macrovascular and microvascular flow components. Based on the proposed method, quantitative microvascular cerebral blood volume was derived from DSA images and shown to be significantly associated with the current gold-standard reperfusion metric.",
+  "authors": [
+    {
+      "name": "Wu, Chengchuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Davey, Catherine",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sharma, Gagan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ng, Felix",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Visualization in Biomedical Imaging"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5026_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

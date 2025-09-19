@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1465",
+  "title": "Robust Topographical Representation for Longitudinal Propagation of Tau Pathology",
+  "abstract": "Tau pathology is a hallmark of Alzheimer’s disease (AD), and longitudinal tau positron emission tomography (PET) provides valuable insights into disease progression. However, the integration of tau PET data into computational models remains limited by challenges in encoding topographical information and ensuring longitudinal consistency. Existing biomarker-based representations often lack spatial flexibility and fail to account for covariance between brain regions. Additionally, traditional approaches often treat longitudinal scans as independent observations, neglecting temporal coherence. To address these limitations, we propose a novel Multiresolutional Reeb Graph representation that encodes the spatiotemporal propagation of tau topographical information. Our method constructs Reeb graphs to capture tau topography at a static time point and extends them into a multiresolutional framework to model disease evolution. We introduce a topology-based measurement for quantifying pathology spatial distribution similarity, and a severity interleaving distance for robust longitudinal staging. The efficiency of the proposed representation is validated in two downstream tasks: an integrated subtyping and staging system, and the longitudinal pathology prediction. The promising results compared with the current methods demonstrate the great potential of the proposed representation to enhancing the application of longitudinal tau PET data, and offering a reliable approach for studying AD progression.",
+  "authors": [
+    {
+      "name": "Yue, Jiaxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jianwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xinkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yonggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1465_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0496",
+  "title": "Source-Free Domain Adaptation for Cross-Modality Cardiac Image Segmentation with Contrastive Class Relationship Consistency",
+  "abstract": "This paper investigates source-free domain adaptation for cross-modality cardiac image segmentation. Source-free domain adaptation (SFDA) leverages a pretrained model from source domain knowledge and adapts it using target domain data to predict target image labels. While existing SFDA methods have demonstrated strong performance in various medical segmentation tasks, cross-modality cardiac segmentation remains challenging due to significant domain discrepancies between MRI and CT modalities, hindering effective knowledge transfer. Current SFDA approaches primarily focus on pseudo-label denoising through image-level and feature-level alignment, often overlooking class-level information derived from classifier outputs. This paper proposes a novel framework that constructs two class relationship matrices using predictions from a teacher-student model. These matrices are integrated into a contrastive learning framework through intra-view and inter-view pairs. The teacher-student architecture processes both original samples and their augmented counterparts, enforcing prediction consistency for robust adaptation. Simultaneously, our class-aware contrastive learning enhances discriminative capability for cardiac structures. Experimental results demonstrate that our method outperforms state-of-the-art approaches by significant margins, particularly on the challenging CT $\\rightarrow$ MR adaptation task.",
+  "authors": [
+    {
+      "name": "Ma, Ao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Qingpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jingjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nielsen, Mads",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0496_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

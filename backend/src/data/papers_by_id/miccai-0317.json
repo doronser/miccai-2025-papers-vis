@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0317",
+  "title": "EFFDNet: A Scribble-Supervised Medical Image Segmentation Method with Enhanced Foreground Feature Discrimination",
+  "abstract": "Medical image segmentation, a critical task in medical image analysis, plays a key role in assisting clinical diagnostic workflows. However, traditional fully supervised learning methods for segmentation require large, high-quality annotations from expert physicians, which is resource-intensive and time-consuming. To mitigate this, scribble supervised segmentation approaches use simplified annotations to reduce annotation costs. Nevertheless, the simplistic nature of scribble annotations limits the model’s ability to accurately distinguish foreground anatomical structures from the background and differentiate between various anatomical classes. This limitation results in low accuracy in capturing foreground morphology and hinders the model’s generalization ability. To address this, we propose an Enhanced Foreground Feature Discrimination Network (EFFDNet) that better leverages semantic information in scribble annotations to improve the network’s foreground discrimination ability. EFFDNet introduces an innovative Foreground-Background Separation Loss (FBSL), enhancing the model’s ability to distinguish between foreground and background features, and improving the morphological accuracy of foreground anatomical region recognition. Additionally, we propose a new Foreground Augmentation with Diverse Context (FADC) strategy to further enhance the network’s attention on the foreground and increase training sample diversity, mitigating overfitting and improving generalization. We validate our approach through systematic experiments on two publicly available datasets, demonstrating significant improvements over existing methods. The code is available at: https://github.com/Aurora-003-web/EFFDNet.",
+  "authors": [
+    {
+      "name": "Liu, Jinhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Shu Yun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xulei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yanwu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yeo, Si Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0317_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

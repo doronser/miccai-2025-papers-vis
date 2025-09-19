@@ -1,0 +1,76 @@
+{
+  "id": "miccai-4128",
+  "title": "CXR-TFT: Multi-Modal Temporal Fusion Transformer for Predicting Chest X-ray Trajectories",
+  "abstract": "In intensive care units (ICUs), patients with complex clinical conditions require vigilant monitoring and prompt interventions. Chest X-rays (CXRs) are a vital diagnostic tool, providing insights into clinical trajectories, but their irregular acquisition limits their utility. Existing tools for CXR interpretation are constrained by cross-sectional analysis, failing to capture temporal dynamics. To address this, we introduce CXR-TFT, a novel multi-modal framework that integrates temporally sparse CXR imaging and radiology reports with high-frequency clinical data—such as vital signs, laboratory values, and respiratory flow sheets—to predict the trajectory of CXR findings in critically ill patients. CXR-TFT leverages latent embeddings from a vision encoder that are temporally aligned with hourly clinical data through interpolation. A transformer is trained to predict CXR embeddings at each hour, conditioned on previous CXR embeddings and clinical measurements. In a retrospective study of 20,000 ICU patients, CXR-TFT demonstrated $95% accuracy in predicting abnormal CXR findings 12 hours before they became radiographically evident, indicating that clinical data contains valuable respiratory state progression information. By providing distinctive temporal resolution in prognostic CXR analysis, CXR-TFT offers actionable predictions with the potential to improve the management of time-sensitive critical conditions, where early intervention is crucial but timely diagnosis is challenging.",
+  "authors": [
+    {
+      "name": "Arora, Mehak",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ali, Ayman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Kaiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Davis, Carolyn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shimazui, Takashi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alwakeel, Mahmoud",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Moas, Victor",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Philip",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Esper, Annette",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kamaleswaran, Rishikesan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image-Guided Interventions",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4128_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

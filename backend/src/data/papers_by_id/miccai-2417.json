@@ -1,0 +1,56 @@
+{
+  "id": "miccai-2417",
+  "title": "Clinical Validation of Deep Learning for Real-Time Tissue Oxygenation Estimation Using Spectral Imaging",
+  "abstract": "Accurate, real-time monitoring of tissue ischemia is crucial\nto understand tissue health and guide surgery. Spectral imaging shows great potential for contactless and intraoperative monitoring of tissue oxygenation. Due to the difficulty of obtaining direct reference oxygenation values, conventional methods are based on linear unmixing techniques. These are prone to assumptions and these linear relations may not always hold in practice. In this work, we present deep learning approaches for real-time tissue oxygenation estimation using Monte-Carlo simulated spectra. We train a fully connected neural network (FCN) and a convolutional neural network (CNN) for this task and propose a domain-adversarial training approach to bridge the gap between simulated and real clinical spectral data. Results demonstrate that these deep learning models achieve a higher correlation with capillary lactate measurements, a well-known marker of hypoxia, obtained during spectral imaging in surgery, compared to traditional linear unmixing. Notably, domain-adversarial training effectively reduces the domain gap, optimizing performance in real clinical settings.",
+  "authors": [
+    {
+      "name": "De Winne, Jens",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Willems, Siri",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luthman, Siri",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Babin, Danilo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luong, Hiep",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ceelen, Wim",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Spectroscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image-Guided Interventions",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2417_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

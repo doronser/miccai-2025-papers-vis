@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1510",
+  "title": "EG-Net: An Edge-Guided Network for Rigid Registration of Laparoscopic Low-Overlap Point Clouds",
+  "abstract": "Laparoscopic augmented reality (LAR) enables real-time visualization of internal organ anatomy, effectively reducing surgical risks. Rigid point cloud registration aligns the spatial position of the preoperative image point cloud with the intraoperative laparoscopic video point cloud, playing a pivotal role in the virtual-real fusion visualization for LAR. However, the limited field of view in laparoscopic surgery results in only partial visibility of the organ. This leads to an incomplete video point cloud that exhibits low overlap with the image point cloud, rendering registration highly susceptible to local optima. Moreover, the smooth and texture-deficient organ surface makes popular superpoint matching methods based on feature similarity ineffective. Inspired by the highly consistent morphology of the video and image point clouds at organ bottom edges, we propose an edge guidance (EG) mechanism to address the challenge of sparse surface features in laparoscopic scenes. The EG mechanism identifies edge points by calculating the standard deviation of correlations among neighboring points, prioritizes edge alignment, and subsequently guides the matching of other points. We leverage this mechanism to develop an edge-guided rigid point cloud registration network, EG-Net. Compared with the state-of-the-art method PARE-Net, EG-Net achieves at least a 7% improvement in accuracy and an 11% increase in speed across three laparoscopic datasets: the public DePoLL dataset, a pig liver surgery dataset, and a human liver surgery dataset. With its high accuracy, fast speed, and strong generalization, EG-Net holds significant potential for clinical applications in laparoscopic surgery. The code is available at: https://github.com/FDC-WuWeb/EG-Net.",
+  "authors": [
+    {
+      "name": "Wu, Wenbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yixiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiayi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1510_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

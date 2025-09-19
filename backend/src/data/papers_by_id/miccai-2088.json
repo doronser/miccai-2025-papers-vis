@@ -1,0 +1,63 @@
+{
+  "id": "miccai-2088",
+  "title": "AdFair-CLIP: Adversarial Fair Contrastive Language-Image Pre-training for Chest X-rays",
+  "abstract": "Contrastive Language-Image Pre-training (CLIP) models have demonstrated superior performance across various visual tasks including medical image classification. However, fairness concerns, including demographic biases, have received limited attention for CLIP models. This oversight leads to critical issues, particularly those related to race and gender, resulting in disparities in diagnostic outcomes and reduced reliability for underrepresented groups. To address these challenges, we introduce AdFair-CLIP, a novel framework employing adversarial feature intervention to suppress sensitive attributes, thereby mitigating spurious correlations and improving prediction fairness. We conduct comprehensive experiments on chest X-ray (CXR) datasets, and show that AdFair-CLIP significantly enhances both fairness and diagnostic accuracy, while maintaining robust generalization in zero-shot and few-shot scenarios. These results establish new benchmarks for fairness-aware learning in CLIP-based medical diagnostic models, particularly for CXR analysis.",
+  "authors": [
+    {
+      "name": "Yi, Chenlang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiong, Zizhan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qi, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Xiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bathla, Girish",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Ching-Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mortazavi, Bobak J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Tianbao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2088_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

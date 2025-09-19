@@ -1,0 +1,58 @@
+{
+  "id": "miccai-2663",
+  "title": "Memory-Augmented Incomplete Multimodal Survival Prediction via Cross-Slide and Gene-Attentive Hypergraph Learning",
+  "abstract": "Multimodal pathology-genomic analysis is critical for cancer survival prediction. However, existing approaches predominantly integrate formalin-fixed paraffin-embedded (FFPE) slides with genomic data, while neglecting the availability of other preservation slides, such as  Fresh Froze (FF) slides. Moreover, as the high-resolution spatial nature of pathology data tends to dominate the cross-modality fusion process, it hinders effective multimodal fusion and leads to modality imbalance challenges between pathology and genomics. These methods also typically require complete data modalities, limiting their clinical applicability with incomplete modalities, such as missing either pathology or genomic data. \n    In this paper, we propose a multimodal survival prediction framework that leverages hypergraph learning to effectively integrate multi-WSI information and cross-modality interactions between pathology slides and genomics data while addressing modality imbalance. In addition, we introduce a memory mechanism that stores previously learned paired pathology-genomic features and dynamically compensates for incomplete modalities. Experiments on five TCGA datasets demonstrate that our model outperforms advanced methods by over 2.3% in C-Index. Under incomplete modality scenarios, our approach surpasses pathology-only (3.3%) and gene-only models (7.9%). Code: https://github.com/MCPathology/M2Surv",
+  "authors": [
+    {
+      "name": "Qu, Mingcheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Guang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Di, Donglin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Tonghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2663_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

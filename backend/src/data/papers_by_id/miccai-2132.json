@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2132",
+  "title": "Unsupervised Quality Control and Enhancement of Polyp Segmentation in Colonoscopy Videos using Spatiotemporal Consistency",
+  "abstract": "Reliable polyp segmentation in colonoscopy videos is crucial for early detection and prevention of colorectal cancer.  While deep learning-based segmentation models show promise, their performance can be inconsistent, and robust methods for assessing segmentation quality without ground-truth annotations are lacking. This paper presents a novel quality control framework for polyp segmentation that leverages the temporal consistency inherent in colonoscopy videos.  Our framework utilizes the Segment Anything Model 2 (SAM2), a powerful video segmentation foundation model, to propagate segmentation predictions between adjacent frames. By evaluating the consistency between these propagated segmentations and the original model predictions, we obtain an unsupervised Segmentation Quality Assessment (SQA) score for each frame. Furthermore, we introduce a re-segmentation module that refines low-quality segmentations by leveraging information from high-quality frames, identified based on their SQA scores. Experiments on the SUN-SEG and PolypGen datasets demonstrate a moderate to strong correlation between the SQA scores produced by our framework and the ground-truth segmentation quality. The re-segmentation module also improves overall segmentation performance without requiring model retraining or fine-tuning. This work suggests a step towards building more reliable and trustworthy AI-assisted colonoscopy systems. \\textcolor{black}{The code is available at https://github.com/LYJ-NJUST/Seg-Quality-Control.}",
+  "authors": [
+    {
+      "name": "Li, Yujia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ruixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yizhe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2132_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

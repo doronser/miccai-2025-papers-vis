@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1449",
+  "title": "CardiacFlow: 3D+t Four-Chamber Cardiac Shape Completion and Generation via Flow Matching",
+  "abstract": "Learning 3D+t shape completion and generation from multi-view cardiac magnetic resonance (CMR) images requires a large amount of high-resolution 3D whole-heart segmentations (WHS) to capture shape priors. In this work, we leverage flow matching techniques to learn deep generative flows for augmentation, completion, and generation of 3D+t shapes of four cardiac chambers represented implicitly by segmentations. Firstly, we introduce a latent rectified flow to generate 3D cardiac shapes for data augmentation, learned from a limited number of 3D WHS data. Then, a label completion network is trained on both real and synthetic data to reconstruct 3D+t shapes from sparse multi-view CMR segmentations. Lastly, we propose CardiacFlow, a novel one-step generative flow model for efficient 3D+t four-chamber cardiac shape generation, conditioned on the periodic Gaussian kernel encoding of time frames. The experiments on the WHS datasets demonstrate that flow-based data augmentation reduces geometric errors by 16% in 3D shape completion. The evaluation on the UK Biobank dataset validates that CardiacFlow achieves superior generation quality and periodic consistency compared to existing baselines.",
+  "authors": [
+    {
+      "name": "Ma, Qiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Qingjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiao, Mengyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Matthews, Paul M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "O’Regan, Declan P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Wenjia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1449_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0196",
+  "title": "NeuroXVocal: Detection and Explanation of Alzheimer’s Disease through Non-invasive Analysis of Picture-prompted Speech",
+  "abstract": "The early diagnosis of Alzheimer’s Disease (AD) through non invasive methods remains a significant healthcare challenge. We present NeuroXVocal, the first end-to-end explainable AD classification system that achieves state-of-the-art performance while providing clinically interpretable explanations. Our novel dual-component architecture consists of: (1) Neuro, a multimodal classifier implementing a unique transformer based fusion strategy that projects acoustic, textual, and speech embeddings into a common dimensional space for complex cross-modal interactions; and (2) XVocal, a specialized RAG-based explainer that retrieves relevant clinical literature to generate evidence-based explanations. Unlike previous approaches using late fusion or simple concatenation, our architecture enables both robust classification and meaningful clinical insights. Using the IS2021 ADReSSo Challenge benchmark dataset, NeuroXVocal achieved 95.77% accuracy, significantly outperforming previous state-of-the-art. Medical professionals validated the clinical relevance of XVocal’s explanations through structured evaluation. This work advances beyond pure classification to bridge the gap between machine learning predictions and clinical decision-making. Code available at: https://github.com/NNtamp/NeuroXVocal.",
+  "authors": [
+    {
+      "name": "Ntampakis, Nikolaos",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Diamantaras, Konstantinos",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chouvarda, Ioanna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tsolaki, Magda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sarigianndis, Panagiotis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Argyriou, Vasileios",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0196_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "miccai-2086",
+  "title": "Brain-Environment Cross-Attention (BECA) Meta-Matching: A New Perspective of Brain Connectome Zero-Shot Learning",
+  "abstract": "Zero-shot learning (ZSL) is critical for deep learning models being deployed in unseen downstream applications. Given that fMRI studies of the human connectome with respect to cognitive disorders are boutique and lack sufficient labeled samples, a reliable and interpretable ZSL technology is necessary to empower the brain foundation model for clinical applications. Although self-supervised learning and transfer learning on data reconstruction and semantic information, respectively, have achieved success in ZSL performance for language and vision, little attention has been paid to the recognition of brain disordering. In contrast to stereotypical language or vision data, the human brain is a dynamically wired system where distributed regions communicate through functional connectivity and spontaneously respond to stimuli from environmental exposures. Thus, functional neuroimages are often associated with phenotypic traits underlying brain-environment interactions (BEIs), such as cognitive states and clinical outcomes. By capitalizing on large-scale functional neuroimages as well as a rich collection of BEI data, we break the frame of self-supervised and transfer learning by using logical regression as the pre-training objective for brain connectome. We formulate ZSL on unseen classes by identifying a reliable matching across environmental variables, which is derived from a decoder-only model for BEI prediction from functional connectivity. Together, we present a novel learning schema of brain-environment cross-attention (BECA) meta-matching, which is a new horizon of ZSL for brain connectome. In experiments, all fMRI data in HCP-young adult and HCP-aging datasets are utilized for pre-training, and BECA is evaluated on disease early diagnosis of Autism, Parkinson’s disease, and Schizophrenia, where promising results indicate the great potential to facilitate current neuroimaging applications in clinical routines.",
+  "authors": [
+    {
+      "name": "Wei, Ziquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dan, Tingting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Guorong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2086_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

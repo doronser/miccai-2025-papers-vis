@@ -1,0 +1,58 @@
+{
+  "id": "miccai-2609",
+  "title": "Towards Accurate Tumor Budding Detection: A Benchmark Dataset and A Detection Approach Based on Implicit Annotation Standardization and Positive-Negative Feature Coupling",
+  "abstract": "The detection of tumor budding on histopathological images provides vital information for treatment planning and prognosis prediction. As manual identification of tumor budding is labor-intensive, automated tumor budding detection is desired. However, tumor budding, involving clusters of tumor cells resembling other cell clusters, challenges existing detection methods in distinguishing it from other cells. Additionally, the lack of public datasets for tumor budding detection hinders further development of accurate tumor budding detection methods. To address these challenges, to the best of our knowledge, we introduce the first publicly available benchmark dataset for tumor budding detection. The dataset consists of 410 images with H&E staining and the corresponding bounding box annotations of 3,968 cases of tumor budding made by experts. Moreover, based on this dataset, we propose a designated approach Tumor Budding Detection Network (TBDNet) for tumor budding detection with improved detection performance. On top of standard objection detection backbones, we develop two major components in TBDNet, Iteratively Distilled Annotation Relocation (IDAR) and Rotational Feature Decoupling And Recoupling (RFDAR). First, we introduce the IDAR module to standardize annotations, addressing the inconsistency caused by varying expert standards during model training. IDAR relocates the annotations via iterative model distillation so that the relocated annotations are consistent for training the detection model. Second, to reduce the interference from cells with similar features, i.e., negative samples, to tumor budding, i.e., positive samples, we develop the RFDAR module. RFDAR enhances feature extraction via positive-negative feature coupling regularized by prior feature distributions, so that it is better capable of distinguishing tumor budding. The results on the benchmark show that our approach outperforms state-of-the-art detection methods by a noticeable margin.",
+  "authors": [
+    {
+      "name": "Sun, Rui-Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Zeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dai, Boyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Yiyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hao, Qun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Chuyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaohui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2609_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

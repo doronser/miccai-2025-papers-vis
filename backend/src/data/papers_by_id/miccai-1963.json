@@ -1,0 +1,71 @@
+{
+  "id": "miccai-1963",
+  "title": "HASD: Hierarchical Adaption for Pathology Slide-Level Domain-Shift",
+  "abstract": "Domain shift is a critical problem for pathology AI as pathology data is heavily influenced by center-specific conditions.  Current pathology domain adaptation methods focus on image patches rather than WSI, thus failing to capture global WSI features required in typical clinical scenarios.\nIn this work, we address the challenges of slide-level domain shift by proposing a Hierarchical Adaptation framework for Slide-level Domain-shift (HASD). HASD achieves multi-scale feature consistency and computationally efficient slide-level domain adaptation through two key components: (1) a hierarchical adaptation framework that integrates a Domain-level Alignment Solver for feature alignment, a Slide-level Geometric Invariance Regularization to preserve the morphological structure, and a Patch-level Attention Consistency Regularization to maintain local critical diagnostic cues; and (2) a prototype selection mechanism that reduces computational overhead. We validate our method on two slide-level tasks across five datasets, achieving a 4.1% AUROC improvement in a Breast Cancer HER2 Grading cohort and a 3.9% C-index gain in a UCEC survival prediction cohort. \nOur method provides a practical and reliable slide-level domain adaption solution for pathology institutions, minimizing both computational and annotation costs.",
+  "authors": [
+    {
+      "name": "Liu, Jingsong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deutges, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sadafi, Ario",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "You, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Breininger, Katharina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schüffler, Peter J.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1963_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

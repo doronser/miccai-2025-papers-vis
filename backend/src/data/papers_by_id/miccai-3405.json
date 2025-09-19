@@ -1,0 +1,52 @@
+{
+  "id": "miccai-3405",
+  "title": "VAMPIRE: Uncovering Vessel Directional and Morphological Information from OCTA Images for Cardiovascular Disease Risk Factor Prediction",
+  "abstract": "Cardiovascular disease (CVD) remains the leading cause of death worldwide, requiring urgent development of effective risk assessment methods for timely intervention. While current research has introduced non-invasive and efficient approaches to predict CVD risk from retinal imaging with deep learning models, the commonly used fundus photographs and Optical Coherence Tomography (OCT) fail to capture detailed vascular features critical for CVD assessment compared with OCT angiography (OCTA) images. Moreover, existing methods typically classify CVD risk only as high or low, without providing a deeper analysis on CVD-related blood factor conditions, thus limiting prediction accuracy and clinical utility. As a result, we propose a novel multi-purpose paradigm of CVD risk assessment that jointly performs CVD risk and CVD-related condition prediction, aligning with clinical experiences. Based on this core idea, we introduce OCTA-CVD, the first OCTA dataset for CVD risk assessment, and a Vessel-Aware Mamba-based Prediction model with Informative Enhancement (VAMPIRE) based on OCTA enface images. Our proposed model aims to extract crucial vascular characteristics through two key components: (1) a Mamba-Based Directional (MBD) Module that captures fine-grained vascular trajectory features and (2) an Information-Enhanced Morphological (IEM) Module that incorporates comprehensive vessel morphology knowledge. Experimental results demonstrate that our method can surpass standard classification backbones, OCTA-based detection methods, and ophthalmologic foundation models. Our codes and the collected OCTA-CVD dataset are available at https://github.com/xmed-lab/VAMPIRE.",
+  "authors": [
+    {
+      "name": "Wang, Lehan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hualiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ou, Chubin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Lushi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Yunyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3405_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

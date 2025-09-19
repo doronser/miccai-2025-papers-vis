@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2378",
+  "title": "RadKAM: Attention-Driven Kolmogorov-Arnold Model for Automatic Radiation-Induced Lymphopenia Prediction by Multimodal Learning",
+  "abstract": "Accurate prediction of radiation-induced lymphopenia (RIL), a common complication of radiation therapy (RT), is clinically crucial for ensuring the safety of cancer treatment. However, accurately predicting RIL before RT is highly challenging due to the complexity of immune damage and various input data. In this study, we propose a novel multimodal learning framework named RadKAM to predict RIL severity using heterogeneous data, including CT images, dose maps, and meta-data. The proposed RadKAM leverages a “divide and conquer” strategy to learn the multimodal representation and model the dose-damage relationship for RIL prediction in an end-to-end framework. For the first time, an Attention-driven Kolmogorov-Arnold Fusion (AKaF) scheme is designed by injecting modality-adaptive attention into KAN for intra- and inter-modality interactions. Specifically, RadKAM is constructed with Multimodal Interactive AKaF (MI-AKaF) and Cross-modality Guided AKaF (CG-AKaF) to capture features related to lymphocyte-related organs, and model the dose-damage relationships by multimodal feature interactions. By leveraging the advantages of nonlinear representation, RadKAM effectively models the complex interactions of heterogeneous multimodal data, resulting in a comprehensive representation for RIL prediction. Extensive experiments validate the effectiveness of the proposed RadKAM framework, demonstrating its ability to accurately predict RIL severity through multimodal learning.",
+  "authors": [
+    {
+      "name": "Zhao, Rongchang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Zhangyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zijian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2378_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

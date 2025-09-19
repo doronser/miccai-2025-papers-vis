@@ -1,0 +1,53 @@
+{
+  "id": "miccai-2013",
+  "title": "WASABI: A Metric for Evaluating Morphometric Plausibility of Synthetic Brain MRIs",
+  "abstract": "Generative models enhance neuroimaging through data augmentation, quality improvement, and rare condition studies. \nDespite advances in realistic synthetic MRIs, evaluations focus on texture and perception, lacking sensitivity to crucial morphometric fidelity.\nThis study proposes a new metric, called WASABI (Wasserstein-Based Anatomical Brain Index), to assess the morphometric plausibility of synthetic brain MRIs.\nWASABI leverages SynthSeg, a deep learning-based brain parcellation tool, to derive volumetric measures of brain regions in each MRI and uses the multivariate Wasserstein distance to compare distributions between real and synthetic anatomies. \nBased on controlled experiments on two real datasets and synthetic MRIs from five generative models, WASABI demonstrates higher sensitivity in quantifying morphometric discrepancies compared to traditional image-level metrics, even when synthetic images achieve near-perfect visual quality. \nOur findings advocate for shifting the evaluation paradigm beyond visual inspection and conventional metrics, emphasizing morphometric fidelity as a crucial benchmark for clinically meaningful brain MRI synthesis.\nOur code is available at https://github.com/BahramJafrasteh/wasabi-mri.",
+  "authors": [
+    {
+      "name": "Jafrasteh, Bahram",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Cheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Yimin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Adeli, Ehsan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Qingyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2013_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

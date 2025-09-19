@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1550",
+  "title": "Mask2Surface: Motion Correction and Super-Resolution for Cardiac Surface Reconstruction Using Latent Diffusion",
+  "abstract": "Cardiac magnetic resonance (CMR) imaging is one of the most important imaging modalities for cardiac analysis. However, short-axis CMR imaging can only produce a sparse set of 2D images with an extremely low inter-slice resolution. Moreover, these 2D slices are usually misaligned due to the respiratory and cardiac motion of the patients, strongly affecting the diagnosis and intervention procedures for cardiac diseases. Deep learning-based approaches have been proposed to tackle these problems, but they mostly focus on voxel representation, yielding rough cardiac surfaces that are difficult to analyze. Therefore, we propose a deep learning-based method to perform CMR motion correction and super-resolution simultaneously to acquire high-fidelity left ventricular myocardial surfaces. Given a set of 2D misaligned sparse segmentation masks of the left ventricular myocardium, our method first leverages an end-to-end convolutional neural network to correct and super-resolve the masks to approach the distribution of the motion-free and high-resolution masks. Then, the acquired super-resolved segmentation masks are estimated to form coarse signed distance grids, guiding a latent diffusion model to produce the corresponding high-fidelity myocardial surfaces. The superior performances of our approach are testified through comprehensive experiments in both simulation and clinical settings.",
+  "authors": [
+    {
+      "name": "Zhang, Zichen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhentao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Zhiming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1550_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

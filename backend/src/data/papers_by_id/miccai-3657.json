@@ -1,0 +1,39 @@
+{
+  "id": "miccai-3657",
+  "title": "A Hybrid Contrastive Ordinal Regression Method for Advancing Disease Severity Assessment in Imbalanced Medical Datasets",
+  "abstract": "Accurate disease grading is critical for early diagnosis and\neffective treatment planning. However, class imbalance and subtle inter-\nclass variations in real-world disease grading datasets make it challeng-\ning for traditional classification models to differentiate between neigh-\nboring disease stages and preserve ordinal label relationships. Existing\napproaches emphasize inter-class ordinal relationships but fail to distin-\nguish closely related categories effectively. To address these limitations,\nwe consider disease grading as an ordinal regression problem and adopt\na supervised contrastive learning approach to design a hybrid super-\nvised contrastive ordinal learning framework. Our framework consists of\nthree basic modules: 1) prototype-based contrastive ordinal learning, 2)\nweighted sample-based contrastive learning and 3) disease stage grading\nusing regression. To deal with class imbalance while enhancing intra-class\nconsistency and inter-class separation, we design a distance-based pro-\ntotype contrastive ordinal loss, which pushes the samples closer to their\nclass centers while maintaining their ordinality. This approach captures\nsubtle differences within closely related disease stages and results in a\nseparable ordinal latent space. Additionally, a per-sample class weight-\ning strategy is integrated into weighted supervised contrastive ordinal\nlearning to prevent class collapse, ensuring balanced gradient contribu-\ntions and robust inter-class separation. Our approach effectively captures\nboth large-scale and fine-grained variations, enabling precise ordinal clas-\nsification for disease grading. We validate the framework on diabetic\nretinopathy and breast cancer datasets, demonstrating its adaptability\nacross medical conditions and potential to enhance diagnostic accuracy\nin medical imaging applications",
+  "authors": [
+    {
+      "name": "Saleem, Afsah",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lewis, Joshua R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gilani, Syed Zulqarnain",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3657_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

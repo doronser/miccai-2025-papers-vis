@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0426",
+  "title": "Surgical Action Planning with Large Language Models",
+  "abstract": "We introduce the Surgical Action Planning (SAP) task for cholecystectomy procedures, which generates future action plans from visual inputs to address the absence of intraoperative predictive planning in current intelligent applications. SAP shows great potential for enhancing intraoperative guidance and automating procedures. \nHowever, it faces challenges such as understanding instrument-tissue relationships and tracking surgical progress. Large Language Models (LLMs) show promise in understanding surgical video content but remain underexplored for predictive decision-making in SAP, as they focus mainly on retrospective analysis. Challenges like data privacy, computational demands, and modality-specific constraints further highlight significant research gaps.\nTo tackle these challenges, we introduce LLM-SAP, a Large Language Model-based Surgical Action Planning framework that predicts future actions and generates text responses by interpreting natural language prompts of surgical goals. The text responses potentially support surgical education, intraoperative decision-making, procedure documentation, and skill analysis. LLM-SAP integrates two novel modules: the Near-History Focus Memory Module (NHF-MM) for modeling historical states and the prompts factory for action planning.\nWe evaluate LLM-SAP on our constructed CholecT50-SAP dataset using models like Qwen2.5 and Qwen2-VL, demonstrating its effectiveness in next-action prediction. Pre-trained LLMs are tested in a zero-shot setting, and supervised fine-tuning (SFT) with LoRA is implemented. Our experiments show that Qwen2.5-72B-SFT surpasses Qwen2.5-72B with a 19.3% higher accuracy.",
+  "authors": [
+    {
+      "name": "Xu, Mengya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zhongzhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiaofan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Qi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Robotics",
+    "Applications -> Other",
+    "Machine Learning -> Validation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0426_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

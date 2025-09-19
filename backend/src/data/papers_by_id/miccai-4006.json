@@ -1,0 +1,47 @@
+{
+  "id": "miccai-4006",
+  "title": "UFO-3: Unsupervised Three-Compartment Learning for Fiber Orientation Distribution Function Estimation",
+  "abstract": "Fiber orientation distribution function (fODF) estimation from diffusion MRI is crucial for mapping brain connectivity but often requires extensive multi-shell acquisitions and complex computational methods. While supervised deep learning approaches have shown promise in accelerating this process, they typically require large training datasets and face challenges with domain shifts and interpretability. We present UFO-3, an unsupervised framework that combines a three-compartment biophysical model with deep learning for fODF estimation from single- shell data. The method leverages a U-Net architecture to simultaneously estimate fiber orientations and tissue microstructure parameters while maintaining physical constraints through an optimization-based reconstruction. Evaluated on synthetic data across 2500 test cases, UFO-3 achieves superior angular accuracy (MAE < 10◦ at infinite SNR) and correlation (ACC > 91 %) compared to existing methods, particularly in resolving challenging fiber crossings. On in vivo human brain data, UFO-3 produces fODF reconstructions comparable to multi-shell reference methods while providing interpretable tissue parameter estimates. The framework requires a one-time, subject-specific training of about 30 min on a single consumer GPU and enables fast inference (< 10 s per subject), improving throughput compared to other unsupervised approaches that require hours or days of training. Our results demonstrate that UFO-3 effectively balances reconstruction accuracy, biological interpretability, and computational performance without requiring extensive training data or multi-shell acquisitions.",
+  "authors": [
+    {
+      "name": "Gao, Xueqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Rizhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Jianhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yonggang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiao, Yuchuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computational Anatomy and Physiology",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4006_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

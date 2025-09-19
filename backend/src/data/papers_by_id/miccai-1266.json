@@ -1,0 +1,68 @@
+{
+  "id": "miccai-1266",
+  "title": "Query-Level Alignment for End-to-End Lesion Detection with Human Gaze",
+  "abstract": "Lesion detection for medical image is crucial in computer-aided diagnostic systems, enabling early disease identification and enhancing clinical decision-making. Existing lesion detection models primarily rely on bounding boxes for supervision, which overemphasize lesion boundaries while neglecting critical internal features, potentially resulting in misdetections. In contrast, clinicians’ gaze, which reflects the visual focus during diagnosis, captures internal semantic patterns of lesions, providing a more informative supervisory signal than conventional annotations. Inspired by this insight, we propose a gaze-driven detection framework for enhancing lesion identification accuracy. Specifically, our framework introduces three key gaze-prioritized innovations: 1) an adaptive gaze kernel that prioritizes diagnostically significant high-magnification regions, 2) a gaze-guided assignment module that establishes query-level gaze-region correspondence, and 3) a query-level consistent loss that aligns detection model attention with clinicians’ gaze patterns. By incorporating clinicians’ expertise through gaze data, our method improves lesion detection accuracy and clinical interpretability. In addition, our method can be designed as a plug-and-play module, which maintains compatibility with mainstream object detectors. To validate the effectiveness of our method, we employ two public and one private datasets, and extensive experiments demonstrate its superiority over existing approaches. Furthermore, we contribute a pioneering gaze-tracking dataset with 1,669 precise gaze annotations, establishing a new benchmark for gaze-driven research in object detection. The dataset and code is available at https://github.com/YanKong0408/GAA-DETR.",
+  "authors": [
+    {
+      "name": "Kong, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Zhixiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yin, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yonghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Jiangdong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Sheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Yuqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shan, Caifeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1266_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

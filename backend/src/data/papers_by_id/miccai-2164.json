@@ -1,0 +1,74 @@
+{
+  "id": "miccai-2164",
+  "title": "TextBraTS: Text-Guided Volumetric Brain Tumor Segmentation with Innovative Dataset Development and Fusion Module Exploration",
+  "abstract": "Deep learning has achieved great success in medical image segmentation and computer-aided diagnosis, with many advanced methods reaching state-of-the-art performance in brain tumor segmentation from MRI. While studies in other medical domains show that integrating textual reports with images can enhance segmentation, there is no comprehensive brain tumor dataset pairing radiological images with textual annotations. This gap has limited the development of multimodal approaches. To address this, we introduce TextBraTS, the first publicly available, volume-level multimodal dataset with paired MRI volumes and textual annotations, derived from the BraTS2020 benchmark. Based on this dataset, we propose a baseline framework and a sequential cross-attention method for text-guided volumetric segmentation. Extensive experiments with various text-image fusion strategies and templated text demonstrate clear improvements in segmentation accuracy and provide insights into effective multimodal integration. The dataset and model are available at https://github.com/Jupitern52/TextBraTS.",
+  "authors": [
+    {
+      "name": "Shi, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jain, Rahul Kumar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yinhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Ruibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jingliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Guohua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Lanfen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yen-wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2164_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

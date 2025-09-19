@@ -1,0 +1,37 @@
+{
+  "id": "miccai-1793",
+  "title": "Spline refinement with differentiable rendering",
+  "abstract": "Detecting slender, overlapping structures remains a challenge in computational microscopy. While recent coordinate-based approaches improve detection, they often produce less precise splines than pixel-based methods. We introduce a training-free differentiable rendering approach to spline refinement, achieving both high reliability and sub-pixel accuracy. Our method improves spline quality, enhances robustness to distribution shifts, and bridges the gap between synthetic and real-world data. Being fully unsupervised, the method is a drop-in replacement for the popular active contour model for spline refinement. Evaluated on C. elegans nematodes, a popular model organism for drug discovery and biomedical research, we demonstrate that our approach combines the strengths of both coordinate- and pixel-based methods.",
+  "authors": [
+    {
+      "name": "Zdyb, Frans",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alonso, Albert",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kirkegaard, Julius B.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1793_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

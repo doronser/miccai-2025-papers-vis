@@ -1,0 +1,56 @@
+{
+  "id": "miccai-5275",
+  "title": "Oblique Genomics Mixture of Experts: Prediction of Brain Disorder With Aging-Related Changes of Brain’s Structural Connectivity Under Genomic Influences",
+  "abstract": "During the process of brain aging, the changes of white matter structural connectivity are closely correlated with the cognitive traits and brain function. Genes have strong controls over this transition of structural connectivity-altering, which influences brain health and may lead to severe dementia disease, e.g., Alzheimer’s disease. \nIn this work, we introduce a novel deep-learning diagram, an oblique genomics mixture of experts(OG-MoE), designed to address the prediction of brain disease diagnosis, with awareness of the structural connectivity changes over time, and coupled with the genomics influences. By integrating genomics features into the dynamic gating router system of MoE layers, the model specializes in representing the structural connectivity components in separate parameter spaces. We pretrained the model on the self-regression task of brain connectivity predictions and then implemented multi-task supervised learning on brain disorder predictions and brain aging prediction. Compared to traditional associations analysis, this work provided a new way of discovering the soft but intricate inter-play between brain connectome phenotypes and genomic traits. It revealed the significant divergence of this correlation between the normal brain aging process and neurodegeneration.",
+  "authors": [
+    {
+      "name": "Lyu, Yanjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ruan, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Dajiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5275_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

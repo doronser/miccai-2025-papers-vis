@@ -1,0 +1,59 @@
+{
+  "id": "miccai-1526",
+  "title": "MoE-SAM: Enhancing SAM for Medical Image Segmentation with Mixture-of-Experts",
+  "abstract": "Recent adaptations of the powerful and promptable Segment Anything Model (SAM), pretrained on a large-scale dataset, have shown promising results in medical image segmentation. However, existing methods fail to fully leverage the intermediate features from SAM’s image encoder, limiting its adaptability. To address this, we introduce MoE-SAM, a novel approach that enhances SAM by incorporating a Mixture-of-Experts (MoE) during adaptation. Central to MoE-SAM is a MoE-driven feature enhancing block, which uses learnable gating functions and expert networks to select, refine, and fuse latent features from multiple layers of SAM’s image encoder. \nBy combining these features, the model creates a more robust image embedding that captures both low-level local and high-level global information. This comprehensive embedding facilitates prompt embedding generation and mask decoding, thereby enabling more effective self-prompting segmentation. Extensive evaluations across four benchmark medical image segmentation tasks show that MoE-SAM outperforms both task-specialized models and other SAM-based approaches, achieving state-of-the-art segmentation accuracy. The code is available at: \\url{https://anonymous.4open.science/r/E-SAM-4418}.",
+  "authors": [
+    {
+      "name": "Li, Ruocheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Jingjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Wanyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Xiaoxu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bu, Jiajun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1526_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

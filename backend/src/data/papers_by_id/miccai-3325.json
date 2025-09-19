@@ -1,0 +1,75 @@
+{
+  "id": "miccai-3325",
+  "title": "RefineNet: Elevating Medical Foundation Models through Quality-Centric Data Curation by MLLM-Annotated Proxy Distillation",
+  "abstract": "The rapid advancement of medical foundation models creates unprecedented demand for large-scale training data, yet existing medical repositories remain contaminated by heterogeneous mixtures of high- and low-quality image-text pairs—a severe data pollution problem that significantly bottlenecks model performance and optimization. While manual curation could theoretically ensure quality, it is impractical for managing large-scale datasets effectively. To address this critical challenge, we introduce RefineNet—a scalable framework that systematically refines data quality by distilling multimodal large language model (MLLM) insights into an offline reward model. \nRefineNet innovatively decouples human decision-making for quality assessment into two key dimensions: image-text fidelity and semantic consistency. By strategically filtering and curating datasets, RefineNet demonstrates remarkable performance improvements across diagnostic tasks. Specifically, our method selects 50% high-quality data subsets that outperform full-data baselines by 9.15% in Recall@10 (retrieval), 85.59 AUC (classification), and 72.59% accuracy (visual question answering). Moreover, RefineNet achieves notable agreement with human expert judgments (Pearson’s r=0.67), providing clinicians an auditable bridge between automated curation and validation.",
+  "authors": [
+    {
+      "name": "Zhang, Ningyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chan, Ka-Hou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lam, Chan-Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shanshan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Im, Sio-Kei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Validation",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3325_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0394",
+  "title": "X-SiT: Inherently Interpretable Surface Vision Transformers for Dementia Diagnosis",
+  "abstract": "Interpretable models are crucial for supporting clinical decision-making, driving advances in their development and application for\nmedical images. However, the nature of 3D volumetric data makes it inherently challenging to visualize and interpret intricate and complex structures like the cerebral cortex. Cortical surface renderings, on the other hand, provide a more accessible and understandable 3D representation of brain anatomy, facilitating visualization and interactive exploration. Motivated by this advantage and the widespread use of surface data for studying neurological disorders, we present the eXplainable Surface Vision Transformer (X-SiT). This is the first inherently interpretable neural network that offers human-understandable predictions based on interpretable cortical features. As part of X-SiT, we introduce a prototypical surface patch decoder for classifying surface patch embeddings, incorporating case-based reasoning with spatially corresponding cortical prototypes. The results demonstrate state-of-the-art performance in detecting Alzheimer’s disease and frontotemporal dementia while additionally providing informative prototypes that align with known disease patterns and reveal classification errors.",
+  "authors": [
+    {
+      "name": "Bongratz, Fabian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wolf, Tom Nuno",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gual Ramon, Jaume",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wachinger, Christian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0394_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

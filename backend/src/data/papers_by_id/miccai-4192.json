@@ -1,0 +1,61 @@
+{
+  "id": "miccai-4192",
+  "title": "Mission Balance: Generating Under-represented Class Samples using Video Diffusion Models",
+  "abstract": "Computer-assisted interventions can improve intraoperative guidance, particularly through deep learning methods that harness the spatiotemporal information in surgical videos. However, the severe data imbalance often found in surgical video datasets hinders the development of high-performing models. In this work, we aim to overcome the data imbalance by synthesizing surgical videos. We propose a unique two-stage, text-conditioned diffusion-based method to generate high-fidelity surgical videos for under-represented classes. Our approach conditions the generation process on text prompts and decouples spatial and temporal modeling by utilizing a 2D latent diffusion model to capture spatial content and then integrating temporal attention layers to ensure temporal consistency. Furthermore, we introduce a rejection sampling strategy to select the most suitable synthetic samples, effectively augmenting existing datasets to address class imbalance. We evaluate our method on two downstream tasks—surgical action recognition and intra-operative event prediction—demonstrating that incorporating synthetic videos from our approach substantially enhances model performance.",
+  "authors": [
+    {
+      "name": "Venkatesh, Danush Kumar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Funke, Isabel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pfeiffer, Micha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kolbinger, Fiona",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schmeiser, Hanna Maria",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Distler, Marius",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weitz, Jürgen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Speidel, Stefanie",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4192_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

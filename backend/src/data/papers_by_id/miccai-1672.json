@@ -1,0 +1,48 @@
+{
+  "id": "miccai-1672",
+  "title": "Training-free Test-time Improvement for Explainable Medical Image Classification",
+  "abstract": "Deep learning-based medical image classification techniques are rapidly advancing in medical image analysis, making it crucial to develop accurate and trustworthy models that can be efficiently deployed across diverse clinical scenarios. Concept Bottleneck Models (CBMs), which first predict a set of explainable concepts from images and then perform classification based on these concepts, are increasingly being adopted for explainable medical image classification. However, the inherent explainability of CBMs introduces new challenges when deploying trained models to new environments. Variations in imaging protocols and staining methods may induce concept-level shifts, such as alterations in color distribution and scale. Furthermore, since CBM training requires explicit concept annotations, fine-tuning models solely with image-level labels could compromise concept prediction accuracy and faithfulness - a critical limitation given the high cost of acquiring expert-annotated concept labels in medical domains. To address these challenges, we propose a training-free confusion concept identification strategy. By leveraging minimal new data (e.g., 4 images per class) with only image-level labels, our approach enhances out-of-domain performance without sacrificing source domain accuracy through two key operations: masking misactivated confounding concepts and amplifying under-activated discriminative concepts. The efficacy of our method is validated on both skin and white blood cell images. Our code is available at: \\url{https://github.com/riverback/TF-TTI-XMed}.",
+  "authors": [
+    {
+      "name": "He, Hangzhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Jiachen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Kaiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Yanye",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1672_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "miccai-5424",
+  "title": "PolypSegTrack: Unified Foundation Model for Colonoscopy Video Analysis",
+  "abstract": "Early detection, accurate segmentation, classification and tracking of polyps during colonoscopy are critical for preventing colorectal cancer. Many existing deep-learning-based methods for analyzing colonoscopic videos either require task-specific fine-tuning, lack tracking capabilities, or rely on domain-specific pre-training. In this paper, we introduce PolypSegTrack, a novel foundation model that jointly addresses polyp detection, segmentation, classification and unsupervised tracking in colonoscopic videos. Our approach leverages a novel conditional mask loss, enabling flexible training across datasets with either pixel-level segmentation masks or bounding box annotations, allowing us to bypass task-specific fine-tuning. Our unsupervised tracking module reliably associates polyp instances across frames using object queries, without relying on any heuristics. We leverage a robust vision foundation model backbone that is pre-trained unsupervisedly on natural images, thereby removing the need for domain-specific pre-training. Extensive experiments on multiple polyp benchmarks demonstrate that our method significantly outperforms existing state-of-the-art approaches in detection, segmentation, classification, and tracking.",
+  "authors": [
+    {
+      "name": "Choudhuri, Anwesa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Zhongpai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Meng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Planche, Benjamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Terrence",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Ziyan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5424_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

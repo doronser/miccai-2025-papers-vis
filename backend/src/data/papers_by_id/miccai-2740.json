@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2740",
+  "title": "Controllable Image Synthesis Workflow for Enhancing Cervical Cell Detection",
+  "abstract": "Cervical cancer is the only cancer that can be eliminated, yet it causes over 300,000 deaths annually. Early detection of its precancerous lesions can significantly reduce both incidence and mortality rates, while the process is labor-intensive and demands highly trained professionals. The application of artificial intelligence for cervical cell detection shows great promise but frequently encounters challenges such as limited data scale and class imbalance, stemming from the difficulties associated with expert annotation and the diverse types of cervical cells. To address this, current studies tend to design advanced detection models, while little attention is given to the potential improvements of data augmentation. In this work, we innovatively present the first controllable image synthesis workflow with adaptive cell segmentation and style transfer to synthesize realistic cervical cell images with bounding box annotations. Specifically, an adaptive cell segmentation method was introduced to cut target cells of varying sizes and morphologies from real images.  These cells are then controllably pasted onto blank backgrounds to synthesize coarse images, which were further refined to realistic ones through the style transfer approach. The extensive experiment on a private long-tailed dataset demonstrated that our proposed workflow can generate realistic cervical cell images, thereby enhancing model training and improving the performance of cervical cell detection, generally and categorically. The code is available at https://github.com/huyihuang/ImageSynthesisForCCD.",
+  "authors": [
+    {
+      "name": "Hu, Yihuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Linbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Weiping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Huisi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2740_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

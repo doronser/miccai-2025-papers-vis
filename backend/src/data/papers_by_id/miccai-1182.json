@@ -1,0 +1,39 @@
+{
+  "id": "miccai-1182",
+  "title": "DISCLOSE the Neurodegeneration Dynamics: Individualized ODE Discovery for Alzheimer’s Disease Precision Medicine",
+  "abstract": "Monitoring progression from Mild Cognitive Impairment due to Alzheimer’s Disease (MCI-AD) is critical for patient care. However, current approaches to model AD progression overlook complex interrelated neurodegeneration in different regions of the brain and how AD pathology and genotypes manipulate it. This study defines neurodegeneration dynamics and proposes the Dynamics Individualized by Static Covariates without LOngitudinal ScrEening (DISCLOSE) framework. This method predicts individualized neurodegeneration dynamics from only baseline amyloid-beta deposition and the number of APOE4 alleles with an Ordinal Differential Equation (ODE). We evaluated DISCLOSE using longitudinal MRI samples in the Alzheimer’s Disease Neuroimaging Initiative (ADNI) cohort. The results demonstrate that DISCLOSE outperforms existing methods in long-term trajectory prediction, particularly for predictions beyond three years. This work presents a significant step toward modeling individualized disease trajectories. Also, DISCLOSE could quantitatively interpret the effects of AD-related genotypes and pathophysiology on regional atrophy progression.",
+  "authors": [
+    {
+      "name": "Jung, Wooseok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Joonhyuk",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Won Hwa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1182_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

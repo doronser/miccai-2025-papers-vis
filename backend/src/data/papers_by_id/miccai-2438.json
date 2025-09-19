@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2438",
+  "title": "GPU Accelerated Modeling of Cortical Radial and Tangential Connectivity Changes in Neurodegeneration",
+  "abstract": "The diffusion MRI signals in the human cerebral cortex are strongly associated with neurodegenerative diseases. Although models like NODDI have been extensively used to characterize cortical microstructure degeneration, they fall short in capturing detailed, orientation-specific connectivity changes within the cortex. In this study, we introduce a method to decompose cortical tissue diffusion signal to radial and tangential components. Our approach uses data from multi-shell diffusion imaging and combines it with anatomical information from brain surfaces. By applying a GPU accelerated probabilistic optimization framework, we can accurately and efficiently estimate these diffusion components while keeping the results smooth and consistent with the cortical anatomy. We test our method on data from HCP subjects and a clinical dataset of patients with autosomal dominant Alzheimer’s Disease (ADAD) subjects. Our results demonstrate that the proposed method can more effectively reveal cortical gray matter connectivity changes related to tau pathology than metrics from the NODDI model. Our codebase is publicly available at https://github.com/Haibaobob/FOD-ctx-decomp.",
+  "authors": [
+    {
+      "name": "Zhang, Hongbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nie, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yue, Jiaxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ringman, John",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yonggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computational Anatomy and Physiology",
+    "Machine Learning -> Other",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2438_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "miccai-5247",
+  "title": "Improved Tumor Segmentation using Selective Synthetic Augmentation for Enhanced Surgical Planning in Breast MRI",
+  "abstract": "Breast-conserving surgery (BCS) is the preferred treatment for early-stage breast cancer, offering survival rates comparable to mastectomy while preserving breast aesthetics. Accurate tumor segmentation is essential for surgical planning, yet segmentation models often exhibit biases toward specific tumor sizes, particularly underperforming on smaller tumors. To address this, we propose a novel approach that uses generative models to improve segmentation across tumor sizes. Specifically, we adapt the Stable Diffusion model and apply a Denoising Diffusion Probabilistic Model (DDPM) inversion approach to generate synthetic tumors of controlled sizes within real breast MRIs, helping to balance tumor size distribution in the training data. By augmenting the dataset with 10–20% synthetic tumor images, our method significantly improves segmentation accuracy for small tumors without compromising performance for larger tumors. This enhancement allows for more precise tumor assessment, leading to better-informed surgical decisions and potentially reducing unnecessary mastectomies.",
+  "authors": [
+    {
+      "name": "Luna, Miguel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baek, John",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Won Hwa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Son, Wan Gyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Kwang Min",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Hye Jung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Jaeil",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5247_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

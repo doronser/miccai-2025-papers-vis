@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1399",
+  "title": "Foundation-Model-Boosted Multimodal Learning for fMRI-based Neuropathic Pain Drug Response Prediction",
+  "abstract": "Neuropathic pain, affecting up to 10% of adults, remains difficult to treat due to limited therapeutic efficacy and tolerability. Although resting-state functional MRI (rs-fMRI) is a promising non-invasive measurement of brain biomarkers to predict drug response in therapeutic development, the complexity of fMRI demands machine learn- ing models with substantial capacity. However, extreme data scarcity in neuropathic pain research limits the application of high-capacity models. To address the challenge of data scarcity, we propose FMM${TC}$, a Foundation-Model-boosted Multimodal learning framework for fMRI-based neuropathic pain drug response prediction, which leverages both internal multimodal information in pain-specific data and external knowledge from large pain-agnostic data. Specifically, to maximize the value of limited pain-specific data, FMM${TC}$ integrates complementary informa- tion from two rs-fMRI modalities: Time series and functional Connectivity. FMM${TC}$ is further boosted by an fMRI foundation model with its ex- ternal knowledge from extensive pain-agnostic fMRI datasets enriching limited pain-specific information. Evaluations with an in-house dataset and a public dataset from OpenNeuro demonstrate FMM${TC}$’s superior representation ability, generalizability, and cross-dataset adaptability over existing unimodal fMRI models that only consider one of the rs-fMRI modalities. The ablation study validates the effectiveness of multimodal learning and foundation-model-powered external knowledge transfer in FMM${TC}$. An integrated gradient-based interpretation study explains how FMM${TC}$’s cross-dataset dynamic behaviors enhance its adaptability. In conclusion, FMM$_{TC}$ boosts clinical trials in neuropathic pain therapeutic development by accurately predicting drug responses to improve the participant stratification efficiency.",
+  "authors": [
+    {
+      "name": "Fan, Wenrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rizky, L. M. Riza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiayang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Haiping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Teh, Kevin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Selvarajah, Dinesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1399_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

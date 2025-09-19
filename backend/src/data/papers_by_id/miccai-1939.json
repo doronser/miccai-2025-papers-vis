@@ -1,0 +1,79 @@
+{
+  "id": "miccai-1939",
+  "title": "Fairness-Aware vCDR-Controlled Generation for Glaucoma Diagnosis",
+  "abstract": "Glaucoma is a leading cause of irreversible blindness, and early diagnosis is crucial for effective treatment. However, AI-assisted glaucoma diagnosis faces challenges in fairness and data scarcity, because AI model biases can lead to disparities across demographic groups. To address this, we propose GlaucoDiff, a diffusion-based generative model that synthesizes SLO images with precise control over the vertical cup-to-disc ratio. Unlike previous methods, GlaucoDiff enables bidirectional synthesis, generating both healthy and glaucomatous samples of varying severity, thus enhancing the dataset diversity. To ensure anatomical fidelity, GlaucoDiff leverages real fundus backgrounds while generating the optic nerve head regions. We also introduce a sample selection strategy that filters generated images based on the alignment agreement percentage, compared with target optic structures, ensuring the high-quality of the synthetic data. Experiments on two public ophthalmic datasets demonstrate that GlaucoDiff outperforms state-of-the-art approaches in both diagnosis and fairness measurement settings. Two independent ophthalmologists’ evaluations confirm the clinical relevance of the generated images, highlighting GlaucoDiff’s potential for improving AI-driven glaucoma diagnosis. Our code is available.",
+  "authors": [
+    {
+      "name": "Wang, Ziheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Shuran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Wen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Mengyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Feixiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Meng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yitian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Yanda",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1939_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

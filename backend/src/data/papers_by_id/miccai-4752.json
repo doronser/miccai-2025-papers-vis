@@ -1,0 +1,60 @@
+{
+  "id": "miccai-4752",
+  "title": "NAVIUS: Navigated Augmented Reality Visualization for Ureteroscopic Surgery",
+  "abstract": "Ureteroscopy is the standard of care for diagnosing and treating kidney stones and tumors. However, current ureteroscopes have a limited field of view, requiring significant experience to adequately navigate the renal collecting system. This is evidenced by the fact that inexperienced surgeons have higher rates of missed stones. %22 of patients with residual stones require re-operation within 20 months. In order to aid surgeons to fully explore the kidney, this study presents the Navigated Augmented Reality Visualization for Ureteroscopic Surgery (NAVIUS) system. NAVIUS assists surgeons by providing 3D maps of the target anatomy, real-time scope positions, and preoperative imaging overlays. To enable real-time navigation and visualization, we integrate an electromagnetic tracker-based navigation pipeline with augmented reality (AR) visualizations. NAVIUS connects to 3D Slicer and Unity with OpenIGTLink, and uses HoloLens 2 as a holographic interface. We evaluate NAVIUS through a user study where surgeons conducted ureteroscopy on kidney phantoms with and without visual guidance. We observed that surgeons explored more areas within the collecting system with NAVIUS (average 23.73% increase), and experienced lower task load, as measured by NASA-TLX (up to 27.27% reduction). NAVIUS is a step towards intraoperative AR guidance for better surgical outcomes and surgeons’ experience. The codebase for the system is available at: https://github.com/vu-maple-lab/NAVIUS.",
+  "authors": [
+    {
+      "name": "Acar, Ayberk",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Atoum, Jumanh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Connor, Peter S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pierre, Clifford",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lynch, Carisa N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kavoussi, Nicholas L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jie Ying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Urology",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4752_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

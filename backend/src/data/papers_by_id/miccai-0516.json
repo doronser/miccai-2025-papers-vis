@@ -1,0 +1,55 @@
+{
+  "id": "miccai-0516",
+  "title": "VQ-SCD: Vector Quantization Meets Unknown Scan Condition Self-supervised Low-Dose CT Denoising",
+  "abstract": "Artifacts and noise in low-dose CT images can degrade image quality, potentially hindering accurate diagnosis. In recent years, image-domain post-processing denoising methods have gained flexibility by eliminating the need for raw data. However, clinical scanning conditions vary widely, with most existing studies focusing on CT denoising under fixed or known conditions. Moreover, obtaining paired CT data in clinical settings is challenging, limiting the practical applicability of supervised learning methods. To address these challenges, we propose the self-supervised VQ-SCD, capable of denoising low-dose CT (LDCT) images under varying unknown scanning conditions using only normal-dose CT (NDCT) training data. For the first time, VQ-SCD uses a discretized codebook to approximate the distribution of LDCT features across various scanning conditions, enabling uniform characterization and denoising of data from multiple scanning setups. Additionally, we design a miniature diffusion model that uses up-sampled features as guidance to enhance image details. Our method outperforms both supervised and state-of-the-art self-supervised methods in terms of both quantitative metrics and visual quality, with a test time of only 0.25 seconds per image. Furthermore, training the model using only animal and phantom data still results in excellent denoising performance on human data. The code will be available at https://github.com/WHUSU/VQSCD.",
+  "authors": [
+    {
+      "name": "Su, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jiabo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Xiangyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Kai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jiancheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Zhouxian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0516_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

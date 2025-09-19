@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4981",
+  "title": "Unsupervised Structure-Geometric Consistency for Monocular Endoscopic Depth Overestimation",
+  "abstract": "Monocular endoscopic depth estimation is a key to expand the surgical field and visually navigate the endoscope, augmenting the perception of surgeons and reducing inadvertent damages during robotic surgery. Unfortunately, current deep learning methods still suffer from limited field of view, moving and limited artificial optic-fiber light sources (illumination variations), and weak textures or structures in monocular endoscopic video images collected from complex surgical scenarios, as well as they also get trapped in depth overestimation. This work first explores a small deep learning model of densely convolved pyramid transformer to simultaneously predict monocular depth and pose of the endoscope without using any annotation data. \nSpecifically, this small model employs dense convolution and hierarchical transformer to encode multiscale local and global features, while it uses residual attention to effectively fuse or decode these features. Then, a photometric structure-aware consistency mechanism is introduced to deal with the problems of weak texture and depth overestimation, refining endoscopic depth and pose estimation. We evaluated our methods on both synthetic and clinical colonoscopic video images, with the experimental results showing that our unsupervised learning methods can attain higher accurate depth distribution and more sufficient textures, and better qualitative and quantitative results than state-of-the-art monocular depth estimation models.",
+  "authors": [
+    {
+      "name": "Fan, Wenkang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Enqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Hongzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xiongbiao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4981_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "miccai-1060",
+  "title": "HiLa: Hierarchical Vision-Language Collaboration for Cancer Survival Prediction",
+  "abstract": "Survival prediction using whole-slide images (WSIs) is crucial in cancer research. Despite notable success, existing approaches are limited by their reliance on sparse slide-level labels, which hinders the learning of discriminative representations from gigapixel WSIs. Recently, vision language (VL) models, which incorporate additional language supervision, have emerged as a promising solution. However, VL-based survival prediction remains largely unexplored due to two key challenges. First, current methods often rely on only one simple language prompt and basic cosine similarity, which fails to learn fine-grained associations between multi-faceted linguistic information and visual features within WSI, resulting in inadequate vision-language alignment. Second, these methods primarily exploit patch-level information, overlooking the intrinsic hierarchy of WSIs and their interactions, causing ineffective modeling of hierarchical interactions. To tackle these problems, we propose a novel Hierarchical vision-Language collaboration (HiLa) framework for improved survival prediction. Specifically, HiLa employs pretrained feature extractors to generate hierarchical visual features from WSIs at both patch and region levels. At each level, a series of language prompts describing various survival-related attributes are constructed and aligned with visual features via Optimal Prompt Learning (OPL). This ap-proach enables the comprehensive learning of discriminative visual features corresponding to different survival-related attributes from prompts, thereby improving vision-language alignment. Furthermore, we introduce two modules, i.e., Cross-Level Propagation (CLP) and Mutual Contrastive Learning (MCL) to maximize hierarchical cooperation by promoting interactions and consistency between patch and region levels. Experiments on three The Cancer Genome Atlas (TCGA) datasets demonstrate our state-of-the-art performance.",
+  "authors": [
+    {
+      "name": "Cui, Jiaqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wen, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fei, Yuchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Luping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Gynecology",
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1060_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "miccai-4449",
+  "title": "Class-Conditioned Image Synthesis with Diffusion for Imbalanced Diabetic Retinopathy Grading",
+  "abstract": "Diabetic retinopathy (DR) is a major cause of vision impairment, with early detection playing a crucial role in preventing irreversible blindness. While deep learning-based automated DR grading has improved diagnostic efficiency, class imbalance in public datasets hinders reliable performance evaluation, particularly for underrepresented DR stages. Current state-of-the-art classifiers achieve high overall accuracy but suffer from poor balanced accuracy, limiting their real-world applicability. Inspired by recent advancements in diffusion models, we propose to mitigate class imbalance by generating synthetic fundus images. Unlike prior methods prioritizing visual quality, we introduce a semantic quality metric based on classifier-predicted likelihood to selectively filter synthetic samples that enhance classification performance. Furthermore, we incorporate explicit class constraint during diffusion model finetuning to generate more semantically relevant data. Experimental results demonstrate a significant improvement in balanced classification accuracy from  66.84% to 74.20%, highlighting the effectiveness of our approach in improving DR diagnosis.",
+  "authors": [
+    {
+      "name": "Zhang, Haochen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heinke, Anna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nagel, Ines D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bartsch, Dirk-Uwe G.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Freeman, William R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Truong Q.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "An, Cheolhong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4449_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "miccai-0788",
+  "title": "Tree-based Semantic Losses: Application to Sparsely-supervised Large Multi-class Hyperspectral Segmentation",
+  "abstract": "Hyperspectral imaging (HSI) shows great promise for surgical applications, \noffering detailed insights into biological tissue differences beyond what the naked eye can perceive. \nRefined labelling efforts are underway to train vision systems to distinguish large numbers of subtly varying classes. \nHowever, commonly used learning methods for biomedical segmentation tasks penalise all errors equivalently and thus fail to exploit any inter-class semantics in the label space. In this work, we introduce two tree-based semantic loss functions which take advantage of a hierarchical organisation of the labels.\nWe further incorporate our losses in a recently proposed approach for training with sparse, background-free annotations.\nExtensive experiments demonstrate that our proposed method reaches state-of-the-art performance on a sparsely annotated HSI dataset comprising 107 classes organised in a clinically-defined semantic tree structure.\nFurthermore, our method enables effective detection of out-of-distribution (OOD) pixels without compromising segmentation performance on in-distribution (ID) pixels.",
+  "authors": [
+    {
+      "name": "Wang, Junwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maccormac, Oscar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rochford, William",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kujawa, Aaron",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shapey, Jonathan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vercauteren, Tom",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0788_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

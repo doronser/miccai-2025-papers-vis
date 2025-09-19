@@ -1,0 +1,84 @@
+{
+  "id": "miccai-2744",
+  "title": "From Pixels to Prognosis: A Multi-Modal Attention-based Framework for Visceral Adipose Tissue Estimation",
+  "abstract": "Obesity is a chronic disease that increases the risk of multi-organ damage as well as cardiovascular disease, diabetes, and certain cancers. It is strongly related to Visceral Adipose Tissue (VAT), which is the fat stored around the internal organs. New approaches to assessing VAT in large populations are essential to understand how obesity contributes to chronic disease progression. Various direct and indirect measures have been developed to quantify VAT. However, many of these techniques either fail to distinguish between various types of body fats (e.g., subcutaneous versus visceral) or involve high radiation imaging or are costly (e.g., Computed Tomography). Annually, millions of individuals globally undergo hip or spine Dual-energy X-ray Absorptiometry (DXA) scans to screen for osteoporosis as well as lateral spine (LS) scans to detect vertebral fractures. In this paper, we develop a multi-modal attention-based framework for VAT estimation from LS DXA scans and patient demographic information. We compare our results on two LS DXA datasets with baseline methods and also perform clinical analysis to demonstrate its effectiveness. The proposed approach has the potential to enable cost-effective, non-invasive, and efficient quantification of VAT in people undergoing bone density assessment with LS scans. To the best of our knowledge, this is the first paper to predict VAT from DXA LS scans.",
+  "authors": [
+    {
+      "name": "Maqsood, Arooba",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saleem, Afsah",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sim, Marc",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Suter, David",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Radavelli-Bagatini, Simone",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hodgson, Jonathan M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prince, Richard L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Kun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Leslie, William D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schousboe, John T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lewis, Joshua R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gilani, Syed Zulqarnain",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2744_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

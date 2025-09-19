@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4231",
+  "title": "Untangling Vascular Trees for Surgery and Interventional Radiology",
+  "abstract": "The diffusion of minimally invasive, endovascular interventions motivates the development of visualization methods for complex vascular networks. We propose a planar representation of blood vessel trees which preserves the properties that are most relevant to catheter navigation: topology, length and curvature. Taking as input a three-dimensional digital angiography, our algorithm produces a faithful two-dimensional map of the patient’s vessels within a few seconds. To this end, we propose optimized implementations of standard morphological filters and a new recursive embedding algorithm that preserves the global orientation of the vascular network. We showcase our method on peroperative images of the brain, pelvic and knee artery networks. On the clinical side, our method simplifies the choice of devices prior to and during the intervention. This lowers the risk of failure during navigation or device deployment, and may help to reduce the gap between expert and common intervention centers. From a research perspective, our method simulates the cadaveric display of artery trees from anatomical dissections. This opens the door to large population studies on the branching patterns and tortuosity of fine human blood vessels. Our code is released under the permissive MIT license as part of the scikit-shapes Python library (https://scikit-shapes.github.io).",
+  "authors": [
+    {
+      "name": "Houry, Guillaume",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Boeken, Tom",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Allassonnière, Stéphanie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feydy, Jean",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4231_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

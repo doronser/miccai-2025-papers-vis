@@ -1,0 +1,50 @@
+{
+  "id": "miccai-1362",
+  "title": "GradInvDiff: Stealing Medical Privacy in Federated Learning via Diffusion-Based Gradient Inversion",
+  "abstract": "Federated learning (FL) has become a crucial technique for medical imaging analysis, enabling multiple institutions to train machine learning models while preserving patient privacy collaboratively. However, recent research has uncovered the vulnerability of shared gradients in FL, which can be exploited through the gradient inversion attack (GIA) to reconstruct private medical images. While existing methods show promise in generic image tasks, their application to high-resolution medical images remains underexplored and ineffective due to data complexity. This paper introduces GradInvDiff, a novel GIA tailored for medical FL scenarios. Unlike traditional methods that rely solely on gradient guidance, our approach combines diffusion models with gradient matching optimization to iteratively refine the inference process. By replacing the standard random noise in the diffusion process with a direction derived from the difference between the optimized and original means, we inject a gradient-based condition into the noise to enhance image reconstruction quality. This method enables high-quality, pixel-level reconstruction of private medical images, even in the presence of large batch sizes or gradient noise.  Our experiments demonstrate that GradInvDiff outperforms existing state-of-the-art gradient inversion methods and shows better accuracy and visibility when attacking medical FL models. We hope that this paper can raise public awareness of privacy leakage risks when using medical FL.",
+  "authors": [
+    {
+      "name": "Wang, Zhiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gan, Daisong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Wenzhuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Yuliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Kun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Microscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Special Topic -> Telemedicine and Mobile Health Imaging Technologies"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1362_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "miccai-1585",
+  "title": "Towards Globally Predictable k-Space Interpolation: A White-box Transformer Approach",
+  "abstract": "Interpolating missing data in k-space is essential for accelerating imaging. However, existing methods, including convolutional neural network-based deep learning, primarily exploit local predictability while overlooking the inherent global dependencies in k-space. Recently, Transformers have demonstrated remarkable success in natural language processing and image analysis due to their ability to capture long-range dependencies. This inspires the use of Transformers for k-space interpolation to better exploit its global structure. However, their lack of interpretability raises concerns regarding the reliability of interpolated data. To address this limitation, we propose GPI-WT, a white-box Transformer framework based on Globally Predictable Interpolation (GPI) for k-space. Specifically, we formulate GPI from the perspective of annihilation as a novel k-space structured low-rank (SLR) model. The global annihilation filters in the SLR model are treated as learnable parameters, and the subgradients of the SLR model naturally induce a learnable attention mechanism. By unfolding the subgradient-based optimization algorithm of SLR into a cascaded network, we construct the first white-box Transformer specifically designed for accelerated MRI. Experimental results demonstrate that the proposed method significantly outperforms state-of-the-art approaches in k-space interpolation accuracy while providing superior interpretability.",
+  "authors": [
+    {
+      "name": "Luo, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Qiyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Taofeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xuemei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Huayu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Congcong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Liming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Guoqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Zhuo-Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Dong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1585_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "miccai-3526",
+  "title": "Phrase-grounded Fact-checking for Automatically Generated Chest X-ray Reports",
+  "abstract": "With the emergence of large-scale vision language models (VLM), it is now possible to produce realistic-looking radiology reports for chest X-ray images. However, their clinical translation has been hampered by the factual errors and hallucinations in the produced descriptions during inference. In this paper, we present a novel phrase-grounded fact-checking model (FC model) that detects errors in findings and their indicated locations in automatically generated chest radiology reports. \nSpecifically, we simulate the errors in reports through a large synthetic dataset derived by perturbing findings and their locations in ground truth reports to form real and fake findings-location pairs with images.  A new multi-label cross-modal contrastive regression network is then trained on this datsaset. We present results demonstrating the robustness of our method in terms of accuracy of finding veracity prediction and localization on multiple X-ray datasets. We also show its effectiveness for error detection in reports of SOTA report generators on multiple datasets achieving a concordance correlation coefficient of 0.997 with ground truth-based verification, thus pointing to its utility during clinical inference in radiology workflows.",
+  "authors": [
+    {
+      "name": "Mahmood, Razi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Machado-Reyes, Diego",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Joy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kaviani, Parisa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Ken C. L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "D’Souza, Niharika",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kalra, Mannudeep",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ge",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Pingkun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Syeda-Mahmood, Tanveer",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3526_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

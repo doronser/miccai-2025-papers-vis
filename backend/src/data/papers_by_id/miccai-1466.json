@@ -1,0 +1,86 @@
+{
+  "id": "miccai-1466",
+  "title": "Unsupervised Anomaly Detection on Preclinical Liver H&E Whole Slide Images using Graph based Feature Distillation",
+  "abstract": "Toxicity assessment of candidate compounds is an essential part of safety evaluation in the preclinical stage of drug development.  Traditionally, drug safety evaluations depend on manual histopathological examinations of tissue sections from animal subjects, often leading to significant effort in evaluating normal tissues. Moreover, the collection of abnormality samples poses significant challenges due to the rarity and diversity of various types of abnormalities. This makes it impractical to develop a comprehensive training dataset that encompasses all potential anomalies, particularly those that are underrepresented. Consequently, traditional supervised learning methods may face difficulties, leading to a growing interest in unsupervised approaches for anomaly detection.  In this study, we present GraphTox, a multi-resolution graph-based anomaly detector designed to assess hepatotoxicity in Rattus norvegicus liver tissues. GraphTox is built upon a novel resolution-aware foundation model pre-trained on 2.7 million liver tissue patches. Additionally, GraphTox employs graph-based feature distillation on normal liver whole slide images (WSIs) to identify hepatotoxicity. Our results demonstrate that GraphTox achieves an 11.1% improvement in area under the receiver operating characteristic curve (AUC) on an independent testing set compared to the best-performing non-graph-based anomaly detection models, and an 8.1% improvement over a graph-based model derived from a resolution-agnostic foundation model UNIv2.  These findings highlight that GraphTox effectively leverages the resolution-aware digital pathology foundation model to capture multi-scale tissue characteristics within the local tissue graphs, thereby enhancing anomaly detection across various scales. Code: https://github.com/xxx",
+  "authors": [
+    {
+      "name": "Li, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shelton, Lillie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Forest, Thomas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Janardhan, Kyathanahalli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jenkins, Tiffany",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Napolitano, Michael J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Roujia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Leigh, David",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shah, Tosha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Carlson, Grady Earl",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Soans, Rajath",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Antong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Microscopy",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1466_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

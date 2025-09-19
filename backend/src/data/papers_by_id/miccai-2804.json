@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2804",
+  "title": "Knowledge Bridges the Intent Gap: Contextual Fusion in Medical Fine-Grained Segmentation",
+  "abstract": "Segment Anything Model (SAM) has been widely used in common medical image segmentation for its great zero-shot generalization by providing points or box as prompt. However, we find that SAM and its variants do not cope well with complex fine-grained segmentation tasks such as kidney anatomical structure segmentation due to the discrepancy between the model’s interpretation of the task and the actual intent conveyed by the prompts. This paper introduces a new approach called Knowledge SAM (KSAM). By providing a pair of example image and corresponding fine-grained segmentation mask as the knowledge prompt, model can utilize the contextual information to better understand the meaning of the unseen fine-grained segmentation task. To accommodate knowledge prompts, we design two modules specifically designed for knowledge prompt feature fusion. KSAM outperforms the SAM models based on different prompts across both our proposed kidney anatomical structure dataset and REFUGE. Notably, our approach demonstrates competitive performance while offering better extensibility on new tasks compared with prompt-free methods.",
+  "authors": [
+    {
+      "name": "Zhang, Hengyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiao, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Wenyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Eye",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2804_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

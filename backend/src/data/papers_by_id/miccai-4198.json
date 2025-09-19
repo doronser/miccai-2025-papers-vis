@@ -1,0 +1,70 @@
+{
+  "id": "miccai-4198",
+  "title": "A Learning Framework for Predicting CT-based PRM Biomarker from MRI Sequences in COPD",
+  "abstract": "Image-based biomarkers provide non-invasive regional assessment of structural-functional abnormalities in Chronic Obstructive Pulmonary Disease (COPD). For example, quantitative computed tomography (QCT) identifies emphysema and small airway disease, while functional MRI measures lung ventilation and perfusion. In recent years, machine learning techniques have been introduced to predict quantitative indices from alternative imaging modalities, with the aim to reduce scanning time, radiation dose and/or costs in the clinical setting. However, most of those works focused on lung ventilation, while robust quantification of regional lung perfusion of dynamic contrast-enhanced (DCE) MRI remains a challenging task. In addition, previous studies focused only on learning from a single imaging modality. In this study, we explore a deep learning-based model to predict conventionally CT-based biomarkers from multi-sequence structural-functional MR images. Our proposed model achieves very strong correlations in predicting PRMemphysema(Pearson correlation coefficient r = 0.91, p < 0.001 at patient level and r = 0.87, p < 0.001 at lung lobe level), and moderate to strong correlations in predicting %PRMnormal (r = 0.60, p < 0.001 at patient level and r = 0.58, p < 0.001 at lung lobe level) in unseen COPD patients.",
+  "authors": [
+    {
+      "name": "Xu, Yiling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Triphan, Simon M. F.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grolig, Julian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hanyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Biederer, Jürgen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Galbán, Craig J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kauczor, Hans-Ulrich",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wielpütz, Mark O.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weinheimer, Oliver",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4198_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

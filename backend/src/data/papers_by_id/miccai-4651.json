@@ -1,0 +1,66 @@
+{
+  "id": "miccai-4651",
+  "title": "Training state-of-the-art pathology foundation models with orders of magnitude less data",
+  "abstract": "The field of computational pathology has recently seen rapid advances driven by the development of modern vision foundation models (FMs), typically trained on vast collections of pathology images. Recent studies demonstrate that increasing the training data set and model size and integrating domain-specific image processing techniques can significantly enhance the model’s performance on downstream tasks. Building on these insights, our work incorporates several recent modifications to the standard DINOv2 framework from the literature to optimize the training of pathology FMs. We also apply a post-training procedure for fine-tuning models on higher-resolution images to further enrich the information encoded in the embeddings. We present three novel pathology FMs trained on up to two orders of magnitude fewer WSIs than those used to train other state-of-the-art FMs while demonstrating a comparable or superior performance on downstream tasks. Even the model trained on TCGA alone (12k WSIs) outperforms most existing FMs and, on average, matches Virchow2, the second-best FM published to date. This suggests that there remains a significant potential for further improving the models and algorithms used to train pathology FMs to take full advantage of the vast data collections.",
+  "authors": [
+    {
+      "name": "Karasikov, Mikhail",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van Doorn, Joost",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Känzig, Nicolas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Erdal Cesur, Melis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Horlings, Hugo Mark",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Berke, Robert",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Fei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Otálora, Sebastian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4651_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

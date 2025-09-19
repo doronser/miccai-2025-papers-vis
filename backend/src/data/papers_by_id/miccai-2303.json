@@ -1,0 +1,68 @@
+{
+  "id": "miccai-2303",
+  "title": "Dyna3DGR: 4D Cardiac Motion Tracking with Dynamic 3D Gaussian Representation",
+  "abstract": "Accurate analysis of cardiac motion is crucial for evaluating cardiac function. While dynamic cardiac magnetic resonance imaging (CMR) can capture detailed tissue motion throughout the cardiac cycle, fine-grained 4D cardiac motion tracking remains challenging due to the homogeneous nature of myocardial tissue and the lack of distinctive fea tures. Existing approaches can be broadly categorized into image-based and representation-based, each with their own limitations. Image-based methods, including both traditional and deep learning-based registration approaches, either struggle with topological consistency or rely heavily on extensive training data. Representation-based methods, while promising, often suffer from loss of image-level details. To address these limitations, we propose Dynamic 3D Gaussian Representation (Dyna3DGR), a novel framework that combines explicit 3D Gaussian representation with implicit neural motion field modeling. Our method simultaneously optimizes cardiac structure and motion in a self-supervised manner, eliminating the need for extensive training data or point-to-point correspondences. Through differentiable volumetric rendering, Dyna3DGR efficiently bridges continuous motion representation with image-space alignment while preserving both topological and temporal consistency. Comprehensive evaluations on the ACDC dataset demonstrate that our approach surpasses state-of-the-art deep learning-based diffeomorphic registration methods in tracking accuracy. The code will be available in https://github.com/windrise/Dyna3DGR.",
+  "authors": [
+    {
+      "name": "Fu, Xueming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Pei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yingtai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Zihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mei, Junhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Teng, Gao-Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2303_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

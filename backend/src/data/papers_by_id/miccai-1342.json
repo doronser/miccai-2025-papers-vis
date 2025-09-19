@@ -1,0 +1,108 @@
+{
+  "id": "miccai-1342",
+  "title": "PedCLIP: A Vision-Language model for Pediatric X-rays with Mixture of Body part Experts",
+  "abstract": "Vision-language models have demonstrated remarkable success in general medical image analysis, yet their application in pediatric imaging remains significantly underexplored. These models show limited performance on pediatric datasets, primarily due to domain gaps stemming from anatomical differences, lower radiation doses, and pediatric-specific diseases. To this end, we present the first pediatric vision-language pre-training framework, dubbed PedCLIP, trained on a comprehensive pediatric imaging dataset comprising 404,670 X-rays of pediatric patients across diverse anatomical regions. To address anatomical diversity, we introduce a Mixture of Body part Experts design, with each expert specializing in learning features from distinct anatomical regions. Experimental evaluation across eleven downstream tasks demonstrates that our model significantly outperforms current state-of-the-art vision-language models, achieving superior diagnostic accuracy in challenging pediatric conditions, including rare diseases such as pediatric inflammatory arthritis. Code is available: https://github.com/tadeephuy/PedCLIP",
+  "authors": [
+    {
+      "name": "Huy, Ta Duc",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shoby, Abin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tran, Sen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Yutong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Phi Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gole, Akshay",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lingqiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Perperidis, Antonios",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Friswell, Mark",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Linke, Rebecca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Glynn, Andrea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "To, Minh-Son",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van den Hengel, Anton",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Verjans, Johan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Zhibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Phan, Minh Hieu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Foundation Models",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1342_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

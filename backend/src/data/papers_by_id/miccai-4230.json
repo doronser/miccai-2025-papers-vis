@@ -1,0 +1,45 @@
+{
+  "id": "miccai-4230",
+  "title": "Adaptation of Multi-modal Representation Models for Multi-task Surgical Computer Vision",
+  "abstract": "Surgical AI often involves multiple tasks within a single procedure, like phase recognition or assessing the Critical View of Safety in laparoscopic cholecystectomy. Traditional models, built for one task at a time, lack flexibility, requiring a separate model for each. To address this, we introduce MML-SurgAdapt, a unified multi-task framework with Vision-Language Models (VLMs), specifically CLIP, to handle diverse surgical tasks through natural language supervision. A key challenge in multi-task learning is the presence of partial annotations when integrating different tasks. To overcome this, we employ Single Positive Multi-Label (SPML) learning, which traditionally reduces annotation burden by training models with only one positive label per instance. Our framework extends this approach to integrate data from multiple surgical tasks within a single procedure, enabling effective learning despite incomplete or noisy annotations.  We demonstrate the effectiveness of our model on a combined dataset consisting of Cholec80, Endoscapes2023, and CholecT50, utilizing custom prompts. Extensive evaluation shows that MML-SurgAdapt performs comparably to task-specific benchmarks, with the added advantage of handling noisy annotations. It also outperforms the existing SPML frameworks for the task. By reducing the required labels by 23\\%, our approach proposes a more scalable and efficient labeling process, significantly easing the annotation burden on clinicians. To our knowledge, this is the first application of SPML to integrate data from multiple surgical tasks, presenting a novel and generalizable solution for multi-task learning in surgical computer vision. Implementation is available at: \\url{https://github.com/CAMMA-public/MML-SurgAdapt}.",
+  "authors": [
+    {
+      "name": "Walimbe, Soham",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baby, Britty",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Srivastav, Vinkle",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Padoy, Nicolas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4230_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "miccai-2910",
+  "title": "Stronger Together: Registering Preoperative Imagery, LUS, and MIS Liver Images",
+  "abstract": "This study addresses the critical challenges of accurate tumor localization in minimally invasive surgery (MIS) of the liver, where limited visibility and the absence of tactile feedback complicate surgery. The study focuses on integrating all three standard modalities: preoperative 3D models, laparoscopic ultrasound (LUS), and MIS images. Unlike previous approaches, our method exploits the interrelationships among all these modalities, without relying on markers or external sensors, to maximize applicability. It uses an advanced geometric model to integrate the existing registration constraints between pairs of modalities, such as the anatomical landmarks, with new spatial constraints, including the contact of the LUS transducer with the liver and the agreement of the LUS and the preoperative tumor profiles. Experimental validation on phantoms and patient data shows that the method boosts accuracy.",
+  "authors": [
+    {
+      "name": "Kalantari, Mohammad Mahdi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ozgur, Erol",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alkhatib, Mohammad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rabbani, Navid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Espinel, Yamid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Modrzejewski, Richard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Le Roy, Bertrand",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Buc, Emmanuel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mezouar, Youcef",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bartoli, Adrien",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Endoscopy",
+    "Modalities -> MRI",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2910_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

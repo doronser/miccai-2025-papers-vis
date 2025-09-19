@@ -1,0 +1,45 @@
+{
+  "id": "miccai-0802",
+  "title": "Learning Foundation Models from Multi-Organ Medical Images by Capturing Consistency and Diversity of Anatomical Structures",
+  "abstract": "Medical images span a wide range of imaging protocols and anatomical regions, exhibiting two fundamental properties: inter-organ diversity–where different organs exhibit distinct structural patterns (e.g., hand vs. chest)–and intra-organ consistency–where each organ retains a coherent structure with subtle variations across patient (e.g., left vs. right hand). While existing foundation models typically focus on a single organ or combine organs across heterogeneous modalities–often failing to jointly capture both properties–we envision that a model purposefully built on these fundamental properties would yield representations with greater generalizability, robustness, and interpretability. To this end, we introduce a general-purpose and scalable framework for learning foundation models from diverse organs within a given imaging modality. We call our framework Coda, as it is explicitly designed to jointly capture both the consistency and diversity of anatomical structures, encoding high-level semantic relationships across distinct organs and fine-grained anatomical details within each organ. Our experiments in zero-shot, few-shot transfer, and full-transfer settings show that Coda, pretrained on 23 diverse organs, learns semantically rich representations that not only yield strong inter-organ and intra-organ discrimination capabilities but also offer superior generalizability and robustness on diverse tasks.",
+  "authors": [
+    {
+      "name": "Hosseinzadeh Taher, Mohammad Reza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hong, Junpyo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Soni, Ravi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Avinash, Gopal",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0802_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

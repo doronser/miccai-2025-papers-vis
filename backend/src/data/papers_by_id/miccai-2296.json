@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2296",
+  "title": "UM-SAM: Unsupervised Medical Image Segmentation using Knowledge Distillation from Segment Anything Model",
+  "abstract": "Despite the success of deep learning in automatic medical image segmentation, it heavily relies on manual annotations for training that are time-consuming to obtain. Unsupervised segmentation approaches have shown potential in eliminating manual annotations, while they often struggle to capture distinctive features for low-contrast and inhomogeneous regions, limiting their performance. To address this, we propose UM-SAM, a novel unsupervised medical image segmentation framework that harnesses Segment Anything Model (SAM)’s capabilities for pseudo-label generation and segmentation network training. Specifically, class-agnostic pseudo-labels are generated via SAM’s everything mode, followed by a shape prior-based filtering strategy to select valid pseudo-labels. Given SAM’s lack of class information, a shape-agnostic clustering technique based on ROI pooling is proposed to identify target-relevant pseudo-labels based on their proximity. To reduce the impact of noise in pseudo-labels, a triple Knowledge Distillation (KD) strategy is proposed to transfer knowledge from SAM to a lightweight task-specific segmentation model, including pseudo-label KD, class-level feature KD, and class-level contrastive KD. Extensive experiments on fetal brain and prostate segmentation tasks demonstrate that UM-SAM significantly outperforms existing unsupervised and prompt-based methods, achieving state-of-the-art performance without requiring manual annotations.",
+  "authors": [
+    {
+      "name": "Fu, Jia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, He",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guotai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2296_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

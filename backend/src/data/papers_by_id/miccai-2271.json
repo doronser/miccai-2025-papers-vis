@@ -1,0 +1,42 @@
+{
+  "id": "miccai-2271",
+  "title": "StyleGAN-based Brain MRI Anomaly Detection via Latent Code Retrieval and Partial Swap",
+  "abstract": "Medical anomaly detection aims at identifying samples that\ndeviate from normal patterns and localizing specific anomalous regions, playing a critical role in early detection and intervention of diseases. Reconstruction methods based on generative models are a key category among current methods for medical anomaly detection. However, a common challenge for them is achieving accurate reconstruction of normal regions while suppressing the reconstruction of anomalous regions. StyleGAN, with its powerful generative capability and the ability to perform controllable image modifications, has shown huge potential for medical image anomaly detection. However, the latent space of StyleGAN still requires further exploration and utilization. In this paper, we propose a StyleGAN-based latent Code Retrieval and Partial Swap (SCRPS)\nmethod for brain image anomaly detection. We construct a healthy image latent code repository by leveraging GAN inversion in StyleGAN’s latent space. We then design a coarse-to-fine latent code retrieval mechanism to filter out normal images most similar to test image. We also introduce a partial latent code swap strategy that replaces anomalous latent codes with linear combinations of normal latent codes and employ a perceptual score to perform anomaly localization. Comprehensive experiments on brain tumor and stroke lesion datasets show that our method outperforms several state-of-the-art approaches, with 3.12 and 7.14 percentage points improvements in average volume-level AUROC and maximum achievable Dice score, respectively.",
+  "authors": [
+    {
+      "name": "Wei, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Xiaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guotai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2271_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

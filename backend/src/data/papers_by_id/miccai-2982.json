@@ -1,0 +1,45 @@
+{
+  "id": "miccai-2982",
+  "title": "Robust sensitivity control in digital pathology via tile score distribution matching",
+  "abstract": "Deploying digital pathology models across medical centers is challenging due to distribution shifts. Recent advances in domain generalization improve model transferability in terms of aggregated performance measured by the Area Under Curve (AUC). However, clinical regulations often require to control the transferability of other metrics, such as prescribed sensitivity levels. We introduce a novel approach to control the sensitivity of whole slide image (WSI) classification models, based on optimal transport and Multiple Instance Learning (MIL). Validated across multiple cohorts and tasks, our method enables robust sensitivity control with only a handful of calibration samples, providing a practical solution for reliable deployment of computational pathology systems.",
+  "authors": [
+    {
+      "name": "Pignet, Arthur",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Klein, John",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Robin, Geneviève",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Olivier, Antoine",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2982_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

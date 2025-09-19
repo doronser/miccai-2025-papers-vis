@@ -1,0 +1,68 @@
+{
+  "id": "miccai-1527",
+  "title": "F2PASeg: Feature Fusion for Pituitary Anatomy Segmentation in Endoscopic Surgery",
+  "abstract": "Pituitary tumors often cause deformation or encapsulation of adjacent vital structures. Anatomical structure segmentation can provide surgeons with early warnings of regions that pose surgical risks, thereby enhancing the safety of pituitary surgery. However, pixel-level annotated video stream datasets for pituitary surgeries are extremely rare. To address this challenge, we introduce a new dataset for Pituitary Anatomy Segmentation (PAS). PAS comprises 7,845 time-coherent images extracted from 120 videos. To mitigate class imbalance, we apply data augmentation techniques that simulate the presence of surgical instruments in the training data. One major challenge in pituitary anatomy segmentation is the inconsistency in feature representation due to occlusions, camera motion, and surgical bleeding. By incorporating a \\underline{F}eature \\underline{F}usion module, F2PASeg is proposed to refine anatomical structure segmentation by leveraging both high-resolution image features and deep semantic embeddings, enhancing robustness against intraoperative variations. Experimental results demonstrate that F2PASeg consistently segments critical anatomical structures in real time, providing a reliable solution for intraoperative pituitary surgery planning. Code: https://github.com/paulili08/F2PASeg.",
+  "authors": [
+    {
+      "name": "Chen, Lumin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Zhiying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Tianye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Xuexue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Gaofeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hongbin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1527_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

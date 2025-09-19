@@ -1,0 +1,60 @@
+{
+  "id": "miccai-0742",
+  "title": "Unleashing Vision Foundation Models for Coronary Artery Segmentation: Parallel ViT-CNN Encoding and Variational Fusion",
+  "abstract": "Accurate coronary artery segmentation is critical for computer-aided diagnosis of coronary artery disease (CAD), yet it remains challenging due to the small size, complex morphology, and low contrast with surrounding tissues. To address these challenges, we propose a novel segmentation framework that leverages the power of vision foundation models (VFMs) through a parallel encoding architecture. Specifically, a vision transformer (ViT) encoder within the VFM captures global structural features, enhanced by the activation of the final two ViT blocks and the integration of an attention-guided enhancement (AGE) module, while a convolutional neural network (CNN) encoder extracts local details. These complementary features are adaptively fused using a cross-branch variational fusion (CVF) module, which models latent distributions and applies variational attention to assign modality-specific weights. Additionally, we introduce an evidential-learning uncertainty refinement (EUR) module, which quantifies uncertainty using evidence theory and refines uncertain regions by incorporating multi-scale feature aggregation and attention mechanisms, further enhancing segmentation accuracy. Extensive evaluations on one in-house and two public datasets demonstrate that the proposed framework significantly outperforms state-of-the-art methods, achieving superior performance in accurate coronary artery segmentation and showcasing strong generalization across multiple datasets. The code is available at https://github.com/d1c2x3/CAseg.",
+  "authors": [
+    {
+      "name": "Dong, Caixia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dai, Duwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xinyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Fan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zongfang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Songhua",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0742_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

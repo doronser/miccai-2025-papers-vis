@@ -1,0 +1,56 @@
+{
+  "id": "miccai-2263",
+  "title": "TEGDA: Test-time Evaluation-Guided Dynamic Adaptation for Medical Image Segmentation",
+  "abstract": "Distribution shifts of medical images seriously limit the performance of segmentation models when applied in real-world scenarios. Test-Time Adaptation (TTA) has emerged as a promising solution for ensuring robustness on images from different institutions by tuning the parameters at test time without additional labeled training data. However, existing TTA methods are limited by unreliable supervision due to a lack of effective methods to monitor the adaptation performance without ground-truth, which makes it hard to adaptively adjust model parameters in the stream of testing samples. To address these limitations, we propose a novel Test-Time Evaluation-Guided Dynamic Adaptation (TEGDA) framework for TTA of segmentation models. In the absence of ground-truth, we propose a novel prediction quality evaluation metric based on Agreement with Dropout Inferences calibrated by Confidence (ADIC). Then it is used to guide adaptive feature fusion with those in a feature bank with high ADIC values to obtain refined predictions for supervision, which is combined with an ADIC-adaptive teacher model and loss weighting for robust adaptation. Experimental results on multidomain cardiac structure and brain tumor segmentation demonstrate that our ADIC can accurately estimate segmentation quality on the fly, and our TEGDA obtained the highest average Dice and lowest average HD95, significantly outperforming several state-of-the-art TTA methods. The code is available at https://github.com/HiLab-git/TEGDA.",
+  "authors": [
+    {
+      "name": "Zhou, Yubo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jianghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Wenjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shichuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guotai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Other",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2263_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "miccai-4926",
+  "title": "SV-DRR: High-Fidelity Novel View X-Ray Synthesis Using Diffusion Model",
+  "abstract": "X-ray imaging is a rapid and cost-effective tool for visualizing internal human anatomy. While multi-view X-ray imaging provides complementary information that enhances diagnosis, intervention, and education, acquiring images from multiple angles increases radiation exposure and complicates clinical workflows. To address these challenges, we propose a novel view-conditioned diffusion model for synthesizing multi-view X-ray images from a single view. Unlike prior methods, which are limited in angular range, resolution, and image quality, our approach leverages the Diffusion Transformer to preserve fine details and employs a weak-to-strong training strategy for stable high-resolution image generation. Experimental results demonstrate that our method generates higher-resolution outputs with improved control over viewing angles. This capability has significant implications not only for clinical applications but also for medical education and data extension, enabling the creation of diverse, high-quality datasets for training and analysis. Our code is available at https://github.com/xiechun298/SV-DRR.",
+  "authors": [
+    {
+      "name": "Xie, Chun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoshii, Yuichi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kitahara, Itaru",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4926_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

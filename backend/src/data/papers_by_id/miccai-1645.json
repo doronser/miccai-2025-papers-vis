@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1645",
+  "title": "RANDose: A Region-aware Attention Network for Accurate Radiation Dose Prediction",
+  "abstract": "External Radiation Therapy (ERT) is a key treatment in oncology, aiming to deliver high radiation doses to the Planned Target Volume (PTV) while minimizing exposure to surrounding healthy tissues and Organs At Risk (OARs). However, the proximity of PTVs to OARs, the presence of multiple OARs, and the time-consuming nature of manual subjective dose planning present significant challenges. While recent advancements in Deep Learning (DL) have led to various DL-based methods for dose prediction, it is still challenging to effectively capture multi-scale features and propagate essential information to related regions. In this work, we propose the Region-aware Attention Net (RANDose), which addresses these issues by integrating Multi-Scale Channel Spatial Attention (MSCSA), PTV Integration (PI), and Attention Fusion (AF) modules. Additionally, we introduce a Region-Aware Loss function to ensure accurate dose distribution within the PTV while minimizing radiation exposure to OARs. Experiments on the OpenKBP dataset demonstrate that RANDose outperforms existing models in both Dose Score and Dose Volume Histogram (DVH) Score, highlighting its superior performance.",
+  "authors": [
+    {
+      "name": "Chowdary, G. Jignesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Tiezhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qian, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yin, Zhaozheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1645_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

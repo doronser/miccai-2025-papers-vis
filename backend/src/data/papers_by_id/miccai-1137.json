@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1137",
+  "title": "DuoDent: Tooth Generation using Dual-Stream Diffusion with Normal Consistency",
+  "abstract": "Generating high-precision 3D dental data is crucial for clinical practice, virtual simulation, and education. However, it is challenging to synthesize smooth and detailed tooth models. In this work, we introduce DuoDent, a dual-stream diffusion-based framework for the synthesis of accurate 3D tooth point clouds followed by a refined mesh generation. Our framework combines Transformer-based diffusion and CNN-based diffusion to capture both global dental structures and fine local features, thereby enhancing surface detail while reducing artifacts such as staircase and rough textures. The generated point clouds are optimized using normal consistency constraints for proper alignment of surface normals, which is key to high-quality mesh reconstruction. In addition, we apply a normal estimation with orientation consistency to the generated point clouds prior to converting them to output meshes, which enables the generation of smoother and anatomically precise tooth models. Extensive experiments validate that our method not only outperforms existing approaches in quantitative metrics but also delivers superior qualitative results, demonstrating its potential to significantly improve tooth modeling in dentistry. Our code is available at https://github.com/kdy-ku/DuoDent.",
+  "authors": [
+    {
+      "name": "Kwon, Doeyoung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Seongjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, In-Seok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baek, Seung Jun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1137_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

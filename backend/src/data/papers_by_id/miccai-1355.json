@@ -1,0 +1,49 @@
+{
+  "id": "miccai-1355",
+  "title": "EndoDAV: Depth Any Video in Endoscopy with Spatiotemporal Accuracy",
+  "abstract": "Video depth estimation has been applied to various endoscopy tasks, such as reconstruction, navigation, and surgery. Recently, many methods focus on directly applying or adapting depth estimation foundation models to endoscopy scenes. However, these methods do not consider temporal information, leading to an inconsistent prediction. We propose Endoscopic Depth Any Video (EndoDAV) to estimate spatially accurate and temporally consistent endoscopic video depth, which significantly expands the usability of depth estimation in downstream tasks. Specifically, we parameter-efficiently finetune a video depth estimation foundation model to endoscopy scenes, utilizing a self-supervised depth estimation framework which simultaneously learns depth and camera pose. Considering the distinct characteristics of endoscopic videos compared to common videos, we further design a novel loss function and a depth alignment inference strategy to enhance the temporal consistency. Experiments on two public endoscopy datasets demonstrate that our method presents superior performance in both spatial accuracy and temporal consistency. Code is available at~\\url{https://github.com/Zanue/EndoDAV}.",
+  "authors": [
+    {
+      "name": "Zhou, Zanwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Piao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xiaokang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1355_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

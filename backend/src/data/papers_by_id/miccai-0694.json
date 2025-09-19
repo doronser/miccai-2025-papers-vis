@@ -1,0 +1,38 @@
+{
+  "id": "miccai-0694",
+  "title": "Finer Disentanglement of Aleatoric Uncertainty Can Accelerate Chemical Histopathology Imaging",
+  "abstract": "Label-free chemical imaging holds significant promise for improving digital pathology workflows, but data acquisition speed remains a limiting factor. To address this gap, we propose an adaptive strategy—initially scan the low information (LI) content of the entire tissue quickly, identify regions with high aleatoric uncertainty (AU), and selectively re-image them at better quality to capture higher information (HI) details. The primary challenge lies in distinguishing between high-AU regions mitigable through HI imaging and those that are not. However, since existing uncertainty frameworks cannot separate such AU subcategories, we propose a fine-grained disentanglement method based on post-hoc latent space analysis to unmix resolvable from irresolvable high-AU regions. We apply our approach to streamline infrared spectroscopic imaging of breast tissues, achieving superior downstream segmentation performance. This marks the first study focused on fine-grained AU disentanglement within dynamic image spaces (LI-to-HI), with novel application to streamline histopathology. Code will be made public.",
+  "authors": [
+    {
+      "name": "Oh, Ji-Hun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Falahkheirkhah, Kianoush",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bhargava, Rohit",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Modalities -> Spectroscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0694_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

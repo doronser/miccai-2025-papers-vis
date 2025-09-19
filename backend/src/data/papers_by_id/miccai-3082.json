@@ -1,0 +1,36 @@
+{
+  "id": "miccai-3082",
+  "title": "Accelerated Free-Breathing 5D Multi-Echo Respiratory Motion-Resolved R2*, PDFF, and QSM Using Novel Composite Total Variation",
+  "abstract": "We introduce a novel composite total variation (TV) and its solution algorithm with their application to multi-echo, respiratory motion-resolved 5D (3D space + 1D respiratory motion + 1D echo signal evolution) compressed sensing (CS) abdominal MR image reconstruction. The proposed formalism ensures a sparse representation between multi-echo images with varying contrast—a vital feature that needs to be preserved—making it highly suitable for applications in multi-dimensional computational/quantitative imaging. The key idea of the proposed composite TV and its formal definition were inspired by the observation that the spatial gradient of difference images in multi-echo MRI appears sparse. Throughout extensive experiments on a small number of healthy volunteers, we have demonstrated improved performance of the proposed method in 5D motion-resolved CS reconstruction of multi-echo MRI data compared to the state-of-the-art method. We have also demonstrated improved performance of the proposed method in quantitative tissue parameter mapping (such as R2*, proton density fat fraction, and quantitative susceptibility mapping) across a wide range of undersampling factors. In conclusion, the proposed method enables vastly accelerated motion-resolved multi-echo CS-MRI minimally impacting the quantification of downstream tissue parameters.",
+  "authors": [
+    {
+      "name": "Kang, MungSoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alus, Or",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kee, Youngwook",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> MRI",
+    "Applications -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3082_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

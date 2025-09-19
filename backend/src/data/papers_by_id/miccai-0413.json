@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0413",
+  "title": "No More Sliding Window: Efficient 3D Medical Image Segmentation with Differentiable Top-K Patch Sampling",
+  "abstract": "3D models surpass 2D models in CT/MRI segmentation by effectively capturing inter-slice relationships. However, the added depth dimension substantially increases memory consumption. While patch-based training alleviates memory constraints, it significantly slows down the inference speed due to the sliding window (SW) approach. We propose No-More-Sliding-Window (NMSW), a novel end-to-end trainable framework that enhances the efficiency of generic 3D segmentation backbone during an inference step by eliminating the need for SW. NMSW employs a differentiable Top-k module to selectively sample only the most relevant patches, thereby minimizing redundant computations. When patch-level predictions are insufficient, the framework intelligently leverages coarse global predictions to refine results. Evaluated across 3 tasks using 3 segmentation backbones, NMSW achieves competitive accuracy compared to SW inference while significantly reducing computational complexity by 91% (88.0 to 8.00 TMACs). Moreover, it delivers a 9.1× faster inference on the H100 GPU (99.0 to 8.3 sec) and a 11.1× faster inference on the Xeon Gold CPU (2110 to 189 sec). NMSW is model-agnostic, further boosting efficiency when integrated with any existing efficient segmentation backbones.",
+  "authors": [
+    {
+      "name": "Jeon, Young Seok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Hongfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Huazhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kway, Yeshe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Mengling",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0413_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

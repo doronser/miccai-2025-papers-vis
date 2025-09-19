@@ -1,0 +1,57 @@
+{
+  "id": "miccai-2724",
+  "title": "MDAA-Diff: CT-Guided Multi-Dose Adaptive Attention Diffusion Model for PET Denoising",
+  "abstract": "Acquiring high-quality Positron Emission Tomography (PET) images requires administering high-dose radiotracers, which increases radiation exposure risks. Generating standard-dose PET (SPET) from low-dose PET (LPET) has become a potential solution. However, previous studies have primarily focused on single low-dose PET denoising, neglecting two critical factors: discrepancies in dose response caused by inter-patient variability, and complementary anatomical constraints derived from CT images. In this work, we propose a novel CT-Guided Multi-dose Adaptive Attention Denoising Diffusion Model (MDAA-Diff) for multi-dose PET denoising. Our approach integrates anatomical guidance and dose-level adaptation to achieve superior denoising performance under low-dose conditions. Specifically, this approach incorporates a CT-Guided High-frequency Wavelet Attention (HWA) module, which uses wavelet transforms to separate high-frequency anatomical boundary features from CT images. These extracted features are then incorporated into PET imaging through an adaptive weighted fusion mechanism to enhance edge details. Additionally, we propose the Dose-Adaptive Attention (DAA) module, a dose-conditioned enhancement mechanism that dynamically integrates dose levels into channel-spatial attention weight calculation. Extensive experiments on 18F-FDG and 68Ga-FAPI datasets demonstrate that MDAA-Diff outperforms state-of-the-art approaches in preserving diagnostic quality under reduced-dose conditions. Our code is publicly available. Our code is publicly available at https://github.com/Long0121/MDAA-Diff.",
+  "authors": [
+    {
+      "name": "Niu, Xiaolong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Zanting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yanchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Hubing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Lijun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2724_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

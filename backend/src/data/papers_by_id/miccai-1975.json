@@ -1,0 +1,97 @@
+{
+  "id": "miccai-1975",
+  "title": "Revisiting Automatic Data Curation for Vision Foundation Models in Digital Pathology",
+  "abstract": "Vision foundation models (FMs) are accelerating the development of digital pathology algorithms and transforming biomedical research. These models learn, in a self-supervised manner, to represent histological features in highly heterogeneous tiles extracted from whole-slide images (WSIs) of real-world patient samples. The performance of these FMs is significantly influenced by the size, diversity, and balance of the pre-training data. However, data selection has been primarily guided by expert knowledge at the WSI level, focusing on factors such as disease classification and tissue types, while largely overlooking the granular details available at the tile level. In this paper, we investigate the potential of unsupervised automatic data curation at the tile-level, taking into account 350 million tiles. Specifically, we apply hierarchical clustering trees to pre-extracted tile embeddings, allowing us to sample balanced datasets uniformly across the embedding space of the pretrained FM. We further identify these datasets are subject to a trade-off between size and balance, potentially compromising the quality of representations learned by FMs, and propose tailored batch sampling strategies to mitigate this effect. We demonstrate the effectiveness of our method through improved performance on a diverse range of clinically relevant downstream tasks.",
+  "authors": [
+    {
+      "name": "Chen, Boqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vincent-Cuaz, Cédric",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schoenpflug, Lydia A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Madeira, Manuel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fournier, Lisa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Subramanian, Vaishnavi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Andani, Sonali",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ruiperez-Campillo, Samuel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vogt, Julia E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luisier, Raphaëlle",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Thanou, Dorina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Koelzer, Viktor H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Frossard, Pascal",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Campanella, Gabriele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rätsch, Gunnar",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1975_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "miccai-3953",
+  "title": "Wavelet-driven Decoupling and Physics-informed Mapping Network for Accelerated Multi-parametric MR Imaging",
+  "abstract": "Multi-parametric magnetic resonance imaging (MRI) is an advanced MRI technique that can provide multiple quantitative maps simultaneously based on acquired multi-echo images. However, the lengthy scan time often limits its application. Accelerated multi-parametric MRI using deep learning is of great interest. The existing studies have two limitations: 1) inefficient use of the multi-echo information; 2) lack of physical prior for parametric mapping. To address these issues, in this work, we propose a novel decoupling-driven and physics-informed reconstruction network for accelerated multi-parametric MRI. Specifically, to better align and integrate multi-echo information, we propose a novel decoupling technique consisting of wavelet-driven decoupling module, contrastive and echo-dependent decoupling losses, such that the multi-echo features can be effectively decoupled into echo-dependent and echo-independent components. Only the echo-independent features are fused across multiple echoes. Besides, Bloch equations are incorporated as physical priors to guide the parametric mapping network. Experimental results on our in-house data (12-echo sequence) show that our method outperforms the state-of-the-art methods by 1.54% in average SSIM and 1.70dB in average PSNR for 4× acceleration, which significantly advances the performance limitation for multi-parametric MRI. Our code is available at https://github.com/IDEARL23/WDPM-Net.",
+  "authors": [
+    {
+      "name": "Dan, Ruilong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Kaicong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yichen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Minqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yuxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zong, Xiaopeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3953_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

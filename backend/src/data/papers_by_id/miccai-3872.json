@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3872",
+  "title": "PolyMamba: Spatial-prior Guided Mamba for Polyp Segmentation with High-Frequency Enhancement",
+  "abstract": "Accurate polyp segmentation during colonoscopy is crucial for the early detection and timely intervention of colorectal cancer. Recently, Mamba, a State Space Model, has gained significant attention in polyp segmentation due to its remarkable ability to model long-range dependencies with linear computational complexity. However, Mamba-based methods face two key challenges: (1) their fixed scanning pattern limits the capture of dynamic spatial context, impairing the precise localization of irregular polyps; (2) during the calculation process, the high-frequency information that is crucial to local details is weakened, and the blurred mid-frequency information becomes dominant, thereby reducing the boundary accuracy. To overcome these limitations, we propose PolyMamba,  a novel framework that integrates spatial priors while enhancing high-frequency information for more accurate polyp segmentation. Specifically, our framework introduces a Spatial-Prior Guided module, which leverages explicit spatial priors extracted from Transformer-based methods to counteract the local perception bias caused by Mamba’s fixed scanning pattern. Additionally, we design a Dual-Gate Frequency Enhancement module, which applies two Gaussian filters to generate spectra with different high-frequency thresholds, and uses the difference between them as an attention map to selectively enhance high-frequency features, thereby refining the polyp boundaries. Comprehensive experiments on five widely used polyp segmentation datasets demonstrate that PolyMamba not only surpasses existing state-of-the-art techniques but also provides a novel frequency-domain perspective, offering new insights into improving segmentation performance.",
+  "authors": [
+    {
+      "name": "Fu, Renyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Shurui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Chang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xinwang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3872_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

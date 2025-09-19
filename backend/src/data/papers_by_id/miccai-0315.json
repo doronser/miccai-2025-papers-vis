@@ -1,0 +1,60 @@
+{
+  "id": "miccai-0315",
+  "title": "ADA: An Adaptive Augmentation Framework for Single-Source Domain Generalization in Medical Image Segmentation",
+  "abstract": "In medical image analysis, significant challenges arise from domain shifts. Models trained on one dataset often struggle to generalize to unseen domains, limiting their clinical utility. To overcome this challenge, recent advancements have tried to increase the diversity of training data with data augmentation, in which the augmentation rules are pre-set before training commences and remain unchanged throughout the training process. Previous methods do not augment according to the unique characteristics of individual samples. As a result, they fail to cover the full diversity of unseen domains. To tackle this problem, we propose a learnable framework, the Adaptive Augmentation Framework (ADA), which can adaptively augment data catering to each individual sample. It has three operators for different purposes: 1) the Learnable Bezier Remap operator dynamically adjusts parameters to do the augmentation according to its content features. 2) the Channel Shift Control operator dynamically tunes shift and scale parameters for each color channel. By capturing fine-grained variations and improving spectral detail representation. 3) The Gradient-guided Feature Weaken operator dynamically reduces the influence of high-impact features to improve the model’s ability to generalize. Extensive experiments conducted on seven medical segmentation datasets demonstrate that adaptive augmentation is more likely to cover large diversity in the unseen domain.",
+  "authors": [
+    {
+      "name": "Huang, Runlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Hongmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuo, Weipeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Shangyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Haowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Wentao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Weifeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Endoscopy",
+    "Modalities -> Other",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0315_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "miccai-0283",
+  "title": "Spatial regularisation for improved accuracy and interpretability in keypoint-based registration",
+  "abstract": "Unsupervised registration strategies bypass requirements in ground truth transforms or segmentations by optimising similarity metrics between fixed and moved volumes. Among these methods, a recent subclass of approaches based on unsupervised keypoint detection stand out as very promising for interpretability. Specifically, these methods train a network to predict feature maps for fixed and moving images, from which explainable centres of mass are computed to obtain point clouds, that are then aligned in closed-form. However, the features returned by the network often yield spatially diffuse patterns that are hard to interpret, thus undermining the purpose of keypoint-based registration. Here, we propose a three-fold loss to regularise the spatial distribution of the features. First, we use the KL divergence to model features as point spread functions that we interpret as probabilistic keypoints. Then, we sharpen the spatial distributions of these features to increase the precision of the detected landmarks. Finally, we introduce a new repulsive loss across keypoints to encourage spatial diversity. Overall, our loss considerably improves the interpretability of the features, which now correspond to precise and anatomically meaningful landmarks. We demonstrate our three-fold loss in foetal rigid motion tracking and brain MRI affine registration tasks, where it not only outperforms state-of-the-art unsupervised strategies, but also bridges the gap with state-of-the-art supervised methods. Our code is available at https://github.com/BenBillot/spatial_regularisation.",
+  "authors": [
+    {
+      "name": "Billot, Benjamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Muthukrishnan, Ramya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abaci Turk, Esra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grant, P. Ellen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ayache, Nicholas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Delingette, Hervé",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Golland, Polina",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0283_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

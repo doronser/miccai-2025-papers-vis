@@ -1,0 +1,62 @@
+{
+  "id": "miccai-2097",
+  "title": "Generating Novel Brain Morphology by Deforming Learned Templates",
+  "abstract": "Designing generative models for 3D structural brain MRI that synthesize morphologically-plausible and attribute-specific (e.g., age, sex, disease state) samples is an active area of research. Existing approaches based on frameworks like GANs or diffusion models synthesize the image directly, which may limit their ability to capture intricate morphological details. In this work, we propose a 3D brain MRI generation method based on state-of-the-art latent diffusion models (LDMs), called MorphLDM, that generates novel images by synthesizing deformation fields applied to a learned template. Instead of using a reconstruction-based autoencoder (as in LDM), our encoder outputs a latent embedding derived from both an image and a learned template that is itself the output of a template decoder; this latent is passed to a deformation field decoder, whose output is applied to the learned template. A registration loss is minimized between the original image and the deformed template with respect to the encoder and both decoders. Empirically, our approach outperforms generative baselines on metrics spanning image diversity, adherence with respect to input conditions, and voxel-based morphometry. Our code will be made available upon acceptance.",
+  "authors": [
+    {
+      "name": "Wang, Alan Q.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Fangrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Trang, Bailey",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abbasi, Mohammad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pohl, Kilian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sabuncu, Mert R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Adeli, Ehsan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2097_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

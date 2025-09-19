@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1992",
+  "title": "Multi-scale Attention-based Multiple Instance Learning for Breast Cancer Diagnosis",
+  "abstract": "Multiple Instance Learning (MIL) is a powerful weakly supervised learning framework for high-resolution medical images, but its application in mammographic breast cancer (BC) diagnosis overlooks instance interactions and the multi-scale nature of BC lesions. In this work, we propose a novel Feature Pyramid Network (FPN)-MIL model for BC classification and detection in high-resolution mammograms, integrating (1) a FPN-based instance encoder that enables a multi-scale analysis across different receptive-field granularities while operating on single-scale input patches; (2) deep-supervised scale-specific instance aggregators that support conventional attention (AbMIL) or transformer-based (SetTrans) mechanisms; (3) an attention-based multi-scale aggregator that dynamically combines scale-specific features, improving robustness to lesion scale variability. Our experiments show that FPN-MIL is superior to conventional single- and multi-scale patch-based MIL models, with FPN-SetTrans outperforming baselines in calcification classification and detection while FPN-AbMIL performs best for mass classification.",
+  "authors": [
+    {
+      "name": "Mourão, Mariana",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nascimento, Jacinto C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Santiago, Carlos",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Silveira, Margarida",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1992_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

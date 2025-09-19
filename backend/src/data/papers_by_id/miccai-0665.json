@@ -1,0 +1,38 @@
+{
+  "id": "miccai-0665",
+  "title": "Improving Medical Image Segmentation with Implicit Representation and Noisy Label Robustness",
+  "abstract": "Medical image segmentation plays a vital role in healthcare by identifying and delineating specific structures, such as organs, tumors, or lesions, from medical images. While deep learning has significantly advanced this field, existing methods face two major challenges. First, they rely on pixel-wise discrete representations, which lead to difficulties in scaling to different input sizes and create ambiguity in fine boundary delineation. Second, the presence of noisy labels in medical datasets hinders model accuracy. To address these challenges, we propose a novel approach that leverages continuous representations and incorporates three key components: the Hierarchical Channel-Attention Encoder (HCAE), the Three-Stage Implicit Decoder with Noise-Based Index Selector (NBIS), and the High-Frequency Noise Modulator (HFNM). HACE enhances feature extraction by capturing both fine and coarse details through hierarchical attention mechanisms. NBIS refines segmentation by identifying stable and unstable feature indices, improving performance in challenging regions. Meanwhile, HFNM selectively introduces noise to high-frequency components, helping the model mitigate the effects of label noise. This comprehensive solution demonstrates improved segmentation accuracy, particularly in the presence of noisy labels, making it a promising approach for medical image analysis.",
+  "authors": [
+    {
+      "name": "Kumari, Suruchi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Singh, Harshdeep",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Singh, Pravendra",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0665_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

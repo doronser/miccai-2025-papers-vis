@@ -1,0 +1,58 @@
+{
+  "id": "miccai-3678",
+  "title": "Frequency-domain Multi-modal Fusion for Language-guided Medical Image Segmentation",
+  "abstract": "Automatically segmenting infected areas in radiological images is essential for diagnosing pulmonary infectious diseases. Recent studies have demonstrated that the accuracy of the medical image segmentation can be improved by incorporating clinical text reports as semantic guidance. However, the complex morphological changes of lesions and the inherent semantic gap between vision-language modalities prevent existing methods from effectively enhancing the representation of visual features and eliminating semantically irrelevant information, ultimately resulting in suboptimal segmentation performance. To address these problems, we propose a Frequency-domain Multi-modal Interaction model (FMISeg) for language-guided medical image segmentation. FMISeg is a late fusion model that establishes interaction between linguistic features and frequency-domain visual features in the decoder. Specifically, to enhance the visual representation, our method introduces a Frequency-domain Feature Bidirectional Interaction (FFBI) module to effectively fuse frequency-domain features. Furthermore, a Language-guided Frequency-domain Feature Interaction (LFFI) module is incorporated within the decoder to suppress semantically irrelevant visual features under the guidance of linguistic information. Experiments on QaTa-COV19 and MosMedData+ demonstrated that our method outperforms the state-of-the-art methods qualitatively and quantitatively.",
+  "authors": [
+    {
+      "name": "Yu, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jianhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Zetao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chenglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3678_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

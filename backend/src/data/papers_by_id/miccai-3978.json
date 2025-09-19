@@ -1,0 +1,61 @@
+{
+  "id": "miccai-3978",
+  "title": "Pre-to-Post Operative MRI Generation with Retrieval-based Visual In-Context Learning",
+  "abstract": "Glioblastoma is an aggressive brain tumor requiring precise treatment planning. Magnetic resonance imaging (MRI) is essential for pre-operative assessment, surgical resection planning, and post-operative monitoring. Therefore, generating post-operative MRI from pre-operative MRI can assist neurosurgeons in many ways, such as predicting surgical outcomes and guiding treatment planning. However, generating post-operative MRI from pre-operative MRI is challenging, as the resection extent depends on tumor location and infiltration to minimize potential complications, necessitating consideration of surgical outcomes based on tumor location and shape. Furthermore, post-operative MRI differs significantly from pre-operative MRI due to structural and visual changes, such as tissue shift, edema, hemorrhage, and the resection region. To address these challenges, we propose a novel post-operative MRI generation method that generates post-operative MRI from pre-operative MRI using tumor-aware visual in-context learning. Specifically, we provide explicit visual instruction for generating post-operative MRI from pre-operative MRI, improving the capture of structural changes. To consider tumor-specific post-operative outcomes, we propose tumor-guided retrieval, which retrieves the tumor case most similar to the query pre-operative MRI, and a tumor-aware prompt adapter that integrates tumor resection and anatomical structure information. Our proposed method achieves superior performance on publicly available dataset and is the first to generate post-operative MRI from pre-operative MRI, introducing a new approach to improving patient prognosis.",
+  "authors": [
+    {
+      "name": "Kang, Bogyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Sang-Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lim, Minjoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Myeongkyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heo, Keun-Soo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oh, Ji-Hye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Hyun Jung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kam, Tae-Eui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3978_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

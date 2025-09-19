@@ -1,0 +1,62 @@
+{
+  "id": "miccai-4023",
+  "title": "A Multimodal Contrastive Learning for Detecting Aortic Dissection on 3D Non-Contrast CT with Anatomy Simplification",
+  "abstract": "Accurate detection of aortic dissection (AD) in emergency settings is of significant importance, as misdiagnosis can significantly delay subsequent treatments and even endanger patients’ lives. Currently, non-contrast CT scans are standard protocols in emergency departments for patients with chest pain, yet their ability to detect AD remains limited. We introduce a novel multimodal contrastive learning framework designed to learn discriminative features from both contrast-enhanced CT and corresponding diagnostic reports. These features are then aligned with non-contrast CT scans through a multimodal contrastive learning approach. Specifically, we first segment and straighten the aorta to effectively apply attention to the aortic area. Finally, the pre-trained encoder is fine-tuned for the tasks of AD detection and lumen segmentation using non-contrast CT scans. Our experiments, conducted on a test dataset comprising 239 subjects (127 with AD and 112 without), demonstrated that the proposed framework achieves an accuracy of 0.958, an F1-score of 0.969, and an AUC of 0.983 in AD detection. These results surpass those of six state-of-the-art classification models. In lumen segmentation experiments, the framework achieves an average DSC of 0.705, outperforming others. These findings indicate that our proposed framework not only outperforms existing AD detection methods but also holds the potential to accurately localize false lumen using non-contrast CT scans alone.",
+  "authors": [
+    {
+      "name": "Zhang, Duoer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Wenbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Yuxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Zhan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yefeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Wentao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4023_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

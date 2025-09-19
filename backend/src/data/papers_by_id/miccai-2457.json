@@ -1,0 +1,43 @@
+{
+  "id": "miccai-2457",
+  "title": "One-shot active learning for vessel segmentation",
+  "abstract": "Vessel segmentation is crucial for analyzing brain vasculature and understanding cerebral functions and disease mechanisms. Current deep-learning models for segmenting blood vessels within brain images are supervised and depend on extensive labeled data, which requires expert annotation and is both time-consuming and resource-intensive. To address these challenges, we propose Vessel-Dictionary Selection Net (V-DiSNet), a one-shot active learning (OSAL) framework specifically designed for vessels that can be used to select a small, representative set of informative and diverse samples for expert annotation and training, given an unlabeled dataset in a single iteration. The selection process involves sampling from a latent space designed by leveraging the recurrent properties of brain vessel patterns. Specifically, we combine dictionary learning with k-means clustering to learn a latent representation integrating fundamental basis elements representing recurrent vessel features such as shape, connectivity, and structures. We experimentally demonstrate the effectiveness of our method on three publicly available 3D Magnetic Resonance Angiography datasets, showing that V-DisNet consistently outperforms random sampling and other state-of-the-art OSAL methods in terms of standard vessel segmentation metrics. Our code is available at github.com/i-vesseg/V-DiSNet.",
+  "authors": [
+    {
+      "name": "Falcetta, Daniele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chaptoukaev, Hava",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Galati, Francesco",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zuluaga, Maria A.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Vasculature",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2457_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

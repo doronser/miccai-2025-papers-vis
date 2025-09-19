@@ -1,0 +1,59 @@
+{
+  "id": "miccai-2270",
+  "title": "Pathology-Informed Latent Diffusion Model for Anomaly Detection in Lymph Node Metastasis",
+  "abstract": "Anomaly detection is an emerging approach in digital pathology for its ability to efficiently and effectively utilize data for disease diagnosis. While supervised learning approaches deliver high accuracy, they rely on extensive annotated datasets, suffering from data scarcity in digital pathology. Unsupervised anomaly detection, however, offers a viable alternative by identifying deviations from normal tissue distributions without requiring exhaustive annotations. Recently, denoising diffusion probabilistic models have gained popularity in unsupervised anomaly detection, achieving promising performance in both natural and medical imaging datasets. Building on this, we incorporate a vision-language model with a diffusion model for unsupervised anomaly detection in digital pathology, utilizing histopathology prompts during the reconstruction process. Our approach employs a set of pathology-related keywords associated with normal tissues to guide the reconstruction process, facilitating the differentiation between normal and abnormal tissues. To evaluate the effectiveness of the proposed method, we conduct experiments on a gastric lymph node dataset from a local hospital and assess its generalization ability under domain shift using a public breast lymph node dataset. The experimental results highlight the potential of the proposed method for unsupervised anomaly detection across various organs in digital pathology. Code: https://github.com/QuIIL/AnoPILaD.",
+  "authors": [
+    {
+      "name": "Wang, Jiamu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Byeon, Keunho",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Jinsol",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Anh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ahn, Sangjeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Sung Hak",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kwak, Jin Tae",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2270_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

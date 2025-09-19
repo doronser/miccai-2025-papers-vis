@@ -1,0 +1,58 @@
+{
+  "id": "miccai-3338",
+  "title": "Domain Generalization for Mammogram Classification by Suppressing Domain-Specific Features",
+  "abstract": "Mammogram is the gold standard for early breast cancer screening, and its integration with deep learning-based computer-aided diagnosis (CAD) models has demonstrated significant advantages in improving the accuracy of breast cancer diagnosis. However, due to differences in mammography acquisition protocols and scanner models, significant inter-domain variations exist in images obtained from different mammography devices.     As deep learning models tend to overfit to domain-specific feature representations during training, models trained on source domain    often experience notable performance degradation when applied to cross-domain data,  hindering their deployment in dynamic clinical settings. \nTherefore, this paper proposes a novel domain generalization approach for mammogram classification by suppressing domain-specific features (MC-SDS).    MC-SDS first employs an adaptive channel filter to identify and drop channels that have a tendency to capture domain-specific features to suppress domain-specific features. Then, by perturbing the low-frequency components, the model is encouraged to learn from the high-frequency parts, further suppressing the domain-specific features present in the low-frequency components.  Experiments conducted on a public dataset  and two internal datasets demonstrate that MC-SDS outperforms other benchmark methods.",
+  "authors": [
+    {
+      "name": "Chen, Jiqun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Luhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Wenzong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Weifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Zhiyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Baodi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3338_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1666",
+  "title": "SlimFormer-3D: A Layer-Adaptive Lightweight Transformer for Efficient 3D Medical Image Segmentation",
+  "abstract": "Transformer-based architectures demonstrate strong performance in medical image segmentation but face challenges due to computational redundancy and overparameterization, limiting their deployment in resource-constrained settings. This study identifies redundant computations at the block level, particularly in the deeper layers of transformer encoders, as well as in the token mixer and MLP within each layer, as quantified by cross-layer activation similarity. To operationalize these insights, we propose SlimFormer-3D, a lightweight U-shaped encoder-decoder framework that prunes redundant computations at a granular level. Using feature similarity metrics: Angular Distance and Centered Kernel Alignment (CKA), we locate minimally impactful layers and introduce gating factors to control token mixer and MLP module activations selectively. Experiments on BTCV, AMOS, and AbdomenCT-1K 3D abdominal CT datasets show SlimFormer-3D achieves competitive Dice scores while significantly reducing computational redundancy by 3.5x and cutting model parameters by approximately 83% compared to UNETR. Ablation studies confirm its balance between accuracy and efficiency, making it a promising solution for real-time 3D medical image segmentation.",
+  "authors": [
+    {
+      "name": "Hong, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xujiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mo, Jianqing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1666_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

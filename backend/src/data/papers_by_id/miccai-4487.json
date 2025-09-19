@@ -1,0 +1,69 @@
+{
+  "id": "miccai-4487",
+  "title": "General Methods Make Great Domain-specific Foundation Models: A Case-study on Fetal Ultrasound",
+  "abstract": "With access to large-scale, unlabeled medical datasets, researchers are confronted with two questions: Should they attempt to pretrain a custom foundation model on this medical data, or use transfer-learning from an existing generalist model? And, if a custom model is pretrained, are novel methods required? In this paper we explore these questions by conducting a case-study, in which we train a foundation model on a large regional fetal ultrasound dataset of 2M images. By selecting the well-established DINOv2 method for pretraining, we achieve state-of-the-art results on three fetal ultrasound datasets, covering data from different countries, classification, segmentation, and few-shot tasks. We compare against a series of models pretrained on natural images, ultrasound images, and supervised baselines. Our results demonstrate two key insights: (i) Pretraining on custom data is worth it, even if smaller models are trained on less data, as scaling in natural image pretraining does not translate to ultrasound performance. (ii) Well-tuned methods from computer vision are making it feasible to train custom foundation models for a given medical domain, requiring no hyperparameter tuning and little methodological adaptation. Given these findings, we argue that a bias towards methodological innovation should be avoided when developing domain specific foundation models under common computational resource constraints.",
+  "authors": [
+    {
+      "name": "Ambsdorf, Jakob",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Munk, Asbjørn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Llambias, Sebastian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Christensen, Anders N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mikolaj, Kamil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Balestriero, Randall",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tolsgaard, Martin G.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feragen, Aasa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nielsen, Mads",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4487_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

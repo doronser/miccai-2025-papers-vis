@@ -1,0 +1,63 @@
+{
+  "id": "miccai-3932",
+  "title": "Parameter-Efficient Fine-Tuning of 3D DDPM for MRI Image Generation Using Tensor Networks",
+  "abstract": "We address the challenge of parameter-efficient fine-tuning (PEFT) for three-dimensional (3D) U-Net-based denoising diffusion probabilistic models (DDPMs) in magnetic resonance imaging (MRI) image generation. Despite its practical significance, research on parameter-efficient representations of 3D convolution operations remains limited. To bridge this gap, we propose Tensor Volumetric Operator (TenVOO), a novel PEFT method specifically designed for fine-tuning DDPMs with 3D convolutional backbones. Leveraging tensor network modeling, TenVOO represents 3D convolution kernels with lower-dimensional tensors, effectively capturing complex spatial dependencies during fine-tuning with few parameters. We evaluate TenVOO on three downstream brain MRI datasets–ADNI, PPMI, and BraTS2021–by fine-tuning a DDPM pretrained on 59,830 T1-weighted brain MRI scans from the UK Biobank. Our results demonstrate that TenVOO achieves state-of-the-art performance in multi-scale structural similarity index measure (MS-SSIM), outperforming existing approaches in capturing spatial dependencies while requiring only 0.3% of the trainable parameters of the original model. Our code is available at https://github.com/xiaovhua/tenvoo.",
+  "authors": [
+    {
+      "name": "Li, Binghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Ziqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tanaka, Toshihisa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Aoki, Shigeki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Qibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Zhe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3932_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

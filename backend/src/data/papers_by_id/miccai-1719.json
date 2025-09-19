@@ -1,0 +1,46 @@
+{
+  "id": "miccai-1719",
+  "title": "Domain Generalization for Pulmonary Nodule Detection via Distributionally-Regularized Mamba",
+  "abstract": "Extending deep learning models to out-of-distribution (o.o.d.) data remains a persistent challenge, especially in domains like medical imaging with restricted data availability and limited data sharing. This challenge is particularly evident in pulmonary nodule detection, as the model struggles to distinguish nodules from the surrounding normal tissues across different data distributions. To address this issue, we propose a Distributionally Regularized Mamba Network (DRMNet). Inspired by Mamba, we propose a Feature-Augmented State-Space module that unifies pulmonary nodule features to effectively distinguish nodules from surrounding confounding tissues. Furthermore, a Region-Aware Distribution Alignment module is elaborately introduced to reduce disparities in feature distributions between domains. We construct a pulmonary nodule detection dataset, named Generalization for Pulmonary Nodule Detection (GPND), comprising diverse domains, including private and well-known public datasets. Extensive experiments conducted on GPND demonstrate that DRMNet outperforms state-of-the-art domain generalization methods. The code is available at \\url{https://github.com/TzhongBoyyy97/DRMNet}.",
+  "authors": [
+    {
+      "name": "Lan, Tianzhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Nan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yi, Zhang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Xiuyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Min",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1719_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

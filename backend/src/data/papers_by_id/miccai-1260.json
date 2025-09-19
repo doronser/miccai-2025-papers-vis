@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1260",
+  "title": "Explainable Classifier for Malignant Lymphoma Subtyping via Cell Graph and Image Fusion",
+  "abstract": "Lymphoma subtype classification has a direct impact on treatment and outcomes, necessitating models that are both accurate and explainable. This study proposes a novel explainable Multi-Instance Learning (MIL) framework that identifies subtype-specific Regions of Interest (ROIs) from Whole Slide Images (WSIs) while integrating features of cell distribution and image. Our framework simultaneously addresses three objectives: (1) indicating appropriate ROIs for each subtype, (2) explaining the frequency and spatial distribution of characteristic cell types, and (3) reaching accurate subtyping using both cell distribution and image modalities. Our method fuses cell graph and image features extracted for each patch in a WSI by a Mixture-of-Experts-based approach and classifies subtypes within an MIL framework. Experiments on a dataset of 1,233 WSIs demonstrate that our approach achieves state-of-the-art accuracy compared to ten other methods and provides region- and cell-level explanations that align with a pathologist’s perspective.",
+  "authors": [
+    {
+      "name": "Nishiyama, Daiki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miyoshi, Hiroaki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hashimoto, Noriaki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ohshima, Koichi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hontani, Hidekata",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Takeuchi, Ichiro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sakuma, Jun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1260_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

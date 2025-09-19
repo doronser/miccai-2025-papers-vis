@@ -1,0 +1,82 @@
+{
+  "id": "miccai-1879",
+  "title": "SemiVT-Surge: Semi-Supervised Video Transformer for Surgical Phase Recognition",
+  "abstract": "Accurate surgical phase recognition is crucial for computer-assisted interventions and surgical video analysis. Annotating long surgical videos is labor-intensive, driving research toward leveraging unlabeled data for strong performance with minimal annotations. Although self-supervised learning has gained popularity by enabling large-scale pretraining followed by fine-tuning on small labeled subsets, semi-supervised approaches remain largely underexplored in the surgical domain. In this work, we propose a video transformer-based model with a robust pseudo-labeling framework. Our method incorporates temporal consistency regularization for unlabeled data and contrastive learning with class prototypes, which leverages both labeled data and pseudo-labels to refine the feature space. Through extensive experiments on the private RAMIE (Robot-Assisted Minimally Invasive Esophagectomy) dataset and the public Cholec80 dataset, we demonstrate the effectiveness of our approach. By incorporating unlabeled data, we achieve state-of-the-art performance on RAMIE with a 4.9\\% accuracy increase and obtain comparable results to full supervision while using only 1/4 of the labeled data on Cholec80. Our findings establish a strong benchmark for semi-supervised surgical phase recognition, paving the way for future research in this domain.",
+  "authors": [
+    {
+      "name": "Li, Yiping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "de Jong, Ronald",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nasirihaghighi, Sahar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jaspers, Tim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van Jaarsveld, Romy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuiper, Gino",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van Hillegersberg, Richard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van der Sommen, Fons",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ruurda, Jelle",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Breeuwer, Marcel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Al Khalil, Yasmina",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Robotics",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science",
+    "Surgery -> Skill and Work Flow Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1879_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

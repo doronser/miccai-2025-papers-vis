@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3576",
+  "title": "Aorta Multi-class Segmentation via Anatomically Constrained Plane Detection",
+  "abstract": "Accurate multi-class segmentation of the aorta in medical CT images is essential for the effective diagnosis and treatment of blood flow abnormalities. \nHowever, achieving precise segmentation in multi-zone remains challenging due to the lack of visible boundaries and the similarity in intensity between zones. \nAlthough existing methods incorporate anatomical features such as global geometric constraints and landmark-based alignment, they often struggle when these features are difficult to extract, such as in regions with asymmetric deformation or extreme curvature due to dissection.\nThis limitation of relying solely on simple anatomical cues underscores the need to learn and model complex anatomical interrelationships for robust segmentation.\nTo overcome these challenges, we propose a plane detection-based segmentation framework that is constrained by anatomical features and their relationships to accurately detect planes between zones. \nSpecifically, our method detects planes by localizing centerpoints and regressing the corresponding normal vectors, while anatomical landmarks further refine the position and orientation of these planes. Additionally, anatomical regularization losses enforce geometric consistency among these components, thereby enhancing both accuracy and stability of the detected planes.\nThe entire framework is implemented as an end-to-end architecture, enabling efficient learning.\nThe experimental results on the AortaSeg24 dataset demonstrate that our approach achieves state-of-the-art performance.",
+  "authors": [
+    {
+      "name": "An, Jonghoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Dong Hyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, So Hyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Moon, Taejin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chung, Minyoung",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3576_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

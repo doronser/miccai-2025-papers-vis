@@ -1,0 +1,73 @@
+{
+  "id": "miccai-1554",
+  "title": "RIFNet: Bridging Modalities for Accurate and Detailed Ocular Disease Analysis",
+  "abstract": "Color fundus photography (CFP) is widely used in clinical practice for its convenience and accessibility. However, it faces challenges such as low image quality, limited depth information, susceptibility to artifacts and low contrast, which reduce diagnostic accuracy and hinder the detection of small lesions. Fluorescein angiography (FA), on the other hand, effectively highlights features such as vascular leakage and non-perfusion. However, it also has drawbacks, including health risks and the lack of color information. To address these challenges, we propose a multi-stage retinal image fusion framework, RIFNet, to improve image quality and diagnostic efficacy by integrating multimodal information from CFP and FA. First, to address the problem of missing modalities due to the difficulty of accessing FA as an intrusive inspection, we design a bi-stream generative subnetwork to generate pseudo FA images by pre-training with real CFP images as the generating condition, which effectively supplements the modality information. Subsequently, the color representations of different modalities are unified by color coding, and fed into the multimodal discriminative fusion network to generate the fused color-coded images. Finally, a multiscale reconstruction method is used to generate a high-resolution and high-contrast enhanced image. Experiments demonstrate that this multimodal fusion framework supplements FA information, reduces medical costs, and reveals lesion details unobservable with a single modality, supporting accurate ocular disease diagnosis.",
+  "authors": [
+    {
+      "name": "Li, Yuqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Qingshan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ju, Jianguo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Tianqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Meng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Ke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tham, Yih Chung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Huazhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zaiane, Osmar R.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1554_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

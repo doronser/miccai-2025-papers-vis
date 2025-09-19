@@ -1,0 +1,44 @@
+{
+  "id": "miccai-0460",
+  "title": "FOCUS: Feature Replay with Optimized Channel-Consistent Dropout for U-Net Skip-Connections",
+  "abstract": "We address image segmentation in the domain-incremental continual learning scenario, a use-case frequently encountered in medical diagnostics where privacy regulations and storage constraints prevent access to historical data. In this scenario, segmentation models must learn to cope with new domains (e.g., difference in imaging protocols or patient population) while maintaining performance on previously learned domains without full access to past data.\nFeature-based replay addresses the privacy concerns by only storing latent feature representations instead of original images. However, existing feature replay approaches have a critical limitation: they sacrifice U-Net skip-connections, which are essential for achieving high segmentation accuracy and fast convergence. This limitation significantly impacts clinical viability, especially when alternatives such as full model retraining or maintaining domain-specific models are available.\nTherefore, we propose feature replay with optimized channel-consistent dropout for U-Net skip-connections (FOCUS). FOCUS enables crucial skip-connections in feature replay while respecting privacy and storage constraints, and integrates recent domain generalization techniques based on data augmentation.\nEvaluation across two domain-incremental continual MRI segmentation settings demonstrates that FOCUS achieves substantial improvements (up to 21% average DSC) over existing methods, while saving only 0.5% of the original feature information per domain.",
+  "authors": [
+    {
+      "name": "Joham, Simon Johannes",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Thaler, Franz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hadzic, Arnela",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Urschler, Martin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Urology",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0460_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

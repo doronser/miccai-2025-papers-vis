@@ -1,0 +1,78 @@
+{
+  "id": "miccai-2333",
+  "title": "Self-adaptive Vision-Language Model for 3D Segmentation of Pulmonary Artery and Vein",
+  "abstract": "Accurate segmentation of pulmonary structures is crucial in clinical diagnosis, disease study, and treatment planning. Significant progress has been made in deep learning-based segmentation techniques, but most require large amount of labeled data for training. Consequently, developing precise segmentation methods that demand fewer labeled datasets is paramount in medical image analysis. We constructed PAV-Seg3D, the largest Pulmonary Arteriovenous 3D Segmentation Dataset to date (718 scans).The emergence of pre-trained vision-language foundation models, such as CLIP, recently opened the door for universal computer vision tasks. However, exploring these models for pulmonary artery-vein segmentation is still limited. This paper proposes a novel framework called LA-CAF, which adopts pre-trained CLIP as a strong feature extractor for generating the segmentation of 3D CT scans, while adaptively aggregating the cross-modality of text and image representations. We propose a specially designed adapter module to fine-tune pre-trained CLIP with a self-adaptive learning strategy to effectively fuse the two modalities of embeddings.  We validate LA-CAF on two datasets: PAV-Seg3D and the public PARSE2022 dataset. The experiments show that our method outperformed other state-of-the-art methods by a large margin.  The dataset and code will be made publicly available upon publication.",
+  "authors": [
+    {
+      "name": "Guo, Xiaotong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Deqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Haochen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sui, Zhilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Yanda",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2333_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3991",
+  "title": "Structure-Preserve Expansion for Medical Image Registration with Minimal Overlap",
+  "abstract": "Medical image registration relies on the overlapping regions between two images to calculate transformation parameters, thus posing a significant challenge for image registration with limited overlap. To overcome this challenge, this study proposes an image expansion solution by generating more overlapping regions to improve the registration performance between images with minimal overlap. As this is the first study to expand images for registration, we trained a generative network from scratch to avoid chaotic structures in the expanded regions. We proposed the Sequential Structure-Preserve Expansion (SSPE) framework to realize the expansion-based registration, where each image is present by a sliding scope and its expansion can be observed by sliding the scope. When given the current image and a sliding step, SSPE utilizes a generative network to predict the scope content of the next sliding position. Specially, we also bring in the gradient matching to maintain anatomical structures in the predicted scope. The performance of SSPE is evaluated on a public dataset of total-body CT images, which proves that our SSPE is significantly efficient in solving the registration difficulties caused by insufficient overlapping regions. The codes of our framework are made available at https://github.com/YongshengPan/Structure-Preserve-Expansion, and we will also publish software for user-friendly access and testing.",
+  "authors": [
+    {
+      "name": "Liu, Zaiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Yongsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3991_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

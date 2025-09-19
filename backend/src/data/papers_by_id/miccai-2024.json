@@ -1,0 +1,85 @@
+{
+  "id": "miccai-2024",
+  "title": "ThyroidXL: Advancing Thyroid Nodule Diagnosis with an Expert-Labeled, Pathology-Validated Dataset",
+  "abstract": "Thyroid nodules are among the most prevalent endocrine disorders, with incidence rates increasing in recent years. Ultrasonography remains the primary method for thyroid nodule diagnosis due to its non-invasive nature and cost-effectiveness; however, the process is subjective and skill-intensive. To assist radiologists, Computer-Aided Diagnosis systems (CAD) have been developed to provide a second opinion. Despite these advancements, the absence of publicly available medical datasets has resulted in inconsistent validation methods, deterring comparability across studies. This paper introduces ThyroidXL, an open benchmark dataset for thyroid nodule classification, segmentation, and detection. With over 11,000 images from more than 4,000 patients, the dataset—collected and annotated by expert radiologists at the Vietnam National Hospital of Endocrinology—stands as the largest publicly available resource for thyroid nodule diagnosis in terms of both patient count and image volume. Additionally, we provide multiple deep-learning baseline models on three key tasks, including malignancy classification, thyroid nodule detection, and segmentation. The proposed dataset and benchmark can serve as a foundational resource for advancing CAD system development, fostering reproducible research, and accelerating progress in thyroid nodule diagnosis. Our dataset can be accessed at: https://huggingface.co/datasets/hunglc007/ThyroidXL",
+  "authors": [
+    {
+      "name": "Duong , Viet Hung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vu, Huan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Phan, Huong Duong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Duc Quyen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pham, Duc Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Le, Quang Toan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Ba Sy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Do, Tien Dung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dinh, Viet Sang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Tien Cuong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pham, Huy Hoang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ngo, Dien Hy",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2024_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

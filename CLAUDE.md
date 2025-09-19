@@ -17,7 +17,7 @@ This repository implements a MICCAI 2025 Papers Visualization Webapp that allows
 
 ## Key Libraries and Dependencies
 - **paper-processor**: Data extraction from miccai.org
-- **visualization-engine**: Graph generation and clustering  
+- **visualization-engine**: Graph generation and clustering
 - **search-service**: Text search and filtering functionality
 - **sentence-transformers**: all-MiniLM-L6-v2 for paper embeddings
 - **D3.js**: Custom graph visualization with clustering
@@ -83,11 +83,5 @@ PYTHONPATH=. python -m src.lib.scibert_embeddings      # Generate embeddings
 ls -1 src/data/papers_by_id/*.json | wc -l    # Should show 1008 (1007 + index)
 ls -1 src/data/embeddings_by_id/*.npz | wc -l # Should show 1008 (1007 + stats)
 ```
-
-## Testing Strategy
-- Contract tests with OpenAPI validation
-- Integration tests with real MICCAI data
-- E2E tests for user scenarios (search, favorites, graph interaction)
-- Performance validation for large datasets
 
 For detailed implementation planning, see `/specs/001-plan-a-webapp/` directory.

@@ -1,0 +1,67 @@
+{
+  "id": "miccai-0184",
+  "title": "SPENet: Self-guided Prototype Enhancement Network for Few-shot Medical Image Segmentation",
+  "abstract": "Few-Shot Medical Image Segmentation (FSMIS) aims to segment novel classes of medical objects using only a few labeled images. Prototype-based methods have made significant progress in addressing FSMIS. However, they typically generate a single global prototype for the support image to match with the query image, overlooking intra-class variations. To address this issue, we propose a Self-guided Prototype Enhancement Network (SPENet). Specifically, we introduce a Multi-level Prototype Generation (MPG) module, which enables multi-granularity measurement between the support and query images by simultaneously generating a global prototype and an adaptive number of local prototypes. Additionally, we observe that not all local prototypes in the support image are beneficial for matching, especially when there are substantial discrepancies between the support and query images. To alleviate this issue, we propose a Query-guided Local Prototype Enhancement (QLPE) module, which adaptively refines support prototypes by incorporating guidance from the query image, thus mitigating the negative effects of such discrepancies. Extensive experiments on three public medical datasets demonstrate that SPENet outperforms existing state-of-the-art methods, achieving superior performance.",
+  "authors": [
+    {
+      "name": "Fan, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Xibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Anqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Hongyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Zhenghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Dawei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0184_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

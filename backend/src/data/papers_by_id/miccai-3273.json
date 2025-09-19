@@ -1,0 +1,40 @@
+{
+  "id": "miccai-3273",
+  "title": "DualPrompt-MedCap: A Dual-Prompt Enhanced Approach for Medical Image Captioning",
+  "abstract": "Medical image captioning via vision-language models has shown promising potential for clinical diagnosis assistance. However, generating contextually relevant descriptions with accurate modality recognition remains challenging. We present DualPrompt-MedCap, a novel dual-prompt enhancement framework that augments Large Vision-Language Models (LVLMs) through two specialized components: (1) a modality-aware prompt derived from a semi-supervised classification model pre-trained on medical question-answer pairs, and (2) a question-guided prompt leveraging biomedical language model embeddings. To address the lack of captioning ground truth, we also propose an evaluation framework that jointly considers spatial-semantic relevance and medical narrative quality. Experiments on multiple medical datasets demonstrate that DualPrompt-MedCap outperforms the baseline BLIP-3 by achieving a 22\\% improvement in modality recognition accuracy while generating more comprehensive and question-aligned descriptions. Our method enables the generation of clinically accurate reports that can serve as medical experts’ prior knowledge and automatic annotations for downstream vision-language tasks.",
+  "authors": [
+    {
+      "name": "Zhao, Yining",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prasad, Mukesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Braytee, Ali",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3273_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

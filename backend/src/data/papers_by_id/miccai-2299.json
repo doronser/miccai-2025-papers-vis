@@ -1,0 +1,71 @@
+{
+  "id": "miccai-2299",
+  "title": "RadGS-Reg: Registering Spine CT with Biplanar X-rays via Joint 3D Radiative Gaussians Reconstruction and 3D/3D Registration",
+  "abstract": "Computed Tomography (CT)/X-ray registration in image-guided navigation remains challenging because of its stringent requirements for high accuracy and real-time performance. Traditional “render and compare” methods, relying on iterative projection and comparison, suffer from spatial information loss and domain gap. 3D reconstruction from biplanar X-rays supplements spatial and shape information for 2D/3D registration, but current methods are limited by dense-view requirements and struggles with noisy X-rays. To address these limitations, we introduce RadGS-Reg, a novel framework for vertebral-level CT/X-ray registration through joint 3D Radiative Gaussians (RadGS) reconstruction and 3D/3D registration. Specifically, our biplanar X-rays vertebral RadGS reconstruction module explores learning-based RadGS reconstruction method with a Counterfactual Attention Learning (CAL) mechanism, focusing on vertebral regions in noisy X-rays. Additionally, a patient-specific pre-training strategy progressively adapts the RadGS-Reg from simulated to real data while simultaneously learning vertebral shape prior knowledge. Experiments on in-house datasets demonstrate the state-of-the-art performance for both tasks, surpassing existing methods. The code is available at: github.com/shenao1995/RadGS_Reg.",
+  "authors": [
+    {
+      "name": "Shen, Ao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Xueming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Junfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zeng, Qiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Ye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhengming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nong, Luming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Surgery -> Navigation",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2299_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

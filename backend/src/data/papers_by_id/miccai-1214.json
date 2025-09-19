@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1214",
+  "title": "Enforcing Geometric Constraints of Surface Normal and Pose for Self-supervised Monocular Depth Estimation on Laparoscopic Images",
+  "abstract": "Depth information is essential for 3D reconstruction in surgical scenes. Depth-pose-based self-supervised monocular depth estimation has advanced significantly but faces two challenges in laparoscopic scenes, leading to unreliable pixel matching during training. This also results in depth maps failing to preserve geometric structure when back-projected into 3D space. Second, limited movement space causes laparoscopic motion to involve pure complex rotations. It further complicates the relative pose estimation between adjacent views. To address these issues, we propose a novel self-supervised monocular depth estimation method guided by geometric constraints. We incorporate surface normal estimation with depth-normal consistency to establish a geometric constraint for predicted depth maps. Furthermore, we propose an uncertainty measure based on the distance from 3D points to a synthesized plane, reducing conversion bias from depth to normals. Moreover, we optimize pose estimation using a feature-matching process with a 4D score volume. Our method reduced absolute relative error by 19.0% and 3D completeness by 23.9% over the baseline. Our code is available.",
+  "authors": [
+    {
+      "name": "Li, Wenda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hayashi, Yuichiro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oda, Masahiro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kitasaka, Takayuki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Misawa, Kazunari",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mori, Kensaku",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Modalities -> Robotics",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1214_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

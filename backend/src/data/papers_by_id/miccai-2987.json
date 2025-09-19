@@ -1,0 +1,46 @@
+{
+  "id": "miccai-2987",
+  "title": "A New Paradigm for Low-dose PET/CT Reconstruction with Mamba-powered Progressive Network and Physics-informed Consistency",
+  "abstract": "Positron Emission Tomography (PET) is a powerful imaging technique but involves radiation exposure due to the use of radioactive tracers. A promising solution to mitigate this risk is reconstructing standard-dose PET (SPET) from low-dose PET (LPET). Previous studies have primarily focused on attenuation-corrected PET data; however, the attenuation correction process can amplify noise and artifacts, especially in low-dose scenarios. Additionally, PET scans are often paired with CT scans for attenuation correction, further contributing to radiation exposure. To address these challenges, we propose a new paradigm that reconstructs Attenuation-Corrected SPET (AC SPET) and standard-dose CT (SCT) images from the original Non-Attenuation-Corrected LPET (NAC LPET)) and low-dose CT (LCT) data through a collaborative reconstruction framework.\nKey components of our proposed method include: (1) a coarse-to-fine learning strategy, wherein specialized reconstruction basis is initially built by processing each modality individually, followed by Domain Adapters to facilitate cross-modal feature correlation; (2) a hybrid Mamba-powered Expert Network that effectively captures long-range dependencies between different regions of whole-body PET/CT images; and (3) a Physics-informed Mutual Loss function to enforce consistency between the PET and CT domains, ensuring robust and reliable reconstruction results. Extensive experiments on the collected dataset demonstrate that our model achieves diagnostic-quality reconstruction while significantly reducing radiation exposure.",
+  "authors": [
+    {
+      "name": "Tang, Zixin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Caiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Zhiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2987_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

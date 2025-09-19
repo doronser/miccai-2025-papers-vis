@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3113",
+  "title": "Fit Pixels, Get Labels: Meta-Learned Implicit Networks for Image Segmentation",
+  "abstract": "Implicit neural representations(INRs) have achieved remarkable successes in learning expressive yet compact signal representations. However, they are not naturally amenable to predictive tasks such as segmentation, where they must learn semantic structures over a distribution of signals. In this study, we introduce MetaSeg, a meta-learning framework to train INRs for medical image segmentation. MetaSeg uses an underlying INR that simultaneously predicts per pixel intensity values and class labels. It then uses a meta-learning procedure to find optimal initial parameters for this INR over a training dataset of images and segmentation maps, such that the INR can simply be fine-tuned to fit pixels of an unseen test image, and automatically decode its class labels. We evaluated MetaSeg on 2D and 3D Brain MRI segmentation tasks and report Dice scores comparable to commonly used U-Net models, but with 90% fewer parameters. MetaSeg offers a fresh, scalable alternative to traditional resource-heavy architectures such as U-Nets and vision transformers for medical image segmentation.",
+  "authors": [
+    {
+      "name": "Vyas, Kushal",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Veeraraghavan, Ashok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Balakrishnan, Guha",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3113_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

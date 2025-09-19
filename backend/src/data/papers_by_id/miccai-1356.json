@@ -1,0 +1,57 @@
+{
+  "id": "miccai-1356",
+  "title": "MorphoBoost: Morphology-Driven Boundary Enhancement Model for Accurate Segmentation of Langerhans Cells in Corneal Confocal Microscopy Images",
+  "abstract": "Accurate segmentation of Langerhans cells (LCs) in corneal confocal microscopy (CCM) images is crucial for diagnosing and monitoring various ocular and systemic diseases. However, existing segmentation methods often struggle with the misidentification of activated LCs and inaccurate boundary delineation due to their complex morphological features and background noise. In this paper, we propose a novel segmentation framework, MorphoBoost, which integrates morphology-driven data augmentation and boundary optimization loss to address these challenges. MorphoBoost employs a “localization before segmentation” strategy, enhancing the diversity of activated LCs via spatial and appearance transformations, and refining segmentation boundaries through pixel-level and image-level optimizations. Our methods achieve state-of-the-art performance in segmenting both LCs types, especially activated ones. It establishes a new benchmark with a 17.10\\% increase in the Dice coefficient and a 5.71 decrease in modified Hausdorff distance over previous methods. This is bolstered by validation on clinical data.",
+  "authors": [
+    {
+      "name": "Li, Hongshuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Ankai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Tiande",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Shijia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mou, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yitian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1356_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

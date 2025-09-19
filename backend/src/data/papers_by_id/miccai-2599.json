@@ -1,0 +1,51 @@
+{
+  "id": "miccai-2599",
+  "title": "Pathology Report Generation and Multimodal Representation Learning for Cutaneous Melanocytic Lesions",
+  "abstract": "Millions of melanocytic skin lesions are examined by pathologists each year, the majority of which concern common nevi (i.e., ordinary moles). While most of these lesions can be diagnosed in seconds, writing the corresponding pathology report is much more time-consuming. Automating part of the report writing could, therefore, alleviate the increasing workload of pathologists. In this work, we develop a vision-language model specifically for the pathology domain of cutaneous melanocytic lesions. The model follows the Contrastive Captioner framework and was trained and evaluated using a melanocytic lesion dataset of 42,512 H&E-stained whole slide images and 19,645 corresponding pathology reports. Our results show that the quality scores of model-generated reports were on par with pathologist-written reports for common nevi, assessed by an expert pathologist in a reader study. While report generation revealed to be more difficult for rare melanocytic lesion subtypes, the cross-modal retrieval performance for these cases was considerably better.",
+  "authors": [
+    {
+      "name": "Lucassen, Ruben T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Moonemans, Sander P. J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van de Luijtgaarden, Tijn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Breimer, Gerben E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Blokx, Willeke A. M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Veta, Mitko",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2599_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1980",
+  "title": "A Unified Missing Modality Imputation Model with Inter-Modality Contrastive and Consistent Learning",
+  "abstract": "Multi-modality magnetic resonance imaging (MRI) is widely used in the clinical diagnosis of brain tumors. However, the issue of missing modalities is frequently encountered in the real-world setting and can lead to the collapse of deep-learning-based automatic diagnosis algorithms that rely on full-modality images. To address this challenge, we propose a unified model capable of synthesizing missing modalities through any subsets of the full-modality images. Our method is a sequence-to-sequence prediction model that predicts the missing images by inter-modality correlation and modality-specific semantics. Specifically, we develop a dual-branch encoder, where both branches encode partially masked image tokens into low-dimensional features independently. A decoder then generates the target input images based on the fused encoder features. To strengthen the representative ability of encoder features, we propose a combination loss to improve the discriminative and consistency between diverse modality features. We evaluate our method on the BraTS 2023 dataset. Extensive quantitative and qualitative experiments demonstrate the high fidelity and utility of the synthesized images.",
+  "authors": [
+    {
+      "name": "Qi, Liangce",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yusi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yuqin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Weili",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Guanyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Zhengang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1980_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

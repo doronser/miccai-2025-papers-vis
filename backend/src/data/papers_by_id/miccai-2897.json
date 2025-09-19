@@ -1,0 +1,58 @@
+{
+  "id": "miccai-2897",
+  "title": "Graph Disentanglement Learning for fMRI Analysis: Decoupling Disease, Covariates, and Individual Variability",
+  "abstract": "Functional magnetic resonance imaging (fMRI) is a powerful tool for diagnosing neurological disorders. However, accurately distinguishing disease-related features from confounding covariates (e.g., age, gender, site) and individual variability remains a challenge. To tackle this problem, we propose a novel graph disentanglement learning (GDL) framework that decomposes the latent features from fMRI images into 3 components: disease-related features, covariate-related features, and individual variations. The covariate-related features are learned by aligning 2 subject similarity matrices between the features and the true covariates. The disease-related features are guided by a classification loss. We validate our method on 3 fMRI datasets: ADHD-200, schizophrenia (SCZ), and Presbycusis. The method outperforms existing approaches by an average of 0.5%, 1.7%, and 2.1% in accuracy on the 3 datasets respectively. Ablation studies confirm that our model is robust to hyperparameter selection. The disease-associated regions identified by our model align with established clinical findings. These results suggest that GDL is a promising tool for fMRI-based disease diagnosis and biomarker discovery. The code is publicly available at https://github.com/perpetualmachine/GDL_MICCAI.",
+  "authors": [
+    {
+      "name": "Zhang, Shengjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Zhuangzhuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Ziqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiao-Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2897_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

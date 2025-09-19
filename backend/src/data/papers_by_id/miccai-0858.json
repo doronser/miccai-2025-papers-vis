@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0858",
+  "title": "Guiding Quantitative MRI Reconstruction with Phase-wise Uncertainty",
+  "abstract": "Quantitative magnetic resonance imaging (qMRI) requires multi- phase acqui-sition, often relying on reduced data sampling and reconstruction algorithms to accelerate scans, which inherently poses an ill-posed inverse problem. While many studies focus on measuring uncertainty during this process, few explore how to leverage it to enhance reconstruction performance. In this paper, we in-troduce PUQ, a novel approach that pioneers the use of uncertainty infor-mation for qMRI reconstruction. PUQ employs a two-stage reconstruction and parameter fitting framework, where phase-wise uncertainty is estimated during reconstruction and utilized in the fitting stage. This design allows uncertainty to reflect the reliability of different phases and guide information integration during parameter fitting. We evaluated PUQ on in vivo T1 and T2 mapping datasets from healthy subjects. Compared to existing qMRI reconstruction methods, PUQ achieved the state-of-the-art performance in parameter map-pings, demonstrating the effectiveness of uncertainty guidance. Our code is available at https://github.com/Haozhoong/PUQ.",
+  "authors": [
+    {
+      "name": "Sun, Haozhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zhongsen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Chenlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Haokun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yajie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Huijun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0858_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

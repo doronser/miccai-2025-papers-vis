@@ -1,0 +1,44 @@
+{
+  "id": "miccai-4309",
+  "title": "CAPE: Connectivity-Aware Path Enforcement Loss for Curvilinear Structure Delineation",
+  "abstract": "Promoting the connectivity of curvilinear structures, such as\nneuronal processes in biomedical scans and blood vessels in CT images, remains a key challenge in semantic segmentation. Traditional pixel-wise loss functions, including cross-entropy and Dice losses, often fail to capture high-level topological connectivity, resulting in topological mistakes in graphs obtained from prediction maps. In this paper, we propose CAPE (Connectivity-Aware Path Enforcement), a novel loss function designed to enforce connectivity in graphs obtained from segmentation maps by optimizing a graph connectivity metric. CAPE uses the graph representation of the ground truth to select node pairs and determine their corresponding paths within the predicted segmentation through a shortest-path algorithm. Using this, we penalize both disconnections and false positive connections, effectively promoting the model to preserve topological correctness. Experiments on 2D and 3D datasets, including neuron and blood vessel tracing demonstrate that CAPE significantly improves topology-aware metrics and outperforms state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Esmaeilzadeh, Elyar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Garaaghaji, Ehsan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hallaji Azad, Farzad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oner, Doruk",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Eye",
+    "Modalities -> Microscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4309_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

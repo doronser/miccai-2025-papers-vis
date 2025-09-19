@@ -1,0 +1,40 @@
+{
+  "id": "miccai-5236",
+  "title": "You Can Detect It: Fetal Biometric Estimation Using Ellipse Detection",
+  "abstract": "The cardiothoracic diameter ratio (CTR) biometric in four-chamber ultrasound plane is often measured for diagnosing congenital heart disease. However, due to the commonly existing artifacts like acoustic shadowing, manual measurement can be time-consuming and labor-intensive task, and may results in high measurements variability. Presently, one of the most popular approaches is segmentation-based methods, which utilize deep learning networks to segment the cardiac and thoracic regions. Then, the metric is calculated through an ellipse fitting scheme. This is inefficient, and requires additional post-processing. To tackle the above problems, in this paper, we therefore present an one-stage ellipse detection network, namely EllipseDet, which detects the cardiac and thoracic regions in ellipse, and then automatically calculates the CTR biometric in four-chamber view. In particular, we formulate the network that detects the center of each object as points and regresses the ellipses’ parameters simultaneously. Besides, we propose a novel ellipse feature alignment module and Ellipse-IoU loss to further regulate the regression procedure. We have evaluated EllipseDet on a clinical echocardiogram dataset and the experimental results show that our proposed framework outperforms several state-of-the-art methods. As an open science, source code, images dataset and pre-trained weights are available at https://github.com/szuboy/FOCUS-dataset.",
+  "authors": [
+    {
+      "name": "Zhang, Hongyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Haoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Tingting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Songxiong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5236_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2409",
+  "title": "UniCross: Balanced Multimodal Learning for Alzheimer’s Disease Diagnosis by Uni-modal Separation and Metadata-guided Cross-modal Interaction",
+  "abstract": "Early and accurate diagnosis of Alzheimer’s disease (AD) is crucial for effective treatment and patient care. In clinical practice, physicians can achieve precise diagnoses through the integration of multimodal image information, and it is desired to develop automated diagnosis approaches based on the multimodal information. However, existing multimodal deep learning methods face a critical paradox: although models excel at leveraging joint features to improve task performance, they often neglect the optimization of independent representation capabilities for uni-modal. This shortcoming, known as Modality Laziness, stems from imbalanced modality contributions within conventional joint training frameworks, where models predominantly rely on dominant modalities and neglect to learn weaker ones. To address this challenge, we propose UniCross, a novel balanced multimodal learning paradigm. Specifically, UniCross employs separate learning pathways with specialized training objectives for each modality to ensure comprehensive uni-modal feature learning. In addition, we design a Metadata Weighted Contrastive Loss (MWCL) to facilitate effective cross-modal information interaction. The MWCL leverages patient metadata (e.g., age, gender, and years of education) to adaptively calibrate both cross-modal and intra-modal feature distances between individuals. We validated our approach through extensive experiments on the ADNI dataset, using structural MRI and FDG-PET modalities for AD diagnosis and mild cognitive impairment (MCI) conversion prediction tasks. The results demonstrate that UniCross not only achieves state-of-the-art overall performance, but also significantly improves the diagnosis performance when only a single modality is available. Our code is available at https://github.com/Alita-song/UniCross",
+  "authors": [
+    {
+      "name": "Yin, Lisong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Chuyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tiantian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jinglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Tianyi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2409_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

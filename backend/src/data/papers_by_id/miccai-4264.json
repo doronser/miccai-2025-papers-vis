@@ -1,0 +1,44 @@
+{
+  "id": "miccai-4264",
+  "title": "Multi-subject Orthogonal Sparse Matrix Decomposition Method for Extracting Individual Brain Functional Networks",
+  "abstract": "Brain functional network (FN) extraction is fundamental to advancing our understanding of brain function, providing critical insights into the neural mechanisms underlying cognition and behavior. Data-driven FN analysis methods have been developed to analyze functional magnetic resonance imaging (fMRI) data. However, to ensure cross-subject correspondence, group-level analyses of these methods sacrifice subject-specific variation. This trade-off between group-level alignment and subject-specific discrepancies hinders the accurate characterization of individual brain FNs. In this study, we propose a multi-subject orthogonal sparse matrix decomposition method without the need for group-level analysis, which simultaneously extracts both group-level FNs and individual FNs with cross-subject correspondence. We introduce a novel quasi-orthogonality constraint that enhances the linear independence of FNs, ensuring effective extraction of FNs, while enabling precise control over FN spatial scale. Additionally, by further incorporating a sparsity constraint, our method effectively minimizes spatial overlap between FNs, resulting in sparse representations. For simulated datasets, our method outperforms comparison methods, supporting its low parameter sensitivity and superior ability to extract FNs and time courses. Application to multi-site fMRI datasets, comprising 233 healthy controls (HCs) and 205 schizophrenia patients (SZs), validates the reproducibility of FNs extracted by our method. The results underscore the method’s ability to preserve both cross-subject correspondence and individual variability. Overall, our method advances fMRI analytic capabilities by reconciling population-level consistency with individualized neural signatures, offering enhanced discriminative power for investigating neuropsychiatric disorder mechanisms and brain function.",
+  "authors": [
+    {
+      "name": "He, Xingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Calhoun, Vince D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van Erp, Theo G. M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Yuhui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Uncertainty",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4264_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

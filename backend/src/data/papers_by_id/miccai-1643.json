@@ -1,0 +1,66 @@
+{
+  "id": "miccai-1643",
+  "title": "Multi-task Screening for Cervical Diseases via Feature Routing and Asymmetric Distillation",
+  "abstract": "Cervical diseases present a significant global health challenge, especially in resource-limited regions with scarce specialized healthcare. Traditional analysis methods for thin-prep cytologic tests and whole slide images are hindered by their reliance on time-consuming processes and expert knowledge. Although AI-driven approaches have advanced single-task screening, they often face difficulties adapting to multi-task workflows and handling extreme class imbalance, thereby limiting their practical deployment in real clinical settings. To address these challenges, we propose a novel framework, MECDS, for multi-task early screening of cervical diseases. \nSpecifically, we design dynamic feature routing to prevent inter-task interference and selectively process task-relevant features. Furthermore, we employ asymmetric attention levels during knowledge distillation to address class imbalance, thus enhancing performance across diverse classes. Our extensive experiments on a large-scale dataset comprising 29,774 whole slide images demonstrate that MECDS surpasses existing single-task and multi-task models across three key screening tasks: cervical cancer, candidiasis, and clue cell detection. Additionally, MECDS exhibits remarkable extensibility, allowing for the efficient integration of novel diagnostic tasks without the need for exhaustive retraining. This unified framework holds great promise for improving comprehensive screening programs in resource-constrained healthcare environments, potentially advancing early detection and improving health outcomes. Our code is released at https://github.com/peter-fei/MECDS.",
+  "authors": [
+    {
+      "name": "Jiang, Haotian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Haolin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Jiangdong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Mengjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Zhenrong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fei, Manman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lichi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1643_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

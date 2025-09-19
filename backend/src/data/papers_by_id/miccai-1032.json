@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1032",
+  "title": "On the Interplay of Human-AI Alignment, Fairness, and Performance Trade-offs in Medical Imaging",
+  "abstract": "Deep neural networks excel in medical imaging but remain prone to biases, leading to fairness gaps across demographic groups. We provide the first systematic exploration of Human-AI alignment and fairness in this domain. Our results show that incorporating human insights consistently reduces fairness gaps and enhances out-of-domain generalization, though excessive alignment can introduce performance trade-offs,  emphasizing the need for calibrated strategies.  These findings highlight Human-AI alignment as a promising approach for developing fair, robust, and generalizable medical AI systems, striking a balance between expert guidance and automated efficiency. Code will be made available at ***.",
+  "authors": [
+    {
+      "name": "Luo, Haozhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Ziyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shu, Shelley Zixin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mortanges, Aurélie Pahud de",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Berke, Robert",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Reyes, Mauricio",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1032_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4024",
+  "title": "Conditional Graph Diffusion with Topological Constraints for Brain Network Generation",
+  "abstract": "The acquisition of structural brain network data is inherently challenging due to high costs of Diffusion Tensor Imaging (DTI) and the complexity of data processing such as tractography. Moreover, medical datasets often exhibit severe class imbalance where the sample size of healthy subjects highly exceeds that of diseased.  While recent graph generation models offer a potential solution, its application to brain networks is understudied as they often underestimate preserving topological feature which is an essential biomarker. To address these limitations, we propose a conditional graph diffusion model that ensures high-fidelity graph generation by leveraging persistent homology. Specifically, we introduce a Conditional Graph Diffusion (ConGD) method that utilizes Condition Infused Attention (CIA) module with class conditioning, to enable the targeted synthesis of brain networks, and Topology Aligning (TA) regularization to enforce topological consistency. Experiments on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset demonstrate that our approach provides high-fidelity synthetic brain networks under label conditions, which are further validated for improving predictive performance through downstream graph classification tasks.",
+  "authors": [
+    {
+      "name": "Park, Joonhyuk",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Donghyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Guorong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Won Hwa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4024_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

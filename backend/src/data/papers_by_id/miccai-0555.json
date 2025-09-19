@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0555",
+  "title": "RefineSeg: Dual Coarse-to-Fine Learning for Medical Image Segmentation",
+  "abstract": "High-quality pixel-level annotations of medical images are essential for supervised segmentation tasks, but obtaining such annotations is costly and requires medical expertise. To address this challenge, We propose a novel segmentation framework that relies entirely on coarse annotations, encompassing both target and complementary labels, despite their inherent noise. \nThe framework works by introducing transition matrices in order to model the noise in the coarse annotations. By jointly training on multiple sets of annotations, it progressively refines the network’s outputs and infers the true segmentation distribution, achieving a robust approximation of precise annotations through matrix-based modeling. To validate the flexibility and effectiveness of the proposed method, we demonstrate the results on two public cardiac imaging datasets, ACDC and MSCMRseg, and further evaluate its performance on the UK Biobank dataset. Experimental results indicate that our method achieves segmentation performance that surpasses state-of-the-art weakly supervised methods and closely matches fully supervised approach. Moreover, our method offers a promising pathway for making it feasible to train large medical segmentation models, e.g., MedSAM \\cite{medsam}, with minimal manual labeling effort while maintaining high performance.",
+  "authors": [
+    {
+      "name": "Du, Anghong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Aung, Nay",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arvanitis, Theodoros N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Piechnik, Stefan K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lima, Joao A. C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Petersen, Steffen E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Le",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0555_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

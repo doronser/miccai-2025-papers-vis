@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1500",
+  "title": "Lifespan Cortical Surface Reconstruction from Thick-Slice Clinical MRI",
+  "abstract": "Accurately characterizing brain morphological changes throughout human lifespan is crucial for understanding brain development, aging, and disorders. At the core of this endeavor lies cortical surface reconstruction (CSR), which underpins the computation of essential brain morphological features. How-ever, existing CSR methods face two major limitations. First, cortical surfac-es are typically reconstructed from 3D MRI data with high isotropic resolu-tion, which is confined to research settings. In contrast, clinical MRI scans are collected with high in-plane but low through-plane resolution. Second, most CSR pipelines are designed either for adult or pediatric populations, re-stricting their applicability across the lifespan. To this end, we develop a deep learning framework that harnesses MRI super-resolution (SR) as a bridging mechanism, leveraging the complementary information SR provides to jointly perform SR and CSR with a coarse-to-fine strategy. Specifically, we introduce a dual-decoder age-conditioned temporal attention network (DATAN) with a shared encoder, which simultaneously performs CSR and SR from thick-slice clinical MRI. By jointly training on the SR task, the shared encoder captures richer cortical features, thereby enhancing CSR per-formance. Through a two-stage coarse-to-fine approach, incremental refine-ments in the SR output progressively restore fine-scale details otherwise lost in low-resolution scans, ultimately improving CSR fidelity. Furthermore, to facilitate accurate CSR across the lifespan, we exploit the age-conditioning module of our framework and train our model on a large, diverse MRI da-taset spanning ages from 1 to 100 years. Experimental results demonstrate that our method, despite requiring only thick-slice clinical MRI scans, achieves consistently improved CSR performance across the entire human lifespan.",
+  "authors": [
+    {
+      "name": "Dong, Xiuyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Kaibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Zhengwang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Weili",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Gang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1500_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

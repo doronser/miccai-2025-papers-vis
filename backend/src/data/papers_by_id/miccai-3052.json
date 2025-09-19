@@ -1,0 +1,56 @@
+{
+  "id": "miccai-3052",
+  "title": "Learning Explainable Imaging-Genetics Associations Related to a Neurological Disorder",
+  "abstract": "While imaging-genetics holds great promise for unraveling the complex interplay between brain structure and genetic variation in neurological disorders, traditional methods are limited to simplistic linear models or to black-box techniques that lack interpretability. In this paper, we present NeuroPathX, an explainable deep learning framework that uses an early fusion strategy powered by cross-attention mechanisms to capture meaningful interactions between structural variations in the brain derived from MRI and established biological pathways derived from genetics data. To enhance interpretability and robustness, we introduce two loss functions over the attention matrix – a sparsity loss that focuses on the most salient interactions and a pathway similarity loss that enforces consistent representations across the cohort. We validate NeuroPathX on both autism spectrum disorder and Alzheimer’s disease. Our results demonstrate that NeuroPathX outperforms competing baseline approaches and reveals biologically plausible associations linked to the disorder. These findings underscore the potential of NeuroPathX to advance our understanding of complex brain disorders.",
+  "authors": [
+    {
+      "name": "Wang, Jueqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jacokes, Zachary",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Van Horn, John Darrell",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schatz, Michael C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pelphrey, Kevin A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Venkataraman, Archana",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3052_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

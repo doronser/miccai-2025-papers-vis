@@ -1,0 +1,52 @@
+{
+  "id": "miccai-4443",
+  "title": "EchoViewCLIP: Advancing Video Quality Control through High-performance View Recognition of Echocardiography",
+  "abstract": "Echocardiography is a critical imaging technique for diagnosing cardiac diseases, requiring accurate view recognition to support clinical analysis. Despite advancements in deep learning for automating this task, existing models face two major limitations: they support only a limited number of cardiac views, insufficient for complex cardiac diseases, and they inadequately handle out-of-distribution (OOD) samples, often misclassifying them into generic categories. To address these issues, we present EchoViewCLIP, a novel framework for fine-grained cardiac view recognition and OOD detection. Built on our collected large-scale dataset annotated with 38 standard views and OOD data, EchoViewCLIP integrates a Temporal-informed Multi-Instance Learning (TML) module to preserve temporal information and identify key frames, along with a Negation Semantic-Enhanced (NSE) Detector to effectively reject OOD views. Additionally, we introduce a quality assessment branch to evaluate the quality of detected in-distribution (ID) views, enhancing the reliability of echocardiographic analysis. Our model achieves 96.1% accuracy across 38 view recognition tasks. The code is available at https://github.com/xmed-lab/EchoViewCLIP.",
+  "authors": [
+    {
+      "name": "Song, Shanshan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Honglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Taoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fei, Hongwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4443_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

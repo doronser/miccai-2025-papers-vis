@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2121",
+  "title": "VesselSDF: Distance Field Priors for Vascular Network Reconstruction",
+  "abstract": "Accurate segmentation of vascular networks from sparse CT scan slices remains a significant challenge in medical imaging, particularly due to the thin, branching nature of vessels and the inherent sparsity between imaging planes. Existing deep learning approaches, based on binary voxel classification, often struggle with structural continuity and geometric fidelity. To address this challenge, we present VesselSDF, a novel framework that leverages signed distance fields (SDFs) for robust vessel reconstruction. Our method reformulates vessel segmentation as a continuous SDF regression problem, where each point in the volume is represented by its signed distance to the nearest vessel surface. This continuous representation inherently captures the smooth, tubular geometry of blood vessels and their branching patterns. We obtain accurate vessel reconstructions while eliminating common SDF artifacts such as floating segments thanks to our adaptive Gaussian regularizer which ensures smoothness in regions far from vessel surfaces while producing precise geometry near the surface boundaries. Our experimental results demonstrate that VesselSDF significantly outperforms existing methods and preserves vessel geometry and connectivity, enabling more reliable vascular analysis in clinical settings.",
+  "authors": [
+    {
+      "name": "Esposito, Salvatore",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rebain, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Onken, Arno",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Changjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mac Aodha, Oisin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2121_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

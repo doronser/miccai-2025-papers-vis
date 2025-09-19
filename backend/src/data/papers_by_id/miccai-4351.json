@@ -1,0 +1,48 @@
+{
+  "id": "miccai-4351",
+  "title": "PSAT: Pediatric Segmentation Approaches via Adult Augmentations and Transfer Learning",
+  "abstract": "Pediatric medical imaging presents unique challenges due to significant anatomical and developmental differences compared to adults. Direct application of segmentation models trained on adult data often yields suboptimal performance, particularly for small or rapidly evolving structures. To address these challenges, several strategies leveraging the nnU-Net framework have been proposed, differing along four key axes:\n(i) the fingerprint dataset (adult, pediatric, or a combination thereof) from which the Training Plan — including the network architecture—is derived;\n(ii) the Learning Set (adult, pediatric, or mixed),\n(iii) Data Augmentation parameters, and\n(iv) the Transfer learning method (fine-tuning versus continual learning).\nIn this work, we introduce PSAT (Pediatric Segmentation Approaches via Adult Augmentations and Transfer learning), a systematic study that investigates the impact of these axes on segmentation performance. We benchmark the derived strategies on two pediatric CT datasets and compare them with state-of-the-art methods, including a commercial radiotherapy solution. \nPSAT highlights key pitfalls and provides actionable insights for improving pediatric segmentation.\nOur experiments reveal that a training plan based on an adult fingerprint dataset is misaligned with pediatric anatomy—resulting in significant performance degradation, especially when segmenting fine structures—and that continual learning strategies mitigate institutional shifts, thus enhancing generalization across diverse pediatric datasets.\nThe code is available at https://github.com/ICANS-Strasbourg/PSAT.",
+  "authors": [
+    {
+      "name": "Kirscher, Tristan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Faisan, Sylvain",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Coubez, Xavier",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Barrier, Loris",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meyer, Philippe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4351_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "miccai-3517",
+  "title": "ReCo-I2P: An Incomplete Supervised Lymph Node Segmentation Framework Based on Orthogonal Partial-instance Annotation",
+  "abstract": "Quantitative analysis of lymph node volume is instrumental in the diagnosis and treatment of cancer. However, automatic segmentation models for lymph nodes necessitate pixel-level labeling, which is both time-consuming and labor-intensive. The scarcity of pixel-level annotations has thus spurred interest in label-efficient learning as a potential solution. Considering the variance of shapes and locations, and the low-contrast appearance of lymph nodes in computed tomography scans, we propose a new incomplete annotation strategy called orthogonal partial-instance annotation, in which only two orthogonal slices of a small portion of lymph nodes are annotated. To segment as many lymph nodes as possible from such sparse annotations, we propose a prototype-based label-efficient learning framework with a specifically designed loss. Specifically, we extract intra-batch prototypes from the output features of the encoder and store inter-batch prototypes using a momentum-smoothing approach. To re-inject the extracted information from the two kinds of prototypes, we introduce a feature augmentation module that utilizes the extracted prototypes to enhance features. To further complement the predictions generated from enhanced features with those from original features, we design a reliability-based co-teaching strategy based on feature similarity. Experiments demonstrate that our proposed framework outperforms other methods on two mediastinal lymph nodes datasets. Our implementation is available at https://github.com/HiLab-git/WCODE-PIA.",
+  "authors": [
+    {
+      "name": "Wang, Litingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Ping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Wenjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shichuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guotai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3517_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

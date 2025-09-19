@@ -1,0 +1,60 @@
+{
+  "id": "miccai-2947",
+  "title": "Robust Deep Learning for Myocardial Scar Segmentation in Cardiac MRI with Noisy Labels",
+  "abstract": "The accurate segmentation of myocardial scars from cardiac MRI is essential for clinical assessment and treatment planning. In this study, we propose a robust deep-learning pipeline for fully automated myocardial scar detection and segmentation by fine-tuning state-of-the-art models. The method explicitly addresses challenges of label noise from semi-automatic annotations, data heterogeneity, and class imbalance through the use of Kullback-Leibler loss and extensive data augmentation. We evaluate the model’s performance on both acute and chronic cases and demonstrate its ability to produce accurate and smooth segmentations despite noisy labels. In particular, our approach outperforms state-of-the-art models like nnU-Net and shows strong generalizability in an out-of-distribution test set, highlighting its robustness across various imaging conditions and clinical tasks. These results establish a reliable foundation for automated myocardial scar quantification and support the broader clinical adoption of deep learning in cardiac imaging.The codes\nare available at: https://github.com/Danialmoa/YoloSAM.",
+  "authors": [
+    {
+      "name": "Moafi, Aida",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Moafi, Danial",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mirkes, Evgeny M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "McCann, Gerry P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alatrany, Abbas S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arnold, Jayanth Ranjit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mehdipour Ghazi, Mostafa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2947_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

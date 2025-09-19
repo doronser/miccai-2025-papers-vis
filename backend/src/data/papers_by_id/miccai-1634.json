@@ -1,0 +1,61 @@
+{
+  "id": "miccai-1634",
+  "title": "Lymphoma Prognosis with Lesion-Anatomy Context Fusion and Attention-Based Multi-Lesion Aggregation",
+  "abstract": "Early identification of lymphoma patients with poor prognosis is crucial to determining personalized treatment plans and improving prognosis. Currently, commonly used prognostic biomarkers include clinical variables such as International Prognostic Index. Quantitative parameters based on PET/CT and deep learning methods have also shown promising results. However, there are still several challenges in PET/CT-based prognostic studies: heterogeneity in the number and location of lesions, insufficient representation of lesion features, and the lack of anatomical context modeling of the lesions. We propose a novel framework named LAMP, with lesion-anatomy context fusion and attention-based multi-lesion aggregation as its two key components. The former takes into account information about the surrounding anatomical organs of the lesions to improve their representation. The latter treats each lesion region as an instance, assigning attention scores that reflect the contribution of each lesion, and aggregates them accordingly. A total of 229 lymphoma patients were collected to evaluate our model. In prediction tasks for progression-free survival and overall survival, the 5-fold cross-validation C-index is 0.791 and 0.828, respectively, outperforming existing models based on clinical variables and deep learning. LAMP has the potential to become a clinical auxiliary tool to differentiate patients with varying risk levels, facilitating the development of personalized treatment plans",
+  "authors": [
+    {
+      "name": "Zhang, Song",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiajin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Liheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Dakai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Shenmiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Ke",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1634_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "miccai-4940",
+  "title": "Edge-Aware Hierarchical Graph Transformer to Decode Brain Arterial Network",
+  "abstract": "Many biomedical data exhibit intrinsic graph-like properties, making graph neural networks (GNNs) widely adopted modeling tools. The brain arterial network (BAN) represents the most complex arterial network in humans, where conventional GNNs struggle to capture critical long-range relationships. Recent graph transformers have enabled modeling of these long-range dependencies through attention mechanisms; however, they face challenges in incorporating hierarchical information, especially when strong anatomical priors exist within the graph structure. While some approaches have attempted to integrate hierarchical information into graph transformers, they primarily focus on node feature aggregation, despite BAN’s most clinically significant features residing in edges rather than nodes. To address these limitations, we propose a hierarchical graph transformer (HGT) with edge-aware structural encoding that better incorporates anatomical and multi-scale structural information. Our approach achieves state-of-the-art performance across all 11 tasks. This work lays the foundation for individualized risk assessment that complements traditional systemic risk evaluation methods.",
+  "authors": [
+    {
+      "name": "Zhang, Kaiyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Wenjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Taewon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Zhiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhensen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Angie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Xihai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hatsukami, Thomas S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mossa-Basha, Mahmud",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Balu, Niranjan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Chun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Vasculature",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4940_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

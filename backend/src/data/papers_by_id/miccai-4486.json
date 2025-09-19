@@ -1,0 +1,64 @@
+{
+  "id": "miccai-4486",
+  "title": "CBrain: Cross-Modal Learning for Brain Vigilance Detection in Resting-State fMRI",
+  "abstract": "Detecting human vigilance states (e.g., natural shifts between alertness and drowsiness) from functional magnetic resonance imaging (fMRI) data can provide novel insight into the whole-brain patterns underlying these critical states. Moreover, as a person’s vigilance levels are closely tied to their behavior and brain activity, vigilance state can strongly influence the results of fMRI studies. Therefore, the ability to annotate fMRI scans with vigilance information can also enable clearer and more robust results in fMRI research. However, well-established vigilance indicators are derived from other modalities such as behavioral responses, electroencephalography (EEG), and pupillometry, which are not typically available in fMRI data collection. While previous works indicate the promise of distinguishing vigilance states from fMRI alone, EEG data can provide reliable vigilance indicators that complement and augment fMRI domain information. Here, we propose CBrain: Cross-modal learning for Brain vigilance detection in resting-state fMRI. Our model transfers EEG vigilance information into an fMRI latent space in training, and predicts human vigilance states using only fMRI data in testing, addressing the need for external vigilance indicators. Experimental results demonstrate CBrain’s ability to predict vigilance states across different individuals at a granularity of 10-fMRI-frames with an 81.07% mF1 score on a test set of unseen subjects. Additionally, our generalization experiments highlight the model’s potential to estimate vigilance in an unseen task and in resting-state fMRI scans collected with a different scanner at a different site. Source code: https://github.com/neurdylab/CBrain.",
+  "authors": [
+    {
+      "name": "Li, Chang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pourmotabbed, Haatef",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shengchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Salas, Jorge A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Goodale, Sarah E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bayrak, Roza G.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Catie",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4486_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

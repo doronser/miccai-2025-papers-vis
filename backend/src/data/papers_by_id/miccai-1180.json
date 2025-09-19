@@ -1,0 +1,62 @@
+{
+  "id": "miccai-1180",
+  "title": "PathVG: A New Benchmark and Dataset for Pathology Visual Grounding",
+  "abstract": "With the rapid development of computational pathology, many AI-assisted diagnostic tasks have emerged. Cellular nuclei segmentation can segment various types of cells for downstream analysis, but it relies on predefined categories and lacks flexibility. Moreover, pathology visual question answering can perform image-level understanding but lacks region-level detection capability. To address this, we propose a new benchmark called Pathology Visual Grounding (PathVG), which aims to detect regions based on expressions with different attributes. To evaluate PathVG, we create a new dataset named RefPath which contains 27,610 images with 33,500 language-grounded boxes. Compared to visual grounding in other domains, PathVG presents pathological images at multi-scale and contains expressions with pathological knowledge. In the experimental study, we found that the biggest challenge was the implicit information underlying the pathological expressions. Based on this, we proposed Pathology Knowledge-enhanced Network (PKNet) as the baseline model for PathVG. PKNet leverages the knowledge-enhancement capabilities of Large Language Models (LLMs) to convert pathological terms with implicit information into explicit visual features, and fuses knowledge features with expression features through the designed Knowledge Fusion Module (KFM). The proposed method achieves state-of-the-art performance on the PathVG benchmark. We will release our dataset and methods upon the acceptance of the paper. The source code and dataset have been available at https://github.com/ssecv/PathVG.",
+  "authors": [
+    {
+      "name": "Zhong, Chunlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hao, Shuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Junhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Xiaona",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Jiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nie, Xiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, He",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Xiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1180_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

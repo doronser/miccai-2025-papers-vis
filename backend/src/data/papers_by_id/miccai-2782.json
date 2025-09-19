@@ -1,0 +1,62 @@
+{
+  "id": "miccai-2782",
+  "title": "Bridging the Gap in Missing Modalities: Leveraging Knowledge Distillation and Style Matching for Brain Tumor Segmentation",
+  "abstract": "Accurate and reliable brain tumor segmentation, particularly when dealing with missing modalities, remains a critical challenge in medical image analysis. Previous studies have not fully resolved the challenges of tumor boundary segmentation insensitivity and feature transfer in the absence of key imaging modalities. In this study, we introduce MST-KDNet, aimed at addressing these critical issues. Our model features Multi-Scale Transformer Knowledge Distillation to effectively capture attention weights at various resolutions, Dual-Mode Logit Distillation to improve the transfer of knowledge, and a Global Style Matching Module that integrates feature matching with adversarial learning. Comprehensive experiments conducted on the BraTS and FeTS 2024 datasets demonstrate that MST-KDNet surpasses current leading methods in both Dice and HD95 scores, particularly in conditions with substantial modality loss. Our approach shows exceptional robustness and generalization potential, making it a promising candidate for real-world clinical applications. Our source code is available at https://anonymous.4open.science/r/MST-KDNet-FB17.",
+  "authors": [
+    {
+      "name": "Zhu, Shenghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yifei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Weihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuanhan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Chang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Feiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Changmiao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2782_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "miccai-4655",
+  "title": "One For All: A Unified Approach to Classification and Self-Explanation",
+  "abstract": "The integration of deep learning into medical vision applications has led to a growing demand for interpretable predictions. Typically, classification and explainability are treated as separate processes, with explainability methods applied post hoc to pre-trained classifiers. However, this decoupling introduces additional computational costs and may lead to explanations misaligned with the underlying model. In this paper, we propose One For All (OFA), an efficient, single-stage approach that jointly optimizes classification accuracy and self-explanation during training. OFA achieves this through a multi-objective framework, eliminating the need for separate explainability models while ensuring faithful and robust explanations. Extensive experiments on medical datasets confirm that OFA delivers competitive classification performance while providing high-quality, inherently interpretable explanations, making it a scalable and versatile solution for fully explainable classification.",
+  "authors": [
+    {
+      "name": "Naouar, Mehdi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vogt, Yannick",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Boedecker, Joschka",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kalweit, Gabriel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kalweit, Maria",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Eye",
+    "Body -> Lung",
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Microscopy",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4655_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

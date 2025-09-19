@@ -1,0 +1,44 @@
+{
+  "id": "miccai-1277",
+  "title": "Learning Disease State from Noisy Ordinal Disease Progression Labels",
+  "abstract": "Learning from noisy ordinal labels is a key challenge in medical imaging. In this work, we ask whether ordinal disease progression labels (better, worse, stable) can be used to learn a representation allowing to classify disease state. For neovascular age-related macular degeneration (nAMD), we cast the problem of modeling disease progression between medical visits as a classification task with ordinal ranks. To enhance generalization, we tailor our model to the problem setting by (1) independent image encoding, (2) antisymmetric logit space equivariance, and (3) ordinal scale awareness. In addition, we address label noise by learning an uncertainty estimate for loss re-weighting. Our approach learns an interpretable disease representation enabling strong few-shot performance for the related task of nAMD activity classification from single images, despite being trained only on image pairs with ordinal disease progression labels.",
+  "authors": [
+    {
+      "name": "Schmidt, Gustav",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heidrich, Holger",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Berens, Philipp",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Müller, Sarah",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1277_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

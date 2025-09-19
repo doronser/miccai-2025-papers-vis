@@ -1,0 +1,55 @@
+{
+  "id": "miccai-0634",
+  "title": "PRETI: Patient-Aware Retinal Foundation Model via Metadata-Guided Representation Learning",
+  "abstract": "Retinal foundation models have significantly advanced retinal image analysis by leveraging self-supervised learning to reduce dependence on labeled data while achieving strong generalization. Many recent approaches enhance retinal image understanding using report supervision, but obtaining clinical reports is often costly and challenging. In contrast, metadata (e.g., age, gender) is widely available and serves as a valuable resource for analyzing disease progression. To effectively incorporate patient-specific information, we propose PRETI, a retinal foundation model that integrates metadata-aware learning with robust self-supervised representation learning. We introduce Learnable Metadata Embedding (LME), which dynamically refines metadata representations. Additionally, we construct patient-level data pairs, associating images from the same individual to improve robustness against non-clinical variations. To further optimize retinal image representation, we propose Retina-Aware Adaptive Masking (RAAM), a strategy that selectively applies masking within the retinal region and dynamically adjusts the masking ratio during training. PRETI captures both global structures and fine-grained pathological details, resulting in superior diagnostic performance. Extensive experiments demonstrate that PRETI achieves state-of-the-art results across diverse diseases and biomarker predictions using in-house and public data, indicating the importance of metadata-guided foundation models in retinal disease analysis. Our code and pretrained model are available at https://github.com/MICV-yonsei/PRETI",
+  "authors": [
+    {
+      "name": "Lee, Yeonkyung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Woojung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jun, Youngjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Hyeonmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cho, Jungkyung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hwang, Seong Jae",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0634_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

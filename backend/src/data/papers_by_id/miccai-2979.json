@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2979",
+  "title": "UltrON: Ultrasound Occupancy Networks",
+  "abstract": "In free-hand ultrasound imaging, sonographers rely on exper-\ntise to mentally integrate partial 2D views into 3D anatomical shapes. Shape reconstruction can assist clinicians in this process. Central to this task is the choice of shape representation, as it determines how accurately and efficiently the structure can be visualized, analyzed, and interpreted. Implicit representations, such as SDF and occupancy function, offer a powerful alternative to traditional voxel- or mesh-based methods by modeling continuous, smooth surfaces with compact storage, avoiding explicit discretization. Recent studies demonstrate that SDF can be effectively optimized using annotations derived from segmented B-mode ultrasound images. Yet, these approaches hinge on precise annotations, overlooking the rich acoustic information embedded in B-mode intensity. Moreover, implicit representation approaches struggle with the ultrasound’s view-dependent nature and acoustic shadowing artifacts, which impair reconstruction. To address the problems resulting from occlusions and annotation dependency, we propose an occupancy-based representation and introduce Ultrasound Occupancy Network (UltrON) that leverages acoustic features to improve geometric consistency in weakly-supervised optimization regime. We show that these features can be obtained from B-mode images without additional annotation cost. Moreover, we propose a novel loss function that compensates for view-dependency in the B-mode images and facilitates occupancy optimization from multi-view ultrasound. By incorporating acoustic properties, UltrON generalizes to shapes of the same anatomy. We show that UltrON mitigates the limitations of occlusions and sparse labeling and paves the way for more accurate 3D reconstruction. Code and dataset is available at https://github.com/magdalena-wysocki/ultron.",
+  "authors": [
+    {
+      "name": "Wysocki, Magdalena",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duelmer, Felix",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bal, Ananya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Azampour, Mohammad Farid",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2979_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

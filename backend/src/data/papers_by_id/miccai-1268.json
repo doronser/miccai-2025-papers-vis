@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1268",
+  "title": "Spherical Diffusion Process for Score-Guided Cortical Correspondence via Spectral Attention",
+  "abstract": "Cortical shape correspondence is a crucial problem in medical image analysis, primarily focused on aligning cortical geometric patterns across individuals. This task is particularly challenging due to the intricate geometry of the cortex and the substantial anatomical variability among individuals. In this work, we introduce a novel approach comprising (1) a spherical diffusion process and (2) a spectral attention for robust shape correspondence construction, wherein a score function from the diffusion process guides a deformation to align cortical geometric features on sphere. Specifically, we propose a smooth diffusion process on sphere by introducing a stochastic differential equation in a spherical harmonic space, where we learn the score function that encodes the distribution of subjects. Furthermore, to effectively guide the alignment of cortical geometric patterns using the learned score function, we propose a novel attention mechanism that computes frequency correlations in the spectral domain, enabling efficient conditioning of the score function in this domain. Experimental results demonstrate that our method achieves highly accurate shape correspondence while minimizing the distortions. The code is available at https://github.com/Shape-Lab/SPHARM-Reg-Diffusion.",
+  "authors": [
+    {
+      "name": "Lee, Seungeun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pyatkovskiy, Sergey",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoo, Jaejun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lyu, Ilwoo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1268_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

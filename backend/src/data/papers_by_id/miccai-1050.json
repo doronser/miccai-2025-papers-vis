@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1050",
+  "title": "Temporal Atlas-Guided Generation of Longitudinal Data via Geometric Latent Embeddings",
+  "abstract": "The spatiotemporal changes of a developing anatomical structure is a dynamic process, and quantifying this process within a population and between populations is a fundamental yet challenging task in medical image analysis. Central to this task is the availability of longitudinal imaging data for 4D statistical shape analysis. Unfortunately, this type of longitudinal data is expensive, time-consuming, and difficult to collect. Practically, the majority of imaging data are 3D cross-sectional data, which are inadequate in describing the dynamic shape changes of anatomical structures. In this paper, we introduce a novel temporal atlas-guided deep learning model for longitudinal data generation. Unlike existing methods that directly generate longitudinal data from input images or sequences, we characterize distinctive geometric shape representations in both cross-sectional and longitudinal latent spaces of diffeomorphisms, while optimizing the quality of both atlas and longitudinal data generation. To the best of our knowledge, this is the first deep learning approach that leverages temporal atlas-based representation for longitudinal data generation. The innovative nature of our framework lies in its ability to jointly perform within-age and cross-age shape registration, thus maximizing registration performance while maintaining desirable deformation qualities. Our work’s ability to model spatiotemporal dynamics makes it highly versatile and applicable to a wide range of domains, including modeling the normal and abnormal development of anatomical structures for improved clinical diagnosis and treatment planning. The code of this work is available at https://github.com/wushaoju/TAG-GLE.",
+  "authors": [
+    {
+      "name": "Wu, Shaoju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kurugol, Sila",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tsai, Andy",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1050_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

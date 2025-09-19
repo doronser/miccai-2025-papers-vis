@@ -1,0 +1,44 @@
+{
+  "id": "miccai-1072",
+  "title": "Enjoying Information Dividend: Gaze Track-based Medical Weakly Supervised Segmentation",
+  "abstract": "Weakly supervised semantic segmentation (WSSS) in medical imaging struggles with effectively using sparse annotations. One promising direction for WSSS leverages gaze annotations, captured via eye trackers that record regions of interest during diagnostic procedures. However, existing gaze-based methods, such as GazeMedSeg, do not fully exploit the rich information embedded in gaze data. In this paper, we propose GradTrack, a framework that utilizes physicians’ gaze track, including fixation points, durations, and temporal order, to enhance WSSS performance. GradTrack comprises two key components: (1) the Gaze Track Map Generation module for creating hierarchical attention maps, and (2) the Track Attention module for integrating attention features, which collaboratively enable progressive feature refinement through multi-level gaze supervision during the decoding process. Experiments on the Kvasir-SEG and NCI-ISBI datasets demonstrate that our GradTrack consistently outperforms existing gaze-based methods, achieving Dice score improvements of 3.21% and 2.61%, respectively. Moreover, GradTrack significantly narrows the performance gap with fully supervised models, such as nnUNet.",
+  "authors": [
+    {
+      "name": "Wang, Zhisong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Yiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ziyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Urology",
+    "Modalities -> Endoscopy",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1072_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

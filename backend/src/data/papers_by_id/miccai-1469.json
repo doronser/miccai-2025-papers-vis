@@ -1,0 +1,87 @@
+{
+  "id": "miccai-1469",
+  "title": "Recognizing Surgical Phases Anywhere: Few-Shot Test-time Adaptation and Task-graph Guided Refinement",
+  "abstract": "The complexity and diversity of surgical workflows, driven by heterogeneous operating room settings, institutional protocols, and anatomical variability, present a significant challenge in developing generalizable models for cross-institutional and cross-procedural surgical understanding. While recent surgical foundation models pretrained on large-scale vision-language data offer promising transferability, their zero-shot performance remains constrained by domain shifts, limiting their utility in unseen surgical environments. To address this, we introduce Surgical Phase Anywhere (SPA), a lightweight framework for versatile surgical workflow understanding that adapts foundation models to institutional settings with minimal annotation. SPA leverages few-shot spatial adaptation to align multi-modal embeddings with institution-specific surgical scenes and phases. It also ensures temporal consistency through diffusion modeling, which encodes task-graph priors derived from institutional procedure protocols. Finally, SPA employs dynamic test-time adaptation, exploiting the mutual agreement between multi-modal phase prediction streams to adapt the model to a given test video in a self-supervised manner, enhancing the reliability under test-time distribution shifts. SPA is a lightweight adaptation framework, allowing hospitals to rapidly customize phase recognition models by defining phases in natural language text, annotating a few images with the phase labels, and providing a task graph defining phase transitions. The experimental results show that the SPA framework achieves state-of-the-art performance in few-shot surgical phase recognition across multiple institutions and procedures, even outperforming full-shot models with 32-shot labeled data.",
+  "authors": [
+    {
+      "name": "Yuan, Kun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Tingxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lavanchy, Joël L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heiliger, Christian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Özsoy, Ege",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Srivastav, Vinkle",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Hongliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Padoy, Nicolas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1469_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

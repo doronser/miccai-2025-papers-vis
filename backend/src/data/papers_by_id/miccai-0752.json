@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0752",
+  "title": "U-Net Transplant: The Role of Pre-training for Model Merging in 3D Medical Segmentation",
+  "abstract": "Despite their remarkable success in medical image segmentation, the life cycle of deep neural networks remains a challenge in clinical applications. These models must be regularly updated to integrate new medical data and customized to meet evolving diagnostic standards, regulatory requirements, commercial needs, and privacy constraints. Model merging offers a promising solution, as it allows working with multiple specialized networks that can be created and combined dynamically instead of relying on monolithic models. While extensively studied in standard 2D classification, the potential of model merging for 3D segmentation remains unexplored. This paper presents an efficient framework that allows effective model merging in the domain of 3D image segmentation. Our approach builds upon theoretical analysis and encourages wide minima during pre-training, which we demonstrate to facilitate subsequent model merging. Using U-Net 3D, we evaluate the method on distinct anatomical structures with the ToothFairy2 and BTCV Abdomen datasets. To support further research, we release the source code and all the model weights in a dedicated repository: https://github.com/LucaLumetti/UNetTransplant",
+  "authors": [
+    {
+      "name": "Lumetti, Luca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Capitani, Giacomo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ficarra, Elisa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Calderara, Simone",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grana, Costantino",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Porrello, Angelo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bolelli, Federico",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0752_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "miccai-4185",
+  "title": "Automated Integration of Surgical Implants into Digital Twins for Trauma Surgery",
+  "abstract": "A digital twin (DT) is a dynamic virtual model that mirrors a physical system, with promising applications in surgical planning, guidance, and outcome assessment. While DTs can represent various key aspects of surgery, such as patient anatomy and surgical tools, implants remain difficult to integrate due to tracking challenges related to occlusions by soft tissue and their small size. Consequently, current surgical DTs lack implant integration, a critical limitation in trauma surgery. To address this challenge, this work presents an automated method to integrate surgical implants-plates and screws-into DTs during bone fracture platings. The solution leverages surgical tracking data to analyze interactions between surgical tools and patient anatomy. By combining deterministic algorithms with a machine learning-based activity classification model, DTs of implants can be reconstructed without requiring direct tracking. A study involving 28 participants-5 medical students, 12 residents, and 11 attending physicians-evaluated detection reliability and geometric accuracy on a comminuted ulnar fracture. Results showed a screw detection rate of 96.4% and a plate detection rate of 100% across 112 screws and 28 plates. Screw and plate placement had Root Mean Square Errors of 1.52 mm and 0.94 mm respectively-comparable to or better than existing surgical DTs. These findings confirm the feasibility of dynamic implant integration, marking a significant step toward comprehensive DT solutions for trauma surgery. This advancement has the potential to enhance intraoperative visualization and postoperative assessment, ultimately improving patient care.",
+  "authors": [
+    {
+      "name": "Stauffer, Tobias",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Reber, Manuel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fellmann, Léon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Babst, Reto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meboldt, Mirko",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lohmeyer, Quentin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Navigation",
+    "Surgery -> Planning and Simulation",
+    "Surgery -> Scene Understanding",
+    "Surgery -> Skill and Work Flow Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4185_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

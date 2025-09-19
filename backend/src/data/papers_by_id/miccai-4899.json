@@ -1,0 +1,57 @@
+{
+  "id": "miccai-4899",
+  "title": "FPN-in-FPN: A Nested Multi-Scale Aggregation Network for Polyp Segmentation",
+  "abstract": "Colorectal cancer is a leading cause of cancer-related deaths worldwide, and precise polyp segmentation plays a crucial role in its early detection. U-shaped architectures are widely used for polyp segmentation due to their ability to capture multi-scale contextual information effectively. However, it is suboptimal to solely use top-down or bottom-up fusion flow in traditional U-shaped architectures. Additionally, most existing methods only focus on improving the feature fusion module, often introducing more computational costs. In this work, we propose a novel and efficient nested multi-scale feature aggregation network that integrates high-level semantic information with low-level boundary details within skip connections, effectively handling the diverse shapes and sizes of polyp regions. Specifically, we introduce a bidirectional FPN-in-FPN module that fuses features across stages through both bottom-up and top-down pathways. This module adds only 0.12M extra parameters with minimal computational overhead while significantly enhancing segmentation performance in small networks. Extensive experiments on polyp segmentation datasets demonstrate that our network outperforms existing methods in both accuracy and efficiency. Code is available at https://github.com/Yejin0111/FPN-in-FPN",
+  "authors": [
+    {
+      "name": "Ye, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Yanzhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Junjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Bohan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhaolin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Jianfei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4899_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

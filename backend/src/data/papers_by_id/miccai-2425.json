@@ -1,0 +1,36 @@
+{
+  "id": "miccai-2425",
+  "title": "Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture",
+  "abstract": "In this work, we leverage informative embeddings from foundational models for unsupervised anomaly detection in medical imaging. For small datasets, a memory-bank of normative features can directly be used for anomaly detection which has been demonstrated recently. However, this is unsuitable for large medical datasets as the computational burden increases substantially. Therefore, we propose to model the distribution of normative DINOv2 embeddings with a Dirichlet Process Mixture model (DPMM), a non-parametric mixture model that automatically adjusts the number of mixture components to the data at hand. Rather than using a memory bank, we use the similarity between the component centers and the embeddings as anomaly score function to create a coarse anomaly segmentation mask. Our experiments show that through DPMM embeddings of DINOv2, despite being trained on natural images, achieve very competitive anomaly detection performance on medical imaging benchmarks and can do this while at least halving the computation time at inference. Our analysis further indicates that normalized DINOv2 embeddings are generally more aligned with anatomical structures than unnormalized features, even in the presence of anomalies, making them great representations for anomaly detection. The code is available at https://github.com/NicoSchulthess/anomalydino-dpmm.",
+  "authors": [
+    {
+      "name": "Schulthess, Nico",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Konukoglu, Ender",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Eye",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2425_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

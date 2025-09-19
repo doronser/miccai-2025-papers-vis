@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2171",
+  "title": "Noise-Controllable Complex-Valued Diffusion Model for k-Space Data of Hyperpolarized 129Xe Lung MRI Generation",
+  "abstract": "Hyperpolarized 129Xe lung magnetic resonance imaging (MRI) offers a method for visualizing human lung function. However, its long imaging time limits widespread research and clinical adoption. Deep learning has shown significant potential in addressing undersampled MRI reconstruction challenges. Yet, the clinical novelty of hyperpolarized 129Xe lung MRI results in a particular lack of raw k-space data. To address this, we propose a Noise-Controllable Complex-Valued Diffusion Model (NC-CDM) to augment the available data from limited clinical training set. Specifically, complex-valued convolutional kernels replace traditional ones, enhancing feature extraction and data utilization efficiency by learning rich representations from k-space. In addition, a noise-controllable module is introduced to mitigate estimation biases caused by thermal noise during MRI acquisition in the training phases. Experiments compare the proposed NC-CDM with other state-of-the-art models. Fréchet Inception Distance (FID) and Inception Score (IS) metrics show that our method obtains higher image quality. The generated data, mixed with real data, are subsequently applied to downstream MRI reconstruction task using two deep learning-based MRI reconstruction methods: CasNet and KIKI-net. The results show that reconstruction networks trained on our generated data exhibit superior reconstruction performance.",
+  "authors": [
+    {
+      "name": "Han, Linxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Sa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Muhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jinghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2171_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

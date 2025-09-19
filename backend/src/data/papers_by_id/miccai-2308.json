@@ -1,0 +1,36 @@
+{
+  "id": "miccai-2308",
+  "title": "A Uniform Multi-mode Fused Framework for Velocity Field Estimation in Ultrasound Imaging",
+  "abstract": "Velocity field estimation, or motion tracking, is the key to characterizing tissue function in ultrasound imaging. Current velocity field estimation remains challenging in cross-range motion tracking due to the less sensitivity of ultrasound in this dimension. In addition, there is a lack of a uniform framework for different imaging schemes, such as linear array with rectangular scanning, phased array with sector scanning, and matrix array with volumetric scanning. This paper proposes a uniform multi-mode fused framework for tissue velocity field estimation. This framework integrates multiple modes of pair-wise optical flows, Doppler, and speckle consistency in ultrasound to improve the accuracy of cross-range velocity estimation. Furthermore, the uniform framework is adapted to different arrays and imaging schemes for various application scenarios. Extensive in-silico experiments on homemade and public datasets demonstrate the effectiveness of the proposed framework and the outperformance of our method when compared with a window-based method and an energy function optimization-based method. Particularly, our method improves the accuracy of cross-range velocity estimation by 8.84%, 19.21%, and 10.94% in three cross-sectional views of the public cardiac dataset when compared with the energy function optimization-based method.",
+  "authors": [
+    {
+      "name": "Li, Hailong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yinran",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2308_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3614",
+  "title": "Multi-Agent Collaboration for Integrating Echocardiography Expertise in Multi-Modal Large Language Models",
+  "abstract": "Current echocardiography MLLMs rely on diagnostic-focused data lacking detailed image-text descriptions and systematic multi-modal cardiac knowledge, resulting in suboptimal performance across diverse echocardiography visual question answering tasks. Existing methods to integrate clinical expertise face three key challenges when adapting to echocardiography: labor-intensive curation processes, overlooking textual or diagrammatic knowledge sources essential in cardiac diagnosis, and incompatibility with pretrained MLLMs. To address these gaps, we propose Multi-Agent Collaborative Expertise Extractor (MACEE), a multi-agent framework employing MLLM-powered agents to extract echocardiography expertise from diverse sources. MACEE collects the EchoCardiography Expertise Database (ECED), the first comprehensive knowledge repository covering 100+ common and rare cardiac conditions from textbooks, guidelines, and case studies. To integrate ECED into MLLMs, we introduce Echocardiography Expertise-enhanced Visual Instruction Tuning (EEVIT), a lightweight training framework using expertise-guided instruction tuning. EEVIT employs adapters in vision and language modules, enabling efficient expertise integration while training less than 1% of the model’s parameters. Experiments validates the effectiveness of these three components. Codes and license details: https://github.com/xmed-lab/ECED",
+  "authors": [
+    {
+      "name": "Qin, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gamage Nanayakkara, Dinusara Sasindu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3614_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

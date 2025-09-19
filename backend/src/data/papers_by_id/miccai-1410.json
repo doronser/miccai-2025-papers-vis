@@ -1,0 +1,69 @@
+{
+  "id": "miccai-1410",
+  "title": "tHPM-LDM: Integrating Individual Historical Record with Population Memory in Latent Diffusion-based Glaucoma Forecasting",
+  "abstract": "Longitudinal medical records offer crucial insights into disease progression, including structural changes and dynamic evolution, essential for clinicians in treatment planning. However, existing disease forecasting methods are hindered by irregular data collection intervals, negligence in inter-patient relationships, and a lack of case-reference capabilities. We introduce tHPM-LDM, a glaucoma forecasting framework leveraging continuous-time attention within a historical condition module to capture disease progression from irregularly acquired records. Notably, our approach integrates population memory, enabling personalized forecasting through relevant population patterns. Empirical evaluations on the SIGF glaucoma longitudinal dataset demonstrate the significant improvements of our approach in image prediction and category consistency compared to state-of-the-art methods. Furthermore, our approach provides interpretable individual-population patterns and showcases robust performance despite missing visits.",
+  "authors": [
+    {
+      "name": "Fan, Yuheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Jianyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Yimin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Yanda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Madhusudhan, Savita",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lip, Gregory Y. H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, He",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1410_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

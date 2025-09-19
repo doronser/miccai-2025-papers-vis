@@ -1,0 +1,61 @@
+{
+  "id": "miccai-2697",
+  "title": "Spatially Gene Expression Prediction using Dual-Scale Contrastive Learning",
+  "abstract": "Spatial transcriptomics (ST) provides crucial insights into tissue micro-environments, but is limited to its high cost and complexity. As an alternative, predicting gene expression from pathology whole slide images (WSI) is gaining increasing attention. However, existing methods typically rely on single patches or a single pathology modality, neglecting the complex spatial and molecular interactions between target and neighboring information (e.g., gene co-expression). This leads to a failure in establishing connections among adjacent regions and capturing intricate cross-modal relationships. To address these issues, we propose NH²2ST, a framework that integrates spatial context and both pathology and gene modalities for gene expression prediction. Our model comprises a query branch and a neighbor branch to process paired target patch and gene data and their neighboring regions, where cross-attention and contrastive learning are employed to capture intrinsic associations and ensure alignments between pathology and gene expression. Extensive experiments on six datasets demonstrate that our model consistently outperforms existing methods, achieving nearly 28.77% in PCC metrics.",
+  "authors": [
+    {
+      "name": "Qu, Mingcheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yuncong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Di, Donglin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Tonghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2697_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

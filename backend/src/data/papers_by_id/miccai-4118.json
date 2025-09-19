@@ -1,0 +1,63 @@
+{
+  "id": "miccai-4118",
+  "title": "RadSAM: Segmenting 3D radiological images with a 2D promptable model",
+  "abstract": "Medical image segmentation is a crucial and time-consuming task in clinical care, where precision is extremely important. The Segment Anything Model (SAM) offers a promising approach, providing an interactive interface based on visual prompting and edition.  However, this model and adaptations for medical images are built for 2D images, whereas a whole medical domain is based on 3D images, such as CT and MRI. This requires one prompt per slice, making the segmentation process tedious. We propose RadSAM, a novel method for segmenting 3D objects with a 2D model from a single prompt, based on an iterative inference pipeline to reconstruct the 3D mask slice-by-slice. We introduce a benchmark to evaluate the model’s ability to segment 3D objects in CT images from a single prompt and evaluate the models’ out-of-domain transfer and edition capabilities.  We demonstrate the effectiveness of our approach against state-of-the-art 2D and 3D models using the AMOS abdominal organ segmentation dataset.",
+  "authors": [
+    {
+      "name": "Khlaut, Julien",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ferreres, Elodie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tordjman, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Philippe, Helene",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Boeken, Tom",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Manceron, Pierre",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dancette, Corentin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Body -> other",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4118_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4475",
+  "title": "Physics-Informed Neural ODEs for Temporal Dynamics Modeling in Cardiac T1 Mapping",
+  "abstract": "Spin-lattice relaxation time ($T_1$) is an important biomarker in cardiac parametric mapping for characterizing myocardial tissue and diagnosing cardiomyopathies. Conventional Modified Look-Locker Inversion Recovery (MOLLI) acquires 11 breath-hold baseline images with interleaved rest periods to ensure mapping accuracy. However, prolonged scanning can be challenging for patients with poor breathholds, often leading to motion artifacts that degrade image quality. In addition, $T_1$ mapping requires a voxel-wise nonlinear fitting to a signal recovery model involving an iterative estimation process. Recent studies have proposed deep-learning approaches for rapid $T_1$ mapping using shortened sequences to reduce acquisition time for patient comfort. Nevertheless, existing methods overlook important physics constraints, limiting interpretability and generalization. In this work, we present an accelerated, end-to-end $T_1$ mapping framework leveraging Physics-Informed Neural Ordinary Differential Equations (ODEs) to model temporal dynamics and address these challenges. Our method achieves high-accuracy $T_1$ estimation from a sparse subset of baseline images and ensures efficient null index estimation at the test time. Specifically, we develop a continuous-time LSTM-ODE model to enable selective Look-Locker (LL) data acquisition with arbitrary time lags. Experimental results show superior performance in $T_1$ estimation for both native and post-contrast sequences and demonstrate the strong benefit of our physics-based formulation over direct data-driven $T_1$ priors.",
+  "authors": [
+    {
+      "name": "Capitão, Nuno",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yidong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Qian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4475_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

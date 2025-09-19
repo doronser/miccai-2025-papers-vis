@@ -1,0 +1,59 @@
+{
+  "id": "miccai-4481",
+  "title": "TReND: Transformer derived features and Regularized NMF for neonatal functional network Delineation",
+  "abstract": "Precise parcellation of functional networks (FNs) of early developing human brain is the fundamental basis for identifying biomarker of developmental disorders and understanding functional development. Resting-state fMRI (rs-fMRI) enables in vivo exploration of functional changes, but adult FN parcellations cannot be directly applied to the neonates due to incomplete network maturation. No standardized neonatal functional atlas is currently available. To solve this fundamental issue, we propose TReND, a novel and fully automated self-supervised transformer-autoencoder framework that integrates regularized non-negative matrix factorization (RNMF) to unveil the FNs in neonates. TReND effectively disentangles spatiotemporal features in voxel-wise rs-fMRI data. The framework integrates confidence-adaptive masks into transformer self-attention layers to mitigate noise influence. A self-supervised decoder acts as a regulator to refine the encoder’s latent embeddings, which serve as reliable temporal features. For spatial coherence, we incorporate brain surface-based geodesic distances as spatial encodings along with functional connectivity from temporal features. The TReND clustering approach processes these features under sparsity and smoothness constraints, producing robust and biologically plausible parcellations. We extensively validated our TReND framework on three different rs-fMRI datasets: simulated, dHCP and HCP-YA against comparable traditional feature extraction and clustering techniques. Our results demonstrated the superiority of the TReND framework in the delineation of neonate FNs with significantly better spatial contiguity and functional homogeneity. Collectively, we established TReND, a novel and robust frame-work, for neonatal FN delineation. TReND-derived neonatal FNs could serve as a neonatal functional atlas for perinatal populations in health and disease.",
+  "authors": [
+    {
+      "name": "Mohapatra, Sovesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ouyang, Minhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Shufang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Jianlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Lianglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Hao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4481_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "miccai-2272",
+  "title": "MultiTransAD: Cross-Sequence Translation-Driven Anomaly Detection in Multi-Sequence Brain MRI",
+  "abstract": "Accurate anomaly detection in brain MRI is critical for early disease diagnosis, yet existing single-sequence reconstruction methods often fail to distinguish pathological anomalies from both normal anatomical variations and multi-sequence contrast discrepancies. We propose MultiTransAD, a novel framework that leverages inter-sequence contrast differences as primary biomarkers for unsupervised anomaly detection. Our approach introduces: (1) a disentangled architecture with anatomical edge constraints to decouple sequence-invariant anatomy from sequence features, (2) cross-sequence translation error analysis for direct anomaly quantification, and (3) dual-level anomaly detection combining pixel-level errors and patch-level feature dissimilarities. Evaluated on BraTS 2021, MultiTransAD achieves state-of-the-art performance with Dice scores of 0.6334 (14.6% improvement over reconstruction baselines) and AUROC of 0.9722, validating the effectiveness of multi-sequence contrast analysis while establishing a extensible cross-sequence translation paradigm. The code is publicly available at: https://github.com/zhibaishouheilab/MT-AD",
+  "authors": [
+    {
+      "name": "Zhang, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Yibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Jianqi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Other",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2272_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4381",
+  "title": "Abnormality-Driven Representation Learning for Radiology Imaging",
+  "abstract": "Radiology deep learning pipelines predominantly employ end-to-end 3D networks based on models pre-trained on other tasks, which are then fine-tuned on the task at hand. In contrast, adjacent medical fields such as pathology, which focus on 2D images, have effectively adopted task-agnostic foundational models based on self-supervised learning, combined with weakly-supervised deep learning. However, the field of radiology still lacks task-agnostic representation models due to the computational and data demands of 3D imaging and the anatomical complexity inherent to radiology scans. To address this gap, we propose CLEAR, a framework for 3D radiology images that uses extracted embeddings from 2D slices along with attention-based aggregation to efficiently predict clinical endpoints. As part of this framework, we introduce LECL, a novel approach to obtain visual representations driven by abnormalities in 2D axial slices across different locations of the CT scans.\nSpecifically, we trained single-domain contrastive learning approaches using three different architectures: Vision Transformers, Vision State Space Models and Gated Convolutional Neural Networks. We evaluate our approach across three clinical tasks: tumor lesion location, lung disease detection, and patient staging, benchmarking against four state-of-the-art foundation models, including BiomedCLIP. Our findings demonstrate that CLEAR, using representations learned through LECL, outperforms existing foundation models, while being substantially more compute- and data-efficient. The code is available at https://github.com/KatherLab/CLEAR.",
+  "authors": [
+    {
+      "name": "Ligero, Marta",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lenz, Tim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wölflein, Georg",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "El Nahhas, Omar S. M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Truhn, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kather, Jakob Nikolas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4381_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

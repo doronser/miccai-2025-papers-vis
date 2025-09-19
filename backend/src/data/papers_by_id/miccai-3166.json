@@ -1,0 +1,67 @@
+{
+  "id": "miccai-3166",
+  "title": "Patient-specific radiomic feature selection with reconstructed healthy persona of knee MR images",
+  "abstract": "Classical radiomic features (e.g., entropy, energy) have been designed to describe image appearance and intensity patterns. These features are directly interpretable and readily understood by radiologists. Compared with end-to-end deep learning (DL) models, lower dimensional parametric models that use such radiomic features offer enhanced interpretability but lower comparative performance in clinical tasks. In this study, we propose an approach where a standard logistic regression model performance is substantially improved by learning to select radiomic features for individual patients, from a pool of candidate features. This approach has potentials to maintain the interpretability of such approaches while offering comparable performance to DL. In addition, we also propose to expand the feature pool by generating a patient-specific healthy persona via mask-inpainting using a denoising diffusion model trained on healthy subjects. Such a pathology-free baseline feature set allows not only further opportunity in novel feature discovery but also improved condition classification.\nWe demonstrate our method on multiple clinical tasks of classifying general abnormalities, anterior cruciate ligament tears, and meniscus tears. Experimental results demonstrate that our approach achieved comparable or even superior performance than state-of-the-art DL approaches while offering added interpretability through the use of radiomic features extracted from images and supplemented by generating healthy personas. Example clinical cases are discussed in-depth to demonstrate the interpretability-enabled utilities such as human-explainable feature discovery and patient-specific location/view selection. These findings highlight the potentials of the combination of subject-specific feature selection with generative models in augmenting radiomic analysis for more interpretable decision-making. The codes are available at: https://github.com/YaxiiC/RadiomicsPersona.git",
+  "authors": [
+    {
+      "name": "Chen, Yaxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Simin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saeed, Shaheer U.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ivanova, Aleksandra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hargunani, Rikin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Chaozong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Yipeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computational Anatomy and Physiology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3166_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

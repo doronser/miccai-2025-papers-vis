@@ -1,0 +1,63 @@
+{
+  "id": "miccai-2324",
+  "title": "DGHFA: Dynamic Gradient and Hierarchical Feature Alignment for Robust Distillation of Medical VLMs",
+  "abstract": "Recent advancements in Medical  Vision-Language Models  (VLMs) have significantly improved medical cross-modal task performance through large-scale contrastive pre-training. However, deploying these large models in clinical settings is hindered by their computational complexity and vulnerability to adversarial attacks. While knowledge distillation offers a solution by transferring knowledge to efficient student models, traditional methods usually ignore the robustness problem, leaving models susceptible to adversarial attacks. To address these challenges, we propose a novel Dynamic Gradient and Hierarchical Feature Alignment framework (DGHFA) for robust knowledge distillation.  Our approach introduces a dynamic gradient calibration mechanism for balanced knowledge transfer and a hierarchical adversarial feature alignment framework to enhance robustness under adversarial attacks. Extensive experiments on two medical VLMs and downstream pathology and X-Ray datasets  demonstrate that our method outperforms state-of-the-art approaches across multiple attack scenarios, achieving improvements of 2.3 and 1.7 percentage points in robust accuracy, respectively.",
+  "authors": [
+    {
+      "name": "Xiao, Boyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jianghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Lanfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Xiaoguang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yuanquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guotai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Microscopy",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2324_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

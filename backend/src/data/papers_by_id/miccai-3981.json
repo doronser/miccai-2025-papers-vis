@@ -1,0 +1,39 @@
+{
+  "id": "miccai-3981",
+  "title": "Confidence in Angle Predictions for Clinical Decision Support",
+  "abstract": "Anatomical landmarks are used for clinical measurements, screening, and to guide treatment decisions. In this work, we explore the clinical application of landmark-based angle measurements, with a particular aim of screening infants for Developmental Dysplasia of the Hip.\nOur automated machine method uses a simple UNet++ architecture. The network is used to predict landmark heatmaps, which represent landmark localisation certainty. A Monte Carlo-like approach is then used to approximate an angle distribution from landmark heatmaps.  We propose a confidence metric from the derived angle distributions.\nMultiple clinician annotations are combined and compared to the machine predictions. The machine-generated angle distribution is verified by confirming the correlation of the mean angle values and standard deviations per scan, between the multiple clinicians and the machine. The confidence scores correlate for the clinicians combined and the machine. The confidence of the machine strongly correlates with the sum of the confidence scores given by clinicians for each scan.\nThis work is the first to present a method for estimating the distribution of clinically relevant angles from predicted landmarks. Landmark-based angle confidence can establish robust methods and increase clinician trust in using automated or computer-aided methods.",
+  "authors": [
+    {
+      "name": "Clement, Allison",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Willoughby, James",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Voiculescu, Irina",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3981_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0807",
+  "title": "Controllable Skin Synthesis via Lesion-Focused Vector Autoregression Model",
+  "abstract": "Skin images from real-world clinical practice are often limited, resulting in a shortage of training data for deep-learning models. While many studies have explored skin image synthesis, existing methods often generate low-quality images and lack control over the lesion’s location and type. To address these limitations, we present LF-VAR, a model leveraging quantified lesion measurement scores and lesion type labels to guide the clinically relevant and controllable synthesis of skin images. It enables controlled skin synthesis with specific lesion characteristics based on language prompts. We train a multiscale lesion-focused Vector Quantised Variational Auto-Encoder (VQVAE) to encode images into discrete latent representations for structured tokenization. Then, a Visual AutoRegressive (VAR) Transformer trained on tokenized representations facilitates image synthesis. Lesion measurement from the lesion region and types as conditional embeddings are integrated to enhance synthesis fidelity. Our method achieves the best overall FID score (average 0.74) among seven lesion types, improving upon the previous state-of-the-art (SOTA) by 6.3%. The study highlights our controllable skin synthesis model’s effectiveness in generating high-fidelity, clinically relevant synthetic skin images. Our framework code is available at https://github.com/echosun1996/LF-VAR.",
+  "authors": [
+    {
+      "name": "Sun, Jiajun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Siyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ong, Jason J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Zongyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0807_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0751",
+  "title": "Diffusion-based Multi-modal MR Fusion for TOF-MRA Image Synthesis",
+  "abstract": "Time-of-flight magnetic resonance angiography (TOF-MRA) is widely recognized as the gold standard for non-invasive assessment of cerebrovascular lesions. However, its long scanning times and susceptibility to motion artifacts often result in image blurring and loss of diagnostic information. To address these limitations, the synthesis of TOF-MRA images from multi-modal MR images has emerged as an effective solution. In this paper, we propose a novel Multi-Modal Diffusion Model (MMDM) for TOF-MRA image synthesis, which fully leverages complementary anatomical and pathological information from multi-modal MR images to enhance synthesis performance. Specifically, we introduce modality-specific diffusion modules, each of which independently models the deterministic mapping from a source domain to the target domain, preserving modality-specific prior knowledge. Then, we propose a cross-modal dynamic fusion module to integrate multi-path diffusion features. Additionally, we present a Maximum Intensity Projection (MIP) loss, which constrains the consistency of adjacent slices in the maximum intensity projection space, addressing the issue of vascular discontinuities caused by 2D training. Finally, we propose a Noise-adaptive Weighting Strategy (NAWS) that dynamically balances the multi-objective loss weights based on the data distribution of the diffusion model, ensuring stable convergence during training. Experimental results demonstrate that our method significantly outperforms existing approaches on both the original images and MIP images. Our code is available at https://github.com/taozh2017/MMDM-Syn.",
+  "authors": [
+    {
+      "name": "Yu, Tianen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiang, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0751_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

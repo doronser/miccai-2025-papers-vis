@@ -1,0 +1,49 @@
+{
+  "id": "miccai-3439",
+  "title": "Semi-Supervised Multi-Modal Medical Image Segmentation for Complex Situations",
+  "abstract": "Semi-supervised learning addresses the lack of annotations in medical images effectively, but its performance remains inadequate for complex backgrounds and challenging tasks. Multimodal fusion methods can greatly enhance the accuracy of medical image segmentation by offering complementary information. They encounter difficulties in achieving notable advancements under semi-supervised conditions because of issues in effectively utilizing unlabeled data. To address these issues, we propose a novel semi-supervised multi-modal medical image segmentation approach, which leverages complementary multi-modal information to enhance performance even with scarce labeled data. Our framework employs a multi-stage multi-modal fusion and enhancement strategy to fully utilize complementary multi-modal information while reducing feature discrepancies and enhancing feature sharing and alignment. Furthermore, our framework effectively introduces contrastive mutual learning to constrain prediction consistency across modalities, thereby facilitating the robustness of segmentation results in semi-supervised tasks. Experimental results on the multi-modal datasets demonstrate the superior performance and robustness of the proposed framework, establishing its valuable potential for solving medical image segmentation tasks in complex scenarios. The code is available at: https://github.com/DongdongMeng/SMMS.",
+  "authors": [
+    {
+      "name": "Meng, Dongdong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Sheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guoping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Xueqing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3439_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

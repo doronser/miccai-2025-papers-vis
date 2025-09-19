@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0365",
+  "title": "MNM: Multi-level Neuroimaging Meta-analysis with Hyperbolic Brain-Text Representations",
+  "abstract": "Various neuroimaging studies suffer from small sample size problem which often limit their reliability. Meta-analysis addresses this challenge by aggregating findings from different studies to identify consistent patterns of brain activity. However, traditional approaches based on keyword retrieval or linear mappings often overlook the rich hierarchical structure in the brain. In this work, we propose a novel framework that leverages hyperbolic geometry to bridge the gap between neuroscience literature and brain activation maps. By embedding text from research articles and corresponding brain images into a shared hyperbolic space via the Lorentz model, our method captures both semantic similarity and hierarchical organization inherent in neuroimaging data. In the hyperbolic space, our method performs multi-level neuroimaging meta-analysis (MNM) by 1) aligning brain and text embeddings for semantic correspondence, 2) guiding hierarchy between text and brain activations, and 3) preserving the hierarchical relationships within brain activation patterns. Experimental results demonstrate that our model outperforms baselines, offering a robust and interpretable paradigm of multi-level neuroimaging meta-analysis via hyperbolic brain-text representation.",
+  "authors": [
+    {
+      "name": "Baek, Seunghun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Jaejin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sim, Jaeyoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jeong, Minjae",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Won Hwa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0365_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

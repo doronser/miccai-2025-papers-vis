@@ -1,0 +1,53 @@
+{
+  "id": "miccai-2221",
+  "title": "Operating Room Workflow Analysis via Reasoning Segmentation over Digital Twins",
+  "abstract": "Analyzing operating room (OR) workflows to derive quantitative insights into OR efficiency is important for hospitals to maximize patient care and financial sustainability. Prior work on OR-level workflow analysis has relied on end-to-end deep neural networks. While these approaches work well in constrained settings, they are limited to the conditions specified at development time and do not offer the flexibility necessary to accommodate the OR workflow analysis needs of various OR scenarios (e.g., large academic center vs. rural provider) without data collection, annotation, and retraining. Reasoning segmentation (RS) based on foundation models offers this flexibility by enabling automated analysis of OR workflows from OR video feeds given only an implicit text query related to the objects of interest. Due to the reliance on large language model (LLM) fine-tuning, current RS approaches struggle with reasoning about semantic/spatial relationships and show limited generalization to OR video due to variations in visual characteristics and domain-specific terminology. To address these limitations, we first propose a novel digital twin (DT) representation that preserves both semantic and spatial relationships between the various OR components. Then, building on this foundation, we propose ORDiRS (Operating Room Digital twin representation for Reasoning Segmentation), an LLM-tuning-free RS framework that reformulates RS into a “reason-retrieval-synthesize” paradigm. Finally, we present ORDiRS-Agent, an LLM-based agent that decomposes OR workflow analysis queries into manageable RS sub-queries and generates responses by combining detailed textual explanations with supporting visual evidence from RS. Experimental results on both an in-house and a public OR dataset demonstrate that our ORDiRS achieves a cIoU improvement of 6.12%-9.74% compared to the existing state-of-the-arts. The code is available at https://anonymous.4open.science/r/ordirs.",
+  "authors": [
+    {
+      "name": "Shen, Yiqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chenjia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Bohan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Cheng-Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Porras, Tito",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Unberath, Mathias",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2221_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

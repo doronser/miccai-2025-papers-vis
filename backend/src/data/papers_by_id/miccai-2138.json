@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2138",
+  "title": "Occlusion-free 4D Gaussians for Open Surgery Videos Using Multi-Camera Shadowless Lamps",
+  "abstract": "Video recording of open surgery is in great demand for education and research purposes but is challenging due to the busy and dynamic environment. The state-of-the-art system uses multi-view cameras installed in shadowless lamps (McSL) and implements an automatic camera switching algorithm to avoid disturbances. However, this algorithm leads to missing pixels and distorted projection due to mathematical image warping and does not always provide the best perspective. We propose using 4D Gaussian Splatting (4DGS) to create editable 3D videos and remove Gaussians occluding surgical fields from a perspective. We enable occlusion-free 3D videos by addressing two occlusion removal approaches via (1) occlusion masking and (2) density-based Gaussian filtering. We create a real-surgery dataset and demonstrate that our method outperforms the state-of-the-art auto view-switching approach.",
+  "authors": [
+    {
+      "name": "Kato, Yuna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mori, Shohei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saito, Hideo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Takatsume, Yoshifumi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kajita, Hiroki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Isogawa, Mariko",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Surgery -> Mixed / Augmented / Virtual Reality"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2138_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

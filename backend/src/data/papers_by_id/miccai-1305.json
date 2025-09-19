@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1305",
+  "title": "Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction",
+  "abstract": "Spatial proteomics maps protein distributions in tissues, providing transformative insights for life sciences. However, current sequencing-based technologies suffer from low spatial resolution, and substantial inter-tissue variability in protein expression further compromises the performance of existing molecular data prediction methods. In this work, we introduce the novel task of spatial super-resolution for sequencing-based spatial proteomics (seq-SP) and, to the best of our knowledge, propose the first deep learning model for this task—Neural Proteomics Fields (NPF). NPF formulates seq-SP as a protein reconstruction problem in continuous space by training a dedicated network for each tissue. The model comprises a Spatial Modeling Module, which learns tissue-specific protein spatial distributions, and a Morphology Modeling Module, which extracts tissue-specific morphological features. Furthermore, to facilitate rigorous evaluation, we establish an open-source benchmark dataset, Pseudo-Visium SP, for this task. Experimental results demonstrate that NPF achieves state-of-the-art performance with fewer learnable parameters, underscoring its potential for advancing spatial proteomics research. Our code and dataset are publicly available at https://github.com/Bokai-Zhao/NPF.",
+  "authors": [
+    {
+      "name": "Zhao, Bokai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Weiyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chao, Hanqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Zijiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yiyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Tianzi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1305_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

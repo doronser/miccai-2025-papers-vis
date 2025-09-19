@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2265",
+  "title": "PRADA: Protecting and Detecting Dataset Abuse for Open-source Medical Dataset",
+  "abstract": "Open-source datasets play a crucial role in data-centric AI, particularly in the medical field, where data collection and access are often restricted. While these datasets are typically opened for research or educational purposes, their unauthorized use for model training remains a persistent ethical and legal concern. In this paper, we propose PRADA, a novel framework for detecting whether a Deep Neural Network (DNN) has been trained on a specific open-source dataset. The main idea of our method is exploiting the memorization ability of DNN and designing a hidden signal—a carefully optimized signal that is imperceptible to humans yet covertly memorized in the models. Once the hidden signal is generated, it is embedded into a dataset and makes protected data, which is then released to the public. Any model trained on this protected data will inherently memorize the characteristics of hidden signals. Then, by analyzing the response of the model on the hidden signal, we can identify whether the dataset was used during training. Furthermore, we propose the Exposure Frequency-Accuracy Correlation (EFAC) score to verify whether a model has been trained on protected data or not. It quantifies the correlation between the predefined exposure frequency of the hidden signal, set by the data provider, and the accuracy of models. Experiments demonstrate that our approach effectively detects whether the model is trained on a specific dataset or not. This work provides a new direction for protecting open-source datasets from misuse in medical AI research.",
+  "authors": [
+    {
+      "name": "Jang, Jinhyeok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Hong Joo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Seong Tae",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2265_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "miccai-4944",
+  "title": "Direct Inversion Formula of the Multi-coil MR Operator under Arbitrary Trajectories",
+  "abstract": "This study introduces a novel inversion formula for the multi-coil MRI forward operator applicable to arbitrary sampling trajectories. Traditional MRI reconstruction leverages fast Fourier transforms (FFTs) for Cartesian sampling and nonuniform FFTs for non-Cartesian patterns. However, subsampled k-space reconstruction typically relies on iterative least-squares (LS) solutions, which are computationally intensive due to the complex structure introduced by multiple coil sensitivities. We hypothesize that the MRI multi-coil forward operator exhibits the low displacement rank (LDR) property, enabling an efficient inversion using triangular Toeplitz operators with a computational complexity of $\\mathcal{O}(\\alpha N \\log^2 N)$, with $\\alpha$ being a small integer. The hypothesis is supported through numerical simulations. For demonstration of the feasibility of such inversion formula, we propose a learning-based approach to determine the necessary LDR parameters, demonstrating successful forward and inverse operator representations across various sampling patterns, including Cartesian and radial trajectories. The proposed inversion formula offers a significant acceleration in MR reconstruction, reducing computational complexity by a factor of approximately 26 compared to conventional conjugate gradient methods. The proposed inversion formula will greatly enhance reconstruction speed and simplify reconstruction pipelines, including iterative reconstructions and deep learning solutions incorporating data-consistency layers. Future work will focus on deriving the LDR parameters analytically to further streamline the inversion process. The code is available at \\url{https://github.com/mikecjz/structured-nets}.",
+  "authors": [
+    {
+      "name": "Chen, Junzhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Christodoulou, Anthony G.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Zhaoyang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Other",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4944_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "miccai-2327",
+  "title": "IMREPET: Implicit Neural Representation for Unsupervised Dynamic PET Reconstruction",
+  "abstract": "Deep image prior (DIP) has become an important approach to unsupervised reconstruction of Positron Emission Tomography (PET) images. In the setting of dynamic PET, however, its performance is limited by the frame-by-frame reconstruction, computational cost, and the fixed-size discrete representation of PET images. To address these challenges, we propose IMREPET, a novel dynamic PET reconstruction method based on implicit neural networks (INR). By incorporating temporal information directly into INR’s parameterization of dynamic PET images, we overcome the limitation of frame-by-frame reconstructions without the need of complex algorithms or regularization. Results on simulated and real-data experiments showed that IMREPET enabled rapid, high-quality reconstruction with improved signal-to-noise ratio and enhanced image detail recovery, while drastically reducing computation time compared to DIP baselines. The resolution-agnostic nature of INR further allowed IMREPET to reconstruct PET images at any resolution. These results show the feasibility of IMREPET as a robust and efficient solution for dynamic PET imaging.",
+  "authors": [
+    {
+      "name": "Fan, Kailong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Yubo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Huafeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Linwei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Breast",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2327_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

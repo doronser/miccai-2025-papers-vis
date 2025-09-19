@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1034",
+  "title": "Multi-expert collaboration and knowledge enhancement network for multimodal emotion recognition",
+  "abstract": "Emotion recognition leveraging multimodal data plays a pivotal role in human-computer interaction and clinical applications, such as depression, mania, Parkinson’s Disease, etc. However, existing emotion recognition methods are susceptible to heterogeneous feature representations across modalities. Additionally, complex emotions involve multiple dimensions, which presents challenges for achieving highly trustworthy decisions. To address these challenges, in this paper, we propose a novel multi-expert collaboration and knowledge enhancement network for multimodal emotion recognition. First, we devise a cross-modal fusion module to dynamically aggregate complementary features from EEG and facial expressions through attention-guided. Second, our approach incorporates a feature prototype alignment module to enhance the consistency of multimodal feature representations. Then, we design a prior knowledge enhancement module that injects original dynamic brain networks into feature learning to enhance the feature representation. Finally, we introduce a multi-expert collaborative decision module designed to refine predictions, enhancing the robustness of classification results. Experimental results on the DEAP dataset demonstrate that our proposed method surpasses several state-of-the-art emotion recognition techniques.",
+  "authors": [
+    {
+      "name": "Wang, Kun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Junyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Liying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Daoqiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Modalities -> Photograph / Video",
+    "Applications -> Brain Network Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1034_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

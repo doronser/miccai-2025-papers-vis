@@ -1,0 +1,41 @@
+{
+  "id": "miccai-2364",
+  "title": "Historical Report Guided Bi-modal Concurrent Learning for Pathology Report Generation",
+  "abstract": "Automated pathology report generation from Whole Slide Images (WSIs) faces two key challenges: (1) lack of semantic content in visual features and (2) inherent information redundancy in WSIs. To address these issues, we propose a novel Historical Report Guided Bi-modal Concurrent Learning Framework for Pathology Report Generation (Bi-Gen) emulating pathologists’ diagnostic reasoning, consisting of: (1) A knowledge retrieval mechanism to provide rich semantic content, which retrieves WSI-relevant knowledge from pre-built medical knowledge bank by matching high-attention patches and (2) A bi-modal concurrent learning strategy instantiated via a learnable visual token and a learnable textual token to dynamically extract key visual features and retrieved knowledge, where weight-shared layers enable cross-modal alignment between visual features and knowledge features. Our multi-modal decoder integrates both modals for comprehensive diagnostic reports generation. Experiments on the PathText (BRCA) dataset demonstrate our framework’s superiority, achieving state-of-the-art performance with 7.4% relative improvement in NLP metrics and 19.1% enhancement in classification metrics for Her-2 prediction versus existing methods. Ablation studies validate the necessity of our proposed modules, highlighting our method’s ability to provide WSI-relevant rich semantic content and suppress information redundancy in WSIs. Code is publicly available at https://github.com/DeepMed-Lab-ECNU/BIGen.",
+  "authors": [
+    {
+      "name": "Zhang, Ling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yun, Boxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qingli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2364_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

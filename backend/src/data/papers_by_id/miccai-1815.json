@@ -1,0 +1,48 @@
+{
+  "id": "miccai-1815",
+  "title": "DEFUSE-MS: Deformation Field-Guided Spatiotemporal Graph-Based Framework for Multiple Sclerosis New Lesion Detection",
+  "abstract": "Longitudinal magnetic resonance imaging (MRI) is essential for diagnosing and monitoring multiple sclerosis (MS), a chronic central nervous system disorder. Tracking brain lesion evolution over time is essential for predicting MS progression, yet this process is time-consuming and subject to intra- and interobserver variability. While deep learning models such as convolutional neural networks (CNNs) and vision transformers (ViTs) have been applied to lesion detection, they often struggle to fully capture spatial, structural and temporal relationships. Vision graph neural networks (ViGs) present a novel approach with the potential to improve performance in these tasks by effectively capturing relational and structural information. We introduce DEFUSE-MS, a Deformation Field-Guided Spatiotemporal ViG-Based Framework for detecting MS new T2-weighted lesions. The framework features a Heterogeneous Spatiotemporal Graph Module (HSTGM), which functions as both an encoder and decoder. Evaluated on the MSSEG-II dataset, DEFUSE-MS achieves state-of-the-art performance with a lesion detection F1 score of 0.65, sensitivity (SensL) of 0.74, positive predictive value (PPVL) of 0.65, and a mean segmentation Dice score of 0.55, outperforming the state-of-the-art methods. These results highlight DEFUSE-MS’s efficacy in MS new lesion detection. The code is available\nat https://github.com/BioMedIA-MBZUAI/DEFUSE-MS.",
+  "authors": [
+    {
+      "name": "Salem, Mostafa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hassan, Salma",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Papineni, Vijay Ram Kumar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elsayed, Ayman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yaqub, Mohammad",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1815_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

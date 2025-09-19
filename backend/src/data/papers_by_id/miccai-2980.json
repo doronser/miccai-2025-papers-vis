@@ -1,0 +1,79 @@
+{
+  "id": "miccai-2980",
+  "title": "Predicting Femoral Head Collapse Risk in Osteonecrosis Using Label Tokenization: A Multi-Modality Survival Analysis Approach",
+  "abstract": "Collapse of the femoral head is a critical event in osteonecrosis (ONFH) that often leads to debilitating hip pain and necessitates total hip arthroplasty. Early and accurate prediction of collapse risk is crucial for personalized treatment planning. While many studies focus on the automated diagnosis of ONFH, prognosis remains less explored. In this study, we propose a robust tri-stream deep learning framework that extracts features from T1-weighted MRI, region-of-interest (ROI) labels, and ONFH gradings to estimate patient-specific collapse risk. We introduce an independent Spatial Label Encoder (SLE) module that tokenizes discrete ROI labels into dense, context-rich embeddings, thereby facilitating multi-modality model training. Experiments on 92 hips (70 patients) show that our approach performs competitively with state-of-the-art (SOTA) methods across most metrics, achieving a concordance index (CI) of 0.847±0.087 and an integrated AUC of 0.884 in 5-fold cross-validation. Notably, the SLE module enhances long-term discrimination by up to 2.4% on AUC at 60 months compared to our base network. These findings highlight the potential benefits of late-fusion strategies with label tokenization for predicting femoral head collapse in ONFH, contributing to improved early intervention and prognosis.",
+  "authors": [
+    {
+      "name": "Li, Ganping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Otake, Yoshito",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kameda, Yuito",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Uemura, Keisuke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Takashima, Kazuma",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mae, Hirokazu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kono, Sotaro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hamada, Hidetoshi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Okada, Seiji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sugano, Nobuhiko",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sato, Yoshinobu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2980_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "miccai-0392",
+  "title": "HyDA: Hypernetworks for Test Time Domain Adaptation in Medical Imaging Analysis",
+  "abstract": "Medical imaging datasets often vary due to differences in acquisition protocols, patient demographics, and imaging devices. These variations in data distribution, known as domain shift, present a significant challenge in adapting imaging analysis models for practical healthcare applications.\nMost current domain adaptation (DA) approaches aim either to align the distributions between the source and target domains or to learn an invariant feature space that generalizes well across all domains. However, both strategies require access to a sufficient number of examples, though not necessarily annotated, from the test domain during training. This limitation hinders the widespread deployment of models in clinical settings, where target domain data may only be accessible in real time.\nIn this work, we introduce HyDA, a novel hypernetwork framework that leverages domain-specific characteristics rather than suppressing them, enabling dynamic adaptation at inference time. Specifically, HyDA learns implicit domain representations and uses them to adjust model parameters on-the-fly, allowing effective interpolation to unseen domains. We validate HyDA on two clinically relevant applications—MRI-based brain age prediction and chest X-ray pathology classification—demonstrating its ability to generalize across tasks and imaging modalities.\nOur code is available at: https://github.com/doronser/hyda",
+  "authors": [
+    {
+      "name": "Serebro, Doron",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Riklin-Raviv, Tammy",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0392_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

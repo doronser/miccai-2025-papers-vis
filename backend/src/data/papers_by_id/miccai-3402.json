@@ -1,0 +1,42 @@
+{
+  "id": "miccai-3402",
+  "title": "Q-space Guided Collaborative Attention Translation Network for Flexible Diffusion-Weighted Images Synthesis",
+  "abstract": "This study, we propose a novel Q-space Guided Collaborative Attention Translation Networks (Q-CATN) for multi-shell, high-angular resolution DWI (MS-HARDI) synthesis from flexible q-space sampling, leveraging the commonly acquired structural MRI data. Q-CATN employs a collaborative attention mechanism to effectively extract complementary information from multiple modalities and dynamically adjust its internal representations based on flexible q-space information, eliminating the need for fixed sampling schemes. Additionally, we introduce a range of task-specific constraints to preserve anatomical fidelity in DWI, enabling Q-CATN to accurately learn the intrinsic relationships between directional DWI signal distributions and q-space. Extensive experiments on the Human Connectome Project (HCP) dataset demonstrate that Q-CATN outperforms existing methods, including 1D-qDL, 2D-qDL, MESC-SD, and QGAN, in estimating parameter maps and fiber tracts both quantitatively and qualitatively, while preserving fine-grained details. Notably, its ability to accommodate flexible q-space sampling highlights its potential as a promising toolkit for clinical and research applications. Our code is available at https://github.com/Idea89560041/Q-CATN.",
+  "authors": [
+    {
+      "name": "Zhu, Pengli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Yingji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Nanguang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Anqi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3402_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

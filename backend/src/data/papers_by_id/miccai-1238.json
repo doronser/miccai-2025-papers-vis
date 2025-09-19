@@ -1,0 +1,55 @@
+{
+  "id": "miccai-1238",
+  "title": "Cross-Modal Brain Graph Transformer via Function-Structure Connectivity Network for Brain Disease Diagnosis",
+  "abstract": "Multi-modal brain networks represent the complex connectivity between different brain regions from both functional and structural perspectives, which is of great significance for brain disease diagnosis. However, existing methods are limited to information fusion in the feature dimension, failing to fully exploit the complementary information between functional and structural connectivity networks. To address these issues, this paper proposes a cross-modal brain graph transformer (CBGT) method for brain disease diagnosis, which also provides an in-depth analysis of coupled functional-structural connectivity networks. Specifically, CBGT consists of two main modules: the cross-modal Transformer module enhances the attention mechanism by utilizing structural connectivity features extracted through machine learning methods, capturing long-range dependencies in the cross-modal brain network. The cross-modal topK pooling module combines information from both functional and structural connectivity networks to select significant regions of interest (ROIs) during the reconstruction of the pooled graph, aiming to retain as much effective information as possible. Experiments conducted on the ABIDE and ADNI datasets demonstrate that the proposed method outperforms state-of-the-art approaches. Interpretation analysis reveals that the proposed method can identify multi-modal biomarkers associated with brain diseases.",
+  "authors": [
+    {
+      "name": "Feng, Jingxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Heming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Junhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Yujie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Shaoyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Juan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Applications -> Brain Network Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1238_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0386",
+  "title": "Dual Correlation-aware Mamba for Microvascular Obstruction Identification in Non-contrast Cine Cardiac Magnetic Resonance",
+  "abstract": "Microvascular obstruction (MVO) is a key prognostic factor in acute myocardial infarction, with affected patients experiencing higher mortality rates. Currently, late gadolinium enhancement cardiac magnetic resonance (CMR) is the gold standard for MVO identification. However, it is unsuitable for patients with renal impairment, who make up 20\\% of all patients. Recent studies have demonstrated the feasibility of using non-contrast cine CMR to identify MVO. Despite this, existing methods struggle to effectively learn crucial motion features, as they implicitly model motion dynamics while overlooking regional wall motion abnormalities, which are important for MVO identification. To this end, we introduce a Dual Correlation-aware Mamba, which includes an Adjacent Frame Correlation (AFC) module and a Diastolic Frame Correlation (DFC) module to address these limitations. The AFC module calculates the correlations through adjacent frames to explicitly model the motion dynamics. The DFC module learns correlations between the diastolic frame and others. Leveraging the diastolic frame as a reference, this module highlights regional abnormalities and guides motion learning. Experimental results demonstrate that our method outperforms competing methods, potentially providing a non-contrast tool for MVO identification. The code is available at https://github.com/code-koukai/Dual-Correlation-Mamba.",
+  "authors": [
+    {
+      "name": "Yan, Yige",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xulei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Leng, Shuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Ru San",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rajapakse, Jagath C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0386_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-3977",
+  "title": "Edge-Aware Token Halting for Efficient and Accurate Medical Image Segmentation",
+  "abstract": "The effectiveness of Vision Transformer (ViT)-based feature encoding network has been demonstrated in medical image analysis tasks. However, the complexity growing quadratically with the token number limits its application in dense prediction. To accelerate ViT, we propose an efficient and accurate token halting and reconstruction encoder framework, termed HRViT, designed for precise medical image semantic segmentation. Our approach is motivated by the observation that background and internal tokens can be easily identified and halted in early layers, while complex and ambiguous edge regions require deeper computational processing for accurate segmentation. HRViT leverages this insight by incorporating an edge-aware token halting module, which dynamically identifies edge patches and halts non-edge tokens. The preserved edge tokens are propagated to deeper layers and further refined through edge reinforcement. After encoding, all tokens are restored to their original positions, and auxiliary supervision is also introduced to strengthen the encoder’s representation power. We evaluate the segmentation performance of our method using two public medical image datasets and the experimental results show that our method achieves promising performance compared with the state-of-the-art approaches. Our code is released at https://github.com/guoyh6/hrvit.",
+  "authors": [
+    {
+      "name": "Guo, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Heng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Erkang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3977_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

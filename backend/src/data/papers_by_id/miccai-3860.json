@@ -1,0 +1,55 @@
+{
+  "id": "miccai-3860",
+  "title": "Frequency-enhanced Multi-granularity Context Network for Efficient Vertebrae Segmentation",
+  "abstract": "Automated and accurate segmentation of individual vertebra in 3D CT and MRI images is essential for various clinical applications. Due to the limitations of current imaging techniques and the complexity of spinal structures, existing methods still struggle with reducing the impact of image blurring and distinguishing similar vertebrae. To alleviate these issues, we introduce a Frequency-enhanced Multi-granularity Context Network (FMC-Net) to improve the accuracy of vertebrae segmentation. Specifically, we first apply wavelet transform for lossless downsampling to reduce the feature distortion in blurred images. The decomposed high and low-frequency components are then processed separately. For the high-frequency components, we apply a High-frequency Feature Refinement (HFR) to amplify the prominence of key features and filter out noises, restoring fine-grained details in blurred images. For the low-frequency components, we use a Multi-granularity State Space Model (MG-SSM) to aggregate feature representations with different receptive fields, extracting spatially-varying contexts while capturing long-range dependencies with linear complexity. The utilization of multi-granularity contexts is essential for distinguishing similar vertebrae and improving segmentation accuracy. Extensive experiments demonstrate that our method outperforms state-of-the-art approaches on both CT and MRI vertebrae segmentation datasets. The source code is publicly available at https://github.com/anaanaa/FMCNet.",
+  "authors": [
+    {
+      "name": "Shi, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "You, Tianqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Pingping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hongli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Haojie",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3860_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

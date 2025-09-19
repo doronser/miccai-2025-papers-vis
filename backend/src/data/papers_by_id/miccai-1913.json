@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1913",
+  "title": "Hybrid Local-Window-Attention–Assisted U-Net Model for Multimodal Medical-Image Segmentation",
+  "abstract": "Multimodal image segmentation has been gaining significance with the advancement of deep learning and increasing diversity of datasets. Although researchers have been actively exploring multimodal U-Net structures, improvements in the segmentation of fine features in medical images remain limited. In this study, we propose a novel U-Net model based on hybrid local-window attention, for multimodal medical-image segmentation. This study aims to effectively analyze overlapping brain-tumor lesions and extract essential information from different magnetic-resonance-imaging modalities for more precise segmentation. The proposed hybrid local-window–attention mechanism comprises local-window self-attention and cross-attention, disentangled representation learning (DRL), and region-aware contrastive learning (RCL) modules. We apply local-window self-attention for achieving efficiency over global attention, and local-window cross-attention between the encoder and decoder to enhance the modality interaction. The hybrid local-window–attention structure extracts modality-specific features, whereas DRL preserves modality and lesion information. RCL utilizes the contrast loss within the lesions to improve segmentation. We perform comprehensive experiments on the BraTS 2023 and BraTS 2024 datasets and confirm that the proposed model provides enhanced medical-image segmentation performance, compared with U-Net based benchmark models without pre-training.",
+  "authors": [
+    {
+      "name": "Kim, Jiwon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Seyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noh, Yeonwoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Moon, Hyeonjoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Minwoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noh, Wonjong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1913_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

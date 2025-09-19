@@ -1,0 +1,33 @@
+{
+  "id": "miccai-2966",
+  "title": "Hierarchical Anatomy-Aware Guidance for Brain Tissue Microstructure Reconstruction from T1-weighted MRI",
+  "abstract": "Tissue microstructure information reconstructed from diffusion magnetic resonance imaging (MRI) provides crucial brain tissue information for brain disease analysis. However, clinical imaging time constraints often limit the availability of diffusion MRI, thus prompting research into tissue microstructure reconstruction from clinically feasible MRI modalities, such as T1-weighted MRI. Recent Transformer-based generative adversarial networks demonstrate potential by capturing long-range dependencies via self-attention in general MRI synthesis tasks, yet the significant gap between diffusion and T1-weighted MRI limits their ability to achieve optimal performance, leading to anatomical inconsistency in the reconstructed tissue microstructure maps. To address the problem, we propose a hierarchical anatomy-aware guidance (HAAG) framework for brain tissue microstructure reconstruction from T1-weighted MRI. First, we consider a two-level strategy to introduce the anatomical priors for the Transformer. At the input level of the Transformer, we propose an adaptive semantic embedding module that seamlessly integrates anatomical structure category information, providing semantic-level guidance for tissue microstructure reconstruction. At the feature modeling level of the Transformer, we propose a distance-guided self-attention mechanism to achieve effective information fusion of anatomical structures that balances both global and local contexts. Then, we consider a more general approach to verify the anatomical consistency at the output level of the whole synthesis network. We develop an anatomy-aware discriminative loss that encourages anatomical consistency between the input and output modalities. HAAG was validated on a public brain MRI dataset for reconstruction of tissue microstructure from T1-weighted MRI. The results demonstrate that our method significantly improves the quality of tissue microstructure reconstruction.",
+  "authors": [
+    {
+      "name": "Li, Yuxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Chuyang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2966_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

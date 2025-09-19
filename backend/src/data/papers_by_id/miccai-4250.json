@@ -1,0 +1,54 @@
+{
+  "id": "miccai-4250",
+  "title": "Indepth Integration of Multi-granularity Features from Dual-modal for Disease Classification",
+  "abstract": "Multi-granularity features can be extracted from multi-modal\nmedical images and how to effectively analyze these features jointly is a\nchallenging and critical issue for computer-aided diagnosis (CAD). How\u0002ever, most existing multi-modal classification methods have not fully\nexplored the interactions among the intra- and inter-granularity features\nacross multi-modals. To address this limitation, we propose a novel In\u0002depth Integration of Multi-Granulairty Features Network (IIMGF-Net)\nfor a typical multi-modal task, i.e., a dual-modal based CAD. Specifi\u0002cally, the proposed IIMGF-Net consistes of two types of key modules, i.e.,\nCross-Modal Intra-Granularity Fusion (CMIGF) and Multi-Granularity\nCollaboration (MGC). The CMIGF module enhances the attentive in\u0002teractions between the same granularity features from dual-modals and\nderive an integrated representation at each granularity. Based on these\nrepresentations, the MGC module captures inter-granularity interactions\namong the resulting representations of CMIGF through a coarse-to-fine\nand fine-to-coarse collaborative learning mechanism. Extensive experi\u0002ments on two dual-modal datasets validate the effectiveness of the pro\u0002posed method, demonstrating its superiority in dual-modal CAD tasks\nby integrating multi-granularity information.",
+  "authors": [
+    {
+      "name": "Wu, Yeli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiaocai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Weiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Haiteng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "An, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jianjia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4250_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

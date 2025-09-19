@@ -1,0 +1,42 @@
+{
+  "id": "miccai-2950",
+  "title": "Does Connectome Harmonic Analysis pass the Spin Test?",
+  "abstract": "Connectome harmonic analysis has been proposed as a multimodal approach for studying brain dynamics by decomposing functional MRI signals in a Fourier basis informed by the structural connectome derived from diffusion MRI. In this work we pose the following question: is the propensity of the connectomic Fourier basis to reconstruct resting state fMRI signals truly contingent upon anatomical priors? We present evidence that it is not, by demonstrating that when fewer than $n=100$ modes are considered the connectomic eigenbasis obtained through state-of-the-art methodology performs similarly to geometrically transformed versions of that same basis. The main theoretical contribution of this paper is the construction of a regular planar embedding of the left hemisphere’s cortical surface, which we use to compute a smoothly parametrised family of cortical transformations which form",
+  "authors": [
+    {
+      "name": "Vock, Raphaël",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grigis, Antoine",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dufumier, Benoît",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duchesnay, Edouard",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2950_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "miccai-2102",
+  "title": "Enhancing AI-assisted Stroke Emergency Triage with Adaptive Uncertainty Estimation",
+  "abstract": "Stroke diagnosis in emergency rooms (ERs) is challenging due to limited access to MRI scans and a shortage of neurologists. Although AI-assisted triage has shown promise, existing methods typically use MRI-derived training labels, which may not align with stroke patterns in patient multimedia data. To address this mismatch, we propose an Adaptive Uncertainty-aware Stroke TrIage Network (AUSTIN) that leverages inconsistencies between clinician triage decisions and MRI-derived labels to enhance AI-driven stroke triage. This approach mitigates overfitting to clinician-MRI disagreement cases during training, significantly improving test accuracy. Additionally, it identifies high-uncertainty samples during inference, prompting further imaging or expert review. Evaluated on a clinical stroke patient dataset collected in an ER setting, AUSTIN achieves over 20\\% performance gain over human triage and a 13\\% improvement over a prior state-of-the-art method. The learned uncertainty scores also show strong alignment with discrepancies in clinical assessments, highlighting the framework’s potential to enhance the reliability of AI-assisted stroke triage.",
+  "authors": [
+    {
+      "name": "Yang, Shuhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Tongan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Haomiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Wenchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xue, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Kelvin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Volpi, John",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, James Z.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Sharon X.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Stephen T. C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2102_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

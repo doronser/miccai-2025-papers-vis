@@ -1,0 +1,53 @@
+{
+  "id": "miccai-2645",
+  "title": "Feature Copy-Paste Network for Lung Cancer EGFR Mutation Status Prediction in CT images",
+  "abstract": "Epidermal growth factor receptor (EGFR) mutation status is crucial for targeted therapy planning in lung cancer. Current identification relies on invasive biopsy and expensive gene sequencing. Recent studies indicate that CT imaging with advanced deep learning techniques offer a non-invasive alternative for predicting EGFR mutation status. However, CT scanning parameters, such as slice thickness, vary significantly between different scanners and centers, making the predicting models highly sensitive to data types, and thus not robust in clinical practice. In this study, we propose Feature Copy-Paste Network (FCPNet), an innovative and robust model for predicting EGFR mutation status using CT images. First, we propose a novel Feature Copy-Paste Consistency (FCPC) module to exchange the information from CT scans with different slice thicknesses and impose consistency constrain to make model more robust. Second, we introduce a Feature Refinement (FR) module to filter redundant features during information fusion, thereby enhancing the accuracy of mutation prediction. Extensive experiments demonstrate the outstanding performance of the FCPC and FR modules. When the trained model is tested on both thin-slice and thick-slice CT images, it achieves at least 2.6% and 2.1% improvements in AUC, respectively, indicating the models’ robustness and stability. Our code is available at https://github.com/499huangxingyu/FCPNet.",
+  "authors": [
+    {
+      "name": "Huang, Xingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Chengcai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sang, Haolin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Jie",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2645_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

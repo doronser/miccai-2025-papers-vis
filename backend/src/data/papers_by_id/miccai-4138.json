@@ -1,0 +1,46 @@
+{
+  "id": "miccai-4138",
+  "title": "Diff-RRG: Longitudinal Disease-wise Patch Difference as Guidance for LLM-based Radiology Report Generation",
+  "abstract": "Radiology report generation (RRG) is an emerging field that aims to automatically generate free-text clinical descriptions of radiographic images, incorporating temporal disease progression. However, existing methods rely on coarse-grained image representations and lack explicit mechanisms to integrate patients’ historical information. To address these limitations, we propose a novel framework Diff-RRG that introduces longitudinal disease-wise patch Difference as guidance for large language model (LLM)-based Radiology Report Generation, aligning with the real-world diagnostic process. Our approach extracts disease-wise difference maps to identify fine-grained patches associated with specific diseases and to capture the difference between consecutive radiographs. Such information is fed into the LLM to provide direct guidance on disease progression. Accordingly, the resulting generated reports can be explained by pinpointing the related regions in the image, thereby enhancing explainability. In the extensive experiments, we have achieved state-of-the-art performance in most of the natural language generation and clinical efficacy metrics on the Longitudinal-MIMIC dataset. Our code is available at https://github.com/ku-milab/Diff-RRG.",
+  "authors": [
+    {
+      "name": "Yun, Hannah",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maeng, Junyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Eunsong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Suk, Heung-Il",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4138_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "miccai-1773",
+  "title": "XFMamba: Cross-Fusion Mamba for Multi-View Medical Image Classification",
+  "abstract": "Compared to single view medical image classification, using multiple views can significantly enhance predictive accuracy as it can account for the complementarity of each view while leveraging correlations between views. Existing multi-view approaches typically employ separate convolutional or transformer branches combined with simplistic feature fusion strategies. However, these approaches inadvertently disregard essential cross-view correlations, leading to suboptimal classification performance, and suffer from challenges with limited receptive field (CNNs) or quadratic computational complexity (transformers). Inspired by state space sequence models, we propose \\emph{XFMamba}, a pure Mamba-based cross-fusion architecture to address the challenge of multi-view medical image classification. XFMamba introduces a novel two-stage fusion strategy, facilitating the learning of single-view features and their cross-view disparity. This mechanism captures spatially long-range dependencies in each view while enhancing seamless information transfer between views. Results on three public datasets, MURA, CheXpert and DDSM, illustrate the effectiveness of our approach across diverse multi-view medical image classification tasks, showing that it outperforms existing convolution-based and transformer-based multi-view methods.",
+  "authors": [
+    {
+      "name": "Zheng, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gong, Shaogang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Griffin, Xavier",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Slabaugh, Greg",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1773_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

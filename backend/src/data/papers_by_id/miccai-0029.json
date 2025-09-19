@@ -1,0 +1,39 @@
+{
+  "id": "miccai-0029",
+  "title": "Multi-Masked Querying Network for Robust Emotion Recognition from Incomplete Multi-Modal Physiological Signals",
+  "abstract": "Emotion recognition from physiological data is crucial for mental health assessment, yet it faces two significant challenges: incomplete multi-modal signals and interference from body movements and artifacts. This paper presents a novel Multi-Masked Querying Network (MMQ-Net) to address these issues by integrating multiple querying mechanisms into a unified framework. Specifically, it uses modality queries to reconstruct missing data from incomplete signals, category queries to focus on emotional state features, and interference queries to separate relevant information from noise. Extensive experiment results demonstrate the superior emotion recognition performance of MMQ-Net compared to existing approaches, particularly under high levels of data incompleteness.",
+  "authors": [
+    {
+      "name": "Xu, Geng-Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zuo, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Ye",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> other",
+    "Modalities -> EEG / ECG",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0029_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

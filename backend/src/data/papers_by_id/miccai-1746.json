@@ -1,0 +1,85 @@
+{
+  "id": "miccai-1746",
+  "title": "MoMIL: Mixture of Multi-Instance Learners for Modeling Multiple Compound Activities in High Content Imaging",
+  "abstract": "High content imaging (HCI) plays a pivotal role in target-directed drug discovery (TDD) by identifying compound activities across tests (or assays) designed for specific therapeutic targets. However, real-world assays often exhibit extreme label sparsity over large compound libraries, making accurate predictions challenging. Recent studies following multi-label learning (MLL) struggle in such scenarios when optimizing a single objective across multiple assays without assay-specific adaptations. To address this, we propose Mixture of Multi-Instance Learners (MoMIL), a multi-task learning (MTL) framework integrating hard-parameter sharing with assay-specific Multiple Instance Learners (MILs), enabling knowledge sharing and task-specific adaptations. Furthermore, we introduce complementary enhancements: HCI-specific foundation models (FMs), an assay selection algorithm, and a label imputation method to boost MoMIL’s learning capabilities. We benchmark MoMIL on two extensive HCI datasets, achieving up to ∼6% and ∼8% improvement over state-of-the-art MLL and MTL methods. Moreover, MoMIL shows strong generalization to unseen assays, outperforming assay-specific single-task learning (STL) methods in 11 out of 12 assays.",
+  "authors": [
+    {
+      "name": "Pati, Pushpak",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Hsiu-Chi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jaensch, Steffen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abdelmoula, Walid M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chaitanya, Krishna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Van Dyck, Michiel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Albuquerque, Tomé",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Allen, Samantha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Litao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mansi, Tommaso",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Zhoubing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1746_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0252",
+  "title": "IP-CRR: Information Pursuit for Interpretable Classification of Chest Radiology Reports",
+  "abstract": "The development of AI-based methods to analyze radiology\nreports could lead to significant advances in medical diagnosis, from improving\ndiagnostic accuracy to enhancing efficiency and reducing workload.\nHowever, the lack of interpretability of AI-based methods could\nhinder their adoption in clinical settings. In this paper, we propose an\ninterpretable-by-design framework for classifying chest radiology reports.\nFirst, we extract a set of representative facts from a large set of reports.\nThen, given a new report, we query whether a small subset of\nthe representative facts is entailed by the report, and predict a diagnosis\nbased on the selected subset of query-answer pairs. The explanation\nfor a prediction is, by construction, the set of selected queries\nand answers. We use the Information Pursuit framework to select the\nmost informative queries, a natural language inference model to determine if a fact is entailed by the report, and a classifier to predict the disease. Experiments on the MIMIC-CXR dataset demonstrate the effectiveness of the proposed method, highlighting its potential to enhance trust and usability in medical AI. Code  is available at: https://github.com/Glourier/MICCAI2025-IP-CRR.",
+  "authors": [
+    {
+      "name": "Ge, Yuyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chan, Kwan Ho Ryan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Messina, Pablo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vidal, René",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0252_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

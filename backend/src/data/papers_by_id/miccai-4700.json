@@ -1,0 +1,65 @@
+{
+  "id": "miccai-4700",
+  "title": "Deep Learning-based Alignment Measurement in Knee Radiographs",
+  "abstract": "Radiographic knee alignment (KA) measurement is important for predicting joint health and surgical outcomes after total knee replacement. Traditional methods for KA measurements are manual, time-consuming and require long-leg radiographs. This study proposes a deep learning-based method to measure KA in anteroposterior knee radiographs via automatically localized knee anatomical landmarks. Our method builds on hourglass networks and incorporates an attention gate structure to enhance robustness and focus on key anatomical features. To our knowledge, this is the first deep learning-based method to localize over 100 knee anatomical landmarks to fully outline the knee shape while integrating KA measurements on both pre-operative and post-operative images. It provides highly accurate and reliable anatomical varus/valgus KA measurements using the anatomical tibiofemoral angle, achieving mean absolute differences ~1° when compared to clinical ground truth measurements. Agreement between automated and clinical measurements was excellent pre-operatively (intra-class correlation coefficient (ICC) = 0.97) and good post-operatively (ICC = 0.86). Our findings demonstrate that KA assessment can be automated with high accuracy, creating opportunities for digitally enhanced clinical workflows.",
+  "authors": [
+    {
+      "name": "Hu, Zhisen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cullen, Dominic",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Thompson, Peter",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Johnson, David",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bian, Chang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tiulpin, Aleksei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cootes, Timothy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lindner, Claudia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4700_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

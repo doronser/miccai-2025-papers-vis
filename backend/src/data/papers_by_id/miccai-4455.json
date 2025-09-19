@@ -1,0 +1,48 @@
+{
+  "id": "miccai-4455",
+  "title": "Spatial Prior-Guided Boundary and Region-Aware 2D Lesion Segmentation in Neonatal Hypoxic Ischemic Encephalopathy",
+  "abstract": "Segmenting acute and hyper-acute brain lesions in neonatal hypoxic ischemic encephalopathy (HIE) from diffusion-weighted MRI (DWI) is critical for prognosis and treatment planning but remains challenging due to severe class imbalance and lesion variability. We propose a computationally efficient 2D segmentation framework leveraging ADC and ZADC maps as a three-channel input to UNet++ with an Inception-v4 encoder and scSE attention for enhanced spatial-channel recalibration. To address class critical imbalance and lack of volumetric context in 2D methods, we introduce a novel boundary-and-region-aware weighted loss integrating Tversky, Log-Hausdorff, and Focal losses. Our method surpasses state-of-the-art 2D approaches and achieves competitive performance against computationally intensive 3D architectures, securing a DSC of 0.6060, MASD of 2.6484, and NSD of 0.7477. These results establish a new benchmark for neonatal HIE lesion segmentation, demonstrating superior detection of both acute and hyper-acute lesions while mitigating the challenge of loss collapse. The code is available at https://github.com/BONBID-HIE/Neonatal-HIE-SPARSeg.",
+  "authors": [
+    {
+      "name": "Rao, Amog",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shukla, Ananya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bhargava, Jia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ou, Yangming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bao, Rina",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4455_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

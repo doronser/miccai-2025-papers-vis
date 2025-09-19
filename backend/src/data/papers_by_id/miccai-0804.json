@@ -1,0 +1,38 @@
+{
+  "id": "miccai-0804",
+  "title": "NQNN: Noise-aware Quantum Neural Networks for Medical Image Classification",
+  "abstract": "Noisy labels in high-dimensional, and multiclass medical im-\nage datasets pose a significant challenge for machine learning models.\nWhile hybrid quantum-classical architectures, such as quantum neural\nnetworks (QNNs), have shown promise in medical imaging, their ro-\nbustness under noisy label conditions remains largely unexplored. To\naddress this gap, we propose a Noise-aware Quantum Neural Network\n(NQNN), integrating Fourier Attenuation, Reweight Estimation, and\nAdaptive Pooling to enhance feature extraction and classification ro-\nbustness. Fourier Attenuation filters high-frequency noise, Reweight Es-\ntimation prioritizes cleaner labels based on uncertainty, and Adaptive\nPooling dynamically refines feature aggregation. We evaluate NQNN on\nsix benchmark medical datasets (PathMNIST, BloodMNIST, OrganAM-\nNIST, OrganCMNIST, OCTMNIST, and DermaMNIST) across noise ra-\ntios (10%, 30%, and 50%) and classification configurations (binary, four-\nclass, and full multiclass). Comparative benchmarks against five QNN-\nbased and two deep-learning baselines demonstrate NQNN’s superior\nperformance, such that achieving 80.25% accuracy on organCMNIST at\n10% noise and maintaining strong performance at higher noise ratios.\nOur ablation studies validate the effectiveness of each noise-handling\nmechanism, highlighting their complementary contributions to noise ro-\nbustness. By bridging quantum advancements with real-world medical di-\nagnostics, NQNN establishes a new benchmark for noise-resilient medical\nimage classification, offering a scalable and adaptive quantum-classical\nlearning framework.",
+  "authors": [
+    {
+      "name": "Rahman, Maqsudur",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Jun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body ->  Breast",
+    "Body -> Eye",
+    "Body ->  Skin",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computational (Integrative) Pathology",
+    "Modalities -> Microscopy",
+    "Modalities -> Photograph / Video",
+    "Machine Learning -> Deep learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0804_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

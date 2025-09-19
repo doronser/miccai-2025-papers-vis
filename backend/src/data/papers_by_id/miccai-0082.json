@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0082",
+  "title": "Opportunistic Osteoporosis Diagnosis via Texture-Preserving Self-Supervision, Mixture of Experts and Multi-Task Integration",
+  "abstract": "Osteoporosis, characterized by reduced bone mineral density (BMD) and compromised bone microstructure, increases fracture risk in aging populations. While dual-energy X-ray absorptiometry (DXA) is the clinical standard for BMD assessment, its limited accessibility hinders diagnosis in resource-limited regions. Opportunistic computed tomography (CT) analysis has emerged as a promising alternative for osteoporosis diagnosis using existing imaging data. Current approaches, however, face three limitations: (1) underutilization of unlabeled vertebral data, (2) systematic bias from device-specific DXA discrepancies, and (3) insufficient integration of clinical knowledge such as spatial BMD distribution patterns. To address these, we propose a unified deep learning framework with three innovations. First, a self-supervised learning method using radiomic representations to leverage unlabeled CT data and preserve bone texture. Second, a Mixture of Experts (MoE) architecture with learned gating mechanisms to enhance cross-device adaptability. Third, a multi-task learning framework integrating osteoporosis diagnosis, BMD regression, and vertebra location prediction. Validated across three clinical sites and an external hospital, our approach demonstrates superior generalizability and accuracy over existing methods for opportunistic osteoporosis screening and diagnosis.",
+  "authors": [
+    {
+      "name": "Huang, Jiaxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Heng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Fan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Minfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Ge",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0082_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

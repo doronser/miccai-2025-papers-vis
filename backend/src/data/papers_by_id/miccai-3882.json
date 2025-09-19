@@ -1,0 +1,44 @@
+{
+  "id": "miccai-3882",
+  "title": "Revisit the Stability of Vanilla Federated Learning Under Diverse Conditions",
+  "abstract": "Federated Learning (FL) is a distributed machine learning paradigm enabling collaborative model training across decentralized clients while preserving data privacy. In this paper, we revisit the stability of the vanilla FedAvg method under diverse conditions. Despite its conceptual simplicity, FedAvg exhibits remarkably stable performance compared to more advanced FL techniques. Our experiments assess the performance of various FL methods on blood cell and skin lesion classification tasks using Vision Transformer (ViT). Additionally, we evaluate the impact of different representative classification models and analyze sensitivity to hyperparameter variations. The results consistently demonstrate that, regardless of dataset, classification model employed, or hyperparameter settings, FedAvg maintains robust performance. Given its stability, robust performance without the need for extensive hyperparameter tuning, FedAvg is a safe and efficient choice for FL deployments in resource-constrained hospitals handling medical data. These findings highlight the value of the vanilla FedAvg as a reliable baseline for clinical practice.",
+  "authors": [
+    {
+      "name": "Lee, Youngjoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gong, Jinu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Choi, Sun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Joonhyuk",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3882_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

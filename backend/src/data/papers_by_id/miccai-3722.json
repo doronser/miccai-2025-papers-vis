@@ -1,0 +1,43 @@
+{
+  "id": "miccai-3722",
+  "title": "EndoPlanar: Deformable Planar-based Gaussian Splatting for Surgical Scene Reconstruction",
+  "abstract": "Accurate reconstruction of deformable soft tissues from endoscopic stereo videos is essential to improve surgical navigation and automation in robot-assisted image-guided procedures. While recent Gaussian splatting techniques achieve real-time rendering with impressive results on endoscopic datasets, conventional 3D Gaussian splatting methods suffer from volumetric biases, leading to inaccuracies in 3D geometry and depth estimation. To overcome these limitations, we propose EndoPlanar, a novel deformable planar-based Gaussian splatting approach. By flattening volumetric Gaussians to a 2D plane, our method enables unbiased depth computation and normal map estimation, which are difficult to achieve with traditional ellipsoidal Gaussians. Furthermore, we introduce a regularization strategy for smooth planar-derived normal maps to refine surface quality. Additionally, we enhance model initialization using Gaussian mixture-based background segmentation, improving the representation of unseen objects and accelerating convergence. We evaluate EndoPlanar on two standard benchmarks, EndoNeRF and StereoMIS, demonstrating promising performance by outperforming all baselines in reconstruction quality with PSNR of 34.51 dB while maintaining real-time inference speeds of 307.5 FPS.",
+  "authors": [
+    {
+      "name": "Paonim, Thatphum",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sasnarukkit, Chayapon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nupairoj, Natawut",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vateekul, Peerapon",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Data Science",
+    "Surgery -> Mixed / Augmented / Virtual Reality"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3722_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

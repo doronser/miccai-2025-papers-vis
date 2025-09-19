@@ -1,0 +1,55 @@
+{
+  "id": "miccai-3982",
+  "title": "pyOpenNFT: an open-source Python framework for ML-based real-time fMRI and EEG-fMRI neurofeedback",
+  "abstract": "Real-time functional magnetic resonance imaging (rt-fMRI) is a powerful neuroimaging tool for monitoring brain activity and neurofeedback (NF) applications with promising therapeutic potential in psychiatric and neurological disorders. However, technical implementation of NF using acquired real-time fMRI and/or predicted real-time fMRI signals based on electroencephalographic (EEG) records remains restrictive and often lacks reproducibility. Here, a fully Python-based pyOpenNFT framework was designed for greater flexibility, modularity, and real-time processing efficiency. Its functionality was also extended with a ML-based prediction server for the fMRI NF signal using processed EEG records. The framework streamlines fMRI data acquisition and/or EEG-based prediction, NF signal estimation, and quality assessment (rtQA) without necessarily requiring a GUI. The FastAPI-based implementation for an EEG-based predictor integrates a Lab Streaming Layer (LSL) interface for processed EEG records and delivers real-time predictions of fMRI time-series for target brain regions. The system supports the visualization of additional NF sources by querying a RESTful interface, facilitating interoperability with external applications. Efficient real-time processing is achieved through parallelized workflows, optimized data handling, and shared memory buffers for seamless exchange of brain volumes, time-series data, and rtQA metrics. With open-source code available on GitHub, pyOpenNFT advances multimodal real-time neuroimaging and extends the platform for scientific, clinical and educational applications.",
+  "authors": [
+    {
+      "name": "Antipushina, Ekaterina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Davydov, Nikita",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "De Feo, Riccardo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prilepin, Evgeny",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nikonorov, Artem",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Koush, Yury",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3982_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

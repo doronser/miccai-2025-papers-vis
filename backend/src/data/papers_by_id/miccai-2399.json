@@ -1,0 +1,63 @@
+{
+  "id": "miccai-2399",
+  "title": "Prolog-Driven Rule-Based Diagnostics with Large Language Models for Precise Clinical Decision Support",
+  "abstract": "Recently, large language models (LLMs) have been increasingly utilized for decision support across various domains. However, due to their probabilistic nature and diverse learning influences, LLMs can sometimes generate inaccurate or fabricated information, a phenomenon known as ``hallucination’’. This issue is particularly problematic in fields like medical diagnosis, where accuracy is crucial and the margin for error is minimal. The risk of hallucination is exacerbated when patient data are incomplete or vary across different clinical departments. Consequently, using LLMs directly for clinical decision support presents significant challenges. In this paper, we introduce ProCDS, a system that integrates Prolog-based rule diagnostics with LLMs to enhance the precision of clinical decision support. ProCDS begins by converting medical protocols into a set of rules and patient information into facts. Then, we design an update cycle to extract and update related facts and rules due to possible discrepancies and missing patient information. After that, we perform a logical inference using the Prolog engine and acquire the response. If the Prolog engine cannot produce certain results, ProCDS would perform another iteration of facts and rules update to fix the potential mismatch and perform logical inference again. Through this iterative neuro-symbolic integrated process, ProCDS can perform transparent and accurate clinical decision support. We evaluated ProCDS in Obstructive Sleep Apnea Hypopnea Syndrome (OSAHS) real-world clinical scenarios and other logical reasoning benchmarks, achieving high accuracy and reliability in our results. Our project page is available at: https://github.com/testlbin/procds.",
+  "authors": [
+    {
+      "name": "Tan, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Weidi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qu, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chu, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yinghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qi, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Xihe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2399_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

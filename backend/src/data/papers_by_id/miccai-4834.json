@@ -1,0 +1,54 @@
+{
+  "id": "miccai-4834",
+  "title": "Multi-Modal Graph-Based Machine Learning for Predicting Surgical Outcome in Epilepsy Patients",
+  "abstract": "Reliable prediction of seizure outcomes after surgical intervention before ablative surgery could play a critical role for tailoring epilepsy treatment. However, for diverse patient populations, accurate and personalized predic-tions remain challenging with traditional methods. Current methods rely heavily on clinical expertise and experience, and data driven tools may help in supporting clinicians to make more informed surgical decisions. This study presents a novel deep learning-based spatio-temporal graph neural network (ST-GNN) model to predict reduction in seizure frequency utiliz-ing high-quality stereo electroencephalography (sEEG) and structural mag-netic resonance imaging (MRI) data.  sEEG and MRI data are curated from patients with pharma-coresistant refractory epilepsy and suspected wide/complex seizure networks or multifocal epilepsy. A total of 10 pedi-atric patients with sEEG contacts in the thalamus were considered, where data from multiple ictal events was used to train the model. Our ST-GNN model integrates local and global connectivity using graph convolutions with multi-scale attention mechanisms to capture patterns between diffi-cult-to-study regions such as the thalamus and cortical/subcortical regions, both from MRI and sEEG. The model achieved an accuracy of 90.4%, and 75.4% in predicting seizure outcomes for seizure-wise and patient-wise prediction respectively. Edge-level connectivity analysis highlighted the thalamus and mid insula regions as key regions. Our findings underscore the potential of new connectivity-based deep learning models leveraging multimodal data for enhancing the prediction of seizure outcomes and tailoring treatment planning for epilepsy. Our multi-modal approach can help inform AI-assisted personalized epilepsy treatment planning. Code is avail-able on our GitHub.",
+  "authors": [
+    {
+      "name": "Aharonyan, Artur Arturi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Amir, Syeda Abeera",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wittayanakorn, Nunthasiri",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Linguraru, Marius George",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oluigbo, Chima",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Anwar, Syed Muhammad",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Interpretability / Explainability",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4834_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

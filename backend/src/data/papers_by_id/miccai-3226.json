@@ -1,0 +1,50 @@
+{
+  "id": "miccai-3226",
+  "title": "Dynamic Function-Structure Connectivity Coupling for Predicting Progression Trajectories in Neurocognitive Decline",
+  "abstract": "Function-structure connectivity (FSC) coupling helps reveal alterations in the interplay between brain functional connectivity (FC) and structural connectivity (SC) caused by neurocognitive decline. Existing studies on FSC coupling typically focus on modeling interactions between static FC and SC features, ignoring temporal dynamics conveyed in functional MRI (fMRI) time series. Additionally, conventional strategies often compute global whole-brain FSC correlation or assess local region-specific FSC correspondences, without capturing complex inter-region dependencies between FC and SC patterns. To this end, we propose a dynamic function-structure connectivity coupling (DFSC) framework to predict progression trajectories in neurocognitive decline with fMRI and diffusion tensor imaging (DTI) data. In DFSC, we first construct static SC and dynamic FC graphs and use graph neural networks (GNNs) for feature learning, yielding new SC and FC embeddings. Based on these embeddings, we construct dynamic local-to-global FSC coupling graphs to capture both region-specific and inter-region dependencies between FC and SC, followed by GNNs to generate dynamic FSC coupling embeddings. These multi-view embeddings are finally fed into a squeeze-excitation readout module and a Transformer for feature fusion and prediction. Experimental results on two datasets with paired fMRI and DTI data from a total of 231 subjects demonstrate that our DFSC\noutperforms several state-of-the-art methods. With the DFSC, one can identify both discriminative brain regions and between-group FSC coupling difference, facilitating objective quantification of structural and functional brain changes associated with neurocognitive decline.",
+  "authors": [
+    {
+      "name": "Wang, Qianqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hong-Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Weili",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mingxia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3226_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

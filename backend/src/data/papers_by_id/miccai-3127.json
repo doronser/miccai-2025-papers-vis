@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3127",
+  "title": "Hyperbolic Kernel GCN with Structure-Function Connectivity Coupling for Neurocognitive Impairment Analysis",
+  "abstract": "Diffusion tensor imaging (DTI) and functional MRI (fMRI) provide complementary views of the brain by revealing the physical structure connectivity (SC) between brain regions and function connectivity (FC) between those regions during neural processing. Previous evidence has shown that fusing the two modalities facilitates the identification of abnormal connectivity associated with neurocognitive disorders. However, existing fusion approaches are generally performed in Euclidean space and thus cannot effectively capture the intrinsic hierarchical organization of structural/functional brain networks. To this end, we propose a novel hyperbolic kernel graph convolutional network with SC-FC Coupling (HKC) for neurocognitive impairment analysis. The HKC consists of a hyperbolic kernel graph convolutional network for extracting local-to-global features from DTI and fMRI, an SC-FC coupling module that models global SC-FC interactions based on encoded DTI and fMRI features, and a hyperbolic neural network predictor for classification. Our HKC captures both local and global dependencies among structurally and functionally connected brain regions while preserving the hierarchical organization of brain networks. We evaluate HKC on paired DTI and fMRI data from 68 individuals with HIV-associated asymptomatic neurocognitive impairment and 69 healthy controls, with experimental results suggesting its superiority over state-of-the-art methods. Additionally, HKC identifies key SC-FC patterns in ANI, highlighting the visual network and fronto-cerebellar connections as critical biomarkers.",
+  "authors": [
+    {
+      "name": "Yang, Meimei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yongheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qianqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Hong-Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mingxia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3127_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "miccai-4895",
+  "title": "EfficientMedNeXt: Multi-Receptive Dilated Convolutions for Medical Image Segmentation",
+  "abstract": "In this work, we introduce EfficientMedNeXt—a lightweight, high-performance segmentation architecture developed through a two-phase optimization process applied to the MedNeXt architecture. To this end, we first optimize the decoder by reducing the high-resolution redundancy and unifying the decoder channels across stages for improved efficiency. Then, we introduce a new Dilated Multi-Receptive Field Block (DMRFB) to capture the multi-scale spatial context efficiently without increasing the kernel sizes and relying on the channel expansion convolutions. Extensive evaluations on BTCV, FeTA, and MSD show that EfficientMedNeXt-L achieves 87.0% DICE score on BTCV (+1.04% over MedNeXt-L) with 96.5% fewer parameters and 77.03% lower FLOPs. In addition, EfficientMedNeXt-S offers comparable DICE score, improved HD95, and 78.1% higher throughput while reducing parameters by 98.5% and FLOPs by 95%. These results demonstrate EfficientMedNeXt’s efficiency and accuracy, making it well-suited for real-world clinical applications. Our implementation is available at https://github.com/SLDGroup/EfficientMedNeXt.",
+  "authors": [
+    {
+      "name": "Rahman, Md Mostafijur",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Munir, Mustafa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marculescu, Radu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4895_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

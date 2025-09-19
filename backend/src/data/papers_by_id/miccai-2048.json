@@ -1,0 +1,40 @@
+{
+  "id": "miccai-2048",
+  "title": "Multistage Alignment and Fusion for Multimodal Multiclass Alzheimer’s Disease Diagnosis",
+  "abstract": "For the early diagnosis of Alzheimer’s disease (AD), it is essential that we have effective multiclass classification methods that can distinct subjects with mild cognitive impairment (MCI) from cognitively normal (CN) subjects and AD patients. However, significant overlaps of biomarker distributions among these groups make this a difficult task. In this work, we propose a novel framework for multimodal, multiclass AD diagnosis that can integrate information from diverse and complex modalities to resolve ambiguity among the disease groups and hence enhance classification performances. More specifically, our approach integrates T1-weighted MRI, tau PET, fiber orientation distribution (FOD) from diffusion MRI (dMRI), and Montreal Cognitive Assessment (MoCA) scores to classify subjects into AD, MCI, and CN groups. We introduce a Swin-FOD model to extract order-balanced features from FOD and use contrastive learning to align MRI and PET features. These aligned features and MoCA scores are then processed with a Tabular Prior-data Fitted In-context Learning (TabPFN) method, which selects model parameters based on the alignment between input data and prior data during pre-training, eliminating the need for additional training or fine-tuning. Evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset (n = 1147), our model achieved a diagnosis accuracy of 73.21%, outperforming all comparison models (n=10). We also performed Shapley analysis and quantitatively evaluated the essential contributions of each modality.",
+  "authors": [
+    {
+      "name": "Huang, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Lujia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yonggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2048_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

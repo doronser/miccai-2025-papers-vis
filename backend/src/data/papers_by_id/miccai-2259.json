@@ -1,0 +1,45 @@
+{
+  "id": "miccai-2259",
+  "title": "Meta-Learning-Driven CT Morphology Disentangled Diffusion Model for Multi-Region SPECT Attenuation Correction",
+  "abstract": "SPECT imaging faces persistent challenges from soft-tissue attenuation artifacts in clinical practice. While CT-based correction remains the clinical reference standard, associated radiation risks and infrastructure requirements limit its widespread adoption. To address this, we propose a Meta-Learning-Driven CT Morphology Disentangled Diffusion Model (MetaMorph-Diff), which achieves CT-independent attenuation correction. First, we design a Morphological Structure-Attentive Fusion module that explicitly guides the diffusion process using CT-derived anatomical priors. During training, its Morpho-Attentive Alignment submodule establishes voxel-level physical constraints between SPECT features and attenuation distributions by leveraging CT anatomical priors. During inference, its Morpho-Disentangling Gate achieves complete disentangling from CT dependencies through learned morphological embeddings. Crucially, the model uses only SPECT images during inference to achieve accurate attenuation correction without relying on CT data. Second, we propose a multi-region adaptive meta-learning strategy, which enhances cross-anatomical generalization capability by optimizing model initialization parameters, enabling a single model to achieve consistent and accurate correction across diverse anatomical regions. Our method surpasses existing approaches with higher-precision attenuation distribution prediction and stronger multi-region correction adaptability. The code is available at https://github.com/yhr1020/MetaMorph-Diff.",
+  "authors": [
+    {
+      "name": "Yang, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Jiansong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Lihua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Xiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2259_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

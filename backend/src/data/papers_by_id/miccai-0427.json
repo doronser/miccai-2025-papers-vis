@@ -1,0 +1,43 @@
+{
+  "id": "miccai-0427",
+  "title": "CSAP-Assist: Instrument-Agent Dialogue Empowered Vision-Language Models for Collaborative Surgical Action Planning",
+  "abstract": "Visual Planning for Assistance (VPA) in Robot-Assisted Minimally Invasive Surgery (RMIS) holds significant potential for introoperative guidance and procedural automation. This paper presents the Collaborative Surgical Action Planning (CSAP) task, which focuses on generating cooperative action plans based on linguistic surgical goals, highlighting the crucial need for coordinated multi-tool interactions in surgical procedures. CSAP task emphasizes two core challenges: understanding tool-action interdependencies in the timeline and managing concurrent multi-tool interactions. To address these challenges, we propose CSAP-Assist, a VLM-based framework consisting of two key modules: a Recency-Centric Focus Memory Module (ReFocus-MM), which prioritizes recent surgical history while summarizing distant events to improve performance in complex scenes and long sequences; and a Hybrid Multi-Agent Module (HMM), featuring a central agent that provides an initial plan, prompting a dialogue with local agent instruments to iteratively refine their collaborative actions. We evaluated CSAP-Assist on datasets that include phantom and real surgical scenarios. Our extensive experiments show that CSAP-Assist substantially outperforms the baseline method, achieving a 15% higher planning precision for surgical action planning. The source code and dataset are available at https://github.com/einnullnull/Collaborative-Surgical-Action-Planning-Assist.",
+  "authors": [
+    {
+      "name": "Zhang, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Mengya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Qi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Urology",
+    "Modalities -> Robotics",
+    "Applications -> Other",
+    "Machine Learning -> Validation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0427_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

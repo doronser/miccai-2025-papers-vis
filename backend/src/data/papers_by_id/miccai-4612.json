@@ -1,0 +1,46 @@
+{
+  "id": "miccai-4612",
+  "title": "Automatic dataset shift identification to support safe deployment of medical imaging AI",
+  "abstract": "Shifts in data distribution can substantially harm the performance of clinical AI models and lead to misdiagnosis. Hence, various methods have been developed to detect the presence of such shifts at deployment time. However, root causes of dataset shifts are varied, and the choice of shift mitigation strategies highly depends on the precise type of shift encountered at test time. As such, detecting test-time dataset shift is not sufficient: precisely identifying which type of shift has occurred is critical. In this work, we propose the first unsupervised dataset shift identification framework, effectively distinguishing between prevalence shift, covariate shift and mixed shifts. We show the effectiveness of the proposed shift identification framework across three different imaging modalities (chest radiography, digital mammography, and retinal fundus images) on five types of real-world dataset shifts, using five large publicly available datasets.",
+  "authors": [
+    {
+      "name": "Roschewitz, Mélanie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mehta, Raghav",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jones, Charles",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Glocker, Ben",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Eye",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4612_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

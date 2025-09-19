@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1142",
+  "title": "A Virtual Domain Collaborative Learning Framework for Semi-supervised Microscopic Hyperspectral Image Segmentation",
+  "abstract": "Microscopic hyperspectral image segmentation faces dual challenges of limited labeled data and insufficient utilization of unlabeled data. However, existing semi-supervised methods often isolate the training processes for labeled and unlabeled data, neglecting their potential synergistic effects.  To address this, we propose a semi-supervised method based on Virtual Domain Collaborative Learning (VDCL) to enhance the collaborative learning ability between labeled and unlabeled data and improve the quality of pseudo-labels. Specifically, by combining unlabeled background with labeled foreground and labeled background with unlabeled foreground to construct virtual domain data pairs, we established a collaborative learning bridge between labeled and unlabeled samples. Furthermore, we establish a repository of optimal models and employ an alternating co-training strategy. The current and historically optimal models jointly guide training, and this dynamic framework significantly improves pseudo-labels quality. We have verified the novel semi-supervised segmentation method on the widely-used public microscopic hyperspectral choledoch dataset from Kaggle and the oral squamous cell carcinoma dataset. On these datasets, our method has achieved the state-of-the-art performance. The code is available at https://github.com/Qugeryolo/Virual-Domain.",
+  "authors": [
+    {
+      "name": "Qin, Geng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Huan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Haihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yuxing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Modalities -> Spectroscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1142_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

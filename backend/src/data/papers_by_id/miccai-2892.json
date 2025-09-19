@@ -1,0 +1,51 @@
+{
+  "id": "miccai-2892",
+  "title": "Bridging Radiological Images and Factors with Vision-Language Model for Accurate Diagnosis of Proliferative Hepatocellular Carcinoma",
+  "abstract": "The integration of multimodal data, particularly medical images and tabular data encompassing physician-assessed radiological factors, holds significant promise for enhancing clinical decision-making. However, effective fusion of these heterogeneous data modalities remains challenging due to their disparate feature spaces and the limitations of current independent encoding approaches. We introduce FM-Bridge, a novel methodology leveraging vision-language foundation model (VLM) to address this challenge. Our approach capitalizes on the intrinsic image-text embedding space alignment within VLMs to achieve robust multimodal fusion. We propose transforming clinical expertise-rich tabular data into semantically coherent textual descriptions, subsequently utilizing the VLM’s text encoder to generate textual features explicitly aligned with image features. This method facilitates a more semantically congruent and effective fusion of medical image and tabular data, demonstrating potential for improved performance in downstream medical image analysis tasks compared to conventional methods. Code is available at https://github.com/HKU-MedAI/FM-Bridge.",
+  "authors": [
+    {
+      "name": "Huang, Yanyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Wanli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Peixiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Ruimeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Lequan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2892_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

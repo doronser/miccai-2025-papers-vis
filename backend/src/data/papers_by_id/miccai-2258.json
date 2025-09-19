@@ -1,0 +1,50 @@
+{
+  "id": "miccai-2258",
+  "title": "3D Dynamic Prediction of Missing Teeth in Diverse Patterns via Centroid-prompted Diffusion Model",
+  "abstract": "Dental implantation restores missing teeth through surgical insertion of artificial roots, relying on preoperative digital planning to ensure precision and efficiency. However, critical challenges persist in virtual tooth positioning: this process demands extensive clinical expertise and time-consuming manual adjustments due to ambiguous anatomical references from missing teeth. To address these limitations, we propose a unified framework that accurately predicts three dimensional (3D) shapes and positions of missing teeth in diverse patterns, enabling anatomy-aware preoperative planning. Our proposal introduces two technical innovations: (1) A dynamic iterative generation strategy is proposed to progressively predict multiple missing teeth one by one using a target tooth identification module, accommodating arbitrary tooth loss patterns without case-specific retraining; (2) A tooth-centroid-prompted conditional diffusion model is developed to leverage geometric constraints from predicted tooth centroid and adjacent teeth to generate high-fidelity point cloud reconstructions. Extensive experiments show that our model outperforms conventional deep learning baseline in predicting multiple missing teeth, achieving a prediction accuracy of 1.30mm (Chamfer Distance) and an angular error of 5.42 degrees. This improvement has the potential to enhance the accuracy and efficiency of dental implant planning by providing precise anatomical references for missing teeth, potentially revolutionizing digital dentistry workflows.",
+  "authors": [
+    {
+      "name": "Ji, Zongrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Na",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xue, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2258_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3748",
+  "title": "PDF-Net: Prototype-Aware Dynamic Fusion Network for Nasopharyngeal Carcinoma T-staging Classification with Epstein-Barr Virus DNA",
+  "abstract": "Accurate T-staging classification of nasopharyngeal carcinoma (NPC) is crucial for guiding individualized treatment strategies and predicting patient prognosis. However, this task remains challenging due to the limitations of unimodal approaches, which often fail to capture the full complexity of NPC progression, and the severe class imbalance in clinical datasets, where early-stage cases (T1 / T2 stage) are significantly underrepresented. In this paper, we propose a Prototype-Aware Dynamic Fusion Network (PDF-Net), a novel multimodal framework that integrates MR images with Epstein-Barr virus (EBV) DNA tabular data to improve NPC T-staging classification. Our framework introduces two key components: (1) the Dynamic Multi-Modal Alignment (DMMA) module, which aligns MR imaging features with EBV DNA data to capture complementary information across modalities, and (2) the Optimal Prototype-Aware Transport (OPAT) module, which incorporates a Prototypical Constraint to enhance the representation of T2-staging features and mitigate class imbalance. To the best of our knowledge, PDF-Net is the first framework to leverage EBV DNA data as an auxiliary tool for T-staging classification, significantly improving accuracy and robustness. Experimental results in a real clinical dataset demonstrate that our approach outperforms state-of-the-art methods, achieving an accuracy of 0.8006 ± 0.0488 and an AUC of 0.8191 ± 0.0551 for T1C images, highlighting its potential to advance NPC diagnosis and personalized treatment strategies.",
+  "authors": [
+    {
+      "name": "Lu, Wantong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Yibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Zanting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Lijun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3748_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

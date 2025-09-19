@@ -1,0 +1,79 @@
+{
+  "id": "miccai-2355",
+  "title": "SABPI-Net: A Novel Structure-Aware Network for Accurate and Domain-Invariant Retinopathy of Prematurity Diagnosis",
+  "abstract": "Delayed treatment of retinopathy of prematurity (ROP) can diminish therapeutic efficacy and may lead to severe, potentially irreversible damage. Automated diagnosis of ROP presents significant challenges, including the detection of subtle early lesions, the variability of clinical phenotypes, and inconsistencies in imaging quality. To address these, which cannot be well addressed by existing general foundation models, we propose structure-aware proxy interaction network (SABPI-Net) within a universal learning framewrok. SABPI-Net incorporates a high-frequency mapping branch, and introduces a proxy interaction attention module to enable effective interaction between its trunk feature encoding branch and the high-frequency mapping branch. This enhances the model’s ability to perceive fine retinal detail structures. Domain-agnostic embedding space self-matching, guided by a memory-bank low-frequency component replacement strategy, facilitates domain-invariant learning and ensures consistent model performance across diverse image styles. In this study, classification task for ROP is conducted on the largest clinical color fundus photography dataset to date, achieving an accuracy of 95.32\\%. Extensive experiments further validate the effectiveness and superiority of SABPI-Net in diagnosing ROP diseases.",
+  "authors": [
+    {
+      "name": "Chen, Shaobin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Huazhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jiaju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiong, Xiangyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Zhenquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dashtbozorg, Behdad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Baiying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Guoming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2355_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

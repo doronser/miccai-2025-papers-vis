@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0197",
+  "title": "Treat: A Unified Text-guided Conditioned Deep Learning Model for Generalized Radiotherapy Treatment Planning",
+  "abstract": "Deep learning has shown potential to enable automated personalized cancer treatment by automating radiotherapy treatment (RT) planning. However, generalizing RT planning across multiple protocols with deep learning remains a critical challenge due to the diversity of clinical requirements. This paper introduces Treat: a unified Text-guided Radiotherapy for dose prEdiction in Automated Treatment planning to address these complexities. By leveraging conditional text embeddings using the CLIP text-encoder, the model dynamically adapts to protocol-specific requirements, enabling the generation of high-quality per-protocol dose distributions. We propose an efficient text-conditioning method, graph prompts pooling (GPP), to effectively leverage multiple protocol-specific prompts, and dynamic batch weighting to balance the model training using multiple datasets. We validated Treat on five datasets—two early-stage prostate, left and right partial breast, and head-and-neck—using clinically relevant metrics: mean absolute error (MAE) of homogeneity index (HI) and dose-volume histogram (DVH). Compared to the protocol-specific model with the MAE-HI of 0.274 and the MAE-DVH of 7.46, Treat achieves a superior performance of 0.062 and 2.87 for MAE-HI and MAE-DVH score, respectively. When com- pared to baseline one-hot conditioning with the MAE-HI of 0.085 and the MAE-DVH of 3.35, GPP demonstrates its efficiency in adapting prompt- based conditioning for predicting dose distributions for diverse protocols.The code is available: https://github.com/mcintoshML/TextGuided_RT.",
+  "authors": [
+    {
+      "name": "Kim, Sangwook",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Purdie, Thomas G.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "McIntosh, Chris",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0197_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

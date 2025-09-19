@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4725",
+  "title": "Future Slot Prediction for Unsupervised Object Discovery in Surgical Video",
+  "abstract": "Object-centric slot attention is an emerging paradigm for unsupervised learning of structured, interpretable object-centric representations (slots). This enables effective reasoning about objects and events at a low computational cost and is thus applicable to critical healthcare applications, such as real-time interpretation of surgical video. The heterogeneous scenes in real-world applications like surgery are, however, difficult to parse into a meaningful set of slots. Current approaches with an adaptive slot count perform well on images, but their performance on surgical videos is low. To address this\nchallenge, we propose a dynamic temporal slot transformer (DTST) module that is trained both for temporal reasoning and for predicting the optimal future slot initialization. The model achieves state-of-the-art performance on multiple surgical databases, demonstrating that unsupervised object-centric methods can be applied to real-world data and become part of the common arsenal in healthcare applications.",
+  "authors": [
+    {
+      "name": "Liao, Guiqiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jogan, Matjaz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hussing, Marcel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Edward",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Eaton, Eric",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hashimoto, Daniel A.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Lung",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Robotics",
+    "Applications -> Other",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4725_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

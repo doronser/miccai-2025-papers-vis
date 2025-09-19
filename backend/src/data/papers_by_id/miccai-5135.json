@@ -1,0 +1,47 @@
+{
+  "id": "miccai-5135",
+  "title": "Med-BiasX: Robust Medical Visual Question Answering with Language Biases",
+  "abstract": "In Medical Visual Question Answering (Med-VQA), accurate interpretation of clinical questions alongside medical images is crucial for reliable diagnostic support. However, conventional methods often exhibit pronounced medical language biases that stem from \\textit{imbalanced data distribution} and \\textit{question shortcut dependence}, causing models to disproportionately rely on textual priors at the expense of valuable visual semantics. To mitigate this challenge, we propose a novel Med-VQA debiasing approach called ``\\textbf{Med-BiasX}’’ that synergistically combines two strategies, i.e., Energy-aware Confidence Constraint (ECC) and Distribution-aware Dependence Calibration (DDC). Specifically, ECC aims to reinforce correct answers and adjust the energy associated with incorrect answers by leveraging the global normalization property of free energy and the intrinsic properties of energy. DDC is designed to shift the model’s dependency from question shortcuts to multimodal information by explicitly measuring the similarity between predicted distributions from different branches and prior distributions. Extensive experiments on multiple medical standard benchmarks and bias-sensitive benchmarks, SLAKE-BIAS and VQA-RAD-BIAS, consistently demonstrate the robustness and superiority of our Med-BiasX approach over state-of-the-art competitors.",
+  "authors": [
+    {
+      "name": "Zhu, Huanjia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yishu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Chengju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Guangming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Bingzhi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5135_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

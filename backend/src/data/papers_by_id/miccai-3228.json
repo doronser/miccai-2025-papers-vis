@@ -1,0 +1,39 @@
+{
+  "id": "miccai-3228",
+  "title": "Time-Contrastive Pretraining for In-Context Image and Video Segmentation",
+  "abstract": "In-context learning (ICL) has shown promise for generalizing to new visual tasks using a few examples, but current methods are limited. They typically rely on a rigid gridding strategy that restricts the number and resolution of context images. We propose Temporal, a novel approach that overcomes these limitations by reformulating visual ICL as a video object segmentation (VOS) problem. This VOS-based approach naturally handles a variable number of full-resolution context images. To automatically select the most relevant context for a given query, we introduce a prompt retriever pretrained on videos using a time-contrastive objective. This objective learns from the temporal coherence of video, using adjacent frames as positive examples (i.e., useful context images) and distant frames as negatives. For image segmentation, our retriever builds a pseudo-video by prepending the retrieved context images to the query image, which is then processed by the VOS model. For video segmentation, the retriever identifies keyframes, our ICL pipeline generates their masks, and these masks are propagated through the video. On the MICCAI FLARE 2022 challenge, Temporal significantly outperforms baselines, achieving a Dice score of 90.95% for image segmentation (+10.64%) and 92.45% for video segmentation (+14.88%).",
+  "authors": [
+    {
+      "name": "Wahd, Assefa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jaremko, Jacob",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hareendranathan, Abhilash",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3228_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

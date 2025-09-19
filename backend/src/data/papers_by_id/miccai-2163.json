@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2163",
+  "title": "P2INR-FWI: an Implicit Neural Representation Method for Speed of Sound Image Reconstruction in Ultrasound Computed Tomography",
+  "abstract": "Ultrasound Computed Tomography (USCT) has emerged as a cutting-edge imaging modality, offering quantitative acoustic parameter maps to enhance disease diagnosis. Full-waveform inversion (FWI), a mainstream reconstruction method, enables high-resolution imaging of the speed of sound (SOS) from USCT measurements. However, its strong sensitivity to the initial model and the anatomical distortions caused by cycle-skipping artifacts significantly hinder its application in complex clinical scenarios. In this paper, we propose P2INR-FWI, a polar coordinate-based implicit neural representation framework with structural prior, to achieve unsupervised, subject-specific SOS reconstruction. Departing from conventional Cartesian coordinate-based neural representations, our method introduces a polar coordinate encoding mechanism aligned with the geometry of the USCT ring array, which substantially accelerates convergence and improves reconstruction accuracy. Furthermore, we develop a reflected signal-derived structural prior extraction method to guide the reconstruction process toward clinically critical regions, thereby enabling fine-structure restoration. Experiments conducted on numerical phantom, breast-mimicking phantom, and in vivo data demonstrate that our method outperforms traditional approaches in both reconstruction quality and quantitative metrics, without requiring additional regularization constraints.",
+  "authors": [
+    {
+      "name": "Wang, Zesong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Weicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhaohui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuchi, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Wu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2163_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

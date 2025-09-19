@@ -1,0 +1,62 @@
+{
+  "id": "miccai-4263",
+  "title": "ICE-PoGO: Improving Dynamic Panoramic Reconstruction of 4D ICE Imaging through Pose Graph Optimization",
+  "abstract": "Intracardiac echocardiography (ICE) has the potential to play a crucial role in structural heart disease (SHD) interventions by providing high-quality imaging in real time, without many of the key drawbacks of established imaging modalities. \nHowever, ICE’s limited field-of-view (FoV) requires continuous readjustments of the catheter position to fully visualize the dynamic cardiac environment, which impairs spatial navigation and increases procedure time and complexity. Dynamic panoramic reconstruction can mitigate this limitation. However, state-of-the-art methods depend on precise catheter tracking, the accuracy of which is affected by the presence of noise and anatomical motion. While registration can correct these errors, existing approaches are computationally prohibitive for large imaging volumes due to repeated iterations over image data, further amplified by the added time dimension. \nTo address these challenges, we present a novel method for truly dynamic panoramic reconstruction by leveraging the repetitive nature of cardiac motion under a cyclic environment assumption. \nTo our knowledge, our method is the first to employ dynamic pose graph optimization (PGO) specifically designed for 4D ICE tracking. Our results demonstrate enhanced tracking accuracy and improved panoramic reconstruction quality, potentially providing real-time, dynamic anatomical guidance for clinicians. The improved alignment of overlapping ICE volumes and increased temporal tracking resolution represent a substantial advancement in 4D ICE imaging, enhancing navigation and decision-making during complex cardiac interventions.",
+  "authors": [
+    {
+      "name": "Herz, Sebastian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wysocki, Magdalena",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tristram, Felix",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hickler, Julia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Neary-Zajiczek, Lydia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hennersperger, Christoph",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wörz, Stefan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Registration",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4263_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

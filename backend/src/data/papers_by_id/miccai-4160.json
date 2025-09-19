@@ -1,0 +1,47 @@
+{
+  "id": "miccai-4160",
+  "title": "6D Object Pose Tracking for Orthopedic Surgical Training using Visual-Inertial Sensor Fusion",
+  "abstract": "Digital training simulators play a growing role in orthopedic surgery, offering realistic, standardized, and risk-free learning environments without the need for constant expert supervision. To enable simulators with realistic tactile feedback and haptic sensations, accurate tracking of surgical tools and anatomical structures in real-time is required. However, existing object tracking solutions are often expensive, difficult to integrate into training workflows, or lack robustness. To address these limitations, we propose a novel visual-inertial 6D object pose tracking system for orthopedic surgical training. Our approach features a custom fiducial object that combines multiple ArUco markers with an Inertial Measurement Unit, a dual-camera setup to improve occlusion robustness, and a sensor fusion algorithm that integrates high-frequency IMU data with vision-based tracking while ensuring precise coordinate and time synchronization. In our evaluation, we achieve a fiducial object pose accuracy of 0.9 mm/0.5° and extract drill hole metrics in a mock surgical procedure with average position, angle, and length errors of 1.7 mm, 2.0°, and 1.0 mm, respectively, while demonstrating low occlusion rates. Our cost-effective and easily integrated solution meets clinical training requirements and marks a step towards scalable and widely accessible digital orthopedic simulators. The tracking code is available at https://github.com/MountainCoot/fusionpose.",
+  "authors": [
+    {
+      "name": "Hogenkamp, Maarten",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stauffer, Tobias",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lohmeyer, Quentin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meboldt, Mirko",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Spine",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Navigation",
+    "Surgery -> Planning and Simulation",
+    "Surgery -> Scene Understanding",
+    "Surgery -> Skill and Work Flow Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4160_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "miccai-3318",
+  "title": "FViM: Frequency Vision Mamba for Label-Free Cell Death Pathway Prediction in Lung Cancer Chemotherapy",
+  "abstract": "Chemotherapy is the standard first-line treatment for lung cancer, and cellular death is an inevitable consequence of the process. However, current methods lack high-throughput, label-free approaches for accurately assessing cell death, and existing techniques struggle to capture cellular heterogeneity, complicating the prediction of lung cancer prognosis. Therefore, we propose frequency vision Mamba (FViM) for label-free cell death pathway prediction in lung cancer chemotherapy. Specifically, we introduce multi-dimensional optical time-stretch imaging flow cytometry (OTS-IFC) to capture high-throughput, multi-dimensional cell images under various cell death states. To effectively extract key features that are highly indicative of cellular heterogeneity, we propose FViM that integrates modeling remote dependencies of Mamba alongside frequency domain analysis of Fourier Transform. FViM first employs the frequency guided enhancement (FGE) module to enhance cellular detail features in the high-frequency domain, while reinforcing global contextual features in the low-frequency domain. The enhanced features are then processed through the Mamba-based visual state space block, which models the intricate relationships between different visual states, achieving a holistic prediction of cell death states. Experimental results demonstrate that FViM outperforms existing state-of-the-art (SOTA) methods. Notably, FViM successfully predicts cell death pathways in response to increasing cisplatin concentrations, demonstrating its potential for effective and promising applications in lung cancer chemotherapy. Our code is available at https://github.com/yzygit1230/FViM.",
+  "authors": [
+    {
+      "name": "Ye, Zhaoyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Shubin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mei, Liye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weng, Yueyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Geng, Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Du",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Cheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Validation",
+    "Surgery -> Data Science",
+    "Surgery -> Skill and Work Flow Analysis",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3318_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

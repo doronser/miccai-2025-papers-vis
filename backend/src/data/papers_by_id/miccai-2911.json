@@ -1,0 +1,50 @@
+{
+  "id": "miccai-2911",
+  "title": "LKA: Large Kernel Adapter for Enhanced Medical Image Classification",
+  "abstract": "Despite the notable success of current Parameter-Efficient Fine-Tuning (PEFT) methods across various domains, their effectiveness on medical datasets falls short of expectations. This limitation arises from two key factors: (1) medical images exhibit extensive anatomical variation and low contrast, necessitating a large receptive field to capture critical features, and (2) existing PEFT methods do not explicitly address the enhancement of receptive fields. To overcome these challenges, we propose the Large Kernel Adapter (LKA), designed to expand the receptive field while maintaining parameter efficiency. The proposed LKA consists of three key components: down-projection, channel-wise large kernel convolution, and up-projection. Through extensive experiments on various datasets and pre-trained models, we demonstrate that the incorporation of a larger kernel size is pivotal in enhancing the adaptation of pre-trained models for medical image analysis. Our proposed LKA outperforms 11 commonly used PEFT methods, surpassing the state-of-the-art by 3.5% in top-1 accuracy across five medical datasets. The code is available at: https://github.com/misswayguy/LKA.",
+  "authors": [
+    {
+      "name": "Zhu, Ziquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Si-Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Tianjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2911_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

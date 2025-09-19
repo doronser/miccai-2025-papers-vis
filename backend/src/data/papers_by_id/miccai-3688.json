@@ -1,0 +1,38 @@
+{
+  "id": "miccai-3688",
+  "title": "Towards Robust Medical Image Referring Segmentation with Incomplete Textual Prompts",
+  "abstract": "Recent advancements in medical vision-language models have increasingly accentuated the substantial potential of incorporating textual information for better medical image segmentation. However, existing language-guided segmentation models were developed under the assumption that the attributes/clauses of textual prompts are uniformly complete across all images, neglecting the unavoidable incompleteness of texts/reports in clinical applications and thus making them less feasible. To address this, we, for the first time, identify such incomplete textual prompts in medical image referring segmentation (MIRS) and propose an attribute robust segmentor (ARSeg) by constructing attribute-specific features and balancing the attribute learning procedure. Specifically, based on a U-shaped CNN network and a BERT-based text encoder, an attribute-specific cross-modal interaction module is introduced to establish attribute-specific features, thereby eliminating the dependency of decoding features on complete attributes. To prevent the model from being dominated by attributes with lower missing rates during training, an attribute consistency loss and an attribute imbalance loss are designed for balanced feature learning. Experimental results on two publicly available datasets demonstrate the superiority of ARSeg against SOTA approaches, especially under incomplete and imbalanced textual prompts. Code is available at https://github.com/w7jie/ARSeg.",
+  "authors": [
+    {
+      "name": "Wang, Qijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Xian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Zengqiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3688_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

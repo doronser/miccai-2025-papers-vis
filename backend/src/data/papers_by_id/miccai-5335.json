@@ -1,0 +1,50 @@
+{
+  "id": "miccai-5335",
+  "title": "Non-Invasive TB Detection using Acoustic and Semantic Features from Cough Sounds",
+  "abstract": "We present a novel dual-stream deep learning architecture,\nAcouSem-AFNet, for automated tuberculosis (TB) detection using acoustic analysis of respiratory sounds. The proposed architecture utilizes two complementary pathways to extract distinct semantic and acoustic characteristics essential for identifying TB-related respiratory patterns. Specifically, the semantic stream employs a Whisper encoder to model structured patterns in respiratory events, while the acoustic stream leverages WavLM to capture detailed temporal dynamics characteristic of TB cough sounds. These distinct features are fused through a specialized backbone with squeeze-excitation mechanisms and residual connections, designed explicitly to maintain discriminative capabilities and mitigate overfitting challenges typical of limited medical datasets. Evaluated on the CODA-TB challenge dataset, our approach achieves state-of -the-art performance with an accuracy of 78.10% and an AUC of 0.79, demonstrating improvements of 3% in AUC and 2% in accuracy over leading baseline methods. Our framework enables rapid, non-invasive TB screening, particularly beneficial for resource-limited settings, demonstrating the feasibility of deep learning-based acoustic analysis as a scalable, preliminary diagnostic tool to enhance global TB screening accessibility. The code and models are publicly available at https://github.com/IAB-IITJ/AcouSem-AFNet.",
+  "authors": [
+    {
+      "name": "Akhter, Yasmeena",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ranjan, Rishabh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dutta, Bikash",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vatsa, Mayank",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Singh, Richa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5335_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

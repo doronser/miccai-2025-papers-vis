@@ -1,0 +1,84 @@
+{
+  "id": "miccai-0177",
+  "title": "Cervical-RG: Automated Cervical Cancer Report Generation from 3D Multi-sequence MRI via CoT-guided Hierarchical Experts",
+  "abstract": "Cervical cancer remains a leading cause of cancer-related mortality among females globally, with diagnosis primarily relying on multi-sequence magnetic resonance imaging (MRI). However, existing Multi-modal Large Language Models (MLLMs) struggle with processing 3D multi-sequence inputs due to high computational complexity and inefficient long-sequence modeling. To this end, we present Cervical-RG, to the best of our knowledge, this is the first framework that utilizes 3D multi-sequence MRI images for automated report generation. International Federation of Gynecology and Obstetrics (FIGO) staging, which plays a critical role in cervical cancer management, is also incorporated into the report.\nThe workflow consists of (1) image diagnosis generation, (2) Chain of Thought(CoT)-guided FIGO staging with rationale, and (3) cross-stage consistency verification, Meanwhile, the entire pipeline simulates the collaborative diagnostic process of multi-disciplinary experts in clinical practice. Besides, we propose a novel model to handle multi-sequence inputs, comprising a volumetric multi-sequence encoder and a Mamba-Transformer hybrid decoder, which integrates global attention with selective state-space modeling to effectively handle long-range dependencies and spatial relationships. To validate our method, we curate Cervical-MD—a multi-modal dataset comprising 3,137 volumetrically aligned MRI-report pairs across five sequences (ADC, T1CA, T1CS, T2A, T2S), annotated by two radiologists. Experimental results demonstrate state-of-the-art performance in automated cervical cancer report generation. Our codes will be open-sourced soon.",
+  "authors": [
+    {
+      "name": "Zhang, Hanwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Long, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Yimeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhan, Zhaoyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Sen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Yuncheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Zheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Xiaohui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Weibing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Gynecology",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0177_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

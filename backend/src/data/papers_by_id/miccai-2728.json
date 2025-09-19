@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2728",
+  "title": "Progression-Aware Generative Model Enhancing Baseline Visit Prediction of Early Alzheimer’s Disease",
+  "abstract": "Benefiting from longitudinal pair-wise brain 18F-fluorodeoxyglucose (18F-FDG) positron emission tomography (PET) images, disease progression characterized by the generative model may assist the baseline visit prediction of early Alzheimer’s Disease. However, most existing methods focused on diagnosing disease from single-timepoint scans or a simple stacking of sequential images, which ignore the importance of disease progression and are not in line with actual clinical scenarios. Moreover, decoupling the low-level disease representations is quite challenging for similar changes between normal aging and neurodegenerative changing. In this paper, we propose a classifier-induced generative model to generate the next-timepoint brain images. Then, we design a statistical prior knowledge vision transformer to extract features from the generated next-timepoint images for disease diagnosis. The main contribution is to build a disease progression model that can effectively improve diagnosis performance from single-timepoint images. Meanwhile, we provide pixel-level disease representations for explanation. Experiments on ADNI datasets demonstrate that our method outperforms other state-of-the-art techniques.",
+  "authors": [
+    {
+      "name": "Gao, Xingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Runyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Zhe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2728_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

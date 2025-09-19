@@ -1,0 +1,44 @@
+{
+  "id": "miccai-0660",
+  "title": "RetFiner: A Vision-Language Refinement Scheme for Retinal Foundation Models",
+  "abstract": "The rise of imaging techniques such as optical coherence tomography (OCT) and advances in deep learning (DL) have enabled clinicians and researchers to streamline the assessment of retinal diseases. A popular DL approach is self-supervised learning (SSL), where models learn from vast amounts of unlabeled data, avoiding costly annotation. SSL has allowed the development of foundation models (FMs), large models that can be used for a variety of downstream tasks. However, existing FMs for OCT, trained solely on image data, lack a comprehensive and robust semantic understanding of images, as evidenced by their downstream performance (especially for complex tasks), and thus require supervised fine-tuning (which may be unfeasible) to better adapt to specific applications and populations. To address this, we propose RetFiner, an SSL vision-language refinement scheme that improves the representations of existing FMs and enables their efficient and direct adaptation to specific populations for improved downstream performance. Our method uses a diverse set of training objectives which take advantage of the rich supervisory signal found in textual data. We tested RetFiner on the retinal FMs RETFound, UrFound, and VisionFM, showing significant improvements in linear probing performance on seven highly diverse OCT classification tasks, with an average increase of 5.7, 3.9, and 2.1 percentage points over their baselines, respectively.",
+  "authors": [
+    {
+      "name": "Fecso, Ronald",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Morano, José",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schmidt-Erfurth, Ursula",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bogunović, Hrvoje",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0660_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

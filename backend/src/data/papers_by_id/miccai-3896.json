@@ -1,0 +1,50 @@
+{
+  "id": "miccai-3896",
+  "title": "Physics-driven Signal Regularization in Diffusion Models for Multi-contrast MR Image Synthesis",
+  "abstract": "To achieve accurate diagnostic outcomes, it is often necessary to acquire multiple series of magnetic resonance imaging (MRI) with varying contrasts. However, this process is time-consuming and imposes a significant burden on patients and healthcare providers. While diffusion models have emerged as a highly effective tool for image synthesis, they face challenges in handling the complexities of real-world clinical data and may distort vital information during medical image synthesis.\nTo address these issues, we propose MRDiff, a novel diffusion model for multi-contrast MR image synthesis. MRDiff leverages the intrinsic relationship between different contrast images to derive shared anatomical information based on MR physics equations. Our approach integrates MR physics-based signal regularization for proper content feature generation and employs self-content consistency training to capture accurate anatomical structures. Experimental results demonstrate that MRDiff outperforms existing methods by generating diagnostically valuable images, highlighting its potential for clinical applications in MR image synthesis.",
+  "authors": [
+    {
+      "name": "Shin, Yejee",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Byeon, Yunsu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Son, Geonhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jang, Hanbyol",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hwang, Dosik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Sewon",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3896_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

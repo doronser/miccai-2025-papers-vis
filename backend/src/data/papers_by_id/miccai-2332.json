@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2332",
+  "title": "HyperSORT: Self-Organising Robust Training with hyper-networks",
+  "abstract": "Medical imaging datasets often contain heterogeneous biases ranging from erroneous labels to inconsistent labeling styles. Such biases can negatively impact deep segmentation networks performance. Yet, the identification and characterization of such biases is a particularly tedious and challenging task. In this paper, we introduce HyperSORT, a framework using a hyper-network predicting UNets’ parameters from latent vectors representing both the image and annotation variability. The hyper-network parameters and the latent vector collection corresponding to each data sample from the training set are jointly learned. Hence, instead of optimizing a single neural network to fit a dataset, HyperSORT learns a complex distribution of UNet parameters where low density areas can capture noise-specific patterns while larger modes robustly segment organs in differentiated but meaningful manners. We validate our method on two 3D abdominal CT public datasets: first a synthetically perturbed version of the AMOS dataset, and TotalSegmentator, a large scale dataset containing real unknown biases and errors. Our experiments show that HyperSORT creates a structured mapping of the dataset allowing the identification of relevant systematic biases and erroneous samples. Latent space clusters yield UNet parameters performing the segmentation task in accordance with the underlying “learned” systematic bias. The code and our analysis of the TotalSegmentator dataset are made available: https://github.com/ImFusionGmbH/HyperSORT",
+  "authors": [
+    {
+      "name": "Joutard, Samuel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stollenga, Marijn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Balle Sanchez, Marc",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Azampour, Mohammad Farid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prevost, Raphael",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2332_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

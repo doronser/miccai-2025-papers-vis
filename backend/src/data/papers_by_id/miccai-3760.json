@@ -1,0 +1,57 @@
+{
+  "id": "miccai-3760",
+  "title": "DCKAN: A Dual-Coordinate KAN Framework for Fibrous Cap Segmentation on Carotid OCT",
+  "abstract": "Fibrous cap thickness is a crucial clinical marker for evaluat-\ning carotid plaque vulnerability, emphasizing the importance of accurate segmentation. Intravascular optical coherence tomography (OCT) offers unique capabilities for in vivo visualization of fibrous caps. However, its design for coronary arteries poses challenges in carotid imaging, including larger vessel size, faster blood flow, limited penetration depth,and restricted imaging range, leading to incomplete visualization and degraded image quality from residual blood artifacts. To address these limitations, we propose a dual-coordinate segmentation framework for carotid OCT fibrous cap segmentation. Our approach integrates Cartesian images, which preserve global spatial context and vascular structure, with linear-polar transformed images, which effectively represent the annular geometry of fibrous caps. This dual-coordinate fusion leverages complementary features to mitigate the effects of incomplete vascular walls and blood artifacts, enhancing segmentation accuracy and robustness. To efficiently integrate features from both coordinate systems, we introduce a Cross-Coordinate Feature Fusion Module(CCFFM) that filters and integrates dual-coordinate features, reducing interference from redundant information. Additionally, the Kolmogorov-Arnold Network (KAN) block is incorporated to extract complex nonlinear features while improving the model’s interpretability. Our method achieves state-of-the-art performance on an external carotid OCT dataset, highlighting the potential of OCT for advancing carotid imaging and improving plaque vulnerability assessment.",
+  "authors": [
+    {
+      "name": "Wan, Tonghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Sihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Yuxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Shengcai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Wu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3760_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

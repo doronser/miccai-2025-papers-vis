@@ -1,0 +1,53 @@
+{
+  "id": "miccai-2578",
+  "title": "LiteTracker: Leveraging Temporal Causality for Accurate Low-latency Tissue Tracking",
+  "abstract": "Tissue tracking plays a critical role in various surgical navigation and extended reality (XR) applications. While current methods trained on large synthetic datasets achieve high tracking accuracy and generalize well to endoscopic scenes, their runtime performances fail to meet the low-latency requirements necessary for real-time surgical applications. To address this limitation, we propose LiteTracker, a low-latency method for tissue tracking in endoscopic video streams. LiteTracker builds on a state-of-the-art long-term point tracking method, and introduces a set of training-free runtime optimizations. These optimizations enable online, frame-by-frame tracking by leveraging a temporal memory buffer for efficient feature reuse and utilizing prior motion for accurate track initialization. LiteTracker demonstrates significant runtime improvements being around 7× faster than its predecessor and 2× than the state-of-the-art. Beyond its primary focus on efficiency, LiteTracker delivers high-accuracy tracking and occlusion prediction, performing competitively on both the STIR and SuPer datasets. We believe LiteTracker is an important step toward low-latency tissue tracking for real-time surgical applications in the operating room. Our code is publicly available at https://github.com/ImFusionGmbH/lite-tracker.",
+  "authors": [
+    {
+      "name": "Karaoglu, Mert Asim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Wenbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abbas, Ahmed",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Busam, Benjamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ladikos, Alexander",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2578_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3531",
+  "title": "ReSeg-UNet: A Reconstruction-Guided Optimization Framework for Enhanced Medical Image Segmentation",
+  "abstract": "Medical image segmentation is critical for accurate diagnosis; however, the task remains challenging due to the inherent ambiguities in low-contrast anatomical boundaries and the presence of extensive redundant features in the skip connections of segmentation models. To address these limitations, we propose ReSeg-UNet, a novel two-stage framework that synergizes image reconstruction with segmentation optimization. In the first stage, a composite reconstruction loss—combining Mean Squared Error (MSE) and L1 regularization—is applied to a standard segmentation network, generating stable reconstruction weights that encode multi-scale feature representations. These weights explicitly capture both global anatomical context and local boundary details. In the second stage, a three-level cross-feature alignment mechanism is introduced: the encoder of the reconstruction model is aligned with the decoder of the segmentation model, the decoder of the former is aligned with the encoder of the latter, and the intermediate features of both models are also aligned. This strategy ensures multi-level feature consistency during downsampling, intermediate layers, and upsampling, effectively mitigating information loss in blurred regions. Extensive experiments on the Synapse (abdominal CT) and ACDC (cardiac MRI) datasets demonstrate significant improvements.",
+  "authors": [
+    {
+      "name": "Li, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chu, Xiaowen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xiaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Fei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3531_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "miccai-0994",
+  "title": "WSI-Agents: A Collaborative Multi-Agent System for Multi-Modal Whole Slide Image Analysis",
+  "abstract": "Whole slide images (WSIs) are vital in digital pathology, enabling gigapixel tissue analysis across various pathological tasks. While recent advancements in multi-modal large language models (MLLMs) allow multi-task WSI analysis through natural language, they often underperform compared to task-specific models. Collaborative multi-agent systems have emerged as a promising solution to balance versatility and accuracy in healthcare, yet their potential remains underexplored in pathology-specific domains. To address these issues, we propose WSI-Agents, a novel collaborative multi-agent system for multi-modal WSI analysis. WSI-Agents integrates specialized functional agents with robust task allocation and verification mechanisms to enhance both task-specific accuracy and multi-task versatility through three components: (1) a task allocation module assigning tasks to expert agents using a model zoo of patch and WSI level MLLMs, (2) verification mechanism ensuring accuracy through internal consistency checks and external validation using pathology knowledge bases and domain-specific models, and (3) a summary module synthesizing final summary with visual interpretation maps. Extensive experiments on multi-modal WSI benchmarks show \\ourmethod’s superiority to current WSI MLLMs and medical agent frameworks across diverse tasks. Source code is available at https://github.com/XinhengLyu/WSI-Agents.",
+  "authors": [
+    {
+      "name": "Lyu, Xinheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Yuci",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Wenting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Meidan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jiaqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Guolin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Daokun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Xiangjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Linlin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0994_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

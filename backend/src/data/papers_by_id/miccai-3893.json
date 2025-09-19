@@ -1,0 +1,67 @@
+{
+  "id": "miccai-3893",
+  "title": "Knowing or Guessing? Robust Medical Visual Question Answering via Joint Consistency and Contrastive Learning",
+  "abstract": "In high-stakes medical applications, consistent answering across diverse question phrasings is essential for reliable diagnosis. However, we reveal that current Medical Vision-Language Models (Med-VLMs) exhibit concerning fragility in Medical Visual Question Answering, as their answers fluctuate significantly when faced with semantically equivalent rephrasings of medical questions. We attribute this to two limitations: (1) insufficient alignment of medical concepts, leading to divergent reasoning patterns, and (2) hidden biases in training data that prioritize syntactic shortcuts over semantic understanding.\nTo address these challenges, we construct RoMed, a dataset built upon original VQA datasets containing 144k questions with variations spanning word-level, sentence-level, and semantic-level perturbations. When evaluating state-of-the-art (SOTA) models like LLaVA-Med on RoMed, we observe alarming performance drops (e.g., a 40% decline in Recall) compared to original VQA benchmarks, exposing critical robustness gaps.\nTo bridge this gap, we propose Consistency and Contrastive Learning (CCL), which integrates two key components: (1) knowledge-anchored consistency learning, aligning Med-VLMs with medical knowledge rather than shallow feature patterns, and (2) bias-aware contrastive learning, mitigating data-specific priors through discriminative representation refinement. CCL achieves SOTA performance on three popular VQA benchmarks and notably improves answer consistency by 50% on the challenging RoMed test set, demonstrating significantly enhanced robustness. Code will be released.",
+  "authors": [
+    {
+      "name": "Jiang, Songtao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yuxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Sibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Yeying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zuozhu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3893_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

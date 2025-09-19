@@ -1,0 +1,64 @@
+{
+  "id": "miccai-0219",
+  "title": "Spatiotemporal-Sensitive Network for Microvascular Obstruction Segmentation from Cine Cardiac Magnetic Resonance",
+  "abstract": "Accurate diagnosis of microvascular obstruction (MVO) in acute myocardial infarction (AMI) patients typically relies on Cine Cardiac Magnetic Resonance Imaging (CMR) (video sequences) and Late Gadolinium Enhancement (LGE) CMR (images). However, LGE imaging is contraindicated in approximately 20% of AMI patients with chronic kidney disease, underscoring the need for Cine CMR as a standalone diagnostic alternative. Although recent advancements in deep learning have improved video data processing, current methods fail to adequately capture complementary temporal motion features. This limits their efficacy and poses significant challenges for MVO segmentation with Cine CMR, as MVO regions are defined by dynamic motion rather than clear boundaries or contrast on Cine CMR. To address this limitation, we propose a Spatiotemporal-Sensitive Network that integrates static and motion encoders to effectively process Cine CMR. Further through a guided decoder utilizing the rich spatiotemporal information and an uncertainty-driven refinement leveraging uncertainty maps and low-level features, our method enhances segmentation accuracy and refines boundary delineation. Extensive experiments on 621 Cine CMR demonstrate superior performance over competing methods with a Dice score of 0.56 in Cine CMR-based MVO identification and highlight its potential to advance video analysis in clinical settings. The code is available at https://github.com/MICCAI25-MVO-Segmentation/miccai25-mvo-seg.",
+  "authors": [
+    {
+      "name": "Yu, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kok, Christopher",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiahao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Leng, Shuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Ru San",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xulei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0219_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

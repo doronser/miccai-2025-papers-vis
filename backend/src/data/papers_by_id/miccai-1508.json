@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1508",
+  "title": "DGM: Disentangled Generative Model for Detecting AD Individualized Pathological Changes via Pseudo-Healthy Synthesis",
+  "abstract": "Alzheimer’s disease (AD) is a complicated, heterogeneous neurodegenerative disease associated with cognitive decline, behavioral impairment, and brain atrophy. Detecting individualized pathological changes from cognitive normal (CN) to AD is critical for targeted treatment. Current existing methods face challenges, including biases toward specific pathology profiles. To this end, we proposed a disentangled generative model (DGM) to generate pseudo-healthy images and disease-related residual maps that accurately detect universal pathological changes. The framework of DGM consists of three modules: pseudo-healthy MRI synthesis, residual map synthesis, and input reconstruction modules. We take into account both the healthiness and subject identity to validate the biological validity of synthetic pseudo-healthy images. Our experiments demonstrated the effectiveness of the DGM in reconstructing healthy brain anatomy, preserving subject identity, and highlighting its direct application in anomaly pathological detection across the transitions from CN to MCI and from CN to AD. Code is available at https://github.com/zhonghuajiuzhou12138/DDGM_disease_stage_model.",
+  "authors": [
+    {
+      "name": "Li, Zhuangzhuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Kun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1508_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4507",
+  "title": "Adaptive Graph Learning with Multi-Graph Convolutions for Brain Disorder Classification",
+  "abstract": "Functional Magnetic Resonance Imaging (fMRI) provides crucial insights into brain activity but presents challenges due to its high-dimensional, dynamic, and noisy nature. Traditional graph-based approaches for fMRI analysis often rely on predefined correlation structures, which may not accurately reflect the true underlying functional connectivity. To address this limitation, we propose a graph learning framework that dynamically constructs brain graphs and leverages Spline Convolutional Neural Networks (SplineCNN) for localized spatial feature extraction. Our model introduces a Learner Graph module, which infers graph structures in a data-driven manner, mitigating the reliance on predefined connectivity measures. The SplineCNN and Multi-Graph Convolution modules capture fine-grained spatial dependencies, offering improved adaptability to the heterogeneous nature of fMRI data. Additionally, we incorporate contrastive learning to align learned representations with domain-specific priors to improve generalization. Experimental results demonstrate that our approach outperforms traditional correlation-based methods in neurological disorder classification. The proposed framework provides a principled, adaptive solution for learning graph representations from fMRI, enhancing generalizability and robustness in brain network analysis.",
+  "authors": [
+    {
+      "name": "Noman, Fuad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Phan, Raphaël C.-W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ombao, Hernando",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ting, Chee-Ming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4507_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

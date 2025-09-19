@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3308",
+  "title": "RadAlign: Advancing Radiology Report Generation with Vision-Language Concept Alignment",
+  "abstract": "Medical image interpretation and report generation are essential for physicians to identify diseases and make assessments. Major efforts in image-to-report generation require heavy language model training, which still suffers from producing reports with factual errors. In this study, we present RadAlign to demonstrate that a concept-based vision-language model can improve both predictive accuracy and report factual correctness without extensive language model training. Our key innovation is aligning visual features with medical diagnostic criteria in a shared representation space. Such alignment introduces core knowledge supervision and creates interpretable intermediate diagnosis results for LLMs to refine report generation. We also propose a novel cross-modal retrieval mechanism to provide additional clinical context of history cases for enhancing report generation accuracy. This unified approach achieves superior disease classification on MIMIC-CXR (average AUC: 0.885) and enables accurate report generation (GREEN score: 0.678 vs. SOTA: 0.634). RadAlign also demonstrates exceptional generalization capabilities, outperforming SOTA foundation and specialized models on the external OpenI dataset (AUC: 0.923 vs. 0.836). Code is available at https://github.com/difeigu/RadAlign",
+  "authors": [
+    {
+      "name": "Gu, Difei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yunhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Mu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Metaxas, Dimitris",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3308_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

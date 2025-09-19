@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1897",
+  "title": "Contrastive Anatomy-Contrast Disentanglement: A Domain-General MRI Harmonization Method",
+  "abstract": "Magnetic resonance imaging (MRI) is an invaluable tool for clinical and research applications. \nYet, variations in scanners and acquisition parameters cause inconsistencies in image contrast, hindering data comparability and reproducibility across datasets and clinical studies. \nExisting scanner harmonization methods, designed to address this challenge face limitations, such as requiring traveling subjects or struggling to generalize to unseen domains.\nWe propose a novel approach using a conditioned diffusion autoencoder with a contrastive loss and domain-agnostic contrast augmentation to harmonize MR images across scanners while preserving subject-specific anatomy.\nOur method enables brain MRI synthesis from a single reference image.\nIt outperforms baseline techniques, achieving a +7% PSNR improvement on a traveling subjects dataset and +18% improvement on age regression in unseen scanners.\nOur model provides robust, effective harmonization of brain MRIs to target scanners without requiring fine-tuning. \nThis advancement promises to enhance comparability, reproducibility, and generalizability in multi-site and longitudinal clinical studies, ultimately contributing to improved healthcare outcomes.",
+  "authors": [
+    {
+      "name": "Scholz, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Erdur, Ayhan Can",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Holland, Robbie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ehm, Viktoria",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peeken, Jan C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wiestler, Benedikt",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rueckert, Daniel",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1897_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

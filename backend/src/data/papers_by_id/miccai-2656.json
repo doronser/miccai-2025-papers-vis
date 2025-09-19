@@ -1,0 +1,63 @@
+{
+  "id": "miccai-2656",
+  "title": "Conditional Latent Diffusion Models for Irregularly Spaced Longitudinal Radiological Data",
+  "abstract": "Longitudinal medical image studies often involves multiple scans of the same patient taken at different times, potentially with different modalities such as (2D vs. 3D volumetric medical imaging). In this work, we propose a single diffusion-based framework that can predict future embeddings of imaging data for predefined time points. Our approach uses a universal vision encoder, able to ingest either 2D or 3D scans, combined with a temporal transformer to fuse embeddings across multiple timepoints. A conditional latent diffusion model then produces the future output in latent space encoding the longitudinal information of the patient. We challenged our method in two crucial tasks involving radiological imaging: (1) predicting future pathology in the form of segmentation masks, exemplified by Interstitial Lung Disease (ILD) progression on 3D chest CT scans of Systemic Sclerosis (SSc) patients, and (2) generating radiology reports that incorporate prior imaging context, exemplified by longitudinal chest X-rays from MIMIC-CXR. Results indicate that this unified diffusion approach outperforms existing baselines in both pixel-level forecasting and report generation, highlighting its versatility and effectiveness for longitudinal medical imaging.",
+  "authors": [
+    {
+      "name": "Mouadden, Nabil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Laousy, Othmane",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marini, Rafael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ong, Valentin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Revel, Marie-Pierre",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chassagnon, Guillaume",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Christodoulidis, Stergios",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vakalopoulou, Maria",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2656_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

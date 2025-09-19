@@ -1,0 +1,80 @@
+{
+  "id": "miccai-5025",
+  "title": "Augmented Reality-based Guidance with Deformable Registration in Head and Neck Tumor Resection",
+  "abstract": "Head and neck squamous cell carcinoma has one of the highest rates of recurrence. Recurrence rates can be reduced by accurate localization of positive margins. While frozen section analysis of resected specimens provides accurate intraoperative margin assessment, complex 3D anatomy and significant shrinkage of resected specimens complicate margin relocation from the specimen back to the post-resection cavity. We propose a novel deformable registration framework that uses both the pre-resection external surface and the post-resection cavity of the specimen to incorporate thickness information. In tongue specimens, the proposed framework improved the target registration error (TRE) by up to 33% as compared to using the post-resection cavity alone. \nWe found distinct deformation behaviors in skin, buccal, and tongue specimens, highlighting the need for tailored deformation strategies. Notably, tongue specimens hold the highest clinical need for improvement among head and neck specimens. To further aid intraoperative visualization, we also integrated this framework into an augmented reality-based guidance system. This system can automatically overlay the deformed 3D specimen mesh with positive margin annotation onto the post-resection cavity. The integrated system improved a surgeon and a trainee’s average relocation error from 9.8 mm to 4.8 mm in a pilot study. Our implementation code for AR guidance and generating the target point cloud is available at https://github.com/vu-maple-lab/Head-and-Neck-Tumor-Resection-Guidance.",
+  "authors": [
+    {
+      "name": "Yang, Qingyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Fangjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jiayi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sridhar, Sindhura",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Whitney",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Jennifer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heiselman, Jon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miga, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Topf, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jie Ying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5025_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

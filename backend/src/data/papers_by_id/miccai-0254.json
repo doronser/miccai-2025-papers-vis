@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0254",
+  "title": "Cycle Context Verification for In-Context Medical Image Segmentation",
+  "abstract": "In-context learning (ICL) is emerging as a promising technique for achieving universal medical image segmentation, where a variety of objects of interest across imaging modalities can be segmented using a single model. Nevertheless, its performance is highly sensitive to the alignment between the query image and in-context image-mask pairs. In a clinical scenario, the scarcity of annotated medical images makes it challenging to select optimal in-context pairs, and fine-tuning foundation ICL models on contextual data is infeasible due to computational costs and the risk of catastrophic forgetting. To address this challenge, we propose Cycle Context Verification (CCV), a novel framework that enhances ICL-based medical image segmentation by enabling self-verification of predictions and accordingly enhancing contextual alignment. Specifically, CCV employs a cyclic pipeline in which the model initially generates a segmentation mask for the query image. Subsequently, the roles of the query and an in-context pair are swapped, allowing the model to validate its prediction by predicting the mask of the original in-context image. The accuracy of this secondary prediction serves as an implicit measure of the initial query segmentation. A query-specific prompt is introduced to alter the query image and updated to improve the measure, thereby enhancing the alignment between the query and in-context pairs. We evaluated CCV on seven medical image segmentation datasets using two ICL foundation models, demonstrating its superiority over existing methods. Our results highlight CCV’s ability to enhance ICL-based segmentation, making it a robust solution for universal medical image segmentation. The code will be available at \\url{https://github.com/ShishuaiHu/CCV}.",
+  "authors": [
+    {
+      "name": "Hu, Shishuai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Zehui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhen, Liangli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Huazhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0254_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

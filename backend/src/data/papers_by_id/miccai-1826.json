@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1826",
+  "title": "Parameter-Efficient 12-Lead ECG Reconstruction from a Single Lead",
+  "abstract": "With the rise of wearable IoT devices such as smartwatches and smart rings, ECG signals have become more accessible and made cardiovascular monitoring a reality. However, analyzing the ECG signals for complex conditions, such as bundle branch blocks and myocardial infarction, requires multi-lead ECG data. Although various deep learning models for ECG reconstruction have been proposed, they are computationally expensive and unsuitable on resource-constrained wearable IoT devices. To address this challenge, we propose mEcgNet, a parameter-efficient model for reconstructing 12-lead ECG signals from a single lead. mEcgNet introduces a modular deep learning architecture for parameter efficiency and separates the single lead-I signal into multiple frequency segments to improve accuracy. Our experiments demonstrate that mEcgNet significantly reduces the number of parameters and inference time by ∼23.1× and ∼5.4×, respectively, compared to existing state-of-the-art models. Furthermore, it reduces the reconstruction error by ∼22.1%, demonstrating its high accuracy and efficiency.",
+  "authors": [
+    {
+      "name": "Lee, Junseok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoo, Yeonho",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Jinkyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lim, Dosun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Gyeongsik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoo, Chuck",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1826_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

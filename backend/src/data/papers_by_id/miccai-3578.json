@@ -1,0 +1,50 @@
+{
+  "id": "miccai-3578",
+  "title": "StepAL: Step-aware Active Learning for Cataract Surgical Videos",
+  "abstract": "Active learning (AL) can reduce annotation costs in surgical video analysis while maintaining model performance. However, traditional AL methods, developed for images or short video clips, are suboptimal for surgical step recognition due to inter-step dependencies within long, untrimmed surgical videos. These methods typically select individual frames or clips for labeling, which is ineffective for surgical videos where annotators require the context of the entire video for annotation. To address this, we propose StepAL, an active learning framework designed for full video selection in surgical step recognition. StepAL integrates a step-aware feature representation, which leverages pseudo-labels to capture the distribution of predicted steps within each video, with an entropy-weighted clustering strategy. This combination prioritizes videos that are both uncertain and exhibit diverse step compositions for annotation. Experiments on two cataract surgery datasets (Cataract-1k and Cataract-101) demonstrate that StepAL consistently outperforms existing active learning approaches, achieving higher accuracy in step recognition with fewer labeled videos. StepAL offers an effective approach for efficient surgical video analysis, reducing the annotation burden in developing computer-assisted surgical systems.",
+  "authors": [
+    {
+      "name": "Shah, Nisarg A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Safaei, Bardia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sikder, Shameema",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vedula, S. Swaroop",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Patel, Vishal M.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty",
+    "Surgery -> Data Science",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3578_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2899",
+  "title": "Separable tissue representations for attributable risk prediction",
+  "abstract": "Attributing model predictions to a set of variables is a crucial part of methods in medicine and the sciences. However, in multimodal settings, ablating the contribution of a particular part of an image is often challenging. We present the STRAP framework (separable tissue representations for attributable risk prediction) using a novel masked autoencoder (MAE) enabling learning representations of a varying number of image patch tokens, enhancing memory efficiency and flexibility. We apply this framework on a fracture risk prediction task using clinical features and high-resolution peripheral quantitative computed tomography (HR-pQCT) images, to investigate the contribution of bone vs. muscle and fat tissues. Unlike previous work, we are able to selectively include specific tissues in risk prediction, and attribute their contribution to the risk using ablation and state-of-the-art interpretability methods. For the first time, we demonstrate that including soft-tissue from HR-pQCT increases prediction performance both in terms of C-index and overall AUC. Source-code is openly published online: https://github.com/waahlstrand/strap.",
+  "authors": [
+    {
+      "name": "Wåhlstrand, Victor",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alvén, Jennifer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Johansson, Lisa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Axelsson, Kristian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lorentzon, Mattias",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Häggström, Ida",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2899_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

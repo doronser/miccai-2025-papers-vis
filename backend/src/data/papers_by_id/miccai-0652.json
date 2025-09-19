@@ -1,0 +1,57 @@
+{
+  "id": "miccai-0652",
+  "title": "Sequence-Independent Continual Test-Time Adaptation with Mixture of Incremental Experts for Cross-Domain Segmentation",
+  "abstract": "Continual Test-Time Adaptation (CTTA) adapts a model\npretrained on the source domain to sequentially arriving unlabeled target domains. However, existing approaches predominantly assume that model would complete adaptation to all samples within the same target domain before transitioning to the next domain, deviating from realistic clinical scenarios where samples from diverse domains arrive stochastically. Such gradual adaptation strategies suffer from performance drop under rapid domain shifts and limits their clinical applicability. To address this issue, we propose Mixture of Incremental Experts (MoIE), a lightweight network structure that maps new patterns to established knowledge. Specifically, MoIE incorporates two key innovations: 1) Progressive Expert Expansion (PEE), which dynamically adds experts when existing ones fail to effectively process the current sample, enabling stable and swift adaptation to target domains; 2) Knowledge-Transfer Initialization (KTI), which initializes new experts by combining existing ones through domain-similarity based weights, enabling fast adaptation to unseen domains while preserving learned knowledge to prevent immediate forgetting. Experiments on two CTTA tasks (prostate and fundus segmentations) indicate its superiority by achieving SOTA performance with minimal performance gaps across diverse inference sequences. (Code available at https://github.com/dyxu-cuhkcse/MoIE)",
+  "authors": [
+    {
+      "name": "Xu, Dunyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Yuchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Donghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xikai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jingyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jinpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heng, Pheng-Ann",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0652_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

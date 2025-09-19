@@ -1,0 +1,51 @@
+{
+  "id": "miccai-2387",
+  "title": "A Frequency-Aware Self-Supervised Learning for Ultra-Wide-Field Image Enhancement",
+  "abstract": "Ultra-Wide-Field (UWF) retinal imaging has revolutionized retinal diagnostics by providing a comprehensive view of the retina. However, it often suffers from quality-degrading factors such as blurring and uneven illumination, which obscure fine details and mask pathological information. While numerous retinal image enhancement methods have been proposed for other fundus imageries, they often fail to address the unique requirements in UWF, particularly the need to preserve pathological details. In this paper, we propose a novel frequency-aware self-supervised learning method for UWF image enhancement. It incorporates frequency-decoupled image deblurring and Retinex-guided illumination compensation modules. An asymmetric channel integration operation is introduced in the former module, so as to combine global and local views by leveraging high- and low-frequency information, ensuring the preservation of fine and broader structural details. In addition, a color preservation unit is proposed in the latter Retinex-based module, to provide multi-scale spatial and frequency information, enabling accurate illumination estimation and correction. Experimental results demonstrate that the proposed work not only enhances visualization quality but also improves disease diagnosis performance by restoring and correcting fine local details and uneven intensity. To the best of our knowledge, this work is the first attempt for UWF image enhancement, offering a robust and clinically valuable tool for improving retinal disease management.",
+  "authors": [
+    {
+      "name": "Liao, Weicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Jianyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Yuhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yitian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2387_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

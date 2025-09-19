@@ -1,0 +1,60 @@
+{
+  "id": "miccai-0853",
+  "title": "AVDM: Controllable Adversarial Diffusion Model for Vessel-to-Volume Synthesis",
+  "abstract": "3D blood vessel segmentation remains a critical yet challenging task in medical image analysis. The heterogeneity of clinical imaging protocols introduces substantial domain gaps, limiting the generalizability of supervised learning methods that rely on manually annotated pixel-level labels for individual datasets. Furthermore, the large labeled volumetric datasets are difficult to collect because of data privacy issues. While diffusion models offer potential solutions by generating shareable synthetic data, existing approaches often exhibit poor alignment between synthesized volumes and their corresponding vascular structure input. To address these limitations, we propose Controllable Adversarial Diffusion Model (AVDM), which integrates adversarial supervision into the diffusion training framework. Unlike conventional methods that generate imperceptible perturbations, AVDM synthesizes adversarial instances emphasizing structural variations critical for volume synthesis. Specifically, we design a segmentation-guided discriminator that enforces both the photorealism of generated volumes and pixel-level consistency with original vessel annotations. This supervision mechanism enables high-resolution synthesis of anatomically plausible vascular structures. Experiments demonstrate that AVDM surpasses state-of-the-art methods in generative fidelity and enhances performance on downstream tasks. Our code is available at https://anonymous.4open.science/r/AVDM-C273/.",
+  "authors": [
+    {
+      "name": "Dai, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Wanchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Honghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiajun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Zhiji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Geng, Daoying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0853_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

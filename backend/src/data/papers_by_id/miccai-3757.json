@@ -1,0 +1,54 @@
+{
+  "id": "miccai-3757",
+  "title": "Graph-PAVNet: A Graph-Based Learning Framework for Pulmonary Artery and Vein Separation Using Multimodal Feature Sampling",
+  "abstract": "Pulmonary artery-vein separation is critical for clinical diagnosis and treatment planning. However, existing pixel- or voxel-based methods often pro-duce fragmented predictions, significantly reducing clinical confidence. To address above problems, we propose Graph-PAVNet, a graph structure learning framework designed for PA/PV separation. First, our Light Vessel Structured Modelling (LVSM) module constructs a topology-aware vascular graph by leveraging the inherent structural and semantic relationships within the vascular network. LVSM shifts from traditional voxel-level predictions to topology-based branch-level inference, effectively resolving prediction discontinuity. However, it is challenging for a single graph to do the separation task. Due to this issue, we propose the Modal Feature Sampling (MFS) mod-ule. MFS enriches node features by constructing a hybrid Real-Virtual(RV) feature matrix that integrates multi-source information. It also employs a dynamic feature weighting mechanism to achieve cross-modal complementarity, overcoming the challenges posed by modal discrepancies. For hierarchical inference, the Hierarchical Graph Attention Network (HGAT) stratifies nodes by vascular generation order (main to peripheral branches) and employs hierarchical masking to enforce structured inter-layer propagation. At last, we introduce a novel metric: Branch Misprediction Co-efficient (BMC) to better evaluate the clinical relevance and branch inconsistency. Experimental results show that our method outperforms existing approaches in both quantitative accuracy and clinical interpretability, offering a new paradigm for pulmonary artery-vein separation.",
+  "authors": [
+    {
+      "name": "Li, Qingya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Ye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bao, Nan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Lisheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Wenjun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3757_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

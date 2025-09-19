@@ -1,0 +1,55 @@
+{
+  "id": "miccai-3853",
+  "title": "Asymmetric Matching in Abdominal Lymph Nodes of Follow-up CT Scans",
+  "abstract": "Accurate tracking of abdominal lymph nodes (LN) across follow-up computed tomography (CT) scans is crucial for colorectal cancer staging and treatment response evaluation. However, establishing reliable LN correspondences remains underexplored due to challenges including scale variations, low resolution, difficulty distinguishing nodes from adjacent structures, inability to handle tissue deformation, and dynamic visibility. To address these challenges, we propose an asymmetric matching framework that strikes a balance between enhancing LN specificity and contextual correlations. For specificity, we achieve cross-dimensional feature consistency and generate discriminative LN features via self-supervised learning on orthogonal 2D projections of 3D node volumes. For correlation, we develop a graph model capturing lymphatic topology within scans, reinforced by temporal contrastive learning that encourages consistency between matched node pairs across CT. To balance specificity and correlation, we propose a multi-module architecture that integrates volumetric LN features with projection embeddings through attention-based fusion, enabling confidence-calibrated similarity assessment across temporal scans. Experimental results demonstrate that our solution provides reliable lymph node correspondence for clinical follow-up and disease monitoring. Code is available at https://github.com/maoyij/Asymmetric-Matching.",
+  "authors": [
+    {
+      "name": "Mao, Yiji",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yuling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Haixian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Scene Understanding",
+    "Surgery -> Skill and Work Flow Analysis",
+    "Special Topic -> Biomedical Image Computing for Neglected Diseases"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3853_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

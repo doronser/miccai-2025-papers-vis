@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1025",
+  "title": "PR-ENDO: Physically Based Relightable Gaussian Splatting for Endoscopy",
+  "abstract": "Endoluminal endoscopic procedures are essential for diagnosing colorectal cancer and other severe conditions in the digestive tract, urogenital system, and airways. 3D reconstruction and novel-view synthesis from endoscopic images are promising tools for enhancing diagnosis. Moreover, integrating physiological deformations and interaction with the endoscope enables the development of simulation tools from real video data. However, constrained camera trajectories and view-dependent lighting create artifacts, leading to inaccurate or overfitted reconstructions. We present PR-ENDO, a novel 3D reconstruction framework leveraging the unique property of endoscopic imaging, where a single light source is closely aligned with the camera. Our method separates light effects from tissue properties. PR-ENDO enhances 3D Gaussian Splatting with a physically based relightable model. We boost the traditional light transport formulation with a specialized MLP capturing complex light-related effects while ensuring reduced artifacts and better generalization across novel views. PR-ENDO achieves superior reconstruction quality compared to baseline methods on both public and in-house datasets. Unlike existing approaches, PR-ENDO enables tissue modifications while preserving a physically accurate response to light, making it closer to real-world clinical use. Repository: https://github.com/SanoScience/PR-ENDO.",
+  "authors": [
+    {
+      "name": "Kaleta, Joanna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Smolak-Dyżewska, Weronika",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Malarz, Dawid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dall’Alba, Diego",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Korzeniowski, Przemysław",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Spurek, Przemysław",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1025_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

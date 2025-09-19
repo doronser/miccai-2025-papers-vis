@@ -1,0 +1,57 @@
+{
+  "id": "miccai-5402",
+  "title": "PDC-Net: Pattern Divide-and-Conquer Network for Pelvic Radiation Injury Segmentation",
+  "abstract": "Accurate segmentation of Pelvic Radiation Injury (PRI) from Magnetic Resonance Images (MRI) is crucial for more precise prognosis assessment and the development of personalized treatment plans. However, automated segmentation remains challenging due to factors such as complex organ morphologies and confusing context. To address these challenges, we propose a novel Pattern Divide-and-Conquer Network (PDC-Net) for PRI segmentation. The core idea is to use different network modules to “divide” various local and global patterns and, through flexible feature selection, to “conquer” the Regions of Interest (ROI) during the decoding phase. Specifically, considering that our ROI often manifests as strip-like or circular-like structures in MR slices, we introduce a Multi-Direction Aggregation (MDA) module. This module enhances the model’s ability to fit the shape of the organ by applying strip convolutions in four distinct directions. Additionally, to mitigate the challenge of confusing context, we propose a Memory-Guided Context (MGC) module. This module explicitly maintains a memory parameter to track cross-image patterns at the dataset level, thereby enhancing the distinction between global patterns associated with the positive and negative classes. Finally, we design an Adaptive Fusion Decoder (AFD) that dynamically selects features from different patterns based on the Mixture-of-Experts (MoE) framework, ultimately generating the final segmentation results. We evaluate our method on the first large-scale pelvic radiation injury dataset, and the results demonstrate the superiority of our PDC-Net over existing approaches.",
+  "authors": [
+    {
+      "name": "Xiong, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Wuteng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Zihuang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Chong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Guanbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Qiyuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5402_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

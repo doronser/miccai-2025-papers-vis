@@ -1,0 +1,46 @@
+{
+  "id": "miccai-1638",
+  "title": "Brain activation mapping based on Regional Synchronization of fMRI signals embedded in Graph Eigenmodes",
+  "abstract": "Functional magnetic resonance imaging (fMRI) analysis models the detected temporal signals as a superposition of linear hemodynamic responses (HDR) to task-related stimuli, yielding spatial maps of brain function. However, recent studies have demonstrated that neural responses exhibit significant nonlinearity, challenging the validity of such linear models. In this work, we propose a novel mathematical framework, Regional Synchronization based on Graph Eigenmodes (RS-GEm), to analyze fMRI data and localize brain activation without relying on the linear assumptions of traditional models. Using Laplacian Eigenmaps (LEM), we capture the graph structure of the brain and derive its eigenmodes. These eigenmodes characterize possible spatial organizations of neural activity across different hierarchical levels of the human brain. By computing the regional synchronization of fMRI signals embedded in the eigenmode space and employing clustering metrics, we extract task-relevant eigenmodes to identify task-evoked activation regions. Validations on the Human Connectome Project (HCP) dataset demonstrate that our method can map task-evoked brain activations without the linear assumptions. The proposed approach offers a novel methodological framework for elucidating understudied aspects of brain function featured with nonlinear HDRs, thereby facilitating a more complete understanding of brain dynamics.",
+  "authors": [
+    {
+      "name": "Tang, Zhenyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Jingyong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1638_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

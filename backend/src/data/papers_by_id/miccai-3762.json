@@ -1,0 +1,54 @@
+{
+  "id": "miccai-3762",
+  "title": "BrainAlign: EEG-Vision Alignment via Frequency-Aware Temporal Encoder and Differentiable Cluster Assigner",
+  "abstract": "While understanding visual processing in the human brain is fundamental for computational neuroscience, decoding objects from electroencephalography (EEG) remains challenging due to noisy neural dynamics during rapid image presentation and semantic misalignment in zero-shot settings. We propose BrainAlign, a novel framework leveraging contrastive learning to align EEG features with visual-language models (VLM). Our approach addresses three fundamental challenges: (1) We introduce a Frequency-Aware Temporal Encoder (FATE) using real Fast Fourier Transform with tunable bandpass filters to compress noisy signals while preserving temporal fidelity. (2) We develop a Differentiable Cluster Assigner (DCA) that dynamically optimizes channel grouping through cross-attention mechanisms, adaptively suppressing noise and enhancing task-relevant features. (3) We implement a self-supervised framework aligning EEG features with VLMs through contrastive learning. Extensive experiments demonstrate state-of-the-art performance on large-scale datasets, improving zero-shot retrieval accuracy by 5.85% and classification by 3.3%. Our work establishes new possibilities for brain-computer interfaces.",
+  "authors": [
+    {
+      "name": "Shi, Enze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Huawen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Qilong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Kui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Sigang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3762_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

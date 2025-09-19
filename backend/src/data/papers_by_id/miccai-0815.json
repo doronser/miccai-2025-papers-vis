@@ -1,0 +1,60 @@
+{
+  "id": "miccai-0815",
+  "title": "Delving into Out-of-Distribution Detection with Medical Vision-Language Models",
+  "abstract": "Recent advances in medical vision-language models (VLMs) demonstrate impressive performance in image classification tasks, driven by their strong zero-shot generalization capabilities. However, given the high variability and complexity inherent in medical imaging data, the ability of these models to detect out-of-distribution (OOD) data in this domain remains underexplored. In this work, we conduct the first systematic investigation into the OOD detection potential of medical VLMs. We evaluate state-of-the-art VLM-based OOD detection methods across a diverse set of medical VLMs, including both general and domain-specific purposes. To accurately reflect real-world challenges, we introduce a cross-modality evaluation pipeline for benchmarking full-spectrum OOD detection, rigorously assessing model robustness against both semantic shifts and covariate shifts. Furthermore, we propose a novel hierarchical prompt-based method that significantly enhances OOD detection performance. Extensive experiments are conducted to validate the effectiveness of our approach. The codes are available at \\url{https://github.com/PyJulie/Medical-VLMs-OOD-Detection}.",
+  "authors": [
+    {
+      "name": "Ju, Lie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Sijin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yukun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Huimin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Zhuoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Keane, Pearse A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Zongyuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Microscopy",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0815_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

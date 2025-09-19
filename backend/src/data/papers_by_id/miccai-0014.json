@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0014",
+  "title": "tCURLoRA: Tensor CUR Decomposition Based Low-Rank Parameter Adaptation and Its Application in Medical Image Segmentation",
+  "abstract": "Transfer learning, by leveraging knowledge from pre-trained models, has significantly improved the performance of downstream tasks. However, as deep neural networks continue to scale, full fine-tuning poses substantial computational and storage challenges in resource-constrained environments, limiting its practical adoption. To address this, parameter-efficient fine-tuning (PEFT) methods have been proposed to reduce computational complexity and memory requirements by updating only a small subset of parameters. Among them, matrix decomposition-based approaches such as LoRA have shown promise, but often struggle to fully capture the high-dimensional structural characteristics of model weights. In contrast, high-order tensors offer a more natural representation of neural network parameters, enabling richer modeling of multi-dimensional interactions and higher-order features. In this paper, we propose tCURLoRA, a novel fine-tuning method based on tensor CUR decomposition. By stacking pre-trained weight matrices into a third-order tensor and applying tensor CUR decomposition, our method updates only the compressed tensor components during fine-tuning, thereby substantially reducing both computational and storage costs. Experimental results show that tCURLoRA consistently outperforms existing PEFT approaches on medical image segmentation tasks. The source code is publicly available at: https://github.com/WangangCheng/t-CURLora.",
+  "authors": [
+    {
+      "name": "He, Guanghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Wangang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Hancan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Xiaohao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Gaohang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0014_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

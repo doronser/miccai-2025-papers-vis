@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2716",
+  "title": "Veriserum: A dual-plane fluoroscopic dataset with knee implant phantoms for deep learning in medical imaging",
+  "abstract": "Veriserum is an open-source dataset designed to support the\ntraining of deep learning registration for dual-plane fluoroscopic analysis.\nIt comprises approximately 110,000 X-ray images of 10 knee implant pair\ncombinations (2 femur and 5 tibia implants) captured during 1,600 trials,\nincorporating poses associated with daily activities such as level gait and\nramp descent. Each image is annotated with an automatically registered\nground-truth pose, while 200 images include manually registered poses\nfor benchmarking.\nKey features of Veriserum include dual-plane images and calibration\ntools. The dataset aims to support the development of applications such\nas 2D/3D image registration, image segmentation, X-ray distortion cor-\nrection, and 3D reconstruction. Freely accessible, Veriserum aims to ad-\nvance computer vision and medical imaging research by providing a re-\nproducible benchmark for algorithm development and evaluation. The\nVeriserum dataset used in this study is publicly available via https:\n//movement.ethz.ch/data-repository/veriserum.html, with the data\nstored at ETH Zürich Research Collections: https://doi.org/10.3929/\nethz-b-000701146.",
+  "authors": [
+    {
+      "name": "Wang, Jinhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vogl, Florian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schütz, Pascal",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ćuković, Saša",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Taylor, William R.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2716_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

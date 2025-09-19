@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1787",
+  "title": "MadCLIP: Few-shot Medical Anomaly Detection with CLIP",
+  "abstract": "An innovative few-shot anomaly detection approach is presented, leveraging the pre-trained CLIP model for medical data, and adapting it for both image-level anomaly classification (AC) and pixel-level anomaly segmentation (AS). A dual-branch design is proposed to separately capture normal and abnormal features through learnable adapters in the CLIP vision encoder. To improve semantic alignment, learnable text prompts are employed to link visual features. \nFurthermore, SigLIP loss is applied to effectively handle the many-to-one relationship between images and unpaired text prompts, showcasing its adaptation in the medical field for the first time. Our approach is validated on multiple modalities, demonstrating superior performance over existing methods for AC and AS, in both same-dataset and cross-dataset evaluations. Unlike prior work, it does not rely on synthetic data or memory banks, and an ablation study confirms the contribution of each component. The code is available at https://github.com/mahshid1998/MadCLIP.",
+  "authors": [
+    {
+      "name": "Shiri, Mahshid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Beyan, Cigdem",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Murino, Vittorio",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Eye",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Microscopy",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1787_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "miccai-5419",
+  "title": "A Prior-Driven Lightweight Network for Endoscopic Exposure Correction",
+  "abstract": "Against this endoscopic exposure correction task, although some past studies have yielded promising results, these methods do not fully explore the task-specific priors, and they generally\nrequire a large number of parameters thus compromising their applications on resource-constrained devices. In this paper, we carefully explore that regardless of the exposure level degradation, the illumination information is usually contained in the low frequency part, and the relative smoothness of structures in captured endoscopic images generally lead to the sparse high-frequency representation. Motivated by such prior understandings, we specifically construct a lightweight wavelet transform-based hierarchical network structure for this correction task, called WTNet, which utilizes the inherent frequency decomposition characteristics of wavelet transform and makes the core of network learning focus on the modelling of low-frequency information.  Based on four datasets and three different tasks, including  exposure correction, low-light enhancement, and downstream segmentation, we comprehensively substantiate the superiority of our proposed WTNet. With only 1.41M model parameters, our WTNet achieves a better balance between performance and cost, and demonstrates favorable clinical application potential. The code will be available at https://github.com/charonf/WTNet.",
+  "authors": [
+    {
+      "name": "Wu, Zhijian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yuxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Dingjiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yefeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5419_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

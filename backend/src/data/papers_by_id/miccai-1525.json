@@ -1,0 +1,64 @@
+{
+  "id": "miccai-1525",
+  "title": "EdgeANet: A Transformer-based Edge Representation Learning Network for Canine X-ray Verification",
+  "abstract": "Artificial intelligence (AI) has shown great potential in medical imaging, yet its adoption in veterinary medicine remains limited due to data scarcity and anatomical complexity. This study introduces a novel transformer-based edge representation learning network for verifying rotated vertebral bodies in canine thoracic X-ray images. The proposed method integrates a localization module to identify the spinous process, a transformer encoder for global feature extraction using a self-attention mechanism, and an edge encoder to enhance feature extraction of finegrained details, improving classification performance. Experimental results demonstrate that our method achieves superior accuracy, precision, and recall, outperforming state-of-the-art (SOTA) methods with a classification accuracy of 0.7838. Furthermore, the ablation study confirms that including the proposed encoders significantly impacts performance, demonstrating their effectiveness in improving classification accuracy. These findings highlight the importance of multi-scale feature extraction in veterinary imaging and suggest that EdgeANet can be a valuable tool for AI-assisted X-ray verification in veterinary and human medical applications.",
+  "authors": [
+    {
+      "name": "Lee, In-Gyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oh, Jun-Young",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Choi, Hyewon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kam, Tae-Eui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Namsoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hyun, Sang-Hwan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Euijong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jeong, Ji-Hoon",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1525_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

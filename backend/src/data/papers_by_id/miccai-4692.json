@@ -1,0 +1,61 @@
+{
+  "id": "miccai-4692",
+  "title": "Improving Autism Detection with Multimodal Behavioral Analysis",
+  "abstract": "Due to the complex and resource-intensive nature of diagnosing Autism Spectrum Condition (ASC), several computer-aided diagnostic support methods have been proposed to detect autism by analyzing behavioral cues in patient video data. While these models show promising results on some datasets, they struggle with poor gaze feature performance and lack of real-world generalizability. To tackle these challenges, we analyze a standardized video dataset comprising 168 participants with ASC (46% female) and 157 non-autistic participants (46% female), making it, to our knowledge, the largest and most balanced dataset available. We conduct a multimodal analysis with a primary focus on gaze behaviour, complemented by facial expressions, voice prosody, head motion, heart rate variability (HRV). Addressing previous limitations in gaze modeling, we introduce novel statistical descriptors that quantify variability in eye gaze angles, improving gaze-based classification accuracy from 64% to 69% and aligning computational findings with clinical research on gaze aversion in ASC. Using late fusion, we achieve a classification accuracy of 74%, demonstrating the effectiveness of integrating behavioral markers across multiple modalities. Our findings highlight the potential for scalable, video-based screening tools to support autism assessment. To facilitate reproducibility, we share our code on GitHub: https://github.com/mbp-lab/miccai25_sit_autism_classification",
+  "authors": [
+    {
+      "name": "Saakyan, William",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Norden, Matthias",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Eversmann, Lola",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kirsch, Simon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Muyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guendelman, Simon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dziobek, Isabel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Drimalla, Hanna",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4692_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "miccai-5017",
+  "title": "ODES: Online Domain Adaptation with Expert Guidance for Medical Image Segmentation",
+  "abstract": "Unsupervised domain adaptive segmentation typically relies on self-training using pseudo labels predicted by a pre-trained network on an unlabeled target dataset. However, noisy pseudo-labels present a major bottleneck in adapting a network to distribution shifts between source and target domains, particularly when data is coming in an online manner and adaptation is constrained to exactly one round of forward and backward passes. In this scenario, relying solely on inaccurate pseudo-labels can degrade segmentation quality, which is detrimental to medical image segmentation where accuracy and precision are of utmost priority. In this paper, we propose an approach to address this issue by incorporating expert guided active learning to enhance online domain adaptation, even without dedicated training data. We call our method \\textbf{ODES}: \\underline{O}nline \\underline{D}omain Adaptation with \\underline{E}xpert Guidance for Medical Image \\underline{S}egmentation that adapts to each incoming batch of data in an online setup. However, acquiring annotations through active learning for all images in a batch often results in redundant data annotation and increases temporal overhead in online adaptation. We address this issue by proposing a novel image-pruning strategy that selects the most informative subset of images from the current batch for active learning. We also propose a novel acquisition function that enhances diversity of the selected samples for annotating. Our approach outperforms existing online adaptation approaches and produces competitive results compared to offline domain adaptive active learning methods. The code can be found at \\url{https://github.com/ShazidAraf/ODES}",
+  "authors": [
+    {
+      "name": "Islam, Md Shazid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nag, Sayak",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dutta, Arindam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ahmed, Sk Miraj",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Niloy, Fahim Faisal",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bera, Shreyangshu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Roy-Chowdhury, Amit K.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5017_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

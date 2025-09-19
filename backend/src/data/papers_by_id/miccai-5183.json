@@ -1,0 +1,56 @@
+{
+  "id": "miccai-5183",
+  "title": "AEM: Attention Entropy Maximization for Multiple Instance Learning based Whole Slide Image Classification",
+  "abstract": "Multiple Instance Learning (MIL) effectively analyzes whole slide images but faces overfitting due to attention over-concentration. While existing solutions rely on complex architectural modifications or additional processing steps, we introduce Attention Entropy Maximization (AEM), a simple yet effective regularization technique. Our investigation reveals the positive correlation between attention entropy and model performance. Building on this insight, we integrate AEM regularization into the MIL framework to penalize excessive attention concentration.  To address sensitivity to the AEM weight parameter, we implement Cosine Weight Annealing, reducing parameter dependency. Extensive evaluations demonstrate AEM’s superior performance across diverse feature extractors, MIL frameworks, attention mechanisms, and augmentation techniques. Here is our anonymous code: \\url{https://github.com/dazhangyu123/AEM}.",
+  "authors": [
+    {
+      "name": "Zhang, Yunlong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Honglin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yuxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shui, Zhongyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jingxiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Chenglu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Lin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5183_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

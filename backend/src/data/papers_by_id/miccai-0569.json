@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0569",
+  "title": "Knowledge-guided Multi-scale Graph Mamba for Whole Slide Image Classification",
+  "abstract": "Whole Slide Images (WSIs) are crucial for cancer diagnosis in digital pathology. WSI classification typically relys on Multiple Instance Learning (MIL). Existing MIL methods use attention mechanisms to highlight key instances but struggle to capture instance interactions. Although Transformers, State Space Models (SSMs), and Graph Neural Networks (GNNs) have made progress in solving this problem, they still face two main issues: (1) insufficient guidance from class-related information in modeling instance relationships, and (2) inadequate interaction between slides at different magnifications. To address these issues, we propose Knowledge-guided Multi-scale Graph Mamba (KMG-Mamba), which incorporates a Knowledge-guided Graph Representation (KGR) method for class-related guidance and Cross-scale Knowledge Interaction Mamba (CKIM) to facilitate effective cross-magnification information exchange. Experimental results on three public datasets show KMG-Mamba outperforms current MIL methods in WSI classification.",
+  "authors": [
+    {
+      "name": "Duan, Minghong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Zhiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Yingfan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Manning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhijian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0569_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

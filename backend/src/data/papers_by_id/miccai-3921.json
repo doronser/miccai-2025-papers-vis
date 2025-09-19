@@ -1,0 +1,43 @@
+{
+  "id": "miccai-3921",
+  "title": "Navigational Bronchoscopy in Critical Care via End-to-End Pose Regression",
+  "abstract": "Bronchoscopy is a minimally invasive procedure for diagnosing and treating lung conditions, but navigation remains challenging due to the reliance on preoperative imaging, sensor-based tracking, and the feature-poor visual environment of the airways. To address these limitations, we propose a novel Navigated Bronchoscopy (NB) framework that enables real-time guidance and repeatable interventions without requiring external sensors or CT scans, which makes it particularly suitable for mechanically ventilated patients in critical care units with limited access to preoperative images. We base our approach on deep learning, specifically by performing airway landmark recognition using deep visual features and using a Vision Transformer (ViT)-based pose regression network to track bronchoscope motion. Our framework is deployed on a commercially available bronchoscope and validated through bronchoscopy trials in a phantom lung model and a mechanically ventilated ex-vivo human lung, demonstrating its feasibility for real-world applications.",
+  "authors": [
+    {
+      "name": "Mackute, Emile",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Francis Xiatian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dhaliwal, Kevin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Khadem, Mohsen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Navigation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3921_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

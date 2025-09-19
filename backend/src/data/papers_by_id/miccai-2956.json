@@ -1,0 +1,42 @@
+{
+  "id": "miccai-2956",
+  "title": "LEAF: Latent Diffusion with Efficient Encoder Distillation for Aligned Features in Medical Image Segmentation",
+  "abstract": "Leveraging the powerful capabilities of diffusion models has\nyielded quite effective results in medical image segmentation tasks. How-\never, existing methods typically transfer the original training process di-\nrectly without specific adjustments for segmentation tasks. Furthermore,\nthe commonly used pre-trained diffusion models still have deficiencies in\nfeature extraction. Based on these considerations, we propose LEAF, a\nmedical image segmentation model grounded in latent diffusion models.\nDuring the fine-tuning process, we replace the original noise prediction\npattern with a direct prediction of the segmentation map, thereby re-\nducing the variance of segmentation results. We also employ a feature\ndistillation method to align the hidden states of the convolutional layers\nwith the features from a transformer-based vision encoder. Experimen-\ntal results demonstrate that our method enhances the performance of\nthe original diffusion model across multiple segmentation datasets for\ndifferent disease types. Notably, our approach does not alter the model\narchitecture, nor does it increase the number of parameters or computa-\ntion during the inference phase, making it highly efficient.",
+  "authors": [
+    {
+      "name": "Huang, Qilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhiguang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Fudan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2956_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

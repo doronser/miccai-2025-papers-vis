@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2758",
+  "title": "Minuscule Cell Detection in AS-OCT Images with Progressive Field-of-View Focusing",
+  "abstract": "Anterior Segment Optical Coherence Tomography (AS-OCT) is an emerging imaging technique with great potential for diagnosing anterior uveitis, a vision-threatening condition. This condition is characterized by the presence of inflammatory cells in the eye’s anterior chamber (AC). Automatic detection of these cells on AS-OCT images has attracted great attention. However, this task is challenging since each cell is minuscule (extremely small), representing less than 0.005% of the high-resolution image. Moreover, pixel-level noise introduced by OCT can be misclassified as cells, leading to false positive detections. These challenges make both traditional image processing algorithms and state-of-the-art (SOTA) deep learning object detection methods ineffective for this task. To that end, we propose a minuscule cell detection framework that progressively refines the field-of-view from the whole image to the AC region, and further to minuscule regions potentially containing individual cells. Our framework consists of: (1) a Field-of-Focus module that uses a vision foundation model to zero-shot segment the AC region, and (2) a Fine-grained Object Detection module that introduces Minuscule Region Proposal followed by our Cell Mamba to distinguish individual cells from noise. Experimental results demonstrate that our framework outperforms SOTA methods, improving F1 by around 7% over the best baseline and offering a more reliable alternative for cell detection. Our code is available at: https://github.com/joeybyc/MCD.",
+  "authors": [
+    {
+      "name": "Chen, Boyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Solebo, Ameenat",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Daqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jinge",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Taylor, Paul",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2758_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

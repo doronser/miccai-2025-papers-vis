@@ -1,0 +1,75 @@
+{
+  "id": "miccai-5442",
+  "title": "Automated Detection of BK Virus in H&E Whole-Slide Images Using Weakly-Supervised Deep Learning and Interpretable Morphological Biomarkers",
+  "abstract": "Detecting BK Virus (BKV) is crucial for managing post-transplant outcomes in kidney patients. While BKV is typically identified using SV40 immunohistochemistry (IHC), this method is time-consuming, limited by tissue availability and resource-intensive, especially in low-resource settings. Recent advances in computational pathology have shown potential for automating disease detection from Hematoxylin and Eosin (H&E)-stained images, though BKV detection remains understudied due to its low prevalence and limited data. We hypothesize that BKV-positive cells exhibit unique morphological patterns in H&E-stained tissue that are detectable via computational methods. To address this, we developed BKVision, a weakly-supervised deep learning model for BKV detection in H&E whole-slide images (WSIs). Trained on 3,734 WSIs, BKVision achieves an F1-score of 0.984 ± 0.008 on a test cohort of 936 slides. Additionally, we conducted a morphological analysis on 774 H&E image patches, extracting 37 human-interpretable features and validating them against IHC with pathologist guidance. This identified 11 cell attributes, including nuclear enlargement and chromatin texture changes, that distinguish BKV-positive from negative cases. These findings highlight the potential to enhance BKV diagnostic criteria by integrating these identified morphological features. BKVision demonstrates the potential of computational methods to provide accurate, accessible, and interpretable BKV detection without requiring IHC, offering a cost-effective alternative in low-resource settings while revealing key morphological features of BKV infection.",
+  "authors": [
+    {
+      "name": "Sahai, Sharifa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ramos-Guerra, Ana D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Almagro-Pérez, Cristina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jaume, Guillaume",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Andrew",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rennke, Helmut",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weins, Astrid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ortuño, Juan E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ledesma-Carbayo, Maria J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mahmood, Faisal",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5442_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

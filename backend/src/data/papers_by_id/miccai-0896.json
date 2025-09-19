@@ -1,0 +1,87 @@
+{
+  "id": "miccai-0896",
+  "title": "Hierarchical Corpus-View-Category Refinement for Carotid Plaque Risk Grading in Ultrasound",
+  "abstract": "Accurate carotid plaque grading (CPG) is vital to assess the risk of cardiovascular and cerebrovascular diseases. Due to the small size and high intra-class variability of plaque, CPG is commonly evaluated using a combination of transverse and longitudinal ultrasound views in clinical practice. However, most existing deep learning-based multi-view classification methods focus on feature fusion across different views, neglecting the importance of representation learning and the difference in class features. To address these issues, we propose a novel Corpus-ViewCategory Refinement Framework (CVC-RF) that processes information from Corpus-, View-, and Category-levels, enhancing model performance. Our contribution is four-fold. First, to the best of our knowledge, we are the foremost deep-learning-based method for CPG according to the latest Carotid Plaque-RADS guidelines. Second, we propose a novel centermemory contrastive loss, which enhances the network’s global modeling capability by comparing with representative cluster centers and diverse negative samples at Corpus-level. Third, we design a cascaded down-sampling attention module to fuse multi-scale information and achieve implicit feature interaction at View-level. Finally, a parameterfree mixture-of-experts weighting strategy is introduced to leverage class clustering knowledge to weight different experts, enabling feature decoupling at Category-level. Experimental results indicate that CVC-RF effectively models global features via multi-level refinement, achieving state-of-the-art performance in the challenging CPG task.",
+  "authors": [
+    {
+      "name": "Zhu, Zhiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Kaiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Mingyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Yaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Tianhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0896_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

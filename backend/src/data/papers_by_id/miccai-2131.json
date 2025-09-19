@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2131",
+  "title": "E-BayesSAM: Efficient Bayesian Adaptation of SAM with Self-Optimizing KAN-Based Interpretation for Uncertainty-Aware Ultrasonic Segmentation",
+  "abstract": "Although the Segment Anything Model (SAM) has advanced medical image segmentation, its Bayesian adaptation for uncertainty-aware segmentation remains hindered by three key issues: (1) instability in Bayesian fine-tuning of large pre-trained SAMs; (2) high computation cost due to SAM’s massive parameters; (3) SAM’s black-box design limits interpretability. To overcome these, we propose E-BayesSAM, an efficient framework combining Token-wise Variational Bayesian Inference (T-VBI) for efficienty Bayesian adaptation and Self-Optimizing Kolmogorov-Arnold Network (SO-KAN) for improving interpretability. T-VBI innovatively reinterprets SAM’s output tokens as dynamic probabilistic weights and reparameterizes them as latent variables without auxiliary training, enabling training-free VBI for uncertainty estimation. SO-KAN improves token prediction with learnable spline activations via self-supervised learning, providing insight to prune redundant tokens to boost efficiency and accuracy. Experiments on five ultrasound datasets demonstrated that E-BayesSAM achieves: (i) real-time inference (0.03s/image), (ii) superior segmentation accuracy (average DSC: Pruned E-BayesSAM’s 89.0% vs. E-BayesSAM’s 88.0% vs. MedSAM’s 88.3%), and (iii) identification of four critical tokens governing SAM’s decisions. By unifying efficiency, reliability, and interpretability, E-BayesSAM bridges SAM’s versatility with clinical needs, advancing deployment in safety-critical medical applications. The source code is available at https://github.com/mp31192/E-BayesSAM.",
+  "authors": [
+    {
+      "name": "Huang, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wen, Huiying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Bingsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2131_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

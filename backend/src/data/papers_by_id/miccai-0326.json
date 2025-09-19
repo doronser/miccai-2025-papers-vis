@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0326",
+  "title": "Adaptive Spatial Transcriptomics Interpolation via Cross-modal Cross-slice Modeling",
+  "abstract": "Spatial transcriptomics (ST) is a promising technique that characterizes the spatial gene profiling patterns within the tissue context. Comprehensive ST analysis depends on consecutive slices for 3D spatial insights, whereas the missing intermediate tissue sections and high costs limit the practical feasibility of generating multi-slice ST. In this paper, we propose C2-STi, the first attempt for interpolating missing ST slices at arbitrary intermediate positions between adjacent ST slices.\nDespite intuitive, effective ST interpolation presents significant challenges, including 1) limited continuity across heterogeneous tissue sections, 2) complex intrinsic correlation across genes, and 3) intricate cellular structures and biological semantics within each tissue section. \nTo mitigate these challenges, in C2-STi, we design 1) a distance-aware local structural modulation module to adaptively capture cross-slice deformations and enhance positional correlations between ST slices, 2) \na pyramid gene co-expression correlation module to capture multi-scale biological associations among genes, and 3) a cross-modal alignment module that integrates the ST-paired hematoxylin and eosin (H&E)-stained images to filter and align the essential cellular features across ST and H&E images. \nExtensive experiments on the public dataset demonstrate our superiority over state-of-the-art approaches on both single-slice and multi-slice ST interpolation. Codes are available at https://github.com/XiaofeiWang2018/C2-STi.",
+  "authors": [
+    {
+      "name": "Que, Ningfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xiaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jingjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Yixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0326_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

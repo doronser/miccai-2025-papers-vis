@@ -1,0 +1,51 @@
+{
+  "id": "miccai-2717",
+  "title": "Predicting Alzheimer’s Disease Progression Using a Regression-based Survival Model with Longitudinal Data",
+  "abstract": "Alzheimer’s disease (AD) progression is characterized by slow, heterogeneous, and subtle changes that span decades, making transition points difficult to determine. This challenge is compounded by the complexity of longitudinal clinical data, including irregular follow-up patterns and varying observation durations that traditional survival analysis models cannot handle. We present a novel regression-based survival framework with three key innovations: (1) Robust longitudinal data handling, (2) Enhanced early-stage prediction, and (3) Flexible integration with existing models. Using a partial optimization approach for mean squared error loss, our method achieves state-of-the-art performance in AD progression prediction, particularly excelling in early-stage scenarios. Ablation studies identify the regression loss component as the key driver of improved long-term prediction capability, advancing AD prognosis and broader applications in longitudinal survival analysis.",
+  "authors": [
+    {
+      "name": "Dai, Ling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yiqun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Jincheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bao, Qinsen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Feihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2717_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

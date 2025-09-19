@@ -1,0 +1,61 @@
+{
+  "id": "miccai-3892",
+  "title": "Medical Contrastive Learning of Positive and Negative Mentions",
+  "abstract": "Contrastive learning techniques have achieved significant success and have been widely applied in both general and medical domains. However, there is a data difference between the general domain and the medical domain about negative mentions, which almost never appear in general domain but almost always in medical domain. We find that most existing medical contrastive learning methods do not effectively utilize or even overlook the numerous negative mentions present in the data during training, resulting in deficient multimodal feature alignment capabilities. To address this issue, we propose the Visual Entailment Based Contrastive Learning (VECL) method. By introducing a ternary visual entailment contrast relationship of entailment, neutral, and contradiction, our method effectively utilizes both positive and negative mentions for modeling fine-grained sample relationships, enhancing the model’s multimodal feature alignment capabilities. The experiment results show that we achieves SOTA performance on classification, grounding and report generation tasks. Resources are maintained at https://github.com/WVeLong/VECL.",
+  "authors": [
+    {
+      "name": "Wu, WeiLong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jingzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Xun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, ZiYu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Miao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Ji",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3892_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "miccai-4708",
+  "title": "Pretraining on Chronic Lung Inflammatory Disease Datasets to Enhance Indeterminant Lung Cancer Classification using Masked Autoencoders",
+  "abstract": "Lung cancer remains the leading cause of cancer-related mortality in the United States, despite the adoption of low-dose computed tomography (LDCT) and updated screening guidelines from the United States Preventive Service Task Force (USPSTF) [19]. Limited infrastructure and financial costs continue to hinder widespread LDCT adoption, while the increasing detection of indeterminate pulmonary nodules (4–20mm) challenges accurate diagnosis and clinical decision-making. We address these limitations by pretraining masked autoencoders (MAE) on the COPDGene dataset, which captures chronic lung inflammatory disease features. Emphysema and airway disease, two distinct subtypes of COPD, are pathophysiological manifestations of chronic lung inflammation [4,15]. Incorporating these features may enhance the model’s ability to distinguish between malignant and benign pulmonary nodules. By exploring multiple masking strategies, we optimize network attention on parenchymal and perinodular features, improving the extraction of relevant image biomarkers. Our results demonstrate that pretraining on the COPDGene dataset using random masking (r-masking) achieves superior classification performance, with a sensitivity of 88.79%, specificity of 86.27%, and an AUC of 0.931, when compared to self-pretraining on National Lung Cancer Screening Trial (NLST), and supervised learning on NLST. This highlights the importance of leveraging chronic disease datasets for self-supervised learning and underscores the potential of MAE-based approaches to improve nodule classification in clinical settings.Code available at https://github.com/axemasquelin/RegionalMAE",
+  "authors": [
+    {
+      "name": "Masquelin, Axel H. P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "San José Estépar, Raúl",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4708_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

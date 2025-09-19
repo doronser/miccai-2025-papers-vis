@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2205",
+  "title": "Multi-view Graph Contrastive Learning with Dynamic Self-aware and Cross-sample Topology Augmentation for Brain Disorder Diagnosis",
+  "abstract": "Resting-state functional MRI (rs-fMRI) has been increasingly employed to aid in brain disorder diagnosis and reveal the pathological mechanisms underlying neurological diseases. However, clinical applications of current automated diagnosing techniques remain constrained by the complexity of brain topology structures and the high costs associated with expert-derived biomarkers. Recent advancements in research have shown that Graph Contrastive Learning (GCL) holds substantial potential for overcoming these challenges and improving diagnosis accuracy. Nevertheless, existing GCL-based methods predominantly generate a static augmented brain network during graph augmentation and primarily focus on the semantic differences between the original and augmented views. To address above issues, we introduce MGCL-DA (Multi-view Graph Contrastive Learning with Dynamic Self-aware and Cross-sample Topology Augmentation), a novel framework aimed at generating two complementary augmentations of brain networks that account for both individual-specific and inter-subject functional heterogeneity, as well as dynamically regulating the update of augmented views to optimize the transmission of discriminative features. Furthermore, we incorporate multi-view graph contrastive learning with min-max constraints, applying distinct contrastive constraints based on specific augmentation semantics to enable pairwise comparisons between the original network and its two augmented views. Extensive experiments on the MDD dataset demonstrate the superior classification performance of MGCL-DA over several state-of-the-arts.",
+  "authors": [
+    {
+      "name": "Zhang, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xiaoyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Yonggui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Daoqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Li",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2205_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

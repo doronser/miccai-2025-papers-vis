@@ -1,0 +1,73 @@
+{
+  "id": "miccai-4323",
+  "title": "Information Bottleneck-based Causal Attention for Multi-label Medical Image Recognition",
+  "abstract": "Multi-label classification (MLC) of medical images aims to identify multiple diseases and holds significant clinical potential. A critical step is to learn class-specific characteristics for accurate diagnosis and improved interpretability effectively. However, current works focus primarily on causal attention to learn class-specific features, yet they struggle to interpret the true cause due to the inadvertent attention to class-irrelevant features. To address this challenge, we propose a new structural causal model (SCM) that treats class-specific attention as a mixture of causal, spurious, and noisy factors, and a novel Information Bottleneck-based Causal Attention (IBCA) that is capable of learning the discriminative class-specific attention for MLC of medical images. Specifically, we propose learning Gaussian mixture multi-label spatial attention to filter out class-irrelevant noise information and capture each class-specific attention pattern. Then a contrast enhancement-based causal intervention is proposed to gradually mitigate the spurious attention and reduce the noise by aligning the multi-head attention with the Gaussian mixture multi-label spatial. Quantitative and ablation results on Endo and MuReD show that IBCA outperforms all basic and causal methods. Compared to the second-best results for each metric, IBCA achieves improvements of 6.35\\% in CR, 7.72\\% in OR, and 5.02\\% in mAP for MuReD, 1.47\\% in CR, and 1.65\\% in CF1, and 1.42\\% in mAP for Endo.",
+  "authors": [
+    {
+      "name": "Cui, Xiaoxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yiran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Kai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Shanzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xue, Mengli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Wentao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Leng, Junhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Lizhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4323_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

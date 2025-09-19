@@ -1,0 +1,50 @@
+{
+  "id": "miccai-2460",
+  "title": "Top-Down Attention-based Multiple Instance Learning for Whole Slide Image Analysis",
+  "abstract": "Multiple instance learning (MIL) has become the de facto standard approach for whole-slide image analysis in computational pathology (CPath). While instance-wise attention tends to miss correlations between instances, self-attention can capture these interactions, but remains agnostic to the particular task. To address this issue, we introduce Top-Down Attention-based Multiple Instance Learning (TDA-MIL), an architecture that first learns a general representation from the data via self-attention in an initial inference step, then identifies task-relevant instances through a feature selection module, and finally refines these representations by injecting the selected instances back into the attention mechanism for a second inference step. By focusing on task-specific signals, TDA-MIL effectively discerns subtle, yet significant, regions within each slide, leading to more precise classification. Extensive experiments on detecting lymph node metastasis in breast cancer, biomarker screening for microsatellite instability in different organs, and challenging molecular status prediction for HER2 in breast cancer show that TDA-MIL consistently surpasses other MIL baselines, underscoring the effectiveness of our proposed task-relevant refocusing and its broad applicability across CPath tasks. Our implementation is released at https://github.com/agentdr1/TDA_MIL.",
+  "authors": [
+    {
+      "name": "Reisenbüchler, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Ruining",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Matek, Christian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feuerhake, Friedrich",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Merhof, Dorit",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2460_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

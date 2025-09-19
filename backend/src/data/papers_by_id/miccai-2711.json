@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2711",
+  "title": "LG-DBGL: Lateralization-Guided Dissociative Brain Graph Learning for Alzheimer’s Disease Identification",
+  "abstract": "Thanks to advances in neuroimaging, graph neural networks (GNNs) have emerged as a powerful tool for learning brain graph representations to identify Alzheimer’s Disease (AD). However, existing methods often overlook the brain’s hemispherical lateralization, enforcing homogeneous information propagation between hemispheres, which limits their learning capabilities. In this study, we propose a novel dissociative brain graph learning framework (LG-DBGL) guided by brain lateralization to enhance AD identification. Specifically, the Lateralized Decoupling (LD) module partitions brain networks into left/right hemispheric and cross-hemispheric sub-networks. The Dissociative Graph Encoder (DGE) module then independently learns representations for each sub-network, preserving lateralized functional features and avoiding feature confusion. Finally, the Multi-Source Fusion Mechanism (MSFM) dynamically quantifies the contribution of each sub-network to AD-related pathological features, enabling lateralization-guided multi-source feature fusion. Comprehensive experiments conducted on a real-world dataset demonstrate the effectiveness of our LG-DBGL. Our code is publicly available at \\text{https://github.com/ilove-gh/LG-DBGL.}",
+  "authors": [
+    {
+      "name": "Ye, Jiazhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Manman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Junlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Weiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiacheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Jiapei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2711_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

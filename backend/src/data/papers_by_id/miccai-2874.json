@@ -1,0 +1,45 @@
+{
+  "id": "miccai-2874",
+  "title": "Steerable Anatomical Shape Synthesis with Implicit Neural Representations",
+  "abstract": "Generative modeling of anatomical structures plays a crucial role in virtual imaging trials, which allow researchers to perform studies without the costs and constraints inherent to in vivo and phantom studies. For clinical relevance, generative models should allow targeted control to simulate specific patient populations rather than relying on purely random sampling. In this work, we propose a steerable generative model based on implicit neural representations.  Implicit neural representations naturally support topology changes, making them well-suited for anatomical structures with varying topology, such as the thyroid. Our model learns a disentangled latent representation, enabling fine-grained control over shape variations. Evaluation includes reconstruction accuracy and anatomical plausibility. Our results demonstrate that the proposed model achieves high-quality shape generation while enabling targeted anatomical modifications.",
+  "authors": [
+    {
+      "name": "de Wilde, Bram",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rietberg, Max T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lajoinie, Guillaume",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wolterink, Jelmer M.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2874_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

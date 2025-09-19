@@ -1,0 +1,38 @@
+{
+  "id": "miccai-0579",
+  "title": "Rethinking Multi-view Mammogram Representation Learning via Counterfactual Reasoning with Kolmogorov-Arnold Theorem",
+  "abstract": "Cross-view interference caused by impure shared information for multiview mammogram representation. Existing methods are accustomed to assuming that purely complementary shared information are provided between multiple views, ignoring the negative side of the shared information. To address this issue, we propose the first Dual-view Mammography Causal Graph (DMCG) to model multi-view representation by capturing direct and mediation effects. Based on DMCG, we propose MammoCRKAN, the first counterfactual reasoning paradigm integrating the Kolmogorov-Arnold theorem for decoupling interfering information. MammoCRKAN comprises two key modules: the Spherical Sample Module (SSM), which enhances the direct effect of tumor features by aligning consistent geometric representations, and the Kolmogorov–Arnold Aggregate Module (KAAM), which decomposes complex joint causality into univariate effects to mitigate negative side of mediation effects. Moreover, We find that heterogeneous channel allocations across views outperform fixed matching channels. Extensive experiments on four publicly available mammogram datasets demonstrate the effectiveness of MammoCRKAN. Code is available at \\url{https://github.com/**}.",
+  "authors": [
+    {
+      "name": "Wang, Guoli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Benzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0579_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

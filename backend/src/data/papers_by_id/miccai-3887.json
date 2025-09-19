@@ -1,0 +1,61 @@
+{
+  "id": "miccai-3887",
+  "title": "VoxelOpt: Voxel-Adaptive Message Passing for Discrete Optimization in Deformable Abdominal CT Registration",
+  "abstract": "Recent developments in neural networks have improved deformable image registration (DIR) by amortizing iterative optimization, enabling fast and accurate DIR results.\nHowever, learning-based methods often face challenges with limited training data, large deformations, and tend to underperform compared to iterative approaches when label supervision is unavailable.\nWhile iterative methods can achieve higher accuracy in such scenarios, they are considerably slower than learning-based methods. \nTo address these limitations, we propose VoxelOpt, a discrete optimization-based DIR framework that combines the strengths of learning-based and iterative methods to achieve a better balance between registration accuracy and runtime.\nVoxelOpt uses displacement entropy from local cost volumes to measure displacement signal strength at each voxel, which differs from earlier approaches in three key aspects.\nFirst, it introduces voxel-wise adaptive message passing, where voxels with lower entropy receives less influence from their neighbors.\nSecond, it employs a multi-level image pyramid with 27-neighbor cost volumes at each level, avoiding exponential complexity growth.\nThird, it replaces hand-crafted features or contrastive learning with a pretrained foundational segmentation model for feature extraction.\nIn abdominal CT registration, these changes allow VoxelOpt to outperform leading iterative in both efficiency and accuracy, while matching state-of-the-art learning-based methods trained with label supervision.\nThe source code will be available at https://github.com/tinymilky/VoxelOpt.",
+  "authors": [
+    {
+      "name": "Zhang, Hang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiazheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Renjiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Gaolei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Min",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3887_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "miccai-1798",
+  "title": "Fusing Radiomic Features with Deep Representations for Gestational Age Estimation in Fetal Ultrasound Images",
+  "abstract": "Accurate gestational age (GA) estimation, ideally through fetal ultrasound measurement, is a crucial aspect of providing excellent antenatal care. However, deriving GA from manual fetal biometric measurements depends on the operator and is time-consuming. Hence, automatic computer-assisted methods are demanded in clinical practice. In this paper, we present a novel feature fusion framework to estimate GA using fetal ultrasound images without any measurement information. We adopt a deep learning model to extract deep representations from ultrasound images. We extract radiomic features to reveal patterns and characteristics of fetal brain growth. To harness the interpretability of radiomics in medical imaging analysis, we estimate GA by fusing radiomic features and deep representations. Our framework estimates GA with a mean absolute error of 8.0 days across three trimesters, outperforming current machine learning-based methods at these gestational ages. Experimental results demonstrate the robustness of our framework across different populations in diverse geographical regions. Our code is publicly available on GitHub.",
+  "authors": [
+    {
+      "name": "Wang, Fangyijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bhattacharjee, Sourav",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Campbell, Abey",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Curran, Kathleen M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Silvestre, Guénolé",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1798_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

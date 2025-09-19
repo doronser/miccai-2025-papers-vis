@@ -1,0 +1,52 @@
+{
+  "id": "miccai-3005",
+  "title": "Anatomy-Aware Frequency-Attention Transformer Networks for Liver Couinaud CT/MR Segmentation",
+  "abstract": "Accurate Couinaud segmentation of liver CT/MR is essential in helping surgeons perceive the positional relationship between liver anatomy and intrahepatic lesions to make surgical planning. Unfortunately, current conventional and deep-learning based methods remain challenges in accurate Couinaud segmentation since the segmentation boundaries of different categories depending on hepatic vascular information are hard to predict. This work proposes a new deeply learned framework called anatomy-aware frequency-attention transformer networks (AFATN) for Couinaud segmentation of liver anatomy which contains the hybrid anatomy-aware preprocessing and frequency-attention transformer networks (FATN). Specifically, our framework first uses hybrid anatomy-aware preprocessing to integrate the hybrid cues of liver contour and hepatic venous centerline, then effectively utilizing hybrid cues for accurate Couinaud segmentation through the frequency-attention transformer networks with omission re-detected loss function. Our segmentation model FATN uses transformers to extract local structure and global semantic features and further focus on the hybrid cues with frequency-attention mechanisms. The proposed method was evaluated on clinical CT data and compared with currently available deep learning approaches, with the experimental results demonstrating that our method outperforms other approaches especially in accurately segmenting the Couinaud boundaries.",
+  "authors": [
+    {
+      "name": "Fan, Wenkang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Yanduan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "An, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xiongbiao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3005_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

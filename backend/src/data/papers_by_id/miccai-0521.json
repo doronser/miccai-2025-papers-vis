@@ -1,0 +1,48 @@
+{
+  "id": "miccai-0521",
+  "title": "DINO Adapted to X-Ray (DAX): Foundation Models for Intraoperative X-Ray Imaging",
+  "abstract": "Intraoperative X-ray imaging represents a key technology for guiding orthopedic interventions. Recent advancements in deep learning have enabled automated image analysis in this field, thereby streamlining clinical workflows and enhancing patient outcomes. However, many existing approaches depend on task-specific models and are constrained by the limited availability of annotated data. In contrast, self-supervised foundation models have exhibited remarkable potential to learn robust feature representations without label annotations. In this paper, we introduce DINO Adapted to X-ray (DAX), a novel framework that adapts DINO for training foundational feature extraction backbones tailored to intraoperative X-ray imaging. Our approach involves pre-training on a novel dataset comprising over 632,000 image samples, which surpasses other publicly available datasets in both size and feature diversity. To validate the successful incorporation of relevant domain knowledge into our DAX models, we conduct an extensive evaluation of all backbones on three distinct downstream tasks and demonstrate that small head networks can be trained on top of our frozen foundation models to successfully solve applications regarding (1) body region classification, (2) metal implant segmentation, and (3) screw object detection. The results of our study underscore the potential of the DAX framework to facilitate the development of robust, scalable, and clinically impactful deep learning solutions for intraoperative X-ray image analysis. Source code and model checkpoints are available at https://github.com/JoshuaScheuplein/DAX.",
+  "authors": [
+    {
+      "name": "Scheuplein, Joshua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rohleder, Maximilian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maier, Andreas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kreher, Björn",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Image-Guided Interventions",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0521_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

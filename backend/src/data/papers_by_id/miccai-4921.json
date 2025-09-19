@@ -1,0 +1,81 @@
+{
+  "id": "miccai-4921",
+  "title": "Unsupervised OCT image interpolation using deformable registration and generative models",
+  "abstract": "Optical coherence tomography (OCT) images are often acquired as highly anisotropic volumes, where the scanning step is dense along the fast axis but sparse along the slow axis. This affects image analysis such as image registration for longitudinal alignment. To create more isotropic volumes, bicubic interpolation can be used along the slow axis, but it generally produces blurry features. Registration-based interpolation can reduce blurriness, but often fails to generate realistic OCT images. Deep generative models can sample realistic images, but lack the structural consistency constraints required for interpolation. In this paper, we propose an unsupervised image interpolation method that combines registration-based interpolation with a deep generative model to overcome their individual limitations and improve the structural accuracy and realism of interpolated OCT images. We compare the proposed method with both bicubic and registration-based interpolation on real OCT datasets, and show that it achieves the best interpolation performance.",
+  "authors": [
+    {
+      "name": "Wei, Shuwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Remedios, Samuel W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bian, Zhangxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shimeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Junyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jedynak, Bruno",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tin Y. A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saidha, Shiv",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Calabresi, Peter A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prince, Jerry L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Carass, Aaron",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4921_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

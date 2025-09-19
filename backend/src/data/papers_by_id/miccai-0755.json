@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0755",
+  "title": "Topology-Constrained Learning for Efficient Laparoscopic Liver Landmark Detection",
+  "abstract": "Liver landmarks provide crucial anatomical guidance to the surgeon during laparoscopic liver surgery to minimize surgical risk. However, the tubular structure properties of landmarks and dynamic intraoperative deformations pose significant challenges for automatic landmark detection. In this study, we introduce TopoNet, a novel topology-constrained learning framework for laparoscopic liver landmark detection. Our framework adopts a snake-CNN dual-path encoder to simultaneously capture detailed RGB texture information and depth-informed topological structures. Meanwhile, we propose a boundary-aware topology fusion (BTF) module, which adaptively merges RGB-D features to enhance edge perception while preserving global topology. Additionally, a topological constraint loss function is embedded, which contains a center-line constraint loss and a homology persistence loss to ensure homotopy equivalence between predictions and labels. Extensive experiments on L3D and P2ILF datasets demonstrate that TopoNet achieves outstanding accuracy and computational complexity, highlighting the potential for clinical applications in laparoscopic liver surgery. Our code is available at https://github.com/cuiruize/TopoNet.",
+  "authors": [
+    {
+      "name": "Cui, Ruize",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiaan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pei, Jialun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Kai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heng, Pheng-Ann",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Jing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0755_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

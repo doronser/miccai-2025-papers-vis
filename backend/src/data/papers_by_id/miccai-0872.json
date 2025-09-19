@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0872",
+  "title": "CurConMix: A Curriculum Contrastive Learning Framework for Enhancing Surgical Action Triplet Recognition",
+  "abstract": "Accurately recognizing surgical action triplets in surgical videos is crucial for advancing context-aware systems that deliver real-time feedback, thereby enhancing surgical safety and efficiency. However, recognizing surgical action triplets <instrument, verb, target> is challenging due to subtle variations, complex interdependencies, and severe class imbalance. Most existing approaches focus on individual triplet components while overlooking their interdependencies and the inherent class imbalance in triplet distributions. To address these challenges, we propose a novel framework, Curriculum Contrastive learning with feature Mixup (CurConMix). During pre-training, we employ curriculum contrastive learning, which progressively captures relationships among triplet components and distinguishes fine-grained variations through hard pair sampling and synthetic hard negative generation. In the fine-tuning stage, we further refine the model using self-distillation and mixup strategies to alleviate class imbalance. We evaluate our framework on the CholecT45 dataset using 5-fold cross-validation. Experimental results demonstrate that our approach surpasses existing methods across various model sizes and input resolutions. Moreover, our findings underscore the importance of capturing interdependency among triplet components, highlighting the effectiveness of our proposed framework in addressing key challenges in surgical action recognition. The official implementation is available at https://github.com/MIDAS-SurgAI/CurConMix.",
+  "authors": [
+    {
+      "name": "Jeon, Yongjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shin, Jongmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Seonmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Bogeun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Kanggil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oh, Namkee",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jung, Kyu-Hwan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0872_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

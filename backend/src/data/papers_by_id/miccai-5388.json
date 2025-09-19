@@ -1,0 +1,52 @@
+{
+  "id": "miccai-5388",
+  "title": "A Model Order-Free Method for Stable States Extraction in Dynamic Functional Connectivity",
+  "abstract": "Dynamic functional connectivity (dFC) analysis has revealed that functional connectivity fluctuates over short timescales, reflecting the intrinsic transitions of brain among multiple states. However, dFC data typically exhibit the characteristics of high dimensionality and noise, making it difficult to extract stable and accurate states. Furthermore, accurately identifying model order (i.e., number of states) is challenging due to lack of prior knowledge. To address the above issues, we propose a model order-free method for extracting stable states. Our method can simultaneously capture multi-scale state information and improve the stability of the state. Furthermore, our method esti-mates the number of states adaptively based on data-driven methods. Based on synthetic data, we evaluated the effectiveness of our method. The results showed that, compared to traditional methods, our method not only accurately estimated the number of states but also extracted states with greater robustness and precision. Additionally, we evaluated the effectiveness and sta-bility of the method using fMRI data from 602 healthy controls and 519 schizophrenia patients. Results demonstrated that our method exhibited significant consistency among the states extracted by multiple runs. Moreover, we identified reliable biomarkers for schizophrenia. In conclusion, we propose a novel state extraction method that does not rely on predefined state numbers, while accurately and stably identifying states.",
+  "authors": [
+    {
+      "name": "Fang, Songke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Calhoun, Vince D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pearlson, Godfrey",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kochunov, Peter",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van Erp, Theo G. M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Yuhui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5388_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

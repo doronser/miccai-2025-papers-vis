@@ -1,0 +1,72 @@
+{
+  "id": "miccai-3852",
+  "title": "Reconsidering Explicit Longitudinal Mammography Alignment for Enhanced Breast Cancer Risk Prediction",
+  "abstract": "Regular mammography screening is essential for early breast cancer detection and deep learning-based risk prediction methods have sparked interest to adjust screening intervals for high-risk groups. While early methods focused only on current mammograms, recent approaches leverage the temporal aspect of screenings to track breast tissue changes over time, requiring spatial alignment across different time points. Two main strategies for this have emerged: explicit feature alignment through deformable registration and implicit learned alignment using techniques like transformers, with the former providing more control over the alignment. However, the optimal approach for explicit alignment in mammography remains underexplored. In this study, we  provide insights into where explicit alignment should occur (input space vs. representation space) and if alignment and risk prediction should be jointly optimized. We demonstrate that jointly learning explicit alignment in representation space while optimizing risk estimation performance, as done in the current state-of-the-art approach, results in a trade-off between alignment quality and predictive performance and show that image-level alignment is superior to representation-level alignment, leading to better deformation field quality and enhanced risk prediction accuracy. The code is available at  https://github.com/sot176/Longitudinal_Mammogram_Alignment.git.",
+  "authors": [
+    {
+      "name": "Thrun, Solveig",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hansen, Stine",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Zijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Blum, Nele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Salahuddin, Suaiba A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wickstrøm, Kristoffer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wetzer, Elisabeth",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jenssen, Robert",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stille, Maik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kampffmeyer, Michael",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3852_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0720",
+  "title": "Neighborhood-Consistent Binary Transformation for Domain-Invariant Chest X-ray Diagnosis",
+  "abstract": "Chest X-ray diagnosis models face domain generalization challenges due to cross-institutional variations in imaging protocols and scanner specifications, which degrade diagnostic accuracy on unseen domains. To address this, we propose a domain-invariant learning framework leveraging the inherent anatomical consistency of medical imaging. Our method first applies a Neighborhood-Consistent Binarization Transformation (NCBT) to convert grayscale images into topology-preserving high-dimensional binary tensors, encoding pixel intensity relationships within local neighborhoods to strip device-specific textures while retaining anatomical structures. These tensors are then reconstructed into an intermediate domain via an Intermediate Domain Style-preserving Autoencoder (IDSP-AE), decoupling structural information from domain-specific features. Crucially, our framework aligns domains without requiring target domain data during training, leveraging anatomical consistency. Experiments on four public datasets show superior generalization and improved diagnostic accuracy compared to state-of-the-art methods. The source code is available at https://github.com/LZL501/NCBT.",
+  "authors": [
+    {
+      "name": "Liu, Zelong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Huachao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Zhichao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zou, Yuda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Yuliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yongchao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0720_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

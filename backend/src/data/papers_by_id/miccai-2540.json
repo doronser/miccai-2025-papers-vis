@@ -1,0 +1,59 @@
+{
+  "id": "miccai-2540",
+  "title": "Boosting Generalizability in NPC ART Prediction via Multi-Omics Feature Mapping",
+  "abstract": "Adaptive radiotherapy (ART) improves treatment precision by adapting to anatomical changes, but its clinical adoption is limited by high costs, patient burden, and institutional variability. To address this, we propose a robust multi-omics nomogram for predicting ART eligibility in nasopharyngeal carcinoma (NPC) patients by integrating multi-modality Genomap signatures with clinical factors. Using retrospective data from 311 patients at Queen Elizabeth Hospital (training set) and 192 patients at Queen Mary Hospital (external test set), we extracted 7,956 radiomics features from six regions-of-interest (ROIs) across contrast-enhanced computed tomography (CECT), magnetic resonance imaging (MRI), and dose modalities, alongside 132 geometric features capturing spatial relationships between ROIs. Feature selection via LASSO identified 35 radiomic, 8 dosiomic, and 4 geometric features for analysis. The Genomap model achieved an accuracy of 80% and an AUC of 90% across modalities, while the integrated nomogram demonstrated superior performance with 88% accuracy and 96% AUC. Our results show that Genomap ensures generalizability and robustness, providing a reliable tool for personalized ART planning in NPC patients.",
+  "authors": [
+    {
+      "name": "Sheng, Jiabao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lam, Saikit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Jing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2540_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

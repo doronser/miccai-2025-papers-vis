@@ -1,0 +1,41 @@
+{
+  "id": "miccai-1772",
+  "title": "Towards Robust Retinal Vessel Segmentation via Reducing Open-set Label Noises from SAM-generated Masks",
+  "abstract": "Retinal vessel segmentation from fundus images is an important task in intelligent ophthalmology. Because vessel annotation is particularly challenging, the scarcity of training labels hinders the model robustness for real-world scenarios. Recent research has shown that SAM, a foundation model for natural image segmentation, demonstrates impressive performance on medical images after few-shot fine-tuning. Therefore, fine-tuned SAM holds promise as a pseudo label generator to alleviate the label scarcity problem in vessel segmentation. However, the limited labeled data fails to represent real-world distribution, fine-tuned SAM might produce erroneous predictions in unseen image patterns, which is known as open-set label noises. In this work, we propose SAM-OSLN to reduce open-set label noises and improve the quality of generated pseudo masks. Firstly, we introduce the prototype technique to perform open-set aware SAM fine-tuning and identify open-set label noises accordingly. Subsequently, we design an explicit label denoising method and an implicit training strategy to jointly mitigate the impact of open-set label noises. Extensive experiments demonstrate that SAM-OSLN outperforms previous state-of-the-art methods on multiple fundus datasets under synthetic and real-world scenarios.",
+  "authors": [
+    {
+      "name": "Zhang, Minqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Mengxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Wu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1772_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

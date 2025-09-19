@@ -1,0 +1,50 @@
+{
+  "id": "miccai-4771",
+  "title": "RL4Med-DDPO: Reinforcement Learning for Controlled Guidance Towards Diverse Medical Image Generation using Vision-Language Foundation Models",
+  "abstract": "Vision-Language Foundation Models (VLFM) have shown a tremendous increase in performance in terms of generating high-resolution, photorealistic natural images. While VLFMs show a rich understanding of semantic content across modalities, they often struggle with fine-grained alignment tasks that require precise correspondence between image regions and textual descriptions, a limitation in medical imaging, where accurate localization and detection of clinical features are essential for diagnosis and analysis. To address this issue, we propose a multi-stage architecture where a pre-trained VLFM (e.g. Stable Diffusion) provides a cursory semantic understanding, while a reinforcement learning (RL) algorithm refines the alignment through an iterative process that optimizes for understanding semantic context. The reward signal is designed to align the semantic information of the text with synthesized images. Experiments on the public ISIC2019 skin lesion dataset demonstrate that the proposed method improves (a) the quality of the generated images, and (b) the alignment with the text prompt over the original fine-tuned Stable Diffusion baseline. We also show that the synthesized samples could be used to improve disease classifier performance for underrepresented subgroups through augmentation. Our code is accessible through the project website: https://parhamsaremi.github.io/rl4med-ddpo",
+  "authors": [
+    {
+      "name": "Saremi, Parham",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kumar, Amar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mohamed, Mohamed",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "TehraniNasab, Zahra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arbel, Tal",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4771_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

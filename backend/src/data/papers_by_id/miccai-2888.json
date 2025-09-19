@@ -1,0 +1,58 @@
+{
+  "id": "miccai-2888",
+  "title": "Toward Medical Deepfake Detection: A Comprehensive Dataset and Novel Method",
+  "abstract": "The rapid advancement of generative AI in medical imaging has introduced both significant opportunities and serious challenges, especially the risk that fake medical images could undermine healthcare systems. These synthetic images pose serious risks, such as diagnostic deception, financial fraud, and misinformation. However, research on medical forensics to counter these threats remains limited, and there is a critical lack of comprehensive datasets specifically tailored for this field. Additionally, existing media forensics methods, which are primarily designed for natural or facial images, are inadequate for capturing the distinct characteristics and subtle artifacts of AI-generated medical images. To tackle these challenges, we introduce MedForensics, a large-scale medical forensics dataset encompassing six medical modalities and twelve state-of-the-art medical generative models. We also propose DSKI, a novel Dual-Stage Knowledge Infusing detector that constructs a vision-language feature space tailored for the detection of AI-generated medical images. DSKI comprises two core components: 1) a cross-domain fine-trace adapter (CDFA) for extracting subtle forgery clues from both spatial and noise domains during training, and 2) a medical forensic retrieval module (MFRM) that boosts detection accuracy through few-shot retrieval during testing. Experimental results demonstrate that DSKI significantly outperforms both existing methods and human experts, achieving superior accuracy across multiple medical modalities.",
+  "authors": [
+    {
+      "name": "Li, Shuaibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Zhaohu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hongqiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hao, Pengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zekai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2888_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1968",
+  "title": "Controllable latent diffusion model to evaluate the performance of cardiac segmentation methods",
+  "abstract": "In medical imaging, the evaluation of segmentation methods remains confined to a limited set of metrics (e.g. Dice coefficient and Hausdorff distance) and annotated datasets with restricted size and diversity. Besides, segmentation is often a preliminary step for extracting relevant biomarkers, accentuating the need to redirect evaluation efforts towards this objective. To address this, we propose an original methodology to evaluate segmentation methods, based on the generation of realistic synthetic images with explicitly controlled biomarker values. Image synthesis is based on Stable Diffusion, conditioned by either a 1D vector (clinical attributes or latent representation) or a 2D feature map (latent representation). We demonstrate the relevance of this approach in the context of myocardial lesions observed in cardiac late Gadolinium enhancement MR images, controlling the image synthesis with segmentation masks or infarct-related attributes, among which size and transmurality. We evaluate it on two datasets of 3557 and 932 pairs of 2D images and segmentation masks, the second dataset being for testing only. Our conditioning not only leads to very realistic synthetic images but also brings varying levels of task complexity, a must-have to better assess the readiness of segmentation methods.",
+  "authors": [
+    {
+      "name": "Deleat-besson, Romain",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Goujat, Celia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bernard, Olivier",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Croisille, Pierre",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Viallon, Magalie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duchateau, Nicolas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1968_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

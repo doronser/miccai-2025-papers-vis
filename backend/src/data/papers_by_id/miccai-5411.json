@@ -1,0 +1,44 @@
+{
+  "id": "miccai-5411",
+  "title": "MSGFlowNet: Learning Effective Connectivity Network based on Sparse Generative Flow Network from fMRI and EEG Data",
+  "abstract": "Brain effective connectivity (EC) is key to understanding causal neural interactions and brain organization. However, learning EC from single-modal brain data, such as functional magnetic resonance imaging (fMRI) or electroencephalography (EEG), is limited by the inability to simultaneously capture sparse temporal and spatial information. This paper proposes a novel multimodal sparse generative flow network (MSGFlowNet), which integrates fMRI and EEG data through an attention-guided encoder and employs a multi-head self-attention sparse Transformer to extract features from the fused data. These features are then processed by two output heads of the generative flow network: one computes state transition probabilities and updates the mask, while the other determines the probability of generating a termination state. Experiments on synthetic and real-world datasets demonstrate that MSGFlowNet significantly outperforms state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Su, Zhihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhai, Jihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Junzhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jinduo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5411_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

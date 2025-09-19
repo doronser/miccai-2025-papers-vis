@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0667",
+  "title": "Temporally-Aware Supervised Contrastive Learning for Polyp Counting in Colonoscopy",
+  "abstract": "Automated polyp counting in colonoscopy is a crucial step toward automated procedure reporting and quality control, aiming to enhance the cost-effectiveness of colonoscopy screening. \nCounting polyps in a procedure involves detecting and tracking polyps, and then clustering tracklets that belong to the same polyp entity.\nExisting methods for polyp counting rely on self-supervised learning and primarily leverage visual appearance, neglecting temporal relationships in both tracklet feature learning and clustering stages.\nIn this work, we introduce a paradigm shift by proposing a supervised contrastive loss that incorporates temporally-aware soft targets. \nOur approach captures intra-polyp variability while preserving inter-polyp discriminability, leading to more robust clustering. \nAdditionally, we improve tracklet clustering by integrating a temporal adjacency constraint, reducing false positive re-associations between visually similar but temporally distant tracklets.\nWe train and validate our method on publicly available datasets and evaluate its performance with a leave-one-out cross-validation strategy. \nResults demonstrate a 2.2x reduction in fragmentation rate compared to prior approaches. \nOur results highlight the importance of temporal awareness in polyp counting, establishing a new state-of-the-art. \nCode is available at https://github.com/lparolari/temporally-aware-polyp-counting.",
+  "authors": [
+    {
+      "name": "Parolari, Luca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cherubini, Andrea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ballan, Lamberto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Biffi, Carlo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0667_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

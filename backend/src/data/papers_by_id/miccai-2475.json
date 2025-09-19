@@ -1,0 +1,62 @@
+{
+  "id": "miccai-2475",
+  "title": "MT-WilmsNet: A Multi-Level Transformer Fusion Network for Wilms’ Tumor Segmentation and Metastasis Prediction",
+  "abstract": "Wilms’ tumor (WT) is a prevalent cancer affecting the kidneys of children, and accurate segmentation and prediction of metastasis are vital for treatment planning and prognosis. Current methods for assessing metastasis, such as invasive biopsies and expensive PET-CT scans, hinder their widespread use in clinical settings. Deep learning, especially classification models for 3D data, is currently widely used in tumor metastasis prediction. However, existing models may not have fully accounted for the global significance of cross-sectional slices, and segment-assisted classification frameworks tailored for low-cost clinical CT imaging protocols remain understudied, with systematic validation in clinical settings yet to be comprehensively established. In this study, we propose MT-WilmsNet, a slice-guided multi-task multi-level Transformer fusion network featuring three synergistic components. First, a Wide Reinforced Transformer Feature Pyramid Network integrates multi-scale features to boost preoperative metastasis prediction accuracy. Second, a dedicated UNet-like architecture performs tumor segmentation while providing anatomical context for metastasis analysis. Finally, a global slice attention mechanism combined with multi-level self-distilling transformers emulates radiologists’ cross-slice diagnostic reasoning. Our MT-WilmsNet outperforms many typical classification models for WT metastasis prediction. The source code is available at: https://github.com/wenjing-gg/MT-WilmsNet.",
+  "authors": [
+    {
+      "name": "Zhu, Zhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Wenjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Xiaohui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Shuai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Yuxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Changmiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Gang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2475_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1763",
+  "title": "Marker-less Head Pose Tracking for Image-guided Cerebral Artery Navigation",
+  "abstract": "Image-guided cerebral artery navigation (CAN) system can provide precise guidance for intracranial artery examination and surgery by aligning 3D medical data with patient’s head observed by a depth sensor. Existing CAN systems generally suffer from either susceptibility to location marker offset or weak efficiency. This paper presents a real-time marker-less method to track the patient’s head pose based on the MRI data for CAN. Briefly, the 3D facial model is constructed from the patient’s MRI data in the pre-operative stage. Then, a 3D local description is proposed to encode the local geometry of the facial model via thin plate spline function. Subsequently, according to the local description of the facial model, the patient’s head observed by an RGBD camera is registered with the facial model by maximum weight matching. Eventually, the head pose is accurately tracked in real-time via square-root cubature Kalman filter (SCKF) and iterative closest point algorithm (ICP) during navigation. With each estimated head pose, the patient’s vessels in MRI data are visualized onto the RGB image of the patient’s head for CAN. The proposed method is evaluated on comprehensive experiments, showing the best core performance metrics than all comparison methods. The average rotational and translational errors of our method are 2.6° and 1.9 mm respectively on the BIWI dataset. The average tracking rate achieves 0.06 s.",
+  "authors": [
+    {
+      "name": "Wang, Qiuying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Pandeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Dewei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Chang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Robotics",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1763_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

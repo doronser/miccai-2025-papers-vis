@@ -1,0 +1,33 @@
+{
+  "id": "miccai-1747",
+  "title": "New Multimodal Similarity Measure for Image Registration via Modeling Local Functional Dependence with Linear Combination of Learned Basis Functions",
+  "abstract": "The deformable registration of images of different modalities, essential in many medical imaging applications, remains challenging. The main challenge is developing a robust measure for image overlap despite the compared images capturing different aspects of the underlying tissue. Here, we explore similarity metrics based on functional dependence between intensity values of registered images. Although functional dependence is too restrictive on the global scale, earlier work has shown competitive performance in deformable registration when such measures are applied over small enough contexts. We confirm this finding and further develop the idea by modeling local functional dependence via the linear basis function model with the basis functions learned jointly with the deformation. The measure can be implemented via convolutions, making it efficient to compute on GPUs. We release the method as an easy-to-use tool and show good performance on three datasets compared to well-established baseline and earlier functional dependence-based methods.",
+  "authors": [
+    {
+      "name": "Honkamaa, Joel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marttinen, Pekka",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Registration"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1747_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

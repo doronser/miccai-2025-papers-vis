@@ -1,0 +1,57 @@
+{
+  "id": "miccai-4457",
+  "title": "Disentangled and Interpretable Multimodal Attention Fusion for Cancer Survival Prediction",
+  "abstract": "To improve the prediction of cancer survival using whole-slide images and transcriptomics data, it is crucial to capture both modality-shared and modality-specific information. However, multimodal frameworks often entangle these representations, limiting interpretability and potentially suppressing discriminative features. To address this, we propose Disentangled and Interpretable Multimodal Attention Fusion (DIMAF), a multimodal framework that separates the intra- and inter-modal interactions within an attention-based fusion mechanism to learn distinct modality-specific and modality-shared representations. We introduce a loss based on Distance Correlation to promote disentanglement between these representations and integrate Shapley additive explanations to assess their relative contributions to survival prediction. We evaluate DIMAF on four public cancer survival datasets, achieving a relative average improvement of 1.85% in performance and 23.7% in disentanglement compared to current state-of-the-art multimodal models. Beyond improved performance, our interpretable framework enables a deeper exploration of the underlying interactions between and within modalities in cancer biology. Code and checkpoints are publicly available at: https://github.com/Trustworthy-AI-UU-NKI/DIMAF",
+  "authors": [
+    {
+      "name": "Eijpe, Aniek",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lakbir, Soufyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Erdal Cesur, Melis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oliveira, Sara P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abeln, Sanne",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Silva, Wilson",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Body -> Urology",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4457_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

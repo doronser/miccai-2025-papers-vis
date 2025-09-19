@@ -1,0 +1,64 @@
+{
+  "id": "miccai-2322",
+  "title": "C²MAOT: Cross-modal Complementary Masked Autoencoder with Optimal Transport for Cancer Segmentation in PET-CT Images",
+  "abstract": "Accurate cancer segmentation in PET-CT images is crucial for oncology, yet remains challenging due to lesion diversity, data scarcity, and modality heterogeneity. Existing methods often struggle to effectively fuse cross-modal information and leverage self-supervised learning for improved representation. In this paper, we introduce C²MAOT, a Cross-modal Complementary Masked Autoencoder with Optimal Transport framework for PET-CT cancer segmentation. Our method employs a novel modality-complementary masking strategy during pre-training to explicitly encourage cross-modal learning between PET and CT encoders. Furthermore, we integrate an optimal transport loss to guide the alignment of feature distributions across modalities, facilitating robust multi-modal fusion. Experimental results on two datasets demonstrate that C²MAOT outperforms existing state-of-the-art methods, achieving significant improvements in segmentation accuracy across five cancer types. These results establish our proposed method as an effective approach for tumor segmentation in PET-CT imaging. Our code is available at https://github.com/hjj194/c2maot.",
+  "authors": [
+    {
+      "name": "Huang, Jiaju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Shaobin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Xinglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zhuoneng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2322_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "miccai-3215",
+  "title": "FedCLAM: Client Adaptive Momentum with Foreground Intensity Matching for Federated Medical Image Segmentation",
+  "abstract": "Federated learning is a decentralized training approach that keeps data under stakeholder control while achieving superior performance over isolated training. While inter-institutional feature discrepancies pose a challenge in all federated settings, medical imaging is particularly affected due to diverse imaging devices and population variances, which can diminish the global model’s effectiveness. Existing aggregation methods generally fail to adapt across varied circumstances. To address this, we propose FedCLAM, which integrates client-adaptive momentum terms derived from each client’s loss reduction during local training, as well as a personalized dampening factor to curb overfitting. We further introduce a novel intensity alignment loss that matches predicted and ground-truth foreground distributions to handle heterogeneous image intensity profiles across institutions and devices. Extensive evaluations on two datasets show that FedCLAM surpasses eight cutting-edge methods in medical segmentation tasks, underscoring its efficacy. The code is available at https://github.com/siomvas/FedCLAM .",
+  "authors": [
+    {
+      "name": "Siomos, Vasilis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Passerat-Palmbach, Jonathan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tarroni, Giacomo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Urology",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3215_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

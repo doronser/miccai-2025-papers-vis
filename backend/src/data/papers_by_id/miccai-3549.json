@@ -1,0 +1,69 @@
+{
+  "id": "miccai-3549",
+  "title": "Diffusion-based Virtual Staining from Polarimetric Mueller Matrix Imaging",
+  "abstract": "Polarization, as a new optical imaging tool, has been explored to assist in the diagnosis of pathology. Moreover, converting the polarimetric Mueller Matrix (MM) to standardized stained images becomes a promising approach to help pathologists interpret the results. However, existing methods for polarization-based virtual staining are still in the early stage, and the diffusion-based model, which has shown great potential in enhancing the fidelity of the generated images, has not been studied yet. In this paper, a Regulated Bridge Diffusion Model (RBDM) for polarization-based virtual staining is proposed. RBDM utilizes the bidirectional bridge diffusion process to learn the mapping from polarization images to other modalities such as H&E and fluorescence. And to demonstrate the effectiveness of our model, we conduct the experiment on our manually collected dataset, which consists of 18,000 paired polarization, fluorescence and H&E images, due to the unavailability of the public dataset. The experiment results show that our model greatly outperforms other benchmark methods. Our data and code are available at https://github.com/xiaoyu-z/RBDM/.",
+  "authors": [
+    {
+      "name": "Zheng, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wen, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Jiaxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Yao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cong, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Limei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3549_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

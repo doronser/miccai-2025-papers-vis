@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1523",
+  "title": "Heterogeneous Masked Attention-Guided Path Convolution for Functional Brain Network Analysis",
+  "abstract": "Brain functional connectivity analysis plays a crucial role in the computer-aided diagnosis of brain disorders. The brain organization is a heterogeneous structure with distinct functional divisions. However, current heterogeneous algorithms often introduce excessive parameters while characterizing heterogeneous relationships, leading to redundancy and overfitting. To address these issues, we propose the Heterogeneous Masked Attention-Guided Path Convolution (HM-AGPC) for functional brain network analysis. The HM-AGPC introduces a heterogeneous masked attention generation mechanism that preserves valuable heterogeneous relationships while minimizing redundant interactions and highlighting crucial functional connections. Moreover, the framework incorporates an attention-guided path convolution strategy, which leverages attention weights to guide the convolution kernel in focusing on the most salient features and pathways. This approach improves model performance without directly introducing extra parameters, thereby enhancing feature learning efficiency. We evaluate HM-AGPC on the ABIDE dataset using ten-fold cross-validation, where it demonstrates superior performance in disease diagnosis task compared to state-of-the-art methods. Additionally, the framework demonstrates high interpretability, making it a promising tool for computer-aided diagnosis and the identification of potential biomarkers.",
+  "authors": [
+    {
+      "name": "Xu, Jiakun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiong, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Shengxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Xiaofen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hao, Jindou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Xiangmin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1523_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

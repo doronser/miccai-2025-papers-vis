@@ -1,0 +1,43 @@
+{
+  "id": "miccai-4644",
+  "title": "Reducing Variability of Multiple Instance Learning Methods for Digital Pathology",
+  "abstract": "Digital pathology has revolutionized the field by enabling the digitization of tissue samples into whole slide images (WSIs). However, the high resolution and large size of WSIs present significant challenges when it comes to applying Deep Learning models. As a solution, WSIs are often divided into smaller patches with a global label (i.e., diagnostic) per slide, instead of a (too) costly pixel-wise annotation. By treating each slide as a bag of patches, Multiple Instance Learning (MIL) methods have emerged as a suitable solution for WSI classification. A major drawback of MIL methods is their high variability in performance across different runs, which can reach up to 10-15 AUC points on the test set, making it difficult to compare different MIL methods reliably. This variability mainly comes from three factors: i) weight initialization, ii) batch (shuffling) ordering, iii) and learning rate. To address that, we introduce a Multi-Fidelity, Model Fusion strategy for MIL methods. We first train multiple models for a few epochs and average the most stable and promising ones based on validation scores. This approach can be applied to any existing MIL model to reduce performance variability. It also simplifies hyperparameter tuning and improves reproducibility while maintaining computational efficiency. We extensively validate our approach on WSI classification tasks using 2 different datasets, 3 initialization strategies and 5 MIL methods, for a total of more than 2000 experiments.",
+  "authors": [
+    {
+      "name": "Mammadov, Ali",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Le Folgoc, Loïc",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hocquet, Guillaume",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gori, Pietro",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4644_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

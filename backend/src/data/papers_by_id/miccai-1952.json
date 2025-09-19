@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1952",
+  "title": "HARP: Harmonization and Adaptive Refinement of Pseudo-Labels for Cross-Domain Medical Image Segmentation",
+  "abstract": "Medical image segmentation is crucial for accurate diagnosis and effective treatment planning. However, in cross-domain semi-supervised segmentation, the scarcity of labeled data often leads to suboptimal performance and poor generalization across diverse medical imaging domains. Moreover, pseudo-labels generated from unlabeled data are inherently noisy, introducing confirmation bias that destabilizes training and hinders the model’s ability to accurately capture complex anatomical structures. To address these challenges, we propose HARP: Harmonization and Adaptive Refinement of Pseudo-Labels for Cross-Domain Medical Image Segmentation, a framework designed to enhance segmentation performance by integrating two novel modules: the Adaptive Pseudo-label Selection (APS) module and the Cross-Domain Harmonization (CDH) module. The APS module ensures the quality and reliability of pseudo-labels by using a confidence-based filtering mechanism and an iterative refinement strategy. The CDH module uses matrix decomposition to harmonize differences across medical imaging modalities, enhancing data diversity while preserving domain-specific features and improving the model’s adaptability to varying imaging protocols for robust performance across diverse medical datasets. Extensive experiments on three medical datasets demonstrate the effectiveness of HARP, achieving significant improvements across multiple evaluation metrics. The source code is available at https://github.com/lbllyl/HARP.",
+  "authors": [
+    {
+      "name": "Liu, Yulong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Wenqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ziyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Peilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Ronald X.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Mingzhai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1952_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

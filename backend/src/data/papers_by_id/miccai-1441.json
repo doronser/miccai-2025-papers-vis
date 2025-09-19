@@ -1,0 +1,55 @@
+{
+  "id": "miccai-1441",
+  "title": "Pattern-Anchored Adaptive Prototype Learning for Gastroscopic Lesion Detection and Beyond",
+  "abstract": "Gastroscopic Lesion Detection (GLD) is one of the critical tasks within computer-assisted gastroscopic diagnostics. Each category of gastroscopic lesions have several sub-category patterns and endoscopists adopt a pattern-based philosophy for GLD: they identify and summarize typical sub-category patterns with specific medical meanings and conduct GLD based on these patterns. The current gastroscopic lesion detectors follow the classical data-driven deep-learning-based training paradigm, which differs from the endoscopists’ diagnosis process and leads to low interpretability, limiting their performance and potential for daily clinical practice and patient care. Directly integrating the philosophy into GLD tasks requires re-annotating the whole GLD datasets with sub-category labels, which is prohibitively expensive. An affordable solution is to annotate limited sub-category labels and train the detectors in a few-shot manner. To address the challenge, we propose a Pattern-Anchored Adaptive Prototype Learning (PAAPL) for Gastroscopic Lesion Detection. Specifically, to integrate the pattern-based philosophy, PAAPL introduces a Prototype-based Gastroscopic Lesion Detector (PGLD) for prototype-based sub-category pattern detection and a Pattern-Anchored Adaptive Learning (PAAL) method to learn prototypes from GLD datasets with limited sub-category pattern annotations. The PAAL can soft-anchor prototypes to limited-annotated patterns with specific medical meanings and adaptively learn pattern characteristics from unannotated data samples in GLD datasets. We evaluate PAAPL on the LGLDD and Endo21 datasets, demonstrating its ability to learn and detect sub-category patterns trained with limited annotated examples. By doing this, PAAPL enhances detector interpretability and yields significant performance improvement (+3.7AP on LGLDD/+5.4AP on Endo21).",
+  "authors": [
+    {
+      "name": "Zhang, Xuanye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Xiaoqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Guanbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Si-Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiong, Yuanhuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Scene Understanding",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1441_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

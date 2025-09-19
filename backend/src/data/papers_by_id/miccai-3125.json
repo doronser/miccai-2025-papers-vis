@@ -1,0 +1,74 @@
+{
+  "id": "miccai-3125",
+  "title": "MOSCARD - Multimodal Opportunistic Screening for Cardiovascular Adverse events with Causal Reasoning and De-confounding",
+  "abstract": "Major Adverse Cardiovascular Events (MACE) remain the leading cause of mortality globally, as reported in the Global Disease Burden Study 2021. Opportunistic screening leverages data collected from routine health check-ups and multimodal data can play a key role to identify at-risk individuals. Chest X-rays (CXR) provide insights into chronic conditions contributing to major adverse cardiovascular events (MACE), while 12-lead electrocardiogram (ECG) directly assesses cardiac electrical activity and structural abnormalities. Integrating CXR and ECG could offer a more comprehensive risk assessment than conventional models, which rely on clinical scores, computed tomography (CT) measurements, or biomarkers, which may be limited by sampling bias and single modality constraints. We propose a novel predictive modeling framework - MOSCARD, multimodal causal reasoning  with co-attention to align two distinct modalities and simultaneously mitigate bias and confounders in opportunistic risk estimation. Primary technical contributions are -  (i) multimodal alignment of CXR with ECG guidance; (ii) integration of causal reasoning; (iii) dual back-propagation graph for de-confounding. Evaluated on internal, shift data from emergency department (ED) and external MIMIC datasets, our model outperformed single modality and state-of-the-art foundational models - AUC: 0.75, 0.83, 0.71 respectively. Proposed cost-effective opportunistic screening enables early intervention, improving patient outcomes and reducing disparities.",
+  "authors": [
+    {
+      "name": "Pi, Jialu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Farina, Juan Maria",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lahiri, Rimita",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jeong, Jiwoong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gurudu, Archana",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Hyung-Bok",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chao, Chieh-Ju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ayoub, Chadi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arsanjani, Reza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Banerjee, Imon",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> EEG / ECG",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3125_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

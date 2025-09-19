@@ -1,0 +1,71 @@
+{
+  "id": "miccai-3070",
+  "title": "Cascaded 3D Diffusion Models for Whole-body 3D 18-F FDG PET/CT synthesis from Demographics",
+  "abstract": "We propose a cascaded 3D diffusion model framework to synthesize high-fidelity 3D PET/CT volume directly from demographic variables, addressing the growing need for realistic digital twins in oncologic imaging, virtual trials, and AI-driven data augmentation. Unlike deterministic phantoms, which rely on predefined anatomical and metabolic templates, our method employs a two-stage generative process: an initial score-based diffusion model synthesizes low-resolution PET/CT volumes from the demographic variables only, providing global anatomical structures and approximate metabolic activity, followed by a super-resolution residual diffusion model refining spatial resolution. Our framework was trained on 18-F FDG PET/CT scans from the AutoPET dataset and evaluated using organ-wise volume and standardized uptake value (SUV) distributions, comparing synthetic and real data between demographic subgroups. The organ-wise comparison demonstrated strong concordance between synthetic and real images. In particular, most of the deviations in metabolic uptake values remained within 3–5\\% of the ground truth in sub-group analysis. These findings highlight the potential of cascaded 3D diffusion models to generate anatomically and metabolically accurate PET/CT images, offering a robust alternative to traditional phantoms and enabling scalable, population-informed synthetic imaging for clinical and research applications. Codes can be found at \\href{https://github.com/siyeopyoon/TotalGen}{https://github.com/siyeopyoon/TotalGen}.",
+  "authors": [
+    {
+      "name": "Yoon, Siyeop",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Sifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Pengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tivnan, Matthew",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oh, Yujin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Sekeun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Dufan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Quanzheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3070_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

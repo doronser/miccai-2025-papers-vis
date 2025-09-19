@@ -1,0 +1,39 @@
+{
+  "id": "miccai-2415",
+  "title": "Geometry-Guided Local Alignment for Multi-View Visual Language Pre-Training in Mammography",
+  "abstract": "Mammography screening is an essential tool for early detec-tion of breast cancer. The speed and accuracy of mammography inter-pretation has the potential to be improved with deep learning methods. However, the development of a foundation visual language model (VLM) is hindered by limited data and domain differences between natural and medical images. Existing mammography VLMs, adapted from natural images, often ignore domain-specific characteristics, such as multi-view relationships in mammography. Unlike radiologists who analyze both views together to process ipsilateral correspondence, current methods treat them as independent images or do not properly model the multi-view correspondence learning, losing critical geometric context and resulting in suboptimal prediction. We propose GLAM: Global and Local Alignment for Multi-view mammography for VLM pretraining using geometry guid-ance. By leveraging the prior knowledge about the multi-view imaging process of mammograms, our model learns local cross-view alignments and fine-grained local features through joint global and local, visual-visual, and visual-language contrastive learning. Pretrained on EMBED [14], one of the largest open mammography datasets, our model outperforms baselines across multiple datasets under different settings. The code is available at https://github.com/XYPB/GLAM.",
+  "authors": [
+    {
+      "name": "Du, Yuexi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Lihui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dvornek, Nicha C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2415_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2403",
+  "title": "MoST-IG: Morphology-Guided Spatial Transcriptomics Integration via Visual-Genomic Graph Optimal Transport",
+  "abstract": "Spatial transcriptomics (ST) is crucial for understanding cellular heterogeneity and tissue organization. However, integrating spatial transcriptomics across multiple slices remains challenging for downstream analyses, as ST slices may exhibit significant batch effects. Current methods mostly depend on forced integration via contrastive learning, which may ignore the inherent biological heterogeneity, thus impacting the performance of downstream analyses. To address these challenges, we introduce MoST-IG, a multimodal framework for morphology-guided multi-slice ST integration. MoST-IG comprises two key components: (1) Cross-modal alignment between histology prior and ST: we integrate histological patterns derived from the pathological foundation model with ST using our proposed Visual-Genomic Graph Optimal Transport (VG-GOT) module. This visual-genomic alignment preserves biological heterogeneity through morphology-guided regularization while enriching the spatial context of ST data with morphological features to provide a more discriminative representation and enhance downstream performance. (2) Integration of Multi ST-Slices: a multi ST-slices Contrastive Learning (mST-CL) module is designed via two complementary triplet losses—one for both inter-slice and intra-slice cell type mapping. Experiments show that MoST-IG outperforms leading methods in both cancer grading and detection, as well as tissue structure clustering, while better preserving tissue landmarks in multi-slice ST integration.",
+  "authors": [
+    {
+      "name": "Yu, Liting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Weiqin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Zhuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Lequan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2403_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

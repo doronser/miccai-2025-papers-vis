@@ -1,0 +1,67 @@
+{
+  "id": "miccai-3344",
+  "title": "SPEC-CXR: Advancing Clinical Safety through Entity-Level Performance Evaluation of Chest X-ray Report Generation",
+  "abstract": "Automated chest X-ray report generation has great potential to improve healthcare efficiency, but rigorous validation is essential for safe clinical adoption. Existing evaluation metrics focus mainly on report-level scores, failing to provide actionable insights for clinicians.\nIn this paper, we present SPEC-CXR (Safety-centered Performance Evaluation in Clinical Report for Chest X-Ray), an evaluation framework that integrates entity-level performance assessment with report-level error analysis using a large language model (LLM). In our approach, the LLM extracts and classifies entities—radiological findings and differential diagnoses—from both generated and reference reports based on a carefully curated entity set. Generated reports are then evaluated on entity presence, location, severity, and prior comparison, yielding structured outputs to calculate detailed entity-level scores (F1 for presence and accuracy for location, severity, and comparison).\nOur entity-level evaluation shows 91.8% accuracy compared to human evaluation for presence detection and 0.777 Kendall’s tau-b correlation for report-level evaluation. Furthermore, our entity-level performance analysis uncovers critical limitations of current state-of-the-art report generation models across diverse entities, highlighting the urgent need for rigorous, safety-oriented evaluation metrics.\nOur framework is publicly available and usable: https://github.com/lunit-io/spec-cxr.",
+  "authors": [
+    {
+      "name": "Lee, Jung Oh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cho, Junwoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Junha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dillard, Laurent",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van Sonsbeek, Tom",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Setio, Arnaud A. A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Hyeonsoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoo, Donggeun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Taesoo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3344_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

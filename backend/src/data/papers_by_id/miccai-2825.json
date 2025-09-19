@@ -1,0 +1,33 @@
+{
+  "id": "miccai-2825",
+  "title": "Physiological neural representation for personalised tracer kinetic parameter estimation from dynamic PET",
+  "abstract": "Dynamic positron emission tomography (PET) with tracer [18F]FDG enables non-invasive quantification of glucose metabolism by means of kinetic analysis, often modelled by the two-tissue compartment model (TCKM). However, voxel-wise kinetic parameter estimation using conventional methods is computationally intensive and limited by spatial resolution. Deep neural networks (DNNs) offer an alternative but require large training datasets and significant computational resources. To address these limitations, we propose a physiological neural representation based on implicit neural representations (INRs) for personalized kinetic parameter estimation. INRs, which learn continuous functions, allow for efficient, high-resolution parametric imaging with reduced data requirements. Our method also integrates anatomical priors from a 3D CT foundation model to enhance robustness and precision in kinetic modelling. We evaluate our approach on an [18F]FDG dynamic PET/CT dataset and compare it to state-of-the-art DNNs. Results demonstrate superior spatial resolution, lower mean-squared error, and improved anatomical consistency, particularly in tumour and highly vascularized regions. Our findings highlight the potential of INRs for personalized, data-efficient tracer kinetic modelling, enabling applications in tumour characterization, segmentation, and prognostic assessment.",
+  "authors": [
+    {
+      "name": "Tehlan, Kartikay",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wendler, Thomas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2825_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

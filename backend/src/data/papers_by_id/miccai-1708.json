@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1708",
+  "title": "Improved Baselines with Synchronized Encoding for Universal Medical Image Segmentation",
+  "abstract": "Large foundation models, known for their strong zero-shot generalization capabilities, can be applied to a wide range of downstream tasks. However, developing foundation models for medical image segmentation poses a significant challenge due to the domain gap between natural and medical images. While fine-tuning techniques based on the Segment Anything Model (SAM) have been explored, they primarily focus on scaling up data or refining inference strategies without incorporating domain-specific architectural designs, limiting their zero-shot performance. To optimize segmentation performance under standard inference settings and provide a strong baseline for future research, we introduce SyncSAM, which employs a synchronized dual-branch encoder that integrates convolution and Transformer features in a synchronized manner to enhance medical image encoding, and a multi-scale dual-branch decoder to preserve image details. SyncSAM is trained on two of the largest medical image segmentation datasets, SA-Med2D-20M and IMed-361M, resulting in a series of pre-trained models for universal medical image segmentation. Experimental results demonstrate that SyncSAM not only achieves state-of-the-art performance on test sets but also exhibits strong zero-shot capabilities on unseen datasets. Code and checkpoints are available at \\url{https://github.com/Hhankyangg/SyncSAM}.",
+  "authors": [
+    {
+      "name": "Yang, Sihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Jiadong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mi, Xuande",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bi, Haixia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Jian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1708_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

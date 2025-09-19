@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2218",
+  "title": "Deep Association Multimodal Learning for Zero-shot Spatial Transcriptomics Prediction",
+  "abstract": "Spatial transcriptomics enables localized gene expression profiling within histological regions. Current supervised methods struggle to infer patterns for novel gene types beyond their training scope, while existing zero-shot frameworks partially address this by incorporating gene semantics, the ``independent learning’’ paradigms hamper their usage in zero-shot gene expression prediction. Specifically, they learn tissue morphology and gene semantics (inter-modality) independently, and treat gene functions (intra-modality) as independent entities. In this paper, we present a deep association multimodal framework which bridges pathological image with gene functionality semantics for zero-shot expression prediction. Concretely, our framework achieves generalized expression prediction by integrating nuclei-aware spatial modeling that preserves tissue microarchitecture, cross-modal alignment of pathological features with gene functionality semantics via iterative vision-language prompt learning, and gene interaction modeling that dynamically captures relationships across gene descriptions. On standard benchmark datasets, we demonstrate competitive zero-shot performance compared to other competitors (e.g., outperforms 16.3% in mean Pearson Correlation Coefficient  on cSCC dataset), and we show clinical interpretability of our method. Codes is publicly available at https://github.com/DeepMed-Lab-ECNU/ALIGN-ST.",
+  "authors": [
+    {
+      "name": "Zhou, Yijing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Yadong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qingli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xinxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2218_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

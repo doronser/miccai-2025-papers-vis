@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3144",
+  "title": "Real Super-Resolution for Proximal Femur: Enhanced Computation of Structural Bone Metrics from Clinical CTs",
+  "abstract": "Fracture risk due to osteoporosis is a highly prevalent disease with costs in the European Union alone of 56 billion p.a.. Accurate assessment of the microarchitecture of the proximal femur (e.g., trabecular thickness, trabecular spacing, bone volume fraction) is essential for assessing bone strength and predicting fracture risk. High resolution (HR) CT provides the necessary spatial resolution. However, for best hip fracture risk assessment HR-CT imaging should be performed at the proximal femur but this would require an unacceptably high level of radiation dose. Therefore, we aimed to investigate whether deep learning based super-resolution (SR) models applied to low-resolution (LR) clinical CT images permit improved assessment of structural parameters.\nIn this study we adapted and optimized state-of-the-art model architectures to compare them in the context of CT-SR of the proximal femur. The dataset used consisted of pairs of clinical LR-CTs and HR-CTs of 50 individuals. This represents clinical reality and avoids bias of downsampling HR images to mimic LR images. Using automated preprocessing data is prepared for model training. We used three-stage template matching of point clouds to automatically extract the relevant regions of interest, from which metrics for bone microarchitecture were determined. We compared SRGAN, Real-ESRGAN+, LDM, and ResShift regarding improvement in structural assessment. We also tested whether 2.5D approaches - using multiple slices of the CT - are superior to 2D approaches. In terms of perceptual reconstruction, the ResShift 2.5D model outperforms the other SR models and achieves comparable results to the Real-ESRGAN+ architectures in the derivation of biomechanical properties.",
+  "authors": [
+    {
+      "name": "Koser, Niklas C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Finck, Marten J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "von Brackel, Felix N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ondruschka, Benjamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pirk, Sören",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Glüer, Claus-C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3144_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "miccai-2293",
+  "title": "Reconstructing 3D Hand-Instrument Interaction from a Single 2D Image in Medical Scenes",
+  "abstract": "Capturing the hand movements of physicians and their interactions with medical instruments plays a critical role in behavior analysis and surgical skill assessment. However, hand-instrument interaction in medical contexts is far more challenging than in general tasks. The weak texture and reflective properties of surgical instruments frequently result in failures in pose estimation. Moreover, the long and thin shape characteristics of the instruments and the sparse points of the reconstructed hand lead to difficulties in accurately grasping the instrument or may result in spatial penetration during interaction. To address failures in pose estimation, we build 3D models of medical instruments as priors to optimize instrument pose estimation. To resolve the issues of inaccurate grasping and minimize spatial penetration, we propose a contact-point-centered interaction module by refining the surface details of the fingers to optimize the hand-instrument relationship computation. Experiments on medical scenario da",
+  "authors": [
+    {
+      "name": "Xu, Miao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Xiangyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jinlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zang, Zelin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hongbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Zhen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Scene Understanding",
+    "Surgery -> Skill and Work Flow Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2293_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

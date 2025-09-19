@@ -1,0 +1,68 @@
+{
+  "id": "miccai-2248",
+  "title": "CoCa-CXR: Contrastive Captioners Learn Strong Temporal Structures for Chest X-Ray Vision-Language Understanding",
+  "abstract": "Vision-language models have proven to be of great benefit for medical image analysis since they learn rich semantics from both images and reports. Prior efforts have focused on better alignment of image and text representations to enhance image understanding. However, though explicit reference to a prior image is common in Chest X-Ray (CXR) reports, aligning progression descriptions with the semantics differences in image pairs remains under-explored. In this work, we propose two components to address this issue. (1) A CXR report processing pipeline to extract temporal structure. It processes reports with a large language model (LLM) to separate the description and comparison contexts, and extracts fine-grained annotations from reports. (2) A contrastive captioner model for CXR, namely CoCa-CXR, to learn how to both describe images and their temporal progressions. CoCa-CXR incorporates a novel regional cross-attention module to identify local differences between paired CXR images. Extensive experiments show the superiority of CoCa-CXR on both progression analysis and report generation compared to previous methods. Notably, on MS-CXR-T progression classification, CoCa-CXR obtains 65.0% average testing accuracy on five pulmonary conditions, outperforming the previous state-of-the-art (SOTA) model BioViL-T by 4.8%. It also achieves a RadGraph F1 of 24.2% on MIMIC-CXR, which is comparable to the Med-Gemini foundation model.",
+  "authors": [
+    {
+      "name": "Chen, Yixiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Shawn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sellergren, Andrew",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Matias, Yossi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hassidim, Avinatan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shetty, Shravya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Golden, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuille, Alan L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Lin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2248_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

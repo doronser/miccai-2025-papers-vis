@@ -1,0 +1,57 @@
+{
+  "id": "miccai-1824",
+  "title": "Cross-Modal Graph Learning for Perivascular Spaces Segmentation",
+  "abstract": "Perivascular spaces (PVS), also known as Virchow-Robin spaces, are critical biomarkers for diagnosing cerebral small vessel disease (CSVD). Quantifying PVS visible in magnetic resonance imaging (MRI) is essential for understanding their relationship with various neurological disorders. Traditional methods for assessing PVS rely on visual scoring of MRI images, which is time-consuming, subjective, and unsuitable for large-scale studies. Additionally, due to their small size, scattered distribution, and complex morphology, PVS can easily be confused with neighboring structures, posing significant challenges for their accurate extraction. In this paper, we propose a novel graph interaction-enhanced model based on vision-language modeling (VLM) technology for accurate PVS extraction from MRI. Our approach leverages textual information to guide image feature extraction and employs a graph structure to enhance cross-modal interactions, facilitating the reasoning of relationships between different modalities. Furthermore, we introduce a cross-modal attention mechanism for global feature alignment and an attention-based dynamic fusion module to effectively integrate multi-modal information, improving the accuracy of PVS segmentation. Validated on an independent T1-weighted dataset, our model demonstrates superior performance in capturing both global and local information, addressing the limitations of traditional image-only models and providing a robust solution for PVS segmentation in complex clinical scenarios.",
+  "authors": [
+    {
+      "name": "Chen, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Long, Xi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Breeuwer, Marcel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zinger, Sveta",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Peiyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1824_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

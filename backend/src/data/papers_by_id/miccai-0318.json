@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0318",
+  "title": "Iterative Foundation-Dedicated Learning: Optimized Key Frames, Prompts and Memories for Semi-Supervised Segmentation",
+  "abstract": "Semi-supervised learning (SSL) can effectively reduce the labor-intensive labeling required for deep learning based medical image segmentation. The emergence of visual foundation models show zero-shot capability, offering a new way of SSL. In this paper, a novel SSL framework that combines foundation and dedicated models is proposed. Unlike most existing SSL methods, where the foundation model is manually prompted to generate pseudo-labels from unlabeled images for training the dedicated model in a one-way strategy without further refinement. In our framework, foundation (SAM2) and dedicated (UNet) models are in an iterative pipeline. Specifically, in each iteration, prompts from coarse segmentation results using UNet are calculated for SAM2 to generate pseudo-labels which are used to further train the UNet for better prompts in next iteration. In this way, the pseudo-labels and UNet can be mutually improved until convergence. To enhance the performance of SAM2 in medical image segmentation, a new uncertainty-aware module using historical cues is presented to optimize key frames selection and prompts generation for SAM2. Furthermore, a new semantic-aware memory bank is introduced, where memories in the memory bank of SAM2 are divided into semantic groups. In this way, anatomical prior knowledge can be leveraged by SAM2. In the experiment, our framework is evaluated using public and in-house datasets in the context of multi-label segmentation, and the experimental results demonstrate that our framework outperforms state-of-the-art SSL methods in both datasets.",
+  "authors": [
+    {
+      "name": "Yin, Ziman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nie, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Junjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Zhenyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0318_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

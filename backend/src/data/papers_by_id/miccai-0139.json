@@ -1,0 +1,57 @@
+{
+  "id": "miccai-0139",
+  "title": "Multi-modal Knowledge Decomposition based Online Distillation for Biomarker Prediction in Breast Cancer Histopathology",
+  "abstract": "Immunohistochemical (IHC) biomarker prediction benefits greatly from multi-modal data fusion analysis. However, the simultaneous acquisition of multi-modal data, such as genomic and pathological information, is often challenging due to cost or technical limitations. To address this challenge, we propose an online distillation approach based on Multi-modal Knowledge Decomposition (MKD) to enhance IHC biomarker prediction in haematoxylin and eosin (H&E) stained histopathology images. This method leverages paired genomic-pathology data during training while enabling inference using either pathology slides alone or both modalities. Two teacher and one student models are developed to extract modality-specific and modality-general features by minimizing the MKD loss. To maintain the internal structural relationships between samples, Similarity-preserving Knowledge Distillation (SKD) is applied. Additionally, Collaborative Learning for Online Distillation (CLOD) facilitates mutual learning between teacher and student models, encouraging diverse and complementary learning dynamics. Experiments on the TCGA-BRCA and in-house QHSU datasets demonstrate that our approach achieves superior performance in IHC biomarker prediction using uni-modal data. Our code is available at https://github.com/qiyuanzz/MICCAI2025_MKD.",
+  "authors": [
+    {
+      "name": "Zhang, Qibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hao, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Qiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cong, Fengyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Cheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Hongming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0139_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

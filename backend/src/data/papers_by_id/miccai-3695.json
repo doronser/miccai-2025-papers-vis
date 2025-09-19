@@ -1,0 +1,63 @@
+{
+  "id": "miccai-3695",
+  "title": "Improving Motor Imagery EEG Signal Quality with Dynamic Visual Cues: An Innovative Paradigm and Dataset",
+  "abstract": "The electroencephalogram (EEG) acquisition paradigm is fundamental to brain-computer interface (BCI) research as it directly determines the mechanisms of brain activity evoked, significantly influencing the quality of collected EEG signals. Traditional static cueing paradigms often struggle to effectively induce the motor imagery (MI) state, which can lead to inconsistent task execution and degraded EEG signal quality. This study proposes an innovative MI data acquisition paradigm employing dynamic visual cues depicting real human movements to enhance engagement and more effectively induce the MI state. We build the first novel dynamic visual cueing MI dataset, comprising EEG data acquired using both dynamic and static paradigms from five subjects. We analyze our dynamic visual cueing paradigm using questionnaire, qualitative, and quantitative analyses, evaluating it from subjective experience, physiological phenomena, and EEG signal decoding accuracy perspectives. Experiments show that our dynamic cueing paradigm significantly enhances subjects’ task understanding and concentration, leading to greater brain activation and, consequently, improved decoding accuracy of brain states in MI-BCI tasks. By eliciting more pronounced brain state activity, our method fundamentally improves the quality of acquired EEG signals, laying the foundation for accurate decoding of brain states, and provides an innovative perspective for the development and improvement of MI-BCI.",
+  "authors": [
+    {
+      "name": "Yue, Chenxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Huawen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Qilong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Enze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiaqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Kui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xuhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3695_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

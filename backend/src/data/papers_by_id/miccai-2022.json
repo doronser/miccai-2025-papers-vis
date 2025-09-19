@@ -1,0 +1,41 @@
+{
+  "id": "miccai-2022",
+  "title": "Weakly-Supervised 2D/3D Image Registration via Differentiable X-ray Rendering and ROI Segmentation",
+  "abstract": "Accurate registration between intraoperative 2D images and preoperative 3D anatomical structures is a prerequisite for image-guided minimally invasive surgery. Existing approaches for 2D/3D rigid registration, particularly those for X-ray to CT image registration, primarily rely on grayscale-based image similarity metrics. However, such metrics often fail to capture the optimal projection transformation due to their limited contextual information. To address this issue, we propose a novel and intuitive correspondence representation: the overlap of multiple corresponding Regions of Interest (ROIs). By introducing the differentiable Dice coefficient computed on the projection image, we establish a direct link between segmentation and registration within our weakly supervised 2D/3D registration framework. This framework comprises two stages—a learning-based preoperative stage and an optimization-based intraoperative stage—both of which leverage the ROI-based Dice score as a differentiable supervision signal. Additionally, we integrate automatic segmentation methods (e.g., UNet) and prompt-based methods (e.g., MedSAM) into the framework to investigate the impact of different segmentation approaches on registration performances. Furthermore, we validate the generalization ability of the proposed framework by integrating the ROI-based similarity with various similarity measures. Extensive experiments conducted on the DeepFluoro dataset yielded an mTRE of 0.67$\\pm$1.34 mm, with rotational and translational error values being 0.2$\\pm$0.5$^{\\circ}$ and 1.6$\\pm$2.9 mm respectively, outperforming existing state-of-the-art methods. The codes are available at \\url{https://github.com/CYXYZ/WSReg}.",
+  "authors": [
+    {
+      "name": "Cui, Yuxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Max Q.-H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Min, Zhe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Robotics",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2022_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

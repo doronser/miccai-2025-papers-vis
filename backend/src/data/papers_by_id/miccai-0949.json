@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0949",
+  "title": "Adaptive Embedding for Long-Range High-Order Dependencies via Time-Varying Transformer on fMRI",
+  "abstract": "Dynamic functional brain network analysis using rs-fMRI has emerged as a powerful approach to understanding brain disorders. However, current methods predominantly focus on pairwise brain region interactions, neglecting critical high-order dependencies and time-varying communication mechanisms.  To address these limitations, we propose the Long-Range High-Order Dependency Transformer (LHDFormer), a neurophysiologically-inspired framework that integrates multiscale long-range dependencies with time-varying connectivity patterns. Specifically, we present a biased random walk sampling strategy with NeuroWalk kernel-guided transfer probabilities that dynamically simulate multi-step information loss through a $k$-walk neuroadaptive factor, modeling brain neurobiological principles such as distance-dependent information loss and state-dependent pathway modulation. This enables the adaptive capture of the multi-scale short-range couplings and long-range high-order dependencies corresponding to different steps across evolving connectivity patterns. Complementing this, the time-varying transformer co-embeds local spatial configurations via topology-aware attention and global temporal dynamics through cross-window token guidance, overcoming the single-domain bias of conventional graph/transformer methods. Extensive experiments on ABIDE and ADNI datasets demonstrate that LHDFormer outperforms state-of-the-art methods in brain disease diagnosis. Crucially, the model identifies interpretable high-order connectivity signatures, revealing disrupted long-range integration patterns in patients that align with known neuropathological mechanisms.",
+  "authors": [
+    {
+      "name": "Xue, Rundong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xiangmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zeyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Shaoyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yue",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0949_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

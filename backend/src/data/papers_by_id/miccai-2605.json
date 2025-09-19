@@ -1,0 +1,62 @@
+{
+  "id": "miccai-2605",
+  "title": "Reverse Imaging for Wide-spectrum Generalization of Cardiac MRI Segmentation",
+  "abstract": "Pretrained segmentation models for cardiac magnetic resonance imaging (MRI) struggle to generalize across different imaging sequences due to significant variations in image contrast. These variations arise from changes in imaging protocols, yet the same fundamental spin properties, including proton density, T1, and T2 values, govern all acquired images. With this core principle, we introduce Reverse Imaging, a novel physics-driven method for cardiac MRI data augmentation and domain adaptation to fundamentally solve the generalization problem. Our method reversely infers the underlying spin properties from observed cardiac MRI images, by solving ill-posed nonlinear inverse problems regularized by the prior distribution of spin properties. We acquire this “spin prior” by learning a generative diffusion model from the multiparametric SAturation-recovery single-SHot acquisition sequence (mSASHA) dataset, which offers joint cardiac T1 and T2 maps. Our method enables approximate but meaningful spin-property estimates from MR images, which provide interpretable “latent variable” that lead to highly flexible image synthesis of arbitrary novel sequences. We show that Reverse Imaging enables highly accurate segmentation across vastly different image contrasts and imaging protocols, realizing wide-spectrum generalization of cardiac MRI segmentation.",
+  "authors": [
+    {
+      "name": "Zhao, Yidong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kellman, Peter",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xue, Hui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Tongyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Yuchi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Simonetti, Orlando",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Qian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2605_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

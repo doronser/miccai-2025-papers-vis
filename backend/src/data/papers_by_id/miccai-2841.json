@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2841",
+  "title": "Unraveling Brainstem Deformations in Joubert Syndrome: A Statistical Shape Analysis of MRI-Derived Structures",
+  "abstract": "Statistical shape analysis (SSA) is a powerful tool for studying anatomical structures and their geometric variations in medical imaging. In this work, we analyze real MRI-derived data to explore correlations between geometric deformations and Joubert syndrome (JS). Building on prior SSA research, we tailor the preprocessing pipeline to an in-house dataset and perform a detailed shape variability analysis using principal component analysis (PCA). A random forest classifier is then applied, achieving high classification accuracy. To ensure robustness, we test multiple train-test splits and evaluate their impact. In addition, we support clinical interpretation by providing visualizations that combine 3D and 2D information, resembling typical diagnostic paradigms on MRI\nplanes. Our work offers some methodological insights into shape-based analysis and aims to serve as a practical tool for the medical community. Code and data are openly available at: https://github.com/Francaexe/SSA-brainstem",
+  "authors": [
+    {
+      "name": "Maccarone, Francesca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Longari, Giorgio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arrigoni, Filippo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peruzzo, Denis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Melzi, Simone",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2841_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

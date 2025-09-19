@@ -1,0 +1,66 @@
+{
+  "id": "miccai-3950",
+  "title": "Coronary Artery Calcification segmentation by using cross-frequency conditioner and geometric priors Learning",
+  "abstract": "Coronary artery calcification (CAC) is a powerful indicator of cardiovascular disease. Cardiac CT angiography (CCTA) has significant advantages in detecting CAC. However, since the image quality of CCTA can be compromised by cardiac motion or imaging equipment, and the contrast between CAC and surrounding tissue is low, accurate assessment of CAC remains a significant challenge. To address this issue, we propose a model (CAC-Net) for the comprehensive evaluation of CAC to fully exploit the characteristics of clinician annotations. First, inspired by the clinical annotation process, where doctors determine the subject based on boundaries, we propose a cross-frequency regulator module. This module models the interaction between high and low frequencies to distinguish the CAC body and its edges, thereby enhancing edge perception. Then, building on clinicians’ anatomical prior knowledge that CAC is confined within coronary arteries, we introduce a geometric prior module to encode their topological relationship, effectively reducing false positives. In experiments, our proposed method is compared with existing state-of-the-art methods on two CAC datasets. The results demonstrate that: (1) our method significantly improves CAC segmentation performance, as evidenced by a higher Dice score compared to U-Net (0.731 vs. 0.659); and (2) it ensures consistency in clinically relevant indicators, including calcium scores.",
+  "authors": [
+    {
+      "name": "Jiang, Weili",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luosang, Gadeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Yijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yi, Zhang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jianyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Mao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3950_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3559",
+  "title": "Region-Based Text-Consistent Augmentation for Multimodal Medical Segmentation",
+  "abstract": "Medical image segmentation is crucial for various clinical applications, and deep learning has significantly advanced this field.  To further enhance performance, recent research explores multimodal data integration, combining medical images and textual reports. However, a critical challenge lies in image data augmentation for multimodal medical data, specifically in maintaining text-image consistency. Traditional augmentation techniques, designed for unimodal images, can introduce mismatches between augmented images and text, hindering effective multimodal learning. To address this, we introduce Region-Based Text-Consistent Augmentation (RBTCA), a novel framework for coherent multimodal augmentation. Our approach performs region-based image augmentation by first identifying image regions described in associated text reports and then extracting textual cues grounded in these regions. These cues are integrated into the image, and augmentation is subsequently performed on this modality-aware representation, ensuring inherent text-cue consistency. Notably, the RBTCA’s plug-and-play design allows for straightforward integration into existing medical image analysis pipelines, enhancing its practical utility. We demonstrate the efficacy of our framework on the QaTa-Covid19 and our in-house Lung Tumor CT Segmentation (LTCT) datasets, achieving substantial gains, with a Dice coefficient improvement of up to 7.24% when integrated into baseline segmentation models. Our code will be released on https://github.com/KunyanCAI/RBTCA.",
+  "authors": [
+    {
+      "name": "Cai, Kunyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Chenggang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Min",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qu, Liangqiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shuai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3559_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

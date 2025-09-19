@@ -1,0 +1,82 @@
+{
+  "id": "miccai-2951",
+  "title": "MReg: A Novel Regression Model with MoE-based Video Feature Mining for Mitral Regurgitation Diagnosis",
+  "abstract": "Color Doppler echocardiography is a crucial tool for diagnosing mitral regurgitation (MR). Recent studies have explored intelligent methods for MR diagnosis to minimize user dependence and improve accuracy. However, these approaches often fail to align with clinical workflow and may lead to suboptimal accuracy and interpretability. In this study, we introduce an automated MR diagnosis model (MReg) developed on the 4-chamber cardiac color Doppler echocardiography video (A4C-CDV). It follows comprehensive feature mining strategies to detect MR and assess its severity considering clinical realities. Our contribution is threefold. First, we formulate the MR diagnosis as a regression task to capture the continuity and ordinal relationships between categories. Second, we design a feature selection and amplification mechanism to imitate the sonographer’s diagnostic logic for accurate MR grading. Third, inspired by the Mixture-of-Experts concept, we introduce a feature summary module to extract the category-level features, enhancing the representational capacity for more accurate grading. We trained and evaluated our proposed MReg on a large in-house A4C-CDV dataset comprising 1868 cases with three graded regurgitation labels. Compared to other weakly supervised video anomaly detection and supervised classification methods, MReg demonstrated superior performance in MR diagnosis. Our code is available at: https://github.com/cskdstz/MReg.",
+  "authors": [
+    {
+      "name": "Liu, Zhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Lian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Chengrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Haotian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Zhiyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yanlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ruiyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gou, Zhongshan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2951_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

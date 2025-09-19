@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2224",
+  "title": "Explainable ADHD Diagnostic Framework Using Weakly-Supervised Action Recognition",
+  "abstract": "The clinical diagnosis of Attention Deficit Hyperactivity Disorder (ADHD) primarily relies on scale questionnaires, clinical interviews, and executive function tests, which face challenges including limited medical resources, low diagnostic efficiency, and high dependence on clinicians’ subjective experience. Existing AI-assisted diagnostic approaches based on behavioral analysis lack sufficient result interpretability, hindering their integration with conventional diagnostic workflows and practical clinical application. This paper proposes EDWAR, an Explainable ADHD Diagnostic Framework Using Weakly-Supervised Action Recognition, which establishes a collaborative diagnostic mechanism integrating behavioral analysis with traditional test records. By employing weakly-supervised action recognition methodology requiring only diagnostic labels and video-level annotations of abnormal behaviors, our framework not only achieves high diagnostic accuracy but also provides transparent interpretation through both video-level and timestep-wise anomaly action recognition. Experimental results demonstrate that EDWAR attains superior diagnostic performance while offering convincing and explainable evidence.",
+  "authors": [
+    {
+      "name": "Fan, Ninghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kong, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Bingdi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Qiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2224_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

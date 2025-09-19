@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2479",
+  "title": "SMF-Net: Unlocking Multimodal Insights for Enhanced Stroke Lesion Segmentation",
+  "abstract": "Stroke is a leading cause of death and disability worldwide, necessitating accurate lesion segmentation for effective diagnosis and treatment. Multimodal images provide complementary insights into stroke detection and progression. However, existing segmentation methods often struggle to fully leverage the distinct and dynamic sensitivities of these modalities. Current approaches, including encoder-decoder networks and SAM-based models, are either limited to single-modality data or rely on suboptimal fusion techniques, hindering their ability to adapt to the distinct nature of stroke lesions. To address these challenges, we propose SAM-driven Multimodal Fusion Network (SMF-Net) for enhanced stroke lesion segmentation. SMF-Net incorporates a multimodal Siamese image encoder based on the Swin Transformer to extract modality-specific features, alongside two novel fusion strategies: (1) Complementary dynamic fusion module, which uses pairwise co-attention and dynamic learnable weights to model interdependencies and adaptively combine multimodal features; and (2) Context-aware intermediate layer fusion module, a lightweight, multi-layer fusion mechanism that captures multiscale features while preserving modality-specific information. Extensive experiments on an open benchmark dataset demonstrate that SMF-Net outperforms previous stroke lesion segmentation methods through effective multimodal integration.",
+  "authors": [
+    {
+      "name": "Atlaw, Meklit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Geng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Haotian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wen, Xuyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Hengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2479_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "miccai-4095",
+  "title": "MSDG-StyleNet: Multi-source Unsupervised Domain-Generalized CBCT-to-CT Translation with Style-Consistent Disentangled Representations",
+  "abstract": "Cone-beam computed tomography (CBCT) is gaining prominence in clinical radiology, particularly for intraoperative guidance, owing to its lower radiation dose and faster acquisition speed compared to computed tomography (CT). However, CBCT images often exhibit compromised quality, characterized by increased noise, artifacts, and diminished soft-tissue contrast, which can hinder their direct clinical application. While CBCT-to-CT translation presents a promising solution, this task faces significant challenges in multi-institutional settings where diverse imaging protocols introduce substantial domain shifts, especially when paired CBCT-CT data is scarce. Current unsupervised domain generalization (UDG) techniques often struggle to simultaneously maintain robust anatomical accuracy and preserve domain-specific characteristics—both crucial for clinical reliability. To address these limitations, we propose a novel disentangled representation learning framework for UDG-based CBCT-to-CT translation. Our method uniquely separates domain-invariant anatomical content from domain-specific styles, while leveraging learnable domain-style prototypes to dynamically capture key stylistic characteristics. To ensure high-quality translation, we implement a dual-level consistency mechanism that guarantees both anatomical fidelity and style alignment. By utilizing unpaired data for training and enabling flexible content-prototype combinations, our framework effectively generalizes to new institutions without requiring paired data. Extensive validation across three distinct institutional domains demonstrates that our method achieves superior anatomical accuracy and style fidelity compared to state-of-the-art approaches, establishing a clinically practical UDG paradigm with inherent cross-institutional interoperability.",
+  "authors": [
+    {
+      "name": "Long, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xinrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gan, Fan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4095_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

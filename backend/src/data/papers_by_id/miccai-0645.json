@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0645",
+  "title": "BayeSMM: Robust Deep Combined Computing Tackling Heavy-tailed Distribution in Medical Images",
+  "abstract": "Abnormal structures in multi-modality medical images often lead to heterogeneous heavy-tailed distributions. However, traditional models, especially those relying on Gaussian distributions, struggle to effectively capture these outliers. To address this, we propose BayeSMM, a novel framework that leverages Student’s $t$ distribution mixture models (SMM) to simultaneously perform registration and segmentation for misaligned multi-modality medical images. Specifically, we construct a Bayesian Student’s $t$ mixture model incorporating the heavy-tailed nature of the Student’s $t$ distribution and develop variational inference to optimize the model. Guided by variational inference, we design a novel deep learning architecture that performs registration and segmentation jointly. We demonstrate the effectiveness of BayeSMM with experiments on the MS-CMR dataset, where the results show superior performance compared to existing combined computing methods, and yield enhanced robustness under the simulated heavy-tailed setting. The code is available at https://github.com/HenryLau7/BayeSMM.",
+  "authors": [
+    {
+      "name": "Liu, Yuanye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhen, Ruoxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shangqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xinzhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Qingchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Xiahai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0645_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

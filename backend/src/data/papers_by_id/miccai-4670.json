@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4670",
+  "title": "Unsupervised Cardiac Video Translation Via Motion Feature Guided Diffusion Model",
+  "abstract": "This paper presents a novel motion feature guided diffusion model for unpaired video-to-video translation (MFD-V2V), designed to synthesize dynamic, high-contrast cine cardiac magnetic resonance (CMR) from lower-contrast, artifact-prone displacement encoding with stimulated echoes (DENSE) CMR sequences. To achieve this, we first introduce a Latent Temporal Multi-Attention (LTMA) registration network that effectively learns more accurate and consistent cardiac motions from cine CMR image videos. A multi-level motion feature guided diffusion model, equipped with a specialized Spatio-Temporal Motion Encoder (STME) to extract hierarchical coarse-to-fine motion conditioning, is then developed to improve synthesis quality and fidelity. We evaluate our method, MFD-V2V, on a comprehensive cardiac dataset, demonstrating superior performance over the state-of-the-art in both quantitative metrics and qualitative assessments. Furthermore, we show the benefits of our synthesized cine CMRs improving downstream clinical and analytical tasks, underscoring the broader impact of our approach. Our code is publicly available at https://github.com/SwaksharDeb/MFD-V2V.",
+  "authors": [
+    {
+      "name": "Deb, Swakshar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Nian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Epstein, Frederick H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Miaomiao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4670_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

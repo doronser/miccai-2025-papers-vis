@@ -1,0 +1,60 @@
+{
+  "id": "miccai-1691",
+  "title": "DGMIR: Dual-Guided Multimodal Medical Image Registration based on Multi-view Augmentation and On-site Modality Removal",
+  "abstract": "Multi-modal medical image registration integrates complementary information from various modalities to deliver comprehensive visual insights for disease diagnosis, treatment planning, surgical navigation, etc. However, current methods often suffer from artifacts, computational overhead, or insufficient handling of modality-specific interference. Moreover, they still rely on specialized modules, such as generative trans-modal units, additional encoders, or handcrafted modality-invariant operators, without fully exploiting the inherent potential of registration features. To address these drawbacks in multimodal medical image registration, we propose a novel registration framework. First, a plug-and-play architecture is proposed to directly process multi-scale heterogeneous features, with active guidance only during deformation field generation stage. Second, we introduce a multi-view feature reorganization module that dynamically optimizes feature distributions via adaptive relation computation and global calibration. Finally, an in-network modality removal module is introduced to leverage multi-scale adaptive convolutions to explicitly eliminate modality-specific interference. Extensive experiments on the BraTS2018 and Learn2Reg2021 datasets confirm that our proposed method achieves state-of-the-art performance on multiple multimodal medical image registration metrics. (https://github.com/St-Antonio/DGMIR)",
+  "authors": [
+    {
+      "name": "Le, Gao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shu, Yucheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiao, Lihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Lijian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Weisheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Xinbo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1691_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

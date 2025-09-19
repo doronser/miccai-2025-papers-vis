@@ -1,0 +1,62 @@
+{
+  "id": "miccai-4207",
+  "title": "CLIMD: A Curriculum Learning Framework for Imbalanced Multimodal Diagnosis",
+  "abstract": "Clinicians usually combine information from multiple sources to achieve the most accurate diagnosis, and this has sparked increasing interest in leveraging multimodal deep learning for diagnosis. However, in real clinical scenarios, due to differences in incidence rates, multimodal medical data commonly face the issue of class imbalance, which makes it difficult to adequately learn the features of minority classes. Most existing methods tackle this issue with resampling or loss reweighting, but they are prone to overfitting or underfitting and fail to capture cross-modal interactions. Therefore, we propose a Curriculum Learning (CL) framework for Imbalanced Multimodal Diagnosis (CLIMD). Specifically, we first design multimodal curriculum measurer that combines two indicators, intra-modal confidence and inter-modal complementarity, to enable the model to focus on key samples and gradually adapt to complex category distributions. Additionally, a class distribution-guided training scheduler is introduced, which enables the model to progressively adapt to the imbalanced class distribution during training. Extensive experiments on multiple multimodal medical datasets demonstrate that the proposed method outperforms state-of-the-art approaches across various metrics and excels in handling imbalanced multimodal medical data. Furthermore, as a plug-and-play CL framework, CLIMD can be easily integrated into other models, offering a promising path for improving multimodal disease diagnosis accuracy. Code is publicly available at https://github.com/KHan-UJS/CLIMD.",
+  "authors": [
+    {
+      "name": "Han, Kai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lyu, Chongwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Lele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qian, Chengxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Siqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pang, Zheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4207_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

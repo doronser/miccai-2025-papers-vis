@@ -1,0 +1,69 @@
+{
+  "id": "miccai-1077",
+  "title": "NeRF-based CBCT Reconstruction needs Normalization and Initialization",
+  "abstract": "Cone Beam Computed Tomography (CBCT) is widely used in medical imaging. However, the limited number and intensity of X-ray projections make reconstruction an ill-posed problem with severe artifacts. NeRF-based methods have achieved great success in this task. However, they suffer from a local-global training mismatch between their two key components: the hash encoder and the neural network. Specifically, in each training step, only a subset of the hash encoder’s parameters is used (local sparse), whereas all parameters in the neural network participate (global dense). Consequently, hash features generated in each step are highly misaligned, as they come from different subsets of the hash encoder. These misalignments from different training steps are then fed into the neural network, causing repeated inconsistent updates, which leads to unstable training, slower convergence, and degraded reconstruction quality. Aiming to alleviate the impact of this local-global optimization mismatch, we introduce a Normalized Hash Encoder, which enhances feature consistency and mitigates the mismatch. Additionally, we propose a Mapping Consistency Initialization (MCI) strategy that initializes the neural network before training by leveraging the global mapping property from a well-trained model. The initialized neural network exhibits improved early training stability, faster convergence, and enhanced reconstruction performance. Our method is simple yet effective, requiring only a few lines of code while substantially improving training efficiency on 128 CT cases from 4 different datasets, covering 7 distinct anatomical regions. https://github.com/iddifficult/NI_NeRF.",
+  "authors": [
+    {
+      "name": "Xu, Zhuowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Dai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Zhicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yujia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kong, Qingpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Zhiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1077_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

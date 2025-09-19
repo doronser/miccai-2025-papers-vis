@@ -1,0 +1,67 @@
+{
+  "id": "miccai-3778",
+  "title": "PD-INR: Prior-Driven Implicit Neural Representations for TOF-PET Reconstruction",
+  "abstract": "Positron emission tomography (PET) reconstruction is a challenging inverse problem, where projection data often contain low statistics. While current supervised learning methods offer strong noise suppression abilities, they may suffer from generalization issues and are in many cases not accurate quantitatively. To overcome these challenges, we propose a novel self-supervised Time-of-Flight PET (TOF-PET) reconstruction framework that utilizes Implicit Neural Representations (INR) to model PET images. Specifically, we introduce a differentiable forward projection model based on the imaging mechanism for TOF-PET and reformulate TOF-PET reconstruction problem using INR. To enhance image smoothness, we develop a ray-based total variation (TV) regularization term, distinct from the traditional TV. For the internal structure of our INR, we integrate a multi-resolution hash encoder with our designed prior-image encoder, where the latter provides sufficient image prior and always delivers reliable initial reconstructions for arbitrary network depth. Experiments on brain and chest datasets show that our method outperforms traditional iterative algorithms and self-supervised approaches in noise suppression and contrast recovery. Compared to conventional NeRF-based architectures, our model is more compact and converges faster, providing an efficient solution for TOF-PET reconstruction. The source code repository is hosted on GitHub: https://github.com/zyl123300/PD-INR.git",
+  "authors": [
+    {
+      "name": "Long, Yuxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Xiaodong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Hailiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rao, Fan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Huafeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yefeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Wentao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3778_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "miccai-2124",
+  "title": "Boosting 3D Liver Shape Datasets with Diffusion Models and Implicit Neural Representations",
+  "abstract": "While the availability of open 3D medical shape datasets is increasing, offering substantial benefits to the research community, we have found that many of these datasets are, unfortunately, disorganized and contain artifacts.\nThese issues limit the development and training of robust models, particularly for accurate 3D reconstruction tasks.\nIn this paper, we examine the current state of available 3D liver shape datasets and propose a solution using diffusion models combined with implicit neural representations (INRs) to augment and expand existing datasets.\nOur approach utilizes the generative capabilities of diffusion models to create realistic, diverse 3D liver shapes, capturing a wide range of anatomical variations and addressing the problem of data scarcity.\nExperimental results indicate that our method enhances dataset diversity, providing a scalable solution to improve the accuracy and reliability of 3D liver reconstruction and generation in medical applications. \nFinally, we suggest that diffusion models can also be applied to other downstream tasks in 3D medical imaging.\nOur code is available at \\url{https://github.com/Khoa-NT/hyperdiffusion_liver}.",
+  "authors": [
+    {
+      "name": "Nguyen, Khoa Tuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tozzi, Francesca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Willaert, Wouter",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vankerschaver, Joris",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rashidian, Niki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "De Neve, Wesley",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other",
+    "Surgery -> Other",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2124_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

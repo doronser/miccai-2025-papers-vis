@@ -1,0 +1,38 @@
+{
+  "id": "miccai-4626",
+  "title": "LLM-Powered Cross-Modal Alignment for Explainable Seizure Detection from EEG",
+  "abstract": "While artificial intelligence (AI) has revolutionized the field\nof epileptic seizure detection from electroencephalography (EEG), its clinical adoption remains limited, largely due to the lack of transparency in AI models and their inability to explain the underlying seizure etiology. This paper introduces SzXAI, a novel framework to enhance the reasoning abilities of AI models for EEG-based seizure detection. SzXAI employs a contrastive training mechanism, which uses cross-modality similarity layers to align the EEG encodings with textual concept embeddings derived from clinical notes using LLMs. Along with the alignment, SzXAI leverages an attention-weighted pooling mechanism to detect underlying seizure and baseline etiologies. We validate SzXAI via 10-fold cross validation on the publicly available Temple University Hospital dataset. Our results demonstrate that the alignment-powered training mechanism of SzXAI vastly outperforms direct etiology prediction, thus improving the reliability of the predicted seizure etiologies. Furthermore, structured sentence generation using the model output provided insights in a human-readable format. Thus, SzXAI provides an effective platform to boost clinical trust and AI usability in epilepsy management.",
+  "authors": [
+    {
+      "name": "Riazi, Maryam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shama, Deeksha M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Venkataraman, Archana",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4626_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

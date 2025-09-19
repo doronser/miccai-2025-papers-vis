@@ -1,0 +1,67 @@
+{
+  "id": "miccai-4338",
+  "title": "Regression-assisted Classification for CT-based Portal Hypertension Diagnosis",
+  "abstract": "Portal hypertension (PHT), a critical complication of liver disease, is primarily assessed via invasive procedures that carry inherent risks and discomfort. Recent advancements in deep learning have demonstrated potential for non-invasive diagnostic assistance based on computed tomography (CT) images. However, the small sample size and notable imbalance in PHT clinical data severely restrict the performance of deep learning methods, while the bias introduced by label discretization further compromises model robustness. To address these challenges, we propose a Regression-assisted Classification (RAC) method for non-invasive PHT diagnosis. Firstly, we propose the RAC method instead of direct classification, enabling fine-grained estimation of hepatic venous pressure gradient (HVPG) values before making categorical decisions, thereby reducing the bias caused by discrete label assignment. Moreover, the boundary-aware weighted learning method is proposed to jointly optimize model parameters and the loss function by dynamically assigning online bucket-based weights and enforcing gradient balance across decision boundaries. We show that this approach can significantly reduce the impact of data imbalance and help handle the challenges of small-sample learning in PHT diagnosis. Experiments on our collected clinical CT dataset achieve 83.28% accuracy and 82.69% for the area under the receiver operating characteristic curve in the three-class classification task of PHT, outperforming the cross-entropy baseline by +1.01% and +2.38%, respectively. These results demonstrate leading performance in PHT multi-class classification diagnostic tasks and offer an effective solution for the direct diagnosis of PHT based on CT images.",
+  "authors": [
+    {
+      "name": "Cai, Wuque",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Jiayi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Hongze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tong, Huan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Dezhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Daqing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4338_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

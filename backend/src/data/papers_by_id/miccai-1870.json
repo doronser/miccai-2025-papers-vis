@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1870",
+  "title": "Exploring Text-enhanced Mixture-of-Experts for Semi-supervised Medical Image Segmentation with Composite Data",
+  "abstract": "Semi-supervised learning (SSL) has emerged as an effective approach to reduce reliance on expensive labeled data by leveraging large amounts of unlabeled data.\nHowever, existing SSL methods predominantly focus on visual data in isolation. Although text-enhanced SSL approaches integrate supplementary textual information, they still treat image-text pairs independently. In this paper, we explore the potential of jointly learning from related text-image datasets to further advance the capabilities of SSL.\nTo this end, we introduce a novel text-enhanced Mixture-of-Experts (MoE) model, augmented with textual information, for semi-supervised medical image segmentation (TextMoE).\nTextMoE incorporates a universal vision encoder and a text-assisted MoE (TMoE) decoder, enabling it to simultaneously process CT-text and X-Ray-text data within a unified framework.\nTo achieve effective knowledge integration from heterogeneous unlabeled data, a content regularization with frequency space exchange is designed, guiding TextMoE to learn modality-invariant representations. Additionally, the proposed TMoE decoder is enhanced by modality indicators, securing the effective fusion of visual and textual features. Finally, a differential loss is introduced to diversify the semantic understanding between visual experts, ensuring complementary insights to the overall interpretation.\nExperiments conducted on two public datasets indicate that TextMoE outperforms SSL and text-assisted SSL methods, achieving superior performance.\nCode is available at: https://github.com/jgfiuuuu/TextMoE.",
+  "authors": [
+    {
+      "name": "Zeng, Qingjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Huan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Xinke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Zilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1870_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

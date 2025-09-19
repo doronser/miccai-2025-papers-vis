@@ -1,0 +1,59 @@
+{
+  "id": "miccai-3145",
+  "title": "PTCMIL: Multiple Instance Learning via Prompt Token Clustering for Whole Slide Image Analysis",
+  "abstract": "Multiple Instance Learning (MIL) has advanced WSI analysis but struggles with the complexity and heterogeneity of WSIs. Existing MIL methods face challenges in aggregating diverse patch information into robust WSI representations. While ViTs and clustering-based approaches show promise, they are computationally intensive and fail to capture task-specific and slide-specific variability. To address these limitations, we propose PTCMIL, a novel Prompt Token Clustering-based ViT for MIL aggregation. By introducing learnable prompt tokens into the ViT backbone, PTCMIL unifies clustering and prediction tasks in an end-to-end manner. It dynamically aligns clustering with downstream tasks, using projection-based clustering tailored to each WSI, reducing complexity while preserving patch heterogeneity. Through token merging and prototype-based pooling, PTCMIL efficiently captures task-relevant patterns. Extensive experiments on eight datasets demonstrate its superior performance in classification and survival analysis tasks, outperforming state-of-the-art methods. Systematic ablation studies confirm its robustness and strong interpretability. The code is released at https://github.com/ubc-tea/PTCMIL.",
+  "authors": [
+    {
+      "name": "Zhao, Beidi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, SangMook",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Zu-hua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaoxiao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3145_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

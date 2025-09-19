@@ -1,0 +1,55 @@
+{
+  "id": "miccai-1281",
+  "title": "Spatial Aggregation for Semi-supervised Active Learning in 3D Medical Image Segmentation",
+  "abstract": "Existing active learning (AL)-based 3D medical image segmentation methods often select images, slices, or patches as isolated entities, overlooking inter-slice spatial relationships in 3D images. Additionally, AL methods train the segmentation model on labeled data only and ignore valuable unlabeled data. Both factors limit its ability to further reduce labeled data needs. To address these problems, we propose a novel semi-supervised AL approach termed SpaTial AggRegation (STAR), which enables the model to learn from unlabeled data beyond annotated samples by leveraging spatial correlations between slices, reducing labeling costs. In each AL iteration, STAR employs a spatial cross-attention mechanism to transfer relevant knowledge from adjacent labeled slices to unlabeled ones by generating pseudo-labels. These pseudo-labeled slices and queried slices are used to train the segmentation model. The experimental results indicate that STAR outperforms other state-of-the-art AL methods, achieving fully supervised 3D segmentation performance with as little as 18\\%-19\\% of the labeled data. The code is available at https://anonymous.4open.science/r/STAR-24BE.",
+  "authors": [
+    {
+      "name": "Ma, Siteng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Honghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Dairui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Curran, Kathleen M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lawlor, Aonghus",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Ruihai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1281_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

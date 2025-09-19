@@ -1,0 +1,63 @@
+{
+  "id": "miccai-2799",
+  "title": "Bridging Knowledge Discrepancy in Retinal Image Analysis through Federated Multi-Task Learning",
+  "abstract": "Retinal image analysis not only reveals the microscopic structure of the eye but also provides insights into overall health status. Therefore, employing multi-task learning to simultaneously address disease recognition and segmentation in retinal images can improve the accuracy and comprehensiveness of the analysis. Given the need for medical privacy, federated multi-task learning provides an effective solution for retinal image analysis. However, existing federated multi-task learning studies fail to address client resource constraints or knowledge discrepancies between global and local models. To address these challenges, we propose FedBKD, a novel federated multi-task learning framework for retinal image analysis. FedBKD leverages a server-side foundation model and effectively bridges the knowledge discrepancy between the clients and the server. Before local training, the adaptive sub-model extraction module ranks the activation values of neurons in the global model. It extracts the most representative sub-model based on computational resources, thereby facilitating the local adaptation of the global model. Additionally, we design a feature consistency optimization strategy to ensure alignment between the local model and the global foundation model’s prior knowledge. This reduces error accumulation in the client sub-model during multi-task learning and ensures better adaptation to local tasks. Experimental results on the multi-center retinal image dataset demonstrate that FedBKD achieves state-of-the-art performance. Our code is available at https://github.com/Yjing07/FedBKD.git.",
+  "authors": [
+    {
+      "name": "Yang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Yuxi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Jin-Gang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Shuting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Du",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jiacheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2799_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

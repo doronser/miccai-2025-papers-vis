@@ -1,0 +1,57 @@
+{
+  "id": "miccai-3331",
+  "title": "EFMS-Net: Efficient Frequency-Enhanced Multi-Scale Network for Ischemic Stroke Segmentation",
+  "abstract": "The combination of multi-modal medical imaging for ischemic stroke infarct segmentation is crucial for clinical treatment. However, existing methods often improve segmentation accuracy at the cost of efficiency, rendering them impractical for mobile health applications. To overcome this limitation, we integrate Mamba, a state-space model for long-sequence modeling, with convolutional operations to capture both global and local dependencies. To further enhance the feature representation, we incorporate multi-scale feature interaction and frequency-domain processing. As a result, we propose a novel Efficient Frequency-enhanced Multi-Scale Network (EFMS-Net) to achieve an optimal trade-off between segmentation accuracy, inference speed, and parameter efficiency. Extensive experiments on four datasets demonstrate the effectiveness and efficiency of EFMS-Net. We release a new dataset to promote further research in ischemic stroke infarct segmentation. The dataset is available on GitHub.",
+  "authors": [
+    {
+      "name": "Yang, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Shaowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Xuwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Zhibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Lianfen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhan, Yihong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3331_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

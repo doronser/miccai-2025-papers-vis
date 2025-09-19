@@ -1,0 +1,41 @@
+{
+  "id": "miccai-5132",
+  "title": "Pathology-aware Virtual H&E Staining of Section-free Thick Tissues with Semantic Contrastive Guidance",
+  "abstract": "The conventional histopathology paradigm, while remaining the gold standard for clinical diagnosis, is inherently constrained by its lengthy processing time. The emergence of virtual staining in computational histopathology has catalyzed significant research efforts toward developing rapid and chemical-free staining techniques. However, current methodologies are primarily applicable to well-prepared thin tissue sections and lack the capability to effectively process the section-free thick tissues. In this work, we present a novel approach that utilizes fluorescence light-sheet microscopy to directly image thick tissue samples, followed by image translation to generate virtually stained hematoxylin and eosin (H&E) images. To overcome the insufficient exploration of pathological features in current methods, we introduce Semantic Contrastive Guidance (SemCG), which enforces morphological consistency between fluorescence inputs and H&E outputs. Additionally, we incorporate subtype-aware classification to enhance the discriminator’s ability to learn domain-specific pathological knowledge. Experimental results demonstrate that our proposed modules offer an advantage in generating high-quality images. We anticipate that this sectioning-free virtual staining framework will have significant potential for clinical rapid pathology applications, offering a transformative improvement to current histological workflows. Our code is available at https://github.com/commashy/ SemCG-Stain.",
+  "authors": [
+    {
+      "name": "Oh, Jintaek",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Lulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Terence T. W.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5132_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

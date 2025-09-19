@@ -1,0 +1,34 @@
+{
+  "id": "miccai-1332",
+  "title": "Inter-class separability loss for weakly supervised mutually exclusive multiclass segmentation of brain tumor lesions",
+  "abstract": "Medical image segmentation is essential for diagnosis and treatment planning, however fully supervised deep learning methods require expensive pixel-level annotations. Weakly supervised semantic segmentation (WSSS) using class activation mapping (CAM) reduces this burden by utilizing image-level labels. While binary CAM has shown promising results, multiclass CAM remains under-explored and suffers from reduced accuracy due to weak localization signals. To address this, we propose a novel approach that improves multiclass WSSS by leveraging binary CAM to guide multiclass CAM, enhancing feature representation, inter-class boundary segmentation and prediction accuracy. Additionally, we introduce novel inter-class separability loss and agreement loss designed to enhance multiclass CAM learning by enforcing spatial consistency and class separability. Experimental results on brain tumor segmentation (BraTS) datasets demonstrate that our approach significantly enhances multiclass weakly supervised segmentation accuracy, outperforming existing methods. Our code is available at https://github.com/Vivek-Dhamale/WSS-Interclass-Sep.",
+  "authors": [
+    {
+      "name": "Dhamale, Vivek",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sundaresan, Vaanathi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1332_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

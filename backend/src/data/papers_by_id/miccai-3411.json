@@ -1,0 +1,56 @@
+{
+  "id": "miccai-3411",
+  "title": "MMBNA: Masked Multiview Brain Network Analysis via Disentangling for Alzheimer’s Early Diagnosis with fMRI",
+  "abstract": "Alzheimer’s disease (AD), as a progressive neurodegenerative disorder, poses a growing global health threat, making early diagnosis imperative. Multiview brain network (BN) analysis from resting-state functional MRI (rs-fMRI) has emerged as a promising approach, where brain regions and their interactions are modeled as nodes and edges across complementary views. However, existing methods have limitations. First , they rely on single-measure BNs with fixed nodes and edges, potentially insufficient for capturing complex brain interactions. Second , they lack effective separation of view-consistent and view-specific representations, leading to redundancy and reduced generalizability. To address these challenges, we propose a novel Masked Multiview Brain Network Analysis (MMBNA) framework, integrating multi-measure BNs construction, random masking, and disentangled representation learning. Specifically, we first construct multiview BNs via multi-measure connectivity (capturing full/partial/nonlinear correlations) and multi-granularity masking (at node/edge/feature levels), enriching spatio-temporal-topological diversity while preserving semantic similarity. Subsequently, we perform view-consistent representation learning via cross-view masking, and then a disentangling mechanism is introduced to learn a purer view-specific representation to filter out the redundancy from view-consistent representations, resulting in more compact multiview brain representations. Experiments on the ADNI2 subset of the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset demonstrate the effectiveness of the proposed method, achieving significant improvements in diagnostic accuracy and interpretability compared to state-of-the-art approaches.",
+  "authors": [
+    {
+      "name": "Meng, Dequan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Junze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xi, Xiaoming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiao, Lishan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Limei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mingxia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3411_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

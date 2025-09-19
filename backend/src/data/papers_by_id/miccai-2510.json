@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2510",
+  "title": "Equitable Federated Learning with NCA",
+  "abstract": "Federated Learning (FL) is revolutionizing medical imaging by enabling collaborative model training across institutions without sharing sensitive patient data, ensuring compliance with stringent privacy regulations such as HIPAA and GDPR. This approach is particularly valuable in low- and middle-income countries (LMICs), where access to annotated training data and trained medical professionals is limited. However, FL adoption in LMICs faces significant barriers, including limited high-performance computing resources and unreliable internet connectivity. To address these challenges, we introduce FedNCA, a novel federated learning system tailored for medical image segmentation tasks. FedNCA leverages the lightweight MedNCA architecture, enabling training on low-cost edge devices, such as widely available smartphones, while minimizing communication costs. Additionally, the architecture’s robustness against data reconstruction attacks enhances privacy and security. By overcoming infrastructural and security challenges, FedNCA paves the way for inclusive, efficient, and privacy-preserving medical imaging solutions, fostering equitable healthcare advancements in resource-constrained regions.",
+  "authors": [
+    {
+      "name": "Lemke, Nick",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Konstantin, Mirko",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Krumb, Henry John",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kalkhof, John",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stieber, Jonathan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mukhopadhyay, Anirban",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2510_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

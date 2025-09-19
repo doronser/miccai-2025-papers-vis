@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2632",
+  "title": "Tumor Microenvironment-Guided Fine-Tuning of Pathology Foundation Models for Esophageal Squamous Cell Carcinoma Immunotherapy Response Prediction",
+  "abstract": "Esophageal squamous cell carcinoma (ESCC) has high incidence and mortality rates. While immunotherapy shows promise for some ESCC patients, others can experience severe side effects. Accurate pre-screening of individual patients’ immunotherapy response to ESCC is a crucial but difficult task. Subtle differences in pre-treatment biomarkers hinder physicians’ judgment in pathological diagnosis. While pathological foundation models (PFMs) have shown potential in pathology image analysis, traditional PFMs focused on image-level features still struggle to capture nuanced preoperative characteristic differences. To address this, we propose a fine-tuning framework for PFMs based on the tumor microenvironment (TME). First, morphological and topological attributes are extracted from larger field-of-view patches to better analyze TME interactions. Next, we utilize PFMs which are typically constrained to small inputs to extract image features. To address this limitation, larger patches are subdivided to prevent precision loss, with trainable position encodings maintaining relative spatial positional relationships to guide the re-aggregation of large patch-level representations. Finally, a TME-guided learning algorithm trains all trainable layers to understand ESCC-specific characteristics. Our framework demonstrates superior performance in the downstream task of predicting ESCC immunotherapy response compared to those fine-tuned using self-supervised learning methods. By allowing flexibility in patch sizes, our approach captures more contextual information. Code is available at https://github.com/stoney03/ESCC.",
+  "authors": [
+    {
+      "name": "Lin, Yixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Weiping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Chenxu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xinxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Hongxue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2632_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

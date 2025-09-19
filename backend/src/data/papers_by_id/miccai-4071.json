@@ -1,0 +1,66 @@
+{
+  "id": "miccai-4071",
+  "title": "Unsupervised Discovery of Spatiotypes and Context-Aware Graph Neural Networks for Modeling Clinical Endpoints",
+  "abstract": "Human tissue samples exhibit remarkable cellular and structural diversity, where alterations in the spatial arrangement of cells can signal the onset or progression of disease. Therefore, characterizing these spatial cellular interactions and linking them to clinical endpoints is critical to advance our understanding of disease biology and improve patient care. In this work, we introduce a \\emph{band descriptor} that quantifies the local neighborhood of each cell by computing the relative abundance of neighboring cell types using concentric bands. We demonstrate the efficacy of our approach by highlighting two key benefits: it enables the unsupervised discovery of \\emph{spatiotypes} (substructures defined by local cellular configurations), and it provides an explicit encoding of spatial context in cell-level graphs — \n capturing long-range cell interactions across tissue. Our experiments in a lung tissue cohort reveal distinct spatial patterns of cellular arrangement that differentiate control from disease samples and may also reflect disease progression (unaffected, less affected, or more affected). Furthermore, by explicitly modeling spatial context, our band descriptor enhances node-level representations, enabling an end-to-end Graph Neural Network (GNN) to achieve high accuracy in a clinical prediction task with fewer layers. This reduction in network depth decreases over-smoothing and improves interpretability, underscoring our approach’s potential for broad adoption in tissue-based studies and clinical applications.",
+  "authors": [
+    {
+      "name": "Dawood, Muhammad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Thomas, Emily",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cooper, Rosalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pescia, Carlo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sozanska, Anna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ryou, Hosuk",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Royston, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rittscher, Jens",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4071_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

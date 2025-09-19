@@ -1,0 +1,39 @@
+{
+  "id": "miccai-0384",
+  "title": "TransSino: Prior Sinogram Pattern-Based Transformer for Limited-Angle CT Image Segmentation",
+  "abstract": "Medical diagnosis using limited-angle computed tomography (LACT) is a beneficial approach for patients due to advantages such as faster scanning times and lower radiation doses. However, images reconstructed from LACT contain limited information, leading to significant artifacts and making an accurate diagnosis more challenging. Although various methods have been proposed to reconstruct LACT images into full-angle computed tomography (CT) images, they primarily focus on improving image quality and operate independently of lesion segmentation models, neglecting critical lesion-related information. In this paper, we propose TransSino, a transformer-based medical image segmentation model that operates in the sinogram domain of LACT. TransSino learns an auxiliary task to reconstruct the unmeasured regions in the sinogram domain for robust segmentation performance. Specifically, it analyzes the sequential nature of the sinogram using the transformer from language models and reconstructs features for the unmeasured regions by using prior sinogram patterns. Moreover, we introduce a contrastive abnormal feature loss to enhance the contrast between abnormal and normal feature regions. Experimental results confirm that TransSino outperforms existing medical segmentation methods on LACT images. The code is available at https://github.com/jhyoon964/TransSino.",
+  "authors": [
+    {
+      "name": "Yoon, Jae Hyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Yeong Jong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoo, Seok Bong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0384_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

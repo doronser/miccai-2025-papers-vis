@@ -1,0 +1,43 @@
+{
+  "id": "miccai-2702",
+  "title": "MedNNS: Supernet-based Medical Task-Adaptive Neural Network Search",
+  "abstract": "Deep learning (DL) has achieved remarkable progress in the field of medical imaging. However, adapting DL models to medical tasks remains a significant challenge, primarily due to two key factors: (1) architecture selection, as different tasks necessitate specialized model designs, and (2) weight initialization, which directly impacts the convergence speed and final performance of the models. Although transfer learning from ImageNet is a widely adopted strategy, its effectiveness is constrained by the substantial differences between natural and medical images. To address these challenges, we introduce Medical Neural Network Search (MedNNS), the first Neural Network Search framework for medical imaging applications. MedNNS jointly optimizes architecture selection and weight initialization by constructing a meta-space that encodes datasets and models based on how well they perform together. We build this space using a Supernetwork-based approach, expanding the model zoo size by 51x times over previous state-of-the-art (SOTA) methods. Moreover, we introduce rank loss and Fréchet Inception Distance (FID) loss into the construction of the space to capture inter-model and inter-dataset relationships, thereby achieving more accurate alignment in the meta-space. Experimental results across multiple datasets demonstrate that MedNNS significantly outperforms both ImageNet pretrained DL models and SOTA Neural Architecture Search (NAS) methods, achieving an average accuracy improvement of 1.7% across datasets while converging substantially faster. The code and the processed meta-space is available at https://github.com/BioMedIA-MBZUAI/MedNNS.",
+  "authors": [
+    {
+      "name": "Mecharbat, Lotfi Abdelkrim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Almakky, Ibrahim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Takac, Martin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yaqub, Mohammad",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Applications -> Other",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2702_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

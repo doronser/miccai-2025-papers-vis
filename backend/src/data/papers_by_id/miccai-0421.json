@@ -1,0 +1,50 @@
+{
+  "id": "miccai-0421",
+  "title": "GoCa: Trustworthy Multi-Modal RAG with Explicit Thinking Distillation for Reliable Decision-Making in Med-LVLMs",
+  "abstract": "Medical Large Vision-Language Models (Med-LVLMs) have shown promise in enhancing medical diagnosis by enabling interactive and knowledge-driven healthcare applications. However, these models often suffer from factual hallucinations which may lead to incorrect diagnoses. Retrieval-augmented generation (RAG) has been proposed to mitigate these issues, yet its effectiveness in multi-modal medical applications is hindered by over-reliance on retrieved data and the opacity of text-based reasoning.\nTo address these challenges, we propose GoCa, a multi-modal RAG system based on chain-of-thought (CoT) distillation\nand explicit thought optimization, which is designed to enhance both the factuality and explainability of Med-LVLMs. GoCa consists of three key components: (1) a self-evolving CoT framework that leverages multi-agent collaboration to refine diagnostic reasoning iteratively and (2) a seamless, preference-guided optimization mechanism that distills high-quality CoT reasoning using preference tuning and (3) an adaptive Monte Carlo-like top-k selection strategy. These innovations ensure that the RAG process remains logically transparent and adaptable, significantly improving consistency when integrating retrieve contexts.\nExperimental results across multiple datasets on medical visual question answering (Med-VQA) demonstrate that GoCa outperforms several recent state-of-the-art methods, achieving superior factual accuracy and coherence. The code will be available.",
+  "authors": [
+    {
+      "name": "Dai, Pengyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ou, Yafei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yuqiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Ze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Suzuki, Kenji",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0421_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1616",
+  "title": "DSFC: Deformation-Aware Learning Strategy via Self-sustaining Feedback Cycle for Medical Vision Foundation Model Domain Adaptation",
+  "abstract": "Vision foundation model, despite strong segmentation capabilities enabled by pretraining on large-scale data, remain underexplored in specific medical visual concept segmentation tasks. Medical imaging presents unique challenges: pixel intensity differences between target regions and surrounding structures are often subtle, and significant variations in the shape, size, and location of anatomical structures limit the effectiveness of traditional pixel-similarity-based alignment strategies.\nThis paper proposes a Deformation-Aware Learning Strategy via Self-sustaining Feedback Cycle (DSFC) for medical image segmentation. The framework introduces a dual-deformation perturbation mechanism, combining global Gaussian-distributed deformations and target-focused local deformations, to preserve anatomical patterns while capturing non-rigid variations. A Hard Example Adaptive (HEA) loss is proposed to enhance training stability and mask accuracy. DSFC establishes a closed-loop training process, alternately optimizing the segmentation model and destroyer to improve anatomical understanding. \nOur extensive experiments on public datasets with various dimensions, organs demonstrate that DSFC significantly enhances model performance in fully supervised training settings without the need for increasing the samples. and its components are effective. Our code will be publicly available.",
+  "authors": [
+    {
+      "name": "Lin, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Hengyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Liansheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1616_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

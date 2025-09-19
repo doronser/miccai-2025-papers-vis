@@ -1,0 +1,76 @@
+{
+  "id": "miccai-0830",
+  "title": "D-CAM: Learning Generalizable Weakly-Supervised Medical Image Segmentation from Domain-invariant CAM",
+  "abstract": "Weakly-supervised medical image segmentation with only image-level annotation is particularly challenging to infer precise pixel-wise predictions. \nExisting works are usually highly restricted by the assumption that the medical images for training and testing are under the same distribution.\nHowever, a robust weakly-supervised segmentation model needs to show accurate inference on medical images from unseen distributions.\nDifferent feature distributions can lead to a dramatic shift in the feature activation and class activation map (CAM), which in turn leads to the degradation of pseudo labels.\nIn this paper, we aim to learn generalizable weakly-supervised medical image segmentation by focusing on enhancing the domain invariance for pseudo labels. \nA novel domain-invariant CAM learning scheme (D-CAM) is proposed, in which the content and style are decoupled during training.\nBy inferring domain-invariant pseudo labels, the supervision of a segmentation model is more generalizable to different target domains. \nExtensive experiments under multiple generalized medical image segmentation settings show the state-of-the-art performance of our D-CAM. Source code is available at https://github.com/JingjunYi/D-CAM.",
+  "authors": [
+    {
+      "name": "Yi, Jingjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bi, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhan, Haolan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Huimin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yuexiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shaoxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Xian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yefeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Feiyue",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0830_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "miccai-2865",
+  "title": "Unisyn: A Generative Foundation Model for Universal Medical Image Synthesis across MRI, CT and PET",
+  "abstract": "Multi-modal brain imaging, such as MRI, CT, and PET, is popularly used in clinical practice and has significantly advanced our understanding of cognition and neurological diseases. Due to scan time and cost, these imaging modalities are not always available. Cross-modality synthesis can alleviate this issue. However, the existing cross-modality synthesis methods are typically task- or modality-specific, leading to performance degradation when applied to heterogeneous real-world imaging data. Here, we propose UniSyn, a unified framework capable of synthesizing target imaging modalities using specified acquisition parameters from any available ones. Specifically, UniSyn first learns robust metadata representations through image-text alignment on large-scale multimodal neuroimaging datasets. Then, a cross-modality synthesis framework is introduced to leverage the learned metadata representations for guiding the generation of metadata-specified target images. To enhance interpretable metadata-driven control over image synthesis across diverse imaging modalities, we introduce a dual-parameter arithmetic operation that transforms text features into two key parameters, for capturing contrast variations and intensity shifts induced by different modalities and subjects, respectively. Extensive experiments on multi-institutional brain imaging datasets demonstrate that our UniSyn surpasses the existing cross-modality synthesis approaches in synthesis fidelity and accuracy, enabling the generation of missing imaging modalities tailored to specific clinical and research needs.",
+  "authors": [
+    {
+      "name": "Wang, Yulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiong, Honglin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Kaicong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jiameng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Ziyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Yuanzhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2865_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

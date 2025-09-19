@@ -1,0 +1,42 @@
+{
+  "id": "miccai-2669",
+  "title": "DCT-Net: Dual-branch CT Reconstruction from Orthogonal X-rays with Diffusion Model and Contrastive Learning",
+  "abstract": "Computed tomography (CT) reconstruction from X-ray images possesses significant advantages, including lower radiation exposure, reduced costs, and better accessibility than direct CT imaging. However, insufficient effective input samples caused by data volume under the moderate level or occlusion of partial soft tissues by skeletal structures in X-rays often hold back achieving high-quality image reconstruction. Additionally, contrasted with voxel-level differences, the texture and structure features are significant for image reconstruction. In virtue of these challenges, this study proposes an efficient approach named Dual-branch CT Network (DCT-Net). It first integrates a conditional diffusion model for data augmentation, which mitigates data scarcity and achieves bone suppression. Subsequently, a dual-branch network in DCT-Net is leveraged to parallel process both augmented and raw data. In the framework, a perceptual loss based on high-level semantic features performs as the contrastive loss. Furthermore, it combines the voxel-level and adversarial losses to optimize the generator. However, the discriminator optimization only depends on the adversarial loss. Experimental results on two public datasets demonstrate that DCT-Net outperforms the state-of-the-art works, appearing to have promising potential among clinical applications.",
+  "authors": [
+    {
+      "name": "Zhang, Zhiyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Cong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Jijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Zhijun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2669_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

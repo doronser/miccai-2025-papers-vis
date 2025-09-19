@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1363",
+  "title": "Flexibly Distilled 3D Rectified Flow with Anatomical Constraints for Developmental Infant Brain MRI Prediction",
+  "abstract": "Longitudinal prediction of infant brain MRIs is crucial for individualized neurodevelopment tracking and disorder forecasting. However, existing methods, such as diffusion-based generative models, often struggle to capture the complex spatiotemporal dynamics of developing brains, leading to unreliable predictions that lack subject-specific, anatomically consistent growth patterns. To address this, we propose a \\textbf{Flexibly Distilled 3D Rectified Flow (FDRF)} framework, which integrates anatomical constraints for dual-stream predictions of volumetric images and tissue maps along developmental trajectories. Our framework features an age-conditioned feature fusion module for controllable prediction with targeted age appearances and employs anatomical constraints derived from segmentation labels and high-frequency image details to ensure subject-level spatiotemporal consistency. Additionally, we introduce a flexible distillation of rectified flow, enabling a unified one-step generative model for high-fidelity cross-time predictions while preserving individualized anatomical details. Given 6-month MRIs and tissue maps as the input, our model reliably predicts their spatiotemporal growths at 12 and 24 months, outperforming existing diffusion-based baselines by relatively large margins. Our codes can be found at \\url{https://github.com/ladderlab-xjtu/FDRF}",
+  "authors": [
+    {
+      "name": "Wang, Haifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Zehua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Heng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Xinmei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Fan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lian, Chunfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Jianhua",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1363_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

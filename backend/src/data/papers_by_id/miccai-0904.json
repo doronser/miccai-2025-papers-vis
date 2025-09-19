@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0904",
+  "title": "Pose as Clinical Prior: Learning Dual Representations for Scoliosis Screening",
+  "abstract": "Recent AI-based scoliosis screening methods primarily rely on large-scale silhouette datasets, often neglecting clinically relevant postural asymmetries—key indicators in traditional screening. In contrast, pose data provide an intuitive skeletal representation, enhancing clinical interpretability across various medical applications. However, pose-based scoliosis screening remains underexplored due to two main challenges: (1) the scarcity of large-scale, annotated pose datasets; and (2) the discrete and noise-sensitive nature of raw pose coordinates, which hinders the modeling of subtle asymmetries. To address these limitations, we introduce \\textbf{Scoliosis1K-Pose}, a 2D human pose annotation set that extends the original Scoliosis1K dataset, comprising 447,900 frames of 2D keypoints from 1,050 adolescents. Building on this dataset, we introduce the \\textbf{Dual Representation Framework (DRF)}, which integrates a continuous \\textit{skeleton map} to preserve spatial structure with a discrete \\textit{Postural Asymmetry Vector (PAV)} that encodes clinically relevant asymmetry descriptors. A novel \\textit{PAV-Guided Attention (PGA)} module further uses the PAV as clinical prior to direct feature extraction from the skeleton map, focusing on clinically meaningful asymmetries. Extensive experiments demonstrate that DRF achieves state-of-the-art performance. Visualizations further confirm that the model leverages clinical asymmetry cues to guide feature extraction and promote synergy between its dual representations. The dataset and code are publicly available at \\url{https://zhouzi180.github.io/Scoliosis1K/}.",
+  "authors": [
+    {
+      "name": "Zhou, Zirui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Zizhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Dongyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "An, Fengwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Shiqi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0904_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

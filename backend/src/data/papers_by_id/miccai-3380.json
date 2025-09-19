@@ -1,0 +1,58 @@
+{
+  "id": "miccai-3380",
+  "title": "Uncertainty-Aware Multi-Expert Knowledge Distillation for Imbalanced Disease Grading",
+  "abstract": "Automatic disease image grading is a significant application of artificial intelligence for healthcare, enabling faster and more accurate patient assessments. \nHowever, domain shifts, which is exacerbated by data imbalance, introduces bias into the model, posing deployment difficulties in clinical applications. \nTo address the problem, we propose a novel \\textbf{U}ncertainty-aware \\textbf{M}ulti-experts \\textbf{K}nowledge \\textbf{D}istillation (UMKD) framework to transfer knowledge from multiple expert models to a single student model. \nSpecifically, to extract discriminative features, UMKD decouples task-agnostic and task-specific features with shallow and compact feature alignment in the feature space. \nAt the output space, an uncertainty-aware decoupled distillation (UDD) mechanism dynamically adjusts knowledge transfer weights based on expert model uncertainties, ensuring robust and reliable distillation.\nAdditionally, UMKD also tackles the problems of model architecture heterogeneity and distribution discrepancies between source and target domains, which are inadequately tackled by previous KD approaches.\nExtensive experiments on histology prostate grading (\\textit{SICAPv2}) and fundus image grading (\\textit{APTOS}) demonstrate that UMKD achieves a new state-of-the-art in both source-imbalanced and target-imbalanced scenarios, offering a robust and practical solution for real-world disease image grading.",
+  "authors": [
+    {
+      "name": "Tong, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shangde",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Ke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Hongxia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ying, Haochao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3380_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

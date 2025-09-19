@@ -1,0 +1,46 @@
+{
+  "id": "miccai-4723",
+  "title": "MammoTracker: Mask-Guided Lesion Tracking in Temporal Mammograms",
+  "abstract": "Accurate lesion tracking in temporal mammograms is essential for monitoring breast cancer progression and facilitating early diagnosis. However, automated lesion correspondence across exams remains a challenges in computer-aided diagnosis (CAD) systems, limiting their effectiveness. We propose MammoTracker, a mask-guided lesion tracking framework that automates lesion localization across consecutively exams. Our approach follows a coarse-to-fine strategy incorporating three key modules: global search, local search, and score refinement. To support large-scale training and evaluation, we introduce a new dataset with curated prior-exam annotations for 730 mass and calcification cases from the public EMBED mammogram dataset, yielding over 20000 lesion pairs, making it the largest known resource for temporal lesion tracking in mammograms. Experimental results demonstrate that MammoTracker achieves 0.455 average overlap and 0.509 accuracy, surpassing baseline models by 8%, highlighting its potential to enhance CAD-based lesion progression analysis. Our dataset will be available at https://gitlab.oit.duke.edu/railabs/LoGroup/mammotracker.",
+  "authors": [
+    {
+      "name": "Liu, Xuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Yinhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ryser, Marc D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grimm, Lars J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lo, Joseph Y.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4723_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

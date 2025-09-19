@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1909",
+  "title": "Clinical Prior-Guided Tumor Generation for Breast Ultrasound with Cross Domain Adaptation",
+  "abstract": "Computer-aided diagnosis (CAD) has become an essential solution for breast ultrasound (BUS) image analysis; however, the development of CAD systems is hindered by high-quality data scarcity and annotation challenges. We propose a novel clinical prior-guided tumor generation method that allows precise control over tumor characteristics, such as size, shape, and texture, using clinical knowledge from textual descriptions and structural masks. Additionally, our method enables cross-domain data generation, enhancing the adaptability of the synthetic data across different imaging conditions. Experiments on three public BUS datasets demonstrate the favorable generation quality and effective cross-domain adaptation of our method. Moreover, the improved accuracy in downstream classification and segmentation tasks further show the clinical utility and practical effectiveness of our synthetic images in supporting breast cancer diagnosis. The code is available at https://github.com/Violetphy/Clinical-Prior-Tumor-Generation.",
+  "authors": [
+    {
+      "name": "Pan, Haoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mo, Junyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Hongxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Chu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Zijian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Qingqing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1909_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

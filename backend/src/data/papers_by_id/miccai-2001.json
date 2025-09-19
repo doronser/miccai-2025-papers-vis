@@ -1,0 +1,38 @@
+{
+  "id": "miccai-2001",
+  "title": "Conformal Risk Control for Semantic Uncertainty Quantification in Computed Tomography",
+  "abstract": "Uncertainty quantification is necessary for developers, physicians, and regulatory agencies to build trust in machine learning predictors and improve patient care. Beyond measuring uncertainty, it is crucial to express it in clinically meaningful terms that provide actionable insights. This work introduces a conformal risk control (CRC) procedure for organ-dependent uncertainty estimation, ensuring high-probability coverage of the ground-truth image. We first present a high-dimensional CRC procedure that leverages recent ideas of length minimization. We make this procedure semantically adaptive to each patient’s anatomy and positioning of organs. Our method, semCRC, provides tighter uncertainty intervals with valid coverage on real-world computed tomography data while communicating uncertainty with clinically relevant features.",
+  "authors": [
+    {
+      "name": "Teneggi, Jacopo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stayman, J. Webster",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sulam, Jeremias",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Uncertainty",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2001_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

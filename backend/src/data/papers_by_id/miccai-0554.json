@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0554",
+  "title": "SAGCNet: Spatial-Aware Graph Completion Network for Missing Slice Imputation in Population CMR Imaging",
+  "abstract": "Magnetic resonance imaging (MRI) provides detailed soft-tissue characteristics that assist in disease diagnosis and screening. However, the accuracy of clinical practice is often hindered by missing or unusable slices due to various factors. Volumetric MRI synthesis methods have been developed to address this issue by imputing missing slices from available ones. The inherent 3D nature of volumetric MRI data, such as cardiac magnetic resonance (CMR), poses significant challenges for missing slice imputation approaches, including (1) the difficulty of modeling local inter-slice correlations and dependencies of volumetric slices, and (2) the limited exploration of crucial 3D spatial information and global context. In this study, to mitigate these issues, we present \\textbf{S}patial-\\textbf{A}ware \\textbf{G}raph \\textbf{C}ompletion \\textbf{N}etwork \\textbf{(SAGCNet)} to overcome the dependency on complete volumetric data, featuring two main innovations: (1) a volumetric slice graph completion module that incorporates the inter-slice relationships into a graph structure, and (2) a volumetric spatial adapter component that enables our model to effectively capture and utilize various forms of 3D spatial context. Extensive experiments on cardiac MRI datasets demonstrate that SAGCNet is capable of synthesizing absent CMR slices, outperforming competitive state-of-the-art MRI synthesis methods both quantitatively and qualitatively. Notably, our model maintains superior performance even with limited slice data.",
+  "authors": [
+    {
+      "name": "Liu, Junkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Aung, Nay",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arvanitis, Theodoros N.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Piechnik, Stefan K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lima, Joao A. C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Petersen, Steffen E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Le",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0554_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "miccai-1810",
+  "title": "Temporal Modulated Multi-Scale Deformation Fusion via Knowledge Distillation for 4D Medical Image Interpolation",
+  "abstract": "The acquisition of 4D medical images, which are crucial for monitoring disease progression, poses significant challenges due to the expensive cost and the imaging mechanism constraints. Existing solutions attempt to interpolate the volumes between the acquired volumes with linearly scaling the initial deformation between two distant phases like end-systole and end-diastole, to generate detailed 4D image. However, the simple linear motion assumption fails to accurately model the anisotropic deformation induced by respiration and heartbeat. In this paper, we propose a temporal modulated multi-scale deformation fusion framework for 4D medical image interpolation via knowledge distillation, to directly generate the bidirectional deformation and volume at any intermediate time without the sub-optimal linear motion assumption. Guided by the teacher model with extensive priors, the student model, modulated by surrogate timestamps, learns to approximate the deformation modeling ability of teacher without any need for intermediate volumes. Particularly, a multi-scale deformation fusion decoder is proposed including the temporal modulated deformation feature generator and the deformation fusion module. The former generates modulation parameters with timestamps for temporal-aware transformation and then models the bidirectional deformation in a coarse-to-fine manner. While the latter adaptively fuse deformation features at different scales to improve the accuracy of predicted deformation. Compared with nine state-of-the-art methods, the proposed method achieves superior performance on two public datasets, fully demonstrating its effectiveness and generalization.",
+  "authors": [
+    {
+      "name": "Zhang, Jiaju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ai, Danni",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gan, Zhikun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Jingfan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Deqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1810_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

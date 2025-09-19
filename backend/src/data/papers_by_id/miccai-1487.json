@@ -1,0 +1,55 @@
+{
+  "id": "miccai-1487",
+  "title": "Towards Multi-Scenario Generalization: Text-Guided Unified Framework for Low-Dose CT and Total-Body PET Reconstruction",
+  "abstract": "Low-dose computed tomography (LDCT) and low-dose positron emission tomography (LDPET) imaging substantially reduce radiation exposure compared to their normal-dose counterparts, mitigating health risks such as elevated cancer incidence. However, the resulting LDCT and total-body LDPET images are often compromised by noise and artifacts stemming from photon starvation and electronic interference. While supervised reconstruction methods have tackled challenges like over-smoothing and training instability, their generalization is hindered by variations in imaging devices, dosage levels, and modality-specific characteristics. Recent advances in text-guided models have augmented traditional deep learning techniques, offering greater adaptability. Building on this, we propose a Text-guided Unified Framework (TUF) for high-precision reconstruction of LDCT and total-body LDPET images. Leveraging insights from cold diffusion paradigms, TUF introduces a novel mean-preserving degradation operator to model the physical process of image degradation. Additionally, we design a dual-domain fusion network that converts textual inputs into scaling and shifting factors, enabling seamless integration of text cues at each timestep. Extensive experiments across four publicly available datasets reveal that TUF surpasses state-of-the-art methods in both reconstruction quality and generalization across LDCT and total-body LDPET imaging scenarios. The code will be available at \\href{https://github.com/AI-NMI/Text-Guided-Unified-Framework-for-Low-Dose-CT-and-Total-Body-PET-Reconstruction.git}{TUF-code}.",
+  "authors": [
+    {
+      "name": "Wang, Weitao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yanyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Shunjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xue, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Kuangyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Yu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1487_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

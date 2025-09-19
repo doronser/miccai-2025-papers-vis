@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3697",
+  "title": "The Refining of Brain Connectivity Features on Residual Posterior Patterns",
+  "abstract": "In conjunction with graph neural networks (GNNs), functional connectivity analysis based on fMRI data can provide insights into the interaction and communication patterns in brain network, which has gained increasing attention in the diagnosis of neuropsychiatric disorders. However, traditional GNN based models focus primarily on brain regions, with limited attention given to changes in brain connectivity induced by diseases, and often lack specific methods to address noise and outliers. To accurately preserve and analyze connections in brain networks and retain the structure information in the original graph over message passing, we propose an Residual-Posterior Line Graph Network (RP-LGN). RP-LGN innovatively re-models each edge as a node to highlight functional connectivity information. Subsequently, it integrates residual blocks and a single-pass, low-variance Bayesian variational inference method to approximate the true posterior distribution. Bayesian variational posterior facilitates the quantification of uncertainty in model predictions and enhances model robustness in the presence of noise and anomalous data, ultimately promoting more accurate clinical decision-making. Compared with other models,the performance of RP-LGN was validated on the ABIDE and ADHD-200 dataset, with significant accuracy improvements, and revealed significant site-specific differences and unique connection patterns associated with diseases.",
+  "authors": [
+    {
+      "name": "Zha, Xinbei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jiaming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Jin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3697_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "miccai-1789",
+  "title": "Dual Knowledge-Aware Guidance for Source-Free Domain Adaptive Fundus Image Segmentation",
+  "abstract": "Source-free domain adaptation (SFDA), where only a pre-trained source model is available to adapt to the target domain, has gained widespread application in the medical field. Most existing methods overlook low-quality pseudo-labels, i.e., pseudo-labels with boundary semantic confusion, when learning target domain-specific knowledge, leading to the loss of crucial boundary information. Furthermore, focusing solely on the specific knowledge can drive the model shifts in an uncontrollable direction, resulting in model degradation. To address these issues, we propose Dual Knowledge-aware Guidance (DKG), a novel SFDA method that integrates domain-specific knowledge with domain-invariant knowledge to improve transfer performance. Specifically, the pseudo-label calibration scheme is proposed to reduce semantic bias in high-uncertainty pixels, preserving the boundary information of target domain-specific knowledge. To ensure stable training, we propose a domain-invariant knowledge-based loss strategy, leveraging a confidence-guided mechanism and a consistency constraint. Additionally, we also introduce a dynamic balancing loss to address class imbalance. Extensive experiments on cross-domain fundus image segmentation show that DKG achieves state-of-the-art performance. Code is available at https://github.com/Hanshuqian/DKG.",
+  "authors": [
+    {
+      "name": "Chen, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hailing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Chunwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Guitao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1789_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

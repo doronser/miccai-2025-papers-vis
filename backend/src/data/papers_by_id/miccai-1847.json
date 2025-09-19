@@ -1,0 +1,44 @@
+{
+  "id": "miccai-1847",
+  "title": "Autoregressive Medical Image Segmentation via Next-Scale Mask Prediction",
+  "abstract": "While deep learning has significantly advanced medical image segmentation, most existing methods still struggle with handling complex anatomical regions. Cascaded or deep supervision-based approaches attempt to address this challenge through multi-scale feature learning but fail to establish sufficient inter-scale dependencies, as each scale relies solely on the features of the immediate predecessor. To this end, we propose the AutoRegressive Segmentation framework via next-scale mask prediction, termed AR-Seg, which progressively predicts the next-scale mask by explicitly modeling dependencies across all previous scales within a unified architecture. AR-Seg introduces three innovations: (1) a multi-scale mask autoencoder that quantizes the mask into multi-scale token maps to capture hierarchical anatomical structures, (2) a next-scale autoregressive mechanism that progressively predicts next-scale masks to enable sufficient inter-scale dependencies, and (3) a consensus-aggregation strategy that combines multiple sampled results to generate a more accurate mask, further improving segmentation robustness. Extensive experimental results on two benchmark datasets with different modalities demonstrate that AR-Seg outperforms state-of-the-art methods while explicitly visualizing the intermediate coarse-to-fine segmentation process. Source code is made available at https://github.com/takimailto/AR-Seg.",
+  "authors": [
+    {
+      "name": "Chen, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chenhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shan, Hongming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1847_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

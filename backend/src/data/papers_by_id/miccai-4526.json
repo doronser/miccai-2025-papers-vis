@@ -1,0 +1,53 @@
+{
+  "id": "miccai-4526",
+  "title": "Tackling Hallucination from Conditional Models for Medical Image Reconstruction with DynamicDPS",
+  "abstract": "Hallucinations are spurious structures not present in the ground truth, posing a critical challenge in medical image reconstruction, especially for data-driven conditional models. \nWe hypothesize that combining an unconditional diffusion model with data consistency, trained on a diverse dataset, can reduce these hallucinations.\nBased on this, we propose DynamicDPS, a diffusion-based framework that integrates conditional and unconditional diffusion models to enhance low-quality medical images while systematically reducing hallucinations.\nOur approach first generates an initial reconstruction using a conditional model, then refines it with an adaptive diffusion-based inverse problem solver. DynamicDPS skips early stage in the reverse process by selecting an optimal starting time point per sample and applies Wolfe’s line search for adaptive step sizes, improving both efficiency and image fidelity. \nUsing diffusion priors and data consistency, our method effectively reduces hallucinations from any conditional model output.\nWe validate its effectiveness in Image Quality Transfer for low-field MRI enhancement. \nExtensive evaluations on synthetic and real MR scans, including a downstream task for tissue volume estimation, show that DynamicDPS reduces hallucinations, improving relative volume estimation by over 15\\% for critical tissues while using only 5\\% of the sampling steps required by baseline diffusion models. \nAs a model-agnostic and fine-tuning-free approach, DynamicDPS offers a robust solution for hallucination reduction in medical imaging. Code is available at \\url{https://github.com/edshkim98/DynamicDPS}.",
+  "authors": [
+    {
+      "name": "Kim, Seunghoi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tregidgo, Henry F. J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Figini, Matteo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Joshi, Sarang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alexander, Daniel C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4526_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

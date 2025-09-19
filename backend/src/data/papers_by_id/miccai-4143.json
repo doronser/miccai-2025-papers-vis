@@ -1,0 +1,48 @@
+{
+  "id": "miccai-4143",
+  "title": "Revisiting Masked Image Modeling with Standardized Color Space for Domain Generalized Fundus Photography Classification",
+  "abstract": "Diabetic retinopathy (DR) is a serious complication of diabetes, requiring rapid and accurate assessment through computer-aided grading of fundus photography. To enhance the practical applicability of DR grading, domain generalization (DG) and foundation models have been proposed to improve accuracy on data from unseen domains. Despite recent advancements, foundation models trained in a self-supervised manner still exhibit limited DG capabilities, as self-supervised learning does not account for domain variations. In this paper, we revisit masked image modeling (MIM) in foundation models to advance DR grading for domain generalization. We introduce a MIM-based approach that transforms images to achieve standardized color representation across domains. By transforming images from various domains into this color space, the model can learn consistent representation even for unseen images, promoting domain-invariant feature learning. Additionally, we employ joint representation learning of both the original and transformed images, using cross-attention to integrate their respective strengths for DR classification. We showed a performance improvement of up to nearly 4% across the three datasets, positioning our method as a promising solution for domain-generalized medical image classification.",
+  "authors": [
+    {
+      "name": "Jang, Eojin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Myeongkyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Soopil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sagong, Min",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Sang Hyun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4143_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

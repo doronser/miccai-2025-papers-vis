@@ -1,0 +1,48 @@
+{
+  "id": "miccai-1696",
+  "title": "Asynchronous Multi-Modal Learning for Dynamic Risk Monitoring of Acute Respiratory Distress Syndrome in Intensive Care Units",
+  "abstract": "Acute Respiratory Distress Syndrome (ARDS) is a critical adverse event with high modality rates, yet its recognition in ICU settings is often delayed. Clinicians face significant challenges in integrating asynchronous, multi-modal data streams with misaligned temporal resolutions during rapid deterioration. This work introduces a deep learning model for continuous ARDS risk monitoring, designed to dynamically integrate diverse ICU data sources and generate timely, actionable predictions of ARDS onset. We extend existing settings for ARDS detection from static, single-modality prediction to continuous, multi-modal monitoring that aligns with clinical workflows. To address the inherent complexities of this task, we propose tailored solutions for hierarchical fusion across irregular sampling points, heterogeneous data modalities, and sequential predictions, while ensuring robust training against dynamic, irregular inputs and severe class imbalance. Validated on 1,985 MIMIC-IV patients, our model demonstrates superior performance, achieving average AUROC scores of 0.94, 0.91, and 0.87 across 6, 24, and 48 hours pre-onset, respectively, outperforming previous models (AUROC 0.78–0.85). Furthermore, the model quantifies emergency level to aid in resource prioritization and identifies high-risk patients with peak relative risk reaching 25, demonstrating exceptional discrimination between cohorts. The code is publicly released at https://github.com/YidFeng/MICCAI25-ARDS-Risk-Prediction",
+  "authors": [
+    {
+      "name": "Feng, Yidan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Bohan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Sen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Zhanli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Jing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1696_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

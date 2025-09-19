@@ -1,0 +1,81 @@
+{
+  "id": "miccai-3332",
+  "title": "STMDiff: Spatiotemporal Matching Diffusion Model for Dual-Time-Point Total-body PET/CT Imaging via Contrastive Learning",
+  "abstract": "Total body PET/CT systems, which enable unprecedented image quality and ultrahigh sensitivity, are widely utilized for diagnosing and treating diseases like tumors. Unlike regular protocols, dual-time-point imaging (DTPI)– where patients undergo a dual PET/CT scan to enhance lesion contrast – exposes them to higher radiation doses due to an additional CT scan for PET attenuation correction and anatomical localization. To mitigate radiation exposure, we introduce STMDiff, a spatiotemporal matching diffusion model, which reuse CT images from first scanning time point for PET attenuation correction at second scanning time point. Spatiotemporal matching strategy implemented with contrastive learning aims to find the k-best-matched CT images, which enriches the multimodal features of STMdiff and bypasses the cross-modal registration, facilitating the generation of attenuation-corrected (AC) PET images alleviating alignment errors. Both qualitative and quantitative results illustrate that the attenuation-correcte",
+  "authors": [
+    {
+      "name": "Li, Wenbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zhenxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Lianghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Chunyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Wenjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Na",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Hairong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jianjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Zhanli",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Urology",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3332_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

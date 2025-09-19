@@ -1,0 +1,53 @@
+{
+  "id": "miccai-4418",
+  "title": "NIMOSEF: Neural implicit motion and segmentation functions",
+  "abstract": "We present NIMOSEF, a novel unified framework that leverages neural implicit functions for joint segmentation, reconstruction, and displacement field estimation in cardiac magnetic resonance imaging (CMRI). By leveraging on a shared implicit representation for joint segmentation and motion estimation our approach improves spatio-temporal consistency with respect to conventional grid-based convolutional neural networks and implicit segmentation functions. NIMOSEF employs an auto-decoder architecture to learn subject-specific latent representations from unstructured point clouds derived from image intensities and reference segmentations. These latent codes, when combined with 4D space–time coordinates, enable the generation of high-resolution segmentation outputs and smooth, temporally coherent motion estimates. Experimental evaluation on a subset of $700$ random patients from the UK Biobank demonstrates that our method achieves competitive segmentation accuracy—attaining Dice scores of up to $0.93$ for the LV, $0.90$ for the RV and $0.83$ for the LV myocardium, with improved spatio-temporal consistency, predicting a smaller number of disconnected components. Simultaneously, it achieves an average registration error of the whole heart boundary of $3.08 \\pm 1.23$mm measured by the Chamfer distance, and $8.57 \\pm 4.74$mm according to the $95$th percentile Hausdorff distance. Additionally, feature importance analysis reveals that the learnt implicit representation encodes physiologically relevant information. These results suggest that NIMOSEF offers a promising alternative for high-resolution, temporally consistent cardiac segmentation and motion estimation, with promising potential for advancing clinical assessment of cardiac function.",
+  "authors": [
+    {
+      "name": "Banus, Jaume",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Delaloye, Antoine",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "M. Gordaliza, Pedro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Georgantas, Costa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "van Heeswijk, Ruud B.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Richiardi, Jonas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4418_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

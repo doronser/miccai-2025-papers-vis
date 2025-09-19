@@ -1,0 +1,40 @@
+{
+  "id": "miccai-4783",
+  "title": "Trustworthy Few-Shot Transfer of Medical VLMs through Split Conformal Prediction",
+  "abstract": "Medical vision-language models (VLMs) have demonstrated unprecedented transfer capabilities and are being increasingly adopted for data-efficient image classification. Despite its growing popularity, its reliability aspect remains largely unexplored. This work explores the split conformal prediction (SCP) framework to provide trustworthiness guarantees when transferring such models based on a small labeled calibration set. Despite its potential, the generalist nature of the VLMs’ pre-training could negatively affect the properties of the predicted conformal sets for specific tasks. While common practice in transfer learning for discriminative purposes involves an adaptation stage, we observe that deploying such a solution for conformal purposes is suboptimal since adapting the model using the available calibration data breaks the rigid exchangeability assumptions for test data in SCP. To address this issue, we propose transductive split conformal adaptation (SCA-T), a novel pipeline for transfer learning on conformal scenarios, which performs an unsupervised transductive adaptation jointly on calibration and test data. We present comprehensive experiments utilizing medical VLMs across various image modalities, transfer tasks, and non-conformity scores. Our framework offers consistent gains in efficiency and conditional coverage compared to SCP, maintaining the same empirical guarantees. The code is publicly available: https://github.com/jusiro/SCA-T .",
+  "authors": [
+    {
+      "name": "Silva-Rodríguez, Julio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ben Ayed, Ismail",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dolz, Jose",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4783_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1230",
+  "title": "Hierarchical Feature Learning for Medical Point Clouds via State Space Model",
+  "abstract": "Deep learning-based point cloud modeling has been widely investigated as an indispensable component of general shape analysis. Recently, transformer and state space model (SSM) have shown promising capacities in point cloud learning. However, limited research has been conducted on medical point clouds, which have great potential in disease diagnosis and treatment. This paper presents an SSM-based hierarchical feature learning framework for medical point cloud understanding. Specifically, we down-sample the input into multiple levels through the farthest point sampling. At each level, we perform a series of k-nearest neighbor (KNN) queries to aggregate multi-scale structural information. To assist SSM in processing point clouds, we introduce coordinate-order and inside-out scanning strategies for efficient serialization of irregular points. Point features are calculated progressively from short neighbor sequences and long point sequences through vanilla and group Point SSM blocks, to capture both local patterns and long-range dependencies. To evaluate the proposed method, we build a large-scale medical point cloud dataset named MedPointS for anatomy classification, completion, and segmentation. Extensive experiments conducted on MedPointS demonstrate that our method achieves superior performance across all tasks. \nThe dataset is available at https://flemme-docs.readthedocs.io/en/latest/medpoints.html. Code is merged into a public medical imaging platform: https://github.com/wlsdzyzl/flemme.",
+  "authors": [
+    {
+      "name": "Zhang, Guoqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jingyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Robotics",
+    "Applications -> Image Segmentation",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Validation",
+    "Surgery -> Data Science",
+    "Surgery -> Mixed / Augmented / Virtual Reality"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1230_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

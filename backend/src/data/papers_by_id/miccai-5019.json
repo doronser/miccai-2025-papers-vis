@@ -1,0 +1,65 @@
+{
+  "id": "miccai-5019",
+  "title": "T2GS: Comprehensive Reconstruction of Dynamic Surgical Scenes with Gaussian Splatting",
+  "abstract": "Surgical scene reconstruction from endoscopic video is crucial for many applications in computer- and robot-assisted surgery. However, existing methods primarily focus on soft tissue deformation while often neglecting the dynamic motion of surgical tools, limiting the completeness of the reconstructed scene.  To bridge the aforementioned research gap, we propose T^2GS, a novel and efficient surgical scene reconstruction framework that enables efficient spatio-temporal modelling of both deformable tissues and dynamically interacting surgical tools. T^2GS leverages Gaussian Splatting for dynamic scene reconstruction, and it integrates a recent tissue deformation modelling technique while most importantly, introduces a novel efficient tool motion model (ETMM). At its core, ETMM disambiguates the modelling process of tool’s motion as global trajectory modelling and local shape-change modelling. We additionally propose pose-informed pointcloud fusion (PIPF), holistically initialized of tools’ gaussians for improved tool motion modelling. Extensive experiments on public datasets demonstrate T^2GS’s superior performance for comprehensive endoscopic scene reconstruction compared to previous methods. Moreover, as we specifically design our method with efficiency in concern, T^2GS also showcases promising reconstruction efficiency (3mins) and rendering speed (71fps), highlighting its potential for intraoperative applications. Our code is available at https://gitlab.com/nct_tso_public/ttgs.",
+  "authors": [
+    {
+      "name": "Xu, Jinjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chenyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pfeiffer, Micha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Liwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Docea, Reuben",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wagner, Martin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Speidel, Stefanie",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image-Guided Interventions",
+    "Applications -> Other",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5019_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

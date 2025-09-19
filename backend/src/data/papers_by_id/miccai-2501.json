@@ -1,0 +1,68 @@
+{
+  "id": "miccai-2501",
+  "title": "Longitudinal MRI-Clinical Multimodal Fusion for pCR Prediction in Breast Cancer",
+  "abstract": "Pathologic complete response (pCR) prediction for breast cancer patients undergoing neoadjuvant chemotherapy (NAC) is crucial for optimizing treatment strategies. Nowadays, an increasing number of studies focus on predicting NAC response using preoperative imaging, and with the advancement of deep learning, different modalities of imaging and other clinical data can be effectively integrated to provide more comprehensive information. However, existing deep learning methods primarily focus on multimodal fusion or longitudinal modeling but often suffer from inadequate feature focus and overlook specific treatment effects. To address these limitations, we propose a novel multimodal-learning framework LMF(Longitudinal MRI-Clinical Multimodal Fusion) that enhances feature extraction and explicitly models treatment-induced imaging changes. Our method consists of two key components: (1) Molecular-Aware Deformable Attention (MADA), which integrates molecular subtype information with MRI features and refines spatial representations via deformable cross-attention mechanism; and (2) Treatment-Aware Longitudinal Modeling (TALM), which incorporates treatment embeddings to capture NAC-driven feature variations. The model is trained and evaluated on the ISPY-2 dataset, using pre- and post-NAC DCE-MRI alongside clinical data. Experimental results demonstrate that our approach outperforms existing methods, confirming that MADA effectively enhances feature extraction while TALM strengthens longitudinal modeling. These findings highlight the potential of integrating multimodal feature refinement with treatment-aware temporal modeling for improved pCR prediction. Our code is available at https://github.com/martin-bro/LMF.",
+  "authors": [
+    {
+      "name": "Ma, Dingrui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Jiawei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jianping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiaofeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Kaijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Chaochen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guan, Xinping",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2501_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "miccai-0929",
+  "title": "HRVVS: A High-resolution Video Vasculature Segmentation Network via Hierarchical Autoregressive Residual Priors",
+  "abstract": "The segmentation of the hepatic vasculature in surgical videos holds substantial clinical significance in the context of hepatectomy procedures. However, owing to the dearth of an appropriate dataset and the inherently complex task characteristics, few researches have been reported in this domain. To address this issue, we first introduce a high quality frame-by-frame annotated hepatic vasculature dataset containing 35 long hepatectomy videos and 11442 high-resolution frames. On this basis, we propose a novel high-resolution video vasculature segmentation network, dubbed as HRVVS. We innovatively embed a pretrained visual autoregressive modeling (VAR) model into different layers of the hierarchical encoder as prior information to reduce the information degradation generated during the downsampling process. In addition, we designed a dynamic memory decoder on a multi-view segmentation network to minimize the transmission of redundant information while preserving more details between frames. Extensive experiments on surgical video datasets demonstrate that our proposed HRVVS significantly outperforms the state-of-the-art methods. The source code and dataset will be publicly available at \\href{https://github.com/scott-yjyang/xx}{https://github.com/scott-yjyang/HRVVS}.",
+  "authors": [
+    {
+      "name": "Yao, Xincheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Kangwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Ruiqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Haipeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Haisu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Vasculature",
+    "Modalities -> Endoscopy",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0929_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

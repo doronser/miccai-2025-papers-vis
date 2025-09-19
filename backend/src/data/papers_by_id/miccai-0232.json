@@ -1,0 +1,71 @@
+{
+  "id": "miccai-0232",
+  "title": "UDPET: Ultra-low Dose PET Imaging Challenge Dataset",
+  "abstract": "Positron emission tomography (PET) is widely recognized as the most sensitive molecular imaging modality, enabling the in vivo visualization of molecular pathways. Despite its exceptional utility, concerns about ionizing radiation expo-sure have limited its broader application. A recent breakthrough in total-body PET imaging addresses this limitation by significantly increasing geometric cov-erage and sensitivity. This innovation reduces radiation exposure to levels compa-rable to the dose received during a transatlantic flight, achieved through advanced computational techniques. To accelerate progress in this field, we have curated a benchmark dataset specifically designed for developing ultra-low dose PET imag-ing methodologies. This dataset was pivotal in the Ultra-Low Dose PET Imaging Challenge held in 2022, 2023, and 2024. The challenge aimed to foster innovative computational algorithms capable of recovering high-quality imaging from low-dose scans acquired on total-body PET systems. The dataset includes both stand-ard-dose and simulated low-dose total-body PET images from 1,447 patients. These were acquired using Siemens Biograph Vision Quadra PET/CT and Unit-ed Imaging uExplorer PET/CT scanners. In addition, we have developed a cus-tomized evaluation system to assess the performance of algorithms in recovering image quality from low-dose scans. This paper provides a comprehensive de-scription of the benchmark dataset and evaluation framework, aimed at driving future advancements in ultra-low dose PET imaging. The dataset is available at https://udpet-challenge.github.io, subject to the completion of a signed Data Transfer Agreement.",
+  "authors": [
+    {
+      "name": "Xue, Song",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hanzhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yizhou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Fanxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Viscione, Marco",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rominger, Axel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Biao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Kuangyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0232_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

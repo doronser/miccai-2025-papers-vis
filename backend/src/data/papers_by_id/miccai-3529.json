@@ -1,0 +1,71 @@
+{
+  "id": "miccai-3529",
+  "title": "Sparsely Annotated Medical Image Segmentation via Cross-SAM of 3D and 2D Networks",
+  "abstract": "Medical image segmentation typically relies on large, accurately annotated datasets. However, acquiring pixel-level annotations is a labor-intensive process that demands substantial effort from domain experts, posing significant challenges in obtaining such annotations in real-world clinical settings. To tackle this challenge, we present the SA-Net framework, which leverages cross-supervision from segment anything models (SAM) and 2D segmentation networks to learn from sparse annotations. Specifically, we design an interactive graph learning segmentation network, which employs a bilateral graph convolution (BGC) module to capture more detailed features from multiple perspectives, facilitating the generation of high-quality pseudo-labels, which can serve as direct supervision for semantic segmentation networks and SAM, enabling the synthesis of additional annotations to enhance the training process. The multi-scale attention (MSA) module facilitates cross-layer interaction by partitioning channel label groups and capturing global information across layers, while the recovery module (RM) utilizes deep features and low-level features to fuse global context information and reconstruct lesion boundary regions. Our experimental results on LUNA16, AbdomenCT-1K, and self-collected datasets demonstrate the effectiveness of SA-Net. Our code is available at https://github.com/CTSegPilot/SA-Net.git.",
+  "authors": [
+    {
+      "name": "Su, Huaqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zaiyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Lisha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Sunyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Hun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Guoliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Haijun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Baiying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3529_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

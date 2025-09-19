@@ -1,0 +1,50 @@
+{
+  "id": "miccai-0981",
+  "title": "Global and Local Vision-Language Alignment for Few-Shot Learning and Few-Shot OOD Detection",
+  "abstract": "Training data in the medical domain is often limited due to privacy concerns and data scarcity. In such few-shot settings, neural network models are prone to overfitting, resulting in poor performance on new in-distribution (ID) data and misclassification of out-of-distribution (OOD) data as learned ID diseases. Existing research treats these two tasks (few-shot learning and few-shot OOD detection) separately, and no prior work has explored a unified approach to simultaneously improving the performance of both tasks. To bridge this gap, we propose a novel framework based on CLIP that jointly enhances ID classification accuracy and OOD detection performance. Our framework consists of three key components: (1) a visually-guided text refinement module, which refines text representations of each disease utilizing disease-relevant visual information; (2) a local version of supervised contrastive learning, which enhances local representation consistency among disease-relevant regions while improving ID-OOD separability; and (3) a global and local image-text alignment strategy, which adaptively combines the global and local similarity measurements for better image-text alignment. Extensive experiments demonstrate that, our method outperforms the best methods specifically-tailored for both tasks, achieving new state-of-the-art performance. The source code will be publicly released.",
+  "authors": [
+    {
+      "name": "Yan, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guan, Xiaoyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Wei-Shi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ruixuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0981_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

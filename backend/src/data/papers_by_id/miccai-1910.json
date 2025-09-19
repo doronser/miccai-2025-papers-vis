@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1910",
+  "title": "Tumor Segmentation with Heterogeneity Clustering in Non-contrast Breast MRI",
+  "abstract": "Breast tumor segmentation in dynamic contrast-enhanced magnetic resonance image (DCE-MRI) achieves precise delineation of tumor boundaries and subregions by capturing rich tissue heterogeneity information. However, its reliance on contrast agents may cause adverse effects, and the complex process of acquiring complete time-series data. In contrast, current non-contrast image segmentation methods suffer from insufficient accuracy due to the lack of explicit tissue heterogeneity information. To address these limitations, we propose a approach for tumor heterogeneity estimation and segmentation in non-contrast images. The core idea is to extract tissue heterogeneity information from DCE-MRI and transfer it to a non-contrast image segmentation network, achieving tumor segmentation accuracy comparable to DCE-MRI-based methods. Our approach uses a  vector quantized-variational autoencoder (VQ-VAE) based clustering model to transform images into heterogeneity maps, capturing structural features of tumor subregions. These maps serve as the ground truth for training. Then, a heterogeneity information prediction model (HIPM) estimates heterogeneity maps from non-contrast images. These features are utilized as prior information to guide the segmentation network, further improving segmentation accuracy. Experimental results demonstrate that the cluster compactness (CPN) and Davies-Bouldin index (DBN) of the clustering reach approximately 0.05 and 0.001, respectively, indicating high clustering accuracy. Our method provides intuitive visualization of tumor heterogeneity without the need for contrast agents and significantly improves segmentation accuracy, with Dice Similarity Coefficient (DSC), Positive Predictive Value (PPV), and Sensitivity (SEN) increased by 20% compared to other non-contrast image segmentation networks.",
+  "authors": [
+    {
+      "name": "Xie, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Luyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yonghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Yaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Muzhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1910_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

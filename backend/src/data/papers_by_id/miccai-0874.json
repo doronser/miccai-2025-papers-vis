@@ -1,0 +1,72 @@
+{
+  "id": "miccai-0874",
+  "title": "Parameterized Diffusion Optimization enabled Autoregressive Ordinal Regression for Diabetic Retinopathy Grading",
+  "abstract": "As a long-term complication of diabetes, diabetic retinopathy (DR) progresses slowly, potentially taking years to threaten vision. An accurate and robust evaluation of its severity is vital to ensure prompt management and care. Ordinal regression leverages the underlying inherent order between categories to achieve superior performance beyond traditional classification. However, there exist challenges leading to lower DR classification performance: 1) The uneven distribution of DR severity levels, characterized by a long-tailed pattern, adds complexity to the grading process. 2)The ambiguity in defining category boundaries introduces additional challenges, making the classification process more complex and prone to inconsistencies. This work proposes a novel autoregressive ordinal regression method called AOR-DR to address the above challenges by leveraging the clinical knowledge of inherent ordinal information in DR grading dataset settings. Specifically, we decompose the DR grading task into a series of ordered steps by fusing the prediction of the previous steps with extracted image features as conditions for the current prediction step. Additionally, we exploit the diffusion process to facilitate conditional probability modeling, enabling the direct use of continuous global image features for autoregression without relearning contextual information from patch-level features. This ensures the effectiveness of the autoregressive process and leverages the capabilities of pre-trained large-scale foundation models. Extensive experiments were conducted on four large-scale publicly available color fundus datasets, demonstrating our model’s effectiveness and superior performance over six recent state-of-the-art ordinal regression methods. The implementation code is available at \\url{https://github.com/Qinkaiyu/AOR-DR}.",
+  "authors": [
+    {
+      "name": "Yu, Qinkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hantao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yanyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Meng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yitian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Huazhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xujiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yalin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Yanda",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0874_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

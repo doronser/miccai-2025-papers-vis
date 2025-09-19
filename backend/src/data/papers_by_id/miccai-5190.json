@@ -1,0 +1,52 @@
+{
+  "id": "miccai-5190",
+  "title": "ShareLink: Neuro-Inspired EEG-based Cross-Subject Emotion Recognition via Shared Bi-hemisphere",
+  "abstract": "Emotion recognition plays a pivotal role in human-computer interaction by enabling machines to perceive and adapt to human affective states. While neuroimaging studies reveal significant functional lateralization between the left and right cerebral hemispheres during emotional processing, existing EEG-based emotion recognition methods face two critical challenges: (1) difficulty in aligning cross-hemispheric semantic features, and (2) limited generalizability across subjects and scenarios. To address these issues, we propose ShareLink, a novel EEG-based framework with Shared Cross-Hemispheric Structures. Our approach introduces three key innovative module: (1) the Dynamic Shared Hemispheric Structure (DSHS) enforces non-Euclidean hemispheric structure constraints by sharing learnable adjacency matrix parameters across the bi-hemispheres, thereby effectively aligning semantic representations and extracting more discriminative hemispheric asymmetry features; (2) the Cross-Hemisphere Attention (CHA) shares similarity matrix between the hemispheres to establish dynamic inter-hemispheric links, enhancing the model’s ability to capture interaction information while reducing parameters and mitigating overfitting risks; (3) the Shared Hemispheres Mixture-of-Experts (SHMoE) leverages multiple expert modules to abstract representations into a finite set of characteristics and employs a shared expert set to map bi-hemispheres features into a unified space, ensuring consistent and generalizable left-right hemisphere representations. Evaluated on SEED and SEED-IV datasets under cross-subject paradigms, ShareLink achieves accuracies of 80.61% ± 6.16% and 63.33% ± 8.29%, demonstrating superior cross-domain generalization. This work provides new insights into neurophysiologically inspired computational models for emotion recognition. The codes are available at: https://github.com/Huangzx1023/ShareLink.",
+  "authors": [
+    {
+      "name": "Huang, Zixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kong, Lingyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ao, Licheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Shiyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiang, An",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miao, Fen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5190_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

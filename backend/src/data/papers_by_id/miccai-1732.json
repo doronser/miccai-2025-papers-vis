@@ -1,0 +1,64 @@
+{
+  "id": "miccai-1732",
+  "title": "T&F-DFC FusionNet: Time&Frequency-Dynamic Functional Connectivity Fusion Network for ADHD Diagnosis in Children based on fNIRS",
+  "abstract": "Early diagnosis of attention deficit hyperactivity disorder (ADHD) in children and its underlying neurobiological mechanisms have become a focal point of research. Existing AI-based diagnostic methods show promise but struggle to fully capture dynamic correlations between brain regions, limiting their clinical effectiveness. In this study, we proposed a time&frequency-dynamic functional connectivity fusion network (T&F-DFC FusionNet) based on functional near-infrared spectroscopy (fNIRS) to assist in the objective diagnosis of children with ADHD in clinical practice. The T&F-DFC FusionNet can extract the time and frequency domain features of spatial dynamic functional connectivity across channels of fNIRS data, and improve the diagnostic results by effectively fusing multi-domain features. Meanwhile, T&F-DFC FusionNet used a leave-one-ROI-out method to study specific functional brain regions with abnormal connectivity in children with ADHD to identify clinically significant biomarkers. Through a series of experiments based on clinical data, the results show that T&F-DFC FusionNet is effective in diagnosing ADHD in children, and its performance is significantly better than that of the comparison model. In addition, Notably, our findings suggest that connectivity abnormalities in the right dorsolateral prefrontal cortex and the BA 8 may be key brain regions involved in the pathogenesis of ADHD in children. In summary, this study provides new insights and methods for clinical auxiliary diagnosis and mechanism exploration of ADHD.",
+  "authors": [
+    {
+      "name": "Chu, Mengxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Yunxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Xiaowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Jiaojiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Zhengyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Jingjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Hongbo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> Spectroscopy",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1732_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

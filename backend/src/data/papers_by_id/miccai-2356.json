@@ -1,0 +1,60 @@
+{
+  "id": "miccai-2356",
+  "title": "Bipartite Patient-Modality Graph Learning with Event-Conditional Modelling of Censoring for Cancer Survival Prediction",
+  "abstract": "Accurately predicting the survival of cancer patients is crucial for personalized treatment. However, existing studies focus solely on the relationships between samples with known survival risks, ignoring the value of censored samples, which is inevitable in clinical practice. Furthermore, these studies may suffer performance degradation in modality-missing scenarios and even struggle during the inference process. In this study, we propose a bipartite patient-modality graph learning with event-conditional modelling of censoring for cancer survival prediction (CenSurv). Specifically, we first use graph structure to model multimodal data and obtain representation. Then, to alleviate performance degradation in modality-missing scenarios, we design a bipartite graph to simulate the patient-modality relationship in various modality-missing scenarios and leverage a complete-incomplete alignment strategy to explore modality-agnostic features. Finally, we design a plug-and-play event-conditional modeling of censoring (ECMC) that selects reliable censored data using dynamic momentum accumulation confidences, assigns more accurate survival times to these censored data, and incorporates them as uncensored data into training. Comprehensive evaluations on 5 publicly cancer datasets showcase the superiority of CenSurv over the best state-of-the-art by 3.1% in terms of the mean C-index, while also exhibiting excellent robustness under various modality-missing scenarios. In addition, using the plug-and-play ECMC module, the mean C-index of 8 baselines increased by 1.3% across 5 datasets. Code of CenSurv is available at https://anonymous.4open.science/r/CenSurv-F767.",
+  "authors": [
+    {
+      "name": "Yue, Hailin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Hulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Junjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Lanlan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Mengshen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jianxin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2356_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

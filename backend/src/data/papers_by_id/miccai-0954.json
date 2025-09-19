@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0954",
+  "title": "MRI Motion Artifact Correction via Frequency-Assisted Artifact Disentanglement and Confidence-Guided Knowledge Distillation",
+  "abstract": "Motion artifacts degrade MR image quality affecting clinical diagnoses.  Although deep learning-based motion artifact correction (MAC) methods show promise, they are limited by the lack of real paired motion-corrupted and motion-free images. We propose a novel frequency-assisted artifact disentanglement learning  framework for MAC of MR images. Our approach integrates a frequency-decomposed motion correction network (FDMC-Net) for content-artifact disentanglement over the real unpaired data, coupled with confidence-guided knowledge distillation using simulated paired data.  Specifically, considering that motion artifacts are primarily caused by high-frequency k-space misalignment, FDMC-Net decomposes motion-corrupted MR images into low-frequency and high-frequency components and then employs dedicated encoders to disentangle content and artifact features. FDMC-Net is trained by unsupervised cycle-consistent adversarial loss over realistic unpaired data, and confidence-guided knowledge distillation loss by distilling a teacher model trained on simulated paired data. Experiments demonstrate its state-of-the-art performance, with ablation studies confirming the effectiveness of frequency-assisted disentanglement and confidence-guided distillation.",
+  "authors": [
+    {
+      "name": "Wang, Jiazhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Heran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yizhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Jian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0954_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

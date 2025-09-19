@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1853",
+  "title": "GeneMorphFormer: Transformer-Driven Cross-Scale Mapping from Gene Expression to Cortical Morphology",
+  "abstract": "We present GeneMorphFormer, a Transformer-based model to decode nonlinear interactions between gene expression and cortical morphology. We align expression maps with gray matter and white matter boundary curves through spatial normalization by leveraging marmoset in situ hybridization (ISH) data. Our model employs multi-head self-attention to model global dependencies across 1024 gene features, optimized by a hybrid loss (MSE and Hausdorff distance) balancing local precision and global shape fidelity. SHapley Additive exPlanations (SHAP) analysis is subsequently employed to quantify the contribution of genes to morphological shape. Wavelet-based clustering further reveals distinct gene sets governing smooth versus fluctuating morphologies, suggesting hierarchical genetic regulation. Experimental results demonstrate that GeneMorphFormer outperforms traditional networks in both global shape matching and local precision. This work proposed a biologically interpretable Transformer architecture for cross-scale gene-morphology mapping and enables systematic exploration of genetic drivers in cortical morphology malformations.",
+  "authors": [
+    {
+      "name": "Li, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Qitai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Chenjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Xiaowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Yudan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1853_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

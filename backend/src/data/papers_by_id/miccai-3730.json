@@ -1,0 +1,63 @@
+{
+  "id": "miccai-3730",
+  "title": "Graph-based Neighbor-Aware Network for Gaze-Supervised Medical Image Segmentation",
+  "abstract": "Creating fully annotated labels for medical image segmentation is time-consuming and expensive, underscoring the need for efficient labeling schemes to alleviate the workload. Eye tracking presents a cost-effective solution, seamlessly integrating into radiologists’ workflows while offering task-relevant eye gaze supervision. However, due to the inaccuracy and ambiguity of gaze, it may introduce erroneous supervision and hinder the model’s ability to learn robust features. To address these challenges, we propose the graph-based neighbor-aware network (GNAN). The network constructs a graph structure from the image, separating different categories of nodes by simulating the attention distribution during the diagnostic process, to learn image segmentation based on the radiologist’s gaze information. The GNAN comprises neighbor-aware pseudo supervision (NAP) and graph contrastive decoupling (GCD). NAP utilizes the neighbor features of graph nodes to infer pseudo-labels for uncertain regions, effectively compensating for the inaccuracy in gaze supervision and further refining the supervisory signal. GCD decouples the graph structure by maximizing the inter-class node feature differences to distinguish between different categories, thereby improving segmentation performance. Experimental results on the public dataset demonstrate that GNAN outperforms state-of-the-art methods. Our code is available at https://github.com/IPMI-NWU/GNAN.",
+  "authors": [
+    {
+      "name": "Wu, Shaoxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jingkun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Zhuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Peilin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Zhizezhang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3730_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

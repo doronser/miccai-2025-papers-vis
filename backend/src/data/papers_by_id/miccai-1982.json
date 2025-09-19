@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1982",
+  "title": "R1Seg-3D: Rethinking Reasoning Segmentation for Medical 3D CTs",
+  "abstract": "The explosive development of large-scale model technology has provided strong support for achieving more intelligent, robust, and precise segmentation techniques. However, owing to the unique challenges posed by medical domain data, the 3D medical image-text alignment model, 3D CLIP, struggles to match the performance of its natural scene counterpart. This limitation hinders the application of CLIP-based text-image reasoning in medical segmentation tasks. Furthermore, CLIP has been shown to rely on high-level semantic alignment between vision and text, lacking effective support for local visual features that are crucial for dense prediction tasks. Existing reasoning segmentation methods often adopt a redundant design with two visual encoders—one from CLIP and another from a large vision models for downstream dense tasks. This adversely affects model efficiency and complicates the training process. To address these challenges, we propose a novel framework, R1Seg-3D, which unifies a visual encoder. Our approach achieves three-way alignment of dense visual, text reasoning, and mask decoding features within a shared latent space. Compared with previous methods, R1Seg-3D implicitly incorporates more detailed spatial features into the reasoning path. Therefore, it can strengthen the reasoning ability by incorporating additional visual spatial details and directly enhances the mask decoding process. The R1Seg-3D architecture is more concise and easier to train. Extensive evaluations on 25 diverse datasets demonstrate that R1Seg-3D outperforms state-of-the-art methods in both performance and stability. This work advances intelligent medical imaging and lays a foundation for future research in inference-driven segmentation. Our code and models are available at https://github.com/lihaoqin168/R1Seg-3D.",
+  "authors": [
+    {
+      "name": "Hao, Qin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Shengwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xujiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1982_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

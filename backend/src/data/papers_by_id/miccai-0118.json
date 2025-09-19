@@ -1,0 +1,32 @@
+{
+  "id": "miccai-0118",
+  "title": "Hierarchical Characterization of Brain Dynamics via State Space-based Vector Quantization",
+  "abstract": "Understanding brain dynamics through functional Magnetic Resonance Imaging (fMRI) remains a fundamental challenge in neuroscience, particularly in capturing how the brain transitions between various functional states. Recently, metastability, which refers to temporarily stable brain states, has offered a promising paradigm to quantify complex brain signals into interpretable, discretized representations. In particular, compared to cluster-based machine learning approaches, tokenization approaches leveraging vector quantization have shown promise in representation learning with powerful reconstruction and predictive capabilities. However, most existing methods ignore brain transition dependencies and lack a quantification of brain dynamics into representative and stable embeddings. In this study, we propose a Hierarchical State space-based Tokenizer, termed HST, which quantizes brain states and transitions in a hierarchical structure based on a state space-based model. We introduce a refined clustered Vector-Quantization Variational AutoEncoder (VQ-VAE) that incorporates quantization error feedback and clustering to improve quantization performance while facilitating metastability with representative and stable token representations. We validate our HST on two public fMRI datasets, demonstrating its effectiveness in quantifying the hierarchical dynamics of the brain and its potential in disease diagnosis and reconstruction performance. Our method offers a promising framework for the characterization of brain dynamics, facilitating and improving current models of metastability.",
+  "authors": [
+    {
+      "name": "Yang, Yanwu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wolfers, Thomas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0118_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

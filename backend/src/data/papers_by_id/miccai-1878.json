@@ -1,0 +1,54 @@
+{
+  "id": "miccai-1878",
+  "title": "VT-SNN: Variable Time-step Spiking Neural Network Based on Uncertainty Measure and Its Application in Brain Disease Diagnosis",
+  "abstract": "The integration of neural networks with Magnetic Resonance Imaging (MRI) data for brain disease diagnosis has become a significant research focus. However, the inherent complexity of 3D MRI data poses challenges for traditional models like CNNs and Transformers, leading to high computational costs and difficulties in clinical deployment. Spiking Neural Networks (SNNs), inspired by biological neurons, offer a promising alternative with enhanced efficiency and robustness. Yet, their application to MRI data is limited by fixed time-steps that fail to account for inter-sample variability. To address this, we propose a Variable Time-Step Spiking Neural Network (VT-SNN) that dynamically adjusts the time-step based on sample-specific uncertainty. Our method employs an SNN-based Transformer module to convert MRI data into spike form and extract features, followed by a variable time-step module that measures decision uncertainty using Fisher information and PAC-Bayes theory. Experiments on AHNU and AMRD datasets demonstrate superior classification performance and reduced computational costs. Our codes are available at https://github.com/UAIBC-Brain/MICCAI-2025-Paper-VT-SNN.",
+  "authors": [
+    {
+      "name": "Rao, Haonan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Shaolong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Shu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Mingliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Weiping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jiashuang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1878_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

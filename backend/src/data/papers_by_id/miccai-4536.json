@@ -1,0 +1,44 @@
+{
+  "id": "miccai-4536",
+  "title": "Guiding Registration with Emergent Similarity from Pre-Trained Diffusion Models",
+  "abstract": "Diffusion models, while trained for image generation, have emerged as powerful foundational feature extractors for downstream tasks. We find that off-the-shelf diffusion models, trained exclusively to generate natural RGB images, can identify semantically meaningful correspondences in medical images. Building on this observation, we propose to leverage diffusion model features as a similarity measure to guide deformable image registration networks. We show that common intensity-based similarity losses often fail in challenging scenarios, such as when certain anatomies are visible in one image but absent in another, leading to anatomically inaccurate alignments. In contrast, our method identifies true semantic correspondences, aligning meaningful structures while disregarding those not present across images. We demonstrate superior performance of our approach on two tasks: multimodal 2D registration (DXA to X-Ray) and monomodal 3D registration (brain-extracted to non-brain-extracted MRI). Code: https://github.com/uncbiag/dgir",
+  "authors": [
+    {
+      "name": "Tursynbek, Nurislam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Greer, Hastings",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Demir, Başar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Niethammer, Marc",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4536_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

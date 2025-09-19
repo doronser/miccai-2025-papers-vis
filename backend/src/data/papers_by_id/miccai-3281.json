@@ -1,0 +1,45 @@
+{
+  "id": "miccai-3281",
+  "title": "MoDiff: A Morphology-Emphasized Diffusion Model for Ambiguous Medical Image Segmentation",
+  "abstract": "MoDiff is a morphology-emphasized diffusion model designed to address the challenges of ambiguous medical image segmentation by overcoming the consistency and accuracy limitations of conventional probabilistic models. MoDiff utilizes probability-based label maps instead of traditional one-hot encoding to capture inherent uncertainties across diverse medical image annotations and to maintain consistency among sampled segmentation results. Additionally, MoDiff determines the presence or absence of individual radiologist labels, enabling diverse segmentation sampling and providing more comprehensive insights into ambiguous areas. MoDiff improves boundary precision through the Learnable Discrete Frequency Filter (LDF), which is designed to capture high-frequency, detail-specific information within the image domain. By preserving essential structural characteristics, LDF facilitates the retention of fine-scale details crucial for accurate boundary delineation. Integrated with the Morphology-based Cross Attention Network (MCA), LDF enhances feature synthesis, thereby enabling more precise segmentation of anatomical contours. Comprehensive evaluations on the LIDC-IDRI and MS-MRI datasets demonstrate that MoDiff achieves excellent segmentation accuracy, boundary precision, and consistency across samples.",
+  "authors": [
+    {
+      "name": "Ahn, Jung Su",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kwak, Ki Hoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Seo, Jung Woo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cho, Young-Rae",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3281_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

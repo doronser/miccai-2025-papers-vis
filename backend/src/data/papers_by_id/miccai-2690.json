@@ -1,0 +1,61 @@
+{
+  "id": "miccai-2690",
+  "title": "Is Hyperbolic Space All You Need for Medical Anomaly Detection?",
+  "abstract": "Medical anomaly detection has emerged as a promising solution to challenges in data availability and labeling constraints. Traditional methods extract features from different layers of pre-trained networks in Euclidean space; however, Euclidean representations fail to effectively capture the hierarchical relationships within these features, leading to suboptimal anomaly detection performance. We propose a novel yet simple approach that projects feature representations into hyperbolic space, aggregates them based on confidence levels, and classifies samples as healthy or anomalous. Our experiments demonstrate that hyperbolic space consistently outperforms Euclidean-based frame-works, achieving higher AUROC scores at both image and pixel levels across multiple medical benchmark datasets. Additionally, we show that hyperbolic space exhibits resilience to parameter variations and excels in few-shot scenarios, where healthy images are scarce. These findings underscore the potential of hyperbolic space as a powerful alternative for medical anomaly detection. The project website can be found at https://hyperbolic-anomalies.github.io",
+  "authors": [
+    {
+      "name": "Gonzalez-Jimenez, Alvaro",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lionetti, Simone",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Amruthalingam, Ludovic",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gottfrois, Philippe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gröger, Fabian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pouly, Marc",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navarini, Alexander A.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Eye",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2690_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

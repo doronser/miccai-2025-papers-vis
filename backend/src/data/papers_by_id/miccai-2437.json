@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2437",
+  "title": "Integrate Semantic Radiomics as Prior Evidence into Evidential Deep Learning for Pelvic Lipomatosis Diagnosis",
+  "abstract": "Pelvic Lipomatosis (PL) is a rare disorder characterized by abnormal fat proliferation in the pelvic region, where subtle imaging differences between pathological and normal fat pose significant diagnostic challenges. Existing deep-learning-based computer-aided diagnosis methods struggle to integrate high-level clinical semantics, which limits the diagnosis accuracy. This paper proposes a novel Evidential Deep Learning (EDL) method that synergistically fuses multi-type semantic radiomics priors derived from clinical expertise to enhance PL diagnosis. First, referring to clinical experiences, the critical PL semantic radiomics including bladder-rectal fat distance, rectal circularity, bladder-seminal vesicle angle, and relative pelvic fat volume are extracted from 3D abdominal CT images. Second, these semantic radiomics are probabilistically formulated as prior evidences to quantify their diagnostic relevance. Finally, the prior evidences are fused into the EDL backbone to implement PL diagnosis. Comparing with the pure deep learning methods, the EDL method with prior evidences not only reduces overconfident predictions but also enables interpretable decision-making by involving clinical knowledge. Experiments demonstrate the state-of-the-art performance of the proposed method, which achieves great improvements over conventional deep learning baselines. Ablation studies also validate the necessity of integrating the semantic features. Theoretical proofs further confirm that clinically consistent priors minimize prediction loss and enhance model stability. This work advances the diagnosis by bridging clinical radiomics with data-driven deep learning and provides a paradigm for interpretable PL medical image analysis.",
+  "authors": [
+    {
+      "name": "Zhang, Zheran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yue, Xiaodong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Maoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Zhikang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yufei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Zhipeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2437_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

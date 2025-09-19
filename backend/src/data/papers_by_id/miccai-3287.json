@@ -1,0 +1,43 @@
+{
+  "id": "miccai-3287",
+  "title": "CT-Based Hippocampus Segmentation with Dual-Decoder Network (HDD-Net)",
+  "abstract": "The hippocampus in the brain performs a pivotal role for memory formation, spa-tial navigation, and emotional regulation. Its volume and morphology are known to change with the progression of neurodegenerative diseases such as Alz-heimer’s disease. Hence, hippocampal atrophy serves as a key biomarker for ear-ly diagnosis and monitoring of such diseases. Whereas MRI has been predomi-nantly employed in that regard due to its excellent soft-tissue contrast, CT-based segmentation of the structure has been relatively far less explored because the modality results in ambiguous boundaries between brain subregions. This study aims to address this technical challenge, achieving accurate segmentation of the hippocampus on CT images. To this end, we develop a deep learning model, termed ‘Hippocampus Dual Decoder Network (HDD-Net)’, characterized by the following four major components: 1) parallel, dual decoders that segment the hippocampal region and its boundaries, respectively, 2) a single, shared encoder in which features combined across multiple blocks are refined via attention, 3) a feature fusion module (FFM) that performs inter-decoder featural supplements, and 4) a cross loss to jointly optimize segmentation and edge predictions. HDD-Net was validated using both internal and external datasets, with its performance assessed using Dice similarity coefficient (DSC) and intersection-over-union (IoU). Our model yielded DSC = 0.823 ± 0.03 and IoU = 0.701 ± 0.04, and DSC = 0.759 ± 0.07 and IoU = 0.617 ± 0.09 for internal and external test da-tasets, respectively, outperforming seven other SOTA methods. Furthermore, volumetric analysis revealed a good agreement between MRI- and CT-derived hippocampal masks. Our findings suggest feasibility of CT-based hippocampal segmentation via HDD-Net, as a cost-effective alternative to MRI. The implementation of HDD-Net is available at https://github.com/sonwonjun103/HDD_Net.",
+  "authors": [
+    {
+      "name": "Son, Wonjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Ji Young",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ahn, Sung Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Hyunyeol",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3287_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

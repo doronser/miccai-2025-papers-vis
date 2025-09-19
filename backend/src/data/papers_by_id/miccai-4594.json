@@ -1,0 +1,57 @@
+{
+  "id": "miccai-4594",
+  "title": "Clinically-guided Data Synthesis for Laryngeal Lesion Detection",
+  "abstract": "Although computer-aided diagnosis (CADx) and detection (CADe) systems have made significant progress in various medical domains, their application is still limited in specialized fields such as otorhinolaryngology. In the latter, current assessment methods heavily depend on operator expertise, and the high heterogeneity of lesions complicates diagnosis, with biopsy persisting as the gold standard despite its substantial costs and risks. A critical bottleneck for specialized endoscopic CADx/e systems is the lack of well-annotated datasets with sufficient variability for real-world generalization. This study introduces a novel approach that exploits a Latent Diffusion Model (LDM) coupled with a ControlNet adapter to generate laryngeal endoscopic image-annotation pairs, guided by clinical observations. The method addresses data scarcity by conditioning the diffusion process to produce realistic, high-quality, and clinically relevant image features that capture diverse anatomical conditions. The proposed approach can be leveraged to expand training datasets for CADx/e models, empowering the assessment process in laryngology. Indeed, during a downstream task of detection, the addition of only 10% synthetic data improved the detection rate of laryngeal lesions by 9% when the model was internally tested and 22.1% on out-of-domain external data. Additionally, the realism of the generated images was evaluated by asking 5 expert otorhinolaryngologists with varying expertise to rate their confidence in distinguishing synthetic from real images. This work has the potential to accelerate the development of automated tools for laryngeal disease diagnosis, offering a solution to data scarcity and demonstrating the applicability of synthetic data in real-world scenarios.",
+  "authors": [
+    {
+      "name": "Baldini, Chiara",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kushibar, Kaisar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Osuala, Richard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Balocco, Simone",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Diaz, Oliver",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lekadir, Karim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mattos, Leonardo S.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4594_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

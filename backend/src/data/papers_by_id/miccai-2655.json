@@ -1,0 +1,52 @@
+{
+  "id": "miccai-2655",
+  "title": "A Composite Alignment-Aware Framework for Myocardial Lesion Segmentation in Multi-sequence CMR Images",
+  "abstract": "Accurate segmentation of myocardial lesions from multi-sequence cardiac magnetic resonance imaging is essential for cardiac disease diagnosis and treatment planning. However, achieving optimal feature correspondence is challenging due to intensity variations across modalities and spatial misalignment caused by inconsistent slice acquisition protocols. We propose CAA-Seg, a composite alignment-aware framework that addresses these challenges through a two-stage approach. First, we introduce a selective slice alignment method that dynamically identifies and aligns anatomically corresponding slice pairs while excluding mismatched sections, ensuring reliable spatial correspondence between sequences. Second, we develop a hierarchical alignment network that processes multi-sequence features at different semantic levels, i.e., local deformation correction modules address geometric variations in low-level features, while global semantic fusion blocks enable semantic fusion at high levels where intensity discrepancies diminish. We validate our method on a large-scale dataset comprising 397 patients. Experimental results show that our proposed CAA-Seg achieves superior performance on most evaluation metrics, with particularly strong results in myocardial infarction segmentation, representing a substantial 5.54% improvement over state-of-the-art approaches. The code is available at https://anonymous.4open.science/r/CAA-Seg-2025.",
+  "authors": [
+    {
+      "name": "Gao, Yifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rui, Shaohao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Haoyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiang, Jinyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Lianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xiaosong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2655_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "miccai-0774",
+  "title": "Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models",
+  "abstract": "Vision-Language Models (VLMs) are becoming increasingly popular in the medical domain, bridging the gap between medical images and clinical language. Existing VLMs demonstrate an impressive ability to comprehend medical images and text queries to generate detailed, descriptive diagnostic medical reports. However, hallucination–the tendency to generate descriptions that are inconsistent with the visual content–remains a significant issue in VLMs, with particularly severe implications in the medical field. To facilitate VLM research on gastrointestinal (GI) image analysis and study hallucination, we curate a multimodal image-text GI dataset: Gut-VLM. This dataset is created using a two-stage pipeline: first, descriptive medical reports of Kvasir-v2 images are generated using ChatGPT, which introduces some hallucinated or incorrect texts. In the second stage, medical experts systematically review these reports, and identify and correct potential inaccuracies to ensure high-quality, clinically reliable annotations. Unlike traditional datasets that contain only descriptive texts, our dataset also features tags identifying hallucinated sentences and their corresponding corrections. A common approach to reducing hallucination in VLM is to finetune the model on a small-scale, problem-specific dataset. However, we take a different strategy using our dataset. Instead of finetuning the VLM solely for generating textual reports, we finetune it to detect and correct hallucinations, an approach we call hallucination-aware finetuning. Our results show that this approach is better than simply finetuning for descriptive report generation. Additionally, we conduct an extensive evaluation of state-of-the-art VLMs across several metrics, establishing a benchmark. Dataset and code available: \\href{https://github.com/bhattarailab/Hallucination-Aware-VLM}{bhattarailab/Hallucination-Aware-VLM.}",
+  "authors": [
+    {
+      "name": "Khanal, Bidur",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pokhrel, Sandesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bhandari, Sanjay",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rana, Ramesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shrestha, Nikesh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gurung, Ram B.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Linte, Cristian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Watson, Angus",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shrestha, Yash R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bhattarai, Binod",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0774_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

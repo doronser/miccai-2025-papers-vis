@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1791",
+  "title": "Decentralized Noise Handling in Medical Imaging: Encoder-Decoder Based Federated Imputation for Robust Training",
+  "abstract": "Noise in medical imaging is an inevitable challenge, often stemming from acquisition artifacts, varying imaging protocols, and external interference. While some studies suggest that noise can enhance model robustness, excessive or unstructured noise degrades training quality and classification performance. \nThis issue is further exacerbated in federated learning settings, where individual clients have limited local data, making it difficult to train robust models independently. Federated imputation has been explored as a solution, yet existing methods do not fully leverage federated learning settings for optimal noise reconstruction. In this work, we introduce a novel encoder-decoder based federated imputation method, designed to replace noisy images with more representative reconstructions before training. Experimental results demonstrate that classification models, trained with images imputed by the proposed method, consistently outperforms those trained with raw noisy images and without noisy images, highlighting the importance of effective noise handling in federated learning-based medical imaging.",
+  "authors": [
+    {
+      "name": "Chang, Yunyoung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noh, Yeonwoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Sang-Woong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Minwoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noh, Wonjong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1791_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3227",
+  "title": "Unleashing SAM for Few-Shot Medical Image Segmentation with Dual-Encoder and Automated Prompting",
+  "abstract": "Deep learning has made significant progress in natural image segmentation but faces challenges in medical imaging due to the limited availability of annotated data. Few-shot learning offers a solution by enabling segmentation with only a few labeled samples, yet generalization remains a challenge when data is scarce. In this work, we investigate the potential of the Segment Anything Model (SAM), a foundation model trained on over one billion annotated images, for few-shot medical image segmentation. However, SAM faces two key challenges: (1) the domain gap between natural and medical images, leading to suboptimal performance, and (2) prompt dependency, as SAM requires user-defined prompts, limiting automation. To address these issues, we propose a novel framework, named AM-SAM, that adapts SAM for few-shot medical image segmentation. Our approach introduces a medical image-specific augmentation strategy and a dual-encoder architecture to bridge the domain gap. Additionally, we develop an automated dual-prompt mechanism to eliminate prompt dependency, generating point and mask prompts from support images. Extensive experiments show that AM-SAM outperforms existing approaches by up to 3.8% on ABD-MRI and 4.0% on ABD-30 in terms of dice score metric.",
+  "authors": [
+    {
+      "name": "Pham, Cuong M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Phi Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Thanh Trung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Phan, Vu Minh Hieu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Binh P.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3227_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

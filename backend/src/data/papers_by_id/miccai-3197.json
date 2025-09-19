@@ -1,0 +1,58 @@
+{
+  "id": "miccai-3197",
+  "title": "Temporal Representation Learning of Phenotype Trajectories for pCR Prediction in Breast Cancer",
+  "abstract": "Effective therapy decisions require models that predict the individual response to treatment. This is challenging since the progression of disease and response to treatment vary substantially across patients. Here, we propose to learn a representation of the early dynamics of treatment response from imaging data to predict pathological complete response (pCR) in breast cancer patients undergoing neoadjuvant chemotherapy (NACT). The longitudinal change in magnetic resonance imaging (MRI) data of the breast forms trajectories in the latent space, serving as basis for prediction of successful response. The multi-task model represents appearance, fosters temporal continuity and accounts for the comparably high heterogeneity in the non-responder cohort.In experiments on the publicly available ISPY-2 dataset, a linear classifier in the latent trajectory space achieves a balanced accuracy of 0.761 using only pre-treatment data (T0), 0.811 using early response (T0+T1), and 0.861 using four imaging time points (T0 -> T3). The full code can be found here: https://github.com/cirmuw/temporal-representation-learning",
+  "authors": [
+    {
+      "name": "Janíčková, Ivana",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Yen Y.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Helbich, Thomas H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miloserdov, Konstantin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bago-Horvath, Zsuzsanna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heber, Ulrike",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Langs, Georg",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3197_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

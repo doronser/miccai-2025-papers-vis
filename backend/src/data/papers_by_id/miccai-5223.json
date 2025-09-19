@@ -1,0 +1,44 @@
+{
+  "id": "miccai-5223",
+  "title": "DiffOSeg: Omni Medical Image Segmentation via Multi-Expert Collaboration Diffusion Model",
+  "abstract": "Annotation variability remains a substantial challenge in medical image segmentation, stemming from ambiguous imaging boundaries and diverse clinical expertise. Traditional deep learning methods producing single deterministic segmentation predictions often fail to capture these annotator biases. Although recent studies have explored multi-rater segmentation, existing methods typically focus on a single perspective\\textemdash either generating a probabilistic ``gold standard’’ consensus or preserving expert-specific preferences\\textemdash thus struggling to provide a more omni view.\nIn this study, we propose DiffOSeg, a two-stage diffusion-based framework, which aims to simultaneously achieve both consensus-driven (combining all experts’ opinions) and preference-driven (reflecting experts’ individual assessments) segmentation.\nStage I establishes population consensus through a probabilistic consensus strategy, while Stage II captures expert-specific preference via adaptive prompts. \nDemonstrated on two public datasets (LIDC-IDRI and NPC-170), our model outperforms existing state-of-the-art methods across all evaluated metrics. Source code is available at \\url{https://github.com/string-ellipses/DiffOSeg}.",
+  "authors": [
+    {
+      "name": "Zhang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xiangde",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Kang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5223_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

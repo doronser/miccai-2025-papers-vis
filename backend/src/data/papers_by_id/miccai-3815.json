@@ -1,0 +1,38 @@
+{
+  "id": "miccai-3815",
+  "title": "Out-of-Distribution Nuclei Segmentation in Histology Imaging via Liquid Neural Networks with Modern Hopfield Layer",
+  "abstract": "Precise nuclei segmentation is crucial in histopathology but remains challenging due to variable tissue types, staining protocols, and imaging conditions. Traditional deep neural networks often perform inconsistently when presented with data distributions not seen during training. Existing approaches typically process multi-scale features sequentially but lack mechanisms to explicitly enforce robustness against distribution shifts.  To address this, we propose a novel framework that integrates hierarchical feature learning with associative memory to enhance model adaptability. First, we extract multi-layer embeddings from an image encoder, then process them in reverse layer order (from deepest to shallowest) using Liquid Neural Network (LNN). This design allows the model to capture global features initially and then refine them with increasingly localized information. The image encoding and the LNN encoding is then concatenated in hidden space and passed through Hopfield layer that stabilizes and stores relevant patterns.  This effectively enhances domain-invariant representations by filtering out spurious correlations. Our OOD experiments on nuclei segmentation benchmark datasets show that our approach achieves average improvement of 16.35% over baseline models. Our code will be released at https://github.com/CVPR-KIT/OOD-Nuclei-Segmentation-via-LNNs-with-MHN.",
+  "authors": [
+    {
+      "name": "Swain, Bishal Ranjan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheoi, Kyung Joo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ko, Jaepil",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3815_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

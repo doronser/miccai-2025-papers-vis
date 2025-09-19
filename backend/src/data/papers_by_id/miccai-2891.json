@@ -1,0 +1,60 @@
+{
+  "id": "miccai-2891",
+  "title": "U-RWKV: Lightweight medical image segmentation with direction-adaptive RWKV",
+  "abstract": "Achieving equity in healthcare accessibility requires lightweight yet high-performance solutions for medical image segmentation, particularly in resource-limited settings. Existing methods like U-Net and its variants often suffer from limited global Effective Receptive Fields (ERFs), hindering their ability to capture long-range dependencies. To address this, we propose U-RWKV, a novel framework leveraging the Recurrent Weighted Key-Value(RWKV) architecture, which achieves efficient long-range modeling at O(N) computational cost. The framework introduces two key innovations: the Direction-Adaptive RWKV Module(DARM) and the Stage-Adaptive Squeeze-and-Excitation Module(SASE). DARM employs Dual-RWKV and QuadScan mechanisms to aggregate contextual cues across images, mitigating directional bias while preserving global context and maintaining high computational efficiency. SASE dynamically adapts its architecture to different feature extraction stages, balancing high-resolution detail preservation and semantic relationship capture. Experiments demonstrate that U-RWKV achieves state-of-the-art segmentation performance with high computational efficiency, offering a practical solution for democratizing advanced medical imaging technologies in resource-constrained environments. The code is available at https://github.com/hbyecoding/U-RWKV.",
+  "authors": [
+    {
+      "name": "Ye, Hongbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Fenghe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Peiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Dexin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bian, Minghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Endoscopy",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2891_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

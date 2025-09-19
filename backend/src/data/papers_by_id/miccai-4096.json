@@ -1,0 +1,51 @@
+{
+  "id": "miccai-4096",
+  "title": "Temporal Neural Cellular Automata: Application to modeling of contrast enhancement in breast MRI",
+  "abstract": "Synthetic contrast enhancement offers fast image acquisition and eliminates the need for intravenous injection of contrast agent. This is particularly beneficial for breast imaging, where long acquisition times and high cost are significantly limiting the applicability of magnetic resonance imaging (MRI) as a widespread screening modality. Recent studies have demonstrated the feasibility of synthetic contrast generation. However, current state-of-the-art (SOTA) methods lack sufficient measures for consistent temporal evolution. Neural cellular automata (NCA) offer a robust and lightweight architecture to model evolving patterns between neighboring cells or pixels. In this work we introduce TeNCA (Temporal Neural Cellular Automata), which extends and further refines NCAs to effectively model temporally sparse, non-uniformly sampled imaging data. To achieve this, we advance the training strategy by enabling adaptive loss computation and define the iterative nature of the method to resemble a physical progression in time. This conditions the model to learn a physiologically plausible evolution of contrast enhancement. We rigorously train and test TeNCA on a diverse breast MRI dataset and demonstrate its effectiveness, surpassing the performance of existing methods in generation of images that align with ground truth post-contrast sequences.",
+  "authors": [
+    {
+      "name": "Lang, Daniel M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Osuala, Richard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Spieker, Veronika",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lekadir, Karim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Braren, Rickmer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schnabel, Julia A.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4096_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

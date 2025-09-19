@@ -1,0 +1,46 @@
+{
+  "id": "miccai-0455",
+  "title": "WiD-PET: PET Image Reconstruction from Low-Dose Data Using a Wavelet-Informed Diffusion Model with Fast Inference",
+  "abstract": "Reconstruction of standard-dose Positron Emission Tomography is vital for clinical diagnosis, while recent diffusion-denoising probabilistic models offer strong generative capabilities, when applied to this task, they often struggle with fine detail recovery, slow inference, and inadequate cross-slice continuity in 3D volumes. To overcome these issues, we introduce WiD-PET, which employs a wavelet transform to produce smaller wavelet-transformed inputs, and thereby reduces inference time to 10% of that required by the DDPM model. Additionally, a high-frequency enhancer is adopted for reconstructing fine and rich image details. Moreover, a spatial consistency feature extractor and spatial consistency attention are implemented to enhance cross-slice continuity in 3D PET reconstructions. Evaluations across dose levels (1/20, 1/50, and 1/100) reveal that WiD-PET consistently achieves superior reconstruction quality, detail preservation, and inference efficiency. Project page: https://github.com/SwingM/WiD.git.",
+  "authors": [
+    {
+      "name": "Lyu, Qingcheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yiran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Erjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Luping",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0455_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

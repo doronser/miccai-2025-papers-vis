@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3536",
+  "title": "Multi-Modal Progressive Fusion for ASD Screening Using Smartphone Video",
+  "abstract": "Screening for Autism Spectrum Disorder (ASD) is an important yet challenging task. Traditional screening tools, such as questionnaires and other technical methods, face difficulties in large-scale implementation, such as primary healthcare and home monitoring settings. To address this issue, we develop a smartphone application to highlight atypical eye movement behaviors in children with ASD and extract multi-modal features, including eye movements, head pose, and emotional expressions, from smartphone videos to characterize the subjects’ viewing behavior. Additionally, we propose a multi-modal progressive fusion framework to comprehensively integrate the relationships between different modalities. The progressive fusion strategy combines multi-modal features at multiple scales to achieve attention-based deep fusion. Moreover, we develop a global intra- and inter-modality interaction (GIIMI) module to enhance competition and interaction within and between modalities. In the experiment, we constructed a smartphone video dataset of 124 children aged 3 to 6 years and validated the performance advantages of the proposed algorithm.",
+  "authors": [
+    {
+      "name": "Zhong, Wenqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Bohan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xia, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Kuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Dingwen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3536_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

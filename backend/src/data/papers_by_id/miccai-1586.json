@@ -1,0 +1,41 @@
+{
+  "id": "miccai-1586",
+  "title": "Multimodal Hypergraph Guide Learning for Non-Invasive ccRCC Survival Prediction",
+  "abstract": "Multimodal medical imaging provides critical data for the early diagnosis and clinical management of clear cell renal cell carcinoma (ccRCC). However, early prediction primarily relies on computed tomography (CT), while whole-slide images (WSI) are often unavailable. Consequently, developing a model that can be trained on multimodal data and make predictions using single-modality data is essential. In this paper, we propose a multimodal hypergraph guide learning framework for non-invasive ccRCC survival prediction. First, we propose a patch-aware global hypergraph computation (PAGHC) module, including a hypergraph diffusion step for capturing correlational structure information and a control step to generate stable WSI semantic embeddings. These WSI semantic embeddings are then used to guide a cross-view fusion method, forming the hypergraph WSI-guided cross-view fusion (HWCVF) to generate CT semantic embeddings, improving single-modality performance in inference. We validate our proposed method on three ccRCC datasets, and quantitative results demonstrate a significant improvement in C-index, outperforming state-of-the-art methods. The source code is available in https://github.com/iMoonLab/PAGHC.",
+  "authors": [
+    {
+      "name": "Yan, Jielong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xiangmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Jieyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yue",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1586_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0161",
+  "title": "A novel Fourier Adjacency Transformer for advanced EEG emotion recognition",
+  "abstract": "EEG emotion recognition faces significant hurdles due to noise interference, signal nonstationarity, and the inherent complexity of brain activity which make accurately emotion classification. In this study, we present the Fourier Adjacency Transformer, a novel framework that seamlessly integrates Fourier-based periodic analysis with graph-driven structural modeling. Our method first leverages novel Fourier-inspired modules to extract periodic features from embedded EEG signals, effectively decoupling them from aperiodic components. Subsequently, we employ an adjacency attention scheme to reinforce universal inter-channel correlation patterns, coupling these patterns with their sample-based counterparts. Empirical evaluations on SEED and DEAP datasets demonstrate that our method surpasses existing state-of-the-art techniques, achieving an improvement of approximately 6.5% in recognition accuracy. By unifying periodicity and structural insights, this framework offers a promising direction for future research in EEG emotion analysis.",
+  "authors": [
+    {
+      "name": "Wang, Jinfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yanhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Sifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Boqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Jionglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Jiaman",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0161_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

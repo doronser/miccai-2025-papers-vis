@@ -1,0 +1,57 @@
+{
+  "id": "miccai-0627",
+  "title": "Pre-Trained LLM is a Semantic-Aware and Generalizable Segmentation Booster",
+  "abstract": "With the advancement of Large Language Model (LLM) for natural language processing, this paper presents an intriguing finding: a frozen pre-trained LLM layer can process visual tokens for medical image segmentation tasks. Specifically, we propose a simple hybrid structure that integrates a pre-trained, frozen LLM layer within the CNN encoder-decoder segmentation framework (LLM4Seg). Surprisingly, this design improves segmentation performance with a minimal increase in trainable parameters across various modalities, including ultrasound, dermoscopy, polypscopy, and CT scans. Our in-depth analysis reveals the potential of transferring LLM’s semantic awareness to enhance segmentation tasks, offering both improved global understanding and better local modeling capabilities. The improvement proves robust across different LLMs, validated using LLaMA and DeepSeek. Code is available at: https://github.com/FengheTan9/LLM4Seg.",
+  "authors": [
+    {
+      "name": "Tang, Fenghe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Wenxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Zhiyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Xiaodong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Zihang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Endoscopy",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0627_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

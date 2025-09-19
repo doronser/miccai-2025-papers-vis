@@ -1,0 +1,53 @@
+{
+  "id": "miccai-1842",
+  "title": "FIND-Net – Fourier-Integrated Network with Dictionary Kernels for Metal Artifact Reduction",
+  "abstract": "Metal artifacts, caused by high-density metallic implants in computed tomography (CT) imaging, severely degrade image quality, complicating diagnosis and treatment planning. While existing deep learning algorithms have achieved notable success in Metal Artifact Reduction (MAR), they often struggle to suppress artifacts while preserving structural details. To address this challenge, we propose FIND-Net (Fourier-Integrated Network with Dictionary Kernels), a novel MAR framework that integrates frequency and spatial domain processing to achieve superior artifact suppression and structural preservation. \nFIND-Net incorporates Fast Fourier Convolution (FFC) layers and trainable Gaussian filtering, treating MAR as a hybrid task operating in both spatial and frequency domains. This approach enhances global contextual understanding and frequency selectivity, effectively reducing artifacts while maintaining anatomical structures. Experiments on synthetic datasets show that FIND-Net achieves statistically significant improvements over state-of-the-art MAR methods, with a 3.07% MAE reduction, 0.18% SSIM increase, and 0.90% PSNR improvement, confirming robustness across varying artifact complexities. Furthermore, evaluations on real-world clinical CT scans confirm FIND-Net’s ability to minimize modifications to clean anatomical regions while effectively suppressing metal-induced distortions. These findings highlight FIND-Net’s potential for advancing MAR performance, offering superior structural preservation and improved clinical applicability. Code is available at: https://github.com/Farid-Tasharofi/FIND-Net.",
+  "authors": [
+    {
+      "name": "Tasharofi, Farid",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Fuxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qahqaie, Melika",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Thies, Mareike",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maier, Andreas",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Lung",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1842_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

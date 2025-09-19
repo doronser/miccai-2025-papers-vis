@@ -1,0 +1,67 @@
+{
+  "id": "miccai-5428",
+  "title": "MIBF-Net: Multi-modal Information Balanced Fusion Network for Clinical Diagnosis via Patient Narratives and Lesion Image",
+  "abstract": "Accurate clinical diagnosis requires comprehensive analysis of medical imaging and patient narratives. However, current computer-aided diagnosis methods focus primarily on imaging modalities while neglecting the integration of patient-reported clinical narratives, due to the scarcity of high-quality patient narratives and the limitations in multimodal information fusion. To address these issues, we propose a dual-component framework consisting of: 1) a Retrieval-Augmented Patient Narratives Generation Module (RANGM) that employs a retrieval-enhanced mechanism to guide pre-trained large language models in generating clinically plausible patient narratives; and 2) a Multimodal Information Balanced Fusion Network (MIBF-Net) incorporating our novel Information Balanced Fusion Attention (IBFA) module for effective cross-modal integration, along with a Modal Prediction-Divergent Loss (MPL) to enhance the model’s ability to diagnose samples that have single modal prediction distribution ambiguous. Owing to the plug-and-play design, our MIBF-Net can integrate with existing imaging-based state-of-the-art methods. Extensive experiments demonstrate significant performance improvements of 2.3%-4.6% on the HAM10000 dataset and 3.8%-6.4% on the ISIC2019 dataset. Our code is publicly available at https://anonymous.4open.science/r/MIBF-Net-2B52/",
+  "authors": [
+    {
+      "name": "Tang, Zixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Bai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Shidan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hong, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Dongdong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zhenzhong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Mengtang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Shen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5428_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

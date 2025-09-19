@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4285",
+  "title": "Automated Detection of Abnormalities in Zebrafish Development",
+  "abstract": "Zebrafish embryos are a valuable model for drug discovery due to their optical transparency and genetic similarity to humans. However, current evaluations rely on manual inspection, which is costly and labor-intensive. While machine learning offers automation potential, progress is limited by the lack of comprehensive datasets.\nTo address this, we introduce a large-scale dataset of high-resolution microscopic image sequences capturing zebrafish embryonic development under both control conditions and exposure to compounds (3,4-dichloroaniline). This dataset, with expert annotations at fine-grained temporal levels, supports two benchmarking tasks: (1) fertility classification, assessing zebrafish egg viability (130,368 images), and (2) toxicity assessment, detecting malformations induced by toxic exposure over time (55,296 images).\nAlongside the dataset, we present the first transformer-based baseline model that integrates spatiotemporal features to predict developmental abnormalities at early stages. Experimental results present the model’s effectiveness, achieving 98% accuracy in fertility classification and 92% in toxicity assessment. These findings underscore the potential of automated approaches to enhance zebrafish-based toxicity analysis. Dataset and code will be available at: https://github.com",
+  "authors": [
+    {
+      "name": "Sivaprasad, Sarath",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hui-Po",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jäckel, Anna-Lisa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baumann, Jonas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baumann, Carole",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Herrmann, Jennifer",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fritz, Mario",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Anomaly Detection"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4285_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

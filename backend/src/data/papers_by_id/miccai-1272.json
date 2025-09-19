@@ -1,0 +1,55 @@
+{
+  "id": "miccai-1272",
+  "title": "3D Acetabular Surface Reconstruction from 2D Pre-operative X-ray Images using SRVF Elastic Registration and Deformation Graph",
+  "abstract": "Accurate and reliable selection of the appropriate acetabular cup size is crucial for restoring joint biomechanics in total hip arthroplasty (THA). This paper proposes a novel framework integrating square-root velocity function (SRVF)-based elastic shape registration technique with an embedded deformation (ED) graph approach to reconstruct the 3D articular surface of the acetabulum by fusing multiple views of 2D pre-operative pelvic X-ray images and a hemispherical surface model. The SRVF-based elastic registration establishes 2D-3D correspondences between the parametric hemispherical model and X-ray images, and the ED framework incorporates the SRVF-derived correspondences as constraints to optimize the 3D acetabular surface reconstruction using nonlinear least-squares optimization. Validations using both simulation and real patient datasets are performed to demonstrate the robustness and the potential clinical value of the proposed algorithm. The reconstruction result can assist surgeons in selecting the correct acetabular cup on the first attempt in THA, minimising the need for revision surgery. Code and data are available at: https://github.com/zsustc/3D-ASR",
+  "authors": [
+    {
+      "name": "Zhang, Shuai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jinliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Konan, Sujith",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stoyanov, Danail",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mazomenos, Evangelos B.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Robotics",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1272_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

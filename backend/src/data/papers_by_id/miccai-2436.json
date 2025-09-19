@@ -1,0 +1,53 @@
+{
+  "id": "miccai-2436",
+  "title": "MiCo: Multiple Instance Learning with Context-Aware Clustering for Whole Slide Image Analysis",
+  "abstract": "Multiple instance learning (MIL) has shown significant promise in histopathology whole slide image (WSI) analysis for cancer diagnosis and prognosis. However, the inherent spatial heterogeneity of WSIs presents critical challenges, as morphologically similar tissue types are often dispersed across distant anatomical regions. Conventional MIL methods struggle to model these scattered tissue distributions and capture cross-regional spatial interactions effectively. To address these limitations, we propose a novel Multiple instance learning framework with Context-Aware Clustering (MiCo), designed to enhance cross-regional intra-tissue correlations and strengthen inter-tissue semantic associations in WSIs. MiCo begins by clustering instances to distill discriminative morphological patterns, with cluster centroids serving as semantic anchors. To enhance cross-regional intra-tissue correlations, MiCo employs a Cluster Route module, which dynamically links instances of the same tissue type across distant regions via feature similarity. These semantic anchors act as contextual hubs, propagating semantic relationships to refine instance-level representations. To eliminate semantic fragmentation and strengthen inter-tissue semantic associations, MiCo integrates a Cluster Reducer module, which consolidates redundant anchors while enhancing information exchange between distinct semantic groups. Extensive experiments on two challenging tasks across nine large-scale public cancer datasets demonstrate the effectiveness of MiCo, showcasing its superiority over state-of-the-art methods. The code is available at https://github.com/junjianli106/MiCo.",
+  "authors": [
+    {
+      "name": "Li, Junjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Hulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yue, Hailin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Mengshen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jianxin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2436_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

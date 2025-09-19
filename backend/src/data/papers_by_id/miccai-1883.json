@@ -1,0 +1,48 @@
+{
+  "id": "miccai-1883",
+  "title": "KMUNet: A novel medical image segmentation model based on KAN and Mamba",
+  "abstract": "Medical image segmentation is essential for identifying lesion regions and di-agnosing disease. Convolutional neural networks (CNNs) and transformer-based models often struggle to effectively capture both local details and global contextual features in medical images, leading to a decline in segmen-tation performance. To address this problem, a novel medical image segmen-tation model, KMUNet, is proposed by integrating Kolmogorov-Arnold net-works (KAN) and Mamba based on the traditional U-shape architecture. This model employs a CNN-based encoder to extract local features and integrates a State Space Model-based Mamba module in the decoder to capture long-range dependencies. Initially, a global downsampling module, called KAN-PatchEmbed is presented. This module differs from traditional convolutional operations in utilizing an interval sampling strategy to alleviate the loss of feature information and KAN to reduce computational complexity, respec-tively. Furthermore, the Kolmogorov-Arnold Spatial-Channel Attention module is designed for skip connections, where KAN is employed to allocate the weight of the current channel by aggregating features across all stages. Finally, the proposed model was evaluated on three publicly available da-tasets. Experimental results reveal that KMUNet outperforms other models in segmentation tasks and produces more visually appealing segmentation re-sults. Our code is available at https://github.com/zhang-hongsheng/KMUNet.",
+  "authors": [
+    {
+      "name": "Zhang, Hongsheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Yuting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Ting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Weifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Hongzhong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1883_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

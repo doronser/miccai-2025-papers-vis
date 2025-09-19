@@ -1,0 +1,72 @@
+{
+  "id": "miccai-4441",
+  "title": "PathoCellBench: A Comprehensive Benchmark for Cell Phenotyping",
+  "abstract": "Digital pathology has seen the advent of a wealth of foundational models (FMs), yet to date their performance on cell phenotyping has not been benchmarked in a unified manner. We therefore propose PathoCellBench: A comprehensive benchmark for cell phenotyping on Hematoxylin and Eosin (H&E) stained histopathology images. We provide both PathoCell , a new H&E dataset featuring 14 cell types identified via multiplexed imaging, and ready-to-use fine-tuning and benchmarking code that allows the systematic evaluation of multiple prominent pathology FMs in terms of dense cell phenotype predictions in a range of generalization scenarios. We perform extensive benchmarking of existing FMs, providing insights into their generalization behavior under technical vs. medical domain shifts. Furthermore, while FMs achieve macro F1 scores > 0.70 on previously established benchmarks such as Lizard and PanNuke, on PathoCell , we observe scores as low as 0.20. This indicates a much more challenging task not captured by previous benchmarks, establishing PathoCell as a prime asset for future benchmarking of FMs and supervised models alike. Code and data are available on GitHub.",
+  "authors": [
+    {
+      "name": "Lüscher, Jérôme",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Koreuber, Nora",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Franzen, Jannik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Reith, Fabian H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Winklmayr, Claudia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baumann, Elias",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schürch, Christian M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kainmüller, Dagmar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rumberger, Josef Lorenz",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4441_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

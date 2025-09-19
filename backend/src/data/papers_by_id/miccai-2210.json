@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2210",
+  "title": "SR-SAM: Subspace Regularization for Domain Generalization of Segment Anything Model",
+  "abstract": "Parameter Efficient Fine-Tuning (PEFT) methods have been widely used to adapt foundation models like the Segment Anything Model (SAM) for better generalization in unseen domains. Despite their widespread use, PEFT often suffers from overfitting to the source training domain, which limits their generalization performance. To address this limitation, we propose a novel subspace regularization (SR) method for robust fine-tuning. Our approach iteratively removes the knowledge of task-specific directions, as identified by LoRA parameters learned from the source domain, from the subspace of pre-trained weights. This strategy effectively encourages the LoRA parameters to acquire a more diverse range of knowledge. In addition, we introduce an exponential moving average (EMA) LoRA module that aggregates historical updates of the LoRA parameters throughout the fine-tuning process. This aggregation enhances stability and the generalizability of the learned features by smoothing the trajectory of parameter updates. Our enhanced framework, SR-SAM, incorporates both subspace regularization and the EMA LoRA module to fine-tune the popular SAM model effectively. Experimental results on two widely used domain generalization benchmarks demonstrate that SR-SAM outperforms existing state-of-the-art methods, underscoring the effectiveness of our method. The source code is available at https://github.com/xjiangmed/SR-SAM.",
+  "authors": [
+    {
+      "name": "Jiang, Xixi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Tim Kwang-Ting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2210_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

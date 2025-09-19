@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2169",
+  "title": "Fusing Dual Encoders: Single-source Domain Generalization with Extremely Few Annotations",
+  "abstract": "Considering the commonly existing domain shifts and label scarcity, single-source domain generalization (SDG) is a crucial and promising topic in medical image segmentation. SDG trains the model on one source domain and aims for generalization on the unseen target domain. However, previous methods rely on the quantity of training samples and perform poorly when only a few labeled training volumes are available, limiting the effective applicability in clinical practice. Thus, we concentrate on the challenging SDG setting with extremely few annotated samples and propose a Medical Dual-encoder framework (MEDU). A dual-encoder U-shaped network incorporates two different encoders and fuses features via simple yet effective layers for learning representative features. We integrate pretrained SAM2 encoder with semantic knowledge for a proper initialization and resisting overfitting, proving effective in training with limited supervision. Furthermore, we introduce a perturbation consistency training strategy with perturbation operations and hierarchical consistency to learn domain-invariant features and alleviate discrepancies between training and inference. MEDU exceeds existing advanced methods in three challenging cross-domain settings concerning SDG with extremely few annotations. For example, on Abdominal MRI-CT, MEDU attains a Dice score of 81.75% with only three labeled training volumes, achieving an improvement of 12.60%. Our source code is available at https://github.com/wrf-nj/MEDU.",
+  "authors": [
+    {
+      "name": "Wang, Ruofan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Jintao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qi, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yinghuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2169_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

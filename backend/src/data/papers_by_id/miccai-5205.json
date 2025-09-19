@@ -1,0 +1,49 @@
+{
+  "id": "miccai-5205",
+  "title": "ClinGRAD: Clinically-Guided Genomics and Radiomics Interpretable GNN for Dementia Diagnosis",
+  "abstract": "Alzheimer’s Disease (AD) remains a major diagnostic challenge due to the complex interplay of genomic, radiomic, and structural factors in disease progression. While deep learning methods can classify AD, current approaches fail to effectively combine multimodal data with clinical knowledge, compromising both accuracy and interpretability. We present ClinGRAD, a clinically-guided heterogeneous graph neural network that combines genomic and radiomic data using connections based on diffusion-weighted imaging (DWI) maps and gene co-expression networks. ClinGRAD’s contributions include: (1) a multimodal fusion architecture that integrates validated structural and genetic connectivity patterns for consistent biological feature analysis; (2) a multi-scale graph framework capturing both local brain structure and global genomic pathway relationships; (3) an attention mechanism that provides clinically relevant explanations of gene-structure interactions; and (4) pathway-based gene clustering that reveals underlying biological mechanisms and their clinical implications. ClinGRAD outperforms existing models, achieving an accuracy of 93.15%, distinguishing AD from control, mild cognitive impaired, and vascular dementia patients while maintaining biological coherence through its clinical guidance framework. The code will be available at https://github.com/BioMedIA-MBZUAI/ClinGRAD.",
+  "authors": [
+    {
+      "name": "Hassan, Salma",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Salem, Mostafa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Papineni, Vijay Ram Kumar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elsayed, Ayman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yaqub, Mohammad",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5205_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

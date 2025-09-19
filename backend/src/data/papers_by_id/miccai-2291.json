@@ -1,0 +1,66 @@
+{
+  "id": "miccai-2291",
+  "title": "CD-PolypNet: Cross-Domain Polyp Segmentation Network with Internal Feature Distillation and Dual-Stream Boundary Focus via Large Vision Model",
+  "abstract": "Leveraging large vision models (LVMs), such as the Segment Anything Model (SAM), in medical image analysis presents significant potential to enhance diagnostic efficiency. Existing SAM-based medical segmentation methods inadequately address two critical challenges: rapidly adapting LVMs to medical tasks through few-shot fine-tuning, and the inherent difficulty in distinguishing lesions from anatomically similar background regions in medical images. To overcome these limitations, we propose CD-PolypNet, a novel framework integrating a Semantic Supervision via Feature Distillation (SSFD) and an Edge-Guided Feature Branch (EFB). \nThe SSFD module leverages feature distillation to transfer knowledge from SAM’s strongly supervised features into early-stage feature learning, enabling efficient domain adaptation of large vision models under data scarcity. Concurrently, EFB enhances boundary discrimination in lightweight decoder through a hybrid strategy combining the Canny operator and Edge-Frequency Gated Convolution (EFGConv), thereby prioritizing edge-aware feature extraction. Extensive experiments across five challenging medical imaging datasets demonstrate that our method not only surpasses state-of-the-art approaches in accuracy and robustness but also establishes a new paradigm for cross-domain adaptation of large vision models in specialized medical applications. The codes are available at https://github.com/ChangpengYue/CD-PolypNet.",
+  "authors": [
+    {
+      "name": "Yue, Changpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Jianxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Xinglun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mao, Axiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Jia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Chenggang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Kai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shuai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2291_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

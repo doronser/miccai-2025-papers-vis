@@ -1,0 +1,51 @@
+{
+  "id": "miccai-0977",
+  "title": "A Boundary-aware Cold-Diffusion Model for Electron Microscopy Segmentation",
+  "abstract": "The advancement of electron microscopy (EM) imaging technology has expanded its applications in life science research, making the automation of EM image analysis a key focus in biomedical imaging. As a core task in EM image analysis, semantic segmentation has garnered significant attention, and convolutional neural networks (CNNs) have been extensively studied, currently emerging as the mainstream method. However, existing methods still face several unresolved challenges. One issue arises from the convolution process, which makes it difficult to efficiently balance global and local information, thus limiting further improvements in segmentation accuracy. Another issue stems from the nature of CNNs, which aim to establish an optimal mapping between images and labels, achieving high accuracy in in-domain data segmentation but at the cost of a noticeable performance drop on out-of-domain data. In this paper, we explore the potential of diffusion probabilistic models (DPMs), known for their exceptional image modeling capabilities, to address these challenges. Specifically, we introduce a diffusion probabilistic model for the semantic segmentation of EM images, which we call EM-Cold-SegDiffusion (ECSD). We adopt a cold or deterministic diffusion framework to achieve higher inference efficiency and a more deterministic segmentation process. Additionally, by introducing an edge-sensitive loss function, we significantly enhance both training efficiency and model performance. Experimental results on common EM segmentation tasks demonstrate that ECSD outperforms mainstream models, offering a promising and superior solution for EM segmentation.",
+  "authors": [
+    {
+      "name": "Qi, Muge",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Ruohua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Liuyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Wenyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Microscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0977_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

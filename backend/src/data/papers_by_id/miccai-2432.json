@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2432",
+  "title": "DiffStain: Conditioned Diffusion-Based Semantic Virtual Staining with Mask Guidance",
+  "abstract": "Fluorescent staining is crucial for studying the morphology and dynamics of subcellular structures in biological and medical research, though being slow, expensive, and causing phototoxicity in live cells. Existing methods use deep generative models for image-to-image translation to generate diverse fluorescent images of subcellular structures. However, the pixel-level image generation approaches struggle to preserve fine structural details during the reconstruction process. In this paper, we introduce DiffStain, a novel approach that leverages mask-guided diffusion models for semantic virtual staining. The goal is to generate fluorescent images based on a brightfield input image. Rather than relying on deliberately  selected image filters for subcellular structure segmentation, our approach employs an unsupervised deep neural spectral clustering method to combat the noisy and ambiguous structural boundaries. We also integrate mask guidance into the reverse denoising process, which helps highlight the regions of the subcellular structures that require precise representation in the generated fluorescent images. The masks produced by the spectral clustering model provide valuable feedback, enabling iterative refinements of the fluorescent images. Experiments showcase that our  DiffStain method achieves state-of-the-art virtual staining performances on public microscopy datasets. Code is available at: https://github.com/StrengthInNumber/DiffStain.",
+  "authors": [
+    {
+      "name": "Han, Yikai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Jimao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pei, Yuru",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2432_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

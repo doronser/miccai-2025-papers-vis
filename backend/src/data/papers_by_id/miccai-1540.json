@@ -1,0 +1,61 @@
+{
+  "id": "miccai-1540",
+  "title": "DetectDiffuse: Aggregation- and Attention-driven Universal Lesion Detection with Multi-scale Diffusion Model",
+  "abstract": "Automated Universal Lesion Detection (ULD) based on computed tomography (CT) images provides physicians with rapid and objective information regarding lesion locations and shapes. However, it is difficult to detect universal lesions in various regions because of the disparity in lesion sizes and the grayscale variation present in CT images. In this paper, we propose DetectDiffuse, a multiscale diffusion model driven by feature aggregation and 3D attention. First, we utilize the diffusion model to generate noisy detection boxes, incorporating a scale factor to simulate lesions at different scales and mitigate detection errors. Second, we develop a Neighborhood Aggregation (NA) module to enhance the model’s capability to distinguish between lesioned and normal tissues. This module aggregates features within and around detection boxes, reducing false detections caused by significant grayscale differences in lesions. Third, we propose a 3D Stripe Attention (SA) module leveraging dimensional disambiguation. This module uses an attention mechanism to extract information across different dimensions of CT images more effectively. We performed comparison experiments on five datasets, the results show that the proposed method outperforms the 12 compared state-of-the-art methods, and improves the performance by 5.82% compared with the best method.",
+  "authors": [
+    {
+      "name": "Li, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ai, Danni",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Jingfan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Deqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1540_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

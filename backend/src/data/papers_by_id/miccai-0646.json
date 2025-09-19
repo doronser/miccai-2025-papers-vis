@@ -1,0 +1,37 @@
+{
+  "id": "miccai-0646",
+  "title": "MvHo-IB: Multi-View Higher-Order Information Bottleneck for Brain Disorder Diagnosis",
+  "abstract": "Recent evidence suggests that modeling higher-order interactions (HOIs) in functional magnetic resonance imaging (fMRI) data can enhance the diagnostic accuracy of machine learning systems. However, effectively extracting and leveraging HOIs remains a significant challenge. In this paper, we propose MvHo-IB, a novel multi-view learning framework that seamlessly integrates pairwise interactions and HOIs for diagnostic decision-making while automatically compressing task-irrelevant redundant information. Our approach introduces several key innovations: (1) a principled framework combining $\\mathcal{O}$-information from information theory with the recently developed matrix-based R'enyi’s $\\alpha$-order entropy functional estimator to quantify and extract HOIs, (2) a purpose-built Brain3DCNN encoder designed to effectively utilize these interactions, and (3) a novel multiview learning information bottleneck objective to enhance representation learning. Experiments on three benchmark fMRI datasets demonstrate that MvHo-IB achieves state-of-the-art performance, outperforming existing methods, including modern hypergraph-based techniques, by significant margins. The code of our MvHo-IB is available at \\url{https://github.com/zky04/MvHo-IB}.",
+  "authors": [
+    {
+      "name": "Zhang, Kunyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Shujian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0646_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

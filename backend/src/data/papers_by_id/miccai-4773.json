@@ -1,0 +1,57 @@
+{
+  "id": "miccai-4773",
+  "title": "Contrast Flow Pattern and Cross-Phase Specificity-Aware Diffusion Model for NCCT-to-Multiphase CECT Synthesis",
+  "abstract": "Multiphase contrast-enhanced computed tomography (CT) is clinically significant in providing vascular structure and lesion phase-specific enhancements. Yet, its clinical utility is constrained by intrinsic contrast agent-associated risks (e.g., nephrotoxicity, allergic reactions) and multiphase cumulative radiation exposure. To tackle this, synthesizing contrast-enhanced CT (CECT) using non-contrast CT (NCCT) offers a potential alternative. However, achieving a high-quality synthesis of multiphase CECT remains challenging due to the contrast agent (CA)-induced complex contrast flow dynamics and the specific variations across phases. Therefore, this paper proposes a contrast flow pattern and cross-phase specificity-aware diffusion model for NCCT-to-multiphase CECT synthesis. Specifically, a contrast flow pattern learning mechanism is integrated into the conditional diffusion model, which enables orderly phase transitions while ensuring anatomically and temporally coherent enhancement synthesis. Furthermore, a phase distinction network is introduced to align cross-phase specificity features with the contrast features in synthesized CECT images. Experimental results on multicenter abdomen CT datasets have demonstrated the superiority of our method compared to state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Zheng, Kaiyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Mu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xinming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Jianhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Qianjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Liming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4773_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0958",
+  "title": "Collateral Circulation guided Multi-modality Fusion Network for Postoperative Infarct Prediction",
+  "abstract": "Acute ischemic stroke is one of the major causes of mortality and disability worldwide. Although thrombectomy is an effective intervention, it carries a lot of risks such as hemorrhage and vascular injury. Thus, it is crucial to accurately predicting postoperative infarct before intervention, providing the guidance for treatment. The existing perfusion imaging techniques relying on fixed thresholding approaches mostly fail to account for individual differences in collateral circulation recruitment, which has been proven to effectively reflect infarct severity. In this work, we take the first step toward integrating collateral circulation status into deep neural network, enabling the model to learn and capture hemodynamic cues for infarct prediction. Specifically, we establish the first brain computed tomography perfusion (CTP) dataset including collateral circulation status and further conduct a thorough analysis of its effectiveness in predicting infarcts. Based on the findings, we propose a novel multi-modal fusion module that integrates spatiotemporal features of multiple modalities. Specifically, a bi-directional Mamba structure is developed to extract the sequential information, which is then fused with collateral priors via a mixture-of-experts mechanism. In addition, a two-stage infarct prediction module is developed to successively localize and segment the infarct region under the guidance of collateral circulation status. Finally, both infarct localization and segmentation performance of our method are validated to outperform 14 state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Guo, Yichen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Xinyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dai, Lisong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Heming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Lai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Mai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shengxi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Image-Guided Interventions",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0958_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

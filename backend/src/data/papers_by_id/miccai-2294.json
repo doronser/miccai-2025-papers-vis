@@ -1,0 +1,37 @@
+{
+  "id": "miccai-2294",
+  "title": "Meta-analysis guided multi-task graph transformer network for diagnosis of neurological disease and cognitive deficits",
+  "abstract": "Neurological diseases, such as schizophrenia and attention deficit hyperactivity disorder (ADHD), alter functional connectivity (FC) and are often accompanied by cognitive deficits. Leveraging shared neural mechanisms underlying both neurological disease and cognitive deficits can enhance diagnostic accuracy. However, due to the complex neural mechanisms of these conditions, diagnosing them based on FC alone still presents challenges in terms of accuracy and biomarker reliability. To address these challenges, we designed a meta-analysis guided multi-task graph transformer network to simultaneously predict neurological disease and cognitive deficits and examine alterations in brain FC associated with these conditions. The framework employs a graph transformer method as the encoder and integrates a joint attention mechanism to capture shared disease–cognition features while utilizing saliency pooling to extract saliency weights for each task. To enhance the reliability of saliency weights, we incorporate meta-analysis guidance that aggregates data from 470 functional studies in the BrainMap database. Then, we establish reference probability maps for brain activations associated with neurological diseases and cognitive deficits using a Naive Bayes classifier. The saliency weights learned from saliency pooling are then constrained to align with these references using Pearson correlation. Experiments on the COBRE and ADHD-200 datasets indicate that our proposed method outperforms state-of-the-art multi-task learning models in classifying schizophrenia and ADHD, as well as in predicting their related cognitive deficits. Moreover, the biomarkers extracted from our models exhibit biologically meaningful patterns.",
+  "authors": [
+    {
+      "name": "Xia, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chan, Yi Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rajapakse, Jagath C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2294_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

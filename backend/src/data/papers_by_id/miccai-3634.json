@@ -1,0 +1,70 @@
+{
+  "id": "miccai-3634",
+  "title": "HWA-UNETR: Hierarchical Window Aggregate UNETR for 3D Multimodal Gastric Lesion Segmentation",
+  "abstract": "Multimodal medical image segmentation faces significant challenges in the context of gastric cancer lesion analysis. This clinical context is defined by the scarcity of independent multimodal datasets and the imperative to amalgamate inherently misaligned modalities. As a result, algorithms are constrained to train on approximate data and depend on application migration, leading to substantial resource expenditure and a potential decline in analysis accuracy. To address those challenges, we have made two major contributions: First, we publicly disseminate the GCM 2025 dataset, which serves as the first large-scale, open-source collection of gastric cancer multimodal MRI scans, featuring professionally annotated FS-T2W, CE-T1W, and ADC images from 500 patients. Second, we introduce HWA-UNETR, a novel 3D segmentation framework that employs an originality HWA block with learnable window aggregation layers to establish dynamic feature correspondences between different modalities’ anatomical structures, and leverages the innovative tri-orientated fusion mamba mechanism for context modeling and capturing long-range spatial dependencies. Extensive experiments on our GCM 2025 dataset and the publicly BraTS 2021 dataset validate the performance of our framework, demonstrating that the new approach surpasses existing methods by up to 1.68\\% in the Dice score while maintaining solid robustness. The dataset and code are public via this URL.",
+  "authors": [
+    {
+      "name": "Liang, Jiaming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dai, Lihuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sheng, Xiaoqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Xiangguang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Chun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Guihua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Leng, Qibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Hongmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Xi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Validation",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3634_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

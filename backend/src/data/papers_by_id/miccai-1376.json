@@ -1,0 +1,59 @@
+{
+  "id": "miccai-1376",
+  "title": "SynPo: Boosting Training-Free Few-Shot Medical Segmentation via High-Quality Negative Prompts",
+  "abstract": "The advent of Large Vision Models (LVMs) offers new opportunities for few-shot medical image segmentation. However, existing training-free methods based on LVMs fail to effectively utilize negative prompts, leading to poor performance on low-contrast medical images. To address this issue, we propose SynPo, a training-free few-shot method based on LVMs (e.g., SAM), with the core insight: improving the quality of negative prompts. To select point prompts in a more reliable confidence map, we design a novel Confidence Map Synergy Module by combining the strengths DINOv2 and SAM. Based on the confidence map, we select the top-k pixels as positive points set and choose negative points set using a Gaussian distribution, followed by independent K-means clustering for both sets. Then, these selected points are leveraged as high-quality prompts for SAM to get the segmentation results. Extensive experiments demonstrate that SynPo achieves performance comparable to state-of-the-art training-based few-shot methods. Project page: https://liu-yufei.github.io/synpo-project-page/.",
+  "authors": [
+    {
+      "name": "Liu, Yufei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Haoke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chai, Jiaxing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yongcun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Rong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Zijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Zhiming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1376_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

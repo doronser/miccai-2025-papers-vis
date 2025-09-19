@@ -1,0 +1,43 @@
+{
+  "id": "miccai-2532",
+  "title": "Various Attention Mechanism Graph Convolutional Network with Multi-Source Domain Adaptation for Cross-Subject EEG Emotion Recognition",
+  "abstract": "EEG-based emotion recognition is vital for patients who are unable to express emotions normally through physical or verbal means.It can provide essential support for their emotional expression and rehabilitation. EEG signals are highly non-stationary, and there is significant variability in emotional expression among individuals. The Graph Convolutional Network (GCN) has shown excellent performance in EEG signal feature extraction, but their accuracy in cross-subject scenarios remains unsatisfactory. In this paper, we propose a Various Attention Mechanism Graph Convolutional Network with Multi-Source Domain Adaptation (VAG-MSDA) model for cross-subject EEG emotion recognition. VAG extracts features through the GCN with various attention mechanism to capture the emotional cognitive attributes of the graph structure in spectral, local, and global spatial domains, ensuring the richness and stability of feature information while reducing redundancy. Additionally, MSDA is used to align the feature distributions and classifiers among different individuals, further enhancing the model’s generalization ability. Experiments were conducted on the SEED and SEED-IV datasets. The results demonstrate that the proposed VAG-MSDA model achieves significant performance improvements and reaches state-of-the-art performance levels on the SEED-IV dataset. Our code is open-sourced at https://github.com/e6ut/vag-msda.",
+  "authors": [
+    {
+      "name": "Shi, Shuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Xulei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Taiyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hao, Xiaoke",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2532_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

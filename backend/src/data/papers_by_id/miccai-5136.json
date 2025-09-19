@@ -1,0 +1,54 @@
+{
+  "id": "miccai-5136",
+  "title": "Reflect: Rectified Flows for Efficient Brain Anomaly Correction Transport",
+  "abstract": "Unsupervised anomaly detection (UAD) in brain imaging is crucial for identifying pathologies without the need for labeled data. However, accurately localizing anomalies remains challenging due to the intricate structure of brain anatomy and the scarcity of abnormal examples. In this work, we introduce REFLECT, a novel framework that leverages rectified flows to establish a direct, linear trajectory for correcting abnormal MR images toward a normal distribution. By learning a straight, one-step correction transport map, our method efficiently corrects brain anomalies and can precisely localize anomalies by detecting discrepancies between anomalous input and corrected counterpart. In contrast to the diffusion-based UAD models, which require iterative stochastic sampling, rectified flows provide a direct transport map, enabling single-step inference. Extensive experiments on popular UAD brain segmentation benchmarks demonstrate that REFLECT significantly outperforms state-of-the-art unsupervised anomaly detection methods. The code is available at https://github.com/farzad-bz/REFLECT",
+  "authors": [
+    {
+      "name": "Beizaee, Farzad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hajimiri, Sina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ben Ayed, Ismail",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lodygensky, Gregory",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Desrosiers, Christian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dolz, Jose",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5136_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

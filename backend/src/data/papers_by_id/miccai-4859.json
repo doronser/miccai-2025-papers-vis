@@ -1,0 +1,44 @@
+{
+  "id": "miccai-4859",
+  "title": "Ambiguous Medical Image Segmentation Using Diffusion Schrödinger Bridge",
+  "abstract": "Accurate segmentation of medical images is challenging due\nto unclear lesion boundaries and mask variability. We introduce Segmentation Schödinger Bridge (SSB), the first application of Schödinger Bridge for ambiguous medical image segmentation, modelling joint image-mask dynamics to enhance performance. SSB preserves structural integrity, delineates unclear boundaries without additional guidance, and maintains diversity using a novel loss function. We further propose the Diversity Divergence Index (DDI ) to quantify inter-rater variability, capturing both diversity and consensus. SSB achieves state-of-the-art performance on LIDC-IDRI, COCA, and RACER (in-house) datasets.",
+  "authors": [
+    {
+      "name": "Baru, Lalith Bharadwaj",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dadi, Kamalaker",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chakraborti, Tapabrata",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bapi, Raju S.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4859_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

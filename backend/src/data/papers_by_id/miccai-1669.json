@@ -1,0 +1,76 @@
+{
+  "id": "miccai-1669",
+  "title": "PLUS: Plug-and-Play Enhanced Liver Lesion Diagnosis Model on Non-Contrast CT Scans",
+  "abstract": "Focal liver lesions (FLL) are common clinical findings during physical examination. Early diagnosis and intervention of liver malignancies are crucial to improving patient survival. Although the current 3D segmentation paradigm can accurately detect lesions, it faces limitations in distinguishing between malignant and benign liver lesions, primarily due to its inability to differentiate subtle variations between different lesions. Furthermore, existing methods predominantly rely on specialized imaging modalities such as multi-phase contrast-enhanced CT and magnetic resonance imaging, whereas non-contrast CT (NCCT) is more prevalent in routine abdominal imaging. To address these limitations, we propose PLUS, a plug-and-play framework that enhances FLL analysis on NCCT images for arbitrary 3D segmentation models. In extensive experiments involving 8,651 patients, PLUS demonstrated a significant improvement with existing methods, improving the lesion-level F1 score by 5.66%, the malignant patient-level F1 score by 6.26%, and the benign patient-level F1 score by 4.03%. Our results demonstrate the potential of PLUS to improve malignant FLL screening using widely available NCCT imaging substantially. Code is availabel at https://github.com/alibaba-damo-academy/plug-and-play-diagnosis.",
+  "authors": [
+    {
+      "name": "Hao, Jiacheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiaoming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yin, Xiaoli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Chunli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Ke",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1669_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

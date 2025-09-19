@@ -1,0 +1,77 @@
+{
+  "id": "miccai-3660",
+  "title": "GRASP-PsONet: Gradient-based Removal of Spurious Patterns for PsOriasis Severity Classification",
+  "abstract": "Psoriasis (PsO) severity scoring is vital for clinical trials but hindered by inter-rater variability and the burden of in-person clinical evaluation. Remote imaging utilizing patient-captured mobile photos offers scalability but introduces challenges, such as variations in lighting, background, and device quality that are often imperceptible to humans but may impact model performance. These factors, coupled with inconsistencies in dermatologist annotations, reduce the reliability of automated severity scoring. We propose a framework to automatically flag problematic training images that introduce biases and reinforce spurious correlations which degrade model generalization by using a gradient-based interpretability approach. By tracing the gradients of misclassified validation images, we detect training samples where model errors align with inconsistently rated examples or are affected by subtle, non-clinical artifacts. We apply this method to a ConvNeXT-based weakly supervised model designed to classify PsO severity from phone images. Removing 8.2% of flagged images improves model AUC-ROC by 5% (85% to 90%) on a held-out test set. Commonly, multiple annotators and an adjudication process ensure annotation accuracy, which is expensive and time-consuming. Our method correctly detects training images with annotation inconsistencies, potentially eliminating the need for manual reviews. When applied to a subset of training images rated by two dermatologists, the method accurately identifies over 90% of cases with inter-rater disagreement by rank-ordering and reviewing only the top 30% of training data. This framework improves automated scoring for remote assessments, ensuring robustness and scalability despite variability in data collection. Our method handles both inconsistencies in image conditions and annotations, making it ideal for applications lacking standardization of controlled clinical environments.",
+  "authors": [
+    {
+      "name": "Pal, Basudha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kamran, Sharif Amit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lutnick, Brendon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lucas, Molly",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Parmar, Chaitanya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Patel Shah, Asha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Apfel, David",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fakharzadeh, Steven",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miller, Lloyd",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cula, Gabriela",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Standish, Kristopher",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3660_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

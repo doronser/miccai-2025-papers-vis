@@ -1,0 +1,78 @@
+{
+  "id": "miccai-3200",
+  "title": "This EEG Looks Like These EEGs: Interpretable Interictal Epileptiform Discharge Detection With ProtoEEG-kNN",
+  "abstract": "The presence of interictal epileptiform discharges (IEDs) in electroencephalogram (EEG) recordings is a critical biomarker of epilepsy. Even trained neurologists find detecting IEDs difficult, leading many practitioners to turn towards machine learning for help. Although deep learning algorithms have shown state-of-the-art accuracy on this task, most models are uninterpretable and cannot justify their conclusions. Absent the ability to understand model reasoning, doctors cannot leverage their expertise to identify incorrect model predictions and intervene accordingly. To improve human-model interaction, we introduce ProtoEEG-kNN, an inherently interpretable IED-detection model that follows a simple case-based reasoning process. Specifically, ProtoEEG-kNN compares input EEGs to samples from the training set that contain similar IED morphology (shape) and spatial distribution (location). We show that ProtoEEG-kNN can achieve state-of-the-art accuracy while providing visual explanations that experts prefer over existing approaches.",
+  "authors": [
+    {
+      "name": "Tang, Dennis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Donnelly, Jon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Barnett, Alina Jade",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Semenova, Lesia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jing, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hadar, Peter",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Karakis, Ioannis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Selioutski, Olga",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Kehan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Westover, M. Brandon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rudin, Cynthia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3200_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

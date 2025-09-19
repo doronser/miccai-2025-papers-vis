@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1213",
+  "title": "Multi-Tube-Voltage vBMD Measurement via Dual-Branch Frequency Balancing and Asymmetric Channel Attention",
+  "abstract": "Phantom-less volumetric bone mineral density (vBMD) measurement using computed tomography (CT) presents a cost-effective alternative to conventional phantom-based approaches, yet faces accuracy challenges across varying tube voltages. Current deep learning-based phantom-less solutions frequently overlook the critical role of frequency variance—a crucial factor for precise BMD measurement and cross-voltage generalization. We present a lightweight CT-based phantom-free vBMD measurement framework that addresses critical limitations in cross-voltage generalization. Core innovations include: (1) Frequency-balancing feature modulation with multi-band fusion, preserving spectral measurement cues; (2) A dual-branch architecture combining domain-specific convolutions with cross-frequency interaction; and (3) Asymmetric channel attention, which allocates attention weights based on frequency characteristics, enabling adaptive emphasis on critical low- and high-frequency components. Comprehensive evaluations across 80, 1",
+  "authors": [
+    {
+      "name": "Zhang, Mengze",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yali",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, HuiShu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qian, Zhen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1213_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

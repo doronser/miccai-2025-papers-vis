@@ -1,0 +1,48 @@
+{
+  "id": "miccai-1562",
+  "title": "BrainPrompt: Domain Adaptation with Prompt Learning for Multi-site Brain Network Analysis",
+  "abstract": "It is challenging to discriminate autism spectrum disorder (ASD) from a highly heterogeneous database, because there is a great deal of uncontrollable variability in the data from different sites.\nRecently, prompt learning has received considerable attention in domain adaptation as a promising solution. \nHowever, its application to graph data like multi-site brain networks has not been fully studied.\nIt faces two major challenges: (1) complex graph structure; and (2) inter-individual variability.\nTo overcome the issues, we propose a novel prompt-tuning paradigm for multi-site brain network analysis (BrainPrompt) using functional magnetic resonance imaging (fMRI). \nSpecifically, we introduce two tunable soft prompts:\n(1) a mask prompt to prune noisy edges while preserving important connections, and distill it to reduce domain-specific biases;\n(2) sample prompts to capture inter-individual variations.\nOur model outperforms other models on the ABIDE dataset, especially at sites with limited samples  (e.g., the Stanford site, which has only 39 samples).\nBrainPrompt achieves a 35.88% improvement in accuracy compared to the State-of-the-Art (SOTA) method, highlighting its superiority in small sites.\nFurthermore, our results demonstrate the interpretability and generalization of the proposed method.\nOur code is available at https://github.com/zliuzeng/BrainPrompt.",
+  "authors": [
+    {
+      "name": "Zhang, Liuzeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Lanting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jinzhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zaiane, Osmar R.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1562_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

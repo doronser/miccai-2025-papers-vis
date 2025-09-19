@@ -1,0 +1,51 @@
+{
+  "id": "miccai-0428",
+  "title": "Pathology-Aware Adaptive Watermarking for Text-Driven Medical Image Synthesis",
+  "abstract": "As recent text-conditioned diffusion models have enabled the generation of high-quality images, concerns over their potential misuse have also grown. This issue is critical in the medical domain, where text-conditioned generated medical images could enable insurance fraud or falsified records, highlighting the urgent need for reliable safeguards against unethical use. While watermarking techniques have emerged as a promising solution in general image domains, their direct application to medical imaging presents significant challenges. A key challenge is preserving fine-grained disease manifestations, as even minor distortions from a watermark may lead to clinical misinterpretation, which compromises diagnostic integrity. To overcome this gap, we present MedSign, a deep learning-based watermarking framework specifically designed for text-to-medical image synthesis, which preserves pathologically significant regions by adaptively adjusting watermark strength. Specifically, we generate a pathology localization map using cross-attention between medical text tokens and the diffusion denoising network, aggregating token-wise attention across layers, heads, and time steps. Leveraging this map, we optimize the LDM decoder to incorporate watermarking during image synthesis, ensuring cohesive integration while minimizing interference in diagnostically critical regions. Experimental results show that our MedSign preserves diagnostic integrity while ensuring watermark robustness, achieving state-of-the-art performance in image quality and detection accuracy on MIMIC-CXR and OIA-ODIR datasets.",
+  "authors": [
+    {
+      "name": "Kim, Chanyoung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ju, Dayun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Jinyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Woojung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alcover-Couso, Roberto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hwang, Seong Jae",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0428_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

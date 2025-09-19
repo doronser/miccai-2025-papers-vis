@@ -1,0 +1,59 @@
+{
+  "id": "miccai-3245",
+  "title": "OsteoOpt: A Bayesian Optimization Framework for Enhancing Bone Union Likelihood in Mandibular Reconstruction Surgery",
+  "abstract": "Mandibular reconstruction is crucial after oral tumor resection, yet current methods rely on premorbid geometric approximations and struggle with achieving reliable donor-native bone union. We propose a Bayesian optimization framework that enhances predicted bone union likelihood and facilitates computer-aided intervention by systematically varying key surgical parameters—resection plane orientation, donor bone positioning, and graft length—across three mandibular regions. Reconstruction performance is evaluated using two cost functions, coupled with a sensitivity analysis on modeling parameters. We validated the model using longitudinal patient-specific data from 5-day and 1-year postoperative CT and MRI scans. Our results show that optimization significantly enhances the predicted likelihood of bone union, with a relative improvement of up to 329% compared to the standard surgical practice. Additionally, validation shows a Dice coefficient of up to 0.76 between union prediction and actual postoperative imaging data. This study suggests that modifying the standard surgical plan can significantly improve bone union, underscoring the need for advanced optimization frameworks in surgical planning. The open-source code is available on GitHub.",
+  "authors": [
+    {
+      "name": "Aftabi, Hamidreza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lloyd, John E.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Amanda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sagl, Benedikt",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Prisman, Eitan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hodgson, Antony",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fels, Sidney",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Registration",
+    "Applications -> Image Segmentation",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3245_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

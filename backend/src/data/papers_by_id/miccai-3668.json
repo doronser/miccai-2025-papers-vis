@@ -1,0 +1,51 @@
+{
+  "id": "miccai-3668",
+  "title": "Hierarchical Self-Supervised Adversarial Training for Robust Vision Models in Histopathology",
+  "abstract": "Adversarial attacks pose significant challenges for vision models in critical fields like healthcare, where reliability is essential. Although adversarial training has been well studied in natural images, its application to biomedical and microscopy data remains limited. Existing self-supervised adversarial training methods overlook the hierarchical structure of histopathology images, where patient-slide-patch relationships provide valuable discriminative signals. To address this, we propose  Hierarchical Self-Supervised Adversarial Training (HSAT), which exploits these properties to craft adversarial examples using multi-level contrastive learning and integrate it into adversarial training for enhanced robustness. We evaluate HSAT on multiclass histopathology \ndataset OpenSRH and the results show that HSAT outperforms existing  methods from both biomedical and natural image domains. HSAT enhances robustness, achieving an average gain of 54.31% in the white-box setting and reducing performance drops to 3-4% in the black-box setting, compared to 25-30% for the baseline. These results set a new benchmark for adversarial training in this domain, paving the way for more robust models. Code and models are available at https://github.com/HashmatShadab/HSAT.",
+  "authors": [
+    {
+      "name": "Malik, Hashmat Shadab",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kunhimon, Shahina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Naseer, Muzammal",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Khan, Fahad Shahbaz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Khan, Salman",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Microscopy",
+    "Modalities -> Spectroscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3668_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "miccai-4377",
+  "title": "FoundBioNet: A Foundation-Based Model for IDH Genotyping of Glioma from Multi-Parametric MRI",
+  "abstract": "Accurate, noninvasive detection of isocitrate dehydrogenase (IDH) mutation is essential for effective glioma management. Traditional methods rely on invasive tissue sampling, which may fail to capture a tumor’s spatial heterogeneity. While deep learning models have shown promise in molecular profiling, their performance is often limited by scarce annotated data. In contrast, foundation deep learning models offer a more generalizable approach for glioma imaging biomarkers. We propose a Foundation-based Biomarker Network (FoundBioNet) that utilizes a SWIN-UNETR-based architecture to noninvasively predict IDH mutation status from multi-parametric MRI. Two key modules are incorporated: Tumor-Aware Feature Encoding (TAFE) for extracting multi-scale, tumor-focused features, and Cross-Modality Differential (CMD) for highlighting subtle T2–FLAIR mismatch signals associated with IDH mutation. The model was trained and validated on a diverse, multi-center cohort of 1,705 glioma patients from six public datasets. Our model achieved AUCs of 90.58% ± 1.25, 88.08% ± 3.08, 65.41% ± 3.35, and 80.31% ± 1.09 on independent test sets from EGD, TCGA, Ivy GAP, RHUH, and UPenn, consistently outperforming baseline approaches (p ≤ 0.05). Ablation studies confirmed that both the TAFE and CMD modules are essential for improving predictive accuracy. By integrating large-scale pretraining and task-specific fine-tuning, FoundBioNet enables generalizable glioma characterization. This approach enhances diagnostic accuracy and interpretability, with the potential to enable more personalized patient care.",
+  "authors": [
+    {
+      "name": "Farahani, Somayeh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hejazi, Marjaneh",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Di Ieva, Antonio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Sidong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4377_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

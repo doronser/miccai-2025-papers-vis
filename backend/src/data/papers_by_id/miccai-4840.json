@@ -1,0 +1,75 @@
+{
+  "id": "miccai-4840",
+  "title": "Unsupervised Learning-Based Susceptibility Artifact Correction for Diffusion-Weighted MRI in Multiple Organs",
+  "abstract": "Diffusion-weighted MRI (DWI) is widely used for assessing tissue microstructure, with echo-planar imaging (EPI) sequences being the preferred acquisition method due to their fast speed. However, EPI-based DWI is highly sensitive to field inhomogeneities, leading to susceptibility-induced distortions that compromise image quality. Traditional correction methods, such as TOPUP, estimate displacement fields from a pair of reversed phase-encoding (reversed-PE) images to mitigate these distortions. While effective, these approaches suffer from high computational cost, limiting their clinical utility. In this study, we propose an unsupervised learning method for susceptibility artifact correction in EPI. A transformer-style convolutional network enhanced with deformable convolutions is developed to estimate the displacement field from a pair of reversed-PE images, followed by image unwarping and intensity modulation to generate the distortion-free images. This approach surpasses the performance of conventional U-Net-based methods in accuracy. Additionally, a spatially weighted smoothness loss is introduced to enhance robustness against noise in the input data so that the predicted displacement fields from a pair of low b-value DWI can be applied to correct other images with different b-values and diffusion directions from the same subject, optimizing acquisition and computational efficiency. A single model was trained and evaluated on large datasets from multiple organs, acquired with diverse imaging sequences and parameters, at both 1.5T and 3T. Our results demonstrate that the proposed approach achieves generalizable high-quality distortion correction while significantly reducing processing time compared to TOPUP, highlighting its potential for clinical translation.",
+  "authors": [
+    {
+      "name": "Qiu, Shihan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miron, Radu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yahang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Eichner, Cornelius",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feiweier, Thorsten",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Janardhanan, Nirmal",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Clifford, Bryan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Darwish, Omar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mostapha, Mahmoud",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nadar, Mariappan S.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Image Registration",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4840_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1900",
+  "title": "Spatial-Temporal Memory Filtering SAM for Lesion Segmentation in Breast Ultrasound Videos",
+  "abstract": "Lesion segmentation in breast ultrasound videos plays a crucial role in the early detection and intervention of breast cancer. However, it remains a challenging task due to blurred lesion boundaries, substantial background noise, and significant scale variations of lesions across frames. Existing methods typically rely on selecting preceding frames for rudimentary temporal integration but fail to achieve satisfactory segmentation performance. In this paper, we propose STMFSAM, a novel Spatio-Temporal Memory Filtering SAM network, designed to leverage the powerful feature representation and modeling capabilities of SAM for lesion segmentation in breast ultrasound videos. Specifically, we introduce a memory mechanism that stores and propagates essential spatio-temporal features across frames. To enhance segmentation accuracy, we select three relevant reference frames from the memory bank as dense prompts for SAM, enabling it to retain long-term contextual information and effectively guide the segmentation of subsequent frames. To further mitigate the impact of background noise, we present the Spatio-Temporal Memory Filtering module, which selectively refines the memory content by filtering out irrelevant or noisy information. This ensures that only meaningful and informative features are retained for segmentation. We conduct extensive experiments on the UVBSL200 breast ultrasound video dataset, demonstrating that STMFSAM outperforms existing methods. Additionally, to highlight our model’s generalization capability, we achieve competitive results on two video polyp segmentation datasets. The code is available at https://github.com/tzz-ahu/STMFSAM.",
+  "authors": [
+    {
+      "name": "Tu, Zhengzheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zong, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Haowen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Kunpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Chaoxue",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1900_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

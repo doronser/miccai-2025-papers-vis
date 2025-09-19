@@ -1,0 +1,60 @@
+{
+  "id": "miccai-0938",
+  "title": "A Semi-Supervised Knowledge Distillation Framework for Left Ventricle Segmentation and Landmark Detection in Echocardiograms",
+  "abstract": "Left ventricular segmentation and landmark detection from echocardiograms are routine practices in clinical settings for comprehensive cardiovascular disease evaluation. Recently, deep learning-based models have been developed to interpret echocardiograms. However, existing methods face challenges in handling sparse annotations, limiting their clinical applicability. Additionally, their robustness can be significantly influenced by temporal inconsistency (i.e., abrupt prediction fluctuations between consecutive frames) and inter-task conflict (i.e., detected landmarks deviating from segmentation boundaries). To address these issues, we propose a novel semi-supervised framework that integrates: 1) a knowledge distillation method for generating pseudo labels of the numerous unlabeled frames to improve the performance; 2) a Task-aware Spatial-Temporal Network (TSTNet) along with consistency constraints that enhances robustness by enforcing temporal consistency across frames, and inter-task consistency between segmentation and landmark detection. Experimental results on two datasets (a public dataset with 1,000 subjects and a private dataset with 1,950 subjects) show that our proposed framework significantly outperforms the previous approaches. The source code and dataset are publicly available at https://github.com/chenhy-97/TSTNet.",
+  "authors": [
+    {
+      "name": "Chen, Haoyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yonghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Lin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Kaicong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0938_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

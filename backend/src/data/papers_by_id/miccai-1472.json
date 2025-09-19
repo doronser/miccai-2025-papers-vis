@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1472",
+  "title": "Structure and Smoothness Constrained Dual Networks for MR Bias Field Correction",
+  "abstract": "MR imaging techniques are of great benefit to disease diagnosis. However, due to the limitation of MR devices, significant intensity inhomogeneity often exists in imaging results, which impedes both qualitative and quantitative medical analysis. Recently, several unsupervised deep learning-based models have been proposed for MR image improvement. However, these models merely concentrate on global appearance learning, and neglect constraints from image structures and smoothness of bias field, leading to distorted corrected results. In this paper, novel structure and smoothness constrained dual networks, named S2DNets, are proposed aiming to self-supervised bias field correction. S2DNets introduce piece-wise structural constraints and smoothness of bias field for network training to effectively remove non-uniform intensity and retain much more structural details. Extensive experiments executed on both clinical and simulated MR datasets show that the proposed model outperforms other conventional and deep learning-based models. In addition to comparison on visual metrics, downstream MR image segmentation tasks are also used to evaluate the impact of the proposed model. The source code is available at: https://github.com/LeongDong/S2DNets.",
+  "authors": [
+    {
+      "name": "Liang, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Xingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yuzhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Kuanquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Suyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Gongning",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1472_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

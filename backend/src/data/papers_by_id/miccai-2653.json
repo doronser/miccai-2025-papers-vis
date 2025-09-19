@@ -1,0 +1,57 @@
+{
+  "id": "miccai-2653",
+  "title": "SAMASK-CLTR: A spatial-aware mask guided learning model for benign and malignant tumor classification in ABUS",
+  "abstract": "Automated Breast Ultrasound (ABUS) provides three dimensional volumetric imaging that improves breast lesion detection without radiation exposure and reduces operator dependency. However, the resulting high data volume poses significant challenges for radiologists in localizing lesions accurately and distinguishing benign from malignant cases—challenges that can directly impact early diagnosis and treatment outcomes. To tackle these critical issues, we propose SAMASK-CLTR (Spatial-Aware Mask Prompting with Convolutional Transformer Architecture), a hybrid framework that combines the feature extraction power of CNNs with the global modeling capability of Transformers. In our approach, ResNet-50 extracts hierarchical, multi-scale features that are refined by a Transformer encoder-decoder to capture global context. Crucially, during decoding, a mask prompt enhanced with 3D positional encoding guides the network to focus on key tumor regions, directly addressing the challenges of precise localization and classification. Experiments on 7,073 ABUS images—including 6,973 clinical cases from Internal Datasets and 100 cases from the public ABUS Challenge Cup—demonstrate that SAMASK-CLTR achieves AUCs of 88.45% and 70.46% on internal and external datasets, respectively. These results highlight the potential of our framework to significantly enhance breast cancer diagnosis by improving the accuracy and reliability of lesion classification.",
+  "authors": [
+    {
+      "name": "Xu, Peirong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Luoqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jingkun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qian, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bao, Lingyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2653_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

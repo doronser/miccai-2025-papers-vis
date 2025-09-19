@@ -1,0 +1,50 @@
+{
+  "id": "miccai-4789",
+  "title": "Language of Stains: Tokenization Enhances Multiplex Immunofluorescence and Histology Image Synthesis",
+  "abstract": "Multiplex tissue imaging (MTI) is a powerful tool in cancer research, allowing spatially resolved, single-cell phenotype analysis. However, MTI platforms face challenges such as high costs, tissue loss, lengthy acquisition times, and complex analysis of large, multichannel images with batch effects. \nTo address these challenges, we propose a novel computational method to model the interactions between dozens of panel markers and Hematoxylin \\& Eosin (H\\&E) staining, enabling {\\it in-silico} generation of marker stains. This approach reduces the reliance on experimentally measured markers, bridging low-cost H\\&E data with MTI’s high-content information. Our approach uses a two-stage framework for channel-wise bioimage synthesis: first, vector quantization learns a visual token vocabulary, then a bidirectional transformer infers missing markers through masked language modeling. \nComprehensive benchmarking across different MTI platforms and tissue types demonstrates the effectiveness of our method in improving marker prediction while maintaining biological relevance. This advance makes high-dimensional multiplex tissue imaging more accessible and scalable, supporting deeper insights and potential clinical applications in cancer research.",
+  "authors": [
+    {
+      "name": "Sims, Zachary",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Govindarajan, Sandhya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mills, Gordon B.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Eksi, Ece",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Young Hwan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4789_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

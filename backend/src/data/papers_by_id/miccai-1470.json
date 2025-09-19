@@ -1,0 +1,73 @@
+{
+  "id": "miccai-1470",
+  "title": "LEAVS: An LLM-based Labeler for Abdominal CT Supervision",
+  "abstract": "Extracting structured labels from radiology reports has been employed to create vision models that detect several types of abnormalities simultaneously. However, existing works focus mainly on the chest region. Few works have investigated abdominal radiology reports due to the more complex anatomy and a wider range of pathologies in the abdomen. We propose LEAVS (Large language model Extractor for Abdominal Vision Supervision). This labeler can annotate the certainty of presence and the urgency of seven types of abnormalities for nine abdominal organs on CT radiology reports. To ensure broad coverage, we chose abnormalities that encompass most of the finding types from CT reports. Our approach employs a specialized chain-of-thought prompting strategy for a locally run LLM using sentence extraction and multiple-choice questions in a tree-based decision system. We demonstrate that the LLM can extract several abnormality types across abdominal organs with an average F1 score of 0.89, significantly outperforming competing labelers and humans. Additionally, we show that the extraction of urgency labels achieves performance comparable to that of human annotations. Finally, we demonstrate that the abnormality labels contain valuable information for training a vision model that classifies several organs as normal or abnormal. We release our code and structured annotations for a publicly available dataset containing over 1,000 CT volumes.",
+  "authors": [
+    {
+      "name": "Bigolin Lanfredi, Ricardo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Finkelstein, Mark",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Thoppey Srinivasan Balamuralikrishna, Praveen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Krembs, Luke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Khoury, Brandon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Reddy, Arthi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mukherjee, Pritam",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rofsky, Neil M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Summers, Ronald M.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1470_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

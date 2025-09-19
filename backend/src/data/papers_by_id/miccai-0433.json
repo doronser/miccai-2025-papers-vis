@@ -1,0 +1,45 @@
+{
+  "id": "miccai-0433",
+  "title": "Directional Adaptive Shuffle-Based Visual State-Space Models for Medical Image Restoration",
+  "abstract": "Medical image restoration (MedIR) demands precise modeling of anisotropic spatial dependencies, where directional anatomical patterns are frequently degraded by conventional methods. We propose Directional Adaptive Shuffle Mamba (DASMamba), a state-space model architecture that addresses this challenge through two novel components: (1) the Directional Adaptive Shuffle Module (DASM), which captures long-range dependencies via directional adaptive random shuffle and selective scanning, and (2) the Dual-path Feedforward Network (DPFN), enhancing feature representation through multi-scale learning and dynamic channel fusion. By integrating these modules into a hierarchical U-shaped architecture, DASMamba achieves state-of-the-art performance on MRI super-resolution, CT denoising, and PET synthesis tasks while maintaining linear computational complexity. Our framework’s ability to preserve diagnostically critical structural details underscores its clinical value.",
+  "authors": [
+    {
+      "name": "Chan, Simon C. K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Lulin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Bingxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Terence T. W.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Nuclear Imaging",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0433_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

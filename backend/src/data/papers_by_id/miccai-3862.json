@@ -1,0 +1,72 @@
+{
+  "id": "miccai-3862",
+  "title": "Endoscopic Depth-of-Field Expansion via Cascaded Network with Two-streamed Multi-scale Fusion",
+  "abstract": "The application of ultrahigh definition endoscopy systems in minimally invasive surgeries has become increasingly widespread. However, their high resolution results in a reduced depth of field (DOF), making it difficult to achieve clear imaging across the entire frame. Unlike improvements in optical structures, we address this issue using a deep learning-based multi-focus image fusion (MFIF) approach. Traditional MFIF methods are less effective in endoscopic scenarios because of their inadequate design for extracting information from complex organ structures. To address these limitations, this work proposes a two-streamed cascaded encoder-decoder network that incorporates multi-scale feature extraction and fusion mechanisms validated in medical image segmentation. The network includes novel multi-scale fusion module with cross-axial attention that hierarchically integrates features using attention-guided weights and hybrid operations, effectively preserving intra-domain textures while modeling cross-domain dependencies. The framework is rigorously validated using novel real-world endoscopic datasets collected from imaging experimental platform. The experimental results demonstrate that the proposed method outperforms traditional approaches in benchmark tests. Our code will be made publicly available in our final version.",
+  "authors": [
+    {
+      "name": "Deng, Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Tian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xiaoyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gan, Tianyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Congcong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lei, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xuesong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3862_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

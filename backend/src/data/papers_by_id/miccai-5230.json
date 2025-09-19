@@ -1,0 +1,35 @@
+{
+  "id": "miccai-5230",
+  "title": "Multimodal Prompt Sequence Learning for Interactive Segmentation of Vascular Structures",
+  "abstract": "Interactive segmentation tools are necessary to achieve the desired segmentation accuracy for complex target structures, such as vessels in medical images. But existing interactive methods-including those pre-trained on large internet-scale datasets-offer limited mechanisms for users to provide prompts that effectively control segmentation outcomes. In particular, one-at-a-time point or text prompts are often insufficient for correcting errors in vascular segmentation masks. To address these limitations, we propose a novel interactive medical image segmentation method tailored for complex vascular structures. Our approach learns to interpret sequences of multimodal prompts-combining both text and point inputs. By enabling dual mode prompting, the method allows users to add semantic meaning to point-based interactions. Furthermore, by learning from aggregated sequences of prompts, the method \ncaptures inter-prompt relationships, enhancing its understanding and response to user input. Quantitative evaluations on six vascular datasets demonstrate that our method outperforms existing approaches. Additionally, it avoids critical failure cases and consistently generates improved segmentation masks across diverse imaging modalities and vascular anatomies.",
+  "authors": [
+    {
+      "name": "Lim, Jongsoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Soochahn",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Eye",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5230_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "miccai-1626",
+  "title": "Temporal Model-Based Federated Active Medical Image Classification",
+  "abstract": "Traditional federated learning relies on fully labeled datasets in each medical institution, which is impractical in real-world clinical scenarios. Federated Active Learning (FAL) addresses this by selecting a few informative samples for labeling, but it faces challenges such as domain shift across institutions. Besides, existing FAL methods rely on single-round model knowledge to estimate prediction-level uncertainty, ignoring uncertainty from features and model evolution during training. In this work, we propose TM-FAL, a novel framework for federated active medical image classification under domain shift. TM-FAL proposes a new uncertainty by integrating feature differences and prediction confidence from temporal local and global models to capture both local-global differences and the inherent complexity of images. Additionally, we use the prediction of the global model as pseudo labels to group images to mitigate class imbalance caused by uncertainty-based selection. Experiments on two medical image classification datasets demonstrate that TM-FAL outperforms various state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Yan, Yunlu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Chun-Mei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yuexiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Jinheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elhoseiny, Mohamed",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Kaishun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1626_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

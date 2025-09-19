@@ -1,0 +1,47 @@
+{
+  "id": "miccai-5400",
+  "title": "MARSeg: Enhancing Medical Image Segmentation with MAR and Adaptive Feature Fusion",
+  "abstract": "Recent advances in Masked Autoregressive (MAR) models highlight their ability to preserve fine-grained details through continuous vector representations, making them highly suitable for tasks requiring precise pixel-level delineation. Motivated by these strengths, we introduce MARSeg, a novel segmentation framework tailored for medical images. Our method first pre-trains a MAR model on large-scale CT scans, capturing both global structures and local details without relying on vector quantization. We then propose a Generative Parallel Adaptive Feature Fusion (GPAF) module that effectively unifies spatial and channel-wise attention, thereby combining latent features from the pre-trained MAE encoder and decoder. This approach preserves essential boundary information while enhancing the robustness of organ and tumor segmentation. Experimental results on multiple CT datasets from the Medical Segmentation Decathlon (MSD) demonstrate that MARSeg outperforms existing state-of-the-art methods in terms of Dice Similarity Coefficient (DSC) and Intersection over Union (IoU), confirming its efficacy in handling complex anatomical and pathological variations. The code is available at https://github.com/Ewha-AI/MARSeg.",
+  "authors": [
+    {
+      "name": "Hwang, Jeonghyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rhee, Seungyeon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Minjeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Viriyasaranon, Thanaporn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Choi, Jang-Hwan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5400_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

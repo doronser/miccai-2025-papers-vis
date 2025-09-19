@@ -1,0 +1,47 @@
+{
+  "id": "miccai-5358",
+  "title": "SSPNet: Towards Feasible Spatio-Spectral Portraits-Based Deep Learning Framework for Neurodegenerative Disease Multi-Classification",
+  "abstract": "Early diagnosis of neurodegenerative diseases is crucial for effective intervention and treatment planning. However, conventional screening tests such as Mini-Mental State Examination (MMSE) often produce false-negative issues. While electroencephalogram (EEG) signals contain valuable neurophysiological information, multi-class classification remains challenging due to subtle differences between conditions, with existing methods achieving around 50-60% accuracy. Therefore, we propose SSPNet, a novel deep learning framework for multi-class classification of neurodegenerative diseases using spatio-spectral portraits derived from EEG signals. Our approach extracts spatio-spectral images that maximize neurophysiological differences between Alzheimer’s disease, frontotemporal dementia (FTD), and cognitively normal subjects, utilizing minimal frequency bands encoded through specialized asymmetric convolutional blocks and attention mechanisms. To our knowledge, this represents the first attempt to use EEG spatio-spectral portraits for multi-class classification of neurodegenerative diseases. The proposed SSPNet significantly improves accuracy to 72.22% compared to existing EEG-based methods for multi-class classification. It also demonstrates notably lower false-negative rates for FTD patients compared to MMSE, thus accelerating practical clinical application.",
+  "authors": [
+    {
+      "name": "Kim, Ho-Jung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Dogeun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jang, Jeong-Woo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ju, Young-Gi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Won, Dong-Ok",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> EEG / ECG",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5358_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

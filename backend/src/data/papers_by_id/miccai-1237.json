@@ -1,0 +1,48 @@
+{
+  "id": "miccai-1237",
+  "title": "UniOCTSeg: Towards Universal OCT Retinal Layer Segmentation via Hierarchical Prompting and Progressive Consistency Learning",
+  "abstract": "Accurate segmentation and quantitative thickness analysis of retinal layers in optical coherence tomography (OCT) are crucial for early diagnoses of ocular disorders. To address the clinical needs of diagnosing various ocular and systemic diseases, numerous multi-granularity OCT datasets are constructed. While deep learning achieves impressive results in retinal layer segmentation, general training paradigms require separate models for datasets with different annotation granularities. Universal models have been developed to diverse datasets and tasks via advanced techniques such as prompt learning, but they overlook across-granularity information and struggle to generalize to new granularities. In this paper, we propose a universal OCT segmentation model, named UniOCTSeg, which builds its basis upon Hierarchical Prompting Strategy (HPS) and Progressive Consistency Learning (PCL). HPS employs a granularity-merging strategy, where prompts at various granularities are constructed based on the finest-grained prompts. Meanwhile, PCL leverages an Exponential Moving Average teacher model to generate pseudo-supervision signals, guiding the model through easy-to-hard progression to ensure consistency across hierarchical levels. Extensive experiments across eight publicly available OCT datasets involving six distinct granularity levels demonstrate UniOCTSeg’s superior performance compared with state-of-the-art methods, while also illustrating its high flexibility and strong generalizability. Our code and data are available at https://github.com/MICCAI2025-1237/UniOCTSeg",
+  "authors": [
+    {
+      "name": "Zhong, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miao, Chaoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Kenneth K. Y.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Xiaoying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1237_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

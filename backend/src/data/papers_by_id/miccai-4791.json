@@ -1,0 +1,40 @@
+{
+  "id": "miccai-4791",
+  "title": "Teaching pathology foundation models to accurately predict gene expression with parameter efficient knowledge transfer",
+  "abstract": "Gene expression profiling provides critical insights into cellular heterogeneity, biological processes and disease mechanisms. There has been an increasing interest in computational approaches that can predict gene expression directly from digitalized histopathology images. While image foundation models have shown promise in a variety of pathology downstream analysis, their performances on gene-expression prediction are still limited. Explicitly incorporating information from the transcriptomic models can help image models to address domain shift, yet the fine-tuning and alignment of foundation models can be expensive. In the work, we propose Parameter Efficient Knowledge trAnsfer (PEKA), a novel framework that leverages Block-Affine Adaptation and integrates knowledge distillation and structure alignment losses for cross-modal knowledge transfer. We evaluated PEKA for gene expression prediction using multiple spatial transcriptomics datasets (comprising 206,123 image tiles with matched gene expression profiles) that encompassed various types of tissue. PEKA achieved at least 5\\% performance improvement over baseline foundation models while also outperforming alternative parameter-efficient fine-tuning strategies. We will release the code, datasets and aligned models after peer-review to facilitate broader adoption and further development for parameter efficient model alignment.",
+  "authors": [
+    {
+      "name": "Pan, Shi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jianan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Secrier, Maria",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4791_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

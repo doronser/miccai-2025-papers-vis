@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2374",
+  "title": "Speech Audio Generation from Dynamic MRI via a Knowledge Enhanced Conditional Variational Autoencoder",
+  "abstract": "Dynamic Magnetic Resonance Imaging (MRI) of the vocal tract has become an increasingly adopted imaging modality for speech motor studies. Beyond image signals, systematic data loss, noise pollution, and audio file corruption can occur due to the unpredictability of the MRI acquisition environment. In such cases, generating audio from images is critical for data recovery in both clinical and research applications. However, this remains challenging due to hardware constraints, acoustic interference, and data corruption. Existing solutions, such as denoising and multi-stage synthesis methods, face limitations in audio fidelity and generalizability. To address these challenges, we propose a Knowledge-Enhanced Conditional Variational Autoencoder (KE-CVAE), a novel two-step “knowledge enhancement + variational inference” framework for generating speech audio signals from cine dynamic MRI sequences. This approach introduces two key innovations: (1) integration of unlabeled MRI data for knowledge enhancement, and (2) a variational inference architecture to improve generative modeling capacity. To the best of our knowledge, this is one of the first attempts at synthesizing speech audio directly from dynamic MRI video sequences. The proposed method was trained and evaluated on an open-source dynamic vocal tract MRI dataset recorded during speech. Experimental results demonstrate its effectiveness in generating natural speech waveforms while addressing MRI-specific acoustic challenges, outperforming conventional deep learning-based synthesis approaches.",
+  "authors": [
+    {
+      "name": "Li, Yaxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Yifei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Shihua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Woo, Jonghye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Fangxu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2374_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

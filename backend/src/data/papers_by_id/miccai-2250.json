@@ -1,0 +1,42 @@
+{
+  "id": "miccai-2250",
+  "title": "Explainable Integrative Bipartite Graph Convolutional Neural Network for Predicting Ejection Fraction in Echocardiography",
+  "abstract": "Ejection fraction (EF) estimation in echocardiography is a key indicator to examine cardiac functions and to determine the optimal treatments for patients prone to heart dysfunctions, such as heart failure. Recently, machine learning has shown promising predictive performance, as diagnostic tools, to estimate EF using echocardiograms. However, most state-of-the-art models have overlooked diversity of phenotypes in echocardiography, derived from patient’s demography (e.g., sex and age). In this study, we propose a novel integrative bipartite graph neural network (IBi-GNN) that integrates demographic variables of patients with echocardiograms to improve the EF predictive performance and model interpretability in precision medicine. In the experiments, IBi-GNN significantly reduced the estimation errors compared to the benchmark models, and the significant improvement was statistically assessed. We also show that IBi-GNN is interpretable to identify interaction between the multi-modalities. The interpretation provides comprehensive understanding of the relationships between demographic factors and cardiac structures. The open-source codes are publicly available at https://github.com/datax-lab/IBi-GNN.",
+  "authors": [
+    {
+      "name": "Lee, Seungeun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Jaeyoung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Kyungtae",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Mingon",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2250_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

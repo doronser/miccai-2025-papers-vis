@@ -1,0 +1,72 @@
+{
+  "id": "miccai-2476",
+  "title": "Multi-Tracer Uptake Correction for PET-MR via Aligned-Feature Guidance and Multi-scale Pixel-adaptive Routing",
+  "abstract": "Positron Emission Tomography combined with Magnetic Resonance (PET-MR) imaging has emerged as a promising modality that offers both soft tissue and biochemical function information, while substantially reducing radiation exposure compared to PET-CT imaging. However, systematic clinical evaluations reveal notable discrepancies in standardized uptake value ratios between PET-MR and PET-CT scans, largely due to the inherent limitations of MR-based PET attenuation correction. To address this issue, we propose a unified uptake correction framework to harmonize PET-MR images with PET-CT scans across different tracers. This framework employs a three-stage training scheme. The first stage learns to represent CT features, aiming to capture condensed anatomical patterns associated with PET imaging. The second stage aligns MR features to the fixed CT features learned in the first stage, thereby enabling the transfer of anatomical prior knowledge from CT to MR features. The third stage integrates aligned MR features to guide PET-MR tracer uptake correction and uses a Multi-scale Pixel Routing module to mitigate interference among different tracers. We conduct comprehensive experiments on 70 patients with three distinct tracers to demonstrate the superiority of our framework over existing methods in PET-MR harmonization with PET-CT images. This work represents the first investigation and solution for multi-tracer quantification discrepancies between PET-MR and standard PET-CT, potentially advancing the clinical standardization of PET-MR imaging.Our code will be available at GitHub.",
+  "authors": [
+    {
+      "name": "Zhong, Aocheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Haolin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Zhenrong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Haiyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Junlei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Yuhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zuo, Chuantao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2476_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

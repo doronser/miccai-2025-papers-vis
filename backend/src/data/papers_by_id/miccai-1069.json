@@ -1,0 +1,62 @@
+{
+  "id": "miccai-1069",
+  "title": "Incorporating Rather Than Eliminating: Achieving Fairness for Skin Disease Diagnosis Through Group-Specific Experts",
+  "abstract": "AI-based systems have achieved high accuracy in skin disease diagnostics but often exhibit biases across demographic groups, leading to inequitable healthcare outcomes and diminished patient trust. Most existing bias mitigation methods attempt to eliminate the correlation between sensitive attributes and diagnostic prediction, but this often degrades performance due to the lost of clinically relevant diagnostic cues. In this work, we propose an alternative approach that incorporates sensitive attributes to achieve fairness. We introduce FairMoE, a framework that employs layer-wise mixture-of-experts modules to serve as group-specific learners. Unlike traditional methods that rigidly assign data based on group labels, FairMoE dynamically routes data to the most suitable expert, making it particularly effective for handling cases near group boundaries. Experimental results show that, unlike previous fairness approaches that reduce performance, FairMoE achieves substantial accuracy improvements while preserving comparable fairness metrics.",
+  "authors": [
+    {
+      "name": "Xu, Gelei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Yuying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zheyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xueyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Meng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lemmon, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yiyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1069_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

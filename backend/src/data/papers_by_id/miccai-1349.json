@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1349",
+  "title": "Multiscale Graph and Multi-Step Cross-Frame Mamba for Myocarditis Lesion Segmentation",
+  "abstract": "Myocarditis, an acute cardiac disorder progressing rapidly to life-threatening heart failure, requires precise lesion segmentation from Cine Magnetic Resonance Imaging (Cine-MRI) for timely intervention. Current segmentation accuracy is limited by two key challenges: 1) spatiotemporal discordance between myocardial motion patterns and evolving pathological features and 2) morphological complexity (irregular borders, scattered lesions). In this paper, we propose the MG-Mamba, a framework integrating deep state space models with graph-based spatiotemporal analysis. The architecture employs Mamba blocks to establish initial intra-/inter-frame dependencies in Cine-MRI sequences. For Challenge 1, we improve the detection of subtle abnormal motions through multi-step cross-frame analysis, extending beyond conventional adjacent-frame analysis. For Challenge 2, we further implement multi-scale patch division and constructs inter-patch graphs to concurrently capture global lesion distribution and local geometric patterns. Extensive evaluations on SYC-QC and SYC-SX clinical datasets demonstrate MG-Mamba’s superior segmentation accuracy over ten state-of-the-art benchmarks, significantly advancing myocarditis diagnostic precision. The code is available at https://github.com/userZ-CY/MICCAI.",
+  "authors": [
+    {
+      "name": "Yu, Chengjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Yuanting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lv, Sangyin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pu, Cailing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1349_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

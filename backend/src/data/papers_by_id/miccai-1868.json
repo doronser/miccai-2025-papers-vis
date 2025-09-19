@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1868",
+  "title": "GLCP: Global-to-Local Connectivity Preservation for Tubular Structure Segmentation",
+  "abstract": "Accurate segmentation of tubular structures, such as vascular networks, plays a critical role in various medical domains. A remaining significant challenge in this task is structural fragmentation, which can adversely impact downstream applications. Existing methods primarily focus on designing various loss functions to constrain global topological structures. However, they often overlook local discontinuity regions, leading to suboptimal segmentation results. To overcome this limitation, we propose a novel Global-to-Local Connectivity Preservation (GLCP) framework that can simultaneously perceive global and local structural characteristics of tubular networks. Specifically, we propose an Interactive Multi-head Segmentation (IMS) module to jointly learn global segmentation, skeleton maps, and local discontinuity maps, respectively. This enables our model to explicitly target local discontinuity regions while maintaining global topological integrity. In addition, we design a lightweight Dual-Attention-based Refinement (DAR) module to further improve segmentation quality by refining the resulting segmentation maps. Extensive experiments on both 2D and 3D datasets demonstrate that our GLCP achieves superior accuracy and continuity in tubular structure segmentation compared to several state-of-the-art approaches. The source codes will be available at https://github.com/FeixiangZhou/GLCP.",
+  "authors": [
+    {
+      "name": "Zhou, Feixiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Zhuangzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, He",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Jianyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Yanda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yitian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lip, Gregory Y. H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yalin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Vasculature",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1868_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

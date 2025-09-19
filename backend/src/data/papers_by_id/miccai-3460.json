@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3460",
+  "title": "MixStyleFlow: Domain Generalization in Medical Image Segmentation using Normalizing Flows",
+  "abstract": "Despite the success of deep learning in medical image segmentation, domain shifts caused by variations in scanners and imaging protocols often degrade performance, limiting real-world clinical deployment. Domain generalization (DG) aims to address this issue by learning robust models that generalize well across different domains. While existing DG methods based on feature-space domain randomization have shown promise, they suffer from a limited and unordered search space of feature styles. In this work, we propose MixStyleFlow, a novel DG approach that utilizes normalizing flows to explicitly model the distribution of domain feature styles. By sampling domain feature styles from the learned normalizing flows and mixing them with original feature statistics along the feature channel dimension, our method effectively expands and diversifies domain features in a controllable manner. We evaluate MixStyleFlow on two medical segmentation tasks—prostate MRI and fundus imaging—demonstrating superior generalization performance on unseen target-domain data. Our results highlight the potential of normalizing flows for improving domain generalization in medical image segmentation, paving the way for more robust deep learning models capable of handling diverse clinical scenarios. The code is available at https://github.com/Reza-Safdari/MixStyleFlow.",
+  "authors": [
+    {
+      "name": "Safdari, Reza",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nikouei Mahani, Mohammad-Ali",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Koohi-Moghadam, Mohamad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bae, Kyongtae Tyler",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Body -> Urology",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3460_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

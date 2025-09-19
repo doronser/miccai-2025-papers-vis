@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0707",
+  "title": "MicroMIL: Graph-Based Multiple Instance Learning for Context-Aware Diagnosis with Microscopic Images",
+  "abstract": "Cancer diagnosis has greatly benefited from the integration of whole-slide images (WSIs) with multiple instance learning (MIL), enabling high-resolution analysis of tissue morphology. Graph-based MIL (GNN-MIL) approaches have emerged as powerful solutions for capturing contextual information in WSIs, thereby improving diagnostic accuracy. However, WSIs require significant computational and infrastructural resources, limiting accessibility in resource-constrained settings. Conventional light microscopes offer a cost-effective alternative, but applying GNN-MIL to such data is challenging due to extensive redundant images and missing spatial coordinates, which hinder contextual learning. To address these issues, we introduce MicroMIL, the first weakly-supervised MIL framework specifically designed for images acquired from conventional light microscopes. MicroMIL leverages a representative image extractor (RIE) that employs deep cluster embedding (DCE) and hard Gumbel-Softmax to dynamically reduce redundancy and select representative images. These images serve as graph nodes, with edges computed via cosine similarity, eliminating the need for spatial coordinates while preserving contextual information. Extensive experiments on a real-world colon cancer dataset and the BreakHis dataset demonstrate that MicroMIL achieves state-of-the-art performance, improving both diagnostic accuracy and robustness to redundancy. The code is available at https://github.com/kimjongwoo-cell/MicroMIL",
+  "authors": [
+    {
+      "name": "Kim, JongWoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wong, Bryan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Huazhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Quiñones Robles, Willmer Rafell",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ko, Young Sin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yi, Mun Yong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Breast",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0707_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

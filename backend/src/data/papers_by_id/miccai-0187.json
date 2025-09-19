@@ -1,0 +1,54 @@
+{
+  "id": "miccai-0187",
+  "title": "Blood Pressure Assisted Cerebral Microbleed Segmentation via Meta-matching",
+  "abstract": "Cerebral microbleeds (CMBs) are small hemorrhagic lesions that pose significant challenges for accurate segmentation due to the high rate of false positives and false negatives. CMBs have two subtypes: lobar and deep microbleeds (MBs). Motivated by the strong association between deep MBs and hypertension, we propose a blood pressure-driven nnU-Net (BP-nnUNet) that integrates blood pressure (BP) prompt into the state-of-the-art nnU-Net framework through three key strategies. First, we estimate BP using the pre-trained Meta-matching model, that requires only MRI images. This allows our method to be successfully applied to public datasets with missing clinical demographics. Second, we categorize CMBs into lobar and deep MB, enriching input text prompts with multiple classes while constraining the BP effect to deep MBs. Lastly, we introduce a novel anatomically-aware joint prompt fusion module that combines lobar and deep MB prompts. Experiments on both in-house and public datasets demonstrate that our BP-nnUNet outperforms existing CMB segmentation models and universal models incorporating medical prompts. Ablation studies validate the effectiveness of integrating subtype-level and case-level prompts, as well as our fusion module. Our method paves the way for the incorporation of clinically relevant information into a segmentation framework. Our code is available at https://github.com/junmokwon/BP-nnUNet.",
+  "authors": [
+    {
+      "name": "Kwon, Junmo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Jonghun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Taehyeon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Seo, Sang Won",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cho, Hwan-ho",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Hyunjin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0187_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

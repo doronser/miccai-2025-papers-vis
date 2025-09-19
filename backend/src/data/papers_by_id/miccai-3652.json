@@ -1,0 +1,36 @@
+{
+  "id": "miccai-3652",
+  "title": "Predicting Longitudinal Brain Development via Implicit Neural Representations",
+  "abstract": "Predicting individualized perinatal brain development is crucial for understanding personalized neurodevelopmental trajectories, however, remains challenging due to limited longitudinal data. While population based atlases model generic trends, they fail to capture subject-specific growth patterns. In this work, we propose a novel approach leveraging Implicit Neural Representations (INRs) to predict individualized brain growth over multiple weeks. Our method learns from a limited dataset of less than 100 paired fetal and neonatal subjects, sampled from the developing Human Connectome Project. The trained model demonstrates accurate personalized future and past trajectory predictions from a single calibration scan. By incorporating conditional external factors such as birth age or birth weight, our model further allows the simulation of neurodevelopment under varying conditions. We evaluate our method against established perinatal brain atlases, demonstrating higher prediction accuracy and fidelity up to 20 weeks. Finally, we explore the method’s ability to reveal subject-specific cortical folding patterns under varying factors like birth weight, further advocating its potential for personalized neurodevelopmental analysis.",
+  "authors": [
+    {
+      "name": "Dannecker, Maik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rueckert, Daniel",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3652_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

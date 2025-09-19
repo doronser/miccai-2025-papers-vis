@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1048",
+  "title": "Fair-MoE: Medical Fairness-Oriented Mixture of Experts in Vision-Language Models",
+  "abstract": "Fairness is an important principle in medical ethics. Vision Language Models (VLMs) have shown significant potential in the medical field due to their ability to leverage both visual and linguistic contexts, reducing the need for large datasets and enabling the performance of complex tasks. However, the exploration of fairness within VLM applications remains limited. Applying VLMs without a comprehensive analysis of fairness could lead to concerns about equal treatment opportunities and diminish public trust in medical deep learning models. To build trust in medical VLMs, we propose Fair-MoE, a model specifically designed to ensure both fairness and effectiveness. Fair-MoE comprises two key components: the Fairness-Oriented Mixture of Experts (FO-MoE) and the Fairness-Oriented Loss (FOL). FO-MoE is designed to leverage the expertise of various specialists to filter out biased patch embeddings and use an ensemble approach to extract more equitable information relevant to specific tasks. FOL is a novel fairness-oriented loss function that not only minimizes the distances between different attributes but also optimizes the differences in the dispersion of various attributes’ distributions. Extended experiments show that Fair-MoE improves both fairness and accuracy across all four attributes. Code is made publicly available at https://github.com/LinjieT/Fair-MoE-Medical-Fairness-Oriented-Mixture-of-Experts-in-Vision-Language-Models.",
+  "authors": [
+    {
+      "name": "Wang, Peiran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tong, Linjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jiaxiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zuozhu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Algorithmic Fairness"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1048_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

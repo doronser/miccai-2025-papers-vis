@@ -1,0 +1,36 @@
+{
+  "id": "miccai-0931",
+  "title": "Co-Seg: Mutual Prompt-Guided Collaborative Learning for Tissue and Nuclei Segmentation",
+  "abstract": "Histopathology image analysis is critical yet challenged by the demand of segmenting tissue regions and nuclei instances for tumor microenvironment and cellular morphology analysis. Existing studies focused on tissue semantic segmentation or nuclei instance segmentation separately, but ignored the inherent relationship between these two tasks, resulting in insufficient histopathology understanding. To address this issue, we propose a Co-Seg framework for collaborative tissue and nuclei segmentation. Specifically, we introduce a novel co-segmentation paradigm, allowing tissue and nuclei segmentation tasks to mutually enhance each other. To this end, we first devise a region-aware prompt encoder (RP-Encoder) to provide high-quality semantic and instance region prompts as prior constraints. Moreover, we design a mutual prompt mask decoder (MP-Decoder) that leverages cross-guidance to strengthen the contextual consistency of both tasks, collaboratively computing semantic and instance segmentation masks. Extensive experiments on the PUMA dataset demonstrate that the proposed Co-Seg surpasses state-of-the-arts in the semantic, instance and panoptic segmentation of tumor tissues and nuclei instances. The source code is available at https://github.com/xq141839/Co-Seg.",
+  "authors": [
+    {
+      "name": "Xu, Qing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Wenting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0931_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

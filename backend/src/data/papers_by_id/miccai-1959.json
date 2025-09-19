@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1959",
+  "title": "Robust Sleep Stage Prediction from Electroencephalogram with Label Noise Using Multimodal Large Language Models",
+  "abstract": "Sleep stage prediction is a critical task in medical diagnostics, such as for sleep disorders like Obstructive Sleep Apnea-Hypopnea Syndrome (OSAHS). Traditionally, this task involves analyzing Electroencephalogram (EEG) signals and classifying the stages based on general features, often relying on medical expertise. However, this process is prone to bias and variance, as clinicians incorporate subjective experience into their predictions. In recent years, multimodal large language models (MLLMs) have demonstrated significant advancements, particularly in medical applications, outperforming traditional methods in many domains. Despite their promising potential, MLLMs are sensitive to high memorization effects and require high-quality, well-labeled data for fine-tuning. Label noise, commonly present in real-world datasets, can severely hinder their performance and robustness. Consequently, directly applying MLLMs to sleep stage prediction using noisy EEG labels presents a challenge. In this paper, we introduce a novel framework for sleep stage prediction using EEG data under label noise, leveraging the power of MLLMs. Our approach integrates multi-perspective agreement techniques to identify high-quality samples based on the prior knowledge embedded in MLLMs. We then employ a self-training method to enhance prediction accuracy despite the presence of label noise. We validate our framework using real patient EEG data in sleep stage prediction tasks, and the results demonstrate that our approach is both robust and accurate under label noise, outperforming other state-of-the-art robust learning methods. Our code will be made publicly available at https://github.com/Leonard-zc/MICCAI2025-RSSP.",
+  "authors": [
+    {
+      "name": "Qiu, Xihe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhan, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Gengchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jingjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1959_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

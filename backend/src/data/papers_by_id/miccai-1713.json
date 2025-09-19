@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1713",
+  "title": "Contrastive Knowledge-Guided Large Language Models for Medical Report Generation",
+  "abstract": "Automatic medical report generation (MRG) holds considerable research value and has the potential to significantly alleviate the workload of radiologists. Recently, the rapid development of large language models (LLMs) has improved the effectiveness of MRG. However, numerous challenges still need to be addressed to achieve highly accurate medical reports. For instance, most existing methods struggle to interpret image details, lack relevant medical knowledge, and overlook fine-grained cross-modality alignment. To overcome these limitations, we propose a knowledge-guided vision-language alignment framework with contrastive learning and LLMs for medical report generation. The designed method leverages visual representations, relevant medical knowledge, and enhanced features to generate accurate reports via the LLM-based decoder. To improve the integration of medical-related information, we introduce the Knowledge Injection Module, which enhances the model’s feature representation capabilities while unlocking domain knowledge in LLMs. Inspired by the contrastive learning scheme, we introduce the Contrastive Alignment Module to align the visual features and textual information. Additionally, the Cross-Modality Enhancement Module can retrieve similar reports for the input images to boost diagnostic accuracy. We conduct extensive experiments on two popular benchmark datasets, including IU X-Ray and MIMIC-CXR. The results demonstrate that our proposed method achieves promising performance compared with state-of-the-art frameworks.",
+  "authors": [
+    {
+      "name": "Sha, Yuyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Hongxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meng, Weiyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Kefeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1713_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

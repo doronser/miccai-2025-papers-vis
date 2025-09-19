@@ -1,0 +1,33 @@
+{
+  "id": "miccai-1652",
+  "title": "Hybrid State-Space Models and Denoising Training for Unpaired Medical Image Synthesis",
+  "abstract": "Unsupervised medical image synthesis faces significant challenges due to the absence of paired data, often resulting in global anatomical distortions and local detail loss. Existing approaches primarily rely on convolutional neural networks (CNNs) for local feature extraction; however, their limited receptive fields hinder effective global anatomical modeling. Recently, Vision Mamba (ViM) has demonstrated efficient global modeling capabilities via state-space models, yet its potential in this task remains unexplored. To address this gap, we propose a hybrid architecture, CRAViM (Convolutional Residual Attention Vision Mamba), which integrates the precise local anatomical feature extraction of CNNs with the long-range dependency modeling of state-space models, thereby enhancing the structural fidelity and detail preservation of synthesized images. Furthermore, we introduce a cycle denoise consistency-based training framework that incorporates transport loss and random denoise loss to jointly optimize global structural constraints and local detail restoration. Experimental results on two public medical imaging datasets demonstrate that CRAViM achieves notable improvements in key metrics such as SSIM and NMI over existing methods, effectively maintaining global anatomical consistency while enhancing local details, thus validating the effectiveness of our approach. The code for this paper can be found at https://github.com/jmzhang-cv/CRAViM.",
+  "authors": [
+    {
+      "name": "Zhang, Junming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Shancheng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1652_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

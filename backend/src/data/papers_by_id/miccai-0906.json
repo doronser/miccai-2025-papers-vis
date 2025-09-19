@@ -1,0 +1,34 @@
+{
+  "id": "miccai-0906",
+  "title": "LNODE: Uncovering the Latent Dynamics of Aβ in Alzheimer’s Disease",
+  "abstract": "Abeta Positron Emission Tomography (PET) is often used to manage  Alzheimer’s disease (AD). To better understand Abeta progression, we introduce and evaluate  a mathematical model  that couples Abeta at parcellated gray matter regions. We term this model LNODE for ``latent network ordinary differential equations’’. At each region, we track normal Abeta, abnormal Abeta , and  m latent states that intend to capture unobservable mechanisms coupled to Abeta progression. LNODE is parameterized by subject-specific parameters  and  cohort parameters. We jointly invert for these parameters by fitting the model to Abeta -PET data from 585 subjects from the ADNI dataset. Although  underparameterized, our model achieves population R-square > 98% compared to R-square > 60% when fitting without latent states. Furthermore, these preliminary results  suggest the existence of different subtypes of Abeta progression.",
+  "authors": [
+    {
+      "name": "Wen, Zheyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Biros, George",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0906_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

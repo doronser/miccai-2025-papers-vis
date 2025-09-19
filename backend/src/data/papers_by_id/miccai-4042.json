@@ -1,0 +1,57 @@
+{
+  "id": "miccai-4042",
+  "title": "Difficulty Estimation for Image-Specific Medical Image Segmentation Quality Control",
+  "abstract": "In clinical decisions, trusting erroneous information can be as harmful as discarding crucial data. \nWithout accurate quality assessment of medical image segmentation, both can occur. In current segmentation quality control, any segmentation with a Dice Similarity Coefficient (DSC) above a set threshold would be considered “good enough”, while segmentations below the threshold would be discarded. However, those global thresholds ignore input-specific factors, increasing the risk of accepting inaccurate segmentations into clinical workflows or discarding valuable information. To address this, we introduce a new paradigm for segmentation quality control: image-specific segmentation quality thresholds, based on inter-observer agreement prediction. We illustrate this on a multi-annotator COVID-19 lesion segmentation dataset. To better understand the factors that contribute to segmentation difficulty, we categorize radiomic features into four distinct groups - imaging, texture, border and geometrical - to identify factors influencing expert disagreement, finding that lesion texture and geometry were most influential. In a simulated clinical setting, our proposed ensemble regressor, using automated segmentations and uncertainty maps, achieved a 5.6% MAE when predicting the mean annotator DSC score, enhancing precision by a factor of two compared to case-invariant global thresholding. By shifting to image-specific segmentation quality levels, our approach not only reduces the likelihood of erroneous segmentations but also increases the chances of including accurate ones in clinical decision-making.",
+  "authors": [
+    {
+      "name": "Fournel, Joris",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bartoli, Axel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marchi, Baptiste",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maurin, Arnaud",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bigdeli, Siavash Arjomand",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jacquier, Alexis",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feragen, Aasa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4042_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

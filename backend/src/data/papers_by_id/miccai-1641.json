@@ -1,0 +1,37 @@
+{
+  "id": "miccai-1641",
+  "title": "Explain Any Pathological Concept: Discovering Hierarchical Explanations for Pathology Foundation Models",
+  "abstract": "Foundation models have demonstrated significant promise in medical image analysis, particularly in pathology. However, their black-box nature makes it challenging for clinicians to understand their decision-making processes. In this paper, we evaluate the explainability of existing pathology foundation models based on visual concepts. Considering the hierarchical structure of pathological anatomy, comprising of regions, units, and cells, we introduce a novel Hierarchical Concept-based Explanation (HCE) method to illuminate how concepts at different levels influence the model’s predictions. Specifically, our approach begins with the utilization of a specialist-generalist collaborative segmentation model to perform instance segmentation across various levels.  We then employ a surrogate model to approximate the target foundation model and compute the Shapley values for each concept. Finally, we visualize these contributions through a comprehensive global ShapMap. We evaluate several state-of-the-art pathology foundation models, including CONCH, UNI, and Virchow, on an adenoma classification task. The findings reveal that the explanations provided by CONCH and UNI show better composability, suggesting they draw from a wider contextual understand demonstrate great separability, reflecting a reliance on specific regions. Additionally, we explore the consistency of concept explanations across different foundation models.",
+  "authors": [
+    {
+      "name": "Xu, Shuting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Junlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1641_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

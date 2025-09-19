@@ -1,0 +1,148 @@
+{
+  "id": "miccai-0875",
+  "title": "UltraTwin: Towards Cardiac Anatomical Twin Generation from Multi-view 2D Ultrasound",
+  "abstract": "Echocardiography is routine for cardiac examination. How-\never, 2D ultrasound (US) struggles with accurate metric calculation and direct observation of 3D cardiac structures. Moreover, 3D US is limited by low resolution, small field of view and scarce availability in practice.Constructing the cardiac anatomical twin from 2D images is promising to provide precise treatment planning and clinical quantification.However, it remains challenging due to the rare paired data, complex structures, and US noises. In this study, we introduce a novel generative framework UltraTwin, to obtain cardiac anatomical twin from sparse multi-view 2D US. Our contribution is three-fold. First, pioneered the construction of a real-world and high-quality dataset containing strictly paired multi-view 2D US and CT, and pseudo-paired data. Second, we propose a coarse-to-fine scheme to achieve hierarchical reconstruction optimization. Last, we introduce an implicit autoencoder for topology-aware constraints. Extensive experiments show that UltraTwin reconstructs high-quality anatomical twins versus strong competitors. We believe it advances anatomical twin modeling for potential applications in personalized cardiac care.",
+  "authors": [
+    {
+      "name": "Yu, Junxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Yaofei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yuhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ling, Rongbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Weihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jingxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Qiongying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yongsong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Binghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dou, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Liping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chu, Yanfen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Geng, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sheng, Zhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Zhifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Dingxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuhang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Xiaowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ni, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gou, Zhongshan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0875_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

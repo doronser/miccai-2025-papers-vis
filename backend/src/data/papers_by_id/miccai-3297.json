@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3297",
+  "title": "Automated Auditing of Upper Endoscopy Procedure Times: A Temporal Multiclass Analysis",
+  "abstract": "Upper endoscopy is the preferred method for detecting early-stagegastrointestinal diseases and plays a crucial role in managing gastric cancer. Quality assessment has been a recurring concern in clinical research, particularly regarding the time specialists spend examining different anatomical sites. While current guidelines emphasize thorough inspection and documentation to minimize blind spots, adherence remains low due to the lack of second readers. State-of-the-art automatic approaches audit single-frame or fixed temporal windows, with limited performance in real applications. This paper introduces the Multi-Scale Sequence Informative (MSSI) module, a Transformer-based attention mechanism that audits video sequences across multiple temporal scales. The proposed approach estimates the time spent exploring different organs and regions of the stomach. The method processes 15 to 196 tokens (1 to 13 seconds) by a sliding window, building up a mosaic of sampled frames. Each frame is encoded with a pre-trained endoscopy embedding which feeds a Vision Transformer to capture short-, mid-, and long-range dependencies. The approach is evaluated with 233 endoscopic procedures (∼1.6 million frames), demonstrating a close alignment between estimated procedural times and expert-validated standards. It achieved 92.03% macro precision in organ classification and 89.34% in distinguishing 23 specific views of different stomach sites, a total of 27 classes to audit, showing real potential to be applicable in real clinical scenarios. Our code is available at https://github.com/Cimalab-unal/EndoAudit.git.",
+  "authors": [
+    {
+      "name": "Bravo, Diego",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ruano, Josué",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gómez, Martín",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gónzalez, Fabio A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Romero, Eduardo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3297_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

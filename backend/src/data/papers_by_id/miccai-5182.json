@@ -1,0 +1,63 @@
+{
+  "id": "miccai-5182",
+  "title": "Estimating Bone Mineral Density and Muscle Mass from EOS Low Dose X-ray Imaging System",
+  "abstract": "The EOS imaging system is a low-dose, biplanar X-ray modality offering high-fidelity anatomical visualization in standing and seated positions, benefiting total hip arthroplasty (THA) by providing accurate skeletal alignment and implant positioning pre- and postoperatively. Evaluating bone mineral density (BMD) and muscle mass before surgery is useful for predicting outcomes and tailoring rehabilitation. Although CT and DXA can assess these metrics effectively, they increase cost and radiation exposure.\nRecent advances in deep learning have enabled BMD and muscle mass estimation from plain radiographs, among which one promising approach with potentially high generalizability to new modality utilized 2D–3D registration with CT of the same patient in training data preparation. However, limited EOS availability constrains large data collection. We devised and validated a deep learning framework to predict BMD and muscle mass from EOS images by fine-tuning a model trained on plain radiographs. Our dataset comprised 77 pairs of pre- and postoperative EOS images and CT scans, then underwent 2D–3D registration to create paired training data.\nOur contribution is two-fold: 1) we achieved reliable BMD and muscle mass estimation in THA cases with minimal training data, and 2) we experimentally demonstrated that only 40 paired EOS–CT images were sufficient to reach high accuracy, supporting feasibility in resource-limited settings.\nFuture work will extend this approach to broader patient populations and anatomical sites while performing external validation to assess potential domain shifts across different facilities.",
+  "authors": [
+    {
+      "name": "Suehara, Kazuki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gu, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Otake, Yoshito",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Uemura, Keisuke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Okamoto, Masashi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tokunaga, Kunihiko",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Talbot, Hugues",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sato, Yoshinobu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Surgery -> Planning and Simulation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5182_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

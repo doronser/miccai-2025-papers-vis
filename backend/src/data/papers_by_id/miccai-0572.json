@@ -1,0 +1,76 @@
+{
+  "id": "miccai-0572",
+  "title": "HARM3-Fusion: Hierarchical Attentional Representation Learning of Multi-Modal, Multi-Temporal, and Multi-Sequence Fusion for Pathological Complete Response Prediction of Head and Neck Squamous Cell Carcinoma",
+  "abstract": "The precise prediction of Pathological Complete Response (pCR) following Neoadjuvant Chemo-ImmunoTherapy (NCIT) in Head and Neck Squamous Cell Carcinoma (HNSCC) is crucial for optimizing therapeutic strategies and prognostic evaluation. Current methods exhibit limitations in simultaneously modeling multi-temporal treatment dynamics, multi-sequence magnetic resonance imaging (MRI) correlations, and multi-modal feature interactions. To address this challenge, we present a novel multi-modal representation and fusion framework,  HARM3-Fusion, which innovatively processes multi-temporal, multi-sequence MRI data and hierarchically fuses it with whole slide image (WSI) to enhance the accuracy of pCR prediction. Specifically, our method comprises three key modules: a multi-temporal module based on Loss-enhanced Dual-stream Convolutional Variational Auto-Encoder (LD-VAE), designed to decouple features from pre-treatment and post-treatment MRI scans; a multi-sequence module based on self-attention for integrating MRI features from T1 and T2 weighted sequences; and a multi-modal module based on cross-attention to fuse complementary information between MRI and WSI.To evaluate the efficacy of HARM3-Fusion, we establish HNSCC-pCR, the first multi-modal dataset for HNSCC. HNSCC-pCR dataset comprises 407 patients, with each case including pre-treatment and post-treatment T1-weighted and T2-weighted MRI scans, WSI of pre-treatment biopsy specimens, and pathologically confirmed surgical pCR. Based on this dataset, experimental results demonstrate that HARM3-Fusion achieves superior performance for pCR prediction compared to other single-modal and multi-modal approaches.",
+  "authors": [
+    {
+      "name": "Wang, Jianye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Xinyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gong, Zhiying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Lingjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hanwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Long, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Yimeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Yuncheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Xiaohui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Weibing",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0572_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

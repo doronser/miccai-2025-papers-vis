@@ -1,0 +1,64 @@
+{
+  "id": "miccai-0951",
+  "title": "Prior-guided Prototype Aggregation Learning for Alzheimer’s Disease Diagnosis",
+  "abstract": "Alzheimer’s disease (AD) diagnosis faces the challenge of capturing complex patterns of subtle structural and functional changes in neuroimaging and the underutilization of clinical prior knowledge. Current deep learning methods primarily focus on structural magnetic resonance imaging (sMRI) analysis, often overlooking the critical disease concepts that clinicians rely on. To address this limitation, we propose a Prior-guided Prototype Aggregation Learning (PPAL) framework. This framework leverages structured prompts to large language models (LLMs) to extract disease-related anatomical descriptions as clinical prior knowledge and progressively aggregates the visual features of AD and cognitively normal (CN) individuals, bridging the semantic gap between sMRI features and LLM-derived clinical concepts to construct category prototype representations. Meanwhile, we design a slice selection and compression module that adaptively learns the importance of different slices, prioritizing those most critical for AD diagnosis. Ultimately, AD diagnosis is achieved by computing the semantic similarity between MRI slice features and the category prototypes. Experimental results demonstrate that, compared to state-of-the-art 2D slice-based methods, incorporating clinical prior knowledge not only enhances the identification of pathological regions but also shows significant advantages in the zero-shot mild cognitive impairment (MCI) conversion task.",
+  "authors": [
+    {
+      "name": "Diao, Yueqin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Huihui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Hanyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tao, Yaling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Ziyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yeo, Si Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yanwu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0951_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

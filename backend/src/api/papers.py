@@ -1,14 +1,19 @@
 from fastapi import APIRouter, HTTPException, Query
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
+import logging
 from ..models.paper import Paper, PaperSimilarity, GraphData
 from ..services.data_loader import DataLoader
 from ..services.similarity import SimilarityService
+from ..services.tsne_service import TSNEService
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/papers", tags=["papers"])
 
 # Initialize services
 data_loader = DataLoader()
 similarity_service = SimilarityService(data_loader)
+tsne_service = TSNEService(data_loader)
 
 
 @router.get("/", response_model=List[Paper])
@@ -34,6 +39,19 @@ async def search_papers(
     """Search papers by title, abstract, authors, or subject areas"""
     results = data_loader.search_papers(q, limit)
     return results
+
+
+@router.get("/tsne-coordinates")
+async def get_tsne_coordinates():
+    """Get t-SNE coordinates for all papers"""
+    logger.info("t-SNE coordinates endpoint accessed")
+    try:
+        coordinates = tsne_service.get_tsne_coordinates()
+        logger.info(f"Returning {len(coordinates)} t-SNE coordinates")
+        return {"coordinates": coordinates}
+    except Exception as e:
+        logger.error(f"Error getting t-SNE coordinates: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error getting t-SNE coordinates: {str(e)}")
 
 
 @router.get("/{paper_id}", response_model=Paper)
@@ -168,3 +186,43 @@ async def get_network_data(
         return network_data
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating network data: {str(e)}")
+
+
+@router.get("/{paper_id}/similarity-network")
+async def get_similarity_network(
+    paper_id: str,
+    top_k: int = Query(20, ge=5, le=50)
+):
+    """Get similarity network data for a specific paper with t-SNE coordinates"""
+    try:
+        # Check if paper exists
+        paper = data_loader.get_paper_by_id(paper_id)
+        if not paper:
+            raise HTTPException(status_code=404, detail="Paper not found")
+
+        network_data = tsne_service.get_similarity_network_data(paper_id, top_k)
+        return network_data
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generating similarity network: {str(e)}")
+
+
+@router.get("/{paper_id}/highlight")
+async def highlight_paper(paper_id: str):
+    """Get paper data for highlighting in cluster view"""
+    try:
+        paper = data_loader.get_paper_by_id(paper_id)
+        if not paper:
+            raise HTTPException(status_code=404, detail="Paper not found")
+
+        return {
+            "paper_id": paper.id,
+            "title": paper.title,
+            "subject_areas": paper.subject_areas,
+            "authors": [author.name for author in paper.authors]
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error getting paper highlight data: {str(e)}")

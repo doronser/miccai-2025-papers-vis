@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2894",
+  "title": "Implicit U-KAN2.0: Dynamic, Efficient and Interpretable Medical Image Segmentation",
+  "abstract": "Image segmentation is a fundamental task in both image analysis and medical applications. State-of-the-art methods predominantly rely on encoder-decoder architectures with a U-shaped design, commonly referred to as U-Net. Recent advancements integrating transformers and MLPs improve performance but still face key limitations, such as poor interpretability, difficulty handling intrinsic noise, and constrained expressiveness due to discrete layer structures, often lacking a solid theoretical foundation.In this work, we introduce Implicit U-KAN 2.0, a novel U-Net variant that adopts a two-phase encoder-decoder structure. In the SONO phase, we use a second-order neural ordinary differential equation (NODEs), called the SONO block, for a more efficient, expressive, and theoretically grounded modeling approach. In the SONO-MultiKAN phase, we integrate the second-order NODEs and MultiKAN layer as the core computational block to enhance interpretability and representation power. Our contributions are threefold. First, U-KAN 2.0 is an implicit deep neural network incorporating MultiKAN and second order NODEs, improving interpretability and performance while reducing computational costs. Second, we provide a theoretical analysis demonstrating that the approximation ability of the MultiKAN block is independent of the input dimension. Third, we conduct extensive experiments on a variety of 2D and a single 3D dataset, demonstrating that our model consistently outperforms existing segmentation networks.",
+  "authors": [
+    {
+      "name": "Cheng, Chun-Wun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Yining",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Yanqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Montoya-Zegarra, Javier A.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schönlieb, Carola-Bibiane",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Aviles-Rivero, Angelica I.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Skin",
+    "Modalities -> Endoscopy",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2894_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

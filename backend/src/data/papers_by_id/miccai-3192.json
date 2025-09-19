@@ -1,0 +1,53 @@
+{
+  "id": "miccai-3192",
+  "title": "Fine-tuning Vision Language Models with Graph-based Knowledge for Explainable Medical Image Analysis",
+  "abstract": "Accurate staging of Diabetic Retinopathy (DR) is essential for guiding timely interventions and preventing vision loss. However, current staging models are hardly interpretable, and most public datasets contain no clinical reasoning or interpretation beyond image-level labels. In this paper, we present a novel method that integrates graph representation learning with vision-language models (VLMs) to deliver explainable DR diagnosis. Our approach leverages optical coherence tomography angiography (OCTA) images by constructing biologically informed graphs that encode key retinal vascular features such as vessel morphology and spatial connectivity. A graph neural network (GNN) then performs DR staging while integrated gradients highlight critical nodes and edges and their individual features that drive the classification decisions. We collect this graph-based knowledge which attributes the model’s prediction to physiological structures and their characteristics. We then transform this reasoning into textual descriptions for VLMs. We perform instruction-tuning with these textual descriptions and the corresponding image to train a student VLM. This final agent can classify the disease and explain its decision in a human interpretable way solely based on a single image input. Experimental evaluations on both proprietary and public datasets demonstrate that our method not only improves classification accuracy but also offers more clinically interpretable results. An expert study further demonstrates that our agent provides more accurate diagnostic explanations and enables precise localization of pathologies in OCTA images.",
+  "authors": [
+    {
+      "name": "Li, Chenjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lux, Laurin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Berger, Alexander H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Menten, Martin J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sabuncu, Mert R.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Paetzold, Johannes C.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3192_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

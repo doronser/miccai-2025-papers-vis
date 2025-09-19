@@ -1,0 +1,64 @@
+{
+  "id": "miccai-3876",
+  "title": "High-Order Progressive Trajectory Matching for Medical Image Dataset Distillation",
+  "abstract": "Medical image analysis faces significant challenges in data sharing due to privacy regulations and complex institutional protocols. Dataset distillation offers a solution to address these challenges by synthesizing compact datasets that capture essential information from real, large medical datasets. Trajectory matching has emerged as a promising methodology for dataset distillation; however, existing methods primarily focus on terminal states, overlooking crucial information in intermediate optimization states. We address this limitation by proposing a shape-wise potential that captures the geometric structure of parameter trajectories, and an easy-to-complex matching strategy that progressively addresses parameters based on their complexity. Experiments on medical image classification tasks demonstrate that our method improves distillation performance while preserving privacy and maintaining model accuracy comparable to training on the original datasets. Our code will be made publicly available.",
+  "authors": [
+    {
+      "name": "Dong, Le",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bian, Jinghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Jingyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Jingliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yilei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dong, Weisheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Xiao Xiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mou, Lichao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3876_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "miccai-2627",
+  "title": "DpDNet: An Dual-Prompt-Driven Network for Universal PET-CT Segmentation",
+  "abstract": "PET-CT lesion segmentation is challenging due to noise sensitivity, small and variable lesion morphology, and interference from physiological high-metabolic signals. Current mainstream approaches follow the practice of one network solving the segmentation of multiple cancer lesions by treating all cancers as a single task. However, this overlooks the unique characteristics of different cancer types. Considering the specificity and similarity of different cancers in terms of metastatic patterns, organ preferences, and FDG uptake intensity, we propose DpDNet, a Dual-Prompt-Driven network that incorporates specific prompts to capture cancer-specific features and common prompts to retain shared knowledge. Additionally, to mitigate information forgetting caused by the early introduction of prompts, prompt-aware heads are employed after the decoder to adaptively handle multiple segmentation tasks. Experiments on a PET-CT dataset with four cancer types show that DpDNet outperforms state-of-the-art models. Finally, based on the segmentation results, we calculated MTV, TLG, and SUVmax for breast cancer survival analysis. The results suggest that DpDNet has the potential to serve as a valuable tool for personalized risk stratification, supporting clinicians in optimizing treatment strategies and improving outcomes. We plan to make the code publicly accessible.",
+  "authors": [
+    {
+      "name": "Liang, Xinglong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Jiaju",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Luyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Chunyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cai, Lishan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mann, Ritse",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Segmentation",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2627_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

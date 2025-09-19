@@ -1,0 +1,107 @@
+{
+  "id": "miccai-4374",
+  "title": "A Non-contrast Head CT Foundation Model for Comprehensive Neuro-Trauma Triage",
+  "abstract": "Recent advancements in AI and medical imaging offer transformative potential in emergency head CT interpretation for reducing assessment times and improving accuracy in the face of an increasing request of such scans and a global shortage in radiologists. This study introduces a 3D foundation model for detecting diverse neuro-trauma findings with high accuracy and efficiency. Using large language models (LLMs) for automatic labeling, we generated comprehensive multi-label annotations for critical conditions. Our approach involved pretraining neural networks for hemorrhage subtype segmentation and brain anatomy parcellation, which were integrated into a pretrained comprehensive neuro-trauma detection network through multimodal fine-tuning. Performance evaluation against expert annotations and comparison with CT-CLIP demonstrated strong triage accuracy across major neuro-trauma findings, such as hemorrhage and midline shift, as well as less frequent critical conditions such as cerebral edema and arterial hyperdensity. The integration of neuro-specific features significantly enhanced diagnostic capabilities, achieving an average AUC of 0.861 for 16 neuro-trauma conditions. This work advances foundation models in medical imaging, serving as a benchmark for future AI-assisted neuro-trauma diagnostics in emergency radiology.",
+  "authors": [
+    {
+      "name": "Yoo, Youngjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Georgescu, Bogdan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yanbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grbic, Sasa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Aldea, Gabriela D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Re, Thomas J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Das, Jyotipriya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ullaskrishnan, Poikavila",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Eibenberger, Eva",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chekkoury, Andrei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bodanapally, Uttam K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nicolaou, Savvas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sanelli, Pina C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schroeppel, Thomas J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lui, Yvonne W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gibson, Eli",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4374_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

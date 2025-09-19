@@ -1,0 +1,46 @@
+{
+  "id": "miccai-2868",
+  "title": "Background-Invariant Independence-Guided Multi-head Attention Network for Skin Lesion Classification",
+  "abstract": "Biomedical image classification faces several adversarial challenges, including occlusions from artifacts, variations in tissue pigmentation, and class imbalance, which hinder model generalization. Existing attention mechanisms enhance region localization but often introduce redundant dependencies across attention heads, limiting feature diversity. We propose the Background-Invariant Independence-Guided Multi-head Attention Network (BIIGMA-Net) to address these issues. BIIGMA-Net employs Multi-head Independence-Guided Channel Attention (MICA), where each head independently learns feature importance while enforcing neuron-wise independence using the Hilbert-Schmidt Independence Criterion (HSIC) to enhance feature diversity. Additionally, a saliency-driven mechanism suppresses background activations by selectively shuffling non-salient vectors, preventing the model from relying on static background cues. By integrating these strategies, BIIGMA-Net improves robustness against spurious background noise while ensuring complementary feature extraction. Extensive experiments on popular skin cancer datasets (ISIC-17, ISIC-18 and ISIC-19) demonstrate the framework’s effectiveness and robustness. Our code is available at:\nhttps://github.com/shb2908/BIIGMA-Net",
+  "authors": [
+    {
+      "name": "Roy, Debasmit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dutta, Srinjoy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bose, Soham",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schwenker, Friedhelm",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sarkar, Ram",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2868_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

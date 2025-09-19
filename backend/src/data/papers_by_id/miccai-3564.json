@@ -1,0 +1,73 @@
+{
+  "id": "miccai-3564",
+  "title": "Sparsely Labeled fMRI Data Denoising with Meta-Learning-Based Semi-Supervised Domain Adaptation",
+  "abstract": "Functional magnetic resonance imaging (fMRI) denoising is a crucial preprocessing step in neuroimaging studies, as noise degrades the reliability of downstream analyses. Previous approaches for fMRI denoising either rely on predefined noise patterns or train dataset-specific models, restricting their reliability across various datasets due to inter-dataset variations in scanner types, scanning protocols, and preprocessing pipelines. Additionally, applying previous approaches to new datasets requires extensive expert signal/noise annotations. To mitigate this reliance, leveraging existing datasets to train sparsely labeled datasets is a practical solution, but inconsistencies in labeling criteria hinder effective adaptation. To address these challenges, we propose a meta-learning-based semi-supervised domain adaptation framework, enabling the learning of dataset-irrelevant features from sparsely labeled datasets by leveraging existing labeled datasets with two key components: (1) a dataset-irrelevant feature extractor trained by meta-learning to capture noise patterns across multiple datasets, and (2) dataset-specific classifiers optimized by decoupled training to handle inconsistencies in labeling criteria. Our proposed approach shows outstanding performance on four fMRI datasets in both fully labeled and sparsely labeled conditions.",
+  "authors": [
+    {
+      "name": "Heo, Keun-Soo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Ji-Wung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bak, Soyeon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lim, Minjoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Bogyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Sang-Jun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Weili",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kam, Tae-Eui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3564_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

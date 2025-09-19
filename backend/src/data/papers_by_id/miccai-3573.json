@@ -1,0 +1,32 @@
+{
+  "id": "miccai-3573",
+  "title": "Addressing Label Scarcity and Domain Shift in Medical Image Segmentation",
+  "abstract": "Limited labeled data and domain shifts present significant challenges for accurate medical image segmentation. Semi-supervised learning (SSL) and unsupervised domain adaptation (UDA) methods address these challenges individually. Existing SSL methods do not perform well in UDA scenarios, and vice versa. We observe that excelling in SSL requires effective learning from limited labeled data while avoiding overfitting, whereas in UDA, the domain gap must be effectively reduced. To design a novel unified framework that tackles both the scarcity of labeled data and domain shift, it is essential to address both objectives. To accomplish this, we introduce Wavelet Frequency Exchange (WFE), which decomposes encoder features into low and high-frequency components and exchanges high-frequency features between labeled and unlabeled data. WFE provides two key benefits: it disrupts overfitting by preventing the model from memorizing details from limited labeled data in SSL, and it reduces the domain gap in UDA. To improve the representation of exchanged features, we propose a Learnable Parametric Feature Network (LPFN), which includes downsampling and upsampling blocks. These blocks include Parametric Spline (PS) layers, which map the relationships between the exchanged features using a spline function.  Evaluations on two publicly available medical datasets demonstrate the effectiveness of our method.",
+  "authors": [
+    {
+      "name": "Kumari, Suruchi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Singh, Pravendra",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3573_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

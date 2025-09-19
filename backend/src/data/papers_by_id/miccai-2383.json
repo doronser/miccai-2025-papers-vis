@@ -1,0 +1,55 @@
+{
+  "id": "miccai-2383",
+  "title": "Think as Cardiac Sonographers: Marrying SAM with Left Ventricular Indicators Measurements According to Clinical Guidelines",
+  "abstract": "Left ventricular (LV) indicator measurements following clinical echocardiography guidelines are important for diagnosing cardiovascular disease. Although existing algorithms have explored automated LV quantification, they can struggle to capture generic visual representations due to the normally small training datasets. Therefore, it is necessary to introduce vision foundational models (VFM) with abundant knowledge. However, VFMs represented by the segment anything model (SAM) are usually suitable for segmentation but incapable of identifying key anatomical points, which are critical in LV indicator measurements. In this paper, we propose a novel framework named AutoSAME, combining the powerful visual understanding of SAM with segmentation and landmark localization tasks simultaneously. Consequently, the framework mimics the operation of cardiac sonographers, achieving LV indicator measurements consistent with clinical guidelines. We further present filtered cross-branch attention (FCBA) in AutoSAME, which leverages relatively comprehensive features in the segmentation to enhance the heatmap regression (HR) of key points from the frequency domain perspective, optimizing the visual representation learned by the latter. Moreover, we propose spatial-guided prompt alignment (SGPA) to automatically generate prompt embeddings guided by spatial properties of LV, thereby improving the accuracy of dense predictions by prior spatial knowledge. The extensive experiments on an echocardiography dataset demonstrate the efficiency of each design and the superiority of our AutoSAME in LV segmentation, landmark localization, and indicator measurements. The code will be available at https://github.com/QC-LIU-1997/AutoSAME.",
+  "authors": [
+    {
+      "name": "Liu, Tuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Qinghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Rongjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Guangquan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Interpretability / Explainability",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2383_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

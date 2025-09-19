@@ -1,0 +1,63 @@
+{
+  "id": "miccai-3296",
+  "title": "Robust Fetal Pose Estimation across Gestational Ages via Cross-Population Augmentation",
+  "abstract": "Fetal motion is a critical indicator of neurological development and intrauterine health, yet its quantification remains challenging, particularly at earlier gestational ages (GA). Current methods track fetal motion by predicting the location of annotated landmarks on 3D echo planar imaging (EPI) time-series, primarily in third-trimester fetuses. The predicted landmarks enable  simplification of the fetal body for downstream analysis. While these methods perform well within their training age distribution, they consistently fail to generalize to early GAs due to significant anatomical changes in both mother and fetus across gestation, as well as the difficulty of obtaining annotated early GA EPI data. In this work, we develop a cross-population data augmentation framework that enables pose estimation models to robustly generalize to younger GA clinical cohorts using only annotated images from older GA cohorts. Specifically, we introduce a fetal-specific augmentation strategy that simulates the distinct intrauterine environment and fetal positioning of early GAs. Our experiments find that cross-population augmentation yields reduced variability and significant improvements across both older GA and challenging early GA cases. By enabling more reliable pose estimation across gestation, our work potentially facilitates early clinical detection and intervention in challenging 4D fetal imaging settings.",
+  "authors": [
+    {
+      "name": "Diaz, Sebastian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Billot, Benjamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dey, Neel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Molin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abaci Turk, Esra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grant, P. Ellen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Golland, Polina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Adalsteinsson, Elfar",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3296_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

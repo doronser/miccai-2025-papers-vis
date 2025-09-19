@@ -1,0 +1,49 @@
+{
+  "id": "miccai-4043",
+  "title": "Beyond Shadows: Learning Physics-inspired Ultrasound Confidence Maps from Sparse Annotations",
+  "abstract": "This paper introduces a novel user-centered approach for generating confidence maps in ultrasound imaging.\nExisting methods, relying on simplified models, often fail to account for the full range of ultrasound artifacts and are limited by arbitrary boundary conditions, making frame-to-frame comparisons challenging.\nOur approach integrates sparse binary annotations into a physics-inspired probabilistic graphical model that can estimate the likelihood of confidence maps.\nWe propose to train convolutional neural networks to predict the most likely confidence map.\nThis results in an approach that is fast, capable of dealing with various artifacts, temporally stable, and allows users to directly influence the algorithm’s behavior using annotations.\nWe demonstrate our method’s ability to cope with a variety of challenging artifacts and evaluate it quantitatively on two downstream tasks, bone shadow segmentation and multi-modal image registration, with superior performance than the state-of-art.\nWe make our training code public.",
+  "authors": [
+    {
+      "name": "Ronchetti, Matteo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Göbl, Rüdiger",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yesilkaynak, Bugra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zettinig, Oliver",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Registration",
+    "Applications -> Image Segmentation",
+    "Applications -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4043_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

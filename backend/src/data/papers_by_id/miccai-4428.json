@@ -1,0 +1,37 @@
+{
+  "id": "miccai-4428",
+  "title": "ESPNet: Edge-Aware Feature Shrinkage Pyramid for Polyp Segmentation",
+  "abstract": "Despite numerous techniques developed for polyp segmentation, the issue of generalizability to new centers and populations persists. To address these issues, we compile a multicenter train set consisting of 4,000 polyp frames and propose a novel approach toward generalizing to different data centers, difficult polyp morphologies (e.g., flat or small), and inflammatory conditions such as inflammatory bowel disease (IBD). In this regard, we propose a transformer-based polyp segmentation model to leverage global contextual information, and enhancement of local feature interactions through a novel feature decoding and fusion method, and polyp edge features. This combines the vision transformers’ strong contextual understanding with enhanced locality modeling through graph-based relational understanding and multiscale feature aggregation. We compare our model with eight recent state-of-the-art methods under five widely used metrics on the following benchmark datasets: Kvasir-Sessile, SUN-SEG-Easy (Seen), ETISLaribPolypDB, CVC-ColonDB, PolypGen-C6, and our in-house IBD dataset. Extensive experiments show that our model outperforms state-of-theart methods on out-of-distribution datasets with mIoU improvements of 2.84% on ETIS-LaribPolypDB, 1.26% on CVC-ColonDB, 1.90% on PolypGen-C6, and 3.52% on the in-house IBD polyp dataset compared to the most accurate recent method. The code is available at https://github.com/Raneem-MT/ESPNet.",
+  "authors": [
+    {
+      "name": "Toman, Raneem",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Subramanian, Venkataraman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ali, Sharib",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4428_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

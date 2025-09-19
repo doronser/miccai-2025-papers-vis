@@ -1,0 +1,54 @@
+{
+  "id": "miccai-0811",
+  "title": "SurgSora: Object-Aware Diffusion Model for Controllable Surgical Video Generation",
+  "abstract": "Surgical video generation can enhance medical education and research, but existing methods lack fine-grained motion control and realism. We introduce SurgSora, a framework that generates high-fidelity, motion-controllable surgical videos from a single input frame and user-specified motion cues. Unlike prior approaches that treat objects indiscriminately or rely on ground-truth segmentation masks, SurgSora leverages self-predicted object features and depth information to refine RGB appearance and optical flow for precise video synthesis. It consists of three key modules: (1) the Dual Semantic Injector, which extracts object-specific RGB-D features and segmentation cues to enhance spatial representations; (2) the Decoupled Flow Mapper, which fuses multi-scale optical flow with semantic features for realistic motion dynamics; and (3) the Trajectory Controller, which estimates sparse optical flow and enables user-guided object movement. By conditioning these enriched features within the Stable Video Diffusion, SurgSora achieves state-of-the-art visual authenticity and controllability in advancing surgical video synthesis, as demonstrated by extensive quantitative and qualitative comparisons. Our human evaluation in collaboration with expert surgeons further demonstrates the high realism of SurgSora-generated videos, highlighting the potential of our method for surgical training and education.",
+  "authors": [
+    {
+      "name": "Chen, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Shuya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Junyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Hongliang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Luping",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0811_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

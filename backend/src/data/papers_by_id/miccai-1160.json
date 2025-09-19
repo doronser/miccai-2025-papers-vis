@@ -1,0 +1,60 @@
+{
+  "id": "miccai-1160",
+  "title": "RadIR: A Scalable Framework for Multi-Grained Medical Image Retrieval via Radiology Report Mining",
+  "abstract": "Developing advanced medical imaging retrieval systems is significantly challenged, since the concept of ‘similar images’ varies significantly across different medical contexts and perspectives, resulting in a pressing lack of large-scale, high-quality medical imaging retrieval datasets and benchmarks.\nIn this paper, we propose a novel methodology that leverages dense radiology reports to define image-wise similarity ordering at multiple granularities in a scalable and fully automatic way. We build up two comprehensive medical imaging retrieval datasets for Chest X-ray and CT, MIMIC-IR and CTRATE-IR, with detailed image-image ranking ordering annotations conditioned on diverse anatomical structures. Lastly, we develop two retrieval systems, namely, RadIR-CXR and RadIR-ChestCT, which consistently show superior performance in traditional image-image and image-report retrieval tasks, and further enable flexible and effective image retrieval conditioned on specific anatomical structures in text form, achieving state-of-the-art results on 77 out of 78 metrics.",
+  "authors": [
+    {
+      "name": "Zhang, Tengfei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Ziheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Chaoyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Xiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yanfeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Weidi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1160_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

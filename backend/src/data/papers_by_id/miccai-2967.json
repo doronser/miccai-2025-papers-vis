@@ -1,0 +1,54 @@
+{
+  "id": "miccai-2967",
+  "title": "FDAS: Foundation Model Distillation and Anatomic Structure-aware Multi-task Learning for Self-Supervised Medical Image Segmentation",
+  "abstract": "Self-Supervised Learning (SSL) has shown promising results in medical image segmentation, offering advanced performance with minimal annotations. However, the absence of semantics during pre-training limits the performance of downstream tasks (e.g., organ segmentation). To address this issue, we propose a novel SSL framework via Foundation model Distillation and Anatomic Structure-aware multi-task learning (FDAS) for medical image segmentation. Specifically, we distill knowledge from the Segment Anything Model (SAM) and propose SAM-guided anatomic Structure-aware Masked Image Modeling (S2MIM), which randomly masks multiple anatomic structures in the image to enrich representation learning. For better pre-training, we introduce anatomic structure-aware multi-task learning, which integrates reconstruction and segmentation of anatomic structure-fused images to capture richer semantic information, along with fusion-based contrastive learning to preserve the semantic integrity and discriminative power of the learned representations. Experiments on two applications (cardiac MRI segmentation and fetal brain MRI segmentation) demonstrate that our method effectively improved the representation learning and outperformed several state-of-the-art SSL methods. The code is available at https://github.com/HiLab-git/FDAS.",
+  "authors": [
+    {
+      "name": "Qi, Xiaoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Guoning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jianghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Shaoting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hou, Xiaorong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guotai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2967_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-5412",
+  "title": "Contour Makes It Stronger: Cross-Domain Cephalometric Landmark Detection Based on Contour Priors",
+  "abstract": "The detection of cephalometric landmarks is crucial for orthodontic diagnosis. Current methods mainly focus on utilizing contextual information to detect landmarks while overlooking the challenges posed by domain gaps. In this paper, we propose a contour-guided framework that leverages cranial soft/hard tissue contours as domain-invariant anatomical priors. The method introduces a joint attention module to fuse the topological features corresponding to the contours with contextual features, ensuring the accuracy of landmark positioning. Additionally, we address anisotropic prediction uncertainty in unseen domains through a direction-aware regression module, which incorporates contour geometry to regularize error distributions. Evaluated on the multi-domain datasets with five source and three unseen target domains, our framework demonstrates superior robustness to domain shifts while maintaining anatomical plausibility, achieving state-of-the-art cross-domain localization accuracy.",
+  "authors": [
+    {
+      "name": "Liang, Xinyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Runnan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Guangshun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Shaojie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Yuanfeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5412_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

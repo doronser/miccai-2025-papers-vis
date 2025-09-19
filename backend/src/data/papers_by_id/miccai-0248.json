@@ -1,0 +1,98 @@
+{
+  "id": "miccai-0248",
+  "title": "Location-Guided Automated Lesion Captioning in Whole-body PET/CT Images",
+  "abstract": "Whole-body PET/CT imaging provides detailed metabolic and anatomical information, which is critical for accurate cancer staging, treatment evaluation, and radiotherapy planning. Automated lesion captioning for whole-body PET/CT is essential for reducing radiologists’ workload and assisting personalized treatment decisions. Unlike previous works that focus on captioning body-part images, we propose a novel automated lesion captioning framework for whole-body PET/CT images, which usually have large volume and high anatomical variability. Our framework first leverages CLIP for lesion localization, upon which we introduce two location-guided strategies: Confidence-Guided Location Prompts (CGLP), which select top-1 or top-3 anatomical location prompts based on confidence scores to guide captioning, and Dynamic Window Setting (DWS), which applies appropriate intensity windowing to enhance visual representation of the localized regions. To our knowledge, our work is the first to achieve whole-body PET/CT lesion captioning. Experimental results on a large dataset comprising 1867 subjects from Siemens, GE, and United Imaging show that our method not only yields higher BLEU scores compared to state-of-the-art methods, but also produces consistent improvements across multiple scanner makers. This advancement has the potential to streamline radiology reporting and enhance clinical decision-making using whole-body PET/CT images.",
+  "authors": [
+    {
+      "name": "Yu, Mingyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yaozong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shu, Yiran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yanbo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Jingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Caiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Kaicong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Zhiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Weifang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhan, Yiqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Xiang Sean",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhong, Shaonan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xinlu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Meixin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0248_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1474",
+  "title": "Two-Stage Generative Model for Intracranial Aneurysm Meshes with Morphological Marker Conditioning",
+  "abstract": "A generative model for the mesh geometry of intracranial aneurysms (IA) is crucial for training networks to predict blood flow forces in real time, which is a key factor affecting disease progression. This need is necessitated by the absence of a large IA image datasets. Existing shape generation methods struggle to capture realistic IA features and ignore the relationship between IA pouches and parent vessels, limiting physiological realism and their generation cannot be controlled to have specific morphological measurements. We propose AneuG, a two-stage Variational Autoencoder (VAE)-based IA mesh generator. In the first stage, AneuG generates low-dimensional Graph Harmonic Deformation (GHD) tokens to encode and reconstruct aneurysm pouch shapes. GHD enables more accurate shape encoding than alternatives. In the second stage, AneuG generates parent vessels conditioned on GHD tokens, by generating vascular centerline and propagating the cross-section. IA shape generation can be conditioned on specific clinically relevant shape measurements, enabling controlled studies on how morphological variations impact flow behaviors. Additional, our novel Morphing Energy Alignment constraint and Morphological Marker Calculator improve generation fidelity and controllability. Source code and implementation details are available at https://github.com/anonymousaneug/AneuG.",
+  "authors": [
+    {
+      "name": "Ding, Wenhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Kangjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Castro, Simão",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Yihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Roi, Dylan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yap, Choon Hwai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Other",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1474_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

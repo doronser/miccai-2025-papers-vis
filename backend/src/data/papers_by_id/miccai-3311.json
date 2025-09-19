@@ -1,0 +1,50 @@
+{
+  "id": "miccai-3311",
+  "title": "Structure-Aware Cross-Modal Prompt Tuning for Autonomous Bronchoscopic Navigation",
+  "abstract": "Autonomous bronchoscopic navigation is vital for pulmonary disease diagnosis and treatment but still suffers from subtle anatomical variations and open-set bronchial variants. Current vision-language foundation models enable open-set recognition but get trapped in capturing fine-grained spatial features and disentangling class-specific attributes. We propose a structure-aware cross-modal prompt tuning framework that combines the contrastive language-image pre-training (CLIP) model and the efficient segment anything model (EfficientSAM) to address these limitations. Specifically, EfficientSAM extracts structure-aware features for learnable textual prompts via cross-modal attention to enrich visual embeddings in CLIP, while a base-unknown decoupled head disentangles shared anatomical knowledge and class-specific features in the latent space, enhancing separability for both base and open-set classes. Moreover, unified optimization aligns multi-modal distributions using image-text matching loss and base-unknown decoupled loss. We evaluate our method on clinical bronchoscopic data, with the experimental results showing that our method outperforms state-of-the-art approaches and improves recognition and open-set identification (88.94%, 87.00%).",
+  "authors": [
+    {
+      "name": "Fang, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zeng, Zhuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jianwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Wenkang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xiongbiao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3311_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "miccai-0447",
+  "title": "MAGNET-AD: Multitask Spatiotemporal GNN for Interpretable Prediction of PACC and Conversion Time in Preclinical Alzheimer",
+  "abstract": "Preclinical Alzheimer’s Disease (AD) detection remains challenging due to the complex interplay of biological, structural, and temporal factors. Existing methods often struggle to integrate multimodal longitudinal data and predict key clinical outcomes. We propose MAGNET-AD, a novel multitask spatiotemporal graph neural network designed to predict the Preclinical Alzheimer’s Cognitive Composite (PACC) score and time to AD conversion. MAGNET-AD offers three key contributions: (1) A dynamic heterogeneous graph architecture with weighted edges for hybrid fusion mechanisms, integrating static and dynamic multimodal data; (2) a temporal importance weighting loss function that adaptively learns critical time points while jointly optimizing time prediction and cognitive decline estimation; and (3) an interpretable attention framework that highlights key brain regions and genetic factors driving disease progression. MAGNET-AD achieves state-of-the-art performance with a concordance index of 0.858 for conversion time prediction and a mean square error of 1.983 for PACC prediction, outperforming existing deep learning approaches. These results underscore MAGNET-AD’s potential for early AD risk assessment and monitoring, enabling broader clinical applications. The code and processed data will be available at  https://github.com/BioMedIA-MBZUAI/MAGNET-AD.",
+  "authors": [
+    {
+      "name": "Hassan, Salma",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Salem, Mostafa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Papineni, Vijay Ram Kumar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elsayed, Ayman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yaqub, Mohammad",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0447_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

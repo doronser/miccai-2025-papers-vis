@@ -1,0 +1,59 @@
+{
+  "id": "miccai-0932",
+  "title": "MVP-LLMs: Optimizing Intervention Timing and Subsequent Decision Support for Mechanical Ventilation Parameter Control Using Large Language Models",
+  "abstract": "Since the COVID-19 outbreak, global health systems have faced unprecedented challenges, with mechanical ventilation playing a critical role in supporting patients in ICUs. However, precise adjustment of ventilation parameters remains complex, requiring continuous monitoring and personalized interventions by clinicians. This paper introduces a novel formulation of ventilator parameter adjustment as a composite problem involving optimal stopping and subsequent decision optimization, supported by a domain-specific dataset reflecting real-world scenarios. We propose a framework utilizing Large Language Models (LLMs) to enhance interactivity and interpretability, leveraging their extensive clinical knowledge from large text corpora for informed decision-making. The framework addresses two key tasks: developing scheduled prompts for optimal stopping to replicate clinical observation processes and implementing Best Action Imitation Learning for robust ventilator parameter optimization. Experimental results show significant improvements in LLMs’ ability to predict optimal stopping points and optimize decision-making, advancing clinical ventilator control. To our knowledge, this is the first application of LLMs to this dual-task paradigm.",
+  "authors": [
+    {
+      "name": "Hao, Teqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Xiaoyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Bin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xuemin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qu, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yinghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Xihe",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0932_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

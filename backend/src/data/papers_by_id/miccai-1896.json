@@ -1,0 +1,59 @@
+{
+  "id": "miccai-1896",
+  "title": "MM-DINOv2: Adapting Foundation Models for Multi-Modal Medical Image Analysis",
+  "abstract": "Vision foundation models like DINOv2 demonstrate remarkable potential in medical imaging despite their origin in natural image domains.\nHowever, their design inherently works best for uni-modal image analysis, limiting their effectiveness for multi-modal imaging tasks that are common in many medical fields, such as neurology and oncology.\nWhile supervised models perform well in this setting, they fail to leverage unlabeled datasets and struggle with missing modalities — a frequent challenge in clinical settings.\nTo bridge these gaps, we introduce MM-DINOv2, a novel and efficient framework that adapts the pre-trained vision foundation model DINOv2 for multi-modal medical imaging.\nOur approach incorporates multi-modal patch embeddings, enabling vision foundation models to effectively process multi-modal imaging data.\nTo address missing modalities, we employ full-modality masking, which encourages the model to learn robust cross-modality relationships.\nFurthermore, we leverage semi-supervised learning to harness large unlabeled datasets, enhancing both the accuracy and reliability of medical predictions.\nWe demonstrate our approach on glioma subtype classification from multi-sequence brain MRI, achieving a Matthews Correlation Coefficient (MCC) of 0.6 on an external test set, surpassing state-of-the-art supervised approaches by +11.1%. \nBeyond this specific application, our framework provides a scalable and robust blueprint for various multi-modal medical imaging problems effectively leveraging vision foundation models pre-trained on natural images while addressing real-world clinical challenges such as missing data and limited annotations.",
+  "authors": [
+    {
+      "name": "Scholz, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Erdur, Ayhan Can",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ehm, Viktoria",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meyer-Baese, Anke",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peeken, Jan C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rueckert, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wiestler, Benedikt",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1896_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

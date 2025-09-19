@@ -1,0 +1,59 @@
+{
+  "id": "miccai-4178",
+  "title": "Task-aligned fMRI Generation Model for Brain Disorder Diagnosis",
+  "abstract": "Functional magnetic resonance imaging (fMRI) is essential for understanding and diagnosing brain disorders. However, the challenge of small sample sizes, due to high acquisition costs and low annotation efficiency, hinders deeper exploration of the mechanisms underlying brain diseases. Recently, generative diffusion models have shown great potential for time series data generation, but directly using them for fMRI generation still has some issues. Firstly, most of them are designed for single time series, ignoring the significant dependency information between multiple time series when applied to fMRI. Since fMRI time series from different brain regions exhibit correlations, it is necessary to consider this characteristic when generating fMRI. Secondly, the generation process often lacks the involvement of label information, which limits their applicability in facilitating classification tasks. Thirdly, the alignment between the generated data and the target tasks is often insufficient, limiting its effectiveness for brain disorder diagnosis. To address these issues, we propose a novel task-aligned fMRI generation method based on the diffusion model. Specifically, a functional brain network (FBN) is incorporated into the diffusion model as prior knowledge to guide and constrain the data generation process, ensuring that the generated fMRI respects the functional connectivity characteristics observed in actual fMRI. To effectively and flexibly generate class-specific fMRI, a representative class-wise FBN is utilized as the prior FBN. Meanwhile, the proposed method ensures that the generated fMRI is well aligned with target brain disorder classification tasks. Extensive experiments are conducted on three datasets, consistently demonstrating the superior performance of the proposed method.",
+  "authors": [
+    {
+      "name": "Li, Yifan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Xiaotong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Xiaocai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Haiteng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Weiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jianjia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4178_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

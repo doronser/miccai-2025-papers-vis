@@ -1,0 +1,58 @@
+{
+  "id": "miccai-4581",
+  "title": "Analysis of Image-and-Text Uncertainty Propagation in Multimodal Large Language Models with Cardiac MR-Based Applications",
+  "abstract": "Multimodal large language models (MLLMs) can process and integrate information from multimodality sources, such as text and images. However, interrelationship among input modalities, uncertainties due to individual uni-modal data and potential clinical applications following such an uncertainty decomposition are yet fully understood in the context of large-scale MLLMs. In this work, we propose a multimodal uncertainty propagation model (MUPM) based on uncertainty propagation, to characterise the relationship among the uncertainties arising from image-only, text-only, and joint image-text variations in MLLM inputs. Using real clinical data consisting of cardiac MR scans and digital health records, we describe that MUPMs can be optimised robustly with a few samples. We then show that the fitted MUPMs are generalisable across different input data distributions and, perhaps surprisingly, across different downstream tasks. Such a transferability may be explained by the shared pretraining, comparatively light MLLM fine-tuning, along with the low-dimensional nature of the MUPMs. More importantly, this learned transferability, quantifying the relationship between these uncertainties, led to direct clinical applications in which uncertainties may be estimated and thus analysed robustly for varying data or even a novel set of cardiac disease prediction tasks. In addition, we show experimentally the efficiency in multimodal data required for estimating the overall uncertainty and its ability to identify redundant factors, both of which are considered practical yet clinically useful applications with the proposed MUPMs. Codes are available at https://anonymous.4open.science/r/MUPM-CBDB.",
+  "authors": [
+    {
+      "name": "Tang, Yucheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Yunguan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yi, Weixi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yipei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Alexander, Daniel C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Davies, Rhodri",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Yipeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4581_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "miccai-2561",
+  "title": "Cross-Modality Supervised Prostate Segmentation on CBCT for Adaptive Radiotherapy",
+  "abstract": "Accurate organ segmentation is crucial for prostate cancer radiotherapy, but cone-beam computer tomography (CBCT) based models are hindered by low image quality and annotation scarcity. Existing approaches rely on deformable registration, which struggles with soft-tissue deformations, or direct CBCT training, which suffers from domain shifts and low-quality labels. We propose a domain adaptation framework that enables robust prostate segmentation on CBCT using cross-modality supervision from planning CT (pCT). A cycle-consistent generative adversarial network translates pCT into synthetic CBCT, enabling segmentation models to train on high-quality pCT-derived annotations while adapting to CBCT characteristics. Additionally, anatomy-aware augmentation enhances robustness to organ deformations across diverse patient anatomies. Using a multi-center dataset, our approach achieves segmentation accuracy comparable to pCT-trained models. By eliminating the need for manual CBCT annotations, our method enables practical AI-driven segmentation for adaptive radiotherapy.",
+  "authors": [
+    {
+      "name": "Kovacs, Balint",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stanic, Goran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weykamp, Fabian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ebert, Florian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bounias, Dimitrios",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tawk, Bouchra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Niklas, Martin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liermann, Jakob",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jäkel, Oliver",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maier-Hein, Klaus H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Floca, Ralf",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Giske, Kristina",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Urology",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2561_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

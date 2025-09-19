@@ -1,0 +1,47 @@
+{
+  "id": "miccai-4020",
+  "title": "Register Anything: Estimating “Corresponding Prompts” for Segment Anything Model",
+  "abstract": "Establishing pixel/voxel-level or region-level correspondences is the core challenge in image registration. The latter, also known as region-based correspondence representation, leverages paired regions of interest (ROIs) to enable regional matching while preserving fine-grained capability at pixel/voxel level. Traditionally, this representation is implemented via two steps: segmenting ROIs in each image then matching them between the two images. In this paper, we simplify this into one step by directly ‘‘searching for corresponding prompts’’, using extensively pre-trained segmentation models (e.g., SAM) for a training-free registration approach, PromptReg. Firstly, we introduce the ‘‘corresponding prompt problem’’, which aims to identify a corresponding Prompt Y in Image Y for any given visual Prompt X in Image X, such that the two respectively prompt-conditioned segmentations are a pair of corresponding ROIs from the two images.  Secondly, we present an ‘‘inverse prompt’’ solution that generates primary and optionally auxiliary prompts, inverting Prompt X into the prompt space of Image Y. Thirdly, we propose a novel registration algorithm that identifies multiple paired corresponding ROIs by marginalizing the inverted Prompt X across both prompt and spatial dimensions. Comprehensive experiments are conducted on five applications of registering 3D prostate MR, 3D abdomen MR, 3D lung CT, 2D histopathology and, as a non-medical example, 2D aerial images. Based on metrics including Dice and target registration errors on anatomical structures, the proposed registration outperforms both intensity-based iterative algorithms and learning-based DDF-predicting networks, even yielding competitive performance with weakly-supervised approaches that require fully-segmented training data.",
+  "authors": [
+    {
+      "name": "Huang, Shiqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Tingfa",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Wen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Barratt, Dean",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Yipeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4020_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

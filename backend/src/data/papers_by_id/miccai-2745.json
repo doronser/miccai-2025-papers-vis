@@ -1,0 +1,44 @@
+{
+  "id": "miccai-2745",
+  "title": "Hierarchical Spatio-temporal Segmentation Network for Ejection Fraction Estimation in Echocardiography Videos",
+  "abstract": "Automated segmentation of the left ventricular endocardium in echocardiography videos is a key research area in cardiology. It aims to provide accurate assessment of cardiac structure and function through Ejection Fraction (EF) estimation. Although existing studies have achieved good segmentation performance, their results do not perform well in EF estimation. In this paper, we propose a Hierarchical Spatio-temporal Segmentation Network (\\ourmodel) for echocardiography video, aiming to improve EF estimation accuracy by synergizing local detail modeling with global dynamic perception. The network employs a hierarchical design, with low-level stages using convolutional networks to process single-frame images and preserve details, while high-level stages utilize the Mamba architecture to capture spatio-temporal relationships. The hierarchical design balances single-frame and multi-frame processing, avoiding issues such as local error accumulation when relying solely on single frames or neglecting details when using only multi-frame data. To overcome local spatio-temporal limitations, we propose the Spatio-temporal Cross Scan (STCS) module, which integrates long-range context through skip scanning across frames and positions. This approach helps mitigate EF calculation biases caused by ultrasound image noise and other factors. We achieved state-of-the-art results on three datasets. Our code is available at https://github.com/DF-W/HSS-Net.",
+  "authors": [
+    {
+      "name": "Wang, Dongfang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yizhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2745_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

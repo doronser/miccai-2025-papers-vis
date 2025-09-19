@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1576",
+  "title": "DHGFormer: Dynamic Hierarchical Graph Transformer for Disorder Brain Disease Diagnosis",
+  "abstract": "The functional brain network exhibits a hierarchical characterized organization, balancing localized specialization with global integration through multi-scale hierarchical connectivity. While graph-based methods have advanced brain network analysis, conventional graph neural networks (GNNs) face interpretational limitations when modeling functional connectivity (FC) that encodes excitatory/inhibitory distinctions, often resorting to oversimplified edge weight transformations.\nExisting methods usually inadequately represent the brain’s hierarchical organization, potentially missing critical information about multi-scale feature interactions. To address these limitations, we propose a novel brain network generation and analysis approach–Dynamic Hierarchical Graph Transformer (DHGFormer). Specifically, our method introduces an FC-driven dynamic attention mechanism that adaptively encodes brain excitatory/inhibitory connectivity patterns into transformer-based representations, enabling dynamic adjustment of the functional brain network.  Furthermore, we design hierarchical GNNs that consider prior functional subnetwork knowledge to capture intra-subnetwork homogeneity and inter-subnetwork heterogeneity, thereby enhancing GNN performance in brain disease diagnosis tasks. Extensive experiments on the ABIDE and ADNI datasets demonstrate that DHGFormer consistently outperforms state-of-the-art methods in diagnosing neurological disorders.\nThe code is available at https://anonymous.4open.science/r/MICCAI-DHGFormer.",
+  "authors": [
+    {
+      "name": "Xue, Rundong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zeyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xiangmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Juan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Shaoyi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1576_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

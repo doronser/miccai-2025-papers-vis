@@ -1,0 +1,48 @@
+{
+  "id": "miccai-4658",
+  "title": "Adaptive Stain Normalization for Cross-Domain Medical Histology",
+  "abstract": "Deep learning advances have revolutionized automated digital pathology analysis. However, variations in staining protocols and imaging conditions can introduce significant color variability. In deep learning, such color inconsistency often reduces performance when deploying models on data acquired under different conditions from the training data, a challenge known as domain shift. Many existing methods attempt to address this problem via color normalization but suffer from several notable drawbacks such as introducing artifacts or requiring careful choice of a template image for stain mapping. To address these limitations, we propose a trainable color normalization model that can be integrated with any backbone network for downstream tasks such as object detection and classification. Based on the physics of the imaging process via the Beer-Lambert law, our model architecture is derived via algorithmic unrolling of a nonnegative matrix factorization (NMF) model to extract stain-invariant structural information from the original pathology images, which serves as input for further processing. Experimentally, we evaluate the method on publicly available pathology datasets and an internally curated collection of malaria blood smears for cross-domain object detection and classification, where our method outperforms many state-of-the-art stain normalization methods.",
+  "authors": [
+    {
+      "name": "Xu, Tianyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yanlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tripathi, Abhai K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ippolito, Matthew M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Haeffele, Benjamin D.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4658_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

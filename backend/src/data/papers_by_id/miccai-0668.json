@@ -1,0 +1,46 @@
+{
+  "id": "miccai-0668",
+  "title": "VesselGPT: Autoregressive Modeling of Vascular Geometry",
+  "abstract": "Anatomical trees are critical for clinical diagnosis and treatment planning, yet their complex and diverse geometry make accurate representation a significant challenge. Motivated by the latest advances in large language models, we introduce an autoregressive method for synthesizing anatomical trees. Our approach first embeds vessel structures into a learned discrete vocabulary using a VQ-VAE architecture, then models their generation autoregressively with a GPT-2 model. This method effectively captures intricate geometries and branching patterns, enabling realistic vascular tree synthesis.\nComprehensive qualitative and quantitative evaluations reveal that our technique achieves high-fidelity tree reconstruction with compact discrete representations. Moreover, our B-spline representation of vessel cross-sections preserves critical morphological details that are often overlooked in previous’ methods parameterizations. To the best of our knowledge, this work is the first to generate blood vessels in an autoregressive manner.",
+  "authors": [
+    {
+      "name": "Feldman, Paula",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sinnona, Martin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Delrieux, Claudio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Siless, Viviana",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Iarussi, Emmanuel",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> MRI",
+    "Applications -> Computational Anatomy and Physiology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0668_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

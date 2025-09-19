@@ -1,0 +1,56 @@
+{
+  "id": "miccai-1396",
+  "title": "Towards Markerless Intraoperative Tracking of Deformable Spine Tissue",
+  "abstract": "Consumer-grade RGB-D imaging for intraoperative orthopedic tissue tracking is a promising method with high translational potential. Unlike bone-mounted tracking devices, markerless tracking can reduce operating time and complexity. However, its use has been limited to cadaveric studies. This paper introduces the first real-world clinical RGB-D dataset for spine surgery and develops SpineAlign, a system for capturing deformation between preoperative and intraoperative spine states. We also present an intraoperative segmentation network trained on this data and introduce CorrespondNet, a multi-task framework for predicting key regions for registration in both intraoperative and preoperative scenes.",
+  "authors": [
+    {
+      "name": "Daly, Connor",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marconi, Elettra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Riva, Marco",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ekanayake, Jinendra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elson, Daniel S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rodriguez y Baena, Ferdinando",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Registration",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1396_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

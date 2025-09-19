@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2376",
+  "title": "RDMR: Recursive Inference and Representation Disentanglement for Multimodal Large Deformation Registration",
+  "abstract": "Multimodal large deformation image registration is a challenging task in medical imaging, primarily due to significant modality differences and large tissue deformations. Current methods typically employ dual-branch multiscale pyramid registration networks. However, the dual-branch structure fails to explicitly enforce that the model learns modality-invariant image registration features. Furthermore, in the multiscale registration process, only the deformation field is propagated, which restricts the model’s capacity to accommodate more complex deformations. \nTo enhance the model’s ability to learn features from different modalities, we propose a modality representation disentanglement method, incorporating Multi-layer Contrastive Loss(MCL) to enforce the learning of modality-invariant features. To address the challenge of complex large deformations, we introduce a Multi-Scale Feature fusion Registration module(MSFR), which integrates features and deformation fields from different scales during the registration process. To explore the registration potential of the trained model, we propose a Recursive Inference enhancement strategy that further improves registration performance. This model is referred to as RDMR.\nBased on experimental results from both private and public datasets, the RDMR model outperforms other SOTA models. Compared to the baseline registration model (Voxel Morph), the RDMR model achieved improvements of 1.4 and 4.5 percentage points in the DSC metric, respectively. Our code is publicly available at:https://github.com/ybby2020/RDMR",
+  "authors": [
+    {
+      "name": "Hu, Yibo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Ziqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Lisa X.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Jianqi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2376_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

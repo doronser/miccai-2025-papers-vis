@@ -1,0 +1,71 @@
+{
+  "id": "miccai-0846",
+  "title": "TGSAM-2: Text-Guided Medical Image Segmentation using Segment Anything Model 2",
+  "abstract": "The Segment Anything Model 2 (SAM-2) has shown impressive capabilities for promptable segmentation in images and videos. However, SAM-2 primarily operates on visual prompts including points, boxes, and masks, which do not natively support text prompts. This limitation is particularly noticeable in medical imaging, where domain-specific textual descriptions are often beneficial for annotating subtle abnormalities and identifying regions of interest. In this paper, we introduce Text-Guided SAM-2 (TGSAM-2), a medical image segmentation model tailored to leverage text prompts as contextual guidance. We propose a text-conditioned visual perception module that conditions visual features on textual descriptions, and refine the memory encoder to track target objects using medical text prompts. We evaluate our method on four medical image datasets with video-like characteristics, including 2D image sequences (e.g. Endoscopy, Ultrasound) and 3D volumes (e.g. CT, MRI). Experimental results demonstrate that our method outperforms state-of-the-art models, including both image-only and text-guided medical image segmentation methods.",
+  "authors": [
+    {
+      "name": "Yuan, Runtian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Ling",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Jilan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qingqiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Mohan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yuejie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Shang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> other",
+    "Body -> Urology",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Endoscopy",
+    "Modalities -> MRI",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0846_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

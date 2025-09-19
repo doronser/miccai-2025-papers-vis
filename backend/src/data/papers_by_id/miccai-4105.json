@@ -1,0 +1,59 @@
+{
+  "id": "miccai-4105",
+  "title": "HoloPointNet: A Deep Learning Framework for Efficient 3D Point Cloud Holography",
+  "abstract": "HoloPointNet presents a novel deep-learning framework for 3D point cloud holography. Generally, computer generated holography (CGH) methods, typically rely on stacked 2D slices and suffer from inefficiencies. These 2D slices often contain empty regions in natural 3D scenes or are intentionally sparse in applications like holographic optogenetics. This results in excessive memory consumption and increased processing latency. In contrast, HoloPointNet directly processes 3D point cloud data using a concatenation-based feature extractor, followed by hierarchical upsampling and wavefront reconstruction modules, eliminating redundant spatial regions and improving efficiency. This design allows for the direct mapping of point cloud data to phase modulations for spatial light modulators (SLMs). By employing a structured convolutional feature transformation pipeline, HoloPointNet enables hierarchical refinement of spatial embeddings, enhancing feature encoding accuracy. HoloPointNet offers the capability to generate multiplane holograms, effectively addressing the complexities of 3D volumetric data. This capability, combined with fast inference times, enables real-time holography for applications such as optogenetics.",
+  "authors": [
+    {
+      "name": "Amrutkar, Ankit",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nazlioglu, Ahmet",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kampa, Björn",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schulz, Volkmar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Stegmaier, Johannes",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rothermel, Markus",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Merhof, Dorit",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Microscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4105_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

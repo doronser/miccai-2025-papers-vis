@@ -1,0 +1,47 @@
+{
+  "id": "miccai-5153",
+  "title": "Unleashing the Power of LLMs for Medical Video Answer Localization",
+  "abstract": "Given an untrimmed medical instructional video and a textual question, medical video answer localization is to locate the precise temporal span that visually answers the question. Existing methods primarily rely on supervised learning to tackle this problem.  This requires massive annotated data for training and shows limited flexibility in generalizing across different datasets, especially in the medical domain. With the remarkable advancements of large language models (LLMs) and their multimodal variants (MLLMs), we explore a Socratic approach to compose LLMs and MLLMs to achieve zero-shot video answer localization. Our method effectively takes advantage of the rich subtitles and visual descriptions in instructional videos to prompt LLMs.  We also develop a subtitle refinement and early fusion strategy for better performance. Experiments on MedVidQA and COIN-Med show that our method outperforms existing state-of-the-art (SOTA) zero-shot multimodal models significantly by 41.0% and 20.3% in mIoU, respectively. It even surpasses SOTA supervised methods, suggesting the strength of our approach.",
+  "authors": [
+    {
+      "name": "Xiao, Junbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qingyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yusen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Liang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Angela",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5153_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "miccai-3694",
+  "title": "PFESA: FFT-based Parameter-Free Edge and Structure Attention for Medical Image Segmentation",
+  "abstract": "The U-Net architecture remains pivotal in medical image segmentation, yet its skip connections often propagate redundant noise and compromise edge information. We propose a Parameter-Free Edge and Structure Attention (PFESA) based on Fast Fourier Transform (FFT) to address these limitations. PFESA employs frequency-domain feature decoupling to separate high-frequency (edge details) and low-frequency (structural components) representations. Leveraging feature Signal-to-Noise Ratio(SNR) analysis, we devise dual attention paths: a High-frequency Edge Attention (EA) enhances gradient-sensitive regions to preserve anatomical contours, while a Low-frequency Structure Attention (SA) suppresses noise through energy redistribution. This frequency-aware attention mechanism enables adaptive feature refinement in skip connections without introducing trainable parameters. The parameter-free design ensures robustness against overfitting in medical datasets with scarce data. Extensive experiments on multi modal 2D/3D medical image datasets demonstrate PFESA’s superiority over existing attention methods, achieving SOTA performance with statistically significant improvements in Dice Similarity Coefficient (DSC: +3.3% vs.baseline) and Hausdorff Distance metrics. Code is available at: https://github.com/59-lmq/PFESA",
+  "authors": [
+    {
+      "name": "Li, Mingqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Zhiqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yan, Miaoning",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Yaodong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Qingmao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Qiongxiong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3694_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

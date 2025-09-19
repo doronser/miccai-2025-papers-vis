@@ -1,0 +1,37 @@
+{
+  "id": "miccai-0034",
+  "title": "CardiacCLIP: Video-based CLIP Adaptation for LVEF Prediction in a Few-shot Manner",
+  "abstract": "Echocardiography is a vital non-invasive modality for cardiac assessment, with left ventricular ejection fraction (LVEF) serving as a key indicator of heart function. Existing LVEF estimation methods depend on large-scale annotated video datasets, which are costly and limit adaptability across various clinical settings. Recent vision-language models for echocardiography, such as EchoCLIP, apply image-to-text pretraining but fail to capture crucial temporal dynamics and localized cardiac structures essential for accurate diagnosis. To address these challenges, we propose CardiacCLIP, a video-based framework that enhances LVEF prediction through attention-based frame aggregation and multi-resolution input scaling. Specifically, we introduce MFL (Multi Frame Learning), a novel attention-based mechanism for selectively fusing informative frames, and EchoZoom, a multi-scale feature extraction strategy that refines spatial representations of cardiac structures. As a novel adaptation of CLIP models for few-shot echocardiogram video analysis, our approach significantly improves diagnostic accuracy, reducing MAE by 2.07 on the EchoNet-Dynamic dataset under 1-shot setting. The code is available at https://github.com/xmed-lab/CardiacCLIP.",
+  "authors": [
+    {
+      "name": "Du, Yao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Jiarong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0034_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "miccai-3129",
+  "title": "Semantic Scene Graph for Ultrasound Image Explanation and Scanning Guidance",
+  "abstract": "Understanding medical ultrasound imaging remains a long-standing challenge due to significant visual variability caused by differences in imaging and acquisition parameters. Recent advancements in large language models (LLMs) have been used to automatically generate terminology-rich summaries orientated to clinicians with sufficient physiological knowledge. Nevertheless, the increasing demand for improved ultrasound interpretability and basic scanning guidance among non-expert users, e.g., in point-of-care settings, has not yet been explored. \nIn this study, we first introduce the scene graph (SG) for ultrasound images to explain image content to non-expert users and provide guidance for ultrasound scanning. The ultrasound SG is first computed using a transformer-based one-stage method, eliminating the need for explicit object detection. To generate a graspable image explanation for non-expert users, the user query is then used to further refine the abstract SG representation through LLMs. Additionally, the predicted SG is explored for its potential in guiding ultrasound scanning toward missing anatomies within the current imaging view, assisting ordinary users in achieving more standardized and complete anatomical exploration. The effectiveness of this SG-based image explanation and scanning guidance has been validated on images from the left and right neck regions, including the carotid and thyroid, across five volunteers. The results demonstrate the potential of the method to maximally democratize ultrasound by enhancing its interpretability and usability for non-expert users.",
+  "authors": [
+    {
+      "name": "Li, Xuesong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Dianye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yameng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Zhongliang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> Robotics",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Other",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3129_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

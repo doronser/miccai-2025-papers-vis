@@ -1,0 +1,52 @@
+{
+  "id": "miccai-5096",
+  "title": "Synchronous Inhibition and Activation for Weakly Supervised Semantic Segmentation of Pathology Images",
+  "abstract": "Tissue-level semantic segmentation is crucial in digital pathology workflow. However, since dense pixel-level annotation of gigapixel pathology images is expensive and time-consuming, Weakly Supervised Semantic Segmentation (WSSS) methods have gradually attracted attention. The WSSS methods using image-level labels usually rely on Class Activation Map to generate pseudo labels, which have difficulty capturing complete object regions and may incorrectly activate regions with weak semantic relevance of pathology images. In this work, we propose SIA-WSSS, a weakly supervised semantic segmentation model for pathology images that synchronous inhibition and activation. Specifically, we first extract pathology images class and patch tokens using a VisionTransformer (ViT) and construct a Regularized Focus Mechanism (RFM). The RFM implicitly regularizes class-patch interactions through graph learning, ensuring that class tokens can dynamically compress patch information and inhibit irrelevant backgrounds. Next, we introduce a Discriminative Activation Module to contrast the class tokens of fine-grained regions and global objects to capture the unique features of each class and activate the foreground region. Moreover, we design a Regional Self-modulation Module synchronizing each region’s activation and inhibition information to generate segmentation results with finer structures. Experimental results on the LUAD-HistoSeg and BCSS-WSSS datasets demonstrate that the proposed SIA-WSSS significantly outperforms state-of-the-art WSSS methods. The code is available at https://github.com/Jsf826/SIA-WSSS.",
+  "authors": [
+    {
+      "name": "Fan, Jiansong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Di, Yicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bao, Jiayu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Lihua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Xiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> Microscopy",
+    "Modalities -> Other",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5096_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4699",
+  "title": "BridgeSplat: Bidirectionally Coupled CT and Non-Rigid Gaussian Splatting for Deformable Intraoperative Surgical Navigation",
+  "abstract": "We introduce BridgeSplat, a novel approach for deformable surgical navigation that couples intraoperative 3D reconstruction with preoperative CT data to bridge the gap between surgical video and volumetric patient data. Our method rigs 3D Gaussians to a CT mesh, enabling joint optimization of Gaussian parameters and mesh deformation through photometric supervision. By parametrizing each Gaussian relative to its parent mesh triangle, we enforce alignment between Gaussians and mesh and obtain deformations that can be propagated back to update the CT. We demonstrate BridgeSplat’s effectiveness on visceral pig surgeries and synthetic data of a human liver under simulation, showing sensible deformations of the preoperative CT on monocular RGB data. Code, data, and additional resources can be found at https://maxfehrentz.github.io/ct-informed-splatting/.",
+  "authors": [
+    {
+      "name": "Fehrentz, Maximilian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Winkler, Alexander",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heiliger, Thomas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Haouchine, Nazim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Heiliger, Christian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Other",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4699_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

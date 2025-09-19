@@ -1,0 +1,82 @@
+{
+  "id": "miccai-1140",
+  "title": "RSAD: Region-Specific Anomaly Detection in fMRI for Disease Diagnosis",
+  "abstract": "Functional magnetic resonance imaging (fMRI), a noninvasive neuroimaging technique for mapping neural activity, has demonstrated substantial potential in identifying brain disease. However, clinical applications face a critical challenge: patient data are typically scarce compared to abundant healthy control samples. This severe class imbalance significantly limits the performance of classification-based diagnostic models. To address this issue, we propose the Region-Specific Anomaly Detection (RSAD) framework, which formulates the brain disease identification as an anomaly detection task. We first employ pre-training to capture normal patterns of healthy data through a reconstruction task, and then develop the discrepancy score to enhance the model’s ability to perceive potential abnormalities, thereby improving the AD performance. Specifically, we design an affinity matrix learning module and an adaptive region of interest (ROI) masking strategy to improve the performance of signal representation learning. Additionally, we propose a region-based discrepancy score weighting strategy to amplify the distinction between potential abnormalities and healthy controls by assigning higher weights to key brain regions, thereby improving the model’s ability to detect anomalies. We conduct experiments across six different brain diseases, and the superior results demonstrate that RSAD effectively enables disease diagnosis, even with extreme sample imbalances. Our code is available at https://github.com/xxx.",
+  "authors": [
+    {
+      "name": "Sun, Yusong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Dongdong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mengjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Zhenrong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhiyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Yuqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fei, Manman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zelin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Xingkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lichi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1140_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

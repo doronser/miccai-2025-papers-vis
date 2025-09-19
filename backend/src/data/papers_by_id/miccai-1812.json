@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1812",
+  "title": "MAK-GAN: Multi-level Adaptive Convolutional Kernels for Asymmetric Multi-modal PET Reconstruction",
+  "abstract": "Positron emission tomography (PET) reconstruction from low-dose to standard-dose acquisitions poses a significant challenge in medical imaging. While integrating Magnetic Resonance Imaging (MRI) for complementary guidance shows promise for enhancing reconstruction fidelity, current multi-modal approaches typically treat PET and MRI uniformly, neglecting their inherent asymmetry within the multi-modal context. This leads to insufficient utilization of anatomical guidance provided by MRI and neglects the unique metabolic characteristics of PET. To address these limitations, we propose MAK-GAN, a novel Generative Adversarial Network (GAN) that incorporates Multi-level Adaptive Kernels to distinguish feature extraction and interaction strategies between the primary (PET) and auxiliary (MRI) modalities in the asymmetric multi-modal PET reconstruction task. Specifically, we design a Multi-Kernel Extraction (MKE) block for both PET and MRI branches, replacing linear projections in vanilla Transformers with hierarchical multi-kernel convolutions. This enables efficient extraction of modality-specific features at multiple scales while reducing computational overhead. Subsequently, we asymmetrically introduce an Adaptive-Kernel Interaction (AKI) block in the PET branch. This block integrates self- and cross-attention modules to dynamically generate weights for adaptive kernels, preserving PET-specific characteristics while utilizing MRI’s anatomical information. Finally, we incorporate two PET-centric optimization strategies to prioritize PET during reconstruction: a residual connection for direct LPET-to-SPET mapping, and an edge-aware consistency loss to enforce structural coherence. Experiments demonstrate superiority on two PET/MRI datasets.",
+  "authors": [
+    {
+      "name": "Zeng, Xinyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zeng, Pinxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Jiaqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Luping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Caiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1812_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

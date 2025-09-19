@@ -1,0 +1,49 @@
+{
+  "id": "miccai-3160",
+  "title": "Active Source-Free Cross-Domain and Cross-Modality Adaptation for Volumetric Medical Image Segmentation by Image Sensitivity and Organ Heterogeneity Sampling",
+  "abstract": "Deep learning (DL) methods have achieved great success in medical image segmentation, but they are challenged to demonstrate robust performance across different datasets due to domain and modality gaps. The Source-Free Domain Adaptation techniques adapt DL models to generalize across domains without access to source data, and active learning is implemented to actively query informative target samples to fine-tune models, thus improving their generalization. However, only a few Active Source-Free Domain Adaptation methods have been proposed. Additionally, existing methods focus on same-modality adaptation and lack mechanisms to address modality gaps, thus limiting their applicability. To address these limitations, we propose a novel Active Source-Free Cross-Domain and Cross-Modality Adaptation method for medical image segmentation. This method adapts models across different domains and modalities by employing a novel Active Test Time Sample Query strategy to jointly implement Image Sensitivity Query (ISQ) and Organ Heterogeneity Query (OHQ). ISQ is designed to evaluate samples’ image-level modality agnostic informativeness, thus querying informative samples from different domains and modalities. OHQ is proposed to query samples with large foreground diversity by measuring the uncertainty-weighted organ boundary discontinuity and uncertainty-weighted organ interior abnormality, thus avoiding the influence of modality-specific background noise. A Dynamic Image-to-Organ Scaling mechanism is proposed to dynamically fuse the results of ISQ and OHQ for sample querying. We evaluated our method on cross-domain and cross-modality volumetric pancreas segmentation tasks. Our method outperformed other state-of-the-art methods on adaptation from a CT domain to another larger CT domain, T1-weighted MR and T2-weighted MR domains.",
+  "authors": [
+    {
+      "name": "Yang, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Xiaobing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Peijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marcus, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sotiras, Aristeidis",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3160_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

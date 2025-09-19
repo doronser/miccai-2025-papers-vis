@@ -1,0 +1,69 @@
+{
+  "id": "miccai-0536",
+  "title": "A Two-Stage Method for Specular Highlight Detection and Removal in Medical Images",
+  "abstract": "In minimally invasive surgeries, such as endoscopic and ophthalmic procedures, specular highlights on tissue and instrument surfaces can obscure critical details, compromising surgical safety and precision. Traditional methods rely on color segmentation and filtering optimization but are highly sensitive to lighting variations and produce suboptimal restoration. While deep learning enhances detection robustness, its effectiveness is constrained by the scarcity of annotated medical data and unnatural boundary transitions in restored regions. To address these challenges, this paper proposes a two-stage hierarchical network framework. First, a Hierarchical Feature Attention Network (HFA-Net) is designed, integrating spatial-shift segmented attention (S²MLP), dual-flow attention (DFA), multi-scale feature fusion (SFF), and partial mask convolution (PMConv) to achieve precise detection and removal of specular highlights.  Second, a large-mask inpainting model (LaMa) is introduced, utilizing dilated mask expansion to enhance contextual awareness and improve texture consistency in the restored regions. To address the scarcity of medical highlight datasets, we construct four specialized datasets covering various surgical scenarios, including ophthalmic injections and instrument reflections, while also incorporating publicly available data to enhance model generalization. Experimental results demonstrate that the proposed method outperforms existing approaches across six datasets in terms of detection accuracy and restoration quality, particularly excelling in complex textures and natural boundary transitions. Our code is available at https://github.com/tkllndxn/highlight-removal.",
+  "authors": [
+    {
+      "name": "Li, Zefeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Mingyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Daosong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gong, Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Weng, Jingchong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Zeyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Lele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Mengran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Kai",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0536_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

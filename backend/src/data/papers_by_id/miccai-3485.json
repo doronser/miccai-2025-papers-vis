@@ -1,0 +1,80 @@
+{
+  "id": "miccai-3485",
+  "title": "A Unified Continuous Staging Framework for Alzheimer’s Disease and Lewy Body Dementia via Hierarchical Anatomical Features",
+  "abstract": "Alzheimer’s Disease (AD) and Lewy Body Dementia (LBD) often exhibit overlapping pathologies, leading to common symptoms that make diagnosis challenging and protracted in clinical settings. While many studies achieve promising accuracy in identifying AD and LBD at earlier stages, they often focus on discrete classification rather than capturing the gradual nature of disease progression. Since dementia develops progressively, understanding the continuous trajectory of dementia is crucial, as it allows us to uncover hidden patterns in cognitive decline and provides critical insights into the underlying mechanisms of disease progression. To address this gap, we propose a novel multi-scale learning framework that leverages hierarchical anatomical features to model the continuous relationships across various neurodegenerative conditions, including Mild Cognitive Impairment, AD, and LBD. Our approach employs the proposed hierarchical graph embedding fusion technique, integrating anatomical features, cortical folding patterns, and structural connectivity at multiple scales. This integration captures both fine-grained and coarse anatomical details, enabling the identification of subtle patterns that enhance differentiation between dementia types. Additionally, our framework projects each subject onto continuous tree structures, providing intuitive visualizations of disease trajectories and offering a more interpretable way to track cognitive decline. To validate our approach, we conduct extensive experiments on our in-house dataset of 308 subjects spanning multiple groups. Our results demonstrate that the proposed tree-based model effectively represents dementia progression, achieves promising performance in intricate classification task of AD and LBD, and highlights discriminative brain regions that contribute to the differentiation between dementia types. Our code is available at https://github.com/tongchen2010/haff.",
+  "authors": [
+    {
+      "name": "Chen, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Minheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhuang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Chao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Xiaowei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lyu, Yanjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Li",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Dajiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3485_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

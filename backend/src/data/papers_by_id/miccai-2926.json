@@ -1,0 +1,68 @@
+{
+  "id": "miccai-2926",
+  "title": "FDF-VQVAE: A Frequency Disentanglement and Fusion Learning Framework for Multi-Sequence MRI Enhancement",
+  "abstract": "Multi-sequence magnetic resonance imaging (MRI) faces critical challenges in balancing accelerated acquisition and image quality: Rapid scanning typically induces degradation, including resolution reduction, increased noise, motion artifacts, and image blurring. While existing image enhancement models partially mitigate these issues, they often exhibit insufficient exploitation of complementary information across multi-sequence data. To address this issue, we propose an interpretable deep learning framework, FDF-VQVAE, for MRI image enhancement through frequency-domain feature disentanglement and fusion. Our framework constructs a dual-branch frequency-domain disentanglement module (DBFD) that precisely decouples high-frequency and low-frequency features of different sequences through parallel high-frequency feature and low-frequency feature extraction pathways. The multi-frequency-domian feature weighting mechanism (MFDFW) adaptively fuses the high and low frequency features of different sequences. Finally, feature recombination and decoding achieve MRI enhancement through joint optimization. We conducted denoising, super-resolution, and deblurring experiments on the IXI dataset (546 subjects) with external validation on the BraTS2021 dataset (357 subjects). Experimental results demonstrate that our method significantly outperforms the state-of-the-art approaches in denoising, motion artifact removal, and super-resolution tasks. Our code is available at https://github.com/kkllxh/FDF-VQVAE.",
+  "authors": [
+    {
+      "name": "Xie, Xinghe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Luyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lam, Chi Kin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tong, Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ke, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lam, Chan-Tong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Tao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2926_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

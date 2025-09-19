@@ -1,0 +1,74 @@
+{
+  "id": "miccai-1065",
+  "title": "Reliable and Interpretable Visual Field Progression Prediction with Diffusion Models and Conformal Risk Control",
+  "abstract": "Accurately predicting visual field progression is critical for early intervention and personalized treatment of glaucoma. However, existing methods struggle with both predictive accuracy and reliable uncertainty quantification. This paper introduces a framework that leverages diffusion models and conformal risk control to generate robust and interpretable forecasts of visual field deterioration. We first train a diffusion model to predict future visual fields based on a patient’s past examinations. To ensure trustworthy predictions, we design a novel archetypal-based conformal risk control method, which provides finite-sample coverage guarantees on intervals of archetypal contributions to the prediction uncertainty. This framework captures the underlying structures within the uncertainty, enabling clinicians to interpret a range of potential progression patterns rather than a single deterministic outcome. Experimental results illustrate that our method achieves the target archetypal contribution coverage while providing tighter prediction intervals than baselines. Visualizations show how archetypal visual field patterns contribute to prediction uncertainty, offering interpretable insights into disease progression. By combining diffusion models with conformal methods, our framework enhances the reliability of AI-assisted visual field forecasting, ultimately supporting improved clinical decision-making.",
+  "authors": [
+    {
+      "name": "Si, Wenwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Vivian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jang, Kuk Jin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xing, Rubo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saeed, Almiqdad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nagatani, Rina",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sokolsky, Oleg",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Insup",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Al-Aswad, Lama",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Other",
+    "Machine Learning -> Interpretability / Explainability",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1065_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

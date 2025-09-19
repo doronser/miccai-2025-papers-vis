@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0530",
+  "title": "Your other Left! Vision-Language Models Fail to Identify Relative Positions in Medical Images",
+  "abstract": "Clinical decision-making relies heavily on understanding relative positions of anatomical structures and anomalies. Therefore, for Vision-Language Models (VLMs) to be applicable in clinical practice, the ability to accurately determine relative positions on medical images is a fundamental prerequisite. Despite its importance, this capability remains highly underexplored. To address this gap, we evaluate the ability of state-of-the-art VLMs, GPT-4o, Llama3.2, Pixtral, and JanusPro, and find that all models fail at this fundamental task. Inspired by successful approaches in computer vision, we investigate whether visual prompts, such as alphanumeric or colored markers placed on anatomical structures, can enhance performance. While these markers provide moderate improvements, results remain significantly lower on medical images compared to observations made on natural images. Our evaluations suggest that, in medical imaging, VLMs rely more on prior anatomical knowledge than on actual image content for answering relative position questions, often leading to incorrect conclusions. To facilitate further research in this area, we introduce the MIRP – Medical Imaging Relative Positioning – benchmark dataset, designed to systematically evaluate the capability to identify relative positions in medical images. Dataset and code are available on https://wolfda95.github.io/your_other_left/.",
+  "authors": [
+    {
+      "name": "Wolf, Daniel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hillenhagen, Heiko",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Taskin, Billurvan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bäuerle, Alex",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Beer, Meinrad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Götz, Michael",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ropinski, Timo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0530_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

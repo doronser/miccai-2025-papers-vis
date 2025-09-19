@@ -1,0 +1,72 @@
+{
+  "id": "miccai-0864",
+  "title": "Clinical Prior Guided Cross-Modal Hierarchical Fusion for Histological Subtyping of Lung Cancer in CT Scans",
+  "abstract": "Accurate lung cancer localization and classification in computed tomography (CT) images are vital for effective treatment. However, existing approaches still face challenges such as redundant information in CT images, ineffective integration of clinical prior knowledge, and difficulty in distinguishing subtle histological differences across lung cancer subtypes. To address these, we propose Cross-Modal Detection Auxiliary Classification (CM-DAC), a framework enhancing classification accuracy. It employs a YOLO-based slice detection module to extract lesion areas, which are processed using the Multimodal Contrastive Learning Pretrain (MCLP) module, minimizing redundancy. Specifically, MCLP aligns 3D patches with clinical records via a cross-modal hierarchical fusion module, integrating image and clinical features through attention mechanisms and residual connections. Additionally, we employ multi-scale fusion strategies to further enhance histological distinction by capturing features at different resolutions. Simultaneously, a text path expands category labels into semantic vectors using a medical ontology-driven text augmentation approach. These vectors are encoded and aligned with fusion feature vectors. Experimental results on both private and public datasets confirm that the proposed CM-DAC outperforms competitive methods, achieving superior classification performance.\nThe code is available at https://github.com/fancccc/CM-DAC.",
+  "authors": [
+    {
+      "name": "Fan, Chenchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elazab, Ahmed",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Songqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Qinghua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Danna",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yongquan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiang, Ying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Bo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Changmiao",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0864_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

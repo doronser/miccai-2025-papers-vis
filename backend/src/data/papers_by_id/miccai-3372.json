@@ -1,0 +1,44 @@
+{
+  "id": "miccai-3372",
+  "title": "Towards Patient-Specific Deformable Registration in Laparoscopic Surgery",
+  "abstract": "Unsafe surgical care is a critical health concern, often linked to limitations in surgeon experience, skills, and situational awareness. Integrating patient-specific 3D models into the surgical field can enhance visualization, provide real-time anatomical guidance, and reduce intraoperative complications. However, reliably registering these models in general surgery remains challenging due to mismatches between preoperative and intraoperative organ surfaces—such as deformations and noise.\nTo overcome these challenges, we introduce the first deep learning-based non-rigid point cloud registration method that is genuinely patient-specific, being both trained and tested on the same individual’s anatomy. Our approach combines a Transformer encoder-decoder architecture with overlap estimation and a dedicated matching module to predict dense correspondences, followed by a physics-based algorithm for registration. Experimental results on both synthetic and real data demonstrate that our patient-specific method significantly outperforms traditional agnostic approaches, achieving 45% Matching Score with 92% Inlier Ratio on synthetic data, highlighting its potential to improve surgical care.",
+  "authors": [
+    {
+      "name": "Neri, Alberto",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Haouchine, Nazim",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Penza, Veronica",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mattos, Leonardo S.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3372_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

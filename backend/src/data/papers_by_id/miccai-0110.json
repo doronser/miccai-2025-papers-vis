@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0110",
+  "title": "Structure-aware MRI Translation: Multi-Modal Latent Diffusion Model with Arbitrary Missing Modalities",
+  "abstract": "Multi-modal Magnetic Resonance Imaging (MRI) plays a crucial role in clinical diagnosis by providing complementary anatomy and pathology information. However, incomplete acquisitions remain common due to practical constraints such as cost, scan time and image corruption. Recently, the diffusion model has shown significant potential in the medical image-to-image translation task. However, most existing diffusion-based synthesis models are constrained to fixed input-output modality pairs, lacking the flexibility to handle arbitrary missing scenarios. Furthermore, these approaches inevitably sacrifice anatomical structure consistency and degrade critical texture details during generation, potentially leading to the misdiagnosis of subtle pathological patterns. To address these issues, we propose MISA-LDM, the first many-to-many MRI synthesis framework with modality-invariant structure awareness based on the latent diffusion model. Our approach enables the synthesis of missing modalities within a single model by utilizing any available combinations of modalities. Meanwhile, we introduce a Structure-Preserving Module (SPM) that employs a disentanglement strategy to obtain modality-invariance structural representation and use high-frequency information as a supplement. We use the anatomical priors obtained by SPM to guide the diffusion process, preserving anatomical structure integrity. Extensive experiments conducted on the BraTS2020 and BraTS2021 datasets demonstrate the superiority of our method. The result confirms the necessity of introducing more comprehensive anatomical priors for preserving generation consistency in multi-modal MRI translation. Our code will be released after acceptance. The source code is available at https://github.com/yichen-byte/misa-ldm.",
+  "authors": [
+    {
+      "name": "Zhang, Xinzhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Junjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jinzhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zaiane, Osmar R.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0110_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

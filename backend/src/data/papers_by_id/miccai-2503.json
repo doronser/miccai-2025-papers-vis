@@ -1,0 +1,55 @@
+{
+  "id": "miccai-2503",
+  "title": "PATE: Enhancing Few-Shot Pathological Image Classification via Prompt-Based Text-Image Embedding Adaptation",
+  "abstract": "Automated pathological image classification remains a critical challenge, particularly due to the scarcity of annotated data and the complexity of disease-specific features. Existing methods, such as CLIP-based prompt tuning, struggle with limited few-shot learning and poor integration of multimodal information in medical contexts. In this study, we introduce PATE (Prompt-based Adaptation for Text-Image Embedding), a novel framework to enhance CLIP’s adaptability for few-shot pathological image classification. Our approach incorporates deep learnable prompts in both vision and language encoders, enabling effective use of visual and textual information. We also propose a dynamic bridging function for bidirectional information exchange and a Gaussian-weighted Prompt Integration (GPI) strategy to adjust prompt contributions across epochs, enhancing generalization and reducing overfitting. Extensive experiments on the PatchGastric dataset, which includes 179,285 histopathological patches across three gastric adenocarcinoma subtypes, demonstrate that PATE consistently outperforms state-of-the-art methods, achieving superior performance in both low-data and full-data settings. Ablation studies validate the effectiveness of each component, marking a significant advancement in few-shot medical image analysis, particularly in rare disease diagnosis and digital pathology workflows.",
+  "authors": [
+    {
+      "name": "Chen, Shenghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Xiaoqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chunjiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2503_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

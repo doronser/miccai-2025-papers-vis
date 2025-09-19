@@ -1,0 +1,43 @@
+{
+  "id": "miccai-1175",
+  "title": "Masked Contrastive Language-Image Modeling For Brain Segmentation",
+  "abstract": "Self-supervised learning (SSL) has emerged as a powerful paradigm to mitigate neuroimaging analysis algorithms’ reliance on annotated data. However, existing SSL methods for brain MRI often fail to incorporate anatomical priors inherent in brain MRI, limiting their effectiveness. Here, we present Masked Contrastive Language-Image Modeling (MCLIM), a novel SSL framework that integrates knowledge from brain atlases through text-guided representation learning. We first generate structure-specific textual descriptors based on brain atlases, with no need for manually collecting image-text pairs. Then MCLIM employs (1) an image restoration branch that reconstructs randomly masked image patches through an encoder-decoder network, and (2) a cross-modal alignment module that establishes semantic correspondences between image features and atlas-derived text embeddings. These two learning objectives enable the simultaneous capture of fine-grained intensity patterns and whole-brain topological relationships. The proposed method is fine-tuned and evaluated on three brain parcellation datasets with varying granularities and a brain lesion segmentation dataset. Experiment results demonstrate that MCLIM outperforms state-of-the-art SSL methods and reduces annotation effort by at least 40%. Code and pre-trained models will be available at https://github.com/CRazorback/MCLIM.",
+  "authors": [
+    {
+      "name": "Liang, Jianwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lyu, Junyan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Yixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Xiaoying",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1175_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

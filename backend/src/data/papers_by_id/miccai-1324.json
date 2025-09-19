@@ -1,0 +1,70 @@
+{
+  "id": "miccai-1324",
+  "title": "SurgTPGS: Semantic 3D Surgical Scene Understanding with Text Promptable Gaussian Splatting",
+  "abstract": "In contemporary surgical research and practice, accurately comprehending 3D surgical scenes with text-promptable capabilities is particularly crucial for surgical planning and real-time intra-operative guidance, where precisely identifying and interacting with surgical tools and anatomical structures is paramount. However, existing works focus on surgical vision-language model (VLM), 3D reconstruction, and segmentation separately, lacking support for real-time text-promptable 3D queries. In this paper, we present SurgTPGS, a novel text-promptable Gaussian Splatting method to fill this gap. We introduce a 3D semantics feature learning strategy incorporating the Segment Anything model and state-of-the-art vision-language models. We extract the segmented language features for 3D surgical scene reconstruction, enabling a more in-depth understanding of the complex surgical environment. We also propose semantic-aware deformation tracking to capture the seamless deformation of semantic features, providing a more precise reconstruction for both texture and semantic features. Furthermore, we present semantic region-aware optimization, which utilizes regional-based semantic information to supervise the training, particularly promoting the reconstruction quality and semantic smoothness. We conduct comprehensive experiments on two real-world surgical datasets to demonstrate the superiority of SurgTPGS over state-of-the-art methods, highlighting its potential to revolutionize surgical practices. Our code is available at https://github.com/lastbasket/SurgTPGS.",
+  "authors": [
+    {
+      "name": "Huang, Yiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Long",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cui, Beilei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Kun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Guankun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hoque, Mobarak I.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Padoy, Nicolas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Navab, Nassir",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Hongliang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Robotics",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Navigation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1324_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

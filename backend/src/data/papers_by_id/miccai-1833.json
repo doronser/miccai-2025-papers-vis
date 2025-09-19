@@ -1,0 +1,62 @@
+{
+  "id": "miccai-1833",
+  "title": "GEPAR3D: Geometry Prior-Assisted Learning for 3D Tooth Segmentation",
+  "abstract": "Tooth segmentation in Cone-Beam Computed Tomography (CBCT) remains challenging, especially for fine structures like root apices, which is critical for assessing root resorption in orthodontics. We introduce GEPAR3D, a novel approach that unifies instance detection and multi-class segmentation into a single step tailored to improve root segmentation. Our method integrates a Statistical Shape Model of dentition as a geometric prior, capturing anatomical context and morphological consistency without enforcing restrictive adjacency constraints. We leverage a deep watershed method, modeling each tooth as a continuous 3D energy basin encoding voxel distances to boundaries. This instance-aware representation ensures accurate segmentation of narrow, complex root apices. Trained on publicly available CBCT scans from a single center, our method is evaluated on external test sets from two in-house and two public medical centers. GEPAR3D achieves the highest overall segmentation performance, averaging a Dice Similarity Coefficient (DSC) of 95.0% (+2.8% over the second-best method) and increasing recall to 95.2% (+9.5%) across all test sets. Qualitative analyses demonstrated substantial improvements in root segmentation quality, indicating significant potential for more accurate root resorption assessment and enhanced clinical decision-making in orthodontics. We provide the implementation and dataset at https://github.com/tomek1911/GEPAR3D.",
+  "authors": [
+    {
+      "name": "Szczepański, Tomasz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Płotka, Szymon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grzeszczyk, Michal K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Adamowicz, Arleta",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fudalej, Piotr",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Korzeniowski, Przemysław",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Trzciński, Tomasz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sitek, Arkadiusz",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1833_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

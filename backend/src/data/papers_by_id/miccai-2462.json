@@ -1,0 +1,79 @@
+{
+  "id": "miccai-2462",
+  "title": "EchoCardMAE: Video Masked Auto-Encoders Customized for Echocardiography",
+  "abstract": "Echocardiography, a vital cardiac imaging modality, faces challenges due to limited annotated data, impeding the application of deep learning. This paper introduces EchoCardMAE, a customized masked video autoencoder framework designed to leverage unlabeled echocardiography data and enhance performance across diverse cardiac tasks. EchoCardMAE addresses key challenges in echocardiogram analysis through three innovations built upon masked video modeling (MVM): (1) Key Area Masking, which concentrates feature learning on the diagnostically relevant sector of the image; (2) Temporal-Invariant Alignment Loss, promoting feature consistency across different clips of the same echocardiogram; and (3) Reconstruction Denoising, improving robustness to speckle noise inherent in echocardiography. We comprehensively evaluated EchoCardMAE on three public datasets, demonstrating state-of-the-art results in ejection fraction (EF) estimation, coronary heart disease (CHD) prediction, and cardiac segmentation. For example, on the EchoNet-Dynamic dataset, EchoCardMAE achieved an EF estimation MAE of 3.78 and a left ventricular segmentation mDice of 92.96, surpassing existing methods. The code is available at \\url{https://github.com/m1dsolo/EchoCardMAE}.",
+  "authors": [
+    {
+      "name": "Yang, Xuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Rui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Xinchen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zhihui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Miao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hongkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yue, Qingxiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Xiangjian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yen-Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2462_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

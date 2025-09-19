@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0308",
+  "title": "µ2 Tokenizer: Differentiable Multi-Scale Multi-Modal Tokenizer for Radiology Report Generation",
+  "abstract": "Automated radiology report generation (RRG) aims to produce detailed textual reports from clinical imaging, such as computed tomography (CT) scans, to improve the accuracy and efficiency of diagnosis and provision of management advice. RRG is complicated by two key challenges: (1) inherent complexity in extracting relevant information from imaging data under resource constraints, and (2) difficulty in objectively evaluating discrepancies between model-generated and expert-written reports. To address these challenges, we propose $\\mu^2$LLM, a $\\underline{\\textbf{mu}}$ltiscale $\\underline{\\textbf{mu}}$ltimodal large language models for RRG tasks. The novel ${\\mu}^2$Tokenizer, as an intermediate layer, integrates multi-modal features from the multiscale visual tokenizer and the text tokenizer, then enhances report generation quality through direct preference optimization (DPO), guided by GREEN-RedLlama. Experimental results on four large CT image-report medical datasets demonstrate that our method outperforms existing approaches, highlighting the potential of our fine-tuned $\\mu^2$LLMs on limited data for RRG tasks. \nAll code, data, and models will be publicly available in our official repository: \\url{https://github.com/Siyou-Li/u2Tokenizer}.",
+  "authors": [
+    {
+      "name": "Li, Siyou",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Pengyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Huanan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nie, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Thirunavukarasu, Arun J.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Juntao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Le",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0308_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

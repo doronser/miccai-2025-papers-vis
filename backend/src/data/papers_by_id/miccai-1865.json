@@ -1,0 +1,58 @@
+{
+  "id": "miccai-1865",
+  "title": "UniSegDiff: Boosting Unified Lesion Segmentation via a Staged Diffusion Model",
+  "abstract": "The Diffusion Probabilistic Model (DPM) has demonstrated remarkable performance across a variety of generative tasks. The inherent randomness in diffusion models helps address issues such as blurring at the edges of medical images and labels, positioning Diffusion Probabilistic Models (DPMs) as a promising approach for lesion segmentation. However, we find that the current training and inference strategies of diffusion models result in an uneven distribution of attention across different timesteps, leading to longer training times and suboptimal solutions. To this end, we propose UniSegDiff, a novel diffusion model framework designed to address lesion segmentation in a unified manner across multiple modalities and organs. This framework introduces a staged training and inference approach, dynamically adjusting the prediction targets at different stages, forcing the model to maintain high attention across all timesteps, and achieves unified lesion segmentation through pre-training the feature extraction network for segmentation. We evaluate performance on six different organs across various imaging modalities. Comprehensive experimental results demonstrate that UniSegDiff significantly outperforms previous state-of-the-art (SOTA) approaches.",
+  "authors": [
+    {
+      "name": "Hu, Yilong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Shijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lihe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Weibing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Huchuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1865_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

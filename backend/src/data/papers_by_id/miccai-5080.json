@@ -1,0 +1,46 @@
+{
+  "id": "miccai-5080",
+  "title": "Scalp Diagnostic System With Label-Free Segmentation and Training-Free Image Translation",
+  "abstract": "Scalp disorders are highly prevalent worldwide, yet remain underdiagnosed due to limited access to expert evaluation and the high cost of annotation. Although AI-based approaches hold great promise, their practical deployment is hindered by challenges such as severe data imbalance and the absence of pixel-level segmentation labels. To address these issues, we propose ``ScalpVision’’, an AI-driven system for the holistic diagnosis of scalp diseases. In ScalpVision, effective hair segmentation is achieved using pseudo image-label pairs and an innovative prompting method in the absence of traditional hair masking labels. Additionally, ScalpVision introduces DiffuseIT-M, a generative model adopted for dataset augmentation while maintaining hair information, facilitating improved predictions of scalp disease severity. Our experimental results affirm ScalpVision’s efficiency in diagnosing a variety of scalp conditions, showcasing its potential as a valuable tool in dermatological care. \nOur code is available at https://github.com/winston1214/ScalpVision.",
+  "authors": [
+    {
+      "name": "Kim, Youngmin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Saejin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Moon, Hoyeon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Youngjae",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Noh, Junhyug",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5080_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

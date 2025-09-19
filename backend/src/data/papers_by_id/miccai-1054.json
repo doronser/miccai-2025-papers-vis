@@ -1,0 +1,38 @@
+{
+  "id": "miccai-1054",
+  "title": "Ultra-Low-Field MRI Enhancement via INR-Based Style Transfer",
+  "abstract": "Ultra-low-field (ULF) Magnetic Resonance Imaging (MRI) improves accessibility and affordability but suffers from lower image quality compared to high-field MRI. This study proposes a novel enhancement framework that integrates Implicit Neural Representations (INRs) with Neural Style Transfer (NST) to improve ULF MRI quality by transferring high-resolution structural details from 7T MRI. Unlike conventional methods, our approach does not require paired datasets or extensive pre-training, leveraging INR’s continuous representation and NST’s perceptual refinement to enhance contrast, sharpness, and noise suppression. Quantitative evaluations on T1-weighted ULF MRI demonstrate significant improvements in perceptual quality (PIQE), contrast-to-noise ratio (CNR), and structural consistency (MLC/MSLC), outperforming state-of-the-art methods. These findings underscore the potential of INR-driven learning for advancing MRI reconstruction, enabling higher-quality imaging in resource-limited settings. Our method is fully unsupervised and operates in an unpaired setting, requiring no voxel-wise correspondence or labeled training data. The implementation of our proposed method and model hyperparameters is publicly available at https://github.com/khtohidulislam/ULF-MRI-Enhance.",
+  "authors": [
+    {
+      "name": "Islam, Kh Tohidul",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ekanayake, Mevan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhaolin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1054_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

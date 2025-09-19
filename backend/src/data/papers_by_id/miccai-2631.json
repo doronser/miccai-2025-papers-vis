@@ -1,0 +1,67 @@
+{
+  "id": "miccai-2631",
+  "title": "Brain-Heart-Gut Guided Multi-Constraint Knowledge Distillation for Early Alzheimer’s Disease Diagnosis",
+  "abstract": "Alzheimer’s disease (AD) is a progressive and irreversible brain disorder. Emerging evidence suggests that Aβ deposition in the heart and microbiota dysbiosis in the gut may also contribute to the pathogenesis of AD. However, currently no studies have integrated heart and gut imaging information into AD diagnosis. To address this gap, we propose the first framework to integrate brain, heart, and gut information based on whole-body PET imaging and leverage these multi-organ interactions to guide brain-only model for early AD diagnosis in clinical applications. To this end, we collect multi-cohort data, including 1,475 unlabeled whole-body FDG-PET images, 1,730 brain FDG-PET images, and 70 labeled high-quality whole-body FDG-PET images. Our AD diagnostic model consists of two stages: (1) feature extraction and alignment, where AD-related features across brain, heart, and gut are extracted and aligned via hierarchical Transformers using contrastive learning; and (2) multi-constraint knowledge distillation, which utilizes sample-level contrastive distillation, group-level distribution distillation, and responselevel distillation to transfer the performance of brain-heart-gut model to the brain-only model. Experimental results show that, guided by the learned interactions of brain, heart, and gut, our brain-only model improves the area under the receiver operating characteristic curve (AUC) from 75.4% to 80.3% for normal control vs. mild cognitive impairment (MCI) classification, achieving comparable diagnostic performance of using whole-body PET.",
+  "authors": [
+    {
+      "name": "Li, Fan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Shilun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Shuwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yuxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Kai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Ya",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Kaicong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Dinggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2631_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

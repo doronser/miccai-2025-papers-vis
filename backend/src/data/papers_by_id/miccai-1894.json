@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1894",
+  "title": "ResMAP: Restoring MRIs of Mixed Artifacts by Prompt Cascading Retrieval",
+  "abstract": "Image Restoration (IR) aims to enhance degraded images to provide high-quality diagnostic references in Magnetic Resonance Imaging (MRI). Although recent All-in-One IR (AiOIR) methods seek to handle multiple artifacts within a unified network, they still struggle with mixed artifacts, where multiple unknown artifacts occur simultaneously in a single MRI scan. To tackle this challenge, we propose ResMAP, a cascading framework for Restoring MRIs of Mixed Artifacts by Prompt Retrieval. It is trained exclusively on individual artifact types but can effectively handle all their mixed forms in inference, offering a feasible solution instead of requiring exhaustive training on mixed artifacts. Specifically, our ResMAP utilizes a coarse-to-fine correction process for mixed artifacts by cascading retrieval of prompts based on the artifact types. In this process, the retrieval guidance is provided through the perception and classification of fine-grained image features, while the prompts are prepared via LLM-based generation and fine-tuning. Validations on three types of artifacts and their mixed forms demonstrate the superiority of ResMAP over current IR methods. Besides, zero-shot experiments on MRIs from multiple field strengths further confirm the promising generalizability of the proposed framework. Our code is available at https://github.com/Tanishabc/ResMAP.",
+  "authors": [
+    {
+      "name": "Tang, Yuxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1894_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

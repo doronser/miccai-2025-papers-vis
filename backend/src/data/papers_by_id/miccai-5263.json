@@ -1,0 +1,37 @@
+{
+  "id": "miccai-5263",
+  "title": "MindLink: Subject-agnostic Cross-Subject Brain Decoding Framework",
+  "abstract": "Brain decoding is a pivotal topic in neuroscience, aiming to reconstruct stimuli (e.g., image) from brain activity (e.g., fMRI). However, existing methods rely on subject-specific modules and flatten 3D voxel grids, limiting generalization and discarding spatial information. To address these issues, we propose MindLink, a scalable cross-subject brain decoding framework designed to link multiple subjects into a single model by extracting subject-invariant features while preserving the spatial structure of 3D fMRI data. This is achieved by parcellating 3D fMRI into standardized cubic patches processed by a 3D Vision Transformer for informative representations. Domain adversarial training enhances cross- subject generalizability by extracting subject-agnostic features within a single model structure. We also introduce a two-level alignment strategy that effectively bridges fMRI and stimuli image embeddings through instance-level consistency and flexible token-level matching. MindLink achieves comparable or even better performance over state-of-the-art methods on the NSD dataset with a constant parameter size across subjects and demonstrates strong adaptability to new subject.",
+  "authors": [
+    {
+      "name": "Jung, Sungyoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Donghyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Won Hwa",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5263_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "miccai-4041",
+  "title": "Brain Wiring Knowledge Graph Reasoning: A Region Embedding Approach for Logical Neuronal Relation Inference",
+  "abstract": "Brain Wiring Knowledge Graph is a high-level abstraction from a physical neuronal wiring diagram with semantic information, helping us better understand brain functions. However, there is currently no approach that simultaneously learns both the physical connectivity and the conceptual semantic connectivity patterns within the connectome. In this paper, we propose using knowledge graphs to integrate physical connectivity and semantic connectivity. We construct knowledge graphs from the connectomes of \\textit{Drosophila} and a partial human cortex. Then, we further propose a brain wiring knowledge graph reasoning framework based on Lie Group Embedding for logical neuronal relation inference. By integrating multi-dimensional neuronal data, including synaptic connectivity, spatial localization, functional activity, cellular properties, and morphological characteristics, we construct a heterogeneous brain wiring knowledge graph to capture the intricate relationships between neurons. Link prediction and neuron classification tasks reveal the connection patterns of neurons in brain functions and the distribution patterns of functional regions. Experimental results demonstrate that the proposed method excels in logical reasoning tasks. The learned embeddings of neurons can reveal the taxonomy of complex neuronal functions. Our code is available at \\url{https://github.com/zzy2018730/reasoning}.",
+  "authors": [
+    {
+      "name": "Zhou, Zhengyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wan, Guojia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Fei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Wenbin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liao, Minghui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Junchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xinyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Du, Bo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> Other",
+    "Applications -> Brain Network Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4041_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

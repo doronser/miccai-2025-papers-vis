@@ -1,0 +1,64 @@
+{
+  "id": "miccai-4513",
+  "title": "Distribution-Guided Multi-Tracer Brain PET Synthesis from Structural MRI with Class-Conditioned Weighted Diffusion",
+  "abstract": "Multi-tracer positron emission tomography (PET), which assesses key neurological biomarkers such as tau pathology, neuroinflammatory, β-amyloid deposition, and glucose metabolism, plays a vital role in diagnosing neurological disorders by providing complementary insights into the brain’s molecular and functional state. Acquiring multi-tracer PET scans remains challenging due to high costs, radiation exposure, and limited tracer availability. Recent studies have attempted to synthesize multi-tracer PET images from structural MRI. However, these approaches typically either rely on direct mappings to individual tracers, or lack distributional constraints, leading to inconsistencies in image quality across tracers. To this end, we propose a normalized diffusion framework (NDF) to generate high-quality multi-tracer PET images from a single MRI through a distribution-guided class-conditioned weighted diffusion model. Specifically, a diffusion model conditioned on MRI and tracer-specific class labels is trained to synthesize PET images of multiple tracers, and a pre-trained normalizing flow model refines these outputs by mapping them into a shared distribution space. This mapping ensures that the subject-specific high-level features across different PET tracers are preserved, resulting in more consistent and accurate synthesis. Experiments on a total of 425 subjects with multi-tracer PET scans demonstrate that our NDF outperforms current state-of-the-art methods, indicating its potential for advancing multi-tracer PET synthesis.",
+  "authors": [
+    {
+      "name": "Yu, Minhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lalush, David S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Monroe, Derek C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Giovanello, Kelly S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Weili",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yap, Pew-Thian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mihalik, Jason P.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mingxia",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4513_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

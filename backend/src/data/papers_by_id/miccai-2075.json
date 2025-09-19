@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2075",
+  "title": "SIMPLE: Simultaneous Multi-plane Self-supervised Learning for Isotropic MRI Restoration from Anisotropic Data",
+  "abstract": "Magnetic resonance imaging (MRI) is vital for diagnosing abdominal and neurological conditions, yet conventional sequential slice acquisitions favor in-plane over through-plane resolution to minimize scan time and motion artifacts, leading to anisotropic data and reduced volumetric accuracy. Existing super-resolution (SR) techniques reconstruct isotropic images from anisotropic scans but often rely on simulated downsampling or limited 3D isotropic data, emphasizing through-plane interpolation rather than preserving full anatomy. We introduce SIMPLE, a Simultaneous Multi-Plane Self-Supervised Learning approach that directly restores isotropic MRI from real-world multi-plane acquisitions via adversarial training. Testing on OASIS-1 brain (n = 416) and Crohn’s disease abdominal (n = 115) MRI datasets demonstrates SIMPLE’s superiority in image fidelity and anatomical detail over state-of-the-art methods. Notably, SIMPLE achieved lower averaged Kernel Inception Distance (KID) scores than SMORE4 in both brain MRI (28.709 vs. 29.295) and abdominal MRI (17.435 vs. 20.724), retained higher-frequency details as confirmed by Fourier analysis, and was rated 1.5 points higher in the axial plane by radiologists. By improving volumetric analysis and 3D reconstructions, SIMPLE shows promise for enhancing diagnostic accuracy in pathologies demanding precise structural visualization.\nOur source code is publicly available at https://github.com/TechnionComputationalMRILab/SIMPLE.",
+  "authors": [
+    {
+      "name": "Benisty, Rotem",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shteynman, Yevgenia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Porat, Moshe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ilivitzki, Anat",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Freiman, Moti",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2075_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

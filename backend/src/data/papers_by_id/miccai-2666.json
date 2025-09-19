@@ -1,0 +1,60 @@
+{
+  "id": "miccai-2666",
+  "title": "GLM-SFNet: Global-Local Vision-Mamba with Semantic Fusion for Medical Image Segmentation",
+  "abstract": "Mamba-based architectures have shown promising performance in medical image segmentation. Accurate segmentation demands effective capture and integration of both global context and local details. However, existing methods often lack a balanced approach to extracting and fusing global and local information within the encoder and decoder. To address this issue, we introduce Global-Local Vision-Mamba with Semantic Fusion Network (GLM-SFNet), which is designed for balanced global-local feature processing in medical image segmentation. In the encoder, GLM-SFNet employs a Local-Global Vision State Space block (LGVSS). LGVSS strategically integrates four-directional scanning Mamba to capture comprehensive global context while incorporating Learnable Descriptive Convolution (LDC) to ensure detailed local feature extraction. For the decoder, we propose a Semantic Fusion Decoder (SFD), which achieves enhanced information integration and boundary precision by strategically combining global and local semantic fusion modules. Extensive experiments on three benchmark datasets demonstrate that GLM-SFNet achieves state-of-the-art segmentation performance while maintaining a lightweight architecture.",
+  "authors": [
+    {
+      "name": "Chen, Jiahui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qi, Fei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chang, Chengyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Qinjie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Kaiwen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xiaotian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Kun",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2666_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

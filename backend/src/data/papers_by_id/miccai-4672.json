@@ -1,0 +1,102 @@
+{
+  "id": "miccai-4672",
+  "title": "Enhancing Radiology Report Interpretation through Modality-Specific RadGraph Fine-Tuning",
+  "abstract": "Radiology reports contain free-form text that conveys critical clinical information derived from imaging studies and patient history. However, the unstructured nature of these reports, coupled with the complexity and ambiguity of natural language, poses significant challenges for automated information extraction, particularly in domains with limited labeled data. To address this, we introduce a novel expert-annotated dataset encompassing four new imaging modalities: cardiac magnetic resonance imaging (MRI), abdominal ultrasound, head computerized tomography (CT), and CT pulmonary angiography (CTPA). Leveraging this dataset, we developed transformer-based models optimized for entity recognition and relation extraction within specific modalities, enabling the generation of high-quality radiology annotations. Our evaluation of fine-tuning methods demonstrate that modality-specific models achieve a 12.5% macro F1 score improvement in entity recognition and a 28.3% improvement on relation extraction tasks compared to prior approaches. These findings highlight the potential of fine-tuned, modality-specific models in enhancing automated radiology text processing and downstream applications. By releasing the model and datasets, we aim to foster research on wider modalities in medical natural language processing across a broader range of imaging modalities. The code is available at https://github.com/tonikroos7/RadGraph-Multimodality.",
+  "authors": [
+    {
+      "name": "Guan, Haoyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dai, Yuwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Afyouni, Shadi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kain, Alec",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hsu, Wen-Chi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jiashu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yao, Sophie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yuli",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pulakhandam, Rishitha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Lin-Mei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Chengzhang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiao, Zhicheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jones, Craig",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Harrison",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Ultrasound",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4672_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

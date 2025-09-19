@@ -1,0 +1,80 @@
+{
+  "id": "miccai-4289",
+  "title": "Distilling foundation models for robust and efficient models in digital pathology",
+  "abstract": "In recent years, the advent of foundation models (FM) for digital pathology has relied heavily on scaling the pre-training datasets and the model size, yielding large and powerful models. While it resulted in improving the performance on diverse downstream tasks, it also introduced increased computational cost and inference time. In this work, we explore the distillation of a large foundation model into a smaller one, reducing the number of parameters by several orders of magnitude. Leveraging distillation techniques, our distilled model, H0-mini, achieves comparable performance to large FMs at a significantly reduced inference cost on HEST and EVA public benchmarks. Additionally, we conduct robustness analyses on the PLISM-WSI dataset and a multi-scanner, multi-staining private breast cancer cohort. We demonstrate that our distilled model reaches excellent robustness to variations in staining and scanning conditions, significantly outperforming other state-of-the-art models. This opens new perspectives to design lightweight and robust models for digital pathology, without compromising on performance. We publicly release H0-mini \\url{https://huggingface.co/bioptimus/H0-mini} along with \\texttt{plismbench} \\url{https://github.com/owkin/plism-benchmark}, the first robustness benchmark of pathology foundation models based on the PLISM dataset.",
+  "authors": [
+    {
+      "name": "Filiot, Alexandre",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dop, Nicolas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tchita, Oussama",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Riou, Auriane",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dubois, Rémy",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peeters, Thomas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Valter, Daria",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Scalbert, Marin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Saillard, Charlie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Robin, Geneviève",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Olivier, Antoine",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4289_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

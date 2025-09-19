@@ -1,0 +1,49 @@
+{
+  "id": "miccai-4101",
+  "title": "Calibration in Multiple Instance Learning: Evaluating Aggregation Methods for Ultrasound-Based Diagnosis",
+  "abstract": "Accurate probability estimates are critical for clinical decision-making, yet many Multiple Instance Learning (MIL) methods prioritize classification performance alone. We investigate the calibration quality of various MIL aggregation strategies, comparing them againstsimpler instance-based probability pooling in both in-distribution and out-of-distribution ultrasound imaging scenarios. Our findings reveal that attention-based aggregators yield stronger discrimination but frequently produce overconfident predictions, leading to higher calibration errors. In contrast, simpler instance-level methods offer more reliable risk estimates, albeit with a modest reduction in classification metrics. These results underscore a trade-off between predictive strength and calibration in MIL, emphasizing the importance of evaluating both aspects for clinically robust applications.",
+  "authors": [
+    {
+      "name": "Geysels, Axel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Van Calster, Ben",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "De Moor, Bart",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Froyman, Wouter",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Timmerman, Dirk",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Gynecology",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4101_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

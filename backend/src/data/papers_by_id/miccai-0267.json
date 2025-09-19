@@ -1,0 +1,40 @@
+{
+  "id": "miccai-0267",
+  "title": "EchoingECG: An Electrocardiogram Cross-Modal Model for Echocardiogram Tasks",
+  "abstract": "Electrocardiogram (ECG) is a widely used tool for assessing cardiac function due to its low cost and accessibility. Emergent research shows that ECGs can help make predictions on key outcomes traditionally derived from more complex modalities such as echocardiograms (ECHO), enabling the use of ECGs as a more accessible method to predict broader measurements of cardiac function. ECHO, in particular, are of great importance because they require considerable hospital resources while playing a key role in clinical cardiac assessment. To aid this use case, we introduce EchoingECG, a probabilistic student-teacher model that leverages uncertainty-aware ECG embeddings and ECHO supervision to improve ECG-based cardiac function prediction. Our approach integrates Probabilistic Cross-Modal Embeddings (PCME++), a probabilistic contrastive framework, with ECHO-CLIP, a vision-language pre-trained model trained on ECHO-text pairs, to distill ECHO knowledge into ECG representations. Through experiments and external validation, we showed that EchoingECG outperforms state-of-the-art foundation ECG models in zero-shot, few-shot, and fine-tune settings for ECHO predictions based on ECG. We also highlighted that variance estimation (enabled through our method) enhanced our understanding of model performance by identifying underlying regions of uncertainty within ECGs. The code is available: https://github.com/mcintoshML/EchoingECG.",
+  "authors": [
+    {
+      "name": "Gao, Yuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Sangwook",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "McIntosh, Chris",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> EEG / ECG",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0267_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

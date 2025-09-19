@@ -1,0 +1,39 @@
+{
+  "id": "miccai-1831",
+  "title": "Adaptively Distilled ControlNet: Accelerated Training and Superior Sampling for Medical Image Synthesis",
+  "abstract": "Medical image annotation is constrained by privacy concerns and labor-intensive labeling, significantly limiting the performance and generalization of segmentation models. While mask-controllable diffusion models excel in synthesis, they struggle with precise lesion-mask alignment. We propose \\textbf{Adaptively Distilled ControlNet}, a task-agnostic framework that accelerates training and optimization through dual-model distillation. Specifically, during training, a teacher model, conditioned on mask-image pairs, regularizes a mask-only student model via predicted noise alignment in parameter space, further enhanced by adaptive regularization based on lesion-background ratios. During sampling, only the student model is used, enabling privacy-preserving medical image generation. Comprehensive evaluations on two distinct medical datasets demonstrate state-of-the-art performance: TransUNet improves mDice/mIoU by 2.4\\%/4.2\\% on KiTS19, while SANet achieves 2.6\\%/3.5\\% gains on Polyps, highlighting its effectiveness and superiority. Code is available at https://github.com/Qiukunpeng/ADC.",
+  "authors": [
+    {
+      "name": "Qiu, Kunpeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Zhiying",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yongxin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1831_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

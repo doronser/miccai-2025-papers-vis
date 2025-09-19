@@ -1,0 +1,52 @@
+{
+  "id": "miccai-0725",
+  "title": "Source-Free Active Domain Adaptation for Efficient Medical Video Polyp Segmentation",
+  "abstract": "Deep learning models have shown remarkable performance in medical video object segmentation. However, addressing the cross-center domain issue is crucial for achieving consistent performance across different medical facilities. Emerging Source-Free Active Domain Adaptation (SFADA) techniques can enhance the performance of target domain segmentation models, ensuring data privacy and security. While current approaches primarily focus on image-level tasks and mainly emphasize intra-frame pixel correlations, they overlook temporal correlations, which restricts their performance in video frame recommendation. Consequently, this paper proposes the first video-level SFADA method and evaluates it on video polyp segmentation across different data centers. Specifically, the Spatial-Temporal Active Recommendation (STAR) strategy is devised to recommend a few highly valuable frames for annotation by comprehensively evaluating the object spatial correlation and temporal movement density across different video frames, along with a Passive Phase Correction (PPC) module is proposed to suppress the noisy source disruptions of the remaining unlabeled data during the fine-tuning stage. Experimental results demonstrate that with a tiny quantity of annotation, our method significantly improves performance over the lower bound and achieves better performance than existing SOTA methods, which is valuable for practical clinical employment.",
+  "authors": [
+    {
+      "name": "Li, Jialu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Hongqiu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Weiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Jing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qiong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Lei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0725_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

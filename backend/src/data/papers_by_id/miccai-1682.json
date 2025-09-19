@@ -1,0 +1,44 @@
+{
+  "id": "miccai-1682",
+  "title": "RadiomicsRetrieval: A Customizable Framework for Medical Image Retrieval Using Radiomics Features",
+  "abstract": "Medical image retrieval is a valuable field for supporting clinical decision-making, yet current methods primarily support 2D images and require fully annotated queries, limiting clinical flexibility. To address this, we propose RadiomicsRetrieval, a 3D content-based retrieval framework bridging handcrafted radiomics descriptors with deep learning-based embeddings at the tumor level. Unlike existing 2D approaches, RadiomicsRetrieval fully exploits volumetric data to leverage richer spatial context in medical images. We employ a promptable segmentation model (e.g., SAM) to derive tumor-specific image embeddings, which are aligned with radiomics features extracted from the same tumor via contrastive learning. These representations are further enriched by anatomical positional embedding (APE). As a result, RadiomicsRetrieval enables flexible querying based on shape, location, or partial feature sets. Extensive experiments on both lung CT and brain MRI public datasets demonstrate that radiomics features significantly enhance retrieval specificity, while APE provides global anatomical context essential for location-based searches. Notably, our framework requires only minimal user prompts (e.g., a single point), minimizing segmentation overhead and supporting diverse clinical scenarios. The capability to query using either image embeddings or selected radiomics attributes highlights its adaptability, potentially benefiting diagnosis, treatment planning, and research on large-scale medical imaging repositories. Our code is available at https://github.com/nainye/RadiomicsRetrieval.",
+  "authors": [
+    {
+      "name": "Na, Inye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rue, Nejung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chung, Jiwon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Hyunjin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1682_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

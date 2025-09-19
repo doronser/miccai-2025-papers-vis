@@ -1,0 +1,54 @@
+{
+  "id": "miccai-0297",
+  "title": "MCA-RG: Enhancing LLMs with Medical Concept Alignment for Radiology Report Generation",
+  "abstract": "Despite significant advancements in adapting Large Language Models (LLMs) for radiology report generation (RRG), clinical adoption remains challenging due to difficulties in accurately mapping pathological and anatomical features to their corresponding text descriptions. Additionally, semantic agnostic feature extraction further hampers the generation of accurate diagnostic reports. To address these challenges, we introduce Medical Concept Aligned Radiology Report Generation (MCA-RG), a knowledge-driven framework that explicitly aligns visual features with distinct medical concepts to enhance the report generation process. MCA-RG utilizes two curated concept banks: a pathology bank containing lesion-related knowledge, and an anatomy bank with anatomical descriptions. The visual features are aligned with these medical concepts and undergo tailored enhancement. We further propose an anatomy-based contrastive learning procedure to improve the generalization of anatomical features, coupled with a matching loss for pathological features to prioritize clinically relevant regions. Additionally, a feature gating mechanism is employed to filter out low-quality concept features. Finally, the visual features are corresponding to individual medical concepts, and are leveraged to guide the report generation process. Experiments on two public benchmarks (MIMIC-CXR and CheXpert Plus) demonstrate that MCA-RG achieves superior performance, highlighting its effectiveness in radiology report generation.",
+  "authors": [
+    {
+      "name": "Xing, Qilong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zikai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Youjia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Feng, Na",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yu, Junqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Wei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0297_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "miccai-1001",
+  "title": "Refining Cervical Cell Classification with Cytological Knowledge and Optimal Attribute Descriptor Matching",
+  "abstract": "Cervical cancer remains a significant global health concern, emphasizing the need for effective diagnostic methods. Despite advancements in Vision Language Models, challenges persist in incorporating cytological knowledge, ensuring data relevance, and maintaining accuracy when aggregating visual information. Current methods often struggle to handle fine-grained morphological details and the complex relationships between images and textual knowledge. In this paper, we present a novel framework for cervical cell classification that combines attribute descriptors with cytological knowledge for enhanced morphology recognition. Our approach leverages the Vision Large Language Model to generate descriptions for each cervical image and pretrain image and text encoders, improving both image understanding and cytological context. We introduce Attribute Descriptors Extraction using LLMs and Retrieval-Augmented Generation to generate detailed descriptors that capture important cytological features while minimizing irrelevant information. Additionally, we propose Optimal Attribute Descriptors Matching to dynamically align textual descriptors with image features, enhancing prediction accuracy, interpretability, and cytological relevance. Experimental results demonstrate the superior performance and generalizability of our method with varying amounts of labeled data.  The code is publicly available at https://github.com/feimanman/CervicalCellClassifier.",
+  "authors": [
+    {
+      "name": "Fei, Manman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Zhenrong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Mengjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Song, Zhiyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Yusong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Han, Xu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Zelin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Haotian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Lu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Qian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lichi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Gynecology",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1001_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

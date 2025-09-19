@@ -1,0 +1,47 @@
+{
+  "id": "miccai-1731",
+  "title": "Mind the Detail: Uncovering Clinically Relevant Image Details in Accelerated MRI with Semantically Diverse Reconstructions",
+  "abstract": "In recent years, accelerated MRI reconstruction based on deep learning has led to significant improvements in image quality with impressive results for high acceleration factors. However, from a clinical perspective image quality is only secondary; much more important is that all clinically relevant information is preserved in the reconstruction from heavily undersampled data. In this paper, we show that existing techniques, even when considering resampling for diffusion-based reconstruction, can fail to reconstruct small and rare pathologies, thus leading to potentially wrong diagnosis decisions (false negatives). To uncover the potentially missing clinical information we propose ``Semantically Diverse Reconstructions’’ (\\SDR), a method which, given an original reconstruction, generates novel reconstructions with enhanced semantic variability while all of them are fully consistent with the measured data. \nTo evaluate \\SDR automatically we train an object detector on the fastMRI+ dataset. We show that \\SDR significantly reduces the chance of false-negative diagnoses (higher recall) and improves mean average precision compared to the original reconstructions. The code is available on \\href{https://github.com/NikolasMorshuis/SDR}{https://github.com/NikolasMorshuis/SDR}.",
+  "authors": [
+    {
+      "name": "Morshuis, Jan Nikolas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schlarmann, Christian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Küstner, Thomas",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Baumgartner, Christian F.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hein, Matthias",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> MRI",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1731_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

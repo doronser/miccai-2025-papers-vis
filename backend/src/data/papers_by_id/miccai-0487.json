@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0487",
+  "title": "BraTS-UMamba: Adaptive Mamba UNet with Dual-Band Frequency based Feature Enhancement for Brain Tumor Segmentation",
+  "abstract": "Brain tumor segmentation (BraTS) of 3D Magnetic Resonance Imaging (MRI) aims to facilitate clinical analysis of brain cancer. Existing BraTS segmentation works tend to exploit convolutional neural networks (CNNs) or vision transformers (ViTs), yet CNNs have a restricted receptive field that focuses on local context only and ViTs suffer from high computational overheads due to quadratic complexity. Recently, Mamba has shown superior performance over ViTs in long-range dependency modeling, offering linear computational complexity and lower memory consumption. However, these methods primarily learn feature representation in the spatial domain, overlooking valuable heuristics embedded in the frequency domain. Inspired by this, we propose BraTS-UMamba, a novel Mamba-based U-Net designed to enhance brain tumor segmentation by capturing and adaptively fusing bi-granularity based long-range dependencies in the spatial domain while integrating both low- and high-band spectrum clues from the frequency domain to refine spatial feature representation. We further enhance segmentation through an auxiliary brain tumor classification loss. Extensive experiments on two public benchmark datasets demonstrate the superiority of our BraTS-UMamba over state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Yao, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiong, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Dong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Hualei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Berkovsky, Shlomo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0487_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

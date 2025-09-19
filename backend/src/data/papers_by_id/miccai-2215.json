@@ -1,0 +1,68 @@
+{
+  "id": "miccai-2215",
+  "title": "HAGE: Hierarchical Alignment Gene-Enhanced Pathology Representation Learning with Spatial Transcriptomics",
+  "abstract": "Histopathology images capture tissue morphology, while spatial transcriptomics (ST) provides spatially resolved gene expression, offering complementary molecular insights. However, acquiring ST data is costly and time-consuming, limiting its practical use. To address this, we propose HAGE (Hierarchical Alignment Gene-Enhanced), a framework that enhances pathology representation learning by predicting gene expression directly from histological images and integrating molecular context into the pathology model. HAGE leverages gene-type embeddings, which encode relationships among genes, guiding the model in learning biologically meaningful expression patterns. To further improve alignment between histology and gene expression, we introduce a hierarchical clustering strategy that groups image patches based on molecular and visual similarity, capturing both local and global dependencies. HAGE consistently outperforms existing methods across six datasets. In particular, on the HER2+ breast cancer cohort, it significantly improves the Pearson correlation coefficient by 8.0% and achieves substantial reductions in mean squared error and mean absolute error by 18.1% and 38.0%, respectively. Beyond gene expression prediction, HAGE improves downstream tasks, such as patch-level cancer classification and whole-slide image diagnostics, demonstrating its broader applicability. To the best of our knowledge, HAGE is the first framework to integrate gene co-expression as prior knowledge into a pathology image encoder via a cross-attention mechanism, enabling more biologically informed and accurate pathology representations. https://github.com/uta-smile/gene_expression",
+  "authors": [
+    {
+      "name": "Dang, Thao M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Haiqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yuzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Hehuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miao, Yuwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Qifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Jean",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Junzhou",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2215_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

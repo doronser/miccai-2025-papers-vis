@@ -1,0 +1,67 @@
+{
+  "id": "miccai-5171",
+  "title": "Sparse3Diff: A Diffusion Framework for 3D Reconstruction from Sparse 2D Slices in Volumetric Optical Imaging",
+  "abstract": "Volumetric optical imaging is an essential tool for understanding various biological processes. However, due to the inherent limitations such as long imaging time, volume scanning techniques reduce volumetric information into sparse 2D slices. Although many deep learning methods attempt to reconstruct 3D volumes from sparse slices, they struggle with out-of-distribution (OOD) data, which arise from the diversity of biological structures, and the limited structural information in sparse slices. To overcome these challenges, we propose Sparse3Diff, a novel diffusion-based framework that reconstructs high-fidelity 3D volumes from sparse 2D slices. Sparse3Diff incorporates a sparse slice-guided position-aware diffusion process that utilizes sparse slices as guidance and conditions on z-position to maintain structural coherence along the z-axis. Additionally, to achieve stable reconstruction under sparse OOD data, we propose a self-alignment strategy that enables the model to be gradually fine-tuned by leveraging its own inferred slices as self-guidance. Experimental results demonstrate that even with sparse OOD data, the Sparse3Diff achieves accurate 3D reconstruction and remains robust across various scanning datasets.",
+  "authors": [
+    {
+      "name": "Lee, Hyun Jung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jo, Eunjung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lim, Minjoo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Son, Young-Han",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Bogyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nam, Hyeonyeong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jeong, Ji-Hoon",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shin, Dong-Hee",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kam, Tae-Eui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5171_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

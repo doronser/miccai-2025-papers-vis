@@ -1,0 +1,44 @@
+{
+  "id": "miccai-2099",
+  "title": "Selective Alignment Transfer for Domain Adaptation in Skin Lesion Analysis",
+  "abstract": "Domain adaptation is crucial for deep learning in skin lesion analysis because models trained on dermoscopic images often struggle to generalise to clinical images, which exhibit variations in lighting, resolution, and background conditions. We propose Selective Alignment Transfer for Domain Adaptation (SAT-DA), a fully supervised framework that significantly reduces this domain gap by dynamically assigning feature importance weights based on statistical moments from both source and target domains. SAT-DA emphasises domain-invariant features and suppresses domain-specific noise to preserve crucial diagnostic cues. Our multi-loss strategy combines classification, alignment, and diversity losses to optimise feature selection and prevent feature collapse onto a narrow set. SAT-DA was evaluated on six public datasets comprising dermoscopic and clinical images and consistently outperformed state-of-the-art supervised and unsupervised methods. On Derm7pt-Derm to Derm7pt-Clinic, SAT-DA achieves 82.46\\% AUROC, surpassing the strongest baseline by over 6\\%. Notably, SAT-DA also maintains high performance on completely unseen datasets not used as source or target, demonstrating robust cross-domain generalisation. Overall, these results highlight SAT-DA’s ability to address practical clinical deployment challenges, offering a reliable, fully supervised solution for cross-domain skin lesion analysis. The details of the code will be made available upon acceptance.",
+  "authors": [
+    {
+      "name": "Sultana, Nurjahan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Wenqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fan, Xinqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yap, Moi Hoon",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2099_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

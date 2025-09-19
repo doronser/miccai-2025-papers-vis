@@ -1,0 +1,64 @@
+{
+  "id": "miccai-3018",
+  "title": "Targeted False Positive Synthesis via Detector-guided Adversarial Diffusion Attacker for Robust Polyp Detection",
+  "abstract": "Polyp detection is crucial for colorectal cancer screening, yet existing models are limited by the scale and diversity of available data. While generative models show promise for data augmentation, current methods mainly focus on enhancing polyp diversity, often overlooking the critical issue of false positives. In this paper, we address this gap by proposing an adversarial diffusion framework to synthesize high-value false positives. The extensive variability of negative backgrounds presents a significant challenge in false positive synthesis. To overcome this, we introduce two key innovations: First, we design a regional noise matching strategy to construct a negative synthesis space using polyp detection datasets. This strategy trains a negative-centric diffusion model by masking polyp regions, ensuring the model focuses exclusively on learning diverse background patterns. Second, we introduce the Detector-guided Adversarial Diffusion Attacker (DADA) module, which perturbs the negative synthesis process to disrupt a pre-trained detector’s decision, guiding the negative-centric diffusion model to generate high-value, detector-confusing false positives instead of low-value, ordinary backgrounds. Our approach is the first to apply adversarial diffusion to lesion detection, establishing a new paradigm for targeted false positive synthesis and paving the way for more reliable clinical applications in colorectal cancer screening. Extensive results on public and in-house datasets verify the superiority of our method over the current state-of-the-arts, with our synthesized data improving the detector by at least 2.6% and 2.7% in F1-score, respectively, over the baselines. Codes are at https://github.com/Huster-Hq/DADA.",
+  "authors": [
+    {
+      "name": "Zhou, Quan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Gan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hu, Qiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Qingyong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jinhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Yinjiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Qiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zhiwei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Endoscopy",
+    "Applications -> Anomaly Detection",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3018_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

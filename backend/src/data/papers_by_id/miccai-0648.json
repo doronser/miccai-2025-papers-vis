@@ -1,0 +1,39 @@
+{
+  "id": "miccai-0648",
+  "title": "MAMBA-Based Weakly Supervised Medical Image Segmentation with Cross-Modal Textual Information",
+  "abstract": "In medical image segmentation, obtaining pixel-level annotated data is costly. While semi-supervised and weakly-supervised methods reduce annotation dependence, they still require some pixel-level annotations. In contrast, leveraging textual descriptions corresponding to medical images as supervisory information for segmentation is more promising. Textual descriptions are easier to acquire, as users only need to provide location and appearance details of lesions. We present TIFCMamba, a Mamba-based architecture for text-image fusion segmentation. The framework processes images and texts in parallel to establish cross-modal correspondences, aligning CLIP-encoded features through contrastive learning. The architecture employs a Mamba-based image encoder that reduces computational complexity compared to traditional Transformer models. We propose Mamba Fusion (MF) module integrates text and image features through Bi-Dimension Fusion (BiDF), enabling both intra-modal refinement and inter-modal interaction while preserving computational efficiency. Experiments on polyp and skin lesion datasets demonstrate competitive performance against fully supervised methods and state-of-the-art weakly-supervised approaches. Code and dataset will be available at \\url{https://github.com/PZalio/TIFCMamba}.",
+  "authors": [
+    {
+      "name": "Pan, Zhen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Wenhui",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yuanjie",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0648_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

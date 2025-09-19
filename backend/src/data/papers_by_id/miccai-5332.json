@@ -1,0 +1,43 @@
+{
+  "id": "miccai-5332",
+  "title": "GA-SAM: Geometry-Aware SAM Adaptation with Sparse Annotation-Driven Point Cloud Completion",
+  "abstract": "Segment Anything Model (SAM) adaptation has shown remarkable performance in medical image segmentation, but typically relies on large and precisely annotated datasets. However, acquiring such dense annotation is a labor-intensive and time-consuming task that requires significant expertise. An effective direction is to focus on sparse annotation, where only a few slices are annotated. However, sparse annotations are insufficient for capturing the complete 3D anatomical structure. To address this limitation, we innovatively leverage point cloud completion to generate robust volumetric shape from sparse annotation, offering a promising solution to this challenge. In this paper, we propose a novel Geometry-Aware SAM adaptation framework (namely GA-SAM) that integrates point cloud shape generation module with cross-view segmentation supervision mechanism. Specifically, we train a point cloud completion network to infer the 3D structure of the target anatomy. The generated point cloud shapes are then used to produce pseudo-labels, guiding the adaptation of SAM via a geometry-aware shape constraints. Furthermore, we incorporate a cross-view supervision mechanism, leveraging multi-view consistency to ensure reliable segmentation across different planes. We demonstrate the effectiveness of our method on Pancreas-CT dataset, surpassing the state-of-the-art SAM adaptation method by a Dice score of 15.25% and significantly improving segmentation robustness. Our code is available at https://github.com/ShumengLI/GA-SAM.",
+  "authors": [
+    {
+      "name": "Li, Shumeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Jian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qi, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yinghuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/5332_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

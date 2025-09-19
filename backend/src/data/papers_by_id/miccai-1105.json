@@ -1,0 +1,52 @@
+{
+  "id": "miccai-1105",
+  "title": "Fine-Grained Rib Fracture Diagnosis with Hyperbolic Embeddings: A Detailed Annotation Framework and Multi-Label Classification Model",
+  "abstract": "Accurate rib fracture identification and classification are essential for treatment planning. However, existing datasets often lack fine-grained annotations, particularly regarding rib fracture characterization, type, and precise anatomical location on individual ribs. To address this, we introduce a novel rib fracture annotation protocol tailored for fracture classification. Further, we enhance fracture classification by leveraging cross-modal embeddings that bridge radiological images and clinical descriptions. Our approach employs hyperbolic embeddings to capture the hierarchical nature of fracture, mapping visual features and textual descriptions into a shared non-Euclidean manifold. This framework enables more nuanced similarity computations between imaging characteristics and clinical descriptions, accounting for the inherent hierarchical relationships in fracture taxonomy. Experimental results demonstrate that our approach outperforms existing methods across multiple classification tasks, with average recall improvements of 6% on the AirRib dataset and 17.5% on the public RibFrac dataset. The code and annotation files can be accessed at https://github.com/ribfracture123/classification",
+  "authors": [
+    {
+      "name": "Pate, Shripad",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Farooq, Aiman",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Datta, Suvrankar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sheikh, Musadiq Aadil",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kumar, Atin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mishra, Deepak",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1105_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

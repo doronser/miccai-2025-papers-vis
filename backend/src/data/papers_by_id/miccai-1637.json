@@ -1,0 +1,40 @@
+{
+  "id": "miccai-1637",
+  "title": "UWT-Net: Mining low-frequency feature information for medical image segmentation",
+  "abstract": "Medical image segmentation is the core technology of precision medicine, which can improve diagnostic accuracy, optimize treatment plans, and enhance research efficiency. U-Net is a classical and fundamental model in this field. Because of its excellent architecture, Transformer and MLP have been fused on top of it in subsequent work, all with good results. Each of these methods has advantages, but none further explores the image’s low-frequency feature information. The low-frequency feature information reflects the overall structure and contour of the image and provides key background and boundary information for image segmentation. To address this problem, we explore the potential of Wavelet Convolutions for medical segmentation tasks by proposing a novel feature extraction block: the Image Multi-frequency Feature Information Extraction (IMFIE) block. The IMFIE block can effectively extract both high-frequency and low-frequency feature information from images by combining Wavelet Convolutions. This approach takes full advantage of their excellent ability to mine and utilize low-frequency information in images while expanding the receptive field at a low cost. We propose a novel model, UWT-Net, which leverages the IMFIE block and reconstructs the classical U-Net. Experiments on three public pathology image datasets show that the proposed method outperforms the state-of-the-art baseline U-KAN. Code is available at https://github.com/zpc2002zpc/UWT-Net.git.",
+  "authors": [
+    {
+      "name": "Zhang, Pengcheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ouyang, Xiaocao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Peng, Ran",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Urology",
+    "Modalities -> Endoscopy",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1637_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

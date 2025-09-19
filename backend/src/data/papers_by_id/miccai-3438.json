@@ -1,0 +1,52 @@
+{
+  "id": "miccai-3438",
+  "title": "Anatomical Graph-based Multilevel Distillation for Robust Alzheimer’s Disease Diagnosis with Missing Modalities",
+  "abstract": "The multimodal model has shown superior potential for accurate Alzheimer’s disease (AD) diagnosis; however, its reliance on complete modalities limits its use in a clinical setting. This study proposes a novel Anatomical Graph-based Multilevel Distillation (AGMD) framework that effectively transfers multimodal knowledge using layered modeling. Specifically, we develop a hierarchical distillation framework with three dedicated branches to explicitly capture the features of AD from multiple levels (local structural details, regional connectivity patterns, and global semantic information) to achieve complete knowledge transfer. Moreover, we introduce anatomical constraints to model the brain adjacent connection patterns to help better learn the relationships between key ROIs, particularly in disease-relevant regions, e.g., the hippocampus. The prediction entropy as regularization is introduced to refine instance-level knowledge, comprehensively alleviating the negative impact of the teacher’s noisy information. Extensive experiments on the ADNI dataset demonstrate that AGMD achieves the best classification accuracy, with an improvement of 3.7% over the state-of-the-art methods, while significantly reducing the performance gap between teacher and student models. The code is available at https://github.com/LiuFei-AHU/AGMD.",
+  "authors": [
+    {
+      "name": "Liu, Fei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Huabin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jaward, Mohamed Hisham",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Shiuan-Ni",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ong, Huey Fang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Jiayuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3438_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

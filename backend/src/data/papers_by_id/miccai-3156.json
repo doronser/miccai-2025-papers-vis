@@ -1,0 +1,59 @@
+{
+  "id": "miccai-3156",
+  "title": "Multifrequency Neural Network-based Wave Inversion in MR Elastography",
+  "abstract": "Magnetic Resonance Elastography (MRE) is a non-invasive imaging modality quantifying soft tissue stiffness. The reconstruction of stiffness maps is based on solutions of an inverse problem, which poses challenges in balancing accuracy, computational resources, and robustness. To stabilize the reconstruction, many inversion techniques, and most recently neural network-based inversion techniques, have explored multifrequency acquisition and reconstruction. However, these techniques typically perform separate single-frequency inversions followed by multifrequency aggregation. In this work, we propose a fully multifrequency neural network-based inversion trained on synthetically generated data that directly incorporates the relationship between multifrequency acquisitions, assuming a viscoelastic material model. Our proposed approach provides flexibility with respect to the acquisition frequencies, ensuring its practical applicability in the clinical and research setting. We evaluated our method using finite element simulations and in vivo abdominal MRE datasets, achieving increased accuracy and providing a more reliable and effective solution for MRE-based tissue characterization than standard reconstruction approaches.",
+  "authors": [
+    {
+      "name": "Bustin, Héloïse",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Meyer, Tom",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jordan, Jakob",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Walczak, Lars",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tzschätzsch, Heiko",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sack, Ingolf",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hennemuth, Anja",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> MRI",
+    "Modalities -> Other",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3156_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

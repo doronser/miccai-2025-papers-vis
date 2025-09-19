@@ -1,0 +1,60 @@
+{
+  "id": "miccai-2927",
+  "title": "Single Image Test-Time Adaptation via Multi-View Co-Training",
+  "abstract": "Test-time adaptation enables a trained model to adjust to a new domain during inference, making it particularly valuable in clinical settings where such on-the-fly adaptation is required. However, existing techniques depend on large target domain datasets, which are often impractical and unavailable in medical scenarios that demand per-patient, real-time inference. Moreover, current methods commonly focus on two-dimensional images, failing to leverage the volumetric richness of medical imaging data. Bridging this gap, we propose a Patch-Based Multi-View Co-Training method for Single Image Test-Time adaptation. Our method enforces feature and prediction consistency through uncertainty-guided self-training, enabling effective volumetric segmentation in the target domain with only a single test-time image. Validated on three publicly available breast magnetic resonance imaging datasets for tumor segmentation, our method achieves performance close to the upper bound supervised  benchmark while also outperforming all existing state-of-the-art methods, on average by a Dice Similarity Coefficient of 3.75%. We will publicly share our accessible codebase, readily integrable with the popular nnUNet framework, at https://github.com/smriti-joshi/muvi.git.",
+  "authors": [
+    {
+      "name": "Joshi, Smriti",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Osuala, Richard",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Garrucho, Lidia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kushibar, Kaisar",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kessler, Dimitri",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Diaz, Oliver",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lekadir, Karim",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2927_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "miccai-4888",
+  "title": "Regularized Low-Rank Adaptation for Few-Shot Organ Segmentation",
+  "abstract": "Parameter-efficient fine-tuning (PEFT) of pre-trained foundation models is increasingly attracting interest in medical imaging due to its effectiveness and computational efficiency. Among these methods, Low-Rank Adaptation (LoRA) is a notable approach based on the assumption that the adaptation inherently occurs in a low-dimensional subspace. While it has shown good performance, its implementation requires a fixed and unalterable rank, which might be challenging to select given the unique complexities and requirements of each medical imaging downstream task. Inspired by advancements in natural image processing, we introduce a novel approach for medical image segmentation that dynamically adjusts the intrinsic rank during adaptation. Viewing the low-rank representation of the trainable weight matrices as a singular value decomposition, we introduce an l1 sparsity regularizer to the loss function, and tackle it with a proximal optimizer. The regularizer could be viewed as a penalty on the decomposition rank. Hence, its minimization enables to find task-adapted ranks automatically. Our method is evaluated in a realistic few-shot fine-tuning setting, where we compare it first to the standard LoRA and then to several other PEFT methods across two distinguishable tasks: base organs and novel organs. Our extensive experiments demonstrate the significant performance improvements driven by our method, highlighting its efficiency and robustness against suboptimal rank initialization. Our code is publicly available: https://github.com/ghassenbaklouti/ARENA.",
+  "authors": [
+    {
+      "name": "Baklouti, Ghassen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Silva-Rodríguez, Julio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dolz, Jose",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bahig, Houda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ben Ayed, Ismail",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4888_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

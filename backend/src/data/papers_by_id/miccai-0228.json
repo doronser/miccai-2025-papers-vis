@@ -1,0 +1,55 @@
+{
+  "id": "miccai-0228",
+  "title": "DiffAtlas: GenAI-fying Atlas Segmentation via Image-Mask Diffusion",
+  "abstract": "Accurate medical image segmentation is crucial for precise anatomical delineation. Deep learning models like U-Net have shown great success but depend heavily on large datasets and struggle with domain shifts, complex structures, and limited training samples. Recent studies have explored diffusion models for segmentation by iteratively refining masks. However, these methods still retain the conventional image-to-mask mapping, making them highly sensitive to input data, which hampers stability and generalization. In contrast, we introduce DiffAtlas, a novel generative framework that models both images and masks through diffusion during training, effectively “GenAI-fying” atlas-based segmentation. During testing, the model is guided to generate a specific target image-mask pair, from which the corresponding mask is obtained. DiffAtlas retains the robustness of the atlas paradigm while overcoming its scalability and domain-specific limitations. Extensive experiments on CT and MRI across same-domain, cross-modality, varying-domain, and different data-scale settings using the MMWHS and TotalSegmentator datasets demonstrate that our approach outperforms existing methods, particularly in limited-data and zero-shot modality segmentation. Code is available at https://github.com/M3DV/DiffAtlas.",
+  "authors": [
+    {
+      "name": "Zhang, Hantao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yuhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jiancheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Weidong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xinyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fua, Pascal",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0228_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

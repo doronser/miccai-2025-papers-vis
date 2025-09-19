@@ -1,0 +1,34 @@
+{
+  "id": "miccai-1387",
+  "title": "EUReg: End-to-end Framework for Efficient 2D-3D Ultrasound Registration",
+  "abstract": "Ultrasound (US) is widely used for surgical navigation, and real-time intraoperative 2D US to preoperative 3D US registration is crucial. However, existing methods either lack accuracy, suffer from low efficiency, or are highly prone to overfitting. To address these challenges, we propose a novel and efficient end-to-end real-time 2D-3D US registration framework (EUReg). Specifically, we introduce a cross dimension flow estimator (CDFE) that is both learn-free and differentiable, along with a decoupled transformation prediction (DTP) network. Furthermore, we design a flow loss to supervise the coarse deformation field, effectively decoupling the entire registration process into four sequential steps: feature extraction, coarse deformation field estimation, translation estimation, and rotation estimation. In addition, we improve the differentiable 2D-3D sampling process. We evaluate our framework through comparative, ablation, and exploratory experiments on two public datasets for cardiac and prostate US. Experimental results demonstrate that our method achieves a registration speed exceeding 100 frames per second (FPS) while maintaining high accuracy, meeting the requirements for clinical interventional procedures. Moreover, our exploration reveals that registration accuracy improves when each frame within the volume is larger than the target frame. Our code is publicly available at https://github.com/ZAX130/EUReg.",
+  "authors": [
+    {
+      "name": "Wang, Haiqiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yi",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> Urology",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Registration",
+    "Applications -> Image-Guided Interventions",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1387_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

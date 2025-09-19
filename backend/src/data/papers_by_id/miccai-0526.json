@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0526",
+  "title": "MedGNN: General Medical Image Recognition Network via GNN Visual Representations",
+  "abstract": "Existing medical image representations are typically processed into grid or sequence structures via Convolutional Neural Network (CNN) or Vision Transformers. However, these methods struggle to flexibly capture irregular lesion regions and reveal relationships between lesions, especially in 3D medical imaging. To address this, we transform medical images into graph structures and propose MedGNN, a general recognition network based on Graph Neural Network (GNN) visual representations. We first segment the image into patches and treat each patch as a node, constructing graph visual embeddings via the K-Nearest Neighbor algorithm. Then, we propose multi-scale dynamic max-relative graph convolution for feature aggregation and updating. To mitigate over-smoothing in graph models, we design a feature-enhanced feed-forward network to refine feature representations. Experiments show that MedGNN achieves strong competitive performance across various 2D and 3D medical image recognition datasets. Moreover, it visualizes lesion relationships through graphs, enabling interpretable analysis based on graph structures.",
+  "authors": [
+    {
+      "name": "Ye, Jiayu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zeng, An",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Dan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Junhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cheng, Guanwei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0526_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

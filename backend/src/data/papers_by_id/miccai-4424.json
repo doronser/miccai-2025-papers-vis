@@ -1,0 +1,39 @@
+{
+  "id": "miccai-4424",
+  "title": "Revisiting 3D Medical Scribble Supervision: Benchmarking Beyond Cardiac Segmentation",
+  "abstract": "Scribble supervision has emerged as a promising approach for reducing annotation costs in medical 3D segmentation by leveraging sparse annotations instead of voxel-wise labels. While existing methods report strong performance, a closer analysis reveals that the majority of research is confined to the cardiac domain, predominantly using ACDC and MSCMR datasets. This over-specialization may contribute to overfitting, overly optimistic performance claims, and limited generalization across broader segmentation tasks. In this work, we formulate a set of key requirements for practical scribble supervision and introduce ScribbleBench, a comprehensive benchmark spanning over seven diverse medical imaging datasets, to systematically evaluate the fulfillment of these requirements. Consequently, we uncover a general failure of methods to generalize across tasks and that many widely used novelties degrade performance outside of the cardiac domain, whereas simpler overlooked approaches achieve superior generalization. Finally, we raise awareness for a strong yet overlooked baseline, nnU-Net coupled with a partial loss, which consistently outperforms specialized methods across a diverse range of tasks.\nBy identifying fundamental limitations in existing research and establishing a new benchmark-driven evaluation standard, this work aims to steer scribble supervision toward more practical, robust, and generalizable methodologies for medical image segmentation.",
+  "authors": [
+    {
+      "name": "Gotkowski, Karol",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Maier-Hein, Klaus H.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Isensee, Fabian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4424_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "miccai-0617",
+  "title": "ReSurgSAM2: Referring Segment Anything in Surgical Video via Credible Long-term Tracking",
+  "abstract": "Surgical scene segmentation is critical in computer-assisted surgery and is vital for enhancing surgical quality and patient outcomes. Recently, referring surgical segmentation is emerging, given its advantage of providing surgeons with an interactive experience to segment the target object. However, existing methods are limited by low efficiency and short-term tracking, hindering their applicability in complex real-world surgical scenarios. In this paper, we introduce ReSurgSAM2, a two-stage surgical referring segmentation framework that leverages Segment Anything Model 2 to perform text-referred target detection, followed by tracking with reliable initial frame identification and diversity-driven long-term memory. For the detection stage, we propose a cross-modal spatial-temporal Mamba to generate precise detection and segmentation results. Based on these results, our credible initial frame selection strategy identifies the reliable frame for the subsequent tracking. Upon selecting the initial frame, our method transitions to the tracking stage, where it incorporates a diversity-driven memory mechanism that maintains a credible and diverse memory bank, ensuring consistent long-term tracking. Extensive experiments demonstrate that ReSurgSAM2 achieves substantial improvements in accuracy and efficiency compared to existing methods, operating in real-time at 61.2 FPS. Our code and datasets are available at https://github.com/jinlab-imvr/ReSurgSAM2.",
+  "authors": [
+    {
+      "name": "Liu, Haofeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Mingqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Xuxiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ziyue",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Guanyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Junde",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jin, Yueming",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Modalities -> Photograph / Video",
+    "Modalities -> Robotics",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Mixed / Augmented / Virtual Reality",
+    "Surgery -> Navigation",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0617_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

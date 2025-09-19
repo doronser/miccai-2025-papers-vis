@@ -1,0 +1,41 @@
+{
+  "id": "miccai-1790",
+  "title": "EndoMetric: Near-Light Monocular Metric Scale Estimation in Endoscopy",
+  "abstract": "Geometric reconstruction and SLAM with endoscopic images have advanced significantly in recent years. In most medical fields, monocular endoscopes are employed, and the algorithms used are typically adaptations of those designed for external environments, resulting in 3D reconstructions with an unknown scale factor.\nFor the first time, we propose a method to estimate the real metric scale of a 3D reconstruction from standard monocular endoscopic images, under unknown varying albedo, without relying on application-specific learned priors. Our fully model-based approach leverages the near-light sources embedded in endoscopes, positioned at a small but nonzero baseline from the camera, in combination with the inverse-square law of light attenuation, to accurately recover the metric scale from scratch. This enables the transformation of any endoscope into a metric device, which is crucial for applications such as measuring polyps, stenosis, or assessing the extent of diseased tissue.",
+  "authors": [
+    {
+      "name": "Iranzo, Raúl",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Batlle, Víctor M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tardós, Juan D.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Montiel, José M. M.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image-Guided Interventions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1790_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

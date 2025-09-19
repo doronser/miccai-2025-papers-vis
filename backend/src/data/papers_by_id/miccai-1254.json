@@ -1,0 +1,60 @@
+{
+  "id": "miccai-1254",
+  "title": "PathoPainter: Augmenting Histopathology Segmentation via Tumor-aware Inpainting",
+  "abstract": "Tumor segmentation plays a critical role in histopathology, but it requires costly, fine-grained image-mask pairs annotated by pathologists. Thus, synthesizing histopathology data to expand the dataset is highly desirable. Previous works suffer from inaccuracies and limited diversity in image-mask pairs, both of which affect training segmentation, particularly in small-scale datasets and the inherently complex nature of histopathology images. To address this challenge, we propose PathoPainter, which reformulates image-mask pair generation as a tumor inpainting task. Specifically, our approach preserves the background while inpainting the tumor region, ensuring precise alignment between the generated image and its corresponding mask. To enhance dataset diversity while maintaining biological plausibility, we incorporate a sampling mechanism that conditions tumor inpainting on regional embeddings from a different image. Additionally, we introduce a filtering strategy to exclude uncertain synthetic regions, further improving the quality of the generated data. Our comprehensive evaluation spans multiple datasets featuring diverse tumor types and various training data scales. As a result, segmentation improved significantly with our synthetic data, surpassing existing segmentation data synthesis approaches, e.g., 75.69\\% -> 77.69\\% on CAMELYON16. The code is available at https://github.com/HongLiuuuuu/PathoPainter.",
+  "authors": [
+    {
+      "name": "Liu, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Haosen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huijben, Evi M. C.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schuiveling, Mark",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Su, Ruisheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pluim, Josien P. W.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Veta, Mitko",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Image Segmentation",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1254_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

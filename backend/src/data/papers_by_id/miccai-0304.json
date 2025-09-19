@@ -1,0 +1,42 @@
+{
+  "id": "miccai-0304",
+  "title": "UNSURF: Uncertainty Quantification for Cortical Surface Reconstruction of Clinical Brain MRIs",
+  "abstract": "We propose a novel uncertainty measure for cortical surface reconstruction (UNSURF) of clinical brain MRI scans of any orientation, resolution, and contrast. It relies on the discrepancy between predicted voxel-wise signed distance functions (SDFs) and the actual SDFs of the fitted surfaces. Our experiments on real clinical scans show that traditional uncertainty measures, such as Monte Carlo variance, are not suitable for modeling the uncertainty of surface placement. Our results demonstrate that UNSURF estimates correlate well with the ground truth errors and: (i) enable effective automated quality control of surface reconstructions at the subject-, parcel-, mesh node-level; and (ii) improve performance on a downstream Alzheimer’s disease classification task.",
+  "authors": [
+    {
+      "name": "Gopinath, Karthik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mehta, Raghav",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Glocker, Ben",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Iglesias, Juan Eugenio",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Other",
+    "Machine Learning -> Uncertainty"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0304_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

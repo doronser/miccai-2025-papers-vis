@@ -1,0 +1,66 @@
+{
+  "id": "miccai-0431",
+  "title": "Vascular Photoacoustic Volume Registration via 2D Feature Matching with Reverse Mapping Based on Maximum Intensity Projection",
+  "abstract": "Photoacoustic (PA) imaging is an emerging biomedical imaging modality well-suited for visualizing blood vessels due to its noninvasive, label-free nature. Registering vascular PA volumetric images acquired at different times or viewpoints is crucial for tracking longitudinal changes and expanding the field of view for comprehensive vascular assessment. However, PA volumes exhibit characteristics such as sparsity, ambiguity, vascular network changes, and unavoidable body hair, which pose significant challenges and limit the accuracy and robustness of existing registration methods. We propose a robust affine registration framework to address PA registration challenges, integrating feature-based alignment, intensity-based refinement, and hair removal. We leverage 2D feature matching with reverse mapping based on maximum intensity projections (MIPs) to handle sparsity and ambiguity, enabling robust alignment. An intensity-based refinement further enhances accuracy by incorporating our feature-guided sampling strategy to mitigate the impact of vascular network changes. Additionally, we introduce a hair removal procedure to prevent hairs from affecting registration. Experimental evaluation, conducted in collaboration with medical experts, demonstrates that our method outperforms existing approaches in both accuracy and robustness on real PA volumes.",
+  "authors": [
+    {
+      "name": "Liao, Junda",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Chu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Asano, Yuta",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Suzuki, Yushi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bise, Ryoma",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Imanishi, Nobuaki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kishi, Kazuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Aiso, Sadakazu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sato, Imari",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Vasculature",
+    "Modalities -> Other",
+    "Applications -> Image Registration"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0431_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

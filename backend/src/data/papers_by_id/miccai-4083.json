@@ -1,0 +1,42 @@
+{
+  "id": "miccai-4083",
+  "title": "RedDino: A foundation model for red blood cell analysis",
+  "abstract": "Red blood cells (RBCs) are fundamental to human health, and precise morphological analysis is critical for diagnosing hematological disorders. Despite the potential of foundation models for medical diagnostics, comprehensive AI solutions for RBC analysis remain limited. \nWe introduce RedDino, a self-supervised foundation model specifically designed for RBC image analysis. Leveraging a RBC-tailored version of the DINOv2 self-supervised learning framework, RedDino is trained on an extensive, meticulously curated dataset comprising 1.25 million RBC images from diverse acquisition modalities and sources. Comprehensive evaluations demonstrate that RedDino significantly outperforms existing state-of-the-art models on the RBC shape classification task. Through systematic assessments, including linear probing and nearest neighbor classification, we validate the model’s robust feature representation and strong generalization capabilities. Our key contributions are (1) a dedicated foundation model tailored for RBC analysis, (2) detailed ablation studies exploring DINOv2 configurations for RBC modeling, and (3) comprehensive generalization performance evaluation. \nWe address key challenges in computational hematology by developing RedDino, a robust and generalizable model that captures nuanced morphological characteristics and represents a substantial advancement in developing reliable diagnostic tools.\nThe source code and pretrained models for RedDino are available at https://anonymous.4open.science/r/RedDino-1F17 .",
+  "authors": [
+    {
+      "name": "Zedda, Luca",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Loddo, Andrea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Di Ruberto, Cecilia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marr, Carsten",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4083_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "miccai-4385",
+  "title": "Endo-CLIP: Progressive Self-Supervised Pre-training on Raw Colonoscopy Records",
+  "abstract": "Pre-training on image-text colonoscopy records offers substantial potential for improving endoscopic image analysis, but faces challenges including non-informative background images, complex medical terminology, and ambiguous multi-lesion descriptions. We introduce Endo-CLIP, a novel self-supervised framework that enhances Contrastive Language-Image Pre-training (CLIP) for this domain. Endo-CLIP’s three stage framework—cleansing, attunement, and unification—addresses these challenges by: (1) removing background frames, (2) leveraging large language models (LLMs) to extract clinical attributes for fine-grained contrastive learning, and (3) employing patient-level cross-attention to resolve multi-polyp ambiguities. Extensive experiments demonstrate that Endo-CLIP significantly outperforms state-of-the-art pre-training methods in zero-shot and few-shot polyp detection and classification, paving the way for more accurate and clinically relevant endoscopic analysis. Code will be made publicly available on https://github.com/chrlott/EndoCLIP.",
+  "authors": [
+    {
+      "name": "He, Yili",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fu, Peiyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Ruijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Tianyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zhihua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Quanlin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Pinghong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Xian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4385_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

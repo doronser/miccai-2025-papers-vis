@@ -1,0 +1,38 @@
+{
+  "id": "miccai-2595",
+  "title": "Physics-Informed Neural Operators for Tissue Elasticity Reconstruction",
+  "abstract": "Magnetic Resonance Elastography (MRE) is a non-invasive imaging technique that estimates tissue elasticity using Magnetic Resonance Imaging. The conventional approach for elasticity reconstruction in MRE involves solving an inverse problem through numerical methods such as Helmholtz inversion and the finite element method. However, these techniques suffer from noise sensitivity and high computational costs due to iterative optimization. Recently, Physics-Informed Neural Networks (PINNs) have been studied for tissue elasticity reconstruction, integrating physical constraints into deep learning models. While PINNs improve noise resistance, they require a separate network to be trained for each instance, resulting in a computationally inefficient training. In this study, we introduce an operator learning-based approach to tissue elasticity reconstruction, which learns a generalized mapping from input measurements to tissue elasticity. This method enables simultaneous learning across multiple instances, significantly improving computational efficiency. Experimental results using box and abdomen simulation data show that our approach achieves superior reconstruction performance and robustness to noise.",
+  "authors": [
+    {
+      "name": "Kim, Youjin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Jae Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kwon, Junseok",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> MRI",
+    "Applications -> Visualization in Biomedical Imaging",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Data Science"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2595_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

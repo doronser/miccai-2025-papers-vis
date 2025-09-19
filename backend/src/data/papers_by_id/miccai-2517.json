@@ -1,0 +1,58 @@
+{
+  "id": "miccai-2517",
+  "title": "Uncertainty-Aware Multimodal MRI Fusion for HIV-Associated Asymptomatic Neurocognitive Impairment Prediction",
+  "abstract": "Asymptomatic neurocognitive impairment (ANI) is an early stage of HIV-associated neurocognitive disorder. Recent studies have investigated magnetic resonance imaging (MRI) for ANI analysis, but most of them rely on single modality, neglecting to utilize complementary information derived from multiple MRI modalties.\nFor a few multimodal MRI fusion studies, they usually suffer from ``modality laziness’’, where dominant modalities suppress weaker ones due to misalignment and scale disparities, limiting fusion efficacy. To address these issues, we propose Uncertainty-aware Multimodal MRI Fusion (UMMF), a novel framework integrating structural MRI, functional MRI, and diffusion tensor imaging for ANI identification. The UMMF employs modality-specific encoders with an uncertainty-aware alternating unimodal training strategy to reduce modality dominance and enhance feature extraction.\nMoreover, a random network prediction method is designed to estimate uncertainty weights for each modality, enabling robust uncertainty-aware fusion that prioritizes reliable modalities. \nExtensive experiments demonstrate UMMF’s superior performance over SOTA methods, achieving significant improvements in prediction accuracy. Additionally, our approach can help identify critical brain regions associated with ANI, offering potential clinical biomarkers for its early intervention. Our code is available at https://github.com/IsaacKingCzg/IK_MICCAI25_UMMF.",
+  "authors": [
+    {
+      "name": "Chen, Zige",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Haonan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Zhongkai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Fang, Yuqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shan, Caifeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2517_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

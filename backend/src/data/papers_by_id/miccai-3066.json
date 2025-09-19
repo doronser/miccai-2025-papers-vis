@@ -1,0 +1,37 @@
+{
+  "id": "miccai-3066",
+  "title": "Frequency Strikes Back: Boosting Parameter-Efficient Foundation Model Adaptation for Medical Imaging",
+  "abstract": "Adapting vision transformer (ViT) foundation models with parameter-efficient fine-tuning (PEFT) has become increasingly popular in medical imaging, enabling efficient adaptation while updating only a small subset of parameters. However, existing PEFT methods process tokens independently, overlooking cross-token dependencies and limiting their ability to capture global contextual information. To address these challenges, we propose FreqFiT, a novel Frequency-based Fine-Tuning module inserted between ViT blocks to enhance model adaptability. FreqFiT is effective and seamlessly integrates with existing PEFT methods to improve their performance. We evaluate FreqFiT across 2D and 3D medical imaging datasets, such as PAPILA, HAM10000, ADNI-1.5T, and COVID-CT-MD. It improves accuracy 9% and AUC 10%, surpassing the original PEFT methods on both MedMAE and DINOv2 backbones. Despite using only <1.2% of full fine-tuning parameters, FreqFiT achieves state-of-the-art medical imaging adaptation efficiently.",
+  "authors": [
+    {
+      "name": "Ly, Son T.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nguyen, Hien V.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Body -> Eye",
+    "Body -> Lung",
+    "Body -> Skin",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Modalities -> Photograph / Video",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3066_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

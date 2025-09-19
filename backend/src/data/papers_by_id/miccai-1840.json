@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1840",
+  "title": "Confidence Calibration for Multimodal LLMs: An Empirical Study through Medical VQA",
+  "abstract": "Multimodal Large Language Models (MLLMs) show great potential in medical tasks, but their elicited confidence often misaligns with actual accuracy, potentially leading to misdiagnosis or overlooking correct advice. This study presents the first comprehensive analysis of the relationship between accuracy and confidence in medical MLLMs. It proposes a novel method that combines Multi-Strategy Fusion-Based Interrogation (MS-FBI) with auxiliary expert LLM assessment, aiming to improve confidence calibration in Medical Visual Question Answering (VQA). Experiments demonstrate that our method reduces the Expected Calibration Error (ECE) by an average of 40% across three Medical VQA datasets, significantly enhancing MLLMs’ reliability. The findings highlight the importance of domain-specific calibration for MLLMs in healthcare, offering a more trustworthy solution for AI-assisted diagnosis.",
+  "authors": [
+    {
+      "name": "Du, Yuetian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yucheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kong, Ming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liang, Tian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Long, Qiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Bingdi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Qiang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Breast",
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1840_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

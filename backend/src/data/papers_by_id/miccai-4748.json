@@ -1,0 +1,56 @@
+{
+  "id": "miccai-4748",
+  "title": "Fetuses Made Simple: Modeling and Tracking of Fetal Shape and Pose",
+  "abstract": "Analyzing fetal body motion and shape is paramount in prenatal diagnostics and monitoring. Existing methods for fetal MRI analysis mainly rely on anatomical keypoints or volumetric body segmentations. Keypoints simplify body structure to facilitate motion analysis, but may ignore important details of full-body shape. Body segmentations capture complete shape information but complicate temporal analysis due to large non-local fetal movements. To address these limitations, we construct a 3D articulated statistical fetal body model based on the Skinned Multi-Person Linear Model (SMPL). Our algorithm iteratively estimates body pose in the image space and body shape in the canonical pose space. This approach improves robustness to MRI motion artifacts and intensity distortions, and reduces the impact of incomplete surface observations due to challenging fetal poses. We train our model on segmentations and keypoints derived from $19,816$ MRI volumes across $53$ subjects. Our model captures body shape and motion across time series and provides intuitive visualization. Furthermore, it enables automated anthropometric measurements traditionally difficult to obtain from segmentations and keypoints. When tested on unseen fetal body shapes, our method yields a surface alignment error of $3.2$ mm for $3$ mm MRI voxel size. To our knowledge, this represents the first 3D articulated statistical fetal body model, paving the way for enhanced fetal motion and shape analysis in prenatal diagnostics. The code is available at https://github.com/MedicalVisionGroup/fetal-smpl .",
+  "authors": [
+    {
+      "name": "Liu, Yingcheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Peiqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Diaz, Sebastian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Abaci Turk, Esra",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Billot, Benjamin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Grant, P. Ellen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Golland, Polina",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Fetal / Pediatric Imaging",
+    "Modalities -> MRI",
+    "Applications -> Visualization in Biomedical Imaging"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4748_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

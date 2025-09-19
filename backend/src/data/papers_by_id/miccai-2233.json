@@ -1,0 +1,59 @@
+{
+  "id": "miccai-2233",
+  "title": "Hard Sample Mining-based Tongue Diagnosis for Fatty Liver Disease Severity Classification",
+  "abstract": "Fatty liver disease (FLD) negatively affects over 30% of the global population and can ultimately lead to cirrhosis and death. Early detection and intervention on the severity of FLD help control its progression. However, facilities for assessing the severity of FLD are lacking in economically disadvantaged regions, highlighting an urgent need for a cost-effective and scalable screening method. Traditional Chinese Medicine (TCM) suggests a strong correlation between tongue characteristics and liver health, positioning tongue diagnosis as a non-invasive means for assessing FLD severity. Establishing an automated tongue diagnosis method holds promise for large-scale and rapid classification of FLD severity among rural populations. In this paper we present a Hard sample Mining-based Tongue Diagnosis Framework (HM-TDF) for multi-class classification of FLD severity. The HM-TDF identifies hard samples using a novel uncertainty estimation approach and addresses them through a multi-expert classifier. We introduce a Multi-source Feature Fusion Kolmogorov-Arnold Network (MFF-KAN) to model the relationship between tongue images plus basic physiological indicators and FLD severity. We propose a three-step training strategy to train this heterogeneous model. We construct and release a novel tongue diagnosis dataset for FLD severity classification, named Tongue-FLD, to advance research in automated tongue diagnosis. Experimental results on this dataset indicate that the proposed method surpasses existing automated tongue diagnosis methods in the classification of FLD severity. Moreover, MFF-KAN effectively visualizes the key pathways from input to output, providing strong interpretability. The dataset and code are available at https://github.com/MLDMXM2017/HM-TDF.",
+  "authors": [
+    {
+      "name": "Chen, Tao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiu, Weihong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Yijie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ye, Weimin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Kunhong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2233_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

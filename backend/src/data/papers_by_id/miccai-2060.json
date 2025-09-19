@@ -1,0 +1,32 @@
+{
+  "id": "miccai-2060",
+  "title": "A Large-scale Neural Model Inversion Framework for Effective Connectivity Estimation",
+  "abstract": "The development of a computational framework that can infer largescale brain-wide effective connectivity (EC) based on resting-state functional MRI (rs-fMRI) represents a grand challenge to computational neuroimaging. Towards the goal of estimating full-scale, whole-brain EC, we developed a new computational framework termed Large-scale nEural Model Inversion (LEMI) by utilizing a linear neural mass model with an efficient Kalman-filter based gradient descent algorithm. Key advantages of LEMI include fast estimation of both intra-regional and inter-regional connection strengths for large-scale networks, allowing exploration of both intrinsic and external mechanisms in neuroscience problems. Using ground-truth simulations, we demonstrated that LEMI can accurately and efficiently recover model parameters in a large network (100 regions) within 90 minutes. We then applied the LEMI model to an empirical rs-fMRI dataset from the ADNI database and identified widespread reduced excitation-inhibition (E-I) ratio in patients with Alzheimer’s disease (AD). Overall, LEMI provides an efficient and accurate computational framework to estimate large-scale EC and whole-brain E-I balance based on non-invasive neuroimaging data.",
+  "authors": [
+    {
+      "name": "Li, Guoshi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yap, Pew-Thian",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Applications -> Brain Network Analysis",
+    "Applications -> Computational (Integrative) Pathology"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2060_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

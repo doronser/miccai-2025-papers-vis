@@ -1,0 +1,39 @@
+{
+  "id": "miccai-2788",
+  "title": "MOST: MR reconstruction Optimization for multiple downStream Tasks via continual learning",
+  "abstract": "Deep learning-based Magnetic Resonance (MR) reconstruction methods have focused on generating high-quality images but often overlook the impact on downstream tasks (e.g., segmentation) that utilize the reconstructed images. Cascading separately trained reconstruction network and downstream task network has been shown to introduce performance degradation due to error propagation and the domain gaps between training datasets. To mitigate this issue, downstream task-oriented reconstruction optimization has been proposed for a single downstream task. In this work, we extend the optimization to handle multiple downstream tasks that are introduced sequentially via continual learning. The proposed method integrates techniques from replay-based continual learning and image-guided loss to overcome catastrophic forgetting. Comparative experiments demonstrated that our method outperformed a reconstruction network without finetuning, a reconstruction network with naïve finetuning, and conventional continual learning methods. The source code is available at: https://github.com/SNU-LIST/MOST.",
+  "authors": [
+    {
+      "name": "Jeong, Hwihun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chun, Se Young",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Jongho",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2788_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

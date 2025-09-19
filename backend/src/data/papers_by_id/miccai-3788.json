@@ -1,0 +1,59 @@
+{
+  "id": "miccai-3788",
+  "title": "More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era",
+  "abstract": "The emergence of Large Language Models (LLMs) presents unprecedented opportunities to revolutionize medical contrastive vision-language pre-training. In this paper, we show how LLMs can facilitate large-scale supervised pre-training, thereby advancing vision-language alignment. We begin by demonstrate that modern LLMs can automatically extract diagnostic labels from radiology reports with remarkable precision (>96\\% AUC in our experiments) without complex prompt engineering, enabling the creation of large-scale “silver-standard” datasets at a minimal cost (~$3 for 50k CT image-report pairs). Further, we find that vision encoder trained on this “silver-standard” dataset achieves performance comparable to those trained on labels extracted by specialized BERT-based models, thereby democratizing the access to large-scale supervised pre-training. Building on this foundation, we proceed to reveal that supervised pre-training fundamentally improves contrastive vision-language alignment. Our approach achieves state-of-the-art performance using only a 3D ResNet-18 with vanilla CLIP training, including 83.8\\% AUC for zero-shot diagnosis on CT-RATE, 77.3\\% AUC on RAD-ChestCT, and substantial improvements in cross-modal retrieval (MAP@50=53.7\\% for image-image, Recall@100=52.2\\% for report-image). These results demonstrate the potential of utilizing LLMs to facilitate more performant and scalable medical AI systems. Our code is avaiable at https://github.com/SigmaLDC/More-performant-and-scalable.",
+  "authors": [
+    {
+      "name": "Li, Yingtai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lai, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Xiaoqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ming, Shuai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Wenxin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, S. Kevin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3788_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

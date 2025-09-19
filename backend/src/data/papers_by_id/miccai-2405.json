@@ -1,0 +1,47 @@
+{
+  "id": "miccai-2405",
+  "title": "CardioInterp: Generative Modeling for Cardiovascular OCT Interpolation with Anatomical Continuity and Fidelity",
+  "abstract": "Cardiovascular Optical Coherence Tomography (OCT) is hindered by the brief imaging window provided by contrast agents, making it challenging to capture high-resolution images of multiple plaques over long vessel sections. Rapid catheter pullback and coarse spatial resolution increase the likelihood of missing subtle pathologies and critical plaque microstructures, compromising diagnostic accuracy. To address this, we introduce CardioInterp, the first generative interpolation model for cardiovascular OCT, designed to synthesize high-fidelity intermediate B-slices, enhancing structural continuity and spatial resolution. Our architecture integrates a latent diffusion framework with a novel Dual-Path Fusion Decoder designed to ensure inter-slice structural continuity while preserving microanatomical fidelity. Experiments on cardiovascular OCT datasets demonstrate that CardioInterp achieves superior interpolation quality (PSNR=28.59, SSIM=51.80%) at 6 times upscaling of B-slices and spatial resolution, surpassing traditional medical image interpolation methods and setting a new benchmark. This innovative computational approach enables high-resolution imaging of long vessel sections within a limited temporal window in cardiovascular OCT. The code is available at: https://github.com/Lee728243228/CardioInterp.",
+  "authors": [
+    {
+      "name": "Li, Linyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Bing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Minqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Mengxian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuan, Wu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> Other",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2405_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

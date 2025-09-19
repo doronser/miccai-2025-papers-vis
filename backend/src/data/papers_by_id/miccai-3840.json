@@ -1,0 +1,73 @@
+{
+  "id": "miccai-3840",
+  "title": "TRACE: Temporally Reliable Anatomically-Conditioned 3D CT Generation with Enhanced Efficiency",
+  "abstract": "3D medical image generation is essential for data augmentation and patient privacy, calling for reliable and efficient models suited for clinical practice. However, current methods suffer from limited anatomical fidelity, restricted axial length, and substantial computational cost, placing them beyond reach for regions with limited resources and infrastructure. We introduce TRACE, a framework that generates 3D medical images with spatiotemporal alignment using a 2D multimodal conditioned diffusion approach. TRACE models sequential 2D slices as video frame pairs, combining segmentation priors and radiology reports for anatomical alignment, incorporating optical flow to sustain temporal coherence. During inference, an overlapping-frame strategy links frame pairs into a flexible length sequence, reconstructed into a spatiotemporally and anatomically aligned 3D volume. Experimental results demonstrate that TRACE effectively balances computational efficiency with preserving anatomical fidelity and spatiotemporal consistency. Code is available at: https://github.com/VinyehShaw/TRACE",
+  "authors": [
+    {
+      "name": "Shao, Minye",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Miao, Xingyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Duan, Haoran",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Zeyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jingkun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Yawen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Xian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Deng, Jingjing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Long, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yefeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Body -> Spine",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computational Anatomy and Physiology",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3840_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

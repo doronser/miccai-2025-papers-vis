@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0445",
+  "title": "Predicting Radiation Therapy Response based on Dynamic Temporal Feature Difference Fusion from Longitudinal MRI",
+  "abstract": "Significant progress has been made in AI-based prediction of therapeutic response to neoadjuvant chemotherapy (NAC) in breast cancer. However, current studies primarily rely on data from a single time point, neglecting the dynamic changes in tumor characteristics during treatment. To address this limitation, we propose a novel Dynamic Temporal Feature Difference Fusion (DTFDF) framework, which integrates image features from multiple time points throughout the treatment process to predict therapy response more precisely. Based on tumor spatial features, we design an innovative DTFDF strategy and introduce a treatment response-based triplet contrastive loss function to facilitate the learning of longitudinal tumor changes and enhance feature representation. Additionally, we incorporate biomarker prediction as an auxiliary task and introduce a feature decoupling-based multi-task learning module. This module generates feature representations for different tasks by accounting for both shared and task-specific information, improving response prediction. Experiments with data from 786 patients in the I-SPY 2 trial dataset demonstrate that our method achieves the highest AUC of 0.835 in predicting radiation therapy response, outperforming state-of-the-art (SOTA) approaches on longitudinal dynamic contrast-enhanced MRI data. Our source code is available at https://github.com/AlexNmSED/DTFDF.",
+  "authors": [
+    {
+      "name": "Hao, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Hongming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Qibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xiaofeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Polonen, Ilkka",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cong, Fengyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI - Diffusion Imaging",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0445_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

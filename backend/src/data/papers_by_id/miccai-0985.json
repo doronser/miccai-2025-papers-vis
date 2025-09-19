@@ -1,0 +1,54 @@
+{
+  "id": "miccai-0985",
+  "title": "Hierarchical Vision-Language Learning for Medical Out-of-Distribution Detection",
+  "abstract": "In trustworthy medical diagnosis systems, integrating out-of-distribution (OOD) detection aims to identify unknown diseases in samples, thereby mitigating the risk of misdiagnosis. In this study, we propose a novel OOD detection framework based on vision-language models (VLMs), which integrates hierarchical visual information to cope with challenging unknown diseases that resemble known diseases. Specifically, a cross-scale visual fusion strategy is proposed to couple visual embeddings from multiple scales. This enriches the detailed representation of medical images and thus improves the discrimination of unknown diseases. Moreover, a cross-scale hard pseudo-OOD sample generation strategy is proposed to benefit OOD detection maximally. Experimental evaluations on three public medical datasets support that the proposed framework achieves superior OOD detection performance compared to existing methods. The source code is available at https://openi.pcl.ac.cn/OpenMedIA/HVL.",
+  "authors": [
+    {
+      "name": "Lai, Runhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Xinhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Kanghao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Qichao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Wei-Shi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ruixuan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Body -> Skin",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0985_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

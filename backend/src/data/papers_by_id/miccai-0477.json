@@ -1,0 +1,59 @@
+{
+  "id": "miccai-0477",
+  "title": "Multi-Agent Reasoning for Cardiovascular Imaging Phenotype Analysis",
+  "abstract": "Identifying the associations between imaging phenotypes and disease risk factors and outcomes is essential for understanding disease mechanisms and improving diagnosis and prognosis models. However, traditional approaches rely on human-driven hypothesis testing and selection of association factors, often overlooking complex, non-linear dependencies among imaging phenotypes and other multi-modal data. To address this, we introduce a MESHAgents framework that leverages large language models as agents to dynamically elicit, surface, and decide confounders and phenotypes in association studies, using cardiovascular imaging as a proof of concept. Specifically, we orchestrate a multi-disciplinary team of AI agents, which spontaneously generate and converge on insights through iterative, self-organizing reasoning. The framework dynamically synthesizes statistical correlations with multi-expert consensus, providing an automated pipeline for phenome-wide association studies (PheWAS). We demonstrate the system’s capabilities through a population-based study of imaging phenotypes of the heart and aorta. The framework autonomously uncovered correlations between imaging phenotypes and a wide range of non-imaging factors, identifying additional confounder variables beyond standard demographic factors. Validation on diagnosis tasks reveals that MESHAgents-discovered phenotypes achieve performance comparable to expert-selected phenotypes, with mean AUC differences as small as -0.004 on disease classification tasks. Notably, the recall score based on MESHAgents improves for 6 out of 9 disease types. These results demonstrate MESHAgents’ ability to automatically discover clinically relevant imaging phenotypes with transparent reasoning trails, providing a scalable alternative to traditional expert-driven approaches in medical imaging studies.",
+  "authors": [
+    {
+      "name": "Zhang, Weitong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiao, Mengyun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zang, Chengqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Niederer, Steven",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Matthews, Paul M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Bai, Wenjia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kainz, Bernhard",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Image-Guided Interventions",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Skill and Work Flow Analysis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0477_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

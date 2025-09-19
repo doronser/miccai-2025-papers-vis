@@ -1,0 +1,47 @@
+{
+  "id": "miccai-0279",
+  "title": "ConStyX: Content Style Augmentation for Generalizable Medical Image Segmentation",
+  "abstract": "Medical images are usually collected from multiple domains, leading to domain shifts that impair the performance of medical image segmentation models. Domain Generalization (DG) aims to address this issue by training a robust model with strong generalizability. Re- cently, numerous domain randomization-based DG methods have been proposed. However, these methods suffer from the following limitations: 1) constrained efficiency of domain randomization due to their exclusive dependence on image style perturbation, and 2) neglect of the adverse effects of over-augmented images on model training. To address these is- sues, we propose a novel domain randomization-based DG method, called content style augmentation (ConStyX), for generalizable medical image segmentation. Specifically, ConStyX 1) augments the content and style of training data, allowing the augmented training data to better cover a wider range of data domains, and 2) leverages well-augmented features while mitigating the negative effects of over-augmented features during model training. Extensive experiments across multiple domains demonstrate that our ConStyX achieves superior generalization performance. The code is available at https://github.com/jwxsp1/ConStyX .",
+  "authors": [
+    {
+      "name": "Chen, Xi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shen, Zhiqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cao, Peng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jinzhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zaiane, Osmar R.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Photograph / Video",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0279_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "miccai-3185",
+  "title": "Text-Guided Multi-Instance Learning for Scoliosis Screening via Gait Video Analysis",
+  "abstract": "Early-stage scoliosis is often difficult to detect, particularly in adolescents, where delayed diagnosis can lead to serious health issues. Traditional X-ray-based methods carry radiation risks and rely heavily on clinical expertise, limiting their use in large-scale screenings. To overcome these challenges, we propose a Text-Guided Multi-Instance Learning Network (TG-MILNet) for non-invasive scoliosis detection using gait videos. To handle temporal misalignment in gait sequences, we employ Dynamic Time Warping (DTW) clustering to segment videos into key gait phases. To focus on the most relevant diagnostic features, we introduce an Inter-Bag Temporal Attention (IBTA) mechanism that highlights critical gait phases. Recognizing the difficulty in identifying borderline cases, we design a Boundary-Aware Model (BAM) to improve sensitivity to subtle spinal deviations. Additionally, we incorporate textual guidance from domain experts and large language models (LLM) to enhance feature representation and improve model interpretability. Experiments on the large-scale Scoliosis1K gait dataset show that TG-MILNet achieves state-of-the-art performance, particularly excelling in handling class imbalance and accurately detecting challenging borderline cases. The code is available at https://github.com/lhqqq/TG-MILNet",
+  "authors": [
+    {
+      "name": "Li, Haiqing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Guo, Yuzhi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jiang, Feng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dang, Thao M.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Hehuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Qifeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Jean",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Junzhou",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Spine",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3185_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

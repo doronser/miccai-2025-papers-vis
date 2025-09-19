@@ -1,0 +1,48 @@
+{
+  "id": "miccai-2372",
+  "title": "Integrating meta-analysis in multi-modal brain studies with graph-based attention transformer",
+  "abstract": "Multi-modal neuroimaging studies are essential for exploring various brain disorders; however, they are typically limited in sample size owing to the cost of image acquisition. Meta-analysis is an underutilized method that integrates the findings from multiple studies derived from large samples to assist individual studies. Neuroimaging studies are increasingly adopting transformer architecture for network analysis; however, they tend to overlook local brain networks. To address these gaps, we propose the Meta-analysis Enhanced Graph Attention TransFormer (MEGATF), a novel method for performing multimodal brain analysis built on a graph transformer framework aided with meta-analysis information derived from NeuroSynth. Our method adapts a graph neural network with a transformer attention mechanism that favors local networks and multimodal interactions using PET or cortical thickness. Our method achieved a state-of-the-art classification performance on mild cognitive impairment and attention-deficit/hyperactivity disorder datasets, distinguishing individuals with brain disorders from controls. Furthermore, it identified disease-affected brain regions and associated cognitive decoding that aligned with existing findings, thereby enhancing its interpretability. Our code is at https://github.com/gudtls17/MEGATF.",
+  "authors": [
+    {
+      "name": "Choi, Hyoungshin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Sunghun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Jong-eun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Bo-yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Hyunjin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI - Functional MRI",
+    "Modalities -> Nuclear Imaging",
+    "Applications -> Brain Network Analysis",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2372_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

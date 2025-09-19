@@ -1,0 +1,45 @@
+{
+  "id": "miccai-0408",
+  "title": "SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification",
+  "abstract": "Deep neural networks (DNNs) have demonstrated remarkable success in medical imaging, yet their real-world deployment remains challenging due to spurious correlations, where models can learn non-clinical features instead of meaningful medical patterns. Existing medical imaging datasets are not designed to systematically study this issue, largely due to restrictive licensing and limited supplementary patient data. To address this gap, we introduce SpurBreast, a curated breast MRI dataset that intentionally incorporates spurious correlations to evaluate their impact on model performance. Analyzing over 100 features involving patient, device, and imaging protocol, we identify two dominant spurious signals: magnetic field strength (a global feature influencing the entire image) and image orientation (a local feature affecting spatial alignment). Through controlled dataset splits, we demonstrate that DNNs can exploit these non-clinical signals, achieving high validation accuracy while failing to generalize to unbiased test data. Alongside these two datasets containing spurious correlations, we also provide benchmark datasets without spurious correlations, allowing researchers to systematically investigate clinically relevant and irrelevant features, uncertainty estimation, adversarial robustness, and generalization strategies. Models and datasets are available at https://github.com/utkuozbulak/spurbreast.",
+  "authors": [
+    {
+      "name": "Won, Jong Bum",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "De Neve, Wesley",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Vankerschaver, Joris",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ozbulak, Utku",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Breast",
+    "Modalities -> MRI",
+    "Applications -> Anomaly Detection",
+    "Machine Learning -> Algorithmic Fairness",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Uncertainty",
+    "Machine Learning -> Validation"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0408_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

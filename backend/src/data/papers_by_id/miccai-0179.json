@@ -1,0 +1,70 @@
+{
+  "id": "miccai-0179",
+  "title": "Anatomy-based Self-supervised Pre-training for Scale-robust Hierarchical Representations in Chest X-rays",
+  "abstract": "In self-supervised pre-training, learning consistent and hierarchical representations that capture relationships among anatomical semantics holds promise for enhancing the performance and interpretability of downstream tasks. However, the representations learned by existing methods are vulnerable to scale variations, which manifests as inconsistency on some scales and misjudgments of hierarchy. Therefore, we propose a scale-robust anatomical representation learning framework with self-supervision, which incorporates contrastive learning with our newly proposed pretext tasks: location-scale prediction(LSP) and ecomposition prediction(DP). Our method addresses the vulnerability from three aspects: 1) It uses multi-scale patches as inputs to embrace diverse anatomical semantics in pre-training. 2) LSP promotes consistency at multi-scales by enhancing the model’s sensitivity to scale and resolving representation conflicts caused by multi-scale inputs. 3) DP eliminates hierarchy misjudgments by producing hierarchical representations for anatomies and their constituent parts that better balance the similarity and discriminability. Evaluations across six chest X-ray datasets demonstrate that the representations learned by our method are consistent and hierarchical at multi-scales and have great transferring ability to various downstream tasks. The code is publicly available at https://github.com/SurongChu/SRHRS.",
+  "authors": [
+    {
+      "name": "Chu, Surong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qiang, Yan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ji, Guohua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ren, Xueting",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Lijing",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Baoping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Yangyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Juanjuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Shuo",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning",
+    "Surgery -> Data Science",
+    "Special Topic -> MIC and CAI Solutions for Limited-Resource Environments"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0179_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

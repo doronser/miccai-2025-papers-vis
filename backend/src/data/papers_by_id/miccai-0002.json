@@ -1,0 +1,34 @@
+{
+  "id": "miccai-0002",
+  "title": "Surface-based Multi-Axis Longitudinal Disentanglement Using Contrastive Learning for Alzheimer’s Disease",
+  "abstract": "Accurate modeling of disease progression is essential for comprehending the heterogeneous neuropathologies such as Alzheimer’s Disease (AD). Traditional neuroimaging analysis often confound disease effects with normal aging, complicating the differential diagnosis. Recent advancements in deep learning have catalyzed the development of disentanglement techniques in Autoencoder networks, aiming to segregate longitudinal changes attributable to aging from those due to disease-specific alterations within the latent space. However, existing longitudinal disentanglement methods usually model disease as a single axis factor which ignores the complexity and heterogeneity of Alzheimer’s Disease. In response to this issue, we propose a novel Surface-based Multi-axis Disentanglement framework.This framework posits multiple disease axes within the latent space, enhancing the model’s capacity to encapsulate the multifaceted nature of AD, which includes various disease trajectories. To assign axes to data trajectories without explicit ground truth labels, we implement a longitudinal contrastive loss leveraging self-supervision, thereby refining the separation of disease trajectories. Evaluated on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset (N=1321), our model demonstrates superior performance in delineating between cognitively normal (CN), mild cognitive impairment (MCI), and AD subjects,classification of stable MCI vs converting MCI and Amyloid status, compared to the single-axis model. This is further substantiated through an  ablation study on the contrastive loss, underscoring the utility of our multi-axis approach in capturing the complex progression patterns of AD. The code is available at: https://github.com/jianweizhang17/MultiAxisDisentanglement.git",
+  "authors": [
+    {
+      "name": "Zhang, Jianwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shi, Yonggang",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> MRI",
+    "Applications -> Computational (Integrative) Pathology",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0002_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

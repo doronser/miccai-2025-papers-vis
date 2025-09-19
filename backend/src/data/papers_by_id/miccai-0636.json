@@ -1,0 +1,53 @@
+{
+  "id": "miccai-0636",
+  "title": "Dual Selective Gleason Pattern-Aware Multiple Instance Learning for Grade Group Prediction in Histopathology Images",
+  "abstract": "The Gleason Grade Group is the gold standard for diagnosing and prognosticating prostate cancer. Existing multiple instance learning (MIL) methods for Grade Group classification have overlooked domain-specific knowledge that the Grade Group is collaboratively determined by different Gleason Patterns, limiting their performance. In this study, we propose DSPA-MIL, a Dual Selective Gleason Pattern-Aware MIL model for patient-level Grade Group prediction. Our approach incorporates a dual selective instance aggregation strategy, combining selective aggregator tokens and patch-level Gleason pattern expert concept-guided aggregation. Furthermore, to effectively utilize patient-level Grade Group expert concepts, we introduce a knowledge-distillation-based framework for training and inference, enabling accurate Grade Group score prediction. Experimental results on five datasets comprising 10,809 whole slide images (WSIs) and 1,133 tissue microarray (TMA) images demonstrate the superiority of our method, which outperforms state-of-the-art (SOTA) MIL approaches. The code is available at https://github.com/AlexNmSED/DSPA-MIL.",
+  "authors": [
+    {
+      "name": "Hao, Xinyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Hongming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Qibin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Qi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Polonen, Ilkka",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cong, Fengyu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Urology",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0636_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

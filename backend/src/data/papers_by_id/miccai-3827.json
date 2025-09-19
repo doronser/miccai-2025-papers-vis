@@ -1,0 +1,47 @@
+{
+  "id": "miccai-3827",
+  "title": "Knowledge-Enhanced Complementary Information Fusion with Temporal Heterogeneous Graph Learning for Disease Prediction",
+  "abstract": "Disease prediction based on multimodal   data is a critical yet challenging task in healthcare, especially in intensive care units (ICUs) where patients present complex clinical trajectories with multiple admissions and comorbidities. Current multimodal learning approaches lack effective modeling of cross-modal complementary information, which leads to suboptimal feature interactions. Besides, traditional methods that incorporate external knowledge graphs (KGs) often introduce noise and computational complexity, due to the use of all one-hop neighbors within the KGs. To address these challenges, we propose Knowledge-Enhanced Complementary Information Fusion with temporal heterogeneous graph learning (KCIF) for patient modeling. KCIF introduces a temporal heterogeneous admission graph (THAG) that integrates KGs to capture semantic and temporal dependencies across admissions. It further employs a complementary information fusion mechanism to leverage mutual enhancement between lab tests and medical events. Extensive experiments on the MIMIC-III/IV benchmarks demonstrate that KCIF consistently outperforms baselines, achieving improvements of over 2.5\\%–6.0\\% in $w$-$F_1$ score and 1.7\\%–4.5\\% in $R@20$ across multiple ICU disease prediction. The code is available at \\url{https://github.com/Boaz-SCUT/KCIF}.",
+  "authors": [
+    {
+      "name": "Yang, Zongbao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Shihuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Zhichen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ruxin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Body -> other",
+    "Modalities -> Other",
+    "Applications -> Computer Aided Diagnosis"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3827_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

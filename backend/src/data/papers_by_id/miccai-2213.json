@@ -1,0 +1,38 @@
+{
+  "id": "miccai-2213",
+  "title": "Target Prior-enriched Implicit 3D CT Reconstruction with Adaptive Ray Sampling",
+  "abstract": "Existing implicit 3D reconstruction methods utilizing NeRF and its variants for internal CT often overlook anatomical priors of target objects, limiting accuracy in ultra-sparse view scenarios. We present TP-INR, a novel framework that leverages sparse-view projections to generate high-quality anatomical priors for structural encoding of objects. By combining prior-based structural encoding with positional encoding, TP-INR enhances implicit representations for precise CT reconstruction with minimal supervision in these challenging conditions. Additionally, we tailor the implicit framework for medical applications through refined network design and adaptive ray-based training, improving both accuracy and efficiency. Experimental results across various organ regions demonstrate that TP-INR outperforms state-of-the-art methods in reconstruction quality and efficiency, relying solely on projection data. Code is available upon request.",
+  "authors": [
+    {
+      "name": "Cao, Qinglei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Ziyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tang, Xiaoqin",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2213_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

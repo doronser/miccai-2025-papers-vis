@@ -1,0 +1,42 @@
+{
+  "id": "miccai-1233",
+  "title": "PromptReg: Universal Medical Image Registration via Task Prompt Learning and Domain Knowledge Transfer",
+  "abstract": "Most existing deep learning-based registration methods are typically constrained to dataset-specific optimization, requiring separate models for different data characteristics. In contrast, training a single model across diverse datasets presents an opportunity to create a universal registration framework capable of handling multiple domains simultaneously. However, key challenges remain in achieving effective cross-dataset adaptation while maintaining robust generalization capabilities, particularly for zero-shot registration tasks. In this work, we propose PromptReg, a universal image registration framework that incorporates prompt learning to guide the model in effectively adapting to different registration scenarios through explicit task prompts. The core of PromptReg is a Registration Prompt Generator (RPG) that generates domain-specific task prompts based on the domains of input images. Specifically, we first introduce a Static Knowledge Base (SKB) to store domain prompts and a dynamic prompt generation mechanism that projects different inputs into a shared prompt space. Then, we propose an adaptive prompt fusion strategy that combines stored domain knowledge based on the similarity between the generated dynamic prompt and the prompts in SKB, creating transferable knowledge for unseen domains. Finally, we optimize the prompt generator using domain orthogonality and task similarity losses. Our experiments show that PromptReg achieves competitive performance in universal registration and offers stronger zero-shot generalization. The code is available at https://github.com/xiehousheng/PromptReg.",
+  "authors": [
+    {
+      "name": "Xie, Housheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Xiaoru",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Guoyan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Body -> Brain",
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Modalities -> MRI",
+    "Applications -> Image Registration",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1233_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

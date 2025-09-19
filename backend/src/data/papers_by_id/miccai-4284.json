@@ -1,0 +1,52 @@
+{
+  "id": "miccai-4284",
+  "title": "Focus on Texture: Rethinking Pre-training in Masked Autoencoders for Medical Image Classification",
+  "abstract": "Masked Autoencoders (MAEs) have emerged as a dominant strategy for self-supervised representation learning in natural images, where models are pre-trained to reconstruct masked patches with a pixel-wise mean squared error (MSE) between original and reconstructed RGB values as the loss. We observe that MSE encourages blurred image reconstruction, but still works for natural images as it preserves dominant edges. However, in medical imaging, when the texture cues are more important for classification of a visual abnormality, the strategy fails. Taking inspiration from Gray Level Co-occurrence Matrix (GLCM) feature in Radiomics studies, we propose a novel MAE based pre-training framework, GLCM-MAE, using reconstruction loss based on matching GLCM. GLCM captures intensity and spatial relationships in an image, hence proposed loss helps preserve morphological features. Further, we propose a novel formulation to convert matching GLCM matrices into a differentiable loss function. We demonstrate that unsupervised pre-training on medical images with the proposed GLCM loss improves representations for downstream tasks. GLCM-MAE outperforms the current state-of-the-art across four tasks – gallbladder cancer detection from ultrasound images by 2.1%, breast cancer detection from ultrasound by 3.1%, pneumonia detection from x-rays by 0.5%, and COVID detection from CT by 0.6%. Source code and pre-trained models are available at: https://github.com/ChetanMadan/GLCM-MAE",
+  "authors": [
+    {
+      "name": "Madan, Chetan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Satia, Aarjav",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Basu, Soumen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gupta, Pankaj",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Dutta, Usha",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Arora, Chetan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Ultrasound",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4284_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

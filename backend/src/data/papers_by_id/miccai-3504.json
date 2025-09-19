@@ -1,0 +1,79 @@
+{
+  "id": "miccai-3504",
+  "title": "Contrastive Masked Video Modeling for Coronary Angiography Diagnosis",
+  "abstract": "Patients with valvular heart disease often exhibit motion characteristics such as artery movements and anatomic characteristics, thus extracting dynamic features from coronary angiography (CAG) is of great significance for diagnosing. Given the challenge of limited annotated medical imaging data, we propose a novel self-supervised learning framework that integrates masked video modeling (MVM) and video contrastive learning, enabling the model to learn representations with both strong instance discriminability between video segments and local perceptibility between neighboring frames. Specifically, our framework consists of three key components: an off-the-shelf frozen encoder, an online encoder-decoder following the MVM pipeline and a momentum encoder composed of an exponential moving average of previous students. We enhance the integration of contrastive learning and MVM in mainly two ways: the frozen encoder converts the supervision of masked reconstruction from low-level pixels to high-level features; an augmentation strategy called frame shifting, is introduced specifically for video contrastive learning. \nTo validate the effectiveness of our proposed method, we first conducted self-supervised pre-training on over 50,000 self-collected, unlabeled CAG sequences. Subsequently, we performed supervised fine-tuning using two small-scale labeled CAG diagnostic datasets, achieving state-of-the-art performance (98.1% and 75.0% F1-Score, respectively) in both supervised and self-supervised video recognition domains. \nOur code is publicly available at: https://github.com/ZmingShao/ConMVM.",
+  "authors": [
+    {
+      "name": "Shao, Zhiming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yingqian",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wei, Zechen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ge, Yong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Chen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ding, Guodong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Gao, Lei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Liwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Yundai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tian, Jie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hui, Hui",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3504_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

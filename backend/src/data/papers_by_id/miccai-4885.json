@@ -1,0 +1,53 @@
+{
+  "id": "miccai-4885",
+  "title": "CytoSAE: Interpretable Cell Embeddings for Hematology",
+  "abstract": "Sparse autoencoders (SAEs) emerged as a promising tool for mechanistic interpretability of transformer-based foundation models. Recently, SAEs were also adopted for the visual domain, enabling the discovery of visual concepts and their patch-wise attribution to input images. While foundation models are increasingly applied to medical imaging, tools for interpreting their predictions remain limited. In this work, we propose CytoSAE, a sparse autoencoder trained on over 40,000 peripheral blood single-cell images. CytoSAE generalizes well to diverse and out-of-domain datasets-including bone marrow cytology. Here, it identifies morphologically relevant concepts which we validated with medical experts. Furthermore, we demonstrate scenarios in which CytoSAE can generate patient-specific and disease-specific concepts, enabling the detection of pathognomonic cells and localized cellular abnormalities at patch-level. We quantified the effect of concepts on a patient-level AML subtype classification task and show that CytoSAE concepts reach performance comparable to the state-of-the-art, while offering explainability on the sub-cellular level. Source code and model weights are available at https://github.com/dynamical-inference/cytosae.",
+  "authors": [
+    {
+      "name": "Dasdelen, Muhammed Furkan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lim, Hyesu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Buck, Michele",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Götze, Katharina S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Marr, Carsten",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Schneider, Steffen",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/4885_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

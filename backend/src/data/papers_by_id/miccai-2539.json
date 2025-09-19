@@ -1,0 +1,49 @@
+{
+  "id": "miccai-2539",
+  "title": "CTSL: Codebook-based Temporal-Spatial Learning for Accurate Non-Contrast Cardiac Risk Prediction Using Cine MRIs",
+  "abstract": "Accurate and contrast-free Major Adverse Cardiac Events (MACE) prediction from Cine MRI sequences remains a critical challenge. Existing methods typically necessitate supervised learning based on human-refined masks in the ventricular myocardium, which become impractical without contrast agents. We introduce a self-supervised framework, namely Codebook-based Temporal-Spatial Learning (CTSL),  that learns dynamic, spatiotemporal representations from raw Cine data without requiring segmentation masks. CTSL decouples temporal and spatial features through a multi-view distillation strategy, where the teacher model processes multiple Cine views, and the student model learns from lower-dimensional Cine-SA sequences. By leveraging codebook-based feature representations and dynamic lesion self-detection through motion cues, CTSL captures intricate temporal dependencies and motion patterns. High-confidence MACE risk predictions are achieved through our model, providing a rapid, non-invasive solution for cardiac risk assessment that outperforms traditional contrast-dependent methods, thereby enabling timely and accessible heart disease diagnosis in clinical settings.",
+  "authors": [
+    {
+      "name": "Su, Haoyang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Rui, Shaohao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiang, Jinyi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wu, Lianming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xiaosong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Computer Aided Diagnosis",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/2539_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

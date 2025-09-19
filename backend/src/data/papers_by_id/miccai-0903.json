@@ -1,0 +1,68 @@
+{
+  "id": "miccai-0903",
+  "title": "GrInAdapt: Source-free Multi-Target Domain Adaptation for Retinal Vessel Segmentation",
+  "abstract": "Retinal vessel segmentation is critical for diagnosing ocular conditions, yet current deep learning methods are limited by modality-specific challenges and significant distribution shifts across imaging devices, resolutions, and anatomical regions. In this paper, we propose GrInAdapt, a novel framework for source-free multi-target domain adaptation that leverages multi-view images to refine segmentation labels and enhance model generalizability for optical coherence tomography angiography (OCTA) of the fundus of the eye. GrInAdapt follows an intuitive three-step approach: (i) grounding images to a common anchor space via registration, (ii) integrating predictions from multiple views to achieve improved label consensus, and (iii) adapting the source model to diverse target domains. Furthermore, GrInAdapt is flexible enough to incorporate auxiliary modalities—such as color fundus photography—to provide complementary cues for robust vessel segmentation. Extensive experiments on a multi-device, multi-site, and multi-modal retinal dataset demonstrate that GrInAdapt significantly outperforms existing domain adaptation methods, achieving higher segmentation accuracy and robustness across multiple domains. These results highlight the potential of GrInAdapt to advance automated retinal vessel analysis and\nsupport robust clinical decision-making. Our code is at https://github.com/YuekaiXuEric/GrInAdapt.",
+  "authors": [
+    {
+      "name": "Liu, Zixuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Honjaya, Aaron",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Yuekai",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Pan, Hefu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Xin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shapiro, Linda G.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Sheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Ruikang K.",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Eye",
+    "Modalities -> Other",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0903_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

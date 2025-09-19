@@ -1,0 +1,63 @@
+{
+  "id": "miccai-3104",
+  "title": "HA-SAM: Hierarchically Adapting SAM for Nerve Segmentation in Ultrasound Images",
+  "abstract": "Automatic ultrasound nerve localization algorithm is crucial in nerve block procedures and neuropathy detection. However, the performance of existing approaches are typically constrained by the limited scale of ultrasound image datasets. While adapting from large scale models such as Segment Anything Model (SAM) has demonstrated remarkable performance on medical images, its effectiveness heavily relies on extensive datasets and substantial computational resources. This presents significant challenges for adapting SAM to ultrasound image segmentation. To address these challenges, we propose a novel parameter- and data-efficient adaptation method called Hierarchical Adapter. Specifically, the Hierarchical Adapter can flexibly adjust the number of fine-tuning parameters to optimize the exploitation of data and computational resources. In addition, we observe the depth-dependent difficulty for adapting different Transformer blocks of SAM. Therefore, we insert Hierarchical Adapters with varying sizes into transformer layers at different depths of the SAM encoder, optimizing the distribution of trainable parameters. This design significantly improves the parameter-efficiency during adaptation while simultaneously enhancing segmentation performance. Compared to state-of-the-art methods, our model reduces training parameter requirements by more than half while still achieving an approximately 1.5% improvement in Dice score on two ultrasound nerve datasets.",
+  "authors": [
+    {
+      "name": "Peng, Zihao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kang, Susu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Huang, Xuping",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiang, Xucheng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "He, Gengyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Tianzhu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Mei, Wei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tan, Shan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Segmentation",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3104_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

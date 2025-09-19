@@ -1,0 +1,70 @@
+{
+  "id": "miccai-0638",
+  "title": "Configurable Platform for Biomedical Literature Mining via Multimodal-Driven Extraction",
+  "abstract": "Biomedical literature serves as a critical repository for cutting-edge research achievements, encompassing substantial statistically validated biological knowledge. However, the dispersed storage and unstructured characteristics of such literature significantly hinder manual acquisition efficiency while increasing error susceptibility. To address these challenges, this study proposes an intelligent literature knowledge mining platform. Three core innovations distinguish this research: (1) The development of an extensible literature collection-parsing-structuring framework based on a “literature tree” architecture (ECPS-LitTree), which facilitates HTML dynamic report generation and full-cycle data management, offering a novel solution for cross-source heterogeneous literature knowledge aggregation; (2) The design of a configurable requirement customization framework (CRC) that combines named entity recognition (NER) technology with user-configurable mining templates to enable personalized knowledge extraction; (3) The implementation of an integrated online platform, providing comprehensive services including visual analytics, interactive search, and batch data export functionalities. Experimental validation demonstrates that the platform surpasses existing mainstream tools in literature retrieval success rate, processing efficiency, and knowledge extraction volume. The platform’s flexible configurability exhibits broad applicability across multiple biomedical domains, offering researchers a reliable intelligent tool for knowledge discovery. The Configurable Platform is publicly and freely accessible at https://medseeker.genemed.tech/.",
+  "authors": [
+    {
+      "name": "Yuan, Xinpan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Bozhao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhao, Guihu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Yueming",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hua, Liujie",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kuang, Junhua",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jianguo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xie, Shaomin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Gan",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Validation",
+    "Surgery -> Other",
+    "Special Topic -> Low-Cost and Point-of-Care Imaging Solutions"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0638_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

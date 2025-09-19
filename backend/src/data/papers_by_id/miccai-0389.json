@@ -1,0 +1,51 @@
+{
+  "id": "miccai-0389",
+  "title": "R2B-WFC Ultrasound Reconstruction: Wavelet Fourier Convolution-based Reconstruction from Radio Frequency to Image",
+  "abstract": "Plane-wave ultrasound (PWUS) facilitates functional imaging through a high frame rate of a few thousand Hz. However, its application remains constrained due to the inferior B-mode image quality in comparison to conventional ultrasound imaging such as focused beam ultrasound (FBUS). In this paper, a data-driven approach is proposed through two steps to enhance the quality of PWUS images. In the first step, the unpaired neural Schrödinger bridge (UNSB) is employed to synthesize high-fidelity images that structurally correspond to the low-quality PWUS images. In the second step, our proposed model, R2B-WFC, is trained to reconstruct high-quality images from the PWUS radio frequency signals, incorporating a wavelet Fourier convolution (WFC) module. Multiple losses are also suggested, combining perceptual loss from a USNB pretrained model and a Markovian discriminator to preserve high-frequency detail more effectively. As a result, Fréchet Inception Distance (FID), Kernel Inception Distance (KID), Learned Perceptual Image Patch Similarity (LPIPS), Feature Similarity Index Measure (FSIM), Signal to noise ratio (SNR), and Contrast Ratio (CR) scores were 136.32, 0.0356, 0.1956, 0.9514, 41.18 dB, and 27.48 dB, respectively. Compared to image-to-image translation methods, R2B-WFC from RF signal-to-image also shows faster inference time.",
+  "authors": [
+    {
+      "name": "Jeong, Hyunsu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoon, Chiho",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sung, Minsik",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Kiduk",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Dougho",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Chulhong",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Ultrasound",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0389_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

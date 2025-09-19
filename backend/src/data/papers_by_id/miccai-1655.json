@@ -1,0 +1,63 @@
+{
+  "id": "miccai-1655",
+  "title": "Endo-GSMT: Endoscopic Monocular Scene Reconstruction with Dynamic Gaussian Splatting and Motion Tracking",
+  "abstract": "Limited perspectives and complex tissue deformations pose significant challenges in accurately reconstructing monocular dynamic surgical scene. Many existing methods fail to fully exploit inter-frame relationships, resulting in suboptimal performance in processing complex tissue deformations and synthesizing novel views. To address these challenges, we propose Endo-GSMT, an accurate and high-quality method for dynamic endoscopic reconstruction from monocular surgical videos. Our method begins by comprehensively extracting both intra-frame information and inter-frame relationships from the raw monocular videos. We incorporate monocular depth priors and dense displacement field priors to generate the pixel-wise 3D trajectories during the training phase. Then, we design a set of compact and low-dimensional $\\mathrm{Sim}(3)$ motion bases, with each point’s motion represented as a weighted combination of these motion bases. Furthermore, we develop a novel depth loss function to address the scale inconsistency inherent in monocular depth priors. We evaluate our method using two distinct evaluation strategies, the experimental results demonstrate that our method achieves state-of-the-art reconstruction quality. The code is available at \\url{https://github.com/M11pha/Endo-GSMT}",
+  "authors": [
+    {
+      "name": "Gou, Hao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Changmiao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Jiahao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Yaoqun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jia, Fucang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xiao, Deqiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Qin, Feiwei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Luo, Huoling",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> Endoscopy",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution",
+    "Machine Learning -> Deep Learning",
+    "Surgery -> Scene Understanding"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/1655_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

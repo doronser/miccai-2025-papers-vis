@@ -1,0 +1,57 @@
+{
+  "id": "miccai-3065",
+  "title": "RegScore: Scoring Systems for Regression Tasks",
+  "abstract": "Scoring systems are widely adopted in medical applications for their inherent simplicity and transparency, particularly for classification tasks involving tabular data. In this work, we introduce RegScore, a novel, sparse, and interpretable scoring system specifically designed for regression tasks. Unlike conventional scoring systems constrained to integer-valued coefficients, RegScore leverages beam search and k-sparse ridge regression to relax these restrictions, thus enhancing predictive performance. We extend RegScore to bimodal deep learning by integrating tabular data with medical images. We utilize the classification token from the TIP (Tabular Image Pretraining) transformer to generate Personalized Linear Regression parameters and a Personalized RegScore, enabling individualized scoring. We demonstrate the effectiveness of RegScore by estimating mean Pulmonary Artery Pressure using tabular data and further refine these estimates by incorporating cardiac MRI images. Experimental results show that RegScore and its personalized bimodal extensions achieve performance comparable to, or better than, state-of-the-art black-box models. Our method provides a transparent and interpretable approach for regression tasks in clinical settings, promoting more informed and trustworthy decision-making. We provide our code at https://github.com/SanoScience/RegScore.",
+  "authors": [
+    {
+      "name": "Grzeszczyk, Michal K.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Szczepański, Tomasz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Renc, Pawel",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoon, Siyeop",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Charton, Jerome",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Trzciński, Tomasz",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sitek, Arkadiusz",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Cardiac",
+    "Modalities -> MRI",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Interpretability / Explainability"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3065_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

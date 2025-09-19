@@ -1,0 +1,82 @@
+{
+  "id": "miccai-3060",
+  "title": "Generative Unsupervised Anomaly Detection with Coarse-Fine Ensemble for Workload Reduction in 3D Non-contrast Brain CT of Emergency Room",
+  "abstract": "Neurologic emergencies need to treat unspecified anomalies with various shapes, intensities, and locations in 3D non-contrast brain CT. However, in practice, patients with anomalies take a relatively small portion of total CT volumes. In this situation, excluding unremarkable scans could reduce radiologists’ workload. We used a generative unsupervised anomaly detection (GUAD) with 3D Hierarchical Diffusion AutoEncoder (HDAE) model to develop this. In this study, we considered anomalies in two perspectives and made models. One is a Coarse-Morphological anomaly detection Model (CMM), and the other is a Fine-Grained anomaly detection Model (FGM). We ensembled these models’ decisions for the exclusion of the unremarkable scans. Models were trained with normal scans of 28,510 from institution A. For evaluation, we mainly used two consecutive test sets of 544 scans of institution A and 1,795 scans of another institution B. Among clinically significant and unremarkable scans, our study showed [NPV (Negative Predictive Value)/workload reduction] of [98.1%/9.7%] and [96.7%/19.9%] for institutions A and B, respectively. Additionally, we used a public dataset (NPV of 98.5%) and five other external hospitals’ hemorrhage sets (NPV of 96.0%) to evaluate robustness. Under the reasonable NPV, models showed the potential for workload reduction by omitting unremarkable scans. Compared to individual results of CMM or FGM, the ensembled decision usually shows NPV advantages. Also, with visual results, we observed our model could detect various types of anomalies.",
+  "authors": [
+    {
+      "name": "Won, Jongjun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Jihwan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Oh, Joonseo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yoo, Yereen",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yum, Jieun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Joonsang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Park, Joon Hyung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Jo, Wooyoung",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Nam, Yoojin",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lee, Hyunki",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Hong, Gil-sun",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Kim, Namkug",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Brain",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Anomaly Detection",
+    "Applications -> Image Synthesis / Augmentation / Super-Resolution"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/3060_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}
