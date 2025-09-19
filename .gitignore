@@ -20,5 +20,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Development files
+backend/notebooks/
+backend/src/data/cache/
+backend/src/data/embeddings_by_id__simple/
+*.pkl
+analysis_results.pkl
+
 # Playwright
 .playwright-mcp/

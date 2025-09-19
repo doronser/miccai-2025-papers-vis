@@ -26,10 +26,30 @@ This application provides researchers with an intuitive way to explore 1,007 MIC
 - Node.js 18+
 - Git
 
-### Backend Setup
+### Option 1: Automated Setup (Recommended)
 
 ```bash
-# Clone and navigate to backend
+# Clone the repository
+git clone https://github.com/your-username/miccai-2025-papers-vis.git
+cd miccai-2025-papers-vis
+
+# Run the development startup script
+chmod +x start-dev.sh
+./start-dev.sh
+```
+
+This script will automatically:
+- Set up Python virtual environment
+- Install backend dependencies
+- Install frontend dependencies
+- Start both servers
+
+### Option 2: Manual Setup
+
+#### Backend Setup
+
+```bash
+# Navigate to backend
 cd backend
 
 # Create virtual environment
@@ -44,7 +64,7 @@ python main.py
 # Server runs on http://localhost:8000
 ```
 
-### Frontend Setup
+#### Frontend Setup
 
 ```bash
 # Navigate to frontend
@@ -171,26 +191,40 @@ The application uses pre-processed data from the MICCAI 2025 website:
 
 ## Deployment
 
-### Backend (Recommended: Railway/Render)
+For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
+
+### Quick Deploy
+
+1. **Backend**: Deploy to Railway/Render/Heroku
+2. **Frontend**: Deploy to Vercel
+3. **Configure**: Set environment variables for CORS and API URLs
+
+### Production Build
+
+Use the included build script for production deployment:
+
 ```bash
-# Dockerfile included
+chmod +x build-prod.sh
+./build-prod.sh
+```
+
+This script will:
+- Run all tests
+- Lint the code
+- Build the frontend
+- Verify deployment readiness
+
+### Docker Support
+
+For containerized deployment:
+
+```bash
+# Build and run with Docker Compose
+docker-compose up --build
+
+# Or build individual services
 docker build -t miccai-backend .
 docker run -p 8000:8000 miccai-backend
-```
-
-### Frontend (Recommended: Vercel/Netlify)
-```bash
-npm run build
-# Deploy dist/ folder to static hosting
-```
-
-### Environment Variables
-```bash
-# Frontend (.env)
-VITE_API_BASE_URL=https://your-backend.railway.app/api
-
-# Backend
-CORS_ORIGINS=https://your-frontend.vercel.app
 ```
 
 ## Troubleshooting
@@ -236,12 +270,12 @@ If you use this visualization tool in your research, please cite:
   title={MICCAI 2025 Papers Visualization Webapp},
   author={[Your Name]},
   year={2025},
-  url={https://github.com/your-repo/miccai-2025-papers-vis}
+  url={https://github.com/your-username/miccai-2025-papers-vis}
 }
 ```
 
 ## Support
 
-- 📧 Email: [your-email]
-- 🐛 Issues: https://github.com/your-repo/miccai-2025-papers-vis/issues
-- 💬 Discussions: https://github.com/your-repo/miccai-2025-papers-vis/discussions
+- 🐛 Issues: [GitHub Issues](https://github.com/your-username/miccai-2025-papers-vis/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/your-username/miccai-2025-papers-vis/discussions)
+- 📧 Contact: [Your Email]
