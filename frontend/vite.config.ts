@@ -7,6 +7,11 @@ export default defineConfig(({ mode }) => ({
   server: {
     port: 5173,
     host: '0.0.0.0', // Allow external connections for Docker
+    allowedHosts: [
+      'localhost',
+      'miccai2025.doronser.com',
+      'www.miccai2025.doronser.com'
+    ],
     proxy: {
       '/api': {
         target: process.env.DOCKER === 'true'
