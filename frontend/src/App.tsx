@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import TSNEClusterView from './components/TSNEClusterView';
 import PaperDetailsPanel from './components/PaperDetailsPanel';
+import MobileWarning from './components/MobileWarning';
 import { ThemeToggle } from './components/ThemeToggle';
 import { apiService } from './services/api';
 import { Paper } from './types/api';
@@ -115,6 +116,9 @@ function App() {
       backgroundColor: 'var(--color-bg-primary)',
       color: 'var(--color-text-primary)'
     }}>
+      {/* Mobile Warning */}
+      <MobileWarning />
+
       {/* Header */}
       <header style={{
         padding: '20px',

@@ -384,3 +384,113 @@ body {
     background-color: var(--color-accent-light);
     color: var(--color-accent);
 }
+
+/* Mobile Warning Styles */
+.mobile-warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: linear-gradient(135deg, var(--color-warning-light), var(--color-accent-light));
+    border-bottom: 2px solid var(--color-warning);
+    box-shadow: var(--shadow-lg);
+    animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.mobile-warning-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mobile-warning-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.mobile-warning-text {
+    flex: 1;
+}
+
+.mobile-warning-text h3 {
+    margin: 0 0 var(--spacing-xs) 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.mobile-warning-text p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+}
+
+.mobile-warning-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: var(--radius-md);
+    background-color: var(--color-bg-card);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    font-size: 18px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.mobile-warning-close:hover {
+    background-color: var(--color-bg-hover);
+    color: var(--color-text-primary);
+    transform: scale(1.1);
+}
+
+.mobile-warning-close:active {
+    transform: scale(0.95);
+}
+
+/* Responsive adjustments for mobile warning */
+@media (max-width: 480px) {
+    .mobile-warning-content {
+        padding: var(--spacing-sm) var(--spacing-md);
+        gap: var(--spacing-sm);
+    }
+
+    .mobile-warning-text h3 {
+        font-size: 14px;
+    }
+
+    .mobile-warning-text p {
+        font-size: 13px;
+    }
+
+    .mobile-warning-icon {
+        font-size: 20px;
+    }
+
+    .mobile-warning-close {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+}
