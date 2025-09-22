@@ -22,7 +22,8 @@ const MobileWarning: React.FC = () => {
         return () => window.removeEventListener('resize', checkMobile);
     }, []);
 
-    if (!isMobile || isDismissed) {
+    // Don't show warning if dismissed or if user is on a larger screen
+    if (!isMobile || isDismissed || window.innerWidth >= 768) {
         return null;
     }
 
@@ -31,10 +32,9 @@ const MobileWarning: React.FC = () => {
             <div className="mobile-warning-content">
                 <div className="mobile-warning-icon">📱</div>
                 <div className="mobile-warning-text">
-                    <h3>Better Experience on Desktop</h3>
+                    <h3>Mobile Experience Available</h3>
                     <p>
-                        This visualization works best on desktop or tablet devices.
-                        For the optimal experience, please open this app on a larger screen.
+                        This visualization now supports mobile devices! Use the menu button to search and explore papers.
                     </p>
                 </div>
                 <button

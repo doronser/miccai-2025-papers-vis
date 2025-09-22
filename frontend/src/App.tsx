@@ -3,6 +3,11 @@ import TSNEClusterView from './components/TSNEClusterView';
 import PaperDetailsPanel from './components/PaperDetailsPanel';
 import MobileWarning from './components/MobileWarning';
 import { ThemeToggle } from './components/ThemeToggle';
+import { HamburgerMenu } from './components/HamburgerMenu';
+import { MobileSidebar } from './components/MobileSidebar';
+import { FloatingActionButton } from './components/FloatingActionButton';
+import { InfoPopup } from './components/InfoPopup';
+import { useMobile } from './hooks/useMobile';
 import { apiService } from './services/api';
 import { Paper } from './types/api';
 import './styles/themes.css';
@@ -15,6 +20,12 @@ function App() {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [sidebarWidth, setSidebarWidth] = useState<number>(400);
   const [isResizing, setIsResizing] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [isInfoPopupOpen, setIsInfoPopupOpen] = useState(false);
+
+  // Mobile breakpoints
+  const { isMobile } = useMobile();
 
   // No complex initialization needed
 
@@ -50,6 +61,31 @@ function App() {
 
   const handleCloseDetailsPanel = useCallback(() => {
     setSelectedPaper(null);
+  }, []);
+
+  // Mobile-specific handlers
+  const handleMobileMenuToggle = useCallback(() => {
+    setIsMobileMenuOpen(prev => !prev);
+  }, []);
+
+  const handleMobileMenuClose = useCallback(() => {
+    setIsMobileMenuOpen(false);
+  }, []);
+
+  const handleSearchFocus = useCallback(() => {
+    setIsSearchFocused(true);
+  }, []);
+
+  const handleSearchBlur = useCallback(() => {
+    setIsSearchFocused(false);
+  }, []);
+
+  const handleInfoToggle = useCallback(() => {
+    setIsInfoPopupOpen(prev => !prev);
+  }, []);
+
+  const handleInfoClose = useCallback(() => {
+    setIsInfoPopupOpen(false);
   }, []);
 
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
@@ -108,7 +144,7 @@ function App() {
   }, [sidebarWidth]);
 
   return (
-    <div className="App" style={{
+    <div className="App app-layout" style={{
       fontFamily: 'system-ui, -apple-system, sans-serif',
       height: '100vh',
       display: 'flex',
@@ -120,76 +156,118 @@ function App() {
       <MobileWarning />
 
       {/* Header */}
-      <header style={{
-        padding: '20px',
+      <header className="app-header" style={{
+        padding: isMobile ? '16px' : '20px',
         backgroundColor: 'var(--color-bg-card)',
         borderBottom: '2px solid var(--color-border)',
-        boxShadow: 'var(--shadow-md)'
+        boxShadow: 'var(--shadow-md)',
+        minHeight: isMobile ? '60px' : 'auto'
       }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div>
+        <div style={{
+          maxWidth: '1200px',
+          margin: '0 auto',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '16px'
+        }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
             <h1 style={{
               margin: '0 0 8px 0',
-              fontSize: '28px',
-              color: 'var(--color-text-primary)'
+              fontSize: isMobile ? '20px' : '28px',
+              color: 'var(--color-text-primary)',
+              lineHeight: 1.2
             }}>
               MICCAI 2025 Papers Visualization
             </h1>
-            <p style={{
-              margin: '0',
-              fontSize: '16px',
-              color: 'var(--color-text-secondary)'
-            }}>
-              Interactive t-SNE visualization for exploring conference papers
-            </p>
+            {!isMobile && (
+              <p style={{
+                margin: '0',
+                fontSize: '16px',
+                color: 'var(--color-text-secondary)'
+              }}>
+                Interactive t-SNE visualization for exploring conference papers
+              </p>
+            )}
           </div>
-          <ThemeToggle />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            {isMobile && (
+              <HamburgerMenu
+                isOpen={isMobileMenuOpen}
+                onToggle={handleMobileMenuToggle}
+              />
+            )}
+            <button
+              className="info-icon-button"
+              onClick={handleInfoToggle}
+              aria-label="About this project"
+              title="About this project"
+            >
+              ℹ️
+            </button>
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
       {/* Main Content */}
-      <main style={{
+      <main className="app-main" style={{
         flex: 1,
         display: 'flex',
-        padding: '10px',
-        gap: '10px',
-        height: 'calc(100vh - 120px)',
+        flexDirection: isMobile ? 'column' : 'row',
+        padding: isMobile ? '8px' : '10px',
+        gap: isMobile ? '8px' : '10px',
+        height: isMobile ? 'calc(100vh - 60px)' : 'calc(100vh - 120px)',
         overflow: 'hidden',
         width: '100%',
         boxSizing: 'border-box'
       }}>
         {/* Left Column - Search and Visualization */}
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: '100%', minWidth: 0 }}>
+        <div className="app-left-column" style={{
+          flex: 1,
+          display: 'flex',
+          flexDirection: 'column',
+          minHeight: '100%',
+          minWidth: 0,
+          order: isMobile ? 2 : 1
+        }}>
           {/* Search Bar */}
-          <div style={{ marginBottom: '20px' }}>
+          <div className="search-container" style={{ marginBottom: '20px' }}>
             <input
               type="text"
               placeholder="Search papers by title, author, or subject area..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               onKeyPress={(e) => e.key === 'Enter' && handleSearch(searchQuery)}
+              onFocus={handleSearchFocus}
+              onBlur={handleSearchBlur}
+              className="search-input"
               style={{
                 width: '100%',
-                padding: '12px',
-                fontSize: '16px',
+                padding: isMobile ? '16px' : '12px',
+                fontSize: isMobile ? '16px' : '16px', // Prevents zoom on iOS
                 border: '1px solid var(--color-border)',
                 borderRadius: '6px',
                 backgroundColor: 'var(--color-bg-card)',
-                color: 'var(--color-text-primary)'
+                color: 'var(--color-text-primary)',
+                minHeight: isMobile ? '44px' : 'auto'
               }}
             />
             <button
               onClick={() => handleSearch(searchQuery)}
               disabled={isSearching}
+              className="search-button"
               style={{
                 marginTop: '10px',
-                padding: '10px 20px',
+                padding: isMobile ? '12px 20px' : '10px 20px',
                 backgroundColor: 'var(--color-accent)',
                 color: 'white',
                 border: 'none',
                 borderRadius: '6px',
                 cursor: 'pointer',
-                fontSize: '14px'
+                fontSize: '14px',
+                minHeight: isMobile ? '44px' : 'auto',
+                width: isMobile ? '100%' : 'auto'
               }}
             >
               {isSearching ? 'Searching...' : 'Search'}
@@ -198,20 +276,26 @@ function App() {
 
           {/* Search Results */}
           {searchResults.length > 0 && (
-            <div style={{ marginBottom: '20px', maxHeight: '200px', overflowY: 'auto' }}>
+            <div className="search-results" style={{
+              marginBottom: '20px',
+              maxHeight: isMobile ? '150px' : '200px',
+              overflowY: 'auto'
+            }}>
               <h3 style={{ margin: '0 0 10px 0', fontSize: '16px' }}>Search Results ({searchResults.length})</h3>
               {searchResults.map((paper) => (
                 <div
                   key={paper.id}
                   onClick={() => handlePaperSelect(paper)}
+                  className="paper-card"
                   style={{
-                    padding: '10px',
+                    padding: isMobile ? '16px' : '10px',
                     marginBottom: '5px',
                     backgroundColor: 'var(--color-bg-card)',
                     border: '1px solid var(--color-border)',
                     borderRadius: '4px',
                     cursor: 'pointer',
-                    fontSize: '14px'
+                    fontSize: '14px',
+                    minHeight: isMobile ? '44px' : 'auto'
                   }}
                 >
                   <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>
@@ -240,15 +324,15 @@ function App() {
           )}
 
           {/* t-SNE Visualization */}
-          <div style={{
+          <div className="graph-container" style={{
             flex: 1,
             overflow: 'hidden',
             position: 'relative',
-            minHeight: '600px'
+            minHeight: isMobile ? '300px' : '600px'
           }}>
             <TSNEClusterView
-              width={Math.max(400, window.innerWidth - sidebarWidth - 40)}
-              height={window.innerHeight - 200}
+              width={isMobile ? window.innerWidth - 16 : Math.max(400, window.innerWidth - sidebarWidth - 40)}
+              height={isMobile ? window.innerHeight - 400 : window.innerHeight - 200}
               onNodeClick={handleNodeClick}
               selectedPaperId={selectedPaper?.id}
               searchQuery={searchQuery}
@@ -256,25 +340,31 @@ function App() {
           </div>
         </div>
 
-        {/* Resize Handle */}
-        <div
-          onMouseDown={handleMouseDown}
-          style={{
-            width: '4px',
-            backgroundColor: isResizing ? 'var(--color-accent)' : 'var(--color-border)',
-            cursor: 'col-resize',
-            flexShrink: 0,
-            transition: 'background-color var(--transition-fast)'
-          }}
-        />
+        {/* Resize Handle - Hidden on mobile */}
+        {!isMobile && (
+          <div
+            className="resize-handle"
+            onMouseDown={handleMouseDown}
+            style={{
+              width: '4px',
+              backgroundColor: isResizing ? 'var(--color-accent)' : 'var(--color-border)',
+              cursor: 'col-resize',
+              flexShrink: 0,
+              transition: 'background-color var(--transition-fast)'
+            }}
+          />
+        )}
 
         {/* Right Column - Paper Details */}
-        <div style={{
-          width: `${Math.min(sidebarWidth, window.innerWidth * 0.6)}px`,
+        <div className="app-right-column" style={{
+          width: isMobile ? '100%' : `${Math.min(sidebarWidth, window.innerWidth * 0.6)}px`,
           flexShrink: 0,
           display: 'flex',
           flexDirection: 'column',
-          maxWidth: '60vw'
+          maxWidth: isMobile ? 'none' : '60vw',
+          height: isMobile ? '40vh' : 'auto',
+          minHeight: isMobile ? '200px' : 'auto',
+          order: isMobile ? 1 : 2
         }}>
           {selectedPaper ? (
             <PaperDetailsPanel
@@ -308,6 +398,104 @@ function App() {
           )}
         </div>
       </main>
+
+      {/* Mobile Sidebar */}
+      {isMobile && (
+        <MobileSidebar
+          isOpen={isMobileMenuOpen}
+          onClose={handleMobileMenuClose}
+        >
+          <div style={{ marginBottom: '20px' }}>
+            <h4 style={{ margin: '0 0 10px 0', fontSize: '16px' }}>Quick Search</h4>
+            <input
+              type="text"
+              placeholder="Search papers..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyPress={(e) => e.key === 'Enter' && handleSearch(searchQuery)}
+              style={{
+                width: '100%',
+                padding: '12px',
+                fontSize: '16px',
+                border: '1px solid var(--color-border)',
+                borderRadius: '6px',
+                backgroundColor: 'var(--color-bg-card)',
+                color: 'var(--color-text-primary)',
+                marginBottom: '10px'
+              }}
+            />
+            <button
+              onClick={() => {
+                handleSearch(searchQuery);
+                handleMobileMenuClose();
+              }}
+              disabled={isSearching}
+              style={{
+                width: '100%',
+                padding: '12px',
+                backgroundColor: 'var(--color-accent)',
+                color: 'white',
+                border: 'none',
+                borderRadius: '6px',
+                cursor: 'pointer',
+                fontSize: '14px'
+              }}
+            >
+              {isSearching ? 'Searching...' : 'Search'}
+            </button>
+          </div>
+
+          {searchResults.length > 0 && (
+            <div>
+              <h4 style={{ margin: '0 0 10px 0', fontSize: '16px' }}>
+                Search Results ({searchResults.length})
+              </h4>
+              <div style={{ maxHeight: '200px', overflowY: 'auto' }}>
+                {searchResults.map((paper) => (
+                  <div
+                    key={paper.id}
+                    onClick={() => {
+                      handlePaperSelect(paper);
+                      handleMobileMenuClose();
+                    }}
+                    style={{
+                      padding: '12px',
+                      marginBottom: '8px',
+                      backgroundColor: 'var(--color-bg-card)',
+                      border: '1px solid var(--color-border)',
+                      borderRadius: '6px',
+                      cursor: 'pointer',
+                      fontSize: '14px'
+                    }}
+                  >
+                    <div style={{ fontWeight: 'bold', marginBottom: '4px' }}>
+                      {paper.title}
+                    </div>
+                    <div style={{ color: 'var(--color-text-secondary)', fontSize: '12px' }}>
+                      {paper.authors.map(a => a.name).join(', ')}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </MobileSidebar>
+      )}
+
+      {/* Floating Action Button for Search */}
+      {isMobile && !isSearchFocused && (
+        <FloatingActionButton
+          onClick={handleMobileMenuToggle}
+          icon="🔍"
+          label="Open search"
+        />
+      )}
+
+      {/* Info Popup */}
+      <InfoPopup
+        isOpen={isInfoPopupOpen}
+        onClose={handleInfoClose}
+      />
     </div>
   );
 }
