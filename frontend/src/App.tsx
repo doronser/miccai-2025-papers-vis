@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect, useMemo } from 'react';
+import { useState, useCallback, useEffect, useMemo } from 'react';
 import TSNEClusterView from './components/TSNEClusterView';
 import PaperDetailsPanel from './components/PaperDetailsPanel';
 import MobileWarning from './components/MobileWarning';
@@ -8,6 +8,7 @@ import { MobileSidebar } from './components/MobileSidebar';
 import { FloatingActionButton } from './components/FloatingActionButton';
 import { InfoPopup } from './components/InfoPopup';
 import SubjectAreaFilter from './components/SubjectAreaFilter';
+import SimilarPapersSection from './components/SimilarPapersSection';
 import { useMobile } from './hooks/useMobile';
 import { apiService } from './services/api';
 import { Paper } from './types/api';
@@ -461,18 +462,25 @@ function App() {
           display: 'flex',
           flexDirection: 'column',
           maxWidth: isMobile ? 'none' : '60vw',
-          height: isMobile ? '40vh' : 'auto',
+          height: isMobile ? 'auto' : 'auto',
           minHeight: isMobile ? '200px' : 'auto',
-          order: isMobile ? 1 : 2
+          order: isMobile ? 1 : 2,
+          overflow: isMobile ? 'visible' : 'auto'
         }}>
           {selectedPaper ? (
-            <PaperDetailsPanel
-              paper={selectedPaper}
-              isOpen={true}
-              onClose={handleCloseDetailsPanel}
-              onPaperSelect={handlePaperSelect}
-              isPersistent={true}
-            />
+            <>
+              <PaperDetailsPanel
+                paper={selectedPaper}
+                isOpen={true}
+                onClose={handleCloseDetailsPanel}
+                isPersistent={true}
+              />
+              <SimilarPapersSection
+                selectedPaper={selectedPaper}
+                onPaperSelect={handlePaperSelect}
+                isMobile={isMobile}
+              />
+            </>
           ) : (
             <div style={{
               height: '100%',
