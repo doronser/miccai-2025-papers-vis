@@ -26,6 +26,8 @@ function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [isInfoPopupOpen, setIsInfoPopupOpen] = useState(false);
+  const [isPaperDetailsExpanded, setIsPaperDetailsExpanded] = useState(true);
+  const [isSimilarPapersExpanded, setIsSimilarPapersExpanded] = useState(true);
 
   // Available subject areas from the dataset
   const availableSubjectAreas = [
@@ -474,11 +476,15 @@ function App() {
                 isOpen={true}
                 onClose={handleCloseDetailsPanel}
                 isPersistent={true}
+                isExpanded={isPaperDetailsExpanded}
+                onToggleExpanded={() => setIsPaperDetailsExpanded(!isPaperDetailsExpanded)}
               />
               <SimilarPapersSection
                 selectedPaper={selectedPaper}
                 onPaperSelect={handlePaperSelect}
                 isMobile={isMobile}
+                isExpanded={isSimilarPapersExpanded}
+                onToggleExpanded={() => setIsSimilarPapersExpanded(!isSimilarPapersExpanded)}
               />
             </>
           ) : (
