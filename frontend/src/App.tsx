@@ -292,10 +292,11 @@ function App() {
         flexDirection: isMobile ? 'column' : 'row',
         padding: isMobile ? '8px' : '10px',
         gap: isMobile ? '8px' : '10px',
-        height: isMobile ? 'calc(100vh - 60px)' : 'calc(100vh - 120px)',
-        overflow: 'hidden',
+        height: isMobile ? 'auto' : 'calc(100vh - 120px)',
+        overflow: isMobile ? 'visible' : 'hidden',
         width: '100%',
-        boxSizing: 'border-box'
+        boxSizing: 'border-box',
+        minHeight: isMobile ? 'calc(100vh - 60px)' : 'auto'
       }}>
         {/* Left Column - Search and Visualization */}
         <div className="app-left-column" style={{
@@ -304,10 +305,15 @@ function App() {
           flexDirection: 'column',
           minHeight: '100%',
           minWidth: 0,
-          order: isMobile ? 2 : 1
+          order: isMobile ? 2 : 1,
+          overflow: isMobile ? 'visible' : 'hidden'
         }}>
           {/* Search Bar */}
-          <div className="search-container" style={{ marginBottom: '20px' }}>
+          <div className="search-container" style={{
+            marginBottom: '20px',
+            width: '100%',
+            boxSizing: 'border-box'
+          }}>
             <input
               type="text"
               placeholder="Search papers by title, author, or subject area..."
@@ -350,7 +356,11 @@ function App() {
           </div>
 
           {/* Subject Area Filter */}
-          <div style={{ marginBottom: '20px' }}>
+          <div style={{
+            marginBottom: '20px',
+            width: '100%',
+            boxSizing: 'border-box'
+          }}>
             <SubjectAreaFilter
               selectedAreas={selectedSubjectAreas}
               onSelectionChange={setSelectedSubjectAreas}
@@ -363,7 +373,7 @@ function App() {
           {filteredSearchResults.length > 0 && (
             <div className="search-results" style={{
               marginBottom: '20px',
-              maxHeight: isMobile ? '150px' : '200px',
+              maxHeight: isMobile ? '300px' : '200px',
               overflowY: 'auto'
             }}>
               <h3 style={{ margin: '0 0 10px 0', fontSize: '16px' }}>
@@ -413,14 +423,15 @@ function App() {
 
           {/* t-SNE Visualization */}
           <div className="graph-container" style={{
-            flex: 1,
+            flex: isMobile ? 'none' : 1,
             overflow: 'hidden',
             position: 'relative',
-            minHeight: isMobile ? '300px' : '600px'
+            minHeight: isMobile ? '400px' : '600px',
+            height: isMobile ? '400px' : 'auto'
           }}>
             <TSNEClusterView
-              width={isMobile ? window.innerWidth - 16 : Math.max(400, window.innerWidth - sidebarWidth - 40)}
-              height={isMobile ? window.innerHeight - 400 : window.innerHeight - 200}
+              width={isMobile ? window.innerWidth - 32 : Math.max(400, window.innerWidth - sidebarWidth - 40)}
+              height={isMobile ? 400 : window.innerHeight - 200}
               onNodeClick={handleNodeClick}
               selectedPaperId={selectedPaper?.id}
               selectedSubjectAreas={selectedSubjectAreas}
