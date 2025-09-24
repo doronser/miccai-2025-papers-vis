@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useMemo } from 'react';
 import TSNEClusterView from './components/TSNEClusterView';
 import PaperDetailsPanel from './components/PaperDetailsPanel';
 import MobileWarning from './components/MobileWarning';
@@ -7,6 +7,7 @@ import { HamburgerMenu } from './components/HamburgerMenu';
 import { MobileSidebar } from './components/MobileSidebar';
 import { FloatingActionButton } from './components/FloatingActionButton';
 import { InfoPopup } from './components/InfoPopup';
+import SubjectAreaFilter from './components/SubjectAreaFilter';
 import { useMobile } from './hooks/useMobile';
 import { apiService } from './services/api';
 import { Paper } from './types/api';
@@ -18,11 +19,74 @@ function App() {
   const [isSearching, setIsSearching] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [selectedSubjectAreas, setSelectedSubjectAreas] = useState<string[]>([]);
   const [sidebarWidth, setSidebarWidth] = useState<number>(400);
   const [isResizing, setIsResizing] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [isInfoPopupOpen, setIsInfoPopupOpen] = useState(false);
+
+  // Available subject areas from the dataset
+  const availableSubjectAreas = [
+    'Machine Learning -> Deep Learning',
+    'Applications -> Computer Aided Diagnosis',
+    'Modalities -> CT / X-Ray',
+    'Modalities -> MRI',
+    'Body -> Brain',
+    'Applications -> Image Segmentation',
+    'Body -> other',
+    'Applications -> Image Synthesis / Augmentation / Super-Resolution',
+    'Body -> Abdomen',
+    'Machine Learning -> Semi- / Weakly- / Self-supervised Learning',
+    'Body -> Lung',
+    'Machine Learning -> Foundation Models',
+    'Modalities -> Other',
+    'Applications -> Other',
+    'Modalities -> Photograph / Video',
+    'Modalities -> Microscopy',
+    'Body -> Breast',
+    'Body -> Cardiac',
+    'Machine Learning -> Interpretability / Explainability',
+    'Applications -> Computational (Integrative) Pathology',
+    'Modalities -> Endoscopy',
+    'Body -> Eye',
+    'Machine Learning -> Domain Adaptation / Harmonization',
+    'Modalities -> Ultrasound',
+    'Applications -> Anomaly Detection',
+    'Surgery -> Data Science',
+    'Applications -> Image-Guided Interventions',
+    'Applications -> Brain Network Analysis',
+    'Body -> Skin',
+    'Machine Learning -> Uncertainty',
+    'Modalities -> MRI - Functional MRI',
+    'Applications -> Image Registration',
+    'Applications -> Integration of Imaging with Non-Imaging Biomarkers',
+    'Machine Learning -> Other',
+    'Surgery -> Scene Understanding',
+    'Special Topic -> MIC and CAI Solutions for Limited-Resource Environments',
+    'Applications -> Visualization in Biomedical Imaging',
+    'Surgery -> Navigation',
+    'Modalities -> Nuclear Imaging',
+    'Machine Learning -> Validation',
+    'Surgery -> Planning and Simulation',
+    'Modalities -> EEG / ECG',
+    'Surgery -> Mixed / Augmented / Virtual Reality',
+    'Body -> Vasculature',
+    'Body -> Fetal / Pediatric Imaging',
+    'Applications -> Computational Anatomy and Physiology',
+    'Special Topic -> Low-Cost and Point-of-Care Imaging Solutions',
+    'Modalities -> MRI - Diffusion Imaging',
+    'Body -> Spine',
+    'Surgery -> Other',
+    'Modalities -> Robotics',
+    'Machine Learning -> Algorithmic Fairness',
+    'Body -> Urology',
+    'Surgery -> Skill and Work Flow Analysis',
+    'Modalities -> Spectroscopy',
+    'Body -> Gynecology',
+    'Special Topic -> Biomedical Image Computing for Neglected Diseases',
+    'Special Topic -> Telemedicine and Mobile Health Imaging Technologies'
+  ];
 
   // Mobile breakpoints
   const { isMobile } = useMobile();
@@ -44,6 +108,17 @@ function App() {
       setIsSearching(false);
     }
   }, []);
+
+  // Filter search results based on selected subject areas
+  const filteredSearchResults = useMemo(() => {
+    if (selectedSubjectAreas.length === 0) {
+      return searchResults;
+    }
+
+    return searchResults.filter(paper =>
+      paper.subject_areas.some(area => selectedSubjectAreas.includes(area))
+    );
+  }, [searchResults, selectedSubjectAreas]);
 
   const handleNodeClick = useCallback(async (paperId: string) => {
     try {
@@ -274,15 +349,28 @@ function App() {
             </button>
           </div>
 
+          {/* Subject Area Filter */}
+          <div style={{ marginBottom: '20px' }}>
+            <SubjectAreaFilter
+              selectedAreas={selectedSubjectAreas}
+              onSelectionChange={setSelectedSubjectAreas}
+              availableAreas={availableSubjectAreas}
+              isMobile={isMobile}
+            />
+          </div>
+
           {/* Search Results */}
-          {searchResults.length > 0 && (
+          {filteredSearchResults.length > 0 && (
             <div className="search-results" style={{
               marginBottom: '20px',
               maxHeight: isMobile ? '150px' : '200px',
               overflowY: 'auto'
             }}>
-              <h3 style={{ margin: '0 0 10px 0', fontSize: '16px' }}>Search Results ({searchResults.length})</h3>
-              {searchResults.map((paper) => (
+              <h3 style={{ margin: '0 0 10px 0', fontSize: '16px' }}>
+                Search Results ({filteredSearchResults.length}
+                {selectedSubjectAreas.length > 0 && ` of ${searchResults.length}`})
+              </h3>
+              {filteredSearchResults.map((paper) => (
                 <div
                   key={paper.id}
                   onClick={() => handlePaperSelect(paper)}
@@ -335,7 +423,7 @@ function App() {
               height={isMobile ? window.innerHeight - 400 : window.innerHeight - 200}
               onNodeClick={handleNodeClick}
               selectedPaperId={selectedPaper?.id}
-              searchQuery={searchQuery}
+              selectedSubjectAreas={selectedSubjectAreas}
             />
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
+import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import * as d3 from 'd3';
 import { apiService } from '../services/api';
 
@@ -16,7 +16,7 @@ interface TSNEClusterViewProps {
     height: number;
     onNodeClick?: (paperId: string) => void;
     selectedPaperId?: string | null;
-    searchQuery?: string;
+    selectedSubjectAreas?: string[];
 }
 
 const TSNEClusterView: React.FC<TSNEClusterViewProps> = ({
@@ -24,7 +24,7 @@ const TSNEClusterView: React.FC<TSNEClusterViewProps> = ({
     height,
     onNodeClick,
     selectedPaperId,
-    searchQuery = ''
+    selectedSubjectAreas = []
 }) => {
     const svgRef = useRef<SVGSVGElement>(null);
     const [coordinates, setCoordinates] = useState<TSNECoordinate[]>([]);
@@ -67,21 +67,16 @@ const TSNEClusterView: React.FC<TSNEClusterViewProps> = ({
         loadCoordinates();
     }, []);
 
-    // Filter coordinates based on search query only
-    const filteredCoordinates = React.useMemo(() => {
-        return coordinates.filter(coord => {
-            // Filter by search query
-            if (searchQuery) {
-                const query = searchQuery.toLowerCase();
-                const matchesSearch =
-                    coord.title.toLowerCase().includes(query) ||
-                    coord.authors.some(author => author.toLowerCase().includes(query)) ||
-                    coord.subject_areas.some(area => area.toLowerCase().includes(query));
-                if (!matchesSearch) return false;
-            }
-            return true;
-        });
-    }, [coordinates, searchQuery]);
+    // Filter coordinates based on selected subject areas
+    const filteredCoordinates = useMemo(() => {
+        if (selectedSubjectAreas.length === 0) {
+            return coordinates;
+        }
+
+        return coordinates.filter(coord =>
+            coord.subject_areas.some(area => selectedSubjectAreas.includes(area))
+        );
+    }, [coordinates, selectedSubjectAreas]);
 
     // Render the visualization
     useEffect(() => {

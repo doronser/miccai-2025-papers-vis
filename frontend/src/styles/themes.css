@@ -15,6 +15,7 @@
 
     --color-border: #e2e8f0;
     --color-border-hover: #cbd5e1;
+    --color-border-light: #f1f5f9;
     --color-border-focus: #3b82f6;
 
     --color-accent: #3b82f6;
@@ -82,6 +83,7 @@
 
     --color-border: #334155;
     --color-border-hover: #475569;
+    --color-border-light: #475569;
     --color-border-focus: #3b82f6;
 
     --color-accent: #3b82f6;
