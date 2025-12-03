@@ -5,4 +5,16 @@ edition.workspace = true
 authors.workspace = true
 
 [dependencies]
-# Dependencies will be added in later tasks
+# Internal crates
+models = { path = "../models" }
+infrastructure = { path = "../infrastructure" }
+
+# External dependencies
+dashmap = "5.5"
+ndarray = "0.15"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+
+[dev-dependencies]
+serial_test = "3.0"
