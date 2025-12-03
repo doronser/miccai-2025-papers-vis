@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "backend-rust/api",
+    "backend-rust/services",
+    "backend-rust/models",
+    "backend-rust/infrastructure",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["MICCAI Papers Visualization Team"]
