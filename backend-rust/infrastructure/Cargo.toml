@@ -5,4 +5,24 @@ edition.workspace = true
 authors.workspace = true
 
 [dependencies]
-# Dependencies will be added in later tasks
+# Models crate for domain types
+models = { path = "../models" }
+
+# JSON parsing
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# N-dimensional array support for embeddings
+ndarray = "0.15"
+
+# Reading NumPy .npy format
+ndarray-npy = "0.8"
+
+# Reading ZIP archives (NPZ files)
+zip = "0.6"
+
+# Error handling
+thiserror = "1.0"
+
+# Explicitly pin byteorder to avoid edition2024 issues
+byteorder = "1.4"
