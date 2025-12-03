@@ -121,6 +121,16 @@ pub async fn health_check() -> impl Responder {
     }))
 }
 
+/// GET /
+///
+/// Root endpoint - API information.
+pub async fn root() -> impl Responder {
+    info!("GET /");
+    HttpResponse::Ok().json(serde_json::json!({
+        "message": "MICCAI 2025 Papers Visualization API"
+    }))
+}
+
 /// Configure paper routes
 pub fn configure_routes(cfg: &mut web::ServiceConfig) {
     cfg.service(
@@ -130,5 +140,6 @@ pub fn configure_routes(cfg: &mut web::ServiceConfig) {
             .route("/", web::get().to(get_papers))
             .route("/{id}", web::get().to(get_paper_by_id)),
     )
+    .route("/", web::get().to(root))
     .route("/health", web::get().to(health_check));
 }
