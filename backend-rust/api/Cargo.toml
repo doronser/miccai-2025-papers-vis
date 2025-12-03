@@ -4,5 +4,33 @@ version.workspace = true
 edition.workspace = true
 authors.workspace = true
 
+[[bin]]
+name = "miccai-backend-rust"
+path = "src/main.rs"
+
 [dependencies]
-# Dependencies will be added in later tasks
+# Web framework
+actix-web = "4"
+actix-cors = "0.7"
+
+# Async runtime
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Logging
+env_logger = "0.11"
+log = "0.4"
+
+# Error handling
+thiserror = "1.0"
+
+# Internal dependencies
+services = { path = "../services" }
+infrastructure = { path = "../infrastructure" }
+models = { path = "../models" }
+
+[dev-dependencies]
+actix-rt = "2"
