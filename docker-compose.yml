@@ -1,0 +1,56 @@
+services:
+  backend-rust:
+    build:
+      context: ./backend-rust
+      dockerfile: Dockerfile
+    container_name: miccai-backend-rust
+    ports:
+      - "8000:8000"
+    environment:
+      - DATA_DIR=/app/src/data
+      - SERVER_PORT=8000
+      - CORS_ORIGINS=http://localhost:3000,http://localhost:5173
+      - RUST_LOG=info
+    volumes:
+      # Mount the source repository's data directory (read-only for safety)
+      # In production, update this path to point to your actual data directory
+      - ../src/miccai-2025-papers-vis/backend/src/data:/app/src/data:ro
+      # Mount cache directory as read-write for storing computed results
+      - miccai_rust_cache:/app/src/data/cache
+    restart: unless-stopped
+    networks:
+      - miccai-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Frontend service (placeholder - to be configured if needed)
+  # Uncomment and configure when integrating with frontend
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile.dev
+  #   container_name: miccai-frontend
+  #   ports:
+  #     - "5173:5173"
+  #   environment:
+  #     - VITE_API_BASE_URL=http://localhost:8000/api
+  #   volumes:
+  #     - ./frontend:/app
+  #     - /app/node_modules
+  #   depends_on:
+  #     - backend-rust
+  #   restart: unless-stopped
+  #   networks:
+  #     - miccai-network
+
+networks:
+  miccai-network:
+    driver: bridge
+
+volumes:
+  miccai_rust_cache:
+    driver: local
