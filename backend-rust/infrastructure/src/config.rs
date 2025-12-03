@@ -87,9 +87,11 @@ impl Config {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use serial_test::serial;
     use std::env;
 
     #[test]
+    #[serial]
     fn test_config_default_values() {
         // Clear any environment variables
         env::remove_var("DATA_DIR");
@@ -116,6 +118,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_custom_data_dir() {
         env::set_var("DATA_DIR", "/custom/data");
         env::remove_var("SERVER_PORT");
@@ -139,6 +142,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_custom_server_port() {
         env::remove_var("DATA_DIR");
         env::set_var("SERVER_PORT", "9000");
@@ -153,6 +157,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_custom_cors_origins() {
         env::remove_var("DATA_DIR");
         env::remove_var("SERVER_PORT");
@@ -169,6 +174,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_cors_origins_with_extra_whitespace() {
         env::remove_var("DATA_DIR");
         env::remove_var("SERVER_PORT");
@@ -186,6 +192,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_invalid_server_port_zero() {
         env::remove_var("DATA_DIR");
         env::set_var("SERVER_PORT", "0");
@@ -206,6 +213,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_invalid_server_port_non_numeric() {
         env::remove_var("DATA_DIR");
         env::set_var("SERVER_PORT", "not_a_number");
@@ -221,6 +229,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_empty_cors_origins() {
         env::remove_var("DATA_DIR");
         env::remove_var("SERVER_PORT");
@@ -241,6 +250,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_config_single_cors_origin() {
         env::remove_var("DATA_DIR");
         env::remove_var("SERVER_PORT");

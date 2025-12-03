@@ -26,3 +26,6 @@ thiserror = "1.0"
 
 # Explicitly pin byteorder to avoid edition2024 issues
 byteorder = "1.4"
+
+[dev-dependencies]
+serial_test = "3.0"
