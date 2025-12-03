@@ -59,14 +59,63 @@ cargo clippy
 cargo clippy -- -D warnings
 ```
 
+## Running the Backend
+
+### Local Development
+
+```bash
+# Set environment variables
+export DATA_DIR=/path/to/data
+export SERVER_PORT=8000
+export CORS_ORIGINS=http://localhost:3000,http://localhost:5173
+
+# Run in development mode
+cargo run
+
+# Run in release mode (optimized)
+cargo run --release
+```
+
+### Docker
+
+See the root `DEPLOYMENT.md` for detailed Docker instructions.
+
+Quick start:
+
+```bash
+# Build Docker image
+docker compose build backend-rust
+
+# Run with Docker Compose
+docker compose up backend-rust
+
+# Or run directly
+docker build -t miccai-backend-rust ./backend-rust
+docker run -p 8000:8000 \
+  -v /path/to/data:/app/src/data:ro \
+  -e DATA_DIR=/app/src/data \
+  miccai-backend-rust
+```
+
+### Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `DATA_DIR` | `src/data` | Base data directory |
+| `SERVER_PORT` | `8000` | HTTP server port |
+| `CORS_ORIGINS` | `http://localhost:3000,http://localhost:5173` | Allowed origins |
+| `RUST_LOG` | `info` | Log level (error, warn, info, debug, trace) |
+
 ## Development Status
 
-**Milestone 1 - Task 1: ✓ Complete**
+**Milestone 1 - Task 1-6: ✓ Complete**
 - [x] Cargo workspace structure
 - [x] Domain models with Serde support
-- [x] Comprehensive unit tests (14 tests, 100% pass rate)
-- [ ] Data loading services (next task)
-- [ ] HTTP API endpoints (next task)
+- [x] Data loading services
+- [x] HTTP API endpoints
+- [x] Similarity search and clustering
+- [x] Docker support and deployment configuration
+- [x] Comprehensive tests
 
 ## API Compatibility
 

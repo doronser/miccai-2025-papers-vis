@@ -1,0 +1,40 @@
+# Rust build artifacts
+target/
+**/target/
+
+# Rust backup files
+**/*.rs.bk
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Documentation and non-essential files
+README.md
+docs/
+*.md
+
+# Test files
+**/tests/
+
+# Lock files (we copy Cargo.lock explicitly in Dockerfile)
+# Cargo.lock is actually needed for reproducible builds
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
