@@ -23,33 +23,31 @@ use crate::error::{InfraError, InfraResult};
 use std::path::Path;
 
 /// Load t-SNE coordinates from cache file
-pub fn load_tsne_cache(_path: &Path) -> InfraResult<serde_json::Value> {
+pub fn load_tsne_cache(path: &Path) -> InfraResult<serde_json::Value> {
     // TODO: Implement in subsequent tasks
-    Err(InfraError::NotFound("Not implemented".to_string()))
+    Err(InfraError::not_found(path))
 }
 
 /// Save t-SNE coordinates to cache file
 pub fn save_tsne_cache(_path: &Path, _data: &serde_json::Value) -> InfraResult<()> {
     // TODO: Implement in subsequent tasks
-    Err(InfraError::Cache("Not implemented".to_string()))
+    Err(InfraError::cache("save_tsne", "Not implemented"))
 }
 
 /// Load network data from cache file
-pub fn load_network_cache(_path: &Path) -> InfraResult<serde_json::Value> {
+pub fn load_network_cache(path: &Path) -> InfraResult<serde_json::Value> {
     // TODO: Implement in subsequent tasks
-    Err(InfraError::NotFound("Not implemented".to_string()))
+    Err(InfraError::not_found(path))
 }
 
 /// Save network data to cache file
 pub fn save_network_cache(_path: &Path, _data: &serde_json::Value) -> InfraResult<()> {
     // TODO: Implement in subsequent tasks
-    Err(InfraError::Cache("Not implemented".to_string()))
+    Err(InfraError::cache("save_network", "Not implemented"))
 }
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-
     #[test]
     fn test_placeholder() {
         // Placeholder test - will be expanded in subsequent tasks
