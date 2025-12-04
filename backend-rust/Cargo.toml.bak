@@ -1,0 +1,68 @@
+[workspace]
+members = [
+    "api",
+    "services",
+    "models",
+    "infrastructure",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["MICCAI Backend Team"]
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+# Workspace members
+api = { path = "api" }
+services = { path = "services" }
+models = { path = "models" }
+infrastructure = { path = "infrastructure" }
+
+# Web framework and async runtime
+actix-web = { version = "4.4", default-features = false, features = ["macros", "compress-gzip"] }
+actix-cors = "0.7"
+tokio = { version = "1.35", features = ["full"] }
+
+# Serialization
+serde = { version = "1.0.195", features = ["derive"] }
+serde_json = "1.0.111"
+
+# Logging and tracing
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter", "fmt", "json"] }
+tracing-actix-web = "0.7"
+
+# Error handling
+anyhow = "1.0.79"
+thiserror = "1.0.56"
+
+# Configuration
+dotenvy = "0.15"
+
+# OpenAPI documentation
+utoipa = { version = "4.0", features = ["actix_extras"] }
+utoipa-swagger-ui = { version = "5.0", features = ["actix-web"] }
+
+# Numerical computing and ML
+ndarray = "0.15"
+ndarray-npy = "0.8"
+ndarray-stats = "0.5"
+linfa = "0.7"
+linfa-clustering = "0.7"
+linfa-reduction = "0.7"
+noisy_float = "0.2"
+
+# File I/O
+zip = "0.6"
+
+# Async utilities
+futures = "0.3"
+async-trait = "0.1"
+
+# Caching
+dashmap = "5.5"
+
+# Testing
+proptest = "1.4"
