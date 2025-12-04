@@ -1,0 +1,22 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+
+# Cargo lock file (included for binaries, excluded for libraries)
+# We'll keep it for now since we have a binary
+# Cargo.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Test artifacts
+*.profraw
+*.profdata

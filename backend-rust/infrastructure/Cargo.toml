@@ -1,0 +1,34 @@
+[package]
+name = "infrastructure"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+# Workspace members
+models = { workspace = true }
+
+# Serialization
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+# Logging
+tracing = { workspace = true }
+
+# Error handling
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+
+# File I/O
+ndarray-npy = { workspace = true }
+zip = { workspace = true }
+
+# Numerical computing
+ndarray = { workspace = true }
+
+# Async
+tokio = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }

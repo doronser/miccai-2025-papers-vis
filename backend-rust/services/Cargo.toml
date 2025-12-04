@@ -1,0 +1,40 @@
+[package]
+name = "services"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+# Workspace members
+models = { workspace = true }
+infrastructure = { workspace = true }
+
+# Serialization
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+# Logging
+tracing = { workspace = true }
+
+# Error handling
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+
+# Numerical computing and ML
+ndarray = { workspace = true }
+ndarray-stats = { workspace = true }
+linfa = { workspace = true }
+linfa-clustering = { workspace = true }
+linfa-reduction = { workspace = true }
+noisy_float = { workspace = true }
+
+# Async
+async-trait = { workspace = true }
+tokio = { workspace = true }
+
+# Caching
+dashmap = { workspace = true }
+
+[dev-dependencies]
+proptest = { workspace = true }
