@@ -5,10 +5,20 @@
 
 use actix_web::{test, web, App};
 use api::{routes, AppState};
+use infrastructure::Config;
+use services::DataLoader;
+use std::sync::Arc;
+
+/// Helper function to create a test AppState
+fn create_test_app_state() -> AppState {
+    let config = Config::from_env();
+    let data_loader = Arc::new(DataLoader::new(config));
+    AppState::new(data_loader)
+}
 
 #[actix_web::test]
 async fn test_root_endpoint_returns_message() {
-    let app_state = web::Data::new(AppState::new());
+    let app_state = web::Data::new(create_test_app_state());
     let app = test::init_service(
         App::new()
             .app_data(app_state.clone())
@@ -28,7 +38,7 @@ async fn test_root_endpoint_returns_message() {
 
 #[actix_web::test]
 async fn test_health_endpoint_returns_healthy() {
-    let app_state = web::Data::new(AppState::new());
+    let app_state = web::Data::new(create_test_app_state());
     let app = test::init_service(
         App::new()
             .app_data(app_state.clone())
@@ -48,7 +58,7 @@ async fn test_health_endpoint_returns_healthy() {
 
 #[actix_web::test]
 async fn test_404_for_nonexistent_endpoint() {
-    let app_state = web::Data::new(AppState::new());
+    let app_state = web::Data::new(create_test_app_state());
     let app = test::init_service(
         App::new()
             .app_data(app_state.clone())
@@ -68,7 +78,7 @@ async fn test_404_for_nonexistent_endpoint() {
 #[actix_web::test]
 async fn test_app_state_is_accessible() {
     // Verify that app state can be created and cloned
-    let state = AppState::new();
+    let state = create_test_app_state();
     let _cloned = state.clone();
     // This test verifies that the state structure is working correctly
 }

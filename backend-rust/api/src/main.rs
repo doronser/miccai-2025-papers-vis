@@ -28,6 +28,9 @@
 use actix_cors::Cors;
 use actix_web::{middleware::Logger, web, App, HttpServer};
 use api::{routes, AppState};
+use infrastructure::Config;
+use services::DataLoader;
+use std::sync::Arc;
 use tracing::info;
 
 #[actix_web::main]
@@ -61,9 +64,20 @@ async fn main() -> std::io::Result<()> {
 
     info!("Server will bind to {}", bind_addr);
 
-    // Initialize application state
-    // Services will be added in Task 5
-    let app_state = web::Data::new(AppState::new());
+    // Load configuration
+    let config = Config::from_env();
+    info!(
+        "Configuration loaded - papers_dir: {}, embeddings_dir: {}",
+        config.papers_dir.display(),
+        config.embeddings_dir.display()
+    );
+
+    // Initialize DataLoader service
+    let data_loader = Arc::new(DataLoader::new(config));
+    info!("DataLoader service initialized");
+
+    // Initialize application state with services
+    let app_state = web::Data::new(AppState::new(data_loader));
     info!("Application state initialized");
 
     // Start HTTP server
