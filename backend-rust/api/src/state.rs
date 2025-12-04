@@ -21,58 +21,68 @@
 //!
 //! async fn handler(state: web::Data<AppState>) -> HttpResponse {
 //!     // Access services through the state
-//!     // Services will be added in Task 5
-//!     HttpResponse::Ok().json(serde_json::json!({"status": "ok"}))
+//!     let papers = state.data_loader.get_all_papers();
+//!     HttpResponse::Ok().json(papers)
 //! }
 //! ```
+
+use services::DataLoader;
+use std::sync::Arc;
 
 /// Application state shared across all request handlers
 ///
 /// This struct contains all services and shared resources needed by the API.
 /// It is wrapped in `web::Data` (Arc) by Actix-web and cloned for each request.
 ///
-/// # Future Services (Task 5+)
-/// - `data_loader: Arc<DataLoaderService>` - Loads papers and embeddings
-/// - `similarity_service: Arc<SimilarityService>` - Computes paper similarity
-/// - `tsne_service: Arc<TsneService>` - Computes t-SNE coordinates
-/// - `clustering_service: Arc<ClusteringService>` - Performs clustering
+/// # Services
+/// - `data_loader` - Loads papers and embeddings from disk with in-memory caching
+///
+/// # Future Services
+/// - `similarity_service` - Computes paper similarity
+/// - `tsne_service` - Computes t-SNE coordinates
+/// - `clustering_service` - Performs clustering
 #[derive(Clone)]
 pub struct AppState {
-    // Placeholder for future services
-    // Services will be added as they are implemented in subsequent tasks
-    _marker: std::marker::PhantomData<()>,
+    /// Data loader service for papers and embeddings
+    pub data_loader: Arc<DataLoader>,
 }
 
 impl AppState {
-    /// Create a new application state
+    /// Create a new application state with the given DataLoader
     ///
-    /// This will be expanded in Task 5 to initialize all services.
-    pub fn new() -> Self {
+    /// # Arguments
+    /// * `data_loader` - The DataLoader service to use
+    ///
+    /// # Example
+    /// ```ignore
+    /// use infrastructure::Config;
+    /// use services::DataLoader;
+    /// use api::state::AppState;
+    /// use std::sync::Arc;
+    ///
+    /// let config = Config::from_env();
+    /// let data_loader = Arc::new(DataLoader::new(config));
+    /// let state = AppState::new(data_loader);
+    /// ```
+    pub fn new(data_loader: Arc<DataLoader>) -> Self {
         Self {
-            _marker: std::marker::PhantomData,
+            data_loader,
         }
-    }
-}
-
-impl Default for AppState {
-    fn default() -> Self {
-        Self::new()
     }
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+    use infrastructure::Config;
+    use services::DataLoader;
 
     #[test]
     fn test_app_state_creation() {
-        let state = AppState::new();
+        let config = Config::from_env();
+        let data_loader = Arc::new(DataLoader::new(config));
+        let state = AppState::new(data_loader);
         // State should be clonable (required for Actix-web)
         let _cloned = state.clone();
-    }
-
-    #[test]
-    fn test_app_state_default() {
-        let _state = AppState::default();
     }
 }
