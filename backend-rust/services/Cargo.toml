@@ -12,8 +12,10 @@ anyhow = { workspace = true }
 thiserror = { workspace = true }
 log = { workspace = true }
 
+# Array processing for embeddings
+ndarray = { workspace = true }
+
 # Dependencies for future implementation
-# ndarray = { workspace = true }
 # ndarray-stats = { workspace = true }
 # linfa = { workspace = true }
 # linfa-reduction = { workspace = true }
