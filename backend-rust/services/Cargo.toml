@@ -1,0 +1,19 @@
+[package]
+name = "services"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+models = { path = "../models" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+log = { workspace = true }
+
+# Dependencies for future implementation
+# infrastructure = { path = "../infrastructure" }
+# ndarray = { workspace = true }
+# ndarray-stats = { workspace = true }
+# linfa = { workspace = true }
+# linfa-reduction = { workspace = true }
+# linfa-clustering = { workspace = true }
