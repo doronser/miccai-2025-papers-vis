@@ -113,6 +113,7 @@ impl Default for Config {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use serial_test::serial;
     use std::env;
 
     #[test]
@@ -130,6 +131,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_from_env_defaults() {
         // Clear all relevant env vars to test defaults
         env::remove_var("PAPERS_DIR");
@@ -152,6 +154,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_from_env_overrides() {
         env::set_var("PAPERS_DIR", "/custom/papers");
         env::set_var("EMBEDDINGS_DIR", "/custom/embeddings");
@@ -181,6 +184,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_cors_origins_parsing() {
         env::set_var("CORS_ALLOWED_ORIGINS", "http://localhost:3000, http://localhost:5173 ,http://example.com");
 
@@ -194,6 +198,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_cors_origins_empty_handling() {
         env::set_var("CORS_ALLOWED_ORIGINS", "http://example.com,,http://test.com, ");
 
@@ -206,6 +211,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_invalid_port_falls_back_to_default() {
         env::set_var("SERVER_PORT", "invalid_port");
 
@@ -216,6 +222,7 @@ mod tests {
     }
 
     #[test]
+    #[serial]
     fn test_bind_address() {
         let config = Config::default();
         assert_eq!(config.bind_address(), "0.0.0.0:8000");
