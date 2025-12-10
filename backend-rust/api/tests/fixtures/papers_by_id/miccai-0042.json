@@ -1,0 +1,44 @@
+{
+  "id": "miccai-0042",
+  "title": "MOC: Meta-Optimized Classifier for Few-Shot Whole Slide Image Classification",
+  "abstract": "Recent advances in histopathology vision-language foundation models (VLFMs) have shown promise in addressing data scarcity for whole slide image (WSI) classification via zero-shot adaptation. However, these methods remain outperformed by conventional multiple instance learning (MIL) approaches trained on large datasets, motivating recent efforts to enhance VLFM-based WSI classification through few-shot learning paradigms. While existing few-shot methods improve diagnostic accuracy with limited annotations, their reliance on conventional classifier designs introduces critical vulnerabilities to data scarcity. To address this problem, we propose a Meta-Optimized Classifier (MOC) comprising two core components: (1) a meta-learner that automatically optimizes a classifier configuration from a mixture of candidate classifiers and (2) a classifier bank housing diverse candidate classifiers to enable a holistic pathological interpretation. Extensive experiments demonstrate that MOC outperforms prior arts in multiple few-shot benchmarks. Notably, on the TCGA-NSCLC benchmark, MOC improves AUC by 10.4% over the state-of-the-art few-shot VLFM-based methods, with gains up to 26.25% under 1-shot conditions, offering a critical advancement for clinical deployments where diagnostic training data is severely limited. Code is available at https://github.com/xmed-lab/MOC.",
+  "authors": [
+    {
+      "name": "Xiang, Tianqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Yi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhang, Qixiang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Lung",
+    "Body -> other",
+    "Modalities -> Microscopy",
+    "Applications -> Computational (Integrative) Pathology",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Semi- / Weakly- / Self-supervised Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0042_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

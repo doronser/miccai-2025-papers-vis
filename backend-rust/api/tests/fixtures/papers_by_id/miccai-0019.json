@@ -1,0 +1,69 @@
+{
+  "id": "miccai-0019",
+  "title": "Conservative-Radical Complementary Learning for Class-incremental Medical Image Analysis with Pre-trained Foundation Models",
+  "abstract": "Class-incremental learning (CIL) in medical image-guided diagnosis requires models to retain diagnostic expertise on historical disease classes while adapting to newly emerging categories—a critical challenge for scalable clinical deployment. While pretrained foundation models (PFMs) have revolutionized CIL in the general domain by enabling generalized feature transfer, their potential remains underexplored in medical imaging, where domain-specific adaptations are critical yet challenging due to anatomical complexity and data heterogeneity. To address this gap, we first benchmark recent PFM-based CIL methods in the medical domain and further propose Conservative-Radical Complementary Learning (CRCL), a novel framework inspired by the complementary learning systems in the human brain. CRCL integrates two specialized learners built upon PFMs: (i) a neocortex-like \\textbf{conservative learner}, which safeguards accumulated diagnostic knowledge through stability-oriented parameter updates, and (ii) a hippocampus-like \\textbf{radical learner}, which rapidly adapts to new classes via dynamic and task-specific plasticity-oriented optimization. Specifically, dual-learner feature and cross-classification alignment mechanisms harmonize their complementary strengths, reconciling inter-task decision boundaries to mitigate catastrophic forgetting. To ensure long-term knowledge retention while enabling adaptation, a consolidation process progressively transfers learned representations from the radical to the conservative learner. During task-agnostic inference, CRCL integrates outputs from both learners for robust final predictions. Comprehensive experiments on four medical imaging datasets show CRCL’s superiority over state-of-the-art methods.",
+  "authors": [
+    {
+      "name": "Wu, Xinyao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Xu, Zhe",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lu, Donghuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Sun, Jinghan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Hong",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shakil, Sadia",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Ma, Jiawei",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zheng, Yefeng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Tong, Raymond Kai-yu",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Skin",
+    "Modalities -> Microscopy",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models",
+    "Machine Learning -> Other"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0019_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}
