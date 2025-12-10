@@ -1,0 +1,46 @@
+# Root workspace that includes the backend-rust workspace
+# The main workspace definition is in backend-rust/Cargo.toml
+# This file exists to allow running cargo commands from the repository root
+
+[workspace]
+members = [
+    "backend-rust/models",
+    "backend-rust/services",
+    "backend-rust/infrastructure",
+    "backend-rust/api",
+]
+resolver = "2"
+
+[workspace.dependencies]
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Web framework
+actix-web = "4.5"
+actix-cors = "0.7"
+
+# Async runtime
+tokio = { version = "1.37", features = ["full"] }
+
+# Numerical computing
+ndarray = "0.15"
+ndarray-stats = "0.5"
+ndarray-npy = "0.8"
+
+# Machine learning
+linfa = "0.7"
+linfa-reduction = "0.7"
+linfa-clustering = "0.7"
+
+# Utilities
+zip = "0.6"
+dashmap = "5.5"
+
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Logging
+env_logger = "0.10"
+log = "0.4"

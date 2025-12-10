@@ -1,0 +1,19 @@
+[package]
+name = "infrastructure"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+models = { path = "../models" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+
+# Dependencies for future implementation
+# ndarray = { workspace = true }
+# ndarray-npy = { workspace = true }
+# zip = { workspace = true }
+# dashmap = { workspace = true }
+# tokio = { workspace = true }
