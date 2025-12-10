@@ -15,8 +15,18 @@ log = { workspace = true }
 # Array processing for embeddings
 ndarray = { workspace = true }
 
+# Concurrent caching
+dashmap = { workspace = true }
+
 # Dependencies for future implementation
 # ndarray-stats = { workspace = true }
 # linfa = { workspace = true }
 # linfa-reduction = { workspace = true }
 # linfa-clustering = { workspace = true }
+
+[dev-dependencies]
+criterion = { version = "0.3", features = ["html_reports"] }
+
+[[bench]]
+name = "data_loader_benchmarks"
+harness = false

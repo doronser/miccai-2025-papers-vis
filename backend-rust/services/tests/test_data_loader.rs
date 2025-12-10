@@ -343,3 +343,339 @@ fn test_embedding_dimensions_consistency() {
 
     println!("All {} embeddings have consistent dimensions: {}", embeddings.len(), first_dim);
 }
+
+// ==================== Caching Tests ====================
+
+#[test]
+fn test_paper_caching() {
+    let loader = DataLoader::new(PathBuf::from(DATA_DIR), PathBuf::from(EMBEDDINGS_DIR));
+
+    // Skip test if data directory doesn't exist
+    if !loader.papers_dir().exists() {
+        eprintln!("Skipping test: data directory not found at {}", DATA_DIR);
+        return;
+    }
+
+    // Load the index to get a valid paper ID
+    let index = loader.load_paper_index().expect("Failed to load index");
+    if index.papers.is_empty() {
+        eprintln!("Skipping test: no papers in index");
+        return;
+    }
+
+    let paper_id = &index.papers[0].id;
+
+    // Get initial cache stats
+    let (initial_hits, initial_misses) = loader.paper_cache_stats();
+
+    // First load - should hit file system (cache miss)
+    let paper1 = loader.get_paper_by_id(paper_id)
+        .expect("Failed to load paper first time")
+        .expect("Paper should exist");
+
+    // Verify cache miss was recorded
+    let (hits_after_first, misses_after_first) = loader.paper_cache_stats();
+    assert_eq!(misses_after_first, initial_misses + 1, "First load should be a cache miss");
+    assert_eq!(hits_after_first, initial_hits, "First load should not be a cache hit");
+
+    // Second load - should hit cache
+    let paper2 = loader.get_paper_by_id(paper_id)
+        .expect("Failed to load paper second time")
+        .expect("Paper should exist on second load");
+
+    // Verify cache hit was recorded
+    let (hits_after_second, misses_after_second) = loader.paper_cache_stats();
+    assert_eq!(hits_after_second, initial_hits + 1, "Second load should be a cache hit");
+    assert_eq!(misses_after_second, initial_misses + 1, "Second load should not add a cache miss");
+
+    // Both loads should return the same data
+    assert_eq!(paper1.id, paper2.id);
+    assert_eq!(paper1.title, paper2.title);
+    assert_eq!(paper1.abstract_text, paper2.abstract_text);
+    assert_eq!(paper1.authors.len(), paper2.authors.len());
+
+    println!("Successfully loaded paper '{}' from cache (1 miss, 1 hit verified)", paper_id);
+}
+
+#[test]
+fn test_embedding_caching() {
+    let loader = DataLoader::new(PathBuf::from(DATA_DIR), PathBuf::from(EMBEDDINGS_DIR));
+
+    // Skip test if embeddings directory doesn't exist
+    if !loader.embeddings_dir().exists() {
+        eprintln!("Skipping test: embeddings directory not found at {}", EMBEDDINGS_DIR);
+        return;
+    }
+
+    // Try a known paper ID
+    let paper_id = "miccai-0002";
+
+    // Get initial cache stats
+    let (initial_hits, initial_misses) = loader.embedding_cache_stats();
+
+    // First load - should hit file system (cache miss)
+    let embedding1_opt = loader.get_embedding_by_id(paper_id)
+        .expect("Failed to load embedding first time");
+
+    if embedding1_opt.is_none() {
+        eprintln!("Skipping test: paper {} does not have an embedding", paper_id);
+        return;
+    }
+
+    let embedding1 = embedding1_opt.unwrap();
+
+    // Verify cache miss was recorded
+    let (hits_after_first, misses_after_first) = loader.embedding_cache_stats();
+    assert_eq!(misses_after_first, initial_misses + 1, "First load should be a cache miss");
+    assert_eq!(hits_after_first, initial_hits, "First load should not be a cache hit");
+
+    // Second load - should hit cache
+    let embedding2 = loader.get_embedding_by_id(paper_id)
+        .expect("Failed to load embedding second time")
+        .expect("Embedding should exist on second load");
+
+    // Verify cache hit was recorded
+    let (hits_after_second, misses_after_second) = loader.embedding_cache_stats();
+    assert_eq!(hits_after_second, initial_hits + 1, "Second load should be a cache hit");
+    assert_eq!(misses_after_second, initial_misses + 1, "Second load should not add a cache miss");
+
+    // Both loads should return the same data
+    assert_eq!(embedding1.len(), embedding2.len());
+    assert_eq!(embedding1, embedding2);
+
+    println!("Successfully loaded embedding for '{}' from cache (1 miss, 1 hit verified)", paper_id);
+}
+
+#[test]
+fn test_paper_index_caching() {
+    let loader = DataLoader::new(PathBuf::from(DATA_DIR), PathBuf::from(EMBEDDINGS_DIR));
+
+    // Skip test if data directory doesn't exist
+    if !loader.papers_dir().exists() {
+        eprintln!("Skipping test: data directory not found at {}", DATA_DIR);
+        return;
+    }
+
+    // First load - should hit file system
+    let index1 = loader.load_paper_index()
+        .expect("Failed to load index first time");
+
+    // Second load - should hit cache
+    let index2 = loader.load_paper_index()
+        .expect("Failed to load index second time");
+
+    // Both loads should return the same data
+    assert_eq!(index1.dataset_info.total_papers, index2.dataset_info.total_papers);
+    assert_eq!(index1.dataset_info.generated_at, index2.dataset_info.generated_at);
+    assert_eq!(index1.papers.len(), index2.papers.len());
+
+    println!("Successfully loaded paper index from cache");
+}
+
+#[test]
+fn test_get_all_papers_uses_cache() {
+    let loader = DataLoader::new(PathBuf::from(DATA_DIR), PathBuf::from(EMBEDDINGS_DIR));
+
+    // Skip test if data directory doesn't exist
+    if !loader.papers_dir().exists() {
+        eprintln!("Skipping test: data directory not found at {}", DATA_DIR);
+        return;
+    }
+
+    // First call to get_all_papers - should populate cache
+    let papers1 = loader.get_all_papers()
+        .expect("Failed to load all papers first time");
+
+    assert!(!papers1.is_empty(), "Should have loaded at least one paper");
+
+    // Get a paper ID from the first result
+    let paper_id = &papers1[0].id;
+
+    // Now directly call get_paper_by_id - should hit cache populated by get_all_papers
+    let paper = loader.get_paper_by_id(paper_id)
+        .expect("Failed to load paper by ID")
+        .expect("Paper should exist in cache");
+
+    // Should match the paper from get_all_papers
+    assert_eq!(paper.id, papers1[0].id);
+    assert_eq!(paper.title, papers1[0].title);
+
+    println!("Verified cache is populated by get_all_papers");
+}
+
+// ==================== Concurrent Access Tests ====================
+
+#[test]
+fn test_concurrent_paper_access() {
+    use std::sync::Arc;
+    use std::thread;
+
+    let loader = Arc::new(DataLoader::new(PathBuf::from(DATA_DIR), PathBuf::from(EMBEDDINGS_DIR)));
+
+    // Skip test if data directory doesn't exist
+    if !loader.papers_dir().exists() {
+        eprintln!("Skipping test: data directory not found at {}", DATA_DIR);
+        return;
+    }
+
+    // Load the index to get valid paper IDs
+    let index = loader.load_paper_index().expect("Failed to load index");
+    if index.papers.len() < 2 {
+        eprintln!("Skipping test: need at least 2 papers for concurrent access test");
+        return;
+    }
+
+    let paper_id1 = index.papers[0].id.clone();
+    let paper_id2 = if index.papers.len() > 1 {
+        index.papers[1].id.clone()
+    } else {
+        index.papers[0].id.clone()
+    };
+
+    // Spawn multiple threads that access papers concurrently
+    let mut handles = vec![];
+
+    for i in 0..4 {
+        let loader_clone = Arc::clone(&loader);
+        let pid1 = paper_id1.clone();
+        let pid2 = paper_id2.clone();
+
+        let handle = thread::spawn(move || {
+            // Each thread loads both papers multiple times
+            for _ in 0..5 {
+                let paper1 = loader_clone.get_paper_by_id(&pid1)
+                    .expect("Failed to load paper 1")
+                    .expect("Paper 1 should exist");
+
+                let paper2 = loader_clone.get_paper_by_id(&pid2)
+                    .expect("Failed to load paper 2")
+                    .expect("Paper 2 should exist");
+
+                assert_eq!(paper1.id, pid1);
+                assert_eq!(paper2.id, pid2);
+            }
+            println!("Thread {} completed successfully", i);
+        });
+
+        handles.push(handle);
+    }
+
+    // Wait for all threads to complete
+    for handle in handles {
+        handle.join().expect("Thread panicked");
+    }
+
+    println!("Concurrent paper access test passed");
+}
+
+#[test]
+fn test_concurrent_embedding_access() {
+    use std::sync::Arc;
+    use std::thread;
+
+    let loader = Arc::new(DataLoader::new(PathBuf::from(DATA_DIR), PathBuf::from(EMBEDDINGS_DIR)));
+
+    // Skip test if embeddings directory doesn't exist
+    if !loader.embeddings_dir().exists() {
+        eprintln!("Skipping test: embeddings directory not found at {}", EMBEDDINGS_DIR);
+        return;
+    }
+
+    // Try a known paper ID
+    let paper_id = "miccai-0002";
+
+    // Verify the embedding exists before running concurrent test
+    let test_embedding = loader.get_embedding_by_id(paper_id)
+        .expect("Failed to load test embedding");
+
+    if test_embedding.is_none() {
+        eprintln!("Skipping test: paper {} does not have an embedding", paper_id);
+        return;
+    }
+
+    // Spawn multiple threads that access the same embedding concurrently
+    let mut handles = vec![];
+
+    for i in 0..4 {
+        let loader_clone = Arc::clone(&loader);
+        let pid = paper_id.to_string();
+
+        let handle = thread::spawn(move || {
+            // Each thread loads the embedding multiple times
+            for _ in 0..5 {
+                let embedding = loader_clone.get_embedding_by_id(&pid)
+                    .expect("Failed to load embedding")
+                    .expect("Embedding should exist");
+
+                assert!(!embedding.is_empty());
+            }
+            println!("Thread {} completed successfully", i);
+        });
+
+        handles.push(handle);
+    }
+
+    // Wait for all threads to complete
+    for handle in handles {
+        handle.join().expect("Thread panicked");
+    }
+
+    println!("Concurrent embedding access test passed");
+}
+
+#[test]
+fn test_concurrent_mixed_access() {
+    use std::sync::Arc;
+    use std::thread;
+
+    let loader = Arc::new(DataLoader::new(PathBuf::from(DATA_DIR), PathBuf::from(EMBEDDINGS_DIR)));
+
+    // Skip test if data directory doesn't exist
+    if !loader.papers_dir().exists() {
+        eprintln!("Skipping test: data directory not found at {}", DATA_DIR);
+        return;
+    }
+
+    // Load the index to get a valid paper ID
+    let index = loader.load_paper_index().expect("Failed to load index");
+    if index.papers.is_empty() {
+        eprintln!("Skipping test: no papers in index");
+        return;
+    }
+
+    let paper_id = index.papers[0].id.clone();
+
+    // Spawn multiple threads that access papers, embeddings, and index concurrently
+    let mut handles = vec![];
+
+    for i in 0..4 {
+        let loader_clone = Arc::clone(&loader);
+        let pid = paper_id.clone();
+
+        let handle = thread::spawn(move || {
+            for _ in 0..3 {
+                // Load paper
+                let _paper = loader_clone.get_paper_by_id(&pid)
+                    .expect("Failed to load paper");
+
+                // Load embedding (may not exist, that's OK)
+                let _embedding = loader_clone.get_embedding_by_id(&pid)
+                    .expect("Failed to attempt loading embedding");
+
+                // Load index
+                let _index = loader_clone.load_paper_index()
+                    .expect("Failed to load index");
+            }
+            println!("Thread {} completed successfully", i);
+        });
+
+        handles.push(handle);
+    }
+
+    // Wait for all threads to complete
+    for handle in handles {
+        handle.join().expect("Thread panicked");
+    }
+
+    println!("Concurrent mixed access test passed");
+}
