@@ -11,10 +11,12 @@ anyhow = { workspace = true }
 thiserror = { workspace = true }
 log = { workspace = true }
 
+# NPZ file reading dependencies
+ndarray = { workspace = true }
+ndarray-npy = { workspace = true }
+zip = { workspace = true }
+
 # Dependencies for future implementation
-# ndarray = { workspace = true }
-# ndarray-npy = { workspace = true }
-# zip = { workspace = true }
 # dashmap = { workspace = true }
 # tokio = { workspace = true }
 
