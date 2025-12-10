@@ -5,13 +5,14 @@ edition = "2021"
 
 [dependencies]
 models = { path = "../models" }
+infrastructure = { path = "../infrastructure" }
 serde = { workspace = true }
 serde_json = { workspace = true }
 anyhow = { workspace = true }
+thiserror = { workspace = true }
 log = { workspace = true }
 
 # Dependencies for future implementation
-# infrastructure = { path = "../infrastructure" }
 # ndarray = { workspace = true }
 # ndarray-stats = { workspace = true }
 # linfa = { workspace = true }
