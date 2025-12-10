@@ -1,0 +1,35 @@
+{
+  "id": "miccai-0005",
+  "title": "Restyled, Tuning, and Alignment: Taming VLMs for Federated Non-IID Medical Image Analysis",
+  "abstract": "Adapting pretrained Vision Language Models like CLIP, for medical image analysis in federated learning (FL) offers cross-modal insights while preserving privacy. However, effective cross-domain federated adaptation requires intensive fine-tuning and knowledge sharing, challenging in low-resource medical practice due to the divergence between pretrained natural image and medical imagery. Moreover, the significant statistical heterogeneity (non-IID) of medical data exacerbates these challenges. To address these issues, this paper introduces a framework that tames CLIP for non-IID federated medical image classification. This develops client-specific personalized models by reinforcement and constrain local cross-modal alignment, enabling the models to integrate client-specific and globally common knowledge. This approach not only addresses non-IID challenges but also optimizes the trade-off between performance and efficiency. Extensive experiments on real-world medical image datasets confirm the effectiveness and superiority of our FedTCA.",
+  "authors": [
+    {
+      "name": "Chen, Shengchao",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Shu, Ting",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> Other",
+    "Modalities -> Photograph / Video",
+    "Applications -> Computer Aided Diagnosis",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Domain Adaptation / Harmonization",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0005_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

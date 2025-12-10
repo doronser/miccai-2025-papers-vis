@@ -1,0 +1,58 @@
+{
+  "id": "miccai-0035",
+  "title": "Geometric-Guided Few-Shot Dental Landmark Detection with Human-Centric Foundation Model",
+  "abstract": "Accurate detection of anatomic landmarks is essential for assessing alveolar bone and root conditions, thereby optimizing clinical outcomes in orthodontics, periodontics, and implant dentistry. Manual annotation of landmarks on cone-beam computed tomography (CBCT) by dentists is time-consuming, labor-intensive, and subject to inter-observer variability. Deep learning-based automated methods present a promising approach to streamline this process efficiently. However, the scarcity of training data and the high cost of expert annotations hinder the adoption of conventional deep learning techniques. To overcome these challenges, we introduce GeoSapiens, a novel few-shot learning frame- work designed for robust dental landmark detection using limited annotated CBCT of anterior teeth. Our GeoSapiens framework comprises two key components: (1) a robust baseline adapted from Sapiens, a foundational model that has achieved state-of-the-art performance in human-centric vision tasks, and (2) a novel geometric loss function that improves the model’s capacity to capture critical geometric relationships among anatomical structures. Experiments conducted on our collected dataset of anterior teeth landmarks revealed that GeoSapiens surpassed existing landmark detection methods, outperforming the leading approach by an 8.18% higher success detection rate at a strict 0.5 mm threshold-a standard widely recognized in dental diagnostics. Code is available at: https://github.com/xmed-lab/GeoSapiens.",
+  "authors": [
+    {
+      "name": "Wang, Anbang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Elbatel, Marawan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Liu, Keyuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Lizhuo",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lan, Meng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yanqi",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Xiaomeng",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> other",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Other",
+    "Machine Learning -> Deep Learning",
+    "Machine Learning -> Foundation Models"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0035_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}

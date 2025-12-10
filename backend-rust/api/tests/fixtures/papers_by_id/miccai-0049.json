@@ -1,0 +1,78 @@
+{
+  "id": "miccai-0049",
+  "title": "Learning Segmentation from Radiology Reports",
+  "abstract": "Tumor segmentation in CT scans is key for diagnosis, surgery, and prognosis, yet segmentation masks are scarce because their creation requires time and expertise. Public abdominal CT datasets have from dozens to a couple thousand tumor masks, but hospitals have hundreds of thousands of tumor CTs with radiology reports. Thus, leveraging reports to improve segmentation is key for scaling. In this paper, we propose a report-supervision loss (R-Super) that converts radiology reports into voxel-wise supervision for tumor segmentation AI. We created a dataset with 6,718 CT-Report pairs (from the UCSF Hospital), and merged it with public CT-Mask datasets (from AbdomenAtlas 2.0). We used our R-Super to train with these masks and reports, and strongly improved tumor segmentation in internal and external validation—F1 Score increased by up to 16% with respect to training with masks only. By leveraging readily available radiology reports to supplement scarce segmentation masks, R-Super strongly improves AI performance both when very few training masks are available (e.g., 50), and when many masks were available (e.g., 1.7K). Project: https://github.com/MrGiovanni/R-Super",
+  "authors": [
+    {
+      "name": "Bassi, Pedro R. A. S.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Li, Wenxuan",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Chen, Jieneng",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhu, Zheren",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Lin, Tianyu",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Decherchi, Sergio",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Cavalli, Andrea",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Wang, Kang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yang, Yang",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Yuille, Alan L.",
+      "affiliation": null,
+      "email": null
+    },
+    {
+      "name": "Zhou, Zongwei",
+      "affiliation": null,
+      "email": null
+    }
+  ],
+  "subject_areas": [
+    "Body -> Abdomen",
+    "Modalities -> CT / X-Ray",
+    "Applications -> Image Segmentation",
+    "Applications -> Integration of Imaging with Non-Imaging Biomarkers",
+    "Machine Learning -> Deep Learning"
+  ],
+  "external_links": [
+    {
+      "type": "pdf",
+      "url": "https://papers.miccai.org/miccai-2025/paper/0049_paper.pdf",
+      "description": "Full paper PDF"
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "raw_data_source": "{}"
+}
