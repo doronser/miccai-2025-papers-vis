@@ -60,6 +60,7 @@ async fn main() -> std::io::Result<()> {
             .app_data(web::Data::from(data_loader.clone()))
             .route("/", web::get().to(root))
             .route("/health", web::get().to(health))
+            .configure(miccai_2025_papers_vis::api::papers::configure)
     })
     .bind((bind_host.as_str(), bind_port))?
     .run()
