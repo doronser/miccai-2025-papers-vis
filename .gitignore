@@ -16,3 +16,11 @@ Thumbs.db
 # Environment files
 .env
 .env.local
+
+# Test data files - these are large data files used for testing
+# They should be obtained from the source repository or downloaded separately
+# We keep the directory structure but ignore the actual data files
+backend/src/data/papers_by_id/*.json
+backend/src/data/embeddings_by_id/*.npz
+!backend/src/data/papers_by_id/.gitkeep
+!backend/src/data/embeddings_by_id/.gitkeep
