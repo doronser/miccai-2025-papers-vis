@@ -16,6 +16,12 @@ parking_lot = "0.12"
 zip = "0.5"
 anyhow = "1.0"
 nom = "7.0"
+actix-web = { version = "=4.5.1", default-features = false, features = ["macros"] }
+actix-cors = "0.6"
+actix-rt = "2.9"
+# Constrain dependencies to avoid newer versions with higher MSRV
+url = "=2.5.2"
+actix-http = "=3.6.0"
 
 [lib]
 name = "miccai_2025_papers_vis"
