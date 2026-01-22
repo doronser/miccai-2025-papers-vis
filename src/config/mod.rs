@@ -104,24 +104,20 @@ impl AppConfig {
         // Load .env file if present (primarily for development)
         dotenvy::dotenv().ok();
 
-        // Build configuration from multiple sources
-        let builder = config::Config::builder()
-            // Optional config file (doesn't error if missing)
-            .add_source(config::File::with_name("config/default").required(false))
-            // Environment variables with APP_ prefix, using __ as separator for nested keys
-            .add_source(
-                config::Environment::with_prefix("APP")
-                    .separator("__")
-                    .try_parsing(true),
-            );
+        // Build configuration from multiple sources (config 0.11 API)
+        let mut cfg = config::Config::default();
 
-        let cfg = builder
-            .build()
+        // Optional config file (doesn't error if missing)
+        cfg.merge(config::File::with_name("config/default").required(false))
+            .map_err(|e| ConfigError::LoadError(e.to_string()))?;
+
+        // Environment variables with APP_ prefix, using __ as separator for nested keys
+        cfg.merge(config::Environment::with_prefix("APP").separator("__"))
             .map_err(|e| ConfigError::LoadError(e.to_string()))?;
 
         let config: AppConfig = cfg
-            .try_deserialize()
-            .map_err(|e| ConfigError::LoadError(e.to_string()))?;
+            .try_into()
+            .map_err(|e| ConfigError::LoadError(format!("{}", e)))?;
 
         // Validate configuration
         config.validate()?;
