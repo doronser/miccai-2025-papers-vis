@@ -3,11 +3,9 @@ use std::fs;
 
 #[test]
 fn test_deserialize_real_paper_file() {
-    // Read the sample JSON file from the source repository
-    let json_str = fs::read_to_string(
-        "/l2l/src/miccai-2025-papers-vis/backend/src/data/papers_by_id/miccai-1274.json",
-    )
-    .expect("Failed to read sample JSON file");
+    // Read the sample JSON file from the backend data directory
+    let json_str = fs::read_to_string("backend/src/data/papers_by_id/miccai-1274.json")
+        .expect("Failed to read sample JSON file");
 
     // Deserialize
     let paper: Paper =
@@ -34,11 +32,9 @@ fn test_deserialize_real_paper_file() {
 
 #[test]
 fn test_round_trip_serialization() {
-    // Read the sample JSON file
-    let json_str = fs::read_to_string(
-        "/l2l/src/miccai-2025-papers-vis/backend/src/data/papers_by_id/miccai-1274.json",
-    )
-    .expect("Failed to read sample JSON file");
+    // Read the sample JSON file from the backend data directory
+    let json_str = fs::read_to_string("backend/src/data/papers_by_id/miccai-1274.json")
+        .expect("Failed to read sample JSON file");
 
     // Deserialize
     let paper: Paper =

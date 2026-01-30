@@ -1,29 +1,59 @@
-# Test Data Directory
+# MICCAI 2025 Papers Data
 
-This directory contains the test data files used by the DataLoader tests.
+This directory contains scraped and processed MICCAI 2025 papers data for the visualization webapp.
 
-## Structure
+## Data Overview
 
-- `papers_by_id/` - Directory containing individual paper JSON files
-  - `index.json` - Index file listing all papers (not tracked in git due to size)
-  - `miccai-*.json` - Individual paper metadata files (not tracked in git due to size)
-- `embeddings_by_id/` - Directory containing paper embedding NPZ files
-  - `miccai-*_embedding.npz` - Embedding files for papers (not tracked in git due to size)
+- **Total Papers**: 1,008 papers (99.3% coverage of MICCAI 2025)
+- **Data Format**: JSON files with NPZ embeddings
+- **Storage**: ~2MB per paper, ~2.8KB per embedding
+- **Quality**: 100% PDF availability, validated metadata
 
-## Getting the Data
+## Data Files
 
-The data files are not committed to this repository due to their size (2000+ files, ~100MB+).
+- `papers_by_id/` - Individual paper JSON files (1,008 files)
+- `embeddings_by_id/` - Semantic embeddings for each paper (1,008 NPZ files)
+- `embeddings_by_id__simple/` - Simplified embeddings (backup/alternative)
+- `cache/` - Cached network data and t-SNE coordinates
+- `dataset_stats.json` - Comprehensive dataset statistics
 
-To run the tests, you need to obtain the data files from one of these sources:
+## Data Structure
 
-1. **From the original Python repository**: Copy the `backend/src/data/` directory from the source repository at `/l2l/src/miccai-2025-papers-vis/backend/src/data/`
+Each paper contains:
+- **Basic info**: title, abstract, authors, publication date
+- **Topics**: Detailed subject areas (e.g., "Brain", "MRI", "Machine Learning")
+- **Links**: PDF URLs and external resources
+- **Embeddings**: 384-dimensional vectors for similarity search
 
-2. **For CI/Testing**: Tests will be skipped if data files are not present, or data should be downloaded/mounted during CI runs.
+## Features
 
-## Data Files Excluded from Git
+- **Parallel scraping** with rate limiting
+- **Detailed topic extraction** from individual paper pages
+- **Real abstracts** extracted from paper pages
+- **Semantic embeddings** using sentence-transformers/all-MiniLM-L6-v2
+- **Automatic backups** before data updates
+- **Cached computations** for performance optimization
 
-The following patterns are excluded via `.gitignore`:
-- `backend/src/data/papers_by_id/*.json` - All paper JSON files
-- `backend/src/data/embeddings_by_id/*.npz` - All embedding NPZ files
+## Usage
 
-Only the directory structure (`.gitkeep` files) and this README are tracked.
+The data is automatically loaded by the backend API. No manual intervention required for normal operation.
+
+### For Development/Research
+
+If you need to regenerate the data:
+
+```bash
+# Scrape papers (run once)
+python -m src.lib.miccai_parallel_scraper --max-workers 8
+
+# Generate embeddings (run once)
+python -m src.lib.scibert_embeddings
+```
+
+### Data Statistics
+
+See `dataset_stats.json` for detailed metrics including:
+- Author distribution
+- Content length statistics
+- Subject area distribution
+- PDF availability rates
