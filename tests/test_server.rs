@@ -7,9 +7,7 @@ use std::sync::Arc;
 /// Root endpoint returning API information
 async fn root() -> impl actix_web::Responder {
     HttpResponse::Ok().json(serde_json::json!({
-        "title": "MICCAI 2025 Papers Visualization API",
-        "description": "API for exploring MICCAI 2025 conference papers through interactive graph visualization",
-        "version": "1.0.0"
+        "message": "MICCAI 2025 Papers Visualization API"
     }))
 }
 
@@ -51,13 +49,8 @@ async fn test_root_endpoint() {
     let body = test::read_body(resp).await;
     let json: serde_json::Value = serde_json::from_slice(&body).expect("Failed to parse JSON");
 
-    // Verify response content
-    assert_eq!(json["title"], "MICCAI 2025 Papers Visualization API");
-    assert_eq!(
-        json["description"],
-        "API for exploring MICCAI 2025 conference papers through interactive graph visualization"
-    );
-    assert_eq!(json["version"], "1.0.0");
+    // Verify response content - matches Python API
+    assert_eq!(json["message"], "MICCAI 2025 Papers Visualization API");
 }
 
 #[actix_web::test]
