@@ -206,6 +206,13 @@ mod tests {
     }
 
     #[test]
+    fn test_parse_shape_invalid_format() {
+        // Missing parentheses
+        assert!(parse_shape("768").is_err());
+        assert!(parse_shape("[768]").is_err());
+    }
+
+    #[test]
     fn test_parse_header() {
         let header = "{'descr': '<f4', 'fortran_order': False, 'shape': (768,), }";
         let result = parse_header(header).unwrap();
@@ -213,5 +220,143 @@ mod tests {
         assert_eq!(result.get("descr"), Some(&"<f4".to_string()));
         assert_eq!(result.get("fortran_order"), Some(&"False".to_string()));
         assert_eq!(result.get("shape"), Some(&"(768,)".to_string()));
+    }
+
+    #[test]
+    fn test_parse_header_with_different_dtypes() {
+        // Test with different byte orders
+        let header_le = "{'descr': '<f4', 'fortran_order': False, 'shape': (100,), }";
+        let result_le = parse_header(header_le).unwrap();
+        assert_eq!(result_le.get("descr"), Some(&"<f4".to_string()));
+
+        let header_eq = "{'descr': '=f4', 'fortran_order': False, 'shape': (100,), }";
+        let result_eq = parse_header(header_eq).unwrap();
+        assert_eq!(result_eq.get("descr"), Some(&"=f4".to_string()));
+    }
+
+    #[test]
+    fn test_split_by_comma() {
+        // Simple case
+        let parts = split_by_comma("a, b, c");
+        assert_eq!(parts, vec!["a", " b", " c"]);
+
+        // With nested parentheses
+        let parts = split_by_comma("'shape': (768,), 'descr': '<f4'");
+        assert_eq!(parts.len(), 2);
+    }
+
+    #[test]
+    fn test_parse_npy_invalid_magic() {
+        // Data with invalid magic number
+        let data = b"INVALID_DATA_HERE";
+        let result = parse_npy_f32(data);
+        assert!(result.is_err());
+    }
+
+    #[test]
+    fn test_parse_npy_too_short() {
+        // Data that's too short
+        let data = b"\x93NUMP";
+        let result = parse_npy_f32(data);
+        assert!(result.is_err());
+    }
+
+    #[test]
+    fn test_parse_npy_with_real_embedding_file() {
+        use std::fs::File;
+        use std::io::Read;
+
+        // Read a real embedding NPZ file and extract the NPY content
+        let npz_path = "backend/src/data/embeddings_by_id/miccai-0002_embedding.npz";
+
+        // Skip test if file doesn't exist
+        let Ok(file) = File::open(npz_path) else {
+            println!("Skipping test: embedding file not found");
+            return;
+        };
+
+        // NPZ files are ZIP archives
+        let Ok(mut archive) = zip::ZipArchive::new(file) else {
+            println!("Skipping test: failed to read NPZ archive");
+            return;
+        };
+
+        let Ok(mut npy_file) = archive.by_name("embedding.npy") else {
+            println!("Skipping test: embedding.npy not found in archive");
+            return;
+        };
+
+        let mut buffer = Vec::new();
+        npy_file
+            .read_to_end(&mut buffer)
+            .expect("Failed to read NPY data");
+
+        // Parse the NPY data
+        let embedding = parse_npy_f32(&buffer).expect("Failed to parse NPY data");
+
+        // Verify the embedding has expected properties
+        assert!(!embedding.is_empty(), "Embedding should not be empty");
+        assert_eq!(embedding.ndim(), 1, "Embedding should be 1D");
+
+        // SciBERT embeddings typically have 768 dimensions
+        assert_eq!(
+            embedding.len(),
+            768,
+            "SciBERT embedding should have 768 dimensions"
+        );
+
+        // Verify values are reasonable (not NaN, not Inf, within reasonable range)
+        for (i, &value) in embedding.iter().enumerate() {
+            assert!(!value.is_nan(), "Embedding value at index {} is NaN", i);
+            assert!(
+                !value.is_infinite(),
+                "Embedding value at index {} is infinite",
+                i
+            );
+            assert!(
+                value.abs() < 100.0,
+                "Embedding value at index {} is unexpectedly large: {}",
+                i,
+                value
+            );
+        }
+    }
+
+    #[test]
+    fn test_parse_npy_version_1() {
+        // Create a minimal valid NPY v1.0 file in memory
+        // Magic: \x93NUMPY
+        // Version: 1.0
+        // Header length: 2 bytes (little-endian)
+        // Header: {'descr': '<f4', 'fortran_order': False, 'shape': (2,), }
+        // Data: 2 float32 values
+
+        let header = b"{'descr': '<f4', 'fortran_order': False, 'shape': (2,), }";
+        // Pad header to multiple of 64 bytes (NPY requirement for alignment)
+        let padding_needed = 64 - ((10 + header.len()) % 64);
+        let padded_header_len = header.len() + padding_needed;
+
+        let mut data = Vec::new();
+        data.extend_from_slice(b"\x93NUMPY"); // Magic
+        data.push(1); // Major version
+        data.push(0); // Minor version
+        data.extend_from_slice(&(padded_header_len as u16).to_le_bytes()); // Header length
+
+        data.extend_from_slice(header);
+        // Add padding (spaces and newline at end)
+        for _ in 0..padding_needed - 1 {
+            data.push(b' ');
+        }
+        data.push(b'\n');
+
+        // Add two float32 values: 1.5 and 2.5
+        data.extend_from_slice(&1.5_f32.to_le_bytes());
+        data.extend_from_slice(&2.5_f32.to_le_bytes());
+
+        let result = parse_npy_f32(&data).expect("Failed to parse synthetic NPY data");
+
+        assert_eq!(result.len(), 2);
+        assert!((result[0] - 1.5).abs() < 1e-6);
+        assert!((result[1] - 2.5).abs() < 1e-6);
     }
 }
