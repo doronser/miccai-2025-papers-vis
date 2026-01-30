@@ -7,9 +7,7 @@ use std::sync::Arc;
 /// Root endpoint returning API information
 async fn root() -> impl Responder {
     HttpResponse::Ok().json(serde_json::json!({
-        "title": "MICCAI 2025 Papers Visualization API",
-        "description": "API for exploring MICCAI 2025 conference papers through interactive graph visualization",
-        "version": "1.0.0"
+        "message": "MICCAI 2025 Papers Visualization API"
     }))
 }
 
